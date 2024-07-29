@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="I4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>I4: Derivatives of Integral</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>I4</title>
+                <p>
+                    I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <subsection xml:id="I4-preclass">
+        <title>Pre-Class Videos</title>
+        
+    </subsection>
+
+    <subsection xml:id="I4-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>

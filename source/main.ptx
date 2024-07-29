@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./meta/docinfo.ptx" />
+
+  <book xml:id="occc-tbil-calc1">
+    <title>Notes for TBIL Calculus 1</title>
+    <subtitle>Fall 2024</subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./meta/frontmatter.ptx" />
+    <!-- Include chapters -->
+    <xi:include href="./review/main.ptx"/>
+    <xi:include href="./L/main.ptx" />
+    <xi:include href="./D/main.ptx" />
+    <xi:include href="./A/main.ptx" />
+    <xi:include href="./I/main.ptx" />
+
+    <!-- Include backmatter -->
+    <xi:include href="./meta/backmatter.ptx" />
+
+  </book>
+</pretext>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-review" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Review</title>
+
+  <introduction>
+    <p>
+      This module contains sections intended as review for material considered prerequisite for this course. Each section corresponds (mostly) to a section in Chapter 1 of our textbook.
+    </p>
+  </introduction>
+  
+    
+
+  <!-- include sections -->
+  <xi:include href="./functions.ptx" />
+  <xi:include href="./classes.ptx"/>
+  <xi:include href="./trig.ptx" />
+  <xi:include href="./inverse.ptx" />
+
+</chapter>

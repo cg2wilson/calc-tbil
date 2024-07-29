@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-D" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Derivatives (D)</title>
+
+  <objectives>
+    <introduction>
+      <p>
+        <em>NEED TO CHANGE/ADD THIS</em>
+      </p>
+    </introduction>
+      <dl>
+        <li>
+          <title>D1</title>
+          <p>
+            I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change
+          </p>
+        </li>
+        <li>
+          <title>D2</title>
+          <p>
+            I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function
+          </p>
+        </li>
+        <li>
+          <title>D3</title>
+          <p>
+            I can interpret the meaning of a derivative in context (with appropriate units)
+          </p>
+        </li>
+        <li>
+          <title>D4</title>
+          <p>
+            Given a graph, I can sketch its derivative.
+          </p>
+        </li>
+        <li>
+          <title>D5</title>
+          <p>
+            I can graphically, numerically, or algebraically determine where a function is differentiable 
+          </p>
+        </li>
+        <li>
+          <title>D6</title>
+          <p>
+            I can apply shortcuts to determine derivatives of any order of the following types of functions: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics
+          </p>
+        </li>
+        <li>
+          <title>D7</title>
+          <p>
+            I can compute derivatives using one or more of the following rules or techniques: constant multiple, sum, difference, product, quotient, inverse
+          </p>
+        </li>
+        <li>
+          <title>D8</title>
+          <p>
+            I can compute derivatives using the chain rule by itself and with other rules
+          </p>
+        </li>
+        <li>
+          <title>D8</title>
+          <p>
+            I can use implicit differentiation to find the derivative of an equation
+          </p>
+        </li>
+        <li>
+          <title>D10</title>
+          <p>
+            I can compute derivatives using logarithmic differentiation
+          </p>
+        </li>
+      </dl>
+  </objectives>
+  
+    
+
+  <!-- include sections -->
+  <xi:include href="./readiness.ptx" />
+  <xi:include href="./theory.ptx"/>
+  <xi:include href="./D1.ptx" />
+  <xi:include href="./D2.ptx" />
+  <xi:include href="./D3.ptx" />
+  <xi:include href="./D4.ptx" />
+  <xi:include href="./D5.ptx" />
+  <xi:include href="./D6.ptx" />
+  <xi:include href="./D7.ptx" />
+  <xi:include href="./D8.ptx" />
+  <xi:include href="./D9.ptx" />
+  <xi:include href="./D10.ptx" />
+
+</chapter>

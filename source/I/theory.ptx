@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="I-theory" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Theory &amp; Definitions</title>
+  <introduction>
+    <p>
+      This section will introduce some background theory for the Applied Derivatives module, as well as some important definitions.
+    </p>
+  </introduction>  
+
+
+  <subsection xml:id="I-theory-facts">
+    <title>Facts About Derivatives</title>
+    
+
+  </subsection>
+
+  <subsection xml:id="I-theory-comments">
+    <title>Other Comments</title>
+    
+  </subsection>
+</section>

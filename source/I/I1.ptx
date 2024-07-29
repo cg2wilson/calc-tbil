@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="I1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>I1: Antiderivatives</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>I1</title>
+                <p>
+                    I can compute the indefinite integral/antiderivative of a function using rules and appropriate notation.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <subsection xml:id="I1-preclass">
+        <title>Pre-Class Videos</title>
+        
+    </subsection>
+
+    <subsection xml:id="I1-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
