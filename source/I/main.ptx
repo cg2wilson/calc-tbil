@@ -60,7 +60,6 @@
 
   <!-- include sections -->
   <xi:include href="./readiness.ptx" />
-  <xi:include href="./theory.ptx"/>
   <xi:include href="./I1.ptx" />
   <xi:include href="./I2.ptx" />
   <xi:include href="./I3.ptx" />

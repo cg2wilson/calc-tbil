@@ -77,7 +77,6 @@
 
   <!-- include sections -->
   <xi:include href="./readiness.ptx" />
-  <xi:include href="./theory.ptx"/>
   <xi:include href="./D1.ptx" />
   <xi:include href="./D2.ptx" />
   <xi:include href="./D3.ptx" />

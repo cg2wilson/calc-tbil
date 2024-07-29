@@ -41,7 +41,6 @@
 
   <!-- include sections -->
   <xi:include href="./readiness.ptx" />
-  <xi:include href="./theory.ptx"/>
   <xi:include href="./A1.ptx" />
   <xi:include href="./A2.ptx" />
   <xi:include href="./A3.ptx" />
