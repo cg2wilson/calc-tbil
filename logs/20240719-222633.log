@@ -1,0 +1,32 @@
+INFO    : PreTeXt-CLI version: 2.4.1
+
+INFO    : PreTeXt project found in `C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Preparing to build into C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\output\web.
+INFO    : discovering source file's directory name: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.2.15
+INFO    : Runestone Services (using newer, via online CDN query): version 7.3.3
+INFO    : converting C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to HTML in C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-qshb1byd
+INFO    : XSL conversion of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx by C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl
+INFO    : messages from the log for XSL processing (indented):
+INFO    :     * PTX:ERROR: the @xml:id value "L-intro" should be unique, but is authored 4 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "L-intro" (xml:id)
+INFO    :     *              located within: "L-intro" (xml:id)
+INFO    :     *              located within: "L-intro" (xml:id)
+INFO    :     *              located within: "L-intro" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "L-readiness" should be unique, but is authored 4 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "L-readiness" (xml:id), "Readiness Assurance" (title)
+INFO    :     *              located within: "L-readiness" (xml:id), "Readiness Assurance" (title)
+INFO    :     *              located within: "L-readiness" (xml:id), "Readiness Assurance" (title)
+INFO    :     *              located within: "L-readiness" (xml:id), "Readiness Assurance" (title)
+INFO    : successful application of C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+

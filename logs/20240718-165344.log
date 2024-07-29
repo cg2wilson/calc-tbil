@@ -1,0 +1,77 @@
+INFO    : PreTeXt-CLI version: 2.4.1
+
+INFO    : PreTeXt project found in `C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : converting latex-image pictures from C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to svg graphics for placement in C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/cory.g.wilson/Dropbox/school/occc/calc-coordination/tbil/publication/publication.ptx', 'subtree': 'L2-preclass'}
+INFO    : discovering source file's directory name: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\assets
+INFO    : XSL conversion of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx by C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl
+INFO    : successful application of C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl
+INFO    : converting L2-preclass-2-1-2.tex to L2-preclass-2-1-2.pdf
+INFO    : cropping L2-preclass-2-1-2.pdf to cropped-L2-preclass-2-1-2.pdf
+INFO    : renaming cropped-L2-preclass-2-1-2.pdf to L2-preclass-2-1-2.pdf
+INFO    : converting L2-preclass-2-1-2.pdf to L2-preclass-2-1-2.svg
+INFO    : converting latex-image pictures from C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to svg graphics for placement in C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/cory.g.wilson/Dropbox/school/occc/calc-coordination/tbil/publication/publication.ptx', 'subtree': 'two-functions-limits'}
+INFO    : discovering source file's directory name: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\assets
+INFO    : XSL conversion of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx by C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl
+INFO    : successful application of C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl
+INFO    : converting two-functions-limits.tex to two-functions-limits.pdf
+ERROR   : LaTeX compilation of two-functions-limits.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : Unable to generate some latex-image assets:
+ LaTeX compilation failed for 1 "latex-image"(s).
+Review the log for error messages, and LaTeX transcripts.
+Images are:
+  two-functions-limits.tex
+INFO    : converting latex-image pictures from C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to svg graphics for placement in C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/cory.g.wilson/Dropbox/school/occc/calc-coordination/tbil/publication/publication.ptx', 'subtree': 'graph-piecewise'}
+INFO    : discovering source file's directory name: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\assets
+INFO    : XSL conversion of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx by C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl
+INFO    : successful application of C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl
+INFO    : converting graph-piecewise.tex to graph-piecewise.pdf
+INFO    : cropping graph-piecewise.pdf to cropped-graph-piecewise.pdf
+INFO    : renaming cropped-graph-piecewise.pdf to graph-piecewise.pdf
+INFO    : converting graph-piecewise.pdf to graph-piecewise.svg
+INFO    : Removing temporary directory C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-9sppjgn6
+INFO    : Removing temporary directory C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-1gt9lwoy
+INFO    : Removing temporary directory C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-kyeu9hxh
+INFO    : Preparing to build into C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\output\web.
+INFO    : discovering source file's directory name: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.2.15
+INFO    : Runestone Services (using newer, via online CDN query): version 7.3.3
+INFO    : converting C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to HTML in C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-2phrm8gr
+INFO    : XSL conversion of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx by C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl
+INFO    : messages from the log for XSL processing (indented):
+INFO    :     * PTX:WARNING:    An <xref> wants to build text using a number to identify the target, but the target (which has @xml:id "direct-substitution") does not have a number. You could try 'text="title"' or 'text="custom"' on the "xref".
+INFO    :     *              located within: "activity-limits-rationals1" (xml:id)
+INFO    :     * PTX:WARNING:    An <xref> wants to build text using a number to identify the target, but the target (which has @xml:id "direct-substitution") does not have a number. You could try 'text="title"' or 'text="custom"' on the "xref".
+INFO    :     *              located within: "activity-limits-rationals2" (xml:id)
+INFO    : successful application of C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : While running pretext, the following errors occurred:
+

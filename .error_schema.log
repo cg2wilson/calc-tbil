@@ -1,0 +1,5 @@
+file:/C:/Users/cory.g.wilson/Dropbox/school/occc/calc-notes/tbil/source/main.ptx:19:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
+file:/C:/Users/cory.g.wilson/Dropbox/school/occc/calc-notes/tbil/source/main.ptx:9:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
+file:/C:/Users/cory.g.wilson/Dropbox/school/occc/calc-notes/tbil/source/main.ptx:7:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
+file:/C:/Users/cory.g.wilson/Dropbox/school/occc/calc-notes/tbil/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
+file:/C:/Users/cory.g.wilson/Dropbox/school/occc/calc-notes/tbil/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element pretext there

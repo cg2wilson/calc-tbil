@@ -1,0 +1,34 @@
+INFO    : PreTeXt-CLI version: 2.4.1
+
+INFO    : PreTeXt project found in `C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : converting latex-image pictures from C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to svg graphics for placement in C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/cory.g.wilson/Dropbox/school/occc/calc-coordination/tbil/publication/publication.ptx', 'subtree': 'two-functions-limits'}
+INFO    : discovering source file's directory name: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\assets
+INFO    : XSL conversion of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx by C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl
+INFO    : successful application of C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl
+INFO    : converting two-functions-limits.tex to two-functions-limits.pdf
+INFO    : cropping two-functions-limits.pdf to cropped-two-functions-limits.pdf
+INFO    : renaming cropped-two-functions-limits.pdf to two-functions-limits.pdf
+INFO    : converting two-functions-limits.pdf to two-functions-limits.svg
+INFO    : Removing temporary directory C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-v_630d2h
+INFO    : Preparing to build into C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\output\web.
+INFO    : discovering source file's directory name: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.2.15
+INFO    : Runestone Services (using newer, via online CDN query): version 7.3.3
+INFO    : converting C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to HTML in C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-jrrwm1b6
+INFO    : XSL conversion of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx by C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl
+INFO    : successful application of C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+

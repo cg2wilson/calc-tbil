@@ -1,0 +1,59 @@
+INFO    : PreTeXt-CLI version: 2.4.1
+
+INFO    : PreTeXt project found in `C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil`.
+DEBUG   : CLI version 2.4.1 matches requirements.txt 2.4.1.
+DEBUG   : Building target web with root of tree below None
+DEBUG   : XML syntax appears well formed.
+DEBUG   : XML syntax appears well formed.
+DEBUG   : PreTeXt document did not pass schema validation; unexpected output may result. See .error_schema.log for hints.  Continuing with build.
+DEBUG   : Source does not contain webwork problems
+DEBUG   : Assets generation requested for: ['webwork', 'latex-image', 'sageplot', 'asymptote', 'youtube', 'codelens', 'datafile', 'interactive'].
+DEBUG   : Based on format Format.HTML, assets to be generated are: ['webwork', 'latex-image', 'sageplot', 'asymptote', 'codelens', 'datafile'].
+DEBUG   : Starting asset table: {'latex-image': {'L1-preclass': b')2\xabs\xc1N\xa2\xb8\xa5\xaf\x8cD\x06a\xb8\xc3\xbc!\xb8\x9c\xb8Ga\x18\x87\xea\x98\xf3DP\xa9&'}}
+DEBUG   : Based on what is in your source, the assets that will be considered are ['latex-image'].
+DEBUG   : Assets to be regenerated: all: ['latex-image'], partial: []
+DEBUG   : Assets to be generated: {'latex-image': [None]}
+DEBUG   : Generating latex-image assets for None
+INFO    : converting latex-image pictures from C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to svg graphics for placement in C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets\latex-image
+DEBUG   : temporary directory for latex-image conversion: C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-i336kuq8
+INFO    : extracting latex-image pictures from C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/cory.g.wilson/Dropbox/school/occc/calc-coordination/tbil/publication/publication.ptx'}
+INFO    : discovering source file's directory name: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\assets
+INFO    : XSL conversion of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx by C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl
+DEBUG   : XSL conversion via C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to None and/or into directory C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-i336kuq8 with parameters {'publisher': 'C:/Users/cory.g.wilson/Dropbox/school/occc/calc-coordination/tbil/publication/publication.ptx'}
+INFO    : successful application of C:\Users\cory.g.wilson\.ptx\xsl\extract-latex-image.xsl
+DEBUG   : Now working in directory C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-i336kuq8
+DEBUG   : locating "LatexEngine.XELATEX" in [executables] section of configuration file
+DEBUG   : LatexEngine.XELATEX executable: xelatex, options: 
+DEBUG   : tex executable: xelatex
+INFO    : converting L1-preclass-3-2-1-1.tex to L1-preclass-3-2-1-1.pdf
+INFO    : cropping L1-preclass-3-2-1-1.pdf to cropped-L1-preclass-3-2-1-1.pdf
+INFO    : renaming cropped-L1-preclass-3-2-1-1.pdf to L1-preclass-3-2-1-1.pdf
+DEBUG   : locating "pdfsvg" in [executables] section of configuration file
+DEBUG   : Successfully changed directory back to C:\users\cory.g.wilson\dropbox\school\occc\calc-coordination\tbil
+WARNING : Unable to generate some latex-image assets:
+ PTX:ERROR: cannot locate executable with configuration name `pdfsvg` as command `pdf2svg`
+***  Edit the configuration file  ("pretext.cfg" or "project.ptx") and/or install  ***
+***  the necessary program and/or make sure the executable is on your PATH         ***
+DEBUG   : Temporary directories left behind for inspection: ['C:\\Users\\CORYG~1.WIL\\AppData\\Local\\Temp\\ptx-i336kuq8']
+DEBUG   : Updated these assets successfully: []
+DEBUG   : Ensuring output directory for web: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\output\web
+INFO    : Preparing to build into C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\output\web.
+INFO    : discovering source file's directory name: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.2.15
+INFO    : Runestone Services (using newer, via online CDN query): version 7.3.2
+INFO    : converting C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to HTML in C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-wv0daxud
+INFO    : XSL conversion of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx by C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl
+DEBUG   : XSL conversion via C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to None and/or into directory C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-wv0daxud with parameters {'altrs-js': 'prefix-runtime.740db250e511e1cc.bundle.js:prefix-347.8328b60515045466.bundle.js:prefix-runestone.9813637ef2f0e0ee.bundle.js', 'altrs-css': 'prefix-347.f9add1ca35d5ad93.css:prefix-runestone.f64dcc3632d7a0c3.css', 'altrs-cdn-url': 'https://runestone.academy/cdn/runestone/', 'altrs-version': '7.3.2', 'publisher': 'C:/Users/cory.g.wilson/Dropbox/school/occc/calc-coordination/tbil/publication/publication.ptx'}
+INFO    : successful application of C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+

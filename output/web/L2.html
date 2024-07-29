@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>L2: Limits Analytically</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Notes for TBIL Calculus 1">
+<meta property="book:author" content="Cory Wilson">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<script src="https://cdn.geogebra.org/apps/deployggb.js"></script><link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="TBIL Calculus 1" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="occc-tbil-calc1.html"><span class="title">Notes for TBIL Calculus 1:</span> <span class="subtitle">Fall 2024</span></a></h1>
+<p class="byline">Cory Wilson</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="calculator-toggle" class="calculator-toggle button" title="Show calculator" aria-expanded="false" aria-controls="calculator-container"><span class="icon material-symbols-outlined" aria-hidden="true">&#xea5f;</span><span class="name">Calc</span></button><div id="calculator-container" class="calculator-container" style="display: none; z-index:100;"><div id="geogebra-calculator"></div></div>
+<script>
+var ggbApp = new GGBApplet({"appName": "graphing",
+    "width": 330,
+    "height": 600,
+    "showToolBar": true,
+    "showAlgebraInput": true,
+    "perspective": "G/A",
+    "algebraInputPosition": "bottom",
+    "scaleContainerClass": "calculator-container",
+    "allowUpscale": true,
+    "autoHeight": true,
+    "disableAutoScale": false},
+true);
+</script></span><span class="treebuttons"><a class="previous-button button" href="L1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-L.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="L3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\ds}{\displaystyle}
+\newcommand{\lrpar}[1]{\left(#1\right)}
+\newcommand{\lrbrace}[1]{\left\lbrace #1 \right\rbrace}
+\newcommand{\inv}[1]{#1^{-1}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\dc}{^\circ}
+\newcommand{\unknown}{{\color{gray} ?}}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-review.html" class="internal"><span class="codenumber">0</span> <span class="title">Review</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="review-functions.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-1" class="internal"><span class="codenumber">0.1.1</span> <span class="title">First Section</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="review-classes.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Classes of Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-classes.html#review-classes-1" class="internal"><span class="codenumber">0.2.1</span> <span class="title">First Section</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="review-trig.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-trig.html#review-trig-1" class="internal"><span class="codenumber">0.3.1</span> <span class="title">First Section</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="review-inverse.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Inverses of Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-inverse.html#review-inverse-1" class="internal"><span class="codenumber">0.4.1</span> <span class="title">First Section</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-L.html" class="internal"><span class="codenumber">1</span> <span class="title">Limits (L)</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="L1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">L1: Limits Graphically/Numerically</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L1.html#L1-preclass" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L1.html#L1-activities" class="internal"><span class="codenumber">1.1.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="L2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">L2: Limits Analytically</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L2.html#L2-preclass" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L2.html#L2-activities" class="internal"><span class="codenumber">1.2.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="L3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">L3: Asymptotes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L3.html#L3-preclass" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L3.html#L3-activities" class="internal"><span class="codenumber">1.3.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="L4.html" class="internal"><span class="codenumber">1.4</span> <span class="title">L4: Continuity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L4.html#L4-preclass" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L4.html#L4-activities" class="internal"><span class="codenumber">1.4.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-D.html" class="internal"><span class="codenumber">2</span> <span class="title">Derivatives (D)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">D1: Average/Instantaneous Rate of Change</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D1.html#D1-preclass" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D1.html#D1-activities" class="internal"><span class="codenumber">2.1.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">D2: The Derivative (Definition)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D2.html#D2-preclass" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D2.html#D2-activities" class="internal"><span class="codenumber">2.2.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">D3: Interpreting the Derivative</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D3.html#D3-preclass" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D3.html#D3-activities" class="internal"><span class="codenumber">2.3.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">D4: Sketching the Derivative</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D4.html#D4-preclass" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D4.html#D4-activities" class="internal"><span class="codenumber">2.4.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">D5: Differentiability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D5.html#D5-preclass" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D5.html#D5-activities" class="internal"><span class="codenumber">2.5.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D6.html" class="internal"><span class="codenumber">2.6</span> <span class="title">D6: Derivative Shortcuts</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D6.html#D6-preclass" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D6.html#D6-activities" class="internal"><span class="codenumber">2.6.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D7.html" class="internal"><span class="codenumber">2.7</span> <span class="title">D7: Derivative Rules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D7.html#D7-preclass" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D7.html#D7-activities" class="internal"><span class="codenumber">2.7.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D8.html" class="internal"><span class="codenumber">2.8</span> <span class="title">D8: Chain Rule</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D8.html#D8-preclass" class="internal"><span class="codenumber">2.8.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D8.html#D8-activities" class="internal"><span class="codenumber">2.8.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D9.html" class="internal"><span class="codenumber">2.9</span> <span class="title">D9: Implicit Differentiation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D9.html#D9-preclass" class="internal"><span class="codenumber">2.9.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D9.html#D9-activities" class="internal"><span class="codenumber">2.9.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D10.html" class="internal"><span class="codenumber">2.10</span> <span class="title">D10: Logarithmic Differentiation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D10.html#D10-preclass" class="internal"><span class="codenumber">2.10.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D10.html#D10-activities" class="internal"><span class="codenumber">2.10.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-A.html" class="internal"><span class="codenumber">3</span> <span class="title">Applications of Derivatives (A)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="A1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">A1: Related Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A1.html#A1-preclass" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A1.html#A1-activities" class="internal"><span class="codenumber">3.1.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="A2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">A2: Derivatives and Qualitative Behavior of Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A2.html#A2-preclass" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A2.html#A2-activities" class="internal"><span class="codenumber">3.2.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="A3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">A3: Optimization</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A3.html#A3-preclass" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A3.html#A3-activities" class="internal"><span class="codenumber">3.3.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="A4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">A4: L’Hospital’s Rule</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A4.html#A4-preclass" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A4.html#A4-activities" class="internal"><span class="codenumber">3.4.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-I.html" class="internal"><span class="codenumber">4</span> <span class="title">Integrals (I)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">I1: Antiderivatives</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I1.html#I1-preclass" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I1.html#I1-activities" class="internal"><span class="codenumber">4.1.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">I2: Approximating Areas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I2.html#I2-preclass" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I2.html#I2-activities" class="internal"><span class="codenumber">4.2.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">I3: The Definite Integral</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I3.html#I3-preclass" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I3.html#I3-activities" class="internal"><span class="codenumber">4.3.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">I4: Derivatives of Integral</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I4.html#I4-preclass" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I4.html#I4-activities" class="internal"><span class="codenumber">4.4.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">I5: Computing Definite Integrals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I5.html#I5-preclass" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I5.html#I5-activities" class="internal"><span class="codenumber">4.5.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">I6: Substitution</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I6.html#I6-preclass" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I6.html#I6-activities" class="internal"><span class="codenumber">4.6.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I7.html" class="internal"><span class="codenumber">4.7</span> <span class="title">I7: Area Between Curves</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I7.html#I7-preclass" class="internal"><span class="codenumber">4.7.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I7.html#I7-activities" class="internal"><span class="codenumber">4.7.2</span> <span class="title">In-Class Activities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="L2"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">L2: Limits Analytically</span>
+</h2>
+<article class="objectives goal-like" id="L2-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<dl class="description-list">
+<dt id="L2-2-1-1">L2</dt>
+<dd><div class="para" id="L2-2-1-1-2">I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.</div></dd>
+</dl></article><section class="subsection" id="L2-preclass"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="space"> </span><span class="title">Pre-Class Videos</span>
+</h3>
+<article class="example example-like" id="L2-preclass-2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="L2-preclass-2-1-1">Use the limit laws to determine the following limits, if they exist. The function <span class="process-math">\(f(x)\)</span> is graphed as the solid line, and <span class="process-math">\(g(x)\)</span> is graphed as the dashed line.</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/L2-preclass-2-1-2.svg" role="img" class="contained" alt=""></div> <div class="para logical" id="L2-preclass-2-1-3"><ol class="lower-alpha">
+<li id="L2-preclass-2-1-3-1-1"><div class="para" id="L2-preclass-2-1-3-1-1-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to 1} f(x)\)</span></div></li>
+<li id="L2-preclass-2-1-3-1-2"><div class="para" id="L2-preclass-2-1-3-1-2-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to -1} g(x)\)</span></div></li>
+<li id="L2-preclass-2-1-3-1-3"><div class="para" id="L2-preclass-2-1-3-1-3-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to -2}\left[\dfrac{f(x)}{g(x)}\right]\)</span></div></li>
+<li id="L2-preclass-2-1-3-1-4"><div class="para" id="L2-preclass-2-1-3-1-4-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to -1} \left[f(x)g(x)\right]\)</span></div></li>
+<li id="L2-preclass-2-1-3-1-5"><div class="para" id="L2-preclass-2-1-3-1-5-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to -1}\left[-2f(x)+3g(x)\right]\)</span></div></li>
+<li id="L2-preclass-2-1-3-1-6"><div class="para" id="L2-preclass-2-1-3-1-6-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to 2} [3f(x)]\)</span></div></li>
+</ol></div>
+<div class="solutions"><details id="L2-preclass-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="L2-preclass-2-2-1"><ol class="decimal">
+<li id="L2-preclass-2-2-1-1-1"><div class="para" id="L2-preclass-2-2-1-1-1-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to 1} f(x) = \text{ DNE}\)</span></div></li>
+<li id="L2-preclass-2-2-1-1-2"><div class="para" id="L2-preclass-2-2-1-1-2-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to -1} g(x) = 1\)</span></div></li>
+<li id="L2-preclass-2-2-1-1-3"><div class="para" id="L2-preclass-2-2-1-1-3-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to -2}\left[\dfrac{f(x)}{g(x)}\right]=-\dfrac{2}{3}\)</span></div></li>
+<li id="L2-preclass-2-2-1-1-4"><div class="para" id="L2-preclass-2-2-1-1-4-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to -1}\left[f(x)g(x)\right]= -1\)</span></div></li>
+<li id="L2-preclass-2-2-1-1-5"><div class="para" id="L2-preclass-2-2-1-1-5-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to -1}\left[-2f(x)+3g(x)\right]=5\)</span></div></li>
+<li id="L2-preclass-2-2-1-1-6"><div class="para" id="L2-preclass-2-2-1-1-6-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to 2} [3f(x)]=0\)</span></div></li>
+</ol></div></div></details></div></article><article class="example example-like" id="L2-preclass-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="L2-preclass-3-1-1">Calculate the following limits.  Justify each answer with one (or more) of the limit laws.</div> <div class="para logical" id="L2-preclass-3-1-2"><ol class="lower-alpha">
+<li id="L2-preclass-3-1-2-1-1"><div class="para" id="L2-preclass-3-1-2-1-1-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to -1} 3x^3+5x^2-7\)</span></div></li>
+<li id="L2-preclass-3-1-2-1-2"><div class="para" id="L2-preclass-3-1-2-1-2-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to 2} \dfrac{x^3+2x^2-1}{5-3x}\)</span></div></li>
+<li id="L2-preclass-3-1-2-1-3"><div class="para" id="L2-preclass-3-1-2-1-3-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to 1} \dfrac{x-1}{x^2+1}\)</span></div></li>
+</ol></div>
+<div class="solutions"><details id="L2-preclass-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="L2-preclass-3-2-1"><ol class="lower-alpha">
+<li id="L2-preclass-3-2-1-1-1"><div class="para" id="L2-preclass-3-2-1-1-1-1">
+<span class="process-math">\(\ds \lim_{x\to -1} 3x^3+5x^2-7 = -9\text{.}\)</span>  Since this is a polynomial, you can use the direct substitution property.</div></li>
+<li id="L2-preclass-3-2-1-1-2"><div class="para" id="L2-preclass-3-2-1-1-2-1">
+<span class="process-math">\(\ds \lim_{x\to 2} \dfrac{x^3+2x^2-1}{5-3x}=-15\text{.}\)</span>  Since this is a rational function with 2 in the domain, we can use direct substitution.</div></li>
+<li id="L2-preclass-3-2-1-1-3"><div class="para" id="L2-preclass-3-2-1-1-3-1">
+<span class="process-math">\(\ds \lim_{x\to 1} \dfrac{x-1}{x^2+1}=0\text{.}\)</span>  Since this is a rational function with 1 in the domain, we can use direct substitution.</div></li>
+</ol></div></div></details></div></article></section><section class="subsection" id="L2-activities"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="space"> </span><span class="title">In-Class Activities</span>
+</h3>
+<article class="activity project-like" id="activity-limits-analytically1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="activity-limits-analytically1-1">Given <span class="process-math">\(f(x)=3x^2-\frac{1}{2}x+4\text{,}\)</span> evaluate <span class="process-math">\(f(2)\)</span> and approximate <span class="process-math">\(\ds \lim_{x\to2}f(x)\)</span> numerically (or graphically). What do you think is more likely?</div> <ol class="upper-alpha cols2">
+<li id="activity-limits-analytically1-2-1"><div class="para" id="p-derived-activity-limits-analytically1-2-1"><span class="process-math">\(\displaystyle \ds \lim_{x \to 2}f(x)=f(2)\)</span></div></li>
+<li id="activity-limits-analytically1-2-2"><div class="para" id="p-derived-activity-limits-analytically1-2-2"><span class="process-math">\(\displaystyle \ds \lim_{x \to 2}f(x) \approx f(2)\)</span></div></li>
+<li id="activity-limits-analytically1-2-3"><div class="para" id="p-derived-activity-limits-analytically1-2-3"><span class="process-math">\(\displaystyle \ds \lim_{x \to 2}f(x) \neq f(2)\)</span></div></li>
+</ol></article><article class="activity project-like" id="activity-limits-analytically2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="activity-limits-analytically2-1">
+<div class="para" id="activity-limits-analytically2-1-1">The table below gives values of a few different functions.</div> <figure class="table table-like" id="table-activity-limits-analytically2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.3<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r0 l0 t0 lines">x</td>
+<td class="l m b1 r0 l0 t0 lines">6.99</td>
+<td class="l m b1 r0 l0 t0 lines">6.999</td>
+<td class="l m b1 r0 l0 t0 lines">7.001</td>
+<td class="l m b1 r0 l0 t0 lines">7.01</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">f(x)</td>
+<td class="l m b0 r0 l0 t0 lines">13.99</td>
+<td class="l m b0 r0 l0 t0 lines">13.999</td>
+<td class="l m b0 r0 l0 t0 lines">14.001</td>
+<td class="l m b0 r0 l0 t0 lines">14.01</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">g(x)</td>
+<td class="l m b0 r0 l0 t0 lines">22.97</td>
+<td class="l m b0 r0 l0 t0 lines">22.997</td>
+<td class="l m b0 r0 l0 t0 lines">23.003</td>
+<td class="l m b0 r0 l0 t0 lines">23.03</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">3f(x)</td>
+<td class="l m b0 r0 l0 t0 lines">41.97</td>
+<td class="l m b0 r0 l0 t0 lines">41.997</td>
+<td class="l m b0 r0 l0 t0 lines">42.003</td>
+<td class="l m b0 r0 l0 t0 lines">42.03</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">f(x)+g(x)</td>
+<td class="l m b0 r0 l0 t0 lines">36.96</td>
+<td class="l m b0 r0 l0 t0 lines">36.996</td>
+<td class="l m b0 r0 l0 t0 lines">37.004</td>
+<td class="l m b0 r0 l0 t0 lines">37.04</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">f(x)g(x)</td>
+<td class="l m b0 r0 l0 t0 lines">321.350</td>
+<td class="l m b0 r0 l0 t0 lines">321.935</td>
+<td class="l m b0 r0 l0 t0 lines">322.065</td>
+<td class="l m b0 r0 l0 t0 lines">322.650</td>
+</tr>
+</table></div></figure> <div class="para" id="activity-limits-analytically2-1-3">Using the table above, which of the following is <em class="emphasis">least</em> likely to be true?</div>
+</div> <ol class="upper-alpha">
+<li id="activity-limits-analytically2-2-1"><div class="para" id="p-derived-activity-limits-analytically2-2-1">
+<span class="process-math">\(\ds \lim_{x\to 7}f(x)= 14\)</span> and <span class="process-math">\(\ds \lim_{x\to 7}g(x)= 23\)</span>
+</div></li>
+<li id="activity-limits-analytically2-2-2"><div class="para" id="p-derived-activity-limits-analytically2-2-2"><span class="process-math">\(\displaystyle \ds \lim_{x \to 7}3f(x) = 3  \lim_{x\to 7}f(x)\)</span></div></li>
+<li id="activity-limits-analytically2-2-3"><div class="para" id="p-derived-activity-limits-analytically2-2-3"><span class="process-math">\(\displaystyle \ds \lim_{x\to 7}\left( f(x)+g(x) \right) = \lim_{x\to 7}f(x) + \lim_{x\to 7}g(x)\)</span></div></li>
+<li id="activity-limits-analytically2-2-4"><div class="para" id="p-derived-activity-limits-analytically2-2-4"><span class="process-math">\(\displaystyle \ds \lim_{x\to 7}\left( f(x)g(x) \right) =f(7)   \left( \lim_{x\to 7}g(x) \right)\)</span></div></li>
+</ol></article><article class="activity project-like" id="activity-limits-analytically3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="activity-limits-analytically3-1-1">If <span class="process-math">\(\ds \lim_{x\to 2} f(x) = 2\)</span> and <span class="process-math">\(\ds \lim_{x\to 2} g(x) = -3\text{,}\)</span> which of the following statements are true? Select all that apply!</div> <ol class="upper-alpha cols2">
+<li id="activity-limits-analytically3-1-2-1"><div class="para" id="p-derived-activity-limits-analytically3-1-2-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to 2} (f(x) \cdot g(x)) = -6\)</span></div></li>
+<li id="activity-limits-analytically3-1-2-2"><div class="para" id="p-derived-activity-limits-analytically3-1-2-2"><span class="process-math">\(\displaystyle \ds \lim_{x\to 2} (f(x) + g(x)) = -1\)</span></div></li>
+<li id="activity-limits-analytically3-1-2-3"><div class="para" id="p-derived-activity-limits-analytically3-1-2-3"><span class="process-math">\(\displaystyle \ds \lim_{x\to 2} (f(x) - g(x)) = -2\)</span></div></li>
+<li id="activity-limits-analytically3-1-2-4"><div class="para" id="p-derived-activity-limits-analytically3-1-2-4"><span class="process-math">\(\displaystyle \ds \lim_{x\to 2} (f(x)/g(x)) = -2/3\)</span></div></li>
+</ol></article><article class="activity project-like" id="limit-laws-graphically"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="limit-laws-graphically-1">
+<div class="para" id="limit-laws-graphically-1-1">Below you are given the graphs of two functions. Compute the limits below (if possible).</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="limit-laws-graphically-1-2-1"><img src="generated/latex-image/two-functions-limits.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.4<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(f(x)\text{.}\)</span></figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="limit-laws-graphically-1-2-2"><img src="generated/latex-image/graph-piecewise.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.5<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(g(x)\text{.}\)</span></figcaption></figure></div>
+</div></div>
+</div>
+<article class="task exercise-like" id="limit-laws-graphically-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="limit-laws-graphically-2-1-1"><span class="process-math">\(\ds \lim_{x \to 1} f(x) + g(x) \text{.}\)</span></div></article><article class="task exercise-like" id="limit-laws-graphically-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="limit-laws-graphically-3-1-1"><span class="process-math">\(\ds \lim_{x \to 5^+} 3f(x)  \text{.}\)</span></div></article><article class="task exercise-like" id="limit-laws-graphically-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="limit-laws-graphically-4-1-1"><span class="process-math">\(\ds \lim_{x \to 0^+ } f(x)g(x)  \text{.}\)</span></div></article><article class="task exercise-like" id="limit-laws-graphically-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="limit-laws-graphically-5-1-1">(Challenge) <span class="process-math">\(\ds \lim_{x \to 1} g(x) / f(x) \text{.}\)</span>
+</div></article><article class="task exercise-like" id="limit-laws-graphically-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="limit-laws-graphically-6-1-1">(Challenge) <span class="process-math">\(\ds \lim_{x \to 0^+} f(g(x)) \text{.}\)</span>
+</div></article></article><article class="activity project-like" id="activity-limits-analytically4"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="activity-limits-analytically4-1-1">Given <span class="process-math">\(p(x) = -3x^2 - 5x+7\text{,}\)</span> which of the following limit laws would use to determine <span class="process-math">\(\ds \lim_{x\to 2} p(x)\text{?}\)</span> Choose all that apply.</div> <div class="para logical" id="activity-limits-analytically4-1-2"><ol class="upper-alpha cols2">
+<li id="activity-limits-analytically4-1-2-1-1"><div class="para" id="activity-limits-analytically4-1-2-1-1-1">Sum/Difference Rule</div></li>
+<li id="activity-limits-analytically4-1-2-1-2"><div class="para" id="activity-limits-analytically4-1-2-1-2-1">Constant Multiple Law</div></li>
+<li id="activity-limits-analytically4-1-2-1-3"><div class="para" id="activity-limits-analytically4-1-2-1-3-1">Multiplication Law</div></li>
+<li id="activity-limits-analytically4-1-2-1-4"><div class="para" id="activity-limits-analytically4-1-2-1-4-1">Constant Law</div></li>
+<li id="activity-limits-analytically4-1-2-1-5"><div class="para" id="activity-limits-analytically4-1-2-1-5-1">Exponent Law</div></li>
+<li id="activity-limits-analytically4-1-2-1-6"><div class="para" id="activity-limits-analytically4-1-2-1-6-1">Constant Law</div></li>
+<li id="activity-limits-analytically4-1-2-1-7"><div class="para" id="activity-limits-analytically4-1-2-1-7-1">Division Law</div></li>
+</ol></div></article><article class="activity project-like" id="activity-limits-rationals1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="activity-limits-rationals1-1-1">Given <span class="process-math">\(p(x)=-3x^2-5x+7\)</span> and <span class="process-math">\(q(x)=x^4-x^2+3\text{,}\)</span> which of the following describes the most efficient way to determine <span class="process-math">\(\ds \lim_{x \to -1} \frac{p(x)}{q(x)}\text{?}\)</span>
+</div> <div class="para logical" id="activity-limits-rationals1-1-2"><ol class="upper-alpha">
+<li id="activity-limits-rationals1-1-2-1-1"><div class="para" id="p-derived-activity-limits-rationals1-1-2-1-1">Sum/difference, Constant Multiple, and Multiplication Laws</div></li>
+<li id="activity-limits-rationals1-1-2-1-2"><div class="para" id="p-derived-activity-limits-rationals1-1-2-1-2">
+<code class="code-inline tex2jax_ignore">[cross-reference to target(s) "direct-substitution" missing or not unique]</code> and the Division Law</div></li>
+<li id="activity-limits-rationals1-1-2-1-3"><div class="para" id="p-derived-activity-limits-rationals1-1-2-1-3">Exponent, Sum/difference, Constant Multiple, and Constant Laws</div></li>
+<li id="activity-limits-rationals1-1-2-1-4"><div class="para" id="p-derived-activity-limits-rationals1-1-2-1-4">Division and Root Laws</div></li>
+</ol></div></article><article class="activity project-like" id="activity-limits-rationals2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="activity-limits-rationals2-1-1">Consider taking the limit of a rational function <span class="process-math">\(\dfrac{p(x)}{q(x)}\)</span> as <span class="process-math">\(x \to c\text{.}\)</span> If <span class="process-math">\(q(c)=0\text{,}\)</span> is it possible for <span class="process-math">\(\ds\lim_{x \to c}\frac{p(x)}{q(x)} \)</span> to equal a number?</div> <div class="para logical" id="activity-limits-rationals2-1-2"><ol class="upper-alpha">
+<li id="activity-limits-rationals2-1-2-1-1"><div class="para" id="p-derived-activity-limits-rationals2-1-2-1-1">No, because <span class="process-math">\(\dfrac{p(x)}{q(x)}\)</span> is not defined at <span class="process-math">\(x=c\)</span> since <span class="process-math">\(q(c)=0\text{.}\)</span>
+</div></li>
+<li id="activity-limits-rationals2-1-2-1-2"><div class="para" id="p-derived-activity-limits-rationals2-1-2-1-2">Yes, because if you graph <span class="process-math">\(f(x)=\frac{x^2-1}{x-1}\text{,}\)</span> the value <span class="process-math">\(f(1)\)</span> is not defined, but the graph shows that the limit of <span class="process-math">\(f(x)\)</span> does exist as <span class="process-math">\(x \to 1\text{.}\)</span>
+</div></li>
+<li id="activity-limits-rationals2-1-2-1-3"><div class="para" id="p-derived-activity-limits-rationals2-1-2-1-3">No, because if you graph <span class="process-math">\(g(x)=\frac{x^2+1}{x-1}\text{,}\)</span> the value <span class="process-math">\(g(1)\)</span> is not defined and the graph shows that the limit of <span class="process-math">\(\displaystyle\lim_{x \to c}g(x)\)</span> does not exist.</div></li>
+<li id="activity-limits-rationals2-1-2-1-4"><div class="para" id="p-derived-activity-limits-rationals2-1-2-1-4">Yes, because we can use  <code class="code-inline tex2jax_ignore">[cross-reference to target(s) "direct-substitution" missing or not unique]</code>.</div></li>
+</ol></div></article><article class="activity project-like" id="activity-limits-zero"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="activity-limits-zero-1-1">Let <span class="process-math">\(f(x) = 2x\)</span> and <span class="process-math">\(g(x) = x\text{,}\)</span> which of the following statements is true?</div> <ol class="upper-alpha cols2">
+<li id="activity-limits-zero-1-2-1"><div class="para" id="p-derived-activity-limits-zero-1-2-1"><span class="process-math">\(\displaystyle \displaystyle \lim_{x\to 0} (f(x)/g(x)) = 0\)</span></div></li>
+<li id="activity-limits-zero-1-2-2"><div class="para" id="p-derived-activity-limits-zero-1-2-2"><span class="process-math">\(\displaystyle \displaystyle \lim_{x\to 0} (f(x)/g(x)) = 2\)</span></div></li>
+<li id="activity-limits-zero-1-2-3"><div class="para" id="p-derived-activity-limits-zero-1-2-3">
+<span class="process-math">\(\displaystyle \lim_{x\to 0} (f(x)/g(x))\)</span> cannot be determined</div></li>
+<li id="activity-limits-zero-1-2-4"><div class="para" id="p-derived-activity-limits-zero-1-2-4">
+<span class="process-math">\(\displaystyle \lim_{x\to 0} (f(x)/g(x))\)</span> does not exist</div></li>
+</ol></article><article class="remark remark-like" id="zero-over-zero"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="zero-over-zero-1-1">When we compute the limit of a ratio where both the numerator and denominator have limit equal to zero, we have to compute the value of a <span class="process-math">\(\frac{0}{0}\)</span> <dfn class="terminology">indeterminate form</dfn>. The value of an indeteminate form can be any real number or even infinity or not existent, we just do not know yet! We can usually determine the value of an indeterminate form using some algebraic manipulations of the expression given.</div></article><article class="definition definition-like" id="def-hole"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="def-hole-1-1">A function <span class="process-math">\(f(x)\)</span> has a <dfn class="terminology">hole</dfn> at <span class="process-math">\(x=c\)</span> if <span class="process-math">\(f(c)\)</span> does not exist but <span class="process-math">\(\displaystyle \lim_{x \to c} f(x)\)</span> does exist and is equal to a real number.</div></article><article class="example example-like" id="L2-activities-12"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="L2-activities-12-1-1">
+<div class="para">The function <span class="process-math">\(f(x)=\frac{x^2-1}{x-1}\)</span> has a hole at <span class="process-math">\(x=1\)</span> because <span class="process-math">\(f(1)\)</span> is not defined but</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x \to 1} \frac{x^2-1}{x-1} = \lim_{x \to 1} \frac{(x-1)(x+1)}{x-1} = \lim_{x \to 1} (x+1) = 2 ,
+\end{equation*}
+</div>
+<div class="para">so the limit exists and is equal to a real number. Notice that <span class="process-math">\(\displaystyle \lim_{x \to 1} \frac{x^2-1}{x-1}\)</span> is also an example of a limit giving an indeterminate form <span class="process-math">\(\frac{0}{0}\)</span> which we could then compute using an algebraic manipulation of the function given.</div>
+</div></article><article class="activity project-like" id="limits-alg-checkit"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="limits-alg-checkit-1-1">Determine the following limits and explain your reasoning.</div> <article class="task exercise-like" id="limits-alg-checkit-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x\to-6 } \frac{ x^{2} - 6 \, x + 5 }{ x^{2} - 3 \, x - 18 }
+\end{equation*}
+</div></article> <article class="task exercise-like" id="limits-alg-checkit-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x\to-1 } \frac{ x^{2} - 1 }{ x^{2} + 3 \, x + 2 }
+\end{equation*}
+</div></article> <article class="task exercise-like" id="limits-alg-checkit-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x\to5 } \frac{ x - 5 }{ \sqrt{x + 31} - 6 }
+\end{equation*}
+</div></article></article><article class="activity project-like" id="activity-bolt2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="activity-bolt2-1">
+<div class="para" id="activity-bolt2-1-1">In activity <a href="L1.html#activity-bolt1" class="xref" data-knowl="./knowl/xref/activity-bolt1.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.1.14">Activity 1.1.14</a> you studied the velocity of Usain Bolt in his Beijing 100 meters dash. We will now study this situation analytically. To make our computations simpler, we will approximate that he could run 100 meters in 10 seconds and we will consider the model <span class="process-math">\(d=f(t)=t^2\text{,}\)</span> where <span class="process-math">\(d\)</span> is the distance in meters and <span class="process-math">\(t\)</span> is the time in seconds.</div> <article class="note remark-like" id="inst-velocity"><h5 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="period">.</span>
+</h5>
+<div class="para" id="inst-velocity-1">The average velocity is the ratio distance covered over time elapsed. If we consider the interval that starts at <span class="process-math">\(t=a\)</span> and has width <span class="process-math">\(h\text{,}\)</span> written <span class="process-math">\([a,a+h]\text{,}\)</span> the average velocity on this interval is <span class="process-math">\(\displaystyle  \frac{f(a+h)-f(a)}{(a+h) - a} = \frac{f(a+h)-f(a)}{h}\text{.}\)</span> The instantaneous velocity at time <span class="process-math">\(t=a\)</span> is given by:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{h \to 0} \frac{f(a+h)-f(a)}{h}\text{.}
+\end{equation*}
+</div></article>
+</div>
+<article class="task exercise-like" id="activity-bolt2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="activity-bolt2-2-1-1">Compute the average velocity on the interval <span class="process-math">\([5,6]\text{.}\)</span> We think of this interval as <span class="process-math">\([5,5+h]\)</span> for the value of <span class="process-math">\(h=1\text{.}\)</span>
+</div></article><article class="task exercise-like" id="activity-bolt2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="activity-bolt2-3-1-1">Compute the average velocity starting at 5 seconds, but now with <span class="process-math">\(h=0.5\)</span> seconds.</div></article><article class="task exercise-like" id="activity-bolt2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="activity-bolt2-4-1-1">We want to study the instantaneous velocity at <span class="process-math">\(a=5\)</span> seconds. Find an expression for the average velocity on the interval <span class="process-math">\([5,5+h]\text{,}\)</span> where <span class="process-math">\(h\)</span> is an unspecified value.</div></article><article class="task exercise-like" id="activity-bolt2-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="activity-bolt2-5-1-1">Expand your expression. When <span class="process-math">\(h \neq 0\text{,}\)</span> you can simplify it!</div></article><article class="task exercise-like" id="activity-bolt2-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="activity-bolt2-6-1-1">Recall that the instantaneous velocity is the limit of your expression as <span class="process-math">\(h\to 0\text{.}\)</span> Find the instantaneous velocity given by this model at <span class="process-math">\(t=5\)</span> seconds.</div></article><article class="task exercise-like" id="activity-bolt2-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="activity-bolt2-7-1-1">The model <span class="process-math">\(d=f(t)=t^2\)</span> does not really capture the real-world situation. Think of at least one reason why this model does not fit the scenario of Usain Bolt’s 100 meters dash.</div></article></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="L1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="L3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+INFO    : PreTeXt-CLI version: 2.4.1
+
+INFO    : PreTeXt project found in `C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Preparing to build into C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\output\web.
+INFO    : discovering source file's directory name: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.2.15
+INFO    : Runestone Services (using newer, via online CDN query): version 7.3.2
+INFO    : converting C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx to HTML in C:\Users\CORYG~1.WIL\AppData\Local\Temp\ptx-rrxddfxr
+INFO    : XSL conversion of C:\Users\cory.g.wilson\Dropbox\school\occc\calc-coordination\tbil\source\main.ptx by C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl
+INFO    : messages from the log for XSL processing (indented):
+INFO    :     * PTX:ERROR: the @xml:id value "L-theory" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "L-theory" (xml:id), "Limits: Theory" (title)
+INFO    :     *              located within: "L-theory" (xml:id), "What is a Limit?" (title)
+INFO    : successful application of C:\Users\cory.g.wilson\.ptx\xsl\pretext-html.xsl
+CRITICAL: ID L-theory already defined, line 11, column 32 (file:///C:/Users/cory.g.wilson/Dropbox/school/occc/calc-coordination/tbil/source/L/theory.ptx, line 11)
+INFO    : ------------------------
+CRITICAL: Failed to build.  Exiting...
+INFO    : While running pretext, the following errors occurred:
+
