@@ -10,680 +10,288 @@
       </li>
     </dl>
   </objectives>
-  
-  
-  <subsection xml:id="L1-preclass">
-    <title>Pre-Class Videos</title>
-    
-    <example>
-      <statement>
-        <p>
-          Consider the function <m>f(x) = x^3 -2x+1</m>.  A table of its values (to 6 decimal places) are given below:
-        </p>
-        <tabular top="medium" left="medium" right="medium">
-          <row bottom="medium">
-            <cell halign="center">
-              <m>x</m>
-            </cell>
-            <cell halign="center">
-              <m>f(x)</m>
-            </cell>
-            <cell halign="center">
-              <m>x</m>
-            </cell>
-            <cell halign="center">
-              <m>f(x)</m>
-            </cell>
-          </row>
-          <row bottom="medium">
-            <cell halign="center">
-              <m>1.0</m>
-            </cell>
-            <cell halign="center">
-              <m>0.000000</m>
-            </cell>
-            <cell halign="center">
-              <m>3.0</m>
-            </cell>
-            <cell halign="center">
-              <m>22.000000</m>
-            </cell>
-          </row>
-          <row bottom="medium">
-            <cell halign="center">
-              <m>1.5</m>
-            </cell>
-            <cell halign="center">
-              <m>1.375000</m>
-            </cell>
-            <cell halign="center">
-              <m>2.5</m>
-            </cell>
-            <cell halign="center">
-              <m>11.625000</m>
-            </cell>
-          </row>
-          <row bottom="medium">
-            <cell halign="center">
-              <m>1.8</m>
-            </cell>
-            <cell halign="center">
-              <m>3.232000</m>
-            </cell>
-            <cell halign="center">
-              <m>2.2</m>
-            </cell>
-            <cell halign="center">
-              <m>7.248000</m>
-            </cell>
-          </row>
-          <row bottom="medium">
-            <cell halign="center">
-              <m>1.9</m>
-            </cell>
-            <cell halign="center">
-              <m>4.059000</m>
-            </cell>
-            <cell halign="center">
-              <m>2.1</m>
-            </cell>
-            <cell halign="center">
-              <m>6.061000</m>
-            </cell>
-          </row>
-          <row bottom="medium">
-            <cell halign="center">
-              <m>1.95</m>
-            </cell>
-            <cell halign="center">
-              <m>4.514875</m>
-            </cell>
-            <cell halign="center">
-              <m>2.05</m>
-            </cell>
-            <cell halign="center">
-              <m>5.515125</m>
-            </cell>
-          </row>
-          <row bottom="medium">
-            <cell halign="center">
-              <m>1.99</m>
-            </cell>
-            <cell halign="center">
-              <m>4.900599</m>
-            </cell>
-            <cell halign="center">
-              <m>2.01</m>
-            </cell>
-            <cell halign="center">
-              <m>5.100601</m>
-            </cell>
-          </row>
-          <row bottom="medium">
-            <cell halign="center">
-              <m>1.999</m>
-            </cell>
-            <cell halign="center">
-              <m>4.990006</m>
-            </cell>
-            <cell halign="center">
-              <m>2.001</m>
-            </cell>
-            <cell halign="center">
-              <m>5.010006</m>
-            </cell>
-          </row>
-          <row bottom="medium">
-            <cell halign="center">
-              <m>1.9999</m>
-            </cell>
-            <cell halign="center">
-              <m>4.999000</m>
-            </cell>
-            <cell halign="center">
-              <m>2.0001</m>
-            </cell>
-            <cell halign="center">
-              <m>5.001000</m>
-            </cell>
-          </row>
-        </tabular>
-        <p>
-          Describe what is happening to the output values as <m>x</m> approaches 2.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          As <m>x\to 2</m>, <m>f(x)\to 5</m>
-        </p>
-      </solution>
-    </example>
-
-    <example>
-      <statement>
-        <p>
-          Draw three graphs so that the limit <m>L</m> is defined at the input <m>a</m>, but <m>f(a)</m> is distinct at all three points.  This illustrates three possibilities when dealing with limits.
-        </p>
-      </statement>
-      <solution>
-        <sidebyside widths="30% 30% 30%">
-          <image>
-            <shortdescription>
-              The graph of <m>y=x</m> with a point located at <m>(a,f(a))</m>
-            </shortdescription>
-            <latex-image>
-              <![CDATA[
-                \begin{tikzpicture}
-                  \begin{axis}[
-                    axis x line = middle,
-                    axis y line = middle,
-                    every axis y label/.style={at={(ticklabel cs:1.1)}},
-                    y label style={at={(axis description cs:0,1.1)},anchor=north},
-                    ylabel = {$y$},
-                    every axis x label/.style= {at ={(ticklabel cs:1)}},
-                    x label style={at={(axis description cs:1.1,0)},anchor=east},
-                    xlabel = {$x$},
-                    xmin=0,xmax=2,
-                    xtick = \empty,
-                    ytick = \empty
-                  ]
-                  \addplot[thick, domain=0:2,samples=50]{x}; 
-                  \coordinate (up) at (1,.05);
-                  \coordinate (down) at (1,-.05);
-                  \coordinate (pt1) at (1,1);
-                  \coordinate (right) at (.05,1);
-                  \coordinate (left) at (-.05,1);
-                  \end{axis}
-                  \draw (up)--(down) node[below] {$a$};
-                  \draw (right)--(left) node[left] {$f(a)$};
-                  \fill (pt1) circle (0.1);
-                  \draw[dashed] (right)--(pt1);
-                  \draw[dashed] (up)--(pt1);
-                  
-                \end{tikzpicture}
-              ]]>
-            </latex-image>
-          </image>
-          <image>
-            <shortdescription>
-              The graph of <m>y=x</m> with the point located at <m>(a,f(a))</m> removed
-            </shortdescription>
-            <latex-image>
-              <![CDATA[
-                \begin{tikzpicture}
-                  \begin{axis}[
-                    axis x line = middle,
-                    axis y line = middle,
-                    every axis y label/.style={at={(ticklabel cs:1.1)}},
-                    y label style={at={(axis description cs:0,1.1)},anchor=north},
-                    ylabel = {$y$},
-                    every axis x label/.style= {at ={(ticklabel cs:1)}},
-                    x label style={at={(axis description cs:1.1,0)},anchor=east},
-                    xlabel = {$x$},
-                    xmin=0,xmax=2,
-                    xtick = \empty,
-                    ytick = \empty
-                  ]
-                  \addplot[thick, domain=0:2,samples=50]{x}; 
-                  \coordinate (up) at (1,.05);
-                  \coordinate (down) at (1,-.05);
-                  \coordinate (pt1) at (1,1);
-                  \coordinate (right) at (.05,1);
-                  \coordinate (left) at (-.05,1);
-                  \end{axis}
-                  \draw (up)--(down) node[below] {$a$};
-                  \draw (right)--(left) node[left] {$f(a)$};
-                  \draw[dashed] (right)--(pt1);
-                  \draw[dashed] (up)--(pt1);
-                  \fill[white] (pt1) circle (0.1);
-                  \draw (pt1) circle (0.1);
-                  
-                \end{tikzpicture}
-              ]]>
-            </latex-image>
-          </image>
-          <image>
-            <shortdescription>
-              The graph of <m>y=x</m> with a point located at <m>(a,f(a))</m> removed and moved above
-            </shortdescription>
-            <latex-image>
-              <![CDATA[
-                \begin{tikzpicture}
-                  \begin{axis}[
-                    axis x line = middle,
-                    axis y line = middle,
-                    every axis y label/.style={at={(ticklabel cs:1.1)}},
-                    y label style={at={(axis description cs:0,1.1)},anchor=north},
-                    ylabel = {$y$},
-                    every axis x label/.style= {at ={(ticklabel cs:1)}},
-                    x label style={at={(axis description cs:1.1,0)},anchor=east},
-                    xlabel = {$x$},
-                    xmin=0,xmax=2,
-                    xtick = \empty,
-                    ytick = \empty
-                  ]
-                  \addplot[thick, domain=0:2,samples=50]{x}; 
-                  \coordinate (up) at (1,.05);
-                  \coordinate (down) at (1,-.05);
-                  \coordinate (pt1) at (1,1);
-                  \coordinate (pt2) at (1,1.5);
-                  \coordinate (right) at (.05,1);
-                  \coordinate (left) at (-.05,1);
-                  \end{axis}
-                  \draw (up)--(down) node[below] {$a$};
-                  \draw (right)--(left) node[left] {$f(a)$};
-                  \draw[dashed] (right)--(pt1);
-                  \draw[dashed] (up)--(pt1);
-                  \fill[white] (pt1) circle (0.1);
-                  \draw (pt1) circle (0.1);
-                  \fill (pt2) circle (0.1);
-                  
-                \end{tikzpicture}
-              ]]>
-            </latex-image>
-          </image>
-          
-        </sidebyside>
-      </solution>
-    </example>
-
-    <example>
-      <statement>
-        <p>
-          For each of the graphs below, describe the limit at <m>x=1</m>
-        </p>
-        <p>
-          <ol marker="a">
-            <li>
-              <image>
-                <shortdescription>
-                    A line with a point removed at <m>(1,3)</m>
-                </shortdescription>
-                <latex-image>
-                  <![CDATA[ 
-                    \begin{tikzpicture}
-                      \begin{axis}[
-                        axis x line = middle,
-                            axis y line = middle,
-                            every axis y label/.style={at={(ticklabel cs:1.1)}},
-                        y label style={at={(axis description cs:.5,1.1)},anchor=north},
-                            ylabel = {\(f(x)\)},
-                            every axis x label/.style= {at ={(ticklabel cs:1)}},
-                            x label style={at={(axis description cs:1.1,.5)},anchor=east},
-                            xlabel = {\(x\)},
-                            xtick = {-4,-3,-2,-1,1,2,3,4},
-                        xmin = -5, xmax = 5,
-                        ymin = -5, ymax = 5,
-                        trig format plots = rad
-                        ]		
-                        \addplot[thick,smooth, samples=20, domain=-5:5] {x+2};
-                        \coordinate (a) at (1,3);
-                      \end{axis}
-                      \fill[white] (a) circle (0.1);
-                      \draw (a) circle (0.1);
-                    \end{tikzpicture}
-                  ]]>
-                </latex-image>
-              </image>
-            </li>
-            <li>
-              <image>
-                <shortdescription>
-                  A piecewise function, with a split at <m>x=1</m>
-                </shortdescription>
-                <latex-image>
-                  <![CDATA[ 
-                    \begin{tikzpicture}
-                      \begin{axis}[
-                        axis x line = middle,
-                            axis y line = middle,
-                            every axis y label/.style={at={(ticklabel cs:1.1)}},
-                        y label style={at={(axis description cs:.5,1.1)},anchor=north},
-                            ylabel = {\(f(x)\)},
-                            every axis x label/.style= {at ={(ticklabel cs:1)}},
-                            x label style={at={(axis description cs:1.1,.5)},anchor=east},
-                            xlabel = {\(x\)},
-                            xtick = {-4,-3,-2,-1,1,2,3,4},
-                        xmin = -5, xmax = 5,
-                        ymin = -5, ymax = 5,
-                        trig format plots = rad
-                        ]		
-                        \addplot[thick,smooth, samples=20, domain=-5:1] {x+2};
-                        \addplot[thick,smooth, samples=20, domain=1:5] {-x -1};
-                        \coordinate (a) at (1,3);
-                        \coordinate (b) at (1,-2);
-                      \end{axis}
-                      \fill[white] (a) circle (0.1);
-                      \draw (a) circle (0.1);
-                      \fill[white] (b) circle (0.1);
-                      \draw (b) circle (0.1);
-                    \end{tikzpicture}  
-                  ]]>
-                </latex-image>
-              </image>
-            </li>
-            <li>
-              <image>
-                <shortdescription>
-                  A graph with a vertical asymptote at <m>x=1</m>
-                </shortdescription>
-                <latex-image>
-                  <![CDATA[ 
-                    \begin{tikzpicture}
-                      \begin{axis}[
-                        axis x line = middle,
-                            axis y line = middle,
-                            every axis y label/.style={at={(ticklabel cs:1.1)}},
-                        y label style={at={(axis description cs:.5,1.1)},anchor=north},
-                            ylabel = {\(f(x)\)},
-                            every axis x label/.style= {at ={(ticklabel cs:1)}},
-                            x label style={at={(axis description cs:1.1,.5)},anchor=east},
-                            xlabel = {\(x\)},
-                            xtick = {-4,-3,-2,-1,1,2,3,4},
-                        xmin = -5, xmax = 5,
-                        ymin = -5, ymax = 5,
-                        trig format plots = rad
-                        ]		
-                        \addplot[thick,smooth, samples=100, domain=-5:.99] {x/(x-1)};
-                        \addplot[thick,smooth, samples=100, domain=1.005:5] {x/(x-1)};
-                        \coordinate (a) at (1,5);
-                        \coordinate (b) at (1,-5);
-                        \addplot[thick, dashed,domain=-5:5] {1};
-                      \end{axis}
-                      \draw[thick, dashed] (a)--(b);				
-                    \end{tikzpicture}
-                  ]]>
-                </latex-image>
-              </image>
-            </li>
-          </ol>
-        </p>
-      </statement>
-      <solution>
-        <p>
-          <ol marker="a">
-            <li>
-              <p>
-                <m>\ds \lim_{x\to 1^-} f(x) = 3</m> and <m>\ds \lim_{x\to 1^+} f(x) = 3</m>, so <m>\ds \lim_{x\to 1} f(x) = 3</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>\ds \lim_{x\to 1} f(x)</m> does not exist because <m>\ds \lim_{x\to 1^-} f(x) = 3</m> and <m>\ds \lim_{x\to 1^+} f(x) = -2</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>\ds \lim_{x\to 1} f(x)</m> does not exist because <m>\ds \lim_{x\to 1^-} f(x) = -\infty</m> and <m>\ds \lim_{x\to 1^+} f(x) = \infty</m>
-              </p>
-            </li>
-          </ol>
-        </p>
-      </solution>
-    </example>
-
-    <example>
-      <statement>
-        <p>
-          For each of the graphs below, describe the limit as <m>x\to \infty</m> and <m>x\to -\infty</m>
-        </p>
-        <p>
-          <ol marker="a">
-            <li>
-              <image>
-                <shortdescription>
-                    A line with a point removed at <m>(1,3)</m>
-                </shortdescription>
-                <latex-image>
-                  <![CDATA[ 
-                    \begin{tikzpicture}
-                      \begin{axis}[
-                        axis x line = middle,
-                            axis y line = middle,
-                            every axis y label/.style={at={(ticklabel cs:1.1)}},
-                        y label style={at={(axis description cs:.5,1.1)},anchor=north},
-                            ylabel = {\(f(x)\)},
-                            every axis x label/.style= {at ={(ticklabel cs:1)}},
-                            x label style={at={(axis description cs:1.1,.5)},anchor=east},
-                            xlabel = {\(x\)},
-                            xtick = {-4,-3,-2,-1,1,2,3,4},
-                        xmin = -5, xmax = 5,
-                        ymin = -5, ymax = 5,
-                        trig format plots = rad
-                        ]		
-                        \addplot[thick,smooth, samples=20, domain=-5:5] {x+2};
-                        \coordinate (a) at (1,3);
-                      \end{axis}
-                      \fill[white] (a) circle (0.1);
-                      \draw (a) circle (0.1);
-                    \end{tikzpicture}
-                  ]]>
-                </latex-image>
-              </image>
-            </li>
-            <li>
-              <image>
-                <shortdescription>
-                  A piecewise function, with a split at <m>x=1</m>
-                </shortdescription>
-                <latex-image>
-                  <![CDATA[ 
-                    \begin{tikzpicture}
-                      \begin{axis}[
-                        axis x line = middle,
-                            axis y line = middle,
-                            every axis y label/.style={at={(ticklabel cs:1.1)}},
-                        y label style={at={(axis description cs:.5,1.1)},anchor=north},
-                            ylabel = {\(f(x)\)},
-                            every axis x label/.style= {at ={(ticklabel cs:1)}},
-                            x label style={at={(axis description cs:1.1,.5)},anchor=east},
-                            xlabel = {\(x\)},
-                            xtick = {-4,-3,-2,-1,1,2,3,4},
-                        xmin = -5, xmax = 5,
-                        ymin = -5, ymax = 5,
-                        trig format plots = rad
-                        ]		
-                        \addplot[thick,smooth, samples=20, domain=-5:1] {x+2};
-                        \addplot[thick,smooth, samples=20, domain=1:5] {-x -1};
-                        \coordinate (a) at (1,3);
-                        \coordinate (b) at (1,-2);
-                      \end{axis}
-                      \fill[white] (a) circle (0.1);
-                      \draw (a) circle (0.1);
-                      \fill[white] (b) circle (0.1);
-                      \draw (b) circle (0.1);
-                    \end{tikzpicture}  
-                  ]]>
-                </latex-image>
-              </image>
-            </li>
-            <li>
-              <image>
-                <shortdescription>
-                  A graph with a vertical asymptote at <m>x=1</m>
-                </shortdescription>
-                <latex-image>
-                  <![CDATA[ 
-                    \begin{tikzpicture}
-                      \begin{axis}[
-                        axis x line = middle,
-                            axis y line = middle,
-                            every axis y label/.style={at={(ticklabel cs:1.1)}},
-                        y label style={at={(axis description cs:.5,1.1)},anchor=north},
-                            ylabel = {\(f(x)\)},
-                            every axis x label/.style= {at ={(ticklabel cs:1)}},
-                            x label style={at={(axis description cs:1.1,.5)},anchor=east},
-                            xlabel = {\(x\)},
-                            xtick = {-4,-3,-2,-1,1,2,3,4},
-                        xmin = -5, xmax = 5,
-                        ymin = -5, ymax = 5,
-                        trig format plots = rad
-                        ]		
-                        \addplot[thick,smooth, samples=100, domain=-5:.99] {x/(x-1)};
-                        \addplot[thick,smooth, samples=100, domain=1.005:5] {x/(x-1)};
-                        \coordinate (a) at (1,5);
-                        \coordinate (b) at (1,-5);
-                        \addplot[thick, dashed,domain=-5:5] {1};
-                      \end{axis}
-                      \draw[thick, dashed] (a)--(b);				
-                    \end{tikzpicture}
-                  ]]>
-                </latex-image>
-              </image>
-            </li>
-          </ol>
-        </p>
-      </statement>
-      <solution>
-        <p>
-          <ol marker="a">
-            <li>
-              <p>
-                <m>\ds \lim_{x\to -\infty} f(x) = -\infty</m> and <m>\ds \lim_{x\to \infty} f(x) = \infty</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>\ds \lim_{x\to -\infty} f(x) = -\infty</m> and <m>\ds \lim_{x\to \infty} f(x) = -\infty</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>\ds \lim_{x\to -\infty} f(x) = 1</m> and <m>\ds \lim_{x\to\infty} f(x) = 1</m>
-              </p>
-            </li>
-          </ol>
-        </p>
-      </solution>
-    </example>
-
-
-  </subsection>
 
   <subsection xml:id="L1-activities">
     <title>In-Class Activities</title>
     
-      <activity xml:id="activity-limits-graphically1">
+      <activity xml:id="activity-limits-graphically1" estimated-time="5">
         <introduction>
-            <p>
-                In <xref ref="limit_censored" /> the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of <m>x=2</m>. 
-            </p>
-            <figure xml:id="limit_censored">
-                <image width="50%" source="limit_censored.png" />
-                <caption>A graph of a function that has not been rendered properly.</caption>
-            </figure>
+          <p>
+              In <xref ref="limit_censored" /> the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of <m>x=2</m>. 
+          </p>
+          <figure xml:id="limit_censored">
+              <image width="50%" source="limit_censored.png" />
+              <caption>A graph of a function that has not been rendered properly.</caption>
+          </figure>
+        </introduction>
+        <task>
+          <p>
+              Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What <m>y</m>-value are you approaching?
+          </p>
+          <p>
+            <ol marker="A." cols="3">
+              <li>
+                <p>
+                  0.5
+                </p>
+              </li>
+              <li>
+                <p>
+                  1
+                </p>
+              </li>
+              <li>
+                <p>
+                  1.5
+                </p>
+              </li>
+              <li>
+                <p>
+                  2
+                </p>
+              </li>
+              <li>
+                <p>
+                  2.5
+                </p>
+              </li>
+            </ol>
+          </p>       
+        </task>
+        <task>
+          <p>
+              Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What <m>y</m>-value are you approaching?
+          </p>
+          <p>
+            <ol marker="A." cols="3">
+              <li>
+                <p>
+                  0.5
+                </p>
+              </li>
+              <li>
+                <p>
+                  1
+                </p>
+              </li>
+              <li>
+                <p>
+                  1.5
+                </p>
+              </li>
+              <li>
+                <p>
+                  2
+                </p>
+              </li>
+              <li>
+                <p>
+                  2.5
+                </p>
+              </li>
+            </ol>
+          </p>
+        </task>
+      </activity>
+
+      <activity xml:id="activity-limits-graphically2" estimated-time="10">
+        <introduction>
+          <p>
+              In <xref ref="limit_uncensored" /> the graphic card is working again and we can see more clearly what is happening in the neighborhood of <m>x=2</m>. 
+          </p>
+          <figure xml:id="limit_uncensored">
+            <image width="50%" source="limit_uncensored.png" />
+            <caption>
+              A graph of a function that has rendered properly
+            </caption>
+          </figure>
+        </introduction>
+        <task>
+          <p>
+            What is the value of <m>f(2)</m>?
+          </p>
+        </task>
+        <task>
+          <p>
+            What is the <m>y</m>-value that is approached as we move toward <m>x = 2</m> from the left?
+          </p>
+          <p>
+            <ol marker="A." cols="3">
+              <li>
+                <p>
+                  0.5
+                </p>
+              </li>
+              <li>
+                <p>
+                  1
+                </p>
+              </li>
+              <li>
+                <p>
+                  1.5
+                </p>
+              </li>
+              <li>
+                <p>
+                  2
+                </p>
+              </li>
+              <li>
+                <p>
+                  2.5
+                </p>
+              </li>
+            </ol>
+          </p>
+        </task>
+        <task>
+          <p>
+              What is the <m>y</m>-value that is approached as we move toward <m>x = 2</m> from the right?
+          </p>
+          <p>
+            <ol marker="A." cols="3">
+              <li>
+                <p>
+                  0.5
+                </p>
+              </li>
+              <li>
+                <p>
+                  1
+                </p>
+              </li>
+              <li>
+                <p>
+                  1.5
+                </p>
+              </li>
+              <li>
+                <p>
+                  2
+                </p>
+              </li>
+              <li>
+                <p>
+                  2.5
+                </p>
+              </li>
+            </ol>
+          </p>
+        </task>
+      </activity>
+
+      <remark>
+        <p>
+          When studying functions in algebra, we often focused on the <em>value</em> of a function given a specific <m>x</m>-value. For instance, finding <m>f(2)</m> for some function <m>f(x)</m>. In <xref ref="activity-limits-graphically1"/> and <xref ref="activity-limits-graphically2"/>, we have instead been exploring what is happening as we <em>approach</em> a certain value on a graph.  This concept in mathematics (especially important in calculus) is known as <alert>finding a limit</alert>.
+        </p>
+      </remark>
+
+      <question estimated-time="15">
+        <p> 
+          Refer back to <xref ref="activity-limits-graphically1"/> and <xref ref="activity-limits-graphically2"/>. Write your first draft of the definition of a limit. What is important to include? (You can use concepts of limits from your daily life to motivate or define what a limit is.)
+        </p>
+      </question>
+
+      <definition xml:id="def-limit">
+        <title>Limit</title>
+        <statement>
+          <p>
+            Given a function <m>f</m>, a fixed input <m>x = a</m>, and a real number <m>L</m>,
+            we say that <term><m>f</m> has limit <m>L</m> as <m>x</m> approaches <m>a</m></term>,
+                <idx><h>limit</h><h>definition</h></idx>
+            and write
+            <me>
+              \lim_{x \to a} f(x) = L
+            </me>
+            provided that we can make <m>f(x)</m> as close to <m>L</m> as we like by taking <m>x</m> sufficiently close (but not equal) to <m>a</m>.
+          </p>
+          <p>
+            If we cannot make <m>f(x)</m> as close to a single value <m>L</m> as we would like as <m>x</m> approaches <m>a</m>, then we say that <term><m>f</m> does not have a limit as <m>x</m> approaches <m>a</m>.</term>
+          </p>
+        </statement>
+      </definition>
+
+      <question estimated-time="15">
+        <p>
+          Conjecture why <xref ref="activity-limits-graphically1"/> and <xref ref="activity-limits-graphically2"/> illustrate the need for "approaching" an input value, and connect this to <xref ref="def-limit"/>
+        </p>
+      </question>
+
+      <activity xml:id="activity-limits-graphically-one-sided" estimated-time="10">
+        <introduction>
+          <p>
+              
+          </p>
+          <figure xml:id="limit-left-and-right">
+              <image width="50%" source="limit-left-and-right.png" />
+              <caption>A piecewise-defined function</caption>
+          </figure>
 
         </introduction>
         <task>
-            <p>
-                Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What <m>y</m>-value are you approaching?
-            </p>
-            <ol marker="A." cols="3">
-                <li><p>0.5</p></li>
-                <li><p>1</p></li>
-                <li><p>1.5</p></li>
-                <li><p>2</p></li>
-                <li><p>2.5</p></li>
-            </ol>
-        </task>
-        <task>
-            <p>
-                Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What <m>y</m>-value are you approaching?
-            </p>
-            <ol marker="A." cols="3">
-                <li><p>0.5</p></li>
-                <li><p>1</p></li>
-                <li><p>1.5</p></li>
-                <li><p>2</p></li>
-                <li><p>2.5</p></li>
-            </ol>
-        </task>
-    </activity>
-    <activity xml:id="activity-limits-graphically2" estimated-time="10">
-        <introduction>
-            <p>
-                In <xref ref="limit_uncensored" /> the graphic card is working again and we can see more clearly what is happening in the neighborhood of <m>x=2</m>. 
-            </p>
-            <figure xml:id="limit_uncensored">
-                <image width="50%" source="limit_uncensored.png" />
-                <caption>A graph of a function that has rendered properly</caption>
-            </figure>
-
-        </introduction>
-        <task>
-            <p>
-              What is the value of <m>f(2)</m>?
-            </p>
-        </task>
-        <task>
-            <p>
-        What is the <m>y</m>-value that is approached as we move toward <m>x = 2</m> from the left?
-            </p>
-            <ol marker="A." cols="3">
-                <li><p>0.5</p></li>
-                <li><p>1</p></li>
-                <li><p>1.5</p></li>
-                <li><p>2</p></li>
-                <li><p>2.5</p></li>
-            </ol>
-        </task>
-        <task>
-            <p>
-                What is the <m>y</m>-value that is approached as we move toward <m>x = 2</m> from the right?
-            </p>
-            <ol marker="A." cols="3">
-                <li><p>0.5</p></li>
-                <li><p>1</p></li>
-                <li><p>1.5</p></li>
-                <li><p>2</p></li>
-                <li><p>2.5</p></li>
-            </ol>
-        </task>
-    </activity>
-  
-    <activity estimated-time="15">
-        <introduction>
-            <p> Conjecture why <xref ref="activity-limits-graphically1"/>  <xref ref="activity-limits-graphically2"/> illustrate the need for "approaching" an input value, and connect this to <xref ref="def-limit"/>
-            </p>
-        </introduction>
-    </activity>
-
-    <activity xml:id="activity-limits-graphically-one-sided" estimated-time="10">
-        <introduction>
-            <p>
-                
-            </p>
-            <figure xml:id="limit-left-and-right">
-                <image width="50%" source="limit-left-and-right.png" />
-                <caption>A piecewise-defined function</caption>
-            </figure>
-
-        </introduction>
-        
-            <p>
-        What is the limit as <m>x</m> approaches <m>0</m> in <xref ref="limit-left-and-right"/>?
-            </p>
+          <p>
+            What is the limit as <m>x</m> approaches <m>0</m> in <xref ref="limit-left-and-right"/>?
+          </p>
+          <p>
             <ol marker="A." cols="2">
-                <li><p>The limit is 1</p></li>
-                <li><p>The limit is -1</p></li>
-                <li><p>The limit is 0</p></li>
-                <li><p>The limit is not defined</p></li>
-            </ol>
-      
-    </activity>
+              <li>
+                <p>
+                  The limit is 1
+                </p>
+              </li>
+              <li>
+                <p>
+                  The limit is -1
+                </p>
+              </li>
+              <li>
+                <p>
+                  The limit is 0
+                </p>
+              </li>
+              <li>
+                <p>
+                  The limit is not defined
+                </p>
+              </li>
+            </ol>  
+          </p>
+        </task>
+        
+      </activity>
 
-    <activity xml:id="activity-limits-graphically-one-sided2" estimated-time="10">
+      <definition>
+        <title>Left- and Right-Hand Limits</title>   
+        <statement>
+          <p>
+            We say that <term><m>f</m> has limit <m>L_1</m> as <m>x</m> approaches <m>a</m> from the left</term> and write
+            <me>
+              \lim_{x \to a^-} f(x) = L_1
+            </me>
+            provided that we can make the value of <m>f(x)</m> as close to <m>L_1</m> as we like by taking <m>x</m> sufficiently close to <m>a</m> while always having <m>x \lt  a</m>. We call <m>L_1</m> the left-hand limit of <m>f</m> as <m>x</m> approaches <m>a</m>.
+          </p>
+          <p>
+            Similarly, we say <term><m>L_2</m> is the right-hand limit of <m>f</m> as <m>x</m> approaches <m>a</m></term> and write
+            <me>
+              \lim_{x \to a^+} f(x) = L_2
+            </me>
+            provided that we can make the value of <m>f(x)</m> as close to <m>L_2</m> as we like by taking <m>x</m> sufficiently close to <m>a</m> while always having <m>x \gt a</m>.
+          </p>
+        </statement>
+      </definition>
+
+      <activity xml:id="activity-limits-graphically-one-sided2" estimated-time="10">
         <introduction>
-            <p>
+          <p>
             Refer again to <xref ref="limit-left-and-right"/> from <xref ref="activity-limits-graphically-one-sided"/>. 
-            </p>
-          
-
+          </p>
         </introduction>
         <task>
-            <p>
-        Which of the following best matches the definition of right and left limits? (Note that DNE is short for "does not exist.")
-            </p>
+          <p>
+            Which of the following best matches the definition of right and left limits? (Note that DNE is short for "does not exist.")
+          </p>
+          <p>
             <ol marker="A.">
                 <li><p>The left limit is -1. The right limit is 1. </p></li>
                 <li><p>The left limit is 1. The right limit is -1. </p></li>
@@ -691,187 +299,122 @@
                 <li><p>The left limit is -1. The right limit DNE. </p></li>
                 <li><p>The left limit DNE. The right limit DNE. </p></li>
             </ol>
+          </p>
         </task>
         <task>
-            <p>
-        What do you think the overall limit equals?
-            </p>
+          <p>
+            What do you think the overall limit equals?
+          </p>
+          <p>
             <ol marker="A." cols="2">
                 <li><p>The limit is 1</p></li>
                 <li><p>The limit is -1</p></li>
                 <li><p>The limit is 0</p></li>
                 <li><p>The limit is not defined</p></li>
             </ol>
+          </p>       
         </task>
-    </activity>
+      </activity>
 
-    <activity xml:id="activity-limits-graphically-fluency1" estimated-time="15">
-        <introduction>
-            <p>
-            Consider the following graph: 
-            </p>
-            <figure xml:id="limits-one-sided-fluency">
-                <image width="50%" source="limits-one-sided-fluency.png" />
-                <caption>Another piecewise-defined function</caption>
-            </figure>
+      <activity xml:id="activity-limits-graphically-fluency1" estimated-time="15">
+          <introduction>
+              <p>
+              Consider the following graph: 
+              </p>
+              <figure xml:id="limits-one-sided-fluency">
+                  <image width="50%" source="limits-one-sided-fluency.png" />
+                  <caption>Another piecewise-defined function</caption>
+              </figure>
 
 
-        </introduction>
-        <task>
-            <p>
-      Find  <m>\displaystyle \lim_{x \to -3^-} f(x)</m> and <m>\displaystyle \lim_{x \to -3^+} f(x)</m>.
-            </p>
-        </task>
+          </introduction>
           <task>
-            <p>
-      Find  <m>\displaystyle \lim_{x \to -1^-} f(x)</m> and <m>\displaystyle \lim_{x \to -1^+} f(x)</m>.
-            </p>
-        </task>
+              <p>
+        Find  <m>\displaystyle \lim_{x \to -3^-} f(x)</m> and <m>\displaystyle \lim_{x \to -3^+} f(x)</m>.
+              </p>
+          </task>
+            <task>
+              <p>
+        Find  <m>\displaystyle \lim_{x \to -1^-} f(x)</m> and <m>\displaystyle \lim_{x \to -1^+} f(x)</m>.
+              </p>
+          </task>
+            <task>
+              <p>
+        Find  <m> \displaystyle \lim_{x \to 2^-} f(x)</m> and <m>\displaystyle \lim_{x \to 2^+} f(x)</m>.
+              </p>
+          </task>       
+            <task>
+              <p>
+        Find  <m>\displaystyle \lim_{x \to 4^-} f(x)</m> and <m> \displaystyle \lim_{x \to 4^+} f(x)</m>.
+              </p>
+          </task>
           <task>
-            <p>
-      Find  <m> \displaystyle \lim_{x \to 2^-} f(x)</m> and <m>\displaystyle \lim_{x \to 2^+} f(x)</m>.
-            </p>
-        </task>       
-          <task>
-            <p>
-      Find  <m>\displaystyle \lim_{x \to 4^-} f(x)</m> and <m> \displaystyle \lim_{x \to 4^+} f(x)</m>.
-            </p>
-        </task>
-        <task>
-            <p>
-      For which <m>x</m>-values does the <em>overall</em> limit exist? Select all. If the limit exists, find it. If it does not, explain why. 
-            </p>
-            <ol marker="A." cols="2">
-                <li><m>-3</m></li>
-                <li><m>-1</m></li>
-                <li><m>2</m></li>
-                <li><m>4</m></li>
+              <p>
+        For which <m>x</m>-values does the <em>overall</em> limit exist? Select all. If the limit exists, find it. If it does not, explain why. 
+              </p>
+              <ol marker="A." cols="2">
+                  <li><m>-3</m></li>
+                  <li><m>-1</m></li>
+                  <li><m>2</m></li>
+                  <li><m>4</m></li>
+              </ol>
+          </task>
+      </activity>
+
+      <activity checkit-seed="3831" checkit-slug="LimitGraph" checkit-title="Limits graphically">
+        <statement>
+          <p>
+            Sketch the graph of a function <m>f(x)</m> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.
+          </p>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  <m>\ds \lim_{x\to 5^-} f(x)</m> is finite, but <m>\ds \lim_{x\to 5^+} f(x)</m> is infinite.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\ds \lim_{x\to -3} f(x)=-4</m>, but <m>f(-3)=0</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\ds \lim_{x\to -1^-} f(x)=-1</m> but <m>\ds \lim_{x\to -1^+} f(x)\neq-1</m>.
+                </p>
+              </li>
             </ol>
-        </task>
-    </activity>
+          </p>  
+        </statement>   
+      </activity>
 
-    <activity checkit-seed="3831" checkit-slug="LimitGraph" checkit-title="Limits graphically">
-    <statement>
-        <p>Sketch the graph of a function <m>f(x)</m> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.</p>
-        <ol>
-            <!-- Vertical Asymptote -->
-                    <li><p><m>\displaystyle \lim_{x\to 5^-} f(x)</m> is finite, but <m>\displaystyle \lim_{x\to 5^+} f(x)</m> is infinite.</p></li>
-            <!-- Removable Discontinuity -->
-            <!-- Jump Discontinuity -->
-            <!-- Vertical Asymptote -->
-            <!-- Removable Discontinuity -->
-                    <li><p><m>\displaystyle \lim_{x\to -3} f(x)=-4</m>, but <m>f(-3)=0</m>.</p></li>
-            <!-- Jump Discontinuity -->
-            <!-- Vertical Asymptote -->
-            <!-- Removable Discontinuity -->
-            <!-- Jump Discontinuity -->
-                    <li><p><m>\displaystyle \lim_{x\to -1^-} f(x)=-1</m> but <m>\displaystyle \lim_{x\to -1^+} f(x)\neq-1</m>.</p></li>
-        </ol>
-    </statement>   
-    </activity>
-
-    <activity xml:id="activity-limits-numerically1">
-      <table xml:id="table-limit-numerical1">
-          <tabular>
-              <row bottom="minor">
-                <cell>
-                    <m>x</m>
-                </cell>
-                <cell>
-                  <m>6.9</m>
-                </cell>
-                <cell>
-                  <m>6.99</m>
-                </cell>
-                <cell>
-                 <m> 6.999</m>
-                </cell>
-                <cell>
-                  <m>7</m>
-                </cell>
-                <cell>
-                  <m>7.001</m>
-                </cell>
-                <cell>
-                  <m>7.01</m>
-                </cell>
-                <cell>
-                  <m>7.1</m>
-                </cell>
-              </row>
-              <row>
-                <cell>
-                    <m>f(x)</m>
-                </cell>
-                <cell>
-                  <m>0.1695</m>
-                </cell>
-                <cell>
-                  <m>0.1699</m>
-                </cell>
-                <cell>
-                 <m>0.1667</m>
-                </cell>
-                <cell>
-                  <m>\unknown</m>
-                </cell>
-                <cell>
-                  <m>0.1667</m>
-                </cell>
-                <cell>
-                  <m>0.1664</m>
-                </cell>
-                <cell>
-                  <m>0.1639</m>
-                </cell>
-              </row>
-          </tabular>
-      </table>
-      <p>
-      Based on the values of <xref ref="table-limit-numerical1"/>, what is the best approximation for <m>\displaystyle\lim_{x\to 7} f(x)</m>?
-      <ol marker="A." cols="2">
-          <li><p> the limit is approximately 7</p></li>
-          <li><p> the limit is approximately 0.17 </p></li>
-          <li><p> the limit is approximately 0.16</p></li>
-          <li><p> the limit is approximately 0.1667</p></li>
-          <li><p> the limit is approximately 6.9999</p></li>
-      </ol>
-      </p>
-    </activity>
-    
-            <remark>
-            <p>
-            Notice that the value we obtained in <xref ref="activity-limits-numerically1" /> is only an approximation, based on the trends that we have seen within the table.
-            </p>
-        </remark>
-
-    <activity xml:id = "activity-limits-numerically2">
-        <table xml:id="table-limit-numerical2">
-        <tabular>
+      <activity xml:id="activity-limits-numerically1">
+        <table xml:id="table-limit-numerical1">
+            <tabular>
                 <row bottom="minor">
                   <cell>
                       <m>x</m>
                   </cell>
                   <cell>
-                    <m>1.25</m>
+                    <m>6.9</m>
                   </cell>
                   <cell>
-                    <m>1.5</m>
+                    <m>6.99</m>
                   </cell>
                   <cell>
-                    <m>1.75</m>
+                  <m> 6.999</m>
                   </cell>
                   <cell>
-                    <m>2</m>
+                    <m>7</m>
                   </cell>
                   <cell>
-                    <m>2.25</m>
+                    <m>7.001</m>
                   </cell>
                   <cell>
-                    <m>2.5</m>
+                    <m>7.01</m>
                   </cell>
                   <cell>
-                    <m>2.75</m>
+                    <m>7.1</m>
                   </cell>
                 </row>
                 <row>
@@ -879,47 +422,145 @@
                       <m>f(x)</m>
                   </cell>
                   <cell>
-                    <m>-0.7606</m>
+                    <m>0.1695</m>
                   </cell>
                   <cell>
-                    <m>-0.13</m>
+                    <m>0.1699</m>
                   </cell>
                   <cell>
-                    <m>0.4881</m>
+                  <m>0.1667</m>
                   </cell>
                   <cell>
-                  <m>\unknown</m>
+                    <m>\unknown</m>
                   </cell>
                   <cell>
-                    <m> 1.3119</m>
+                    <m>0.1667</m>
                   </cell>
                   <cell>
-                    <m> 1.33</m>
+                    <m>0.1664</m>
                   </cell>
                   <cell>
-                    <m> 0.9606</m>
+                    <m>0.1639</m>
                   </cell>
                 </row>
             </tabular>
         </table>
-      <p>
-  In <xref ref = "activity-limits-graphically1"/>'s <xref ref="limit_censored" /> we found an approximation to the limit of the function as <m>x</m> tends to 2. 
-  Now let us say you are also given a table of numerical values 
-  (<xref ref="table-limit-numerical2"/>) for the function. Given this new information which of the choices below best describes the limit of 
-  the function as <m>x</m> tends to 2?  
-    </p>
-    <ol marker="A.">
-            <li><p> There is not enough information because we do not know the value of the function at <m>x = 2</m>.</p></li>
-            <li><p> The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as <m>x</m> goes to 2. </p></li>
-            <li><p> The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure. </p></li>
-            <li><p> The limit cannot be approximated because the function might not exist at <m>x = 2</m>.</p></li>
+        <p>
+        Based on the values of <xref ref="table-limit-numerical1"/>, what is the best approximation for <m>\displaystyle\lim_{x\to 7} f(x)</m>?
+        <ol marker="A." cols="2">
+            <li><p> the limit is approximately 7</p></li>
+            <li><p> the limit is approximately 0.17 </p></li>
+            <li><p> the limit is approximately 0.16</p></li>
+            <li><p> the limit is approximately 0.1667</p></li>
+            <li><p> the limit is approximately 6.9999</p></li>
         </ol>
-    </activity>
+        </p>
+      </activity>
+      
+      <remark>
+        <p>
+          Notice that the value we obtained in <xref ref="activity-limits-numerically1" /> is only an approximation, based on the trends that we have seen within the table.
+        </p>
+      </remark>
 
-    <activity xml:id = "activity-limits-numerically3">
-    <table xml:id="table-limit-numerical3">
-        <tabular>
-            <row bottom="minor">
+      <activity xml:id = "activity-limits-numerically2">    
+        <introduction>
+          <table xml:id="table-limit-numerical2">
+            <title></title>
+            <tabular>
+              <row bottom="minor">
+                <cell>
+                    <m>x</m>
+                </cell>
+                <cell>
+                  <m>1.25</m>
+                </cell>
+                <cell>
+                  <m>1.5</m>
+                </cell>
+                <cell>
+                  <m>1.75</m>
+                </cell>
+                <cell>
+                  <m>2</m>
+                </cell>
+                <cell>
+                  <m>2.25</m>
+                </cell>
+                <cell>
+                  <m>2.5</m>
+                </cell>
+                <cell>
+                  <m>2.75</m>
+                </cell>
+              </row>
+              <row>
+                <cell>
+                    <m>f(x)</m>
+                </cell>
+                <cell>
+                  <m>-0.7606</m>
+                </cell>
+                <cell>
+                  <m>-0.13</m>
+                </cell>
+                <cell>
+                  <m>0.4881</m>
+                </cell>
+                <cell>
+                <m>\unknown</m>
+                </cell>
+                <cell>
+                  <m> 1.3119</m>
+                </cell>
+                <cell>
+                  <m> 1.33</m>
+                </cell>
+                <cell>
+                  <m> 0.9606</m>
+                </cell>
+              </row>
+            </tabular>
+          </table>
+        </introduction>
+        <p>
+          In <xref ref = "activity-limits-graphically1"/>'s <xref ref="limit_censored" /> we found an approximation to the limit of the function as <m>x</m> tends to 2. 
+        </p>
+        <p>
+          Now let us say you are also given a table of numerical values (<xref ref="table-limit-numerical2"/>) for the function. Given this new information which of the choices below best describes the limit of the function as <m>x</m> tends to 2?
+        </p>
+        <p>
+          <ol marker="A.">
+            <li>
+              <p>
+                There is not enough information because we do not know the value of the function at <m>x = 2</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as <m>x</m> goes to 2.
+              </p>
+            </li>
+            <li>
+              <p>
+                The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.
+              </p>
+            </li>
+            <li>
+              <p>
+                The limit cannot be approximated because the function might not exist at <m>x = 2</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </activity>
+
+      <activity xml:id = "activity-limits-numerically3">
+        <introduction>
+          <table xml:id="table-limit-numerical3">
+            <title></title>
+            <tabular>
+                <row bottom="minor">
                   <cell>
                       <m>x</m>
                   </cell>
@@ -971,259 +612,192 @@
                     0.4
                   </m></cell>
                 </row>
-        </tabular>
-        </table>
-    <p>Based on <xref ref = "table-limit-numerical3"/>, what information can be inferred about <m>\displaystyle \lim_{x\to 1^-}f(x)</m>, <m>\displaystyle \lim_{x\to 1^+}f(x)</m>, and <m>\displaystyle \lim_{x\to 1}f(x)</m>?
-  </p>
-        <ol marker="A.">
-            <li><p> <m> \displaystyle \lim_{x\to 1^-}f(x) = -0.5,\,\, \lim_{x\rightarrow 1^+}f(x) = 0.5</m>, and <m>\displaystyle\lim_{x\rightarrow 1}f(x) = 0</m></p></li>
-            <li><p> <m> \displaystyle \lim_{x\to 1^-}f(x) = -0.5,\,\, \lim_{x\rightarrow 1^+}f(x) = 0.5</m>, and <m>\displaystyle\lim_{x\rightarrow 1}f(x)</m> does not exist </p></li>
-            <li><p> <m>\displaystyle \lim_{x\rightarrow 1^-}f(x) = 0.5,\,\, \lim_{x\rightarrow 1^+}f(x) = -0.5</m>, and <m>\displaystyle\lim_{x\rightarrow 1}f(x)</m> does not exist</p></li>
-            <li><p> <m>\displaystyle \lim_{x\rightarrow 1^-}f(x) = 0.5,\,\, \lim_{x\rightarrow 1^+}f(x) = -0.5</m>, and <m>\displaystyle\lim_{x\rightarrow 1}f(x) = 0</m></p></li>
-        </ol>
-    </activity>
+            </tabular>
+          </table>
+        </introduction>
+        <p>
+          Based on <xref ref = "table-limit-numerical3"/>, what information can be inferred about <m>\ds \lim_{x\to 1^-}f(x)</m>, <m>\ds \lim_{x\to 1^+}f(x)</m>, and <m>\ds \lim_{x\to 1}f(x)</m>?
+        </p>
+        <p>
+          <ol marker="A.">
+            <li>
+              <p>
+                <m> \ds \lim_{x\to 1^-}f(x) = -0.5,\,\, \lim_{x\rightarrow 1^+}f(x) = 0.5</m>, and <m>\ds\lim_{x\rightarrow 1}f(x) = 0</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m> \ds \lim_{x\to 1^-}f(x) = -0.5,\,\, \lim_{x\rightarrow 1^+}f(x) = 0.5</m>, and <m>\ds\lim_{x\rightarrow 1}f(x)</m> does not exist.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\ds \lim_{x\rightarrow 1^-}f(x) = 0.5,\,\, \lim_{x\rightarrow 1^+}f(x) = -0.5</m>, and <m>\ds\lim_{x\rightarrow 1}f(x)</m> does not exist.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\ds \lim_{x\rightarrow 1^-}f(x) = 0.5,\,\, \lim_{x\rightarrow 1^+}f(x) = -0.5</m>, and <m>\ds\lim_{x\rightarrow 1}f(x) = 0</m>
+              </p>
+            </li>
+          </ol>
+        </p>       
+      </activity>
 
 
-    <activity xml:id = "activity-limits-numerically4">
+      <activity xml:id = "activity-limits-numerically4">
         <introduction>
-    <p>Consider the following function <m>f(x)= 3x^3 + 2x^2- 5x+20.</m></p>
-          </introduction>
-      <task>
-        <p> Of the following options, at which values given would you evaluate <m>f(x)</m> to best determine <m>\displaystyle \lim_{x \to 2}f(x)</m> numerically?</p>
-        
-              <ol marker="A." cols="2">
-                    <li><p> 1.9, 1.99, 2.0, 2.01, 2.1</p></li>
-                    <li><p> 1.98, 1.99, 2.0, 2.01, 2.02 </p></li>
-                    <li><p> 1.8, 1.9, 2.0, 2.1, 2.2</p></li>
-                    <li><p> 1.0, 1.5, 2.0, 2.5, 3.0</p></li>
-                </ol>
-
+          <p>
+            Consider the following function <m>f(x)= 3x^3 + 2x^2- 5x+20.</m>
+          </p>
+        </introduction>
+        <task>
+          <p>
+            Of the following options, at which values given would you evaluate <m>f(x)</m> to best determine <m>\ds \lim_{x \to 2}f(x)</m> numerically?
+          </p>
+          <p>
+            <ol marker="A." cols="2">
+              <li><p> 1.9, 1.99, 2.0, 2.01, 2.1</p></li>
+              <li><p> 1.98, 1.99, 2.0, 2.01, 2.02 </p></li>
+              <li><p> 1.8, 1.9, 2.0, 2.1, 2.2</p></li>
+              <li><p> 1.0, 1.5, 2.0, 2.5, 3.0</p></li>
+            </ol>
+          </p>
         </task>
 
-  <task>  
-        <p> Use the values that you chose in part (a) to calculate an approximation for <m>\displaystyle\lim_{x \to 2}f(x)</m>. </p>
+        <task>  
+          <p>
+            Use the values that you chose in part (a) to calculate an approximation for <m>\displaystyle\lim_{x \to 2}f(x)</m>.
+          </p>
         </task>
-  <task>
-        <p> Which value best describes the limit that you obtained in part (b)?</p>
-        
+        <task>
+          <p>
+            Which value best describes the limit that you obtained in part (b)?
+          </p>
+          <p>
             <ol marker="A.">
-            <li><p> The approximate value is 41.25</p></li>
-            <li><p> The approximate value is 41.5 </p></li>
-            <li><p> The approximate value is 41.75</p></li>
-            <li><p> The approximate value is 42</p></li>
-        </ol>
-        
-  </task>
-    </activity>
+              <li><p> The approximate value is 41.25</p></li>
+              <li><p> The approximate value is 41.5 </p></li>
+              <li><p> The approximate value is 41.75</p></li>
+              <li><p> The approximate value is 42</p></li>
+            </ol>
+          </p>  
+        </task>
+      </activity>
 
 
-    <activity xml:id = "activity-limits-numerically5">
-              <introduction> 
-                <p> In <xref ref="figure-limit-numerical-5" /> is the graph for <m>f(x) = \sin\left(\frac{1}{x}\right)</m>.  Several values for <m>f(x)</m> in the neighborhood of <m>x = 0</m> are approximated in  <xref ref = "table-limit-numerical5"/>.  </p>
-        <figure xml:id="figure-limit-numerical-5">
-      <image width="50%" source="limits_numerical5_graph.png" />
-                <caption>Graph of <m>f(x) = \sin(1/x)</m>.</caption>
-        </figure>
-        <table xml:id="table-limit-numerical5">
-        <tabular halign="center">
-                <row bottom="minor">
-                  <cell>
-                      <m>x</m>
-                  </cell>
-                  <cell><m>
-                    -0.1
-                  </m></cell>
-                  <cell><m>
-                    -0.01
-                  </m></cell>
-                  <cell><m>
-                    -0.001
-                  </m></cell>
-                  <cell><m>
-                    0
-                  </m></cell>
-                  <cell><m>
-                    0.001
-                  </m></cell>
-                  <cell><m>
-                    0.01
-                  </m></cell>
-                  <cell><m>
-                    0.1
-                  </m></cell>
-                </row>
-                <row>
-                  <cell>
-                      <m>f(x)</m>
-                  </cell>
-                  <cell><m>
-                    0.54402
-                  </m></cell>
-                  <cell><m>
-                    0.50637
-                  </m></cell>
-                  <cell><m>
-                    -0.82688
-                  </m></cell>
-                  <cell>
-                    <m>\unknown</m>
-                  </cell>
-                  <cell><m>
-                    0.82688
-                  </m></cell>
-                  <cell><m>
-                    -0.50637
-                  </m></cell>
-                  <cell><m>
-                    -0.54402
-                  </m></cell>
-                </row>
+      <activity xml:id = "activity-limits-numerically5">
+        <introduction> 
+          <p>
+            In <xref ref="figure-limit-numerical-5" /> is the graph for <m>f(x) = \sin\lrpar{\dfrac{1}{x}}</m>.  Several values for <m>f(x)</m> in the neighborhood of <m>x = 0</m> are approximated in  <xref ref = "table-limit-numerical5"/>.  
+          </p>
+          <figure xml:id="figure-limit-numerical-5">
+            <image width="50%" source="limits_numerical5_graph.png" />
+            <caption>Graph of <m>f(x) = \sin(1/x)</m>.</caption>
+          </figure>
+          <table xml:id="table-limit-numerical5">
+            <title></title>
+            <tabular halign="center">
+              <row bottom="minor">
+                <cell>
+                  <m>x</m>
+                </cell>
+                <cell>
+                  <m>-0.1</m>
+                </cell>
+                <cell>
+                  <m>-0.01</m>
+                </cell>
+                <cell>
+                  <m>-0.001</m>
+                </cell>
+                <cell>
+                  <m>0</m>
+                </cell>
+                <cell>
+                  <m>0.001</m>
+                </cell>
+                <cell>
+                  <m>0.01</m>
+                </cell>
+                <cell>
+                  <m>0.1</m>
+                </cell>
+              </row>
+              <row>
+                <cell>
+                    <m>f(x)</m>
+                </cell>
+                <cell>
+                  <m>0.54402</m>
+                </cell>
+                <cell>
+                  <m>0.50637</m>
+                </cell>
+                <cell>
+                  <m>-0.82688</m>
+                </cell>
+                <cell>
+                  <m>\unknown</m>
+                </cell>
+                <cell>
+                  <m>0.82688</m>
+                </cell>
+                <cell>
+                  <m>-0.50637</m>
+                </cell>
+                <cell>
+                  <m>-0.54402</m>
+                </cell>
+              </row>
             </tabular>
-        </table>
-  </introduction>
-        <task> <statement> <p>Based on the graph and table what is the best explanation for the limit as <m>x</m> tends to zero?</p>
-        <ol marker="A.">
-            <li><p> The limit does not exist because the left and right limits have opposite values.</p></li>
-            <li><p> The limit does not exist because we do not have enough information to answer the question. </p></li>
-            <li><p> The limit does not exist because the function is oscillating between -1 and 1.</p></li>
-            <li><p> The limit does not exist because you are dividing by zero when <m>x = 0</m> for <m>f(x).</m></p></li>
+          </table>
+        </introduction>
+          <task> 
+            <statement>
+              <p>
+                Based on the graph and table what is the best explanation for the limit as <m>x</m> tends to zero?
+              </p>
+              <p>
+                <ol marker="A.">
+                  <li><p> The limit does not exist because the left and right limits have opposite values.</p></li>
+                  <li><p> The limit does not exist because we do not have enough information to answer the question. </p></li>
+                  <li><p> The limit does not exist because the function is oscillating between -1 and 1.</p></li>
+                  <li><p> The limit does not exist because you are dividing by zero when <m>x = 0</m> for <m>f(x).</m></p></li>
+                </ol>
+              </p>
+            </statement>
+          </task>   
+          <task>
+            <statement>
+              <p>
+                Would your conclusion that resulted from <xref ref = "activity-limits-numerically5"/> change if the function was <m>f(x) = \cos(1/x)</m> or <m>f(x) = \tan(1/x)</m>? Explain why or why not.
+              </p>
+            </statement>
+          </task>   
+      </activity>
 
-        </ol>
-        </statement> </task>   
-  <task> <statement>
-        <p>Would your conclusion that resulted from <xref ref = "activity-limits-numerically5"/> change if the function was <m>f(x) = \cos(1/x)</m> or <m>f(x) = \tan(1/x)</m>?</p>
-        </statement> </task>   
-    </activity>
+      <activity checkit-seed="0014" checkit-slug="LT2" checkit-title="Limits numerically">
+        <statement>
+          <p>
+            Use technology to complete the following table of values.
+            <me>
+              f(x)=\frac{ x^{2} - x - 12 }{ x^{2} + 16 \, x + 39 }
+            </me>
+            <me>
+              \begin{array}{c|ccccccc}
+              x &amp; -3.1&amp; -3.01&amp; -3.001&amp; -3&amp; -2.999&amp; -2.99&amp; -2.9 \\\hline
+              f(x) &amp; &amp; &amp; &amp; &amp; &amp; &amp;  \\
+              \end{array}
+            </me>
+          </p>
+          <p>
+            Then explain how to use it to make an educated guess as to the value of the limit <me>
+              \ds \lim_{ x\to -3 } \frac{ x^{2} - x - 12 }{ x^{2} + 16 \, x + 39 }
+            </me>
+          </p>
+        </statement>
+      </activity>
 
-        <activity checkit-seed="0014" checkit-slug="LT2" checkit-title="Limits numerically">
-    <statement>
-        <p>
-  Use technology to complete the following table of values.
-  <me>f(x)=\frac{ x^{2} - x - 12 }{ x^{2} + 16 \, x + 39 }</me>
-            <me>
-  \begin{array}{c|ccccccc}
-  x &amp; -3.1&amp; -3.01&amp; -3.001&amp; -3&amp; -2.999&amp; -2.99&amp; -2.9 \\\hline
-  f(x) &amp; &amp; &amp; &amp; &amp; &amp; &amp;  \\
-  \end{array}
-            </me>
-        </p>
-        <p>
-  Then explain how to use it to make an educated guess as to the value of
-  the limit <me>\displaystyle \lim_{ x\to -3 } \frac{ x^{2} - x - 12 }{ x^{2} + 16 \, x + 39 }</me>
-        </p>
-    </statement>
-  <!--     <answer>
-        <p>
-            <me>
-  \begin{array}{c|ccccccc}
-  x &amp; -3.1&amp; -3.01&amp; -3.001&amp; -3&amp; -2.999&amp; -2.99&amp; -2.9 \\\hline
-  f(x) &amp; -0.71717&amp; -0.7017&amp; -0.70017&amp; DNE&amp; -0.69983&amp; -0.6983&amp; -0.68317 \\
-  \end{array}
-            </me>
-        </p>
-        <p>
-  The limit is <m>-0.7</m>.
-        </p>
-    </answer> -->
-  </activity>
-    
-    <aside>
-        <p><xref ref="activity-bolt1"/> was inspired by <url href = "https://www.quantamagazine.org/infinite-powers-usain-bolt-and-the-art-of-calculus-20190403/"/></p>
-        <p>Its data was taken from <url href = "https://speedendurance.com/2008/08/22/usain-bolt-100m-10-meter-splits-and-speed-endurance/"/></p>
-    </aside>
-        <activity xml:id = "activity-bolt1">
-              <introduction> 
-                <p> In this activity you will study the velocity of Usain Bolt in his Beijing 100 meters
-                    dash.
-                    He completed 100 meters in 9.69 seconds for an overall average speed of 100/9.69 = 10.32 meters per second (about 23 miles per hour).
-                    But this is the average velocity on the whole interval. How fast was he at different instances? What was his maximum velocity?
-                    Let's explore this. The table <xref ref = "table-bolt1"/> shows his split times recorded every 10 meters. </p>
-        <table xml:id="table-bolt1">
-        <tabular>
-                <row bottom="minor">
-                  <cell>
-                      <m> t\, \text{(seconds)} </m>
-                  </cell>
-                  <cell><m>
-                    1.85
-                  </m></cell>
-                  <cell><m>
-                    2.87
-                  </m></cell>
-                  <cell><m>
-                    3.78
-                  </m></cell>
-                  <cell><m>
-                    4.65
-                  </m></cell>
-                  <cell><m>
-                    5.5
-                  </m></cell>
-                  <cell><m>
-                    6.32
-                  </m></cell>
-                <cell><m>
-                  7.14
-                  </m></cell>
-                <cell><m>
-                    7.96
-                  </m></cell>
-                <cell><m>
-                    8.79
-                  </m></cell>
-                <cell><m>
-                    9.69
-                  </m></cell>
-                </row>
-                <row>
-                  <cell>
-                      <m>d \, \text{(meters)} </m>
-                  </cell>
-                  <cell><m>
-                    10
-                  </m></cell>
-                  <cell><m>
-                    20
-                  </m></cell>
-                  <cell><m>
-                    30
-                  </m></cell>
-                  <cell><m>
-                    40
-                  </m></cell>
-                  <cell><m>
-                    50
-                  </m></cell>
-                  <cell><m>
-                    60
-                  </m></cell>
-                  <cell><m>
-                    70
-                  </m></cell>
-                  <cell><m>
-                    80
-                  </m></cell>
-                  <cell><m>
-                    90
-                  </m></cell>
-                  <cell><m>
-                    100
-                  </m></cell>
-                </row>
-            </tabular>
-        </table>
-  </introduction>
-    <task> <statement> <p>What was the average velocity on the first 50 meters? On the second 50 meters? </p>
-        </statement> </task>  
-                <task> <statement> <p>What was the average velocity between 30 and 50 meters? Between 50 and 70 meters? </p>
-                  </statement> </task>    
-                <task> <statement> <p> What was the average velocity between 40 and 50 meters? Between 50 and 60 meters? </p>
-        </statement> </task> 
-            <task> <statement> <p>What is your best estimate for the Usain's velocity at the instant when he passed the 50 meters mark? This is your estimate for the instantaneous velocity. </p>
-        </statement> </task> 
-              <task> <statement> <p>Using the table of values, explain why 50 meters is NOT the best guess for when the instantaneous velocity was the largest. What other point would be more reasonable? </p>
-        </statement> </task> 
-    </activity>
-    
   </subsection>
 </section>
