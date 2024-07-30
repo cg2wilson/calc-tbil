@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "L1: Limits Graphically\/Numerically",
-  "body": " L1: Limits Graphically\/Numerically     L1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.      Pre-Class Videos    Consider the function . A table of its values (to 6 decimal places) are given below:                                                                                                                                  Describe what is happening to the output values as approaches 2.    As ,       Draw three graphs so that the limit is defined at the input , but is distinct at all three points. This illustrates three possibilities when dealing with limits.      The graph of with a point located at      The graph of with the point located at removed     The graph of with a point located at removed and moved above         For each of the graphs below, describe the limit at       A line with a point removed at        A piecewise function, with a split at        A graph with a vertical asymptote at              and , so      does not exist because and      does not exist because and          For each of the graphs below, describe the limit as and       A line with a point removed at        A piecewise function, with a split at        A graph with a vertical asymptote at              and      and      and          In-Class Activities    In the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of .    A graph of a function that has not been rendered properly.    Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What -value are you approaching?  0.5  1  1.5  2  2.5   Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What -value are you approaching?  0.5  1  1.5  2  2.5      In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?  0.5  1  1.5  2  2.5   What is the -value that is approached as we move toward from the right?  0.5  1  1.5  2  2.5      Conjecture why  illustrate the need for \"approaching\" an input value, and connect this to           A piecewise-defined function    What is the limit as approaches in ?   The limit is 1  The limit is -1  The limit is 0  The limit is not defined      Refer again to from .   Which of the following best matches the definition of right and left limits? (Note that DNE is short for \"does not exist.\")  The left limit is -1. The right limit is 1.  The left limit is 1. The right limit is -1.  The left limit DNE. The right limit is 1.  The left limit is -1. The right limit DNE.  The left limit DNE. The right limit DNE.   What do you think the overall limit equals?  The limit is 1  The limit is -1  The limit is 0  The limit is not defined      Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.          Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.    is finite, but is infinite.      , but .      but .                                                              Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999      Notice that the value we obtained in is only an approximation, based on the trends that we have seen within the table.                                                            In 's we found an approximation to the limit of the function as tends to 2. Now let us say you are also given a table of numerical values ( ) for the function. Given this new information which of the choices below best describes the limit of the function as tends to 2?   There is not enough information because we do not know the value of the function at .  The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as goes to 2.  The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.  The limit cannot be approximated because the function might not exist at .                                   Based on , what information can be inferred about , , and ?    , and   , and does not exist   , and does not exist   , and      Consider the following function   Of the following options, at which values given would you evaluate to best determine numerically?  1.9, 1.99, 2.0, 2.01, 2.1  1.98, 1.99, 2.0, 2.01, 2.02  1.8, 1.9, 2.0, 2.1, 2.2  1.0, 1.5, 2.0, 2.5, 3.0   Use the values that you chose in part (a) to calculate an approximation for .  Which value best describes the limit that you obtained in part (b)?  The approximate value is 41.25  The approximate value is 41.5  The approximate value is 41.75  The approximate value is 42      In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                   Based on the graph and table what is the best explanation for the limit as tends to zero?   The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for     Would your conclusion that resulted from change if the function was or ?      Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit       was inspired by  Its data was taken from     In this activity you will study the velocity of Usain Bolt in his Beijing 100 meters dash. He completed 100 meters in 9.69 seconds for an overall average speed of 100\/9.69 = 10.32 meters per second (about 23 miles per hour). But this is the average velocity on the whole interval. How fast was he at different instances? What was his maximum velocity? Let's explore this. The table shows his split times recorded every 10 meters.                                      What was the average velocity on the first 50 meters? On the second 50 meters?    What was the average velocity between 30 and 50 meters? Between 50 and 70 meters?    What was the average velocity between 40 and 50 meters? Between 50 and 60 meters?    What is your best estimate for the Usain's velocity at the instant when he passed the 50 meters mark? This is your estimate for the instantaneous velocity.    Using the table of values, explain why 50 meters is NOT the best guess for when the instantaneous velocity was the largest. What other point would be more reasonable?     "
+  "body": " L1: Limits Graphically\/Numerically     L1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.      In-Class Activities    In the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of .    A graph of a function that has not been rendered properly.    Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What -value are you approaching?    0.5    1    1.5    2    2.5     Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What -value are you approaching?    0.5    1    1.5    2    2.5        In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?    0.5    1    1.5    2    2.5     What is the -value that is approached as we move toward from the right?    0.5    1    1.5    2    2.5       When studying functions in algebra, we often focused on the value of a function given a specific -value. For instance, finding for some function . In and , we have instead been exploring what is happening as we approach a certain value on a graph. This concept in mathematics (especially important in calculus) is known as finding a limit .    Refer back to and . Write your first draft of the definition of a limit. What is important to include? (You can use concepts of limits from your daily life to motivate or define what a limit is.)    Limit   Given a function , a fixed input , and a real number , we say that has limit as approaches , limit definition and write provided that we can make as close to as we like by taking sufficiently close (but not equal) to .  If we cannot make as close to a single value as we would like as approaches , then we say that does not have a limit as approaches .      Conjecture why and illustrate the need for \"approaching\" an input value, and connect this to          A piecewise-defined function    What is the limit as approaches in ?    The limit is 1    The limit is -1    The limit is 0    The limit is not defined       Left- and Right-Hand Limits   We say that has limit as approaches from the left and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having . We call the left-hand limit of as approaches .  Similarly, we say is the right-hand limit of as approaches and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having .      Refer again to from .   Which of the following best matches the definition of right and left limits? (Note that DNE is short for \"does not exist.\")   The left limit is -1. The right limit is 1.  The left limit is 1. The right limit is -1.  The left limit DNE. The right limit is 1.  The left limit is -1. The right limit DNE.  The left limit DNE. The right limit DNE.    What do you think the overall limit equals?   The limit is 1  The limit is -1  The limit is 0  The limit is not defined       Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.          Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.      is finite, but is infinite.     , but .     but .                                                                Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999      Notice that the value we obtained in is only an approximation, based on the trends that we have seen within the table.                                                               In 's we found an approximation to the limit of the function as tends to 2.  Now let us say you are also given a table of numerical values ( ) for the function. Given this new information which of the choices below best describes the limit of the function as tends to 2?     There is not enough information because we do not know the value of the function at .    The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as goes to 2.    The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.    The limit cannot be approximated because the function might not exist at .                                        Based on , what information can be inferred about , , and ?      , and      , and does not exist.     , and does not exist.     , and         Consider the following function    Of the following options, at which values given would you evaluate to best determine numerically?   1.9, 1.99, 2.0, 2.01, 2.1  1.98, 1.99, 2.0, 2.01, 2.02  1.8, 1.9, 2.0, 2.1, 2.2  1.0, 1.5, 2.0, 2.5, 3.0    Use the values that you chose in part (a) to calculate an approximation for .  Which value best describes the limit that you obtained in part (b)?   The approximate value is 41.25  The approximate value is 41.5  The approximate value is 41.75  The approximate value is 42       In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                                              Based on the graph and table what is the best explanation for the limit as tends to zero?    The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for      Would your conclusion that resulted from change if the function was or ? Explain why or why not.      Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit      "
 },
 {
   "id": "L1-2",
@@ -64,49 +64,13 @@ var ptx_lunr_docs = [
   "body": "   L1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.    "
 },
 {
-  "id": "L1-preclass-2",
-  "level": "2",
-  "url": "L1.html#L1-preclass-2",
-  "type": "Example",
-  "number": "1.1.1",
-  "title": "",
-  "body": "  Consider the function . A table of its values (to 6 decimal places) are given below:                                                                                                                                  Describe what is happening to the output values as approaches 2.    As ,    "
-},
-{
-  "id": "L1-preclass-3",
-  "level": "2",
-  "url": "L1.html#L1-preclass-3",
-  "type": "Example",
-  "number": "1.1.2",
-  "title": "",
-  "body": "  Draw three graphs so that the limit is defined at the input , but is distinct at all three points. This illustrates three possibilities when dealing with limits.      The graph of with a point located at      The graph of with the point located at removed     The graph of with a point located at removed and moved above      "
-},
-{
-  "id": "L1-preclass-4",
-  "level": "2",
-  "url": "L1.html#L1-preclass-4",
-  "type": "Example",
-  "number": "1.1.3",
-  "title": "",
-  "body": "  For each of the graphs below, describe the limit at       A line with a point removed at        A piecewise function, with a split at        A graph with a vertical asymptote at              and , so      does not exist because and      does not exist because and       "
-},
-{
-  "id": "L1-preclass-5",
-  "level": "2",
-  "url": "L1.html#L1-preclass-5",
-  "type": "Example",
-  "number": "1.1.4",
-  "title": "",
-  "body": "  For each of the graphs below, describe the limit as and       A line with a point removed at        A piecewise function, with a split at        A graph with a vertical asymptote at              and      and      and       "
-},
-{
   "id": "activity-limits-graphically1",
   "level": "2",
   "url": "L1.html#activity-limits-graphically1",
   "type": "Activity",
   "number": "1.1.1",
   "title": "",
-  "body": "  In the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of .    A graph of a function that has not been rendered properly.    Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What -value are you approaching?  0.5  1  1.5  2  2.5   Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What -value are you approaching?  0.5  1  1.5  2  2.5   "
+  "body": "  In the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of .    A graph of a function that has not been rendered properly.    Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What -value are you approaching?    0.5    1    1.5    2    2.5     Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What -value are you approaching?    0.5    1    1.5    2    2.5     "
 },
 {
   "id": "activity-limits-graphically2",
@@ -115,68 +79,104 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.1.2",
   "title": "",
-  "body": "  In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?  0.5  1  1.5  2  2.5   What is the -value that is approached as we move toward from the right?  0.5  1  1.5  2  2.5   "
+  "body": "  In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?    0.5    1    1.5    2    2.5     What is the -value that is approached as we move toward from the right?    0.5    1    1.5    2    2.5     "
 },
 {
   "id": "L1-activities-4",
   "level": "2",
   "url": "L1.html#L1-activities-4",
-  "type": "Activity",
+  "type": "Remark",
   "number": "1.1.3",
   "title": "",
-  "body": "  Conjecture why  illustrate the need for \"approaching\" an input value, and connect this to    "
+  "body": " When studying functions in algebra, we often focused on the value of a function given a specific -value. For instance, finding for some function . In and , we have instead been exploring what is happening as we approach a certain value on a graph. This concept in mathematics (especially important in calculus) is known as finding a limit .  "
+},
+{
+  "id": "L1-activities-5",
+  "level": "2",
+  "url": "L1.html#L1-activities-5",
+  "type": "Question",
+  "number": "1.1.4",
+  "title": "",
+  "body": " Refer back to and . Write your first draft of the definition of a limit. What is important to include? (You can use concepts of limits from your daily life to motivate or define what a limit is.)  "
+},
+{
+  "id": "def-limit",
+  "level": "2",
+  "url": "L1.html#def-limit",
+  "type": "Definition",
+  "number": "1.1.5",
+  "title": "Limit.",
+  "body": " Limit   Given a function , a fixed input , and a real number , we say that has limit as approaches , limit definition and write provided that we can make as close to as we like by taking sufficiently close (but not equal) to .  If we cannot make as close to a single value as we would like as approaches , then we say that does not have a limit as approaches .    "
+},
+{
+  "id": "L1-activities-7",
+  "level": "2",
+  "url": "L1.html#L1-activities-7",
+  "type": "Question",
+  "number": "1.1.6",
+  "title": "",
+  "body": " Conjecture why and illustrate the need for \"approaching\" an input value, and connect this to   "
 },
 {
   "id": "activity-limits-graphically-one-sided",
   "level": "2",
   "url": "L1.html#activity-limits-graphically-one-sided",
   "type": "Activity",
-  "number": "1.1.4",
+  "number": "1.1.3",
   "title": "",
-  "body": "      A piecewise-defined function    What is the limit as approaches in ?   The limit is 1  The limit is -1  The limit is 0  The limit is not defined   "
+  "body": "      A piecewise-defined function    What is the limit as approaches in ?    The limit is 1    The limit is -1    The limit is 0    The limit is not defined     "
+},
+{
+  "id": "L1-activities-9",
+  "level": "2",
+  "url": "L1.html#L1-activities-9",
+  "type": "Definition",
+  "number": "1.1.8",
+  "title": "Left- and Right-Hand Limits.",
+  "body": " Left- and Right-Hand Limits   We say that has limit as approaches from the left and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having . We call the left-hand limit of as approaches .  Similarly, we say is the right-hand limit of as approaches and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having .   "
 },
 {
   "id": "activity-limits-graphically-one-sided2",
   "level": "2",
   "url": "L1.html#activity-limits-graphically-one-sided2",
   "type": "Activity",
-  "number": "1.1.5",
+  "number": "1.1.4",
   "title": "",
-  "body": "  Refer again to from .   Which of the following best matches the definition of right and left limits? (Note that DNE is short for \"does not exist.\")  The left limit is -1. The right limit is 1.  The left limit is 1. The right limit is -1.  The left limit DNE. The right limit is 1.  The left limit is -1. The right limit DNE.  The left limit DNE. The right limit DNE.   What do you think the overall limit equals?  The limit is 1  The limit is -1  The limit is 0  The limit is not defined   "
+  "body": "  Refer again to from .   Which of the following best matches the definition of right and left limits? (Note that DNE is short for \"does not exist.\")   The left limit is -1. The right limit is 1.  The left limit is 1. The right limit is -1.  The left limit DNE. The right limit is 1.  The left limit is -1. The right limit DNE.  The left limit DNE. The right limit DNE.    What do you think the overall limit equals?   The limit is 1  The limit is -1  The limit is 0  The limit is not defined    "
 },
 {
   "id": "activity-limits-graphically-fluency1",
   "level": "2",
   "url": "L1.html#activity-limits-graphically-fluency1",
   "type": "Activity",
-  "number": "1.1.6",
+  "number": "1.1.5",
   "title": "",
   "body": "  Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.       "
 },
 {
-  "id": "L1-activities-8",
+  "id": "L1-activities-12",
   "level": "2",
-  "url": "L1.html#L1-activities-8",
+  "url": "L1.html#L1-activities-12",
   "type": "Activity",
-  "number": "1.1.7",
+  "number": "1.1.6",
   "title": "",
-  "body": "  Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.    is finite, but is infinite.      , but .      but .    "
+  "body": "  Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.      is finite, but is infinite.     , but .     but .      "
 },
 {
   "id": "activity-limits-numerically1",
   "level": "2",
   "url": "L1.html#activity-limits-numerically1",
   "type": "Activity",
-  "number": "1.1.8",
+  "number": "1.1.7",
   "title": "",
   "body": "                                                         Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999    "
 },
 {
-  "id": "L1-activities-10",
+  "id": "L1-activities-14",
   "level": "2",
-  "url": "L1.html#L1-activities-10",
+  "url": "L1.html#L1-activities-14",
   "type": "Remark",
-  "number": "1.1.10",
+  "number": "1.1.11",
   "title": "",
   "body": " Notice that the value we obtained in is only an approximation, based on the trends that we have seen within the table.  "
 },
@@ -185,54 +185,45 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "L1.html#activity-limits-numerically2",
   "type": "Activity",
-  "number": "1.1.9",
+  "number": "1.1.8",
   "title": "",
-  "body": "                                                         In 's we found an approximation to the limit of the function as tends to 2. Now let us say you are also given a table of numerical values ( ) for the function. Given this new information which of the choices below best describes the limit of the function as tends to 2?   There is not enough information because we do not know the value of the function at .  The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as goes to 2.  The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.  The limit cannot be approximated because the function might not exist at .   "
+  "body": "                                                            In 's we found an approximation to the limit of the function as tends to 2.  Now let us say you are also given a table of numerical values ( ) for the function. Given this new information which of the choices below best describes the limit of the function as tends to 2?     There is not enough information because we do not know the value of the function at .    The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as goes to 2.    The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.    The limit cannot be approximated because the function might not exist at .     "
 },
 {
   "id": "activity-limits-numerically3",
   "level": "2",
   "url": "L1.html#activity-limits-numerically3",
   "type": "Activity",
-  "number": "1.1.10",
+  "number": "1.1.9",
   "title": "",
-  "body": "                               Based on , what information can be inferred about , , and ?    , and   , and does not exist   , and does not exist   , and   "
+  "body": "                                  Based on , what information can be inferred about , , and ?      , and      , and does not exist.     , and does not exist.     , and      "
 },
 {
   "id": "activity-limits-numerically4",
   "level": "2",
   "url": "L1.html#activity-limits-numerically4",
   "type": "Activity",
-  "number": "1.1.11",
+  "number": "1.1.10",
   "title": "",
-  "body": "  Consider the following function   Of the following options, at which values given would you evaluate to best determine numerically?  1.9, 1.99, 2.0, 2.01, 2.1  1.98, 1.99, 2.0, 2.01, 2.02  1.8, 1.9, 2.0, 2.1, 2.2  1.0, 1.5, 2.0, 2.5, 3.0   Use the values that you chose in part (a) to calculate an approximation for .  Which value best describes the limit that you obtained in part (b)?  The approximate value is 41.25  The approximate value is 41.5  The approximate value is 41.75  The approximate value is 42   "
+  "body": "  Consider the following function    Of the following options, at which values given would you evaluate to best determine numerically?   1.9, 1.99, 2.0, 2.01, 2.1  1.98, 1.99, 2.0, 2.01, 2.02  1.8, 1.9, 2.0, 2.1, 2.2  1.0, 1.5, 2.0, 2.5, 3.0    Use the values that you chose in part (a) to calculate an approximation for .  Which value best describes the limit that you obtained in part (b)?   The approximate value is 41.25  The approximate value is 41.5  The approximate value is 41.75  The approximate value is 42    "
 },
 {
   "id": "activity-limits-numerically5",
   "level": "2",
   "url": "L1.html#activity-limits-numerically5",
   "type": "Activity",
+  "number": "1.1.11",
+  "title": "",
+  "body": "  In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                                              Based on the graph and table what is the best explanation for the limit as tends to zero?    The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for      Would your conclusion that resulted from change if the function was or ? Explain why or why not.   "
+},
+{
+  "id": "L1-activities-19",
+  "level": "2",
+  "url": "L1.html#L1-activities-19",
+  "type": "Activity",
   "number": "1.1.12",
   "title": "",
-  "body": "  In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                   Based on the graph and table what is the best explanation for the limit as tends to zero?   The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for     Would your conclusion that resulted from change if the function was or ?   "
-},
-{
-  "id": "L1-activities-15",
-  "level": "2",
-  "url": "L1.html#L1-activities-15",
-  "type": "Activity",
-  "number": "1.1.13",
-  "title": "",
-  "body": "  Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit     "
-},
-{
-  "id": "activity-bolt1",
-  "level": "2",
-  "url": "L1.html#activity-bolt1",
-  "type": "Activity",
-  "number": "1.1.14",
-  "title": "",
-  "body": "  In this activity you will study the velocity of Usain Bolt in his Beijing 100 meters dash. He completed 100 meters in 9.69 seconds for an overall average speed of 100\/9.69 = 10.32 meters per second (about 23 miles per hour). But this is the average velocity on the whole interval. How fast was he at different instances? What was his maximum velocity? Let's explore this. The table shows his split times recorded every 10 meters.                                      What was the average velocity on the first 50 meters? On the second 50 meters?    What was the average velocity between 30 and 50 meters? Between 50 and 70 meters?    What was the average velocity between 40 and 50 meters? Between 50 and 60 meters?    What is your best estimate for the Usain's velocity at the instant when he passed the 50 meters mark? This is your estimate for the instantaneous velocity.    Using the table of values, explain why 50 meters is NOT the best guess for when the instantaneous velocity was the largest. What other point would be more reasonable?   "
+  "body": "  Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit    "
 },
 {
   "id": "L2",
