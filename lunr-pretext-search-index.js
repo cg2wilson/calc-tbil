@@ -394,7 +394,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "L3: Asymptotes",
-  "body": " L3: Asymptotes     L3  I can determine when and if a function will have a vertical or horizontal asymptote.      Pre-Class Videos    In-Class Activities   "
+  "body": " L3: Asymptotes     L3  I can determine when and if a function will have a vertical or horizontal asymptote.      In-Class Activities    Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.     We say that the limit as tends to negative infinity of is negative infinity and that the limit as tends to positive infinity of is positive infinity. In symbols, we write      Consider the graph of the rational function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?      The graph of .     As tends to positive infinity, the function tends to positive infinity  As tends to negative infinity, the function tends to 0  As tends to positive infinity, the function tends to negative infinity  As tends to 0, the function tends to 0      A function has a horizontal asymptote horizontal asymptote at when   or   This means that we can make the output of as close as we want to , as long as we take a large enough positive number ( ) or a large enough negative number ( ).      We say that the function has horizontal asymptote because the limit as tends to positive infinity of is 0. Alternatively, we could also justify it by saying that the limit as goes to negative infinity is 0.      Which of the following functions have horizontal asymptotes? Select all!        A       B       C         D       E       F        Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as tends to + or - infinity?    The only possible limit is  The only possible limits are or   The only possible limits are , or   The only possible limits are any constant number or     In this activity we will examine functions whose limit as approaches positive and negative infinity is a nonzero constant.  Graph the following functions and consider their limits as approaches positive and negative infinity. Which function(s) have a limit that is nonzero and constant? Find each of these limits.        Conjecture a rule for how to determine that a rational function has a nonzero constant limit as approaches positive and negative infinity. Test your rule by creating a rational function whose limit as equals 3 and then check it graphically.     What about when the limit is not a nonzero constant? How do we recognize those? In this activity you will first conjecture the general behavior of rational functions and then test your conjectures.   Consider a rational function . Looking at the numerator and the denominator , when does the function have limit equal to 0 as   When the ratio of the leading terms is a constant.  When the degree of the numerator is greater than the degree of the denominator.  When the degree of the numerator is less than the degree of the denominator.  When the degree of the numerator is equal to the degree of the denominator.   Consider a rational function . Looking at the numerator and the denominator , when does the function have limit approaching infinity as   When the ratio of the leading terms is a constant.  When the degree of the numerator is greater than the degree of the denominator.  When the degree of the numerator is less than the degree of the denominator.  When the degree of the numerator is equal to the degree of the denominator.   Conjecture a rule for the each of the previous two parts of the activity. Test your rules by creating a rational function whose limit as equals 0 and another whose limit as is infinite. Then check them graphically.     Explain how to find the value of each limit.         What is your best guess for the limit as goes to of the function graphed below?      A mysterious periodic function.     The limit is  The limit is   The limit is   The limit is  The limit DNE    For a periodic function, a function whose outputs repeat periodically, there is not one distinguished long term behavior, so the limit DNE. Notice that this is different from the limit being +infinity in which case the outputs have a clear behavior: they are getting larger and larger. Unfortunately, you will find in many cases that the notation DNE is used both for a limit equal to infinity and a limit that does not tend to one distinguished value. Beware!    Compute the following limits.       (Challenge)  (Challenge)     The graph below represents the function .      The graph of     Find the horizontal asymptote of . First, guess it from the graph. Then, prove that your guess is right using algebra.    Use limit notation to describe the behavior of at its horizontal asymptotes.      Come up with the formula of a rational function that has horizontal asymptote .   What do you think is happening around ? We will come back to this in the next section!       An exponential function exhibiting exponential decay will have the long term behavior as . If we shift the graph up by units, we obtain the new function , with the long term behavior . A cooling object can be represented by the exponential decay model .      In this activity you will explore an exponential model for a cooling object.  Consider a cup of coffee initially at 100 degrees Fahrenheit. The said cup of coffee was forgotten this morning on the kitchen counter where the thermostat is set at 72 degrees Fahrenheit. From previous observations, we can assume that a cup of coffee looses 10 percent of its temperature each minute.    In the long run, what temperature do you expect the coffee to tend to? Write your observation with limit notation.    In the model , your previous answer gives you the value of one of the parameters in this model. Which one?    From the information given, we notice that the cup of coffee has decay rate of 10% or . When an exponential model has decay rate , its exponential base has value . Use this to find the value of for the exponential model described in this scenario.    Assume that the initial temperature corresponds to input . Use the data about the initial temperature to find the value of the parameter in the model .    You should have found that this scenario has exponential model . If you go back to drink the cup of coffee 30 minutes after it was left on the counter, what temperature will the coffee have reached?     "
 },
 {
   "id": "L3-2",
@@ -404,6 +404,150 @@ var ptx_lunr_docs = [
   "number": "1.3",
   "title": "",
   "body": "   L3  I can determine when and if a function will have a vertical or horizontal asymptote.    "
+},
+{
+  "id": "LT5-infinity-intuition1",
+  "level": "2",
+  "url": "L3.html#LT5-infinity-intuition1",
+  "type": "Activity",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.   "
+},
+{
+  "id": "L3-activities-3",
+  "level": "2",
+  "url": "L3.html#L3-activities-3",
+  "type": "Remark",
+  "number": "1.3.2",
+  "title": "",
+  "body": " We say that the limit as tends to negative infinity of is negative infinity and that the limit as tends to positive infinity of is positive infinity. In symbols, we write   "
+},
+{
+  "id": "LT5-infinity-inutition2",
+  "level": "2",
+  "url": "L3.html#LT5-infinity-inutition2",
+  "type": "Activity",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  Consider the graph of the rational function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?      The graph of .     As tends to positive infinity, the function tends to positive infinity  As tends to negative infinity, the function tends to 0  As tends to positive infinity, the function tends to negative infinity  As tends to 0, the function tends to 0   "
+},
+{
+  "id": "L3-activities-5",
+  "level": "2",
+  "url": "L3.html#L3-activities-5",
+  "type": "Definition",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  A function has a horizontal asymptote horizontal asymptote at when   or   This means that we can make the output of as close as we want to , as long as we take a large enough positive number ( ) or a large enough negative number ( ).   "
+},
+{
+  "id": "L3-activities-6",
+  "level": "2",
+  "url": "L3.html#L3-activities-6",
+  "type": "Remark",
+  "number": "1.3.5",
+  "title": "",
+  "body": "  We say that the function has horizontal asymptote because the limit as tends to positive infinity of is 0. Alternatively, we could also justify it by saying that the limit as goes to negative infinity is 0.   "
+},
+{
+  "id": "asymptotes-hor",
+  "level": "2",
+  "url": "L3.html#asymptotes-hor",
+  "type": "Activity",
+  "number": "1.3.3",
+  "title": "",
+  "body": "  Which of the following functions have horizontal asymptotes? Select all!        A       B       C         D       E       F     "
+},
+{
+  "id": "infinity-rational1",
+  "level": "2",
+  "url": "L3.html#infinity-rational1",
+  "type": "Activity",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as tends to + or - infinity?    The only possible limit is  The only possible limits are or   The only possible limits are , or   The only possible limits are any constant number or   "
+},
+{
+  "id": "infinity-rational2",
+  "level": "2",
+  "url": "L3.html#infinity-rational2",
+  "type": "Activity",
+  "number": "1.3.5",
+  "title": "",
+  "body": " In this activity we will examine functions whose limit as approaches positive and negative infinity is a nonzero constant.  Graph the following functions and consider their limits as approaches positive and negative infinity. Which function(s) have a limit that is nonzero and constant? Find each of these limits.        Conjecture a rule for how to determine that a rational function has a nonzero constant limit as approaches positive and negative infinity. Test your rule by creating a rational function whose limit as equals 3 and then check it graphically.  "
+},
+{
+  "id": "infinity-rational3",
+  "level": "2",
+  "url": "L3.html#infinity-rational3",
+  "type": "Activity",
+  "number": "1.3.6",
+  "title": "",
+  "body": "  What about when the limit is not a nonzero constant? How do we recognize those? In this activity you will first conjecture the general behavior of rational functions and then test your conjectures.   Consider a rational function . Looking at the numerator and the denominator , when does the function have limit equal to 0 as   When the ratio of the leading terms is a constant.  When the degree of the numerator is greater than the degree of the denominator.  When the degree of the numerator is less than the degree of the denominator.  When the degree of the numerator is equal to the degree of the denominator.   Consider a rational function . Looking at the numerator and the denominator , when does the function have limit approaching infinity as   When the ratio of the leading terms is a constant.  When the degree of the numerator is greater than the degree of the denominator.  When the degree of the numerator is less than the degree of the denominator.  When the degree of the numerator is equal to the degree of the denominator.   Conjecture a rule for the each of the previous two parts of the activity. Test your rules by creating a rational function whose limit as equals 0 and another whose limit as is infinite. Then check them graphically.  "
+},
+{
+  "id": "infinity-checkit",
+  "level": "2",
+  "url": "L3.html#infinity-checkit",
+  "type": "Activity",
+  "number": "1.3.7",
+  "title": "",
+  "body": "  Explain how to find the value of each limit.      "
+},
+{
+  "id": "infinity-dne",
+  "level": "2",
+  "url": "L3.html#infinity-dne",
+  "type": "Activity",
+  "number": "1.3.8",
+  "title": "",
+  "body": "  What is your best guess for the limit as goes to of the function graphed below?      A mysterious periodic function.     The limit is  The limit is   The limit is   The limit is  The limit DNE   "
+},
+{
+  "id": "L3-activities-13",
+  "level": "2",
+  "url": "L3.html#L3-activities-13",
+  "type": "Warning",
+  "number": "1.3.13",
+  "title": "",
+  "body": "For a periodic function, a function whose outputs repeat periodically, there is not one distinguished long term behavior, so the limit DNE. Notice that this is different from the limit being +infinity in which case the outputs have a clear behavior: they are getting larger and larger. Unfortunately, you will find in many cases that the notation DNE is used both for a limit equal to infinity and a limit that does not tend to one distinguished value. Beware! "
+},
+{
+  "id": "infinity-ext1",
+  "level": "2",
+  "url": "L3.html#infinity-ext1",
+  "type": "Activity",
+  "number": "1.3.9",
+  "title": "",
+  "body": "  Compute the following limits.       (Challenge)  (Challenge)  "
+},
+{
+  "id": "study-rational1",
+  "level": "2",
+  "url": "L3.html#study-rational1",
+  "type": "Activity",
+  "number": "1.3.10",
+  "title": "",
+  "body": "  The graph below represents the function .      The graph of     Find the horizontal asymptote of . First, guess it from the graph. Then, prove that your guess is right using algebra.    Use limit notation to describe the behavior of at its horizontal asymptotes.      Come up with the formula of a rational function that has horizontal asymptote .   What do you think is happening around ? We will come back to this in the next section!   "
+},
+{
+  "id": "L3-activities-16",
+  "level": "2",
+  "url": "L3.html#L3-activities-16",
+  "type": "Note",
+  "number": "1.3.15",
+  "title": "",
+  "body": "  An exponential function exhibiting exponential decay will have the long term behavior as . If we shift the graph up by units, we obtain the new function , with the long term behavior . A cooling object can be represented by the exponential decay model .   "
+},
+{
+  "id": "app-cooling",
+  "level": "2",
+  "url": "L3.html#app-cooling",
+  "type": "Activity",
+  "number": "1.3.11",
+  "title": "",
+  "body": "  In this activity you will explore an exponential model for a cooling object.  Consider a cup of coffee initially at 100 degrees Fahrenheit. The said cup of coffee was forgotten this morning on the kitchen counter where the thermostat is set at 72 degrees Fahrenheit. From previous observations, we can assume that a cup of coffee looses 10 percent of its temperature each minute.    In the long run, what temperature do you expect the coffee to tend to? Write your observation with limit notation.    In the model , your previous answer gives you the value of one of the parameters in this model. Which one?    From the information given, we notice that the cup of coffee has decay rate of 10% or . When an exponential model has decay rate , its exponential base has value . Use this to find the value of for the exponential model described in this scenario.    Assume that the initial temperature corresponds to input . Use the data about the initial temperature to find the value of the parameter in the model .    You should have found that this scenario has exponential model . If you go back to drink the cup of coffee 30 minutes after it was left on the counter, what temperature will the coffee have reached?   "
 },
 {
   "id": "L4",
