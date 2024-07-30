@@ -232,7 +232,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "L2: Limits Analytically",
-  "body": " L2: Limits Analytically     L2  I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.      Pre-Class Videos    Use the limit laws to determine the following limits, if they exist. The function is graphed as the solid line, and is graphed as the dashed line.                                                                                 Calculate the following limits. Justify each answer with one (or more) of the limit laws.                           . Since this is a polynomial, you can use the direct substitution property.     . Since this is a rational function with 2 in the domain, we can use direct substitution.     . Since this is a rational function with 1 in the domain, we can use direct substitution.         In-Class Activities   Given , evaluate and approximate numerically (or graphically). What do you think is more likely?          The table below gives values of a few different functions.     x  6.99  6.999  7.001  7.01    f(x)  13.99  13.999  14.001  14.01    g(x)  22.97  22.997  23.003  23.03    3f(x)  41.97  41.997  42.003  42.03    f(x)+g(x)  36.96  36.996  37.004  37.04    f(x)g(x)  321.350  321.935  322.065  322.650     Using the table above, which of the following is least likely to be true?    and         If and , which of the following statements are true? Select all that apply!            Below you are given the graphs of two functions. Compute the limits below (if possible).       The graph of .       The graph of .       .     .     .    (Challenge) .    (Challenge) .      Given , which of the following limit laws would use to determine ? Choose all that apply.    Sum\/Difference Rule  Constant Multiple Law  Multiplication Law  Constant Law  Exponent Law  Constant Law   Division Law         Given and , which of the following describes the most efficient way to determine ?    Sum\/difference, Constant Multiple, and Multiplication Laws   and the Division Law  Exponent, Sum\/difference, Constant Multiple, and Constant Laws  Division and Root Laws       Consider taking the limit of a rational function as . If , is it possible for to equal a number?    No, because is not defined at since .  Yes, because if you graph , the value is not defined, but the graph shows that the limit of does exist as .  No, because if you graph , the value is not defined and the graph shows that the limit of does not exist.  Yes, because we can use .        Let and , which of the following statements is true?      cannot be determined  does not exist       When we compute the limit of a ratio where both the numerator and denominator have limit equal to zero, we have to compute the value of a  indeterminate form . The value of an indeteminate form can be any real number or even infinity or not existent, we just do not know yet! We can usually determine the value of an indeterminate form using some algebraic manipulations of the expression given.   A function has a hole hole at if does not exist but does exist and is equal to a real number.  The function has a hole at because is not defined but so the limit exists and is equal to a real number. Notice that is also an example of a limit giving an indeterminate form which we could then compute using an algebraic manipulation of the function given.    Determine the following limits and explain your reasoning.         In activity you studied the velocity of Usain Bolt in his Beijing 100 meters dash. We will now study this situation analytically. To make our computations simpler, we will approximate that he could run 100 meters in 10 seconds and we will consider the model , where is the distance in meters and is the time in seconds.   The average velocity is the ratio distance covered over time elapsed. If we consider the interval that starts at and has width , written , the average velocity on this interval is . The instantaneous velocity at time is given by:  .    Compute the average velocity on the interval . We think of this interval as for the value of .    Compute the average velocity starting at 5 seconds, but now with seconds.    We want to study the instantaneous velocity at seconds. Find an expression for the average velocity on the interval , where is an unspecified value.    Expand your expression. When , you can simplify it!    Recall that the instantaneous velocity is the limit of your expression as . Find the instantaneous velocity given by this model at seconds.    The model does not really capture the real-world situation. Think of at least one reason why this model does not fit the scenario of Usain Bolt's 100 meters dash.     "
+  "body": " L2: Limits Analytically     L2  I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.      In-Class Activities   Recall that in we used numerical methods and table of values to find the limit of a relatively simple degree three polynomial at a point. This was inefficient, “there’s gotta be a better way!”    Given , evaluate and approximate numerically (or graphically). What do you think is more likely?           The table below gives values of a few different functions.                                                                                                             Using the table above, which of the following is least likely to be true?     and                Limit Laws, I   Let and be functions defined on an open interval containing the real number satisfying for and some real numbers. Then we have the following limits.  Constant Law: , for any constant real number  Identity Law:   Sum\/Difference Law:   Scalar Multiple Law: , for any constant real number  Product Law:   Quotient Law: if , then .       If and , which of the following statements are true? Select all that apply!                    Limit Laws, II   Let and be functions defined on an open interval containing satisfying Then we have the following limits as well.  Power Law: , for a positive integer  Root Law: , for a positive integer  Composition Law:         Use the limit laws to determine the following limits, if they exist. The function is graphed as the solid line, and is graphed as the dashed line.   The function is graphed as the solid line, and is graphed as the dashed line.                                 (Challenge) . Take a careful look at !      Given , which of the following limit laws would use to determine ? Choose all that apply.    Sum\/Difference Rule  Constant Multiple Law  Multiplication Law  Constant Law  Exponent Law  Constant Law   Division Law        Direct Substitution Property   If is a function with in the domain of , then provided that is not a piecewise function .     Given and , which of the following describes the most efficient way to determine ?    Sum\/difference, Constant Multiple, and Multiplication Laws   and the Division Law  Exponent, Sum\/difference, Constant Multiple, and Constant Laws  Division and Root Laws      Consider taking the limit of a rational function as . If , is it possible for to equal a number?    No, because is not defined at since   Yes, because if you graph , the value is not defined, but the graph shows that the limit of does exist as   No, because if you graph , the value is not defined and the graph shows that the limit of does not exist  Yes, because we can use       Let and , which of the following statements is true?           cannot be determined   does not exist      When we compute the limit of a ratio where both the numerator and denominator have limit equal to zero, we have to compute the value of a  indeterminate form . The value of an indeteminate form can be any real number or even infinity or not existent, we just do not know yet! We can usually determine the value of an indeterminate form using some algebraic manipulations of the expression given.     A function has a hole hole at if does not exist but does exist and is equal to a real number.      Consider the function     Which of the following are locations of holes for ? Select all that apply                              There are no holes       Are there any holes that you didn't find in part (a)? What are they?     says that we should be able to find the limit of a function at a hole, but that the function is not defined at that input. For each hole you identified in part (a), determine the limit of as approaches the hole.      Determine the following limits and explain your reasoning. Use to determine if (and where) the function has a hole.                    "
 },
 {
   "id": "L2-2",
@@ -244,22 +244,13 @@ var ptx_lunr_docs = [
   "body": "   L2  I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.    "
 },
 {
-  "id": "L2-preclass-2",
+  "id": "L2-activities-2",
   "level": "2",
-  "url": "L2.html#L2-preclass-2",
-  "type": "Example",
+  "url": "L2.html#L2-activities-2",
+  "type": "Remark",
   "number": "1.2.1",
   "title": "",
-  "body": "  Use the limit laws to determine the following limits, if they exist. The function is graphed as the solid line, and is graphed as the dashed line.                                                                              "
-},
-{
-  "id": "L2-preclass-3",
-  "level": "2",
-  "url": "L2.html#L2-preclass-3",
-  "type": "Example",
-  "number": "1.2.2",
-  "title": "",
-  "body": "  Calculate the following limits. Justify each answer with one (or more) of the limit laws.                           . Since this is a polynomial, you can use the direct substitution property.     . Since this is a rational function with 2 in the domain, we can use direct substitution.     . Since this is a rational function with 1 in the domain, we can use direct substitution.      "
+  "body": " Recall that in we used numerical methods and table of values to find the limit of a relatively simple degree three polynomial at a point. This was inefficient, “there’s gotta be a better way!”  "
 },
 {
   "id": "activity-limits-analytically1",
@@ -268,7 +259,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.2.1",
   "title": "",
-  "body": " Given , evaluate and approximate numerically (or graphically). What do you think is more likely?       "
+  "body": " Given , evaluate and approximate numerically (or graphically). What do you think is more likely?         "
 },
 {
   "id": "activity-limits-analytically2",
@@ -277,7 +268,16 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.2.2",
   "title": "",
-  "body": "  The table below gives values of a few different functions.     x  6.99  6.999  7.001  7.01    f(x)  13.99  13.999  14.001  14.01    g(x)  22.97  22.997  23.003  23.03    3f(x)  41.97  41.997  42.003  42.03    f(x)+g(x)  36.96  36.996  37.004  37.04    f(x)g(x)  321.350  321.935  322.065  322.650     Using the table above, which of the following is least likely to be true?    and      "
+  "body": " The table below gives values of a few different functions.                                                                                                             Using the table above, which of the following is least likely to be true?     and              "
+},
+{
+  "id": "theorem-limit-laws-1",
+  "level": "2",
+  "url": "L2.html#theorem-limit-laws-1",
+  "type": "Theorem",
+  "number": "1.2.3",
+  "title": "Limit Laws, I.",
+  "body": " Limit Laws, I   Let and be functions defined on an open interval containing the real number satisfying for and some real numbers. Then we have the following limits.  Constant Law: , for any constant real number  Identity Law:   Sum\/Difference Law:   Scalar Multiple Law: , for any constant real number  Product Law:   Quotient Law: if , then .     "
 },
 {
   "id": "activity-limits-analytically3",
@@ -286,7 +286,16 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.2.3",
   "title": "",
-  "body": "  If and , which of the following statements are true? Select all that apply!         "
+  "body": " If and , which of the following statements are true? Select all that apply!                  "
+},
+{
+  "id": "theorem-limit-laws-2",
+  "level": "2",
+  "url": "L2.html#theorem-limit-laws-2",
+  "type": "Theorem",
+  "number": "1.2.4",
+  "title": "Limit Laws, II.",
+  "body": " Limit Laws, II   Let and be functions defined on an open interval containing satisfying Then we have the following limits as well.  Power Law: , for a positive integer  Root Law: , for a positive integer  Composition Law:      "
 },
 {
   "id": "limit-laws-graphically",
@@ -295,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.2.4",
   "title": "",
-  "body": "  Below you are given the graphs of two functions. Compute the limits below (if possible).       The graph of .       The graph of .       .     .     .    (Challenge) .    (Challenge) .   "
+  "body": "  Use the limit laws to determine the following limits, if they exist. The function is graphed as the solid line, and is graphed as the dashed line.   The function is graphed as the solid line, and is graphed as the dashed line.                                 (Challenge) . Take a careful look at !   "
 },
 {
   "id": "activity-limits-analytically4",
@@ -307,13 +316,22 @@ var ptx_lunr_docs = [
   "body": "  Given , which of the following limit laws would use to determine ? Choose all that apply.    Sum\/Difference Rule  Constant Multiple Law  Multiplication Law  Constant Law  Exponent Law  Constant Law   Division Law      "
 },
 {
+  "id": "direct-substitution",
+  "level": "2",
+  "url": "L2.html#direct-substitution",
+  "type": "Theorem",
+  "number": "1.2.6",
+  "title": "Direct Substitution Property.",
+  "body": " Direct Substitution Property   If is a function with in the domain of , then provided that is not a piecewise function .   "
+},
+{
   "id": "activity-limits-rationals1",
   "level": "2",
   "url": "L2.html#activity-limits-rationals1",
   "type": "Activity",
   "number": "1.2.6",
   "title": "",
-  "body": "  Given and , which of the following describes the most efficient way to determine ?    Sum\/difference, Constant Multiple, and Multiplication Laws   and the Division Law  Exponent, Sum\/difference, Constant Multiple, and Constant Laws  Division and Root Laws     "
+  "body": " Given and , which of the following describes the most efficient way to determine ?    Sum\/difference, Constant Multiple, and Multiplication Laws   and the Division Law  Exponent, Sum\/difference, Constant Multiple, and Constant Laws  Division and Root Laws    "
 },
 {
   "id": "activity-limits-rationals2",
@@ -322,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.2.7",
   "title": "",
-  "body": " Consider taking the limit of a rational function as . If , is it possible for to equal a number?    No, because is not defined at since .  Yes, because if you graph , the value is not defined, but the graph shows that the limit of does exist as .  No, because if you graph , the value is not defined and the graph shows that the limit of does not exist.  Yes, because we can use .     "
+  "body": " Consider taking the limit of a rational function as . If , is it possible for to equal a number?    No, because is not defined at since   Yes, because if you graph , the value is not defined, but the graph shows that the limit of does exist as   No, because if you graph , the value is not defined and the graph shows that the limit of does not exist  Yes, because we can use     "
 },
 {
   "id": "activity-limits-zero",
@@ -331,52 +349,43 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.2.8",
   "title": "",
-  "body": "  Let and , which of the following statements is true?      cannot be determined  does not exist    "
+  "body": " Let and , which of the following statements is true?           cannot be determined   does not exist    "
 },
 {
   "id": "zero-over-zero",
   "level": "2",
   "url": "L2.html#zero-over-zero",
   "type": "Remark",
-  "number": "1.2.6",
+  "number": "1.2.7",
   "title": "",
-  "body": "  When we compute the limit of a ratio where both the numerator and denominator have limit equal to zero, we have to compute the value of a  indeterminate form . The value of an indeteminate form can be any real number or even infinity or not existent, we just do not know yet! We can usually determine the value of an indeterminate form using some algebraic manipulations of the expression given.  "
+  "body": " When we compute the limit of a ratio where both the numerator and denominator have limit equal to zero, we have to compute the value of a  indeterminate form . The value of an indeteminate form can be any real number or even infinity or not existent, we just do not know yet! We can usually determine the value of an indeterminate form using some algebraic manipulations of the expression given.  "
 },
 {
   "id": "def-hole",
   "level": "2",
   "url": "L2.html#def-hole",
   "type": "Definition",
-  "number": "1.2.7",
-  "title": "",
-  "body": "A function has a hole hole at if does not exist but does exist and is equal to a real number. "
-},
-{
-  "id": "L2-activities-12",
-  "level": "2",
-  "url": "L2.html#L2-activities-12",
-  "type": "Example",
   "number": "1.2.8",
   "title": "",
-  "body": "The function has a hole at because is not defined but so the limit exists and is equal to a real number. Notice that is also an example of a limit giving an indeterminate form which we could then compute using an algebraic manipulation of the function given. "
+  "body": "  A function has a hole hole at if does not exist but does exist and is equal to a real number.   "
+},
+{
+  "id": "activity-hole-limits",
+  "level": "2",
+  "url": "L2.html#activity-hole-limits",
+  "type": "Activity",
+  "number": "1.2.9",
+  "title": "",
+  "body": "  Consider the function     Which of the following are locations of holes for ? Select all that apply                              There are no holes       Are there any holes that you didn't find in part (a)? What are they?     says that we should be able to find the limit of a function at a hole, but that the function is not defined at that input. For each hole you identified in part (a), determine the limit of as approaches the hole.   "
 },
 {
   "id": "limits-alg-checkit",
   "level": "2",
   "url": "L2.html#limits-alg-checkit",
   "type": "Activity",
-  "number": "1.2.9",
-  "title": "",
-  "body": "  Determine the following limits and explain your reasoning.      "
-},
-{
-  "id": "activity-bolt2",
-  "level": "2",
-  "url": "L2.html#activity-bolt2",
-  "type": "Activity",
   "number": "1.2.10",
   "title": "",
-  "body": "  In activity you studied the velocity of Usain Bolt in his Beijing 100 meters dash. We will now study this situation analytically. To make our computations simpler, we will approximate that he could run 100 meters in 10 seconds and we will consider the model , where is the distance in meters and is the time in seconds.   The average velocity is the ratio distance covered over time elapsed. If we consider the interval that starts at and has width , written , the average velocity on this interval is . The instantaneous velocity at time is given by:  .    Compute the average velocity on the interval . We think of this interval as for the value of .    Compute the average velocity starting at 5 seconds, but now with seconds.    We want to study the instantaneous velocity at seconds. Find an expression for the average velocity on the interval , where is an unspecified value.    Expand your expression. When , you can simplify it!    Recall that the instantaneous velocity is the limit of your expression as . Find the instantaneous velocity given by this model at seconds.    The model does not really capture the real-world situation. Think of at least one reason why this model does not fit the scenario of Usain Bolt's 100 meters dash.   "
+  "body": "  Determine the following limits and explain your reasoning. Use to determine if (and where) the function has a hole.                  "
 },
 {
   "id": "L3",
