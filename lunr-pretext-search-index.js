@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "L1: Limits Graphically\/Numerically",
-  "body": " L1: Limits Graphically\/Numerically     L1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.      In-Class Activities    In the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of .    A graph of a function that has not been rendered properly.    Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What -value are you approaching?    0.5    1    1.5    2    2.5     Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What -value are you approaching?    0.5    1    1.5    2    2.5        In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?    0.5    1    1.5    2    2.5     What is the -value that is approached as we move toward from the right?    0.5    1    1.5    2    2.5       When studying functions in algebra, we often focused on the value of a function given a specific -value. For instance, finding for some function . In and , we have instead been exploring what is happening as we approach a certain value on a graph. This concept in mathematics (especially important in calculus) is known as finding a limit .    Refer back to and . Write your first draft of the definition of a limit. What is important to include? (You can use concepts of limits from your daily life to motivate or define what a limit is.)    Limit   Given a function , a fixed input , and a real number , we say that has limit as approaches , limit definition and write provided that we can make as close to as we like by taking sufficiently close (but not equal) to .  If we cannot make as close to a single value as we would like as approaches , then we say that does not have a limit as approaches .      Conjecture why and illustrate the need for \"approaching\" an input value, and connect this to          A piecewise-defined function    What is the limit as approaches in ?    The limit is 1    The limit is -1    The limit is 0    The limit is not defined       Left- and Right-Hand Limits   We say that has limit as approaches from the left and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having . We call the left-hand limit of as approaches .  Similarly, we say is the right-hand limit of as approaches and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having .      Refer again to from .   Which of the following best matches the definition of right and left limits? (Note that DNE is short for \"does not exist.\")   The left limit is -1. The right limit is 1.  The left limit is 1. The right limit is -1.  The left limit DNE. The right limit is 1.  The left limit is -1. The right limit DNE.  The left limit DNE. The right limit DNE.    What do you think the overall limit equals?   The limit is 1  The limit is -1  The limit is 0  The limit is not defined       Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.          Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.      is finite, but is infinite.     , but .     but .                                                                Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999      Notice that the value we obtained in is only an approximation, based on the trends that we have seen within the table.                                                               In 's we found an approximation to the limit of the function as tends to 2.  Now let us say you are also given a table of numerical values ( ) for the function. Given this new information which of the choices below best describes the limit of the function as tends to 2?     There is not enough information because we do not know the value of the function at .    The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as goes to 2.    The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.    The limit cannot be approximated because the function might not exist at .                                        Based on , what information can be inferred about , , and ?      , and      , and does not exist.     , and does not exist.     , and         Consider the following function    Of the following options, at which values given would you evaluate to best determine numerically?   1.9, 1.99, 2.0, 2.01, 2.1  1.98, 1.99, 2.0, 2.01, 2.02  1.8, 1.9, 2.0, 2.1, 2.2  1.0, 1.5, 2.0, 2.5, 3.0    Use the values that you chose in part (a) to calculate an approximation for .  Which value best describes the limit that you obtained in part (b)?   The approximate value is 41.25  The approximate value is 41.5  The approximate value is 41.75  The approximate value is 42       In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                                              Based on the graph and table what is the best explanation for the limit as tends to zero?    The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for      Would your conclusion that resulted from change if the function was or ? Explain why or why not.      Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit      "
+  "body": " L1: Limits Graphically\/Numerically     L1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.      In-Class Activities    In the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of .    A graph of a function that has not been rendered properly.    Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What -value are you approaching?    0.5    1    1.5    2    2.5     Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What -value are you approaching?    0.5    1    1.5    2    2.5        In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?    0.5    1    1.5    2    2.5     What is the -value that is approached as we move toward from the right?    0.5    1    1.5    2    2.5       When studying functions in algebra, we often focused on the value of a function given a specific -value. For instance, finding for some function . In and , we have instead been exploring what is happening as we approach a certain value on a graph. This concept in mathematics (especially important in calculus) is known as finding a limit .    Refer back to and . Write your first draft of the definition of a limit. What is important to include? (You can use concepts of limits from your daily life to motivate or define what a limit is.)    Limit   Given a function , a fixed input , and a real number , we say that has limit as approaches , limit definition and write provided that we can make as close to as we like by taking sufficiently close (but not equal) to .  If we cannot make as close to a single value as we would like as approaches , then we say that does not have a limit as approaches .      Conjecture why and illustrate the need for \"approaching\" an input value, and connect this to          A piecewise-defined function    What is the limit as approaches in ?    The limit is 1    The limit is -1    The limit is 0    The limit is not defined       Left- and Right-Hand Limits   We say that has limit as approaches from the left and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having . We call the left-hand limit of as approaches .  Similarly, we say is the right-hand limit of as approaches and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having .     Facts About Limits      A function has a limit at if and only if     For a function , it may have a limit at , even if does not exist.         Refer again to from .   Which of the following best matches the definition of right and left limits? (Note that DNE is short for \"does not exist.\")   The left limit is -1. The right limit is 1.  The left limit is 1. The right limit is -1.  The left limit DNE. The right limit is 1.  The left limit is -1. The right limit DNE.  The left limit DNE. The right limit DNE.    What do you think the overall limit equals?   The limit is 1  The limit is -1  The limit is 0  The limit is not defined       Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.          Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.      is finite, but is infinite.     , but .     but .                                                                Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999      Notice that the value we obtained in is only an approximation, based on the trends that we have seen within the table.                                                               In 's we found an approximation to the limit of the function as tends to 2.  Now let us say you are also given a table of numerical values ( ) for the function. Given this new information which of the choices below best describes the limit of the function as tends to 2?     There is not enough information because we do not know the value of the function at .    The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as goes to 2.    The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.    The limit cannot be approximated because the function might not exist at .                                        Based on , what information can be inferred about , , and ?      , and      , and does not exist.     , and does not exist.     , and         Consider the following function    Of the following options, at which values given would you evaluate to best determine numerically?   1.9, 1.99, 2.0, 2.01, 2.1  1.98, 1.99, 2.0, 2.01, 2.02  1.8, 1.9, 2.0, 2.1, 2.2  1.0, 1.5, 2.0, 2.5, 3.0    Use the values that you chose in part (a) to calculate an approximation for .  Which value best describes the limit that you obtained in part (b)?   The approximate value is 41.25  The approximate value is 41.5  The approximate value is 41.75  The approximate value is 42       In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                                              Based on the graph and table what is the best explanation for the limit as tends to zero?    The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for      Would your conclusion that resulted from change if the function was or ? Explain why or why not.      Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit      "
 },
 {
   "id": "L1-2",
@@ -127,13 +127,22 @@ var ptx_lunr_docs = [
   "body": "      A piecewise-defined function    What is the limit as approaches in ?    The limit is 1    The limit is -1    The limit is 0    The limit is not defined     "
 },
 {
-  "id": "L1-activities-9",
+  "id": "def-limit-left-right",
   "level": "2",
-  "url": "L1.html#L1-activities-9",
+  "url": "L1.html#def-limit-left-right",
   "type": "Definition",
   "number": "1.1.8",
   "title": "Left- and Right-Hand Limits.",
   "body": " Left- and Right-Hand Limits   We say that has limit as approaches from the left and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having . We call the left-hand limit of as approaches .  Similarly, we say is the right-hand limit of as approaches and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having .   "
+},
+{
+  "id": "fact-limits-existence",
+  "level": "2",
+  "url": "L1.html#fact-limits-existence",
+  "type": "Fact",
+  "number": "1.1.9",
+  "title": "Facts About Limits.",
+  "body": " Facts About Limits      A function has a limit at if and only if     For a function , it may have a limit at , even if does not exist.      "
 },
 {
   "id": "activity-limits-graphically-one-sided2",
@@ -154,9 +163,9 @@ var ptx_lunr_docs = [
   "body": "  Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.       "
 },
 {
-  "id": "L1-activities-12",
+  "id": "L1-activities-13",
   "level": "2",
-  "url": "L1.html#L1-activities-12",
+  "url": "L1.html#L1-activities-13",
   "type": "Activity",
   "number": "1.1.6",
   "title": "",
@@ -172,11 +181,11 @@ var ptx_lunr_docs = [
   "body": "                                                         Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999    "
 },
 {
-  "id": "L1-activities-14",
+  "id": "L1-activities-15",
   "level": "2",
-  "url": "L1.html#L1-activities-14",
+  "url": "L1.html#L1-activities-15",
   "type": "Remark",
-  "number": "1.1.11",
+  "number": "1.1.12",
   "title": "",
   "body": " Notice that the value we obtained in is only an approximation, based on the trends that we have seen within the table.  "
 },
@@ -217,9 +226,9 @@ var ptx_lunr_docs = [
   "body": "  In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                                              Based on the graph and table what is the best explanation for the limit as tends to zero?    The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for      Would your conclusion that resulted from change if the function was or ? Explain why or why not.   "
 },
 {
-  "id": "L1-activities-19",
+  "id": "L1-activities-20",
   "level": "2",
-  "url": "L1.html#L1-activities-19",
+  "url": "L1.html#L1-activities-20",
   "type": "Activity",
   "number": "1.1.12",
   "title": "",
@@ -394,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "L3: Asymptotes",
-  "body": " L3: Asymptotes     L3  I can determine when and if a function will have a vertical or horizontal asymptote.      In-Class Activities    Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.     We say that the limit as tends to negative infinity of is negative infinity and that the limit as tends to positive infinity of is positive infinity. In symbols, we write      Consider the graph of the rational function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?      The graph of .     As tends to positive infinity, the function tends to positive infinity  As tends to negative infinity, the function tends to 0  As tends to positive infinity, the function tends to negative infinity  As tends to 0, the function tends to 0      A function has a horizontal asymptote horizontal asymptote at when   or   This means that we can make the output of as close as we want to , as long as we take a large enough positive number ( ) or a large enough negative number ( ).      We say that the function has horizontal asymptote because the limit as tends to positive infinity of is 0. Alternatively, we could also justify it by saying that the limit as goes to negative infinity is 0.      Which of the following functions have horizontal asymptotes? Select all!        A       B       C         D       E       F        Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as tends to + or - infinity?    The only possible limit is  The only possible limits are or   The only possible limits are , or   The only possible limits are any constant number or     In this activity we will examine functions whose limit as approaches positive and negative infinity is a nonzero constant.  Graph the following functions and consider their limits as approaches positive and negative infinity. Which function(s) have a limit that is nonzero and constant? Find each of these limits.        Conjecture a rule for how to determine that a rational function has a nonzero constant limit as approaches positive and negative infinity. Test your rule by creating a rational function whose limit as equals 3 and then check it graphically.     What about when the limit is not a nonzero constant? How do we recognize those? In this activity you will first conjecture the general behavior of rational functions and then test your conjectures.   Consider a rational function . Looking at the numerator and the denominator , when does the function have limit equal to 0 as   When the ratio of the leading terms is a constant.  When the degree of the numerator is greater than the degree of the denominator.  When the degree of the numerator is less than the degree of the denominator.  When the degree of the numerator is equal to the degree of the denominator.   Consider a rational function . Looking at the numerator and the denominator , when does the function have limit approaching infinity as   When the ratio of the leading terms is a constant.  When the degree of the numerator is greater than the degree of the denominator.  When the degree of the numerator is less than the degree of the denominator.  When the degree of the numerator is equal to the degree of the denominator.   Conjecture a rule for the each of the previous two parts of the activity. Test your rules by creating a rational function whose limit as equals 0 and another whose limit as is infinite. Then check them graphically.     Explain how to find the value of each limit.         What is your best guess for the limit as goes to of the function graphed below?      A mysterious periodic function.     The limit is  The limit is   The limit is   The limit is  The limit DNE    For a periodic function, a function whose outputs repeat periodically, there is not one distinguished long term behavior, so the limit DNE. Notice that this is different from the limit being +infinity in which case the outputs have a clear behavior: they are getting larger and larger. Unfortunately, you will find in many cases that the notation DNE is used both for a limit equal to infinity and a limit that does not tend to one distinguished value. Beware!    Compute the following limits.       (Challenge)  (Challenge)     The graph below represents the function .      The graph of     Find the horizontal asymptote of . First, guess it from the graph. Then, prove that your guess is right using algebra.    Use limit notation to describe the behavior of at its horizontal asymptotes.      Come up with the formula of a rational function that has horizontal asymptote .   What do you think is happening around ? We will come back to this in the next section!       An exponential function exhibiting exponential decay will have the long term behavior as . If we shift the graph up by units, we obtain the new function , with the long term behavior . A cooling object can be represented by the exponential decay model .      In this activity you will explore an exponential model for a cooling object.  Consider a cup of coffee initially at 100 degrees Fahrenheit. The said cup of coffee was forgotten this morning on the kitchen counter where the thermostat is set at 72 degrees Fahrenheit. From previous observations, we can assume that a cup of coffee looses 10 percent of its temperature each minute.    In the long run, what temperature do you expect the coffee to tend to? Write your observation with limit notation.    In the model , your previous answer gives you the value of one of the parameters in this model. Which one?    From the information given, we notice that the cup of coffee has decay rate of 10% or . When an exponential model has decay rate , its exponential base has value . Use this to find the value of for the exponential model described in this scenario.    Assume that the initial temperature corresponds to input . Use the data about the initial temperature to find the value of the parameter in the model .    You should have found that this scenario has exponential model . If you go back to drink the cup of coffee 30 minutes after it was left on the counter, what temperature will the coffee have reached?     "
+  "body": " L3: Asymptotes     L3  I can determine when and if a function will have a vertical or horizontal asymptote.      In-Class Activities   Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.      We say that the limit as tends to negative infinity of is negative infinity and that the limit as tends to positive infinity of is positive infinity. In symbols, we write     Consider the graph of the rational function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of .         As tends to positive infinity, the function tends to positive infinity    As tends to negative infinity, the function tends to 0    As tends to positive infinity, the function tends to negative infinity    As tends to 0, the function tends to 0        A function has a horizontal asymptote horizontal asymptote at when or   This means that we can make the output of as close as we want to , as long as we take to be a large enough positive number ( ) or a large enough negative number ( ).      Think again about the graph of , given in .    Which of the following statements accurately describes the graph of ?     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at        Select all of the mathematical statements that agree with your answer from part (a)                                       Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as or ?     The only possible limit is     The only possible limits are or     The only possible limits are , or     The only possible limits are any constant number (including 0 and 1) or         In this activity we will examine functions whose limit as approaches positive and negative infinity is a nonzero constant.   Graph the following functions and consider their limits as approaches positive and negative infinity. Use the graph to determine the limits and equations of horizontal asymptotes (if any)                                        Take another look at part (a); what relationship do you see between the degree of the numerator and degree of the denominator? Use your answers to complete the rules for horizontal asymptotes below in      Let be a rational function. Assume that has degree and leading coefficient ; assume also that has degree and leading coefficient . Then,   If , then has horizontal asymptote(s).    If , then has horizontal asymptote(s). The equation(s) is\/are .    If , then has horizontal asymptote(s). The equation(s) is\/are .        What is your best guess for the limit as goes to of the function graphed below?   A mysterious periodic function.         The limit is     The limit is     The limit is     The limit is     The limit DNE        Again, think about the graph of in     Which of the following best describes the limit as approaches zero (from the left) in the graph?     The limit is 0    The limit is positive infinity    The limit does not exist    This limit is negative infinity       Will your answer change or stay the same if we approached zero from the right instead of the left? If it does, indicate your answer.    Which of the following best describes the relationship between the line and the graph of the function?     The line is a horizontal asymptote for the function    The function is not continuous at the point     The function is moving away from the line     The function is getting closer and closer to the line     The function has a jump in outputs around          A function has a vertical asymptote vertical asymptote at when or   The statement means that we can make the output of as large a positive number as we want as long as we are sufficiently close to .  Similarly, the statement means that we can make the output of as large a negative number as we want as long as we are sufficiently close to .     Compare the definition of a hole of a function ( ) and the definition a vertical asymptote of a function ( ). Is it possible for a function to have both? If it is, give an example; if not, explain why.    Notice that as goes to 0, the value of goes to 0 but the value of goes to infinity. What is the best explanation for this behavior?     When dividing by an increasingly small number we get an increasing big number    When dividing by an increasingly large number we get an increasing small number    A rational function always has a vertical asymptote    A rational function always has a horizontal asymptote       Informally, we say that the limit of \" \" is infinite. Notice that this could be either positive or negative infinity, depending on how whether the outputs are becoming more and more positive or more and more negative as we approach zero.    Consider the rational function . Which of the following options best describes the limits as x approaches from the right and from the left?     As , the limit DNE, but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit DNE and as the limit DNE.       When considering a ratio of functions , the inputs where are not in the domain of the ratio. If but is not equal to 0, then is a vertical asymptote.    Consider the function . The line is NOT a vertical asymptote for . Why?     When is not equal to , we can simplify the fraction to , so the limit is .    When is not equal to , we can simplify the fraction to , so the limit is .    The function is always equal to .    The function is always equal to .       For each of the following functions, identify the equations of any asymptotes and the location of any holes.                         Challenge! For this problem, remember two things: and .          "
 },
 {
   "id": "L3-2",
@@ -412,7 +421,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.3.1",
   "title": "",
-  "body": "  Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.   "
+  "body": " Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.    "
 },
 {
   "id": "L3-activities-3",
@@ -424,40 +433,31 @@ var ptx_lunr_docs = [
   "body": " We say that the limit as tends to negative infinity of is negative infinity and that the limit as tends to positive infinity of is positive infinity. In symbols, we write   "
 },
 {
-  "id": "LT5-infinity-inutition2",
+  "id": "LT5-infinity-intuition2",
   "level": "2",
-  "url": "L3.html#LT5-infinity-inutition2",
+  "url": "L3.html#LT5-infinity-intuition2",
   "type": "Activity",
   "number": "1.3.2",
   "title": "",
-  "body": "  Consider the graph of the rational function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?      The graph of .     As tends to positive infinity, the function tends to positive infinity  As tends to negative infinity, the function tends to 0  As tends to positive infinity, the function tends to negative infinity  As tends to 0, the function tends to 0   "
+  "body": " Consider the graph of the rational function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of .         As tends to positive infinity, the function tends to positive infinity    As tends to negative infinity, the function tends to 0    As tends to positive infinity, the function tends to negative infinity    As tends to 0, the function tends to 0     "
 },
 {
-  "id": "L3-activities-5",
+  "id": "def-horizontal-asymptote",
   "level": "2",
-  "url": "L3.html#L3-activities-5",
+  "url": "L3.html#def-horizontal-asymptote",
   "type": "Definition",
   "number": "1.3.4",
   "title": "",
-  "body": "  A function has a horizontal asymptote horizontal asymptote at when   or   This means that we can make the output of as close as we want to , as long as we take a large enough positive number ( ) or a large enough negative number ( ).   "
+  "body": "  A function has a horizontal asymptote horizontal asymptote at when or   This means that we can make the output of as close as we want to , as long as we take to be a large enough positive number ( ) or a large enough negative number ( ).   "
 },
 {
-  "id": "L3-activities-6",
+  "id": "L-activity-horizontal-asymptote-1",
   "level": "2",
-  "url": "L3.html#L3-activities-6",
-  "type": "Remark",
-  "number": "1.3.5",
-  "title": "",
-  "body": "  We say that the function has horizontal asymptote because the limit as tends to positive infinity of is 0. Alternatively, we could also justify it by saying that the limit as goes to negative infinity is 0.   "
-},
-{
-  "id": "asymptotes-hor",
-  "level": "2",
-  "url": "L3.html#asymptotes-hor",
+  "url": "L3.html#L-activity-horizontal-asymptote-1",
   "type": "Activity",
   "number": "1.3.3",
   "title": "",
-  "body": "  Which of the following functions have horizontal asymptotes? Select all!        A       B       C         D       E       F     "
+  "body": "  Think again about the graph of , given in .    Which of the following statements accurately describes the graph of ?     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at        Select all of the mathematical statements that agree with your answer from part (a)                                     "
 },
 {
   "id": "infinity-rational1",
@@ -466,7 +466,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.3.4",
   "title": "",
-  "body": "  Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as tends to + or - infinity?    The only possible limit is  The only possible limits are or   The only possible limits are , or   The only possible limits are any constant number or   "
+  "body": " Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as or ?     The only possible limit is     The only possible limits are or     The only possible limits are , or     The only possible limits are any constant number (including 0 and 1) or      "
 },
 {
   "id": "infinity-rational2",
@@ -475,79 +475,106 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.3.5",
   "title": "",
-  "body": " In this activity we will examine functions whose limit as approaches positive and negative infinity is a nonzero constant.  Graph the following functions and consider their limits as approaches positive and negative infinity. Which function(s) have a limit that is nonzero and constant? Find each of these limits.        Conjecture a rule for how to determine that a rational function has a nonzero constant limit as approaches positive and negative infinity. Test your rule by creating a rational function whose limit as equals 3 and then check it graphically.  "
+  "body": "  In this activity we will examine functions whose limit as approaches positive and negative infinity is a nonzero constant.   Graph the following functions and consider their limits as approaches positive and negative infinity. Use the graph to determine the limits and equations of horizontal asymptotes (if any)                                        Take another look at part (a); what relationship do you see between the degree of the numerator and degree of the denominator? Use your answers to complete the rules for horizontal asymptotes below in   "
 },
 {
-  "id": "infinity-rational3",
+  "id": "L-thm-horizontal-asymptote-rules",
   "level": "2",
-  "url": "L3.html#infinity-rational3",
-  "type": "Activity",
-  "number": "1.3.6",
+  "url": "L3.html#L-thm-horizontal-asymptote-rules",
+  "type": "Theorem",
+  "number": "1.3.5",
   "title": "",
-  "body": "  What about when the limit is not a nonzero constant? How do we recognize those? In this activity you will first conjecture the general behavior of rational functions and then test your conjectures.   Consider a rational function . Looking at the numerator and the denominator , when does the function have limit equal to 0 as   When the ratio of the leading terms is a constant.  When the degree of the numerator is greater than the degree of the denominator.  When the degree of the numerator is less than the degree of the denominator.  When the degree of the numerator is equal to the degree of the denominator.   Consider a rational function . Looking at the numerator and the denominator , when does the function have limit approaching infinity as   When the ratio of the leading terms is a constant.  When the degree of the numerator is greater than the degree of the denominator.  When the degree of the numerator is less than the degree of the denominator.  When the degree of the numerator is equal to the degree of the denominator.   Conjecture a rule for the each of the previous two parts of the activity. Test your rules by creating a rational function whose limit as equals 0 and another whose limit as is infinite. Then check them graphically.  "
-},
-{
-  "id": "infinity-checkit",
-  "level": "2",
-  "url": "L3.html#infinity-checkit",
-  "type": "Activity",
-  "number": "1.3.7",
-  "title": "",
-  "body": "  Explain how to find the value of each limit.      "
+  "body": "  Let be a rational function. Assume that has degree and leading coefficient ; assume also that has degree and leading coefficient . Then,   If , then has horizontal asymptote(s).    If , then has horizontal asymptote(s). The equation(s) is\/are .    If , then has horizontal asymptote(s). The equation(s) is\/are .      "
 },
 {
   "id": "infinity-dne",
   "level": "2",
   "url": "L3.html#infinity-dne",
   "type": "Activity",
-  "number": "1.3.8",
+  "number": "1.3.6",
   "title": "",
-  "body": "  What is your best guess for the limit as goes to of the function graphed below?      A mysterious periodic function.     The limit is  The limit is   The limit is   The limit is  The limit DNE   "
+  "body": " What is your best guess for the limit as goes to of the function graphed below?   A mysterious periodic function.         The limit is     The limit is     The limit is     The limit is     The limit DNE     "
+},
+{
+  "id": "L-vertical-asymptote-intuition1",
+  "level": "2",
+  "url": "L3.html#L-vertical-asymptote-intuition1",
+  "type": "Activity",
+  "number": "1.3.7",
+  "title": "",
+  "body": "  Again, think about the graph of in     Which of the following best describes the limit as approaches zero (from the left) in the graph?     The limit is 0    The limit is positive infinity    The limit does not exist    This limit is negative infinity       Will your answer change or stay the same if we approached zero from the right instead of the left? If it does, indicate your answer.    Which of the following best describes the relationship between the line and the graph of the function?     The line is a horizontal asymptote for the function    The function is not continuous at the point     The function is moving away from the line     The function is getting closer and closer to the line     The function has a jump in outputs around       "
+},
+{
+  "id": "def-vertical-asymptote",
+  "level": "2",
+  "url": "L3.html#def-vertical-asymptote",
+  "type": "Definition",
+  "number": "1.3.7",
+  "title": "",
+  "body": "  A function has a vertical asymptote vertical asymptote at when or   The statement means that we can make the output of as large a positive number as we want as long as we are sufficiently close to .  Similarly, the statement means that we can make the output of as large a negative number as we want as long as we are sufficiently close to .   "
 },
 {
   "id": "L3-activities-13",
   "level": "2",
   "url": "L3.html#L3-activities-13",
-  "type": "Warning",
-  "number": "1.3.13",
+  "type": "Question",
+  "number": "1.3.8",
   "title": "",
-  "body": "For a periodic function, a function whose outputs repeat periodically, there is not one distinguished long term behavior, so the limit DNE. Notice that this is different from the limit being +infinity in which case the outputs have a clear behavior: they are getting larger and larger. Unfortunately, you will find in many cases that the notation DNE is used both for a limit equal to infinity and a limit that does not tend to one distinguished value. Beware! "
+  "body": " Compare the definition of a hole of a function ( ) and the definition a vertical asymptote of a function ( ). Is it possible for a function to have both? If it is, give an example; if not, explain why.  "
 },
 {
-  "id": "infinity-ext1",
+  "id": "infinity-divide-zero",
   "level": "2",
-  "url": "L3.html#infinity-ext1",
+  "url": "L3.html#infinity-divide-zero",
+  "type": "Activity",
+  "number": "1.3.8",
+  "title": "",
+  "body": " Notice that as goes to 0, the value of goes to 0 but the value of goes to infinity. What is the best explanation for this behavior?     When dividing by an increasingly small number we get an increasing big number    When dividing by an increasingly large number we get an increasing small number    A rational function always has a vertical asymptote    A rational function always has a horizontal asymptote     "
+},
+{
+  "id": "L3-activities-15",
+  "level": "2",
+  "url": "L3.html#L3-activities-15",
+  "type": "Remark",
+  "number": "1.3.9",
+  "title": "",
+  "body": " Informally, we say that the limit of \" \" is infinite. Notice that this could be either positive or negative infinity, depending on how whether the outputs are becoming more and more positive or more and more negative as we approach zero.  "
+},
+{
+  "id": "limits-vert-asymptote",
+  "level": "2",
+  "url": "L3.html#limits-vert-asymptote",
   "type": "Activity",
   "number": "1.3.9",
   "title": "",
-  "body": "  Compute the following limits.       (Challenge)  (Challenge)  "
+  "body": " Consider the rational function . Which of the following options best describes the limits as x approaches from the right and from the left?     As , the limit DNE, but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit DNE and as the limit DNE.     "
 },
 {
-  "id": "study-rational1",
+  "id": "vert-asymptote-den",
   "level": "2",
-  "url": "L3.html#study-rational1",
+  "url": "L3.html#vert-asymptote-den",
+  "type": "Remark",
+  "number": "1.3.10",
+  "title": "",
+  "body": " When considering a ratio of functions , the inputs where are not in the domain of the ratio. If but is not equal to 0, then is a vertical asymptote.  "
+},
+{
+  "id": "limits-intuition-hole",
+  "level": "2",
+  "url": "L3.html#limits-intuition-hole",
   "type": "Activity",
   "number": "1.3.10",
   "title": "",
-  "body": "  The graph below represents the function .      The graph of     Find the horizontal asymptote of . First, guess it from the graph. Then, prove that your guess is right using algebra.    Use limit notation to describe the behavior of at its horizontal asymptotes.      Come up with the formula of a rational function that has horizontal asymptote .   What do you think is happening around ? We will come back to this in the next section!   "
+  "body": " Consider the function . The line is NOT a vertical asymptote for . Why?     When is not equal to , we can simplify the fraction to , so the limit is .    When is not equal to , we can simplify the fraction to , so the limit is .    The function is always equal to .    The function is always equal to .     "
 },
 {
-  "id": "L3-activities-16",
+  "id": "L3-activities-19",
   "level": "2",
-  "url": "L3.html#L3-activities-16",
-  "type": "Note",
-  "number": "1.3.15",
-  "title": "",
-  "body": "  An exponential function exhibiting exponential decay will have the long term behavior as . If we shift the graph up by units, we obtain the new function , with the long term behavior . A cooling object can be represented by the exponential decay model .   "
-},
-{
-  "id": "app-cooling",
-  "level": "2",
-  "url": "L3.html#app-cooling",
+  "url": "L3.html#L3-activities-19",
   "type": "Activity",
   "number": "1.3.11",
   "title": "",
-  "body": "  In this activity you will explore an exponential model for a cooling object.  Consider a cup of coffee initially at 100 degrees Fahrenheit. The said cup of coffee was forgotten this morning on the kitchen counter where the thermostat is set at 72 degrees Fahrenheit. From previous observations, we can assume that a cup of coffee looses 10 percent of its temperature each minute.    In the long run, what temperature do you expect the coffee to tend to? Write your observation with limit notation.    In the model , your previous answer gives you the value of one of the parameters in this model. Which one?    From the information given, we notice that the cup of coffee has decay rate of 10% or . When an exponential model has decay rate , its exponential base has value . Use this to find the value of for the exponential model described in this scenario.    Assume that the initial temperature corresponds to input . Use the data about the initial temperature to find the value of the parameter in the model .    You should have found that this scenario has exponential model . If you go back to drink the cup of coffee 30 minutes after it was left on the counter, what temperature will the coffee have reached?   "
+  "body": " For each of the following functions, identify the equations of any asymptotes and the location of any holes.                         Challenge! For this problem, remember two things: and .        "
 },
 {
   "id": "L4",
@@ -556,7 +583,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "L4: Continuity",
-  "body": " L4: Continuity     L4  I can identify where a function is continuous (on an interval or at a point), and describe the type of discontinuity.      Pre-Class Videos    In-Class Activities   "
+  "body": " L4: Continuity     L4  I can identify where a function is continuous (on an interval or at a point), and describe the type of discontinuity.      In-Class Activities   A continuous function is one whose values change smoothly, with no jumps or gaps in the graph. We'll explore the idea first, and arrive at a mathematical definition soon.     Which of the following scenarios best describes a continuous function?     The age of a person reported in years    The price of postage for a parcel depending on its weight    The volume of water in a tank that is gradually filled over time    The number of likes on my latest TikTok depending on the time since I posted it         Use and to answer the following tasks.   A graph with several points of interest         is not continuous at . Why? Select all that apply.      does not exist     but      but      has two outputs at         is not continuous at . Why? Select all that apply.      and are not the same               does not exist        is not continuous at . Why? Select all that apply.      does not exist     and are not the same     has two outputs at               Based on , what conditions do you think need to be true in order for a function to be continuous at the input ?     Continuity   A function is continuous continuous function at provided that    has a limit as      is defined at (equivalently, is in the domain of ), and     .   A function is continuous on the interval if it is continuous at all inputs in .  If a function is not continuous at or on , it is called discontinuous at that input or on .      Suppose that some function is continuous at . Use to decide which of the following quantities are equal to each other.                              In , you saw several ways that a function could be discontinuous. In fact, these have names: removable discontinuity , infinite discontinuity , and jump discontinuity .    Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite         If and are continuous at and is a real number, then the functions , , , and are also continuous at . Moreover, is continuous at provided that .      All functions we deal with (except possibly piecewise functions) are continuous on their domain      Answer the questions below about piecewise functions. It may be helpful to look at some graphs.   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?      For each function, determine the appropriate interval of continuity. If the interval is not , identify specific reasons (like specific problem inputs) why not. It may be helpful to identify the domain of the function, thanks to .                                                                                                                                                       Suppose and are continuous functions such that and . What must be the value of ?     "
 },
 {
   "id": "L4-2",
@@ -566,6 +593,114 @@ var ptx_lunr_docs = [
   "number": "1.4",
   "title": "",
   "body": "   L4  I can identify where a function is continuous (on an interval or at a point), and describe the type of discontinuity.    "
+},
+{
+  "id": "L-continuity-intuition",
+  "level": "2",
+  "url": "L4.html#L-continuity-intuition",
+  "type": "Remark",
+  "number": "1.4.1",
+  "title": "",
+  "body": " A continuous function is one whose values change smoothly, with no jumps or gaps in the graph. We'll explore the idea first, and arrive at a mathematical definition soon.  "
+},
+{
+  "id": "activity-continuous-scenarios",
+  "level": "2",
+  "url": "L4.html#activity-continuous-scenarios",
+  "type": "Activity",
+  "number": "1.4.1",
+  "title": "",
+  "body": "  Which of the following scenarios best describes a continuous function?     The age of a person reported in years    The price of postage for a parcel depending on its weight    The volume of water in a tank that is gradually filled over time    The number of likes on my latest TikTok depending on the time since I posted it      "
+},
+{
+  "id": "L-continuity-activity-def",
+  "level": "2",
+  "url": "L4.html#L-continuity-activity-def",
+  "type": "Activity",
+  "number": "1.4.2",
+  "title": "",
+  "body": "  Use and to answer the following tasks.   A graph with several points of interest         is not continuous at . Why? Select all that apply.      does not exist     but      but      has two outputs at         is not continuous at . Why? Select all that apply.      and are not the same               does not exist        is not continuous at . Why? Select all that apply.      does not exist     and are not the same     has two outputs at            "
+},
+{
+  "id": "L4-activities-5",
+  "level": "2",
+  "url": "L4.html#L4-activities-5",
+  "type": "Question",
+  "number": "1.4.3",
+  "title": "",
+  "body": "  Based on , what conditions do you think need to be true in order for a function to be continuous at the input ?   "
+},
+{
+  "id": "def-continuity",
+  "level": "2",
+  "url": "L4.html#def-continuity",
+  "type": "Definition",
+  "number": "1.4.4",
+  "title": "Continuity.",
+  "body": " Continuity   A function is continuous continuous function at provided that    has a limit as      is defined at (equivalently, is in the domain of ), and     .   A function is continuous on the interval if it is continuous at all inputs in .  If a function is not continuous at or on , it is called discontinuous at that input or on .   "
+},
+{
+  "id": "activity-continuity-which-are-equal",
+  "level": "2",
+  "url": "L4.html#activity-continuity-which-are-equal",
+  "type": "Activity",
+  "number": "1.4.3",
+  "title": "",
+  "body": "  Suppose that some function is continuous at . Use to decide which of the following quantities are equal to each other.                           "
+},
+{
+  "id": "L4-activities-8",
+  "level": "2",
+  "url": "L4.html#L4-activities-8",
+  "type": "Activity",
+  "number": "1.4.4",
+  "title": "",
+  "body": "  In , you saw several ways that a function could be discontinuous. In fact, these have names: removable discontinuity , infinite discontinuity , and jump discontinuity .    Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite      "
+},
+{
+  "id": "theorem-continuity-combining-functions",
+  "level": "2",
+  "url": "L4.html#theorem-continuity-combining-functions",
+  "type": "Theorem",
+  "number": "1.4.5",
+  "title": "",
+  "body": "  If and are continuous at and is a real number, then the functions , , , and are also continuous at . Moreover, is continuous at provided that .   "
+},
+{
+  "id": "fact-continuity-domain",
+  "level": "2",
+  "url": "L4.html#fact-continuity-domain",
+  "type": "Fact",
+  "number": "1.4.6",
+  "title": "",
+  "body": "  All functions we deal with (except possibly piecewise functions) are continuous on their domain   "
+},
+{
+  "id": "activity-continuity-piecewise",
+  "level": "2",
+  "url": "L4.html#activity-continuity-piecewise",
+  "type": "Activity",
+  "number": "1.4.5",
+  "title": "",
+  "body": "  Answer the questions below about piecewise functions. It may be helpful to look at some graphs.   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?   "
+},
+{
+  "id": "L-continuity-identify-intervals",
+  "level": "2",
+  "url": "L4.html#L-continuity-identify-intervals",
+  "type": "Activity",
+  "number": "1.4.6",
+  "title": "",
+  "body": "  For each function, determine the appropriate interval of continuity. If the interval is not , identify specific reasons (like specific problem inputs) why not. It may be helpful to identify the domain of the function, thanks to .                                                                                                                                                    "
+},
+{
+  "id": "L-continuity-activity-limits-and-continuity",
+  "level": "2",
+  "url": "L4.html#L-continuity-activity-limits-and-continuity",
+  "type": "Activity",
+  "number": "1.4.7",
+  "title": "",
+  "body": "  Suppose and are continuous functions such that and . What must be the value of ?   "
 },
 {
   "id": "D1",

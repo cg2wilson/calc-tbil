@@ -178,10 +178,7 @@ true);
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="L4.html" class="internal"><span class="codenumber">1.4</span> <span class="title">L4: Continuity</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L4.html#L4-preclass" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L4.html#L4-activities" class="internal"><span class="codenumber">1.4.2</span> <span class="title">In-Class Activities</span></a></div></li>
-</ul>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L4.html#L4-activities" class="internal"><span class="codenumber">1.4.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -445,9 +442,9 @@ true);
 <li id="activity-limits-graphically-one-sided-2-2-1-2"><div class="para" id="activity-limits-graphically-one-sided-2-2-1-2-1">The limit is -1</div></li>
 <li id="activity-limits-graphically-one-sided-2-2-1-3"><div class="para" id="activity-limits-graphically-one-sided-2-2-1-3-1">The limit is 0</div></li>
 <li id="activity-limits-graphically-one-sided-2-2-1-4"><div class="para" id="activity-limits-graphically-one-sided-2-2-1-4-1">The limit is not defined</div></li>
-</ol></div></article></article><article class="definition definition-like" id="L1-activities-9"><h4 class="heading">
+</ol></div></article></article><article class="definition definition-like" id="def-limit-left-right"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span><span class="space"> </span><span class="title">Left- and Right-Hand Limits.</span>
-</h4> <div class="para logical" id="L1-activities-9-2-1">
+</h4> <div class="para logical" id="def-limit-left-right-2-1">
 <div class="para">We say that <dfn class="terminology"><span class="process-math">\(f\)</span> has limit <span class="process-math">\(L_1\)</span> as <span class="process-math">\(x\)</span> approaches <span class="process-math">\(a\)</span> from the left</dfn> and write</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -456,7 +453,7 @@ true);
 </div>
 <div class="para">provided that we can make the value of <span class="process-math">\(f(x)\)</span> as close to <span class="process-math">\(L_1\)</span> as we like by taking <span class="process-math">\(x\)</span> sufficiently close to <span class="process-math">\(a\)</span> while always having <span class="process-math">\(x \lt  a\text{.}\)</span> We call <span class="process-math">\(L_1\)</span> the left-hand limit of <span class="process-math">\(f\)</span> as <span class="process-math">\(x\)</span> approaches <span class="process-math">\(a\text{.}\)</span>
 </div>
-</div> <div class="para logical" id="L1-activities-9-2-2">
+</div> <div class="para logical" id="def-limit-left-right-2-2">
 <div class="para">Similarly, we say <dfn class="terminology"><span class="process-math">\(L_2\)</span> is the right-hand limit of <span class="process-math">\(f\)</span> as <span class="process-math">\(x\)</span> approaches <span class="process-math">\(a\)</span></dfn> and write</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -465,7 +462,20 @@ true);
 </div>
 <div class="para">provided that we can make the value of <span class="process-math">\(f(x)\)</span> as close to <span class="process-math">\(L_2\)</span> as we like by taking <span class="process-math">\(x\)</span> sufficiently close to <span class="process-math">\(a\)</span> while always having <span class="process-math">\(x \gt a\text{.}\)</span>
 </div>
-</div></article><article class="activity project-like" id="activity-limits-graphically-one-sided2"><h4 class="heading">
+</div></article><article class="fact theorem-like" id="fact-limits-existence"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">Facts About Limits.</span>
+</h4>
+<div class="para logical" id="fact-limits-existence-2-1"><ul class="disc">
+<li id="fact-limits-existence-2-1-1-1"><div class="para logical" id="fact-limits-existence-2-1-1-1-1">
+<div class="para">A function <span class="process-math">\(f(x)\)</span> has a limit at <span class="process-math">\(x=a\)</span> if and only if</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x\to a^-} f(x) = \lim_{x\to a^+} f(x)
+\end{equation*}
+</div>
+</div></li>
+<li id="fact-limits-existence-2-1-1-2"><div class="para" id="fact-limits-existence-2-1-1-2-1">For a function <span class="process-math">\(f(x)\text{,}\)</span> it may have a limit at <span class="process-math">\(x=a\text{,}\)</span> even if <span class="process-math">\(f(a)\)</span> does not exist.</div></li>
+</ul></div></article><article class="activity project-like" id="activity-limits-graphically-one-sided2"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="activity-limits-graphically-one-sided2-1"><div class="para" id="activity-limits-graphically-one-sided2-1-1">Refer again to <a href="L1.html#limit-left-and-right" class="xref" data-knowl="./knowl/xref/limit-left-and-right.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.1.7">Figure 1.1.7</a> from <a href="L1.html#activity-limits-graphically-one-sided" class="xref" data-knowl="./knowl/xref/activity-limits-graphically-one-sided.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.1.3">Activity 1.1.3</a>.</div></div>
@@ -489,7 +499,7 @@ true);
 </h4>
 <div class="introduction" id="activity-limits-graphically-fluency1-1">
 <div class="para" id="activity-limits-graphically-fluency1-1-1">Consider the following graph:</div> <figure class="figure figure-like" id="limits-one-sided-fluency"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/limits-one-sided-fluency.png" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.1.9<span class="period">.</span></span><span class="space"> </span>Another piecewise-defined function</figcaption></figure>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.1.10<span class="period">.</span></span><span class="space"> </span>Another piecewise-defined function</figcaption></figure>
 </div>
 <article class="task exercise-like" id="activity-limits-graphically-fluency1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="activity-limits-graphically-fluency1-2-1">Find  <span class="process-math">\(\displaystyle \lim_{x \to -3^-} f(x)\)</span> and <span class="process-math">\(\displaystyle \lim_{x \to -3^+} f(x)\text{.}\)</span>
@@ -506,22 +516,22 @@ true);
 <li id="activity-limits-graphically-fluency1-6-2-2"><div class="para" id="p-derived-activity-limits-graphically-fluency1-6-2-2"><span class="process-math">\(\displaystyle -1\)</span></div></li>
 <li id="activity-limits-graphically-fluency1-6-2-3"><div class="para" id="p-derived-activity-limits-graphically-fluency1-6-2-3"><span class="process-math">\(\displaystyle 2\)</span></div></li>
 <li id="activity-limits-graphically-fluency1-6-2-4"><div class="para" id="p-derived-activity-limits-graphically-fluency1-6-2-4"><span class="process-math">\(\displaystyle 4\)</span></div></li>
-</ol></article></article><article class="activity project-like" id="L1-activities-12"><h4 class="heading">
+</ol></article></article><article class="activity project-like" id="L1-activities-13"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="L1-activities-12-1-1">Sketch the graph of a function <span class="process-math">\(f(x)\)</span> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.</div> <div class="para logical" id="L1-activities-12-1-2"><ol class="decimal">
-<li id="L1-activities-12-1-2-1-1"><div class="para" id="L1-activities-12-1-2-1-1-1">
+<div class="para" id="L1-activities-13-1-1">Sketch the graph of a function <span class="process-math">\(f(x)\)</span> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.</div> <div class="para logical" id="L1-activities-13-1-2"><ol class="decimal">
+<li id="L1-activities-13-1-2-1-1"><div class="para" id="L1-activities-13-1-2-1-1-1">
 <span class="process-math">\(\ds \lim_{x\to 5^-} f(x)\)</span> is finite, but <span class="process-math">\(\ds \lim_{x\to 5^+} f(x)\)</span> is infinite.</div></li>
-<li id="L1-activities-12-1-2-1-2"><div class="para" id="L1-activities-12-1-2-1-2-1">
+<li id="L1-activities-13-1-2-1-2"><div class="para" id="L1-activities-13-1-2-1-2-1">
 <span class="process-math">\(\ds \lim_{x\to -3} f(x)=-4\text{,}\)</span> but <span class="process-math">\(f(-3)=0\text{.}\)</span>
 </div></li>
-<li id="L1-activities-12-1-2-1-3"><div class="para" id="L1-activities-12-1-2-1-3-1">
+<li id="L1-activities-13-1-2-1-3"><div class="para" id="L1-activities-13-1-2-1-3-1">
 <span class="process-math">\(\ds \lim_{x\to -1^-} f(x)=-1\)</span> but <span class="process-math">\(\ds \lim_{x\to -1^+} f(x)\neq-1\text{.}\)</span>
 </div></li>
 </ol></div></article><article class="activity project-like" id="activity-limits-numerically1"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span>
 </h4>
-<figure class="table table-like" id="table-limit-numerical1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.10<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<figure class="table table-like" id="table-limit-numerical1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.11<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
 <td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(6.9\)</span></td>
@@ -543,7 +553,7 @@ true);
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.1639\)</span></td>
 </tr>
 </table></div></figure> <div class="para logical" id="activity-limits-numerically1-2">
-<div class="para">Based on the values of <a href="L1.html#table-limit-numerical1" class="xref" data-knowl="./knowl/xref/table-limit-numerical1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.10">Table 1.1.10</a>, what is the best approximation for <span class="process-math">\(\displaystyle\lim_{x\to 7} f(x)\text{?}\)</span>
+<div class="para">Based on the values of <a href="L1.html#table-limit-numerical1" class="xref" data-knowl="./knowl/xref/table-limit-numerical1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.11">Table 1.1.11</a>, what is the best approximation for <span class="process-math">\(\displaystyle\lim_{x\to 7} f(x)\text{?}\)</span>
 </div>
 <ol class="upper-alpha cols2">
 <li id="activity-limits-numerically1-2-3-1"><div class="para" id="activity-limits-numerically1-2-3-1-1">the limit is approximately 7</div></li>
@@ -552,13 +562,13 @@ true);
 <li id="activity-limits-numerically1-2-3-4"><div class="para" id="activity-limits-numerically1-2-3-4-1">the limit is approximately 0.1667</div></li>
 <li id="activity-limits-numerically1-2-3-5"><div class="para" id="activity-limits-numerically1-2-3-5-1">the limit is approximately 6.9999</div></li>
 </ol>
-</div></article><article class="remark remark-like" id="L1-activities-14"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
+</div></article><article class="remark remark-like" id="L1-activities-15"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="L1-activities-14-1">Notice that the value we obtained in <a href="L1.html#activity-limits-numerically1" class="xref" data-knowl="./knowl/xref/activity-limits-numerically1.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.1.7">Activity 1.1.7</a> is only an approximation, based on the trends that we have seen within the table.</div></article><article class="activity project-like" id="activity-limits-numerically2"><h4 class="heading">
+<div class="para" id="L1-activities-15-1">Notice that the value we obtained in <a href="L1.html#activity-limits-numerically1" class="xref" data-knowl="./knowl/xref/activity-limits-numerically1.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.1.7">Activity 1.1.7</a> is only an approximation, based on the trends that we have seen within the table.</div></article><article class="activity project-like" id="activity-limits-numerically2"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="activity-limits-numerically2-1"><figure class="table table-like" id="table-limit-numerical2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.12<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="introduction" id="activity-limits-numerically2-1"><figure class="table table-like" id="table-limit-numerical2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.13<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
 <td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(1.25\)</span></td>
@@ -579,7 +589,7 @@ true);
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1.33\)</span></td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.9606\)</span></td>
 </tr>
-</table></div></figure></div> <div class="para" id="activity-limits-numerically2-2">In <a href="L1.html#activity-limits-graphically1" class="xref" data-knowl="./knowl/xref/activity-limits-graphically1.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.1.1">Activity 1.1.1</a>’s <a href="L1.html#limit_censored" class="xref" data-knowl="./knowl/xref/limit_censored.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.1.1">Figure 1.1.1</a> we found an approximation to the limit of the function as <span class="process-math">\(x\)</span> tends to 2.</div> <div class="para" id="activity-limits-numerically2-3">Now let us say you are also given a table of numerical values (<a href="L1.html#table-limit-numerical2" class="xref" data-knowl="./knowl/xref/table-limit-numerical2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.12: ">Table 1.1.12</a>) for the function. Given this new information which of the choices below best describes the limit of the function as <span class="process-math">\(x\)</span> tends to 2?</div> <div class="para logical" id="activity-limits-numerically2-4"><ol class="upper-alpha">
+</table></div></figure></div> <div class="para" id="activity-limits-numerically2-2">In <a href="L1.html#activity-limits-graphically1" class="xref" data-knowl="./knowl/xref/activity-limits-graphically1.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.1.1">Activity 1.1.1</a>’s <a href="L1.html#limit_censored" class="xref" data-knowl="./knowl/xref/limit_censored.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.1.1">Figure 1.1.1</a> we found an approximation to the limit of the function as <span class="process-math">\(x\)</span> tends to 2.</div> <div class="para" id="activity-limits-numerically2-3">Now let us say you are also given a table of numerical values (<a href="L1.html#table-limit-numerical2" class="xref" data-knowl="./knowl/xref/table-limit-numerical2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.13: ">Table 1.1.13</a>) for the function. Given this new information which of the choices below best describes the limit of the function as <span class="process-math">\(x\)</span> tends to 2?</div> <div class="para logical" id="activity-limits-numerically2-4"><ol class="upper-alpha">
 <li id="activity-limits-numerically2-4-1-1"><div class="para" id="activity-limits-numerically2-4-1-1-1">There is not enough information because we do not know the value of the function at <span class="process-math">\(x = 2\text{.}\)</span>
 </div></li>
 <li id="activity-limits-numerically2-4-1-2"><div class="para" id="activity-limits-numerically2-4-1-2-1">The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as <span class="process-math">\(x\)</span> goes to 2.</div></li>
@@ -589,7 +599,7 @@ true);
 </ol></div></article><article class="activity project-like" id="activity-limits-numerically3"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="activity-limits-numerically3-1"><figure class="table table-like" id="table-limit-numerical3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.13<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="introduction" id="activity-limits-numerically3-1"><figure class="table table-like" id="table-limit-numerical3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.14<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
 <td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(0.9\)</span></td>
@@ -610,7 +620,7 @@ true);
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.49\)</span></td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.4\)</span></td>
 </tr>
-</table></div></figure></div> <div class="para" id="activity-limits-numerically3-2">Based on <a href="L1.html#table-limit-numerical3" class="xref" data-knowl="./knowl/xref/table-limit-numerical3.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.13: ">Table 1.1.13</a>, what information can be inferred about <span class="process-math">\(\ds \lim_{x\to 1^-}f(x)\text{,}\)</span> <span class="process-math">\(\ds \lim_{x\to 1^+}f(x)\text{,}\)</span> and <span class="process-math">\(\ds \lim_{x\to 1}f(x)\text{?}\)</span>
+</table></div></figure></div> <div class="para" id="activity-limits-numerically3-2">Based on <a href="L1.html#table-limit-numerical3" class="xref" data-knowl="./knowl/xref/table-limit-numerical3.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.14: ">Table 1.1.14</a>, what information can be inferred about <span class="process-math">\(\ds \lim_{x\to 1^-}f(x)\text{,}\)</span> <span class="process-math">\(\ds \lim_{x\to 1^+}f(x)\text{,}\)</span> and <span class="process-math">\(\ds \lim_{x\to 1}f(x)\text{?}\)</span>
 </div> <div class="para logical" id="activity-limits-numerically3-3"><ol class="upper-alpha">
 <li id="activity-limits-numerically3-3-1-1"><div class="para" id="activity-limits-numerically3-3-1-1-1">
 <span class="process-math">\(\ds \lim_{x\to 1^-}f(x) = -0.5,\,\, \lim_{x\rightarrow 1^+}f(x) = 0.5\text{,}\)</span> and <span class="process-math">\(\ds\lim_{x\rightarrow 1}f(x) = 0\)</span>
@@ -647,8 +657,8 @@ true);
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="activity-limits-numerically5-1">
-<div class="para" id="activity-limits-numerically5-1-1">In <a href="L1.html#figure-limit-numerical-5" class="xref" data-knowl="./knowl/xref/figure-limit-numerical-5.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.1.14">Figure 1.1.14</a> is the graph for <span class="process-math">\(f(x) = \sin\lrpar{\dfrac{1}{x}}\text{.}\)</span>  Several values for <span class="process-math">\(f(x)\)</span> in the neighborhood of <span class="process-math">\(x = 0\)</span> are approximated in  <a href="L1.html#table-limit-numerical5" class="xref" data-knowl="./knowl/xref/table-limit-numerical5.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.15: ">Table 1.1.15</a>.</div> <figure class="figure figure-like" id="figure-limit-numerical-5"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/limits_numerical5_graph.png" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.1.14<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x) = \sin(1/x)\text{.}\)</span></figcaption></figure> <figure class="table table-like" id="table-limit-numerical5"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.15<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="activity-limits-numerically5-1-1">In <a href="L1.html#figure-limit-numerical-5" class="xref" data-knowl="./knowl/xref/figure-limit-numerical-5.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.1.15">Figure 1.1.15</a> is the graph for <span class="process-math">\(f(x) = \sin\lrpar{\dfrac{1}{x}}\text{.}\)</span>  Several values for <span class="process-math">\(f(x)\)</span> in the neighborhood of <span class="process-math">\(x = 0\)</span> are approximated in  <a href="L1.html#table-limit-numerical5" class="xref" data-knowl="./knowl/xref/table-limit-numerical5.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.16: ">Table 1.1.16</a>.</div> <figure class="figure figure-like" id="figure-limit-numerical-5"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/limits_numerical5_graph.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.1.15<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x) = \sin(1/x)\text{.}\)</span></figcaption></figure> <figure class="table table-like" id="table-limit-numerical5"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.16<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
 <td class="c m b1 r0 l0 t0 lines"><span class="process-math">\(-0.1\)</span></td>
@@ -679,10 +689,10 @@ true);
 <li id="activity-limits-numerically5-2-1-2-1-4"><div class="para" id="activity-limits-numerically5-2-1-2-1-4-1">The limit does not exist because you are dividing by zero when <span class="process-math">\(x = 0\)</span> for <span class="process-math">\(f(x).\)</span>
 </div></li>
 </ol></div></article><article class="task exercise-like" id="activity-limits-numerically5-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="activity-limits-numerically5-3-1-1">Would your conclusion that resulted from <a href="L1.html#activity-limits-numerically5" class="xref" data-knowl="./knowl/xref/activity-limits-numerically5.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.1.11">Activity 1.1.11</a> change if the function was <span class="process-math">\(f(x) = \cos(1/x)\)</span> or <span class="process-math">\(f(x) = \tan(1/x)\text{?}\)</span> Explain why or why not.</div></article></article><article class="activity project-like" id="L1-activities-19"><h4 class="heading">
+<div class="para" id="activity-limits-numerically5-3-1-1">Would your conclusion that resulted from <a href="L1.html#activity-limits-numerically5" class="xref" data-knowl="./knowl/xref/activity-limits-numerically5.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.1.11">Activity 1.1.11</a> change if the function was <span class="process-math">\(f(x) = \cos(1/x)\)</span> or <span class="process-math">\(f(x) = \tan(1/x)\text{?}\)</span> Explain why or why not.</div></article></article><article class="activity project-like" id="L1-activities-20"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.12</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="L1-activities-19-1-1">
+<div class="para logical" id="L1-activities-20-1-1">
 <div class="para">Use technology to complete the following table of values.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -697,7 +707,7 @@ f(x) &amp; &amp; &amp; &amp; &amp; &amp; &amp;  \\
 \end{array}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="L1-activities-19-1-2">
+</div> <div class="para logical" id="L1-activities-20-1-2">
 <div class="para">Then explain how to use it to make an educated guess as to the value of the limit</div>
 <div class="displaymath process-math">
 \begin{equation*}
