@@ -261,7 +261,7 @@
         
       </activity>
 
-      <definition>
+      <definition xml:id="def-limit-left-right">
         <title>Left- and Right-Hand Limits</title>   
         <statement>
           <p>
@@ -280,6 +280,30 @@
           </p>
         </statement>
       </definition>
+
+      <fact xml:id="fact-limits-existence">
+        <title>Facts About Limits</title>
+        <statement>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  A function <m>f(x)</m> has a limit at <m>x=a</m> if and only if 
+                  <me>
+                    \lim_{x\to a^-} f(x) = \lim_{x\to a^+} f(x)
+                  </me>
+                  
+                </p>
+              </li>
+              <li>
+                <p>
+                  For a function <m>f(x)</m>, it may have a limit at <m>x=a</m>, even if <m>f(a)</m> does not exist.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </fact>
 
       <activity xml:id="activity-limits-graphically-one-sided2" estimated-time="10">
         <introduction>

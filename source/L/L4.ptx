@@ -16,8 +16,614 @@
     <subsection xml:id="L4-activities">
         <title>In-Class Activities</title>
 
-
+        <remark xml:id="L-continuity-intuition">
+            <p>
+                A continuous function is one whose values change smoothly, with no jumps or gaps in the graph. We'll explore the idea first, and arrive at a mathematical definition soon.
+            </p>
+        </remark>
+            
+        <activity xml:id="activity-continuous-scenarios">
+            <statement>
+                <p>
+                Which of the following scenarios best describes a continuous function?
+                </p>
+                <p>
+                    <ol marker="A.">
+                        <li>
+                            <p>
+                            The age of a person reported in years
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                            The price of postage for a parcel depending on its weight
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                            The volume of water in a tank that is gradually filled over time
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                            The number of likes on my latest TikTok depending on the time since I posted it
+                            </p>
+                        </li>
+                    </ol>     
+                </p>          
+            </statement>
+        </activity>
         
-    </subsection>
+        <activity xml:id="L-continuity-activity-def">
+            <introduction>
+                <p>
+                   Use <xref ref="L-continuity-intuition"/> and <xref ref="L-continuity-intuition-img"/> to answer the following tasks.
+                </p>
+                <figure xml:id="L-continuity-intuition-img">
+                    <caption>A graph with several points of interest</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/L-continuity-intuition-img.tex" parse="text" />  
+                        </latex-image>
+                                              
+                    </image>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x)</m> is not continuous at <m>x=0</m>. Why? Select all that apply.
+                    </p>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 0} f(x)</m> does not exist
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 0^-} f(x) = -3</m> but <m>\ds \lim_{x\to 0^+} f(x) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 0^-} = 0</m> but <m>\ds \lim_{x\to 0^+} f(x) = -3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x)</m> has two outputs at <m>x=0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task> 
+                <statement>
+                    <p>
+                        <m>f(x)</m> is not continuous at <m>x=1</m>. Why? Select all that apply.
+                    </p>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>f(1)</m> and <m>\ds \lim_{x\to 1} f(x)</m> are not the same
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 1^+} f(x) = +\infty</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 1^+} f(x)\neq \lim_{x\to 1^-} f(x)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 1} f(x)</m> does not exist
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task> <!--infinite discontinuity-->
+                <statement>
+                    <p>
+                        <m>f(x)</m> is not continuous at <m>x=3</m>. Why? Select all that apply.
+                    </p>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 3} f(x)</m> does not exist
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(3)</m> and <m>\ds \lim_{x\to 3} f(x)</m> are not the same
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x)</m> has two outputs at <m>x=3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 3^-} f(x) = \lim_{x\to 3^+} f(x)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
 
+        <question>
+            <statement>
+                <p>
+                    Based on <xref ref="L-continuity-activity-def"/>, what conditions do you think need to be true in order for a function to be continuous at the input <m>x=a</m>?
+                </p>
+            </statement>
+        </question>
+
+        <definition xml:id="def-continuity">
+            <title>Continuity</title>
+            <statement>
+              <p>
+                A function <m>f</m> is <term>continuous</term><idx>continuous function</idx> at <m>x = a</m> provided that
+                <ol marker="1.">
+                  <li>
+                    <p>
+                      <m>f</m> has a limit as <m>x \to a</m>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <m>f</m> is defined at <m>x = a</m> (equivalently, <m>a</m> is in the domain of <m>f</m>), and
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <m>\ds\lim_{x \to a} f(x) = f(a)</m>.
+                    </p>
+                  </li>
+                </ol>
+                A function is continuous <em>on the interval <m>I</m></em> if it is continuous at all inputs in <m>I</m>.
+              </p>
+              <p>
+                If a function is not continuous at <m>x=a</m> or on <m>I</m>, it is called <em>discontinuous</em> at that input or on <m>I</m>.
+              </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="activity-continuity-which-are-equal">
+            <statement>
+                <p>
+                Suppose that some function <m>h(x)</m> is continuous at <m>x = -3</m>. Use <xref ref="def-continuity"/> to decide which of the following quantities are equal to each other.
+                </p>
+                <p>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>\ds\lim_{x \to -3^+} h(x)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\ds\lim_{x \to -3^-} h(x)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\ds\lim_{x \to -3} h(x)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>h(-3)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+            
+        <activity>
+            <introduction>
+                <p>
+                    In <xref ref="L-continuity-activity-def"/>, you saw several ways that a function could be discontinuous. In fact, these have names: <term>removable discontinuity</term>, <term>infinite discontinuity</term>, and <term>jump discontinuity</term>.
+                </p>
+            </introduction>  
+            <task>
+                <statement>
+                    <p>
+                        Which kind of discontinuity <q>makes sense</q> to be at <m>x=0</m>?
+                    </p>
+                    <p>
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    Removable
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Infinite
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Jump
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        Which statement <em>most accurately</em> describes why <m>f(x)</m> is discontinuous at <m>x=0</m> in <xref ref="L-continuity-intuition-img"/>, in terms of <xref ref="def-continuity"/>?
+                    </p>
+                    <p>
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>f(0)\neq \ds \lim_{x\to 0} f(x)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 0^-} f(x) \neq \lim_{x\to 0^+} f(x)</m>, so <m>\ds \lim_{x\to 0} f(x)</m> does not exist
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(0)</m> does not exist
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    One or both of <m>\ds \lim_{x\to 0^-} f(x)</m> and <m>\ds \lim_{x\to 0^+} f(x)</m> is infinite
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which kind of discontinuity <q>makes sense</q> to be at <m>x=1</m>?
+                    </p>
+                    <p>
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    Removable
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Infinite
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Jump
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        Which statement <em>most accurately</em> describes why <m>f(x)</m> is discontinuous at <m>x=1</m> in <xref ref="L-continuity-intuition-img"/>, in terms of <xref ref="def-continuity"/>?
+                    </p>
+                    <p>
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>f(1)\neq \ds \lim_{x\to 1} f(x)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 1^-} f(x) \neq \lim_{x\to 1^+} f(x)</m>, so <m>\ds \lim_{x\to 1} f(x)</m> does not exist
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(1)</m> does not exist
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    One or both of <m>\ds \lim_{x\to 1^-} f(x)</m> and <m>\ds \lim_{x\to 1^+} f(x)</m> is infinite
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which kind of discontinuity <q>makes sense</q> to be at <m>x=3</m>?
+                    </p>
+                    <p>
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    Removable
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Infinite
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Jump
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        Which statement <em>most accurately</em> describes why <m>f(x)</m> is discontinuous at <m>x=1</m> in <xref ref="L-continuity-intuition-img"/>, in terms of <xref ref="def-continuity"/>?
+                    </p>
+                    <p>
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>f(3)\neq \ds \lim_{x\to 3} f(x)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 3^-} f(x) \neq \lim_{x\to 3^+} f(x)</m>, so <m>\ds \lim_{x\to 3} f(x)</m> does not exist
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(3)</m> does not exist
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    One or both of <m>\ds \lim_{x\to 3^-} f(x)</m> and <m>\ds \lim_{x\to 3^+} f(x)</m> is infinite
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+            
+        <theorem xml:id="theorem-continuity-combining-functions">
+            <statement>
+                <p>
+                    If <m>f</m> and <m>g</m> are continuous at <m>x = a</m> and <m>c</m> is a real number, then the functions <m>f + g</m>, <m>f - g</m>, <m>cf</m>, and <m>fg</m> are also continuous at <m>x = a</m>. Moreover, <m>f/g</m> is continuous at <m>x = a</m> provided that <m>g(a) \neq 0</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <fact xml:id="fact-continuity-domain">
+            <statement>
+                <p>
+                    All functions we deal with (except possibly piecewise functions) are continuous on their domain
+                </p>
+            </statement>
+        </fact>
+            
+        <activity xml:id="activity-continuity-piecewise">
+            <introduction> 
+                <p>
+                  Answer the questions below about piecewise functions. It may be helpful to look at some graphs.
+                </p>
+            </introduction>
+                <task>
+                    <p>
+                      Which values of <m>c</m>, if any, could make the following function continuous on the real line?<me>
+                        g(x) = \begin{cases}
+                          x + c \amp x \leq 2 \\
+                          x^2   \amp x \gt  2
+                        \end{cases}
+                      </me>
+                    </p>
+                </task>  
+                <task>
+                    <p>
+                      Which values of <m>c</m>, if any, could make the following function continuous on the real line?<me>
+                        h(x) = \begin{cases}
+                          4     \amp x \leq c \\
+                          x^2   \amp x \gt  c
+                        \end{cases}
+                      </me>
+                    </p>
+                  </task>
+                  <task>
+                    <p>
+                      Which values of <m>c</m>, if any, could make the following function continuous on the real line?<me>
+                        k(x) = \begin{cases}
+                          x   \amp x \leq c \\
+                          x^2 \amp x \gt c
+                        \end{cases}
+                      </me>
+                    </p>
+                  </task>
+        </activity>
+
+        <activity xml:id="L-continuity-identify-intervals">
+            <introduction>
+                <p>
+                    For each function, determine the appropriate interval of continuity. If the interval is not <m>(-\infty,\infty)</m>, identify specific reasons (like specific <q>problem</q> inputs) why not. It may be helpful to identify the domain of the function, thanks to <xref ref="fact-continuity-domain"/>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = x^{67} -47.521x^51 + 719 - e^{-x}</m>
+                    </p>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>(-\infty,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(0,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(-\infty,0)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(-\infty,0)\cup (0,\infty)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>g(a) = \dfrac{a^2+2a+17}{a^2-1}</m>
+                    </p>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>(-\infty,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(-\infty,1)\cup (1,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(-\infty,-1)\cup(1,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(-\infty,-1)\cup (-1,1)\cup (1,\infty)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>c(x) = \ln (25-x^2)</m>
+                    </p>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>(-\infty,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>[-5,5]</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(-\infty,-5)\cup (5,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(-5,5)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>d(k) = \sqrt{k} + \dfrac{k+1}{k-1} + \dfrac{k+1}{k^2+1}</m>
+                    </p>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>(-\infty,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>[0,1)\cup (1,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(0,1)\cup (1,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>[0,\infty)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>j(x) = \cos\lrpar{\dfrac{3}{x}}</m>
+                    </p>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>(-\infty,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(0,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(-\infty,0)\cup (0,\infty)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>[-3,3]</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="L-continuity-activity-limits-and-continuity">
+            <statement>
+                <p>
+                    Suppose <m>f</m> and <m>g</m> are continuous functions such that <m>g(2) = 6</m> and <m>\ds \lim_{x\to 2} [3f(x) + f(x)g(x)] = 36</m>. What must be the value of <m>f(2)</m>?
+                </p>
+            </statement> 
+        </activity>
+    </subsection>
 </section>
