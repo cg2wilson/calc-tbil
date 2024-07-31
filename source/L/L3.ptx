@@ -17,493 +17,589 @@
         <title>In-Class Activities</title>
 
         <activity xml:id="LT5-infinity-intuition1">
-            <introduction>
-                <p>
-                    Consider the graph of the polynomial function <m>f(x) = x^3</m> . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?
-                </p>
-                <figure>
-                    <caption>
-                        The graph of <m>x^3</m>
-                    </caption>
-                    <image width="50%" xml:id="LT5-infinity-intuition1-img">
-        <latex-image><xi:include href="./tikz/LT5-infinity-intuition1.tex" parse="text"/></latex-image>
-                    </image>
-                    
-                </figure>
-            </introduction>
-
-            <ol marker="A.">
-                <li><p>As <m>x</m> gets larger, the function <m>x^3</m> gets smaller and smaller.</p></li>
-                <li><p>As <m>x</m> gets more and more negative, the function <m>x^3</m> gets more and more negative.</p></li>
-                <li><p>As <m>x</m> gets more and more positive, the function <m>x^3</m> gets more and more negative.</p></li>
-                <li><p>As <m>x</m> gets smaller, the function <m>x^3</m> gets smaller and smaller.</p></li>
-            </ol>
-
+            <p>
+                Consider the graph of the polynomial function <m>f(x) = x^3</m> . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?
+            </p>
+            <figure>
+                <caption>
+                    The graph of <m>x^3</m>
+                </caption>
+                <image width="50%" xml:id="LT5-infinity-intuition1-img">
+                    <latex-image>
+                        <xi:include href="./tikz/LT5-infinity-intuition1.tex" parse="text"/>
+                    </latex-image>
+                </image> 
+            </figure>
+            <p>
+                <ol marker="A.">
+                    <li><p>As <m>x</m> gets larger, the function <m>x^3</m> gets smaller and smaller.</p></li>
+                    <li><p>As <m>x</m> gets more and more negative, the function <m>x^3</m> gets more and more negative.</p></li>
+                    <li><p>As <m>x</m> gets more and more positive, the function <m>x^3</m> gets more and more negative.</p></li>
+                    <li><p>As <m>x</m> gets smaller, the function <m>x^3</m> gets smaller and smaller.</p></li>
+                </ol>    
+            </p>
         </activity>
 
         <remark>
             <p>
                 We say that <q>the limit as <m>x</m> tends to negative infinity of <m>x^3</m> is negative infinity</q> and that <q>the limit as <m>x</m> tends to positive infinity of <m>x^3</m> is positive infinity.</q> In symbols, we write
-            <me>
-            \lim_{x \to + \infty} x^3 = + \infty \, ,  \, \lim_{x \to - \infty} x^3 = - \infty. </me>
+                <me>
+                    \lim_{x \to + \infty} x^3 = + \infty \, ,  \, \lim_{x \to - \infty} x^3 = - \infty
+                </me>
             </p>
         </remark>
 
-   <activity xml:id="LT5-infinity-inutition2">
-        <introduction>
+        <activity xml:id="LT5-infinity-intuition2">
             <p>
-                    Consider the graph of the rational function <m>f(x) = 1/ x^3</m> . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?
+                Consider the graph of the rational function <m>f(x) = 1/ x^3</m> . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?
             </p>
-            <figure>
-                <image width="50%" xml:id="LT5-infinity-intuition2-img">
-<latex-image><xi:include href="./tikz/LT5-infinity-intuition2.tex" parse="text"/></latex-image>
-                </image>
+            <figure xml:id="LT5-infinity-intuition2-img">
                 <caption> The graph of <m>1/x^3</m>.</caption>
+                <image width="50%">
+                    <latex-image>
+                        <xi:include href="./tikz/LT5-infinity-intuition2.tex" parse="text"/>
+                    </latex-image>
+                </image>
             </figure>
-
-        </introduction>
-
-        <ol marker="A.">
-            <li><p> As <m>x</m> tends to positive infinity, the function <m>1/x^3</m> tends to positive infinity</p></li>
-            <li><p>As <m>x</m> tends to negative infinity, the function <m>1/x^3</m>  tends to 0</p></li>
-            <li><p>As <m>x</m> tends to positive infinity, the function <m>1/x^3</m>  tends to negative infinity</p></li>
-            <li><p>As <m>x</m> tends to 0, the function <m>1/x^3</m>  tends to 0</p></li>
-        </ol>
-
-    </activity>
-
-    <definition>
-        <statement>
-      <p> A function has a <term>horizontal asymptote</term><idx>horizontal asymptote</idx> at <m>y=b</m> when </p>
-            <me>
-    \lim_{x\to +\infty} f(x) = b
-            </me>
-      <p> or </p>
-            <me>
-    \lim_{x\to -\infty} f(x) = b
-            </me>
-   <p> This means that we can make the output of <m> f(x)</m> as close as we want to <m>b</m>, as long as we take <m> x</m> a large enough positive number (<m>x \to \infty</m>) or a large enough negative number (<m>x \to -\infty</m>).</p>
-        </statement>
-    </definition>
-
-      <remark>
-        <statement>
-            <p>    We say that the function <m>1/x^3</m> has horizontal asymptote <m>y=0</m> because the limit as <m>x</m> tends to positive infinity of <m>1/x^3</m> is 0. Alternatively, we could also justify it by saying that the limit as <m>x</m> goes to negative infinity is 0. </p>
-             </statement>
-        </remark>
-
-    <activity xml:id="asymptotes-hor">
-        <introduction>
             <p>
-                Which of the following functions have horizontal asymptotes? Select all!
-<!-- TO-DO make the graphs prettier-->
+                <ol marker="A.">
+                    <li>
+                        <p>
+                            As <m>x</m> tends to positive infinity, the function <m>1/x^3</m> tends to positive infinity
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            As <m>x</m> tends to negative infinity, the function <m>1/x^3</m>  tends to 0
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            As <m>x</m> tends to positive infinity, the function <m>1/x^3</m>  tends to negative infinity
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            As <m>x</m> tends to 0, the function <m>1/x^3</m>  tends to 0
+                        </p>
+                    </li>
+                </ol>
             </p>
-            <sidebyside>
-                <figure>
-                    <image xml:id="graph-horizontal-asymptotes-1">
-                    <latex-image>
+        </activity>
 
-                        \begin{tikzpicture}[scale=0.6]
-                        \begin{axis}[
-                                axis x line=middle,
-                                axis y line=middle,
-                                 x label style={at={(axis description cs:1,-0.2)}},
-                                 y label style={at={(axis description cs:0.3,1)}},
-                                 ylabel=$y$,
-                                 xlabel=$x$
-                                ]
-                            \addplot[samples=500, domain=-5:5, blue, ultra thick] {e^x};
-                        \end{axis}
-                        \end{tikzpicture}
-                        </latex-image>
-                    </image>
-                    <caption>A</caption>
-                </figure>
-                <figure>
-                    <image xml:id="graph-horizontal-asymptotes-2">
-                    <latex-image>
-                        \begin{tikzpicture}[scale=0.6]
-                        \begin{axis}[
-                                axis x line=middle,
-                                axis y line=middle,
-                                 x label style={at={(axis description cs:1,-0.2)}},
-                                 y label style={at={(axis description cs:0.3,1)}},
-                                 ylabel=$y$,
-                                 xlabel=$x$
-                                ]
-                            \addplot[samples=500, domain=0.01:5, blue, ultra thick] {ln(x)};
-                        \end{axis}
-                        \end{tikzpicture}
-                    </latex-image>
-                    </image>
-                    <caption>B</caption>
-                </figure>
-                <figure>
-                    <image xml:id="graph-horizontal-asymptotes-3">
-                    <latex-image>
-                  \begin{tikzpicture}[scale=0.6]
-                        \begin{axis}[
-                                axis x line=middle,
-                                axis y line=middle,
-                                 x label style={at={(axis description cs:1,-0.2)}},
-                                 y label style={at={(axis description cs:0.3,1)}},
-                                 ylabel=$y$,
-                                 xlabel=$x$
-                                ]
-                            \addplot[domain=-5:-0.1, blue, ultra thick] {-1/x};
-                           \addplot[domain=0.1:5, blue, ultra thick] {-1/x};
-                        \end{axis}
-                        \end{tikzpicture}
-                    </latex-image>
-                    </image>
-                    <caption>C</caption>
-                </figure>
-            </sidebyside>
-            <sidebyside>
-                <figure>
-                    <image xml:id="graph-horizontal-asymptotes-4">
-                    <latex-image>
-                \begin{tikzpicture}[scale=0.6]
-                        \begin{axis}[
-                                axis x line=middle,
-                                axis y line=middle,
-                                 x label style={at={(axis description cs:1,-0.2)}},
-                                 y label style={at={(axis description cs:0.3,1)}},
-                                 ylabel=$y$,
-                                 xlabel=$x$
-                                ]
-                            \addplot[domain=-5:0.9, blue, ultra thick] { (5*x+1)/(x-1)};
-                        \addplot[domain=1.1:5, blue, ultra thick] { (5*x+1)/(x-1)};
-                        \end{axis}
-                        \end{tikzpicture}
-                    </latex-image>
-                    </image>
-                    <caption>D</caption>
-                </figure>
-                <figure>
-                    <image xml:id="graph-horizontal-asymptotes-5">
-                    <latex-image>
-                       \begin{tikzpicture}[scale=0.6]
-                        \begin{axis}[
-                                axis x line=middle,
-                                axis y line=middle,
-                                 x label style={at={(axis description cs:1,-0.2)}},
-                                 y label style={at={(axis description cs:0.3,1)}},
-                                 ylabel=$y$,
-                                 xlabel=$x$
-                                ]
-                            \addplot[domain=-2:-0.1, blue, ultra thick] { (e^x+1)/(e^x-1)};
-                        \addplot[domain=0.1:2, blue, ultra thick] { (e^x+1)/(e^x-1)};
-                        \end{axis}
-                        \end{tikzpicture}
-                    </latex-image>
-                    </image>
-                    <caption>E</caption>
-                </figure>
-                <figure>
-                    <image xml:id="graph-horizontal-asymptotes-6">
-                    <latex-image>
-                     \begin{tikzpicture}[scale=0.6]
-                        \begin{axis}[
-                                axis x line=middle,
-                                axis y line=middle,
-                                 x label style={at={(axis description cs:1,-0.2)}},
-                                 y label style={at={(axis description cs:0.3,1)}},
-                                 ylabel=$y$,
-                                 xlabel=$x$
-                                ]
-                            \addplot[samples=500, domain=-5:0.9, blue, ultra thick] { (x^2+1)/(x-1)};
-                          \addplot[samples=500, domain=1.1:5, blue, ultra thick] { (x^2+1)/(x-1)};
-                        \end{axis}
-                        \end{tikzpicture}
-                    </latex-image>
-                    </image>
-                    <caption>F</caption>
-                </figure>
-            </sidebyside>
-                   </introduction>
-    </activity>
+        <definition xml:id="def-horizontal-asymptote">
+            <statement>
+                <p> A function has a <term>horizontal asymptote</term><idx>horizontal asymptote</idx> at <m>y=b</m> when
+                    <me>
+                        \lim_{x\to +\infty} f(x) = b
+                    </me>
+                    or 
+                    <me>
+                        \lim_{x\to -\infty} f(x) = b
+                    </me>
+                </p>
+                <p>
+                    This means that we can make the output of <m>f(x)</m> as close as we want to <m>b</m>, as long as we take <m>x</m> to be a large enough positive number (<m>x \to \infty</m>) or a large enough negative number (<m>x \to -\infty</m>).
+                </p>
+            </statement>
+        </definition>
 
-   <activity xml:id="infinity-rational1">
-        <introduction>
+        <activity xml:id="L-activity-horizontal-asymptote-1">
+            <introduction>
+                <p>
+                    Think again about the graph of <m>f(x) = 1/x^3</m>, given in <xref ref="LT5-infinity-intuition2-img"/>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following statements accurately describes the graph of <m>f(x)</m>? 
+                    </p>
+                    <p>
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    The graph has a horizontal asymptote at <m>x=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The graph has a horizontal asymptote at <m>y=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The graph has a horizontal asymptote at <m>y=1/x^3</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Select all of the mathematical statements that agree with your answer from part (a)
+                    </p>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 0} f(x) = +\infty</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to +\infty} f(x) = 1/x^3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to +\infty} f(x) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to 0} f(x) = -\infty</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to -\infty} f(x) = 1/x^3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \lim_{x\to -\infty} f(x) = 0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>   
+        </activity>
+
+        <activity xml:id="infinity-rational1">
             <p>
-   Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as <m>x</m> tends to + or - infinity?
+                Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as <m>x\to +\infty</m> or <m>x\to -\infty</m>?
             </p>
-        </introduction>
-
-            <ol marker="A.">
-                <li><p>The only possible limit is <m>0</m></p></li>
-                <li><p>The only possible limits are <m>0</m> or <m>\pm \infty</m>
- </p></li>
-                <li><p>The only possible limits are <m>0</m>, <m>1</m> or <m>\pm \infty</m>
- </p></li>
-                        <li><p>The only possible limits are any constant number or <m>\pm \infty</m></p></li>
-            </ol>
-
-    </activity>
-
-
-<activity xml:id="infinity-rational2">
-<introduction> In this activity we will examine functions whose limit as <m>x</m> approaches positive and negative infinity is a nonzero constant.</introduction>
-<task>
-            <p> Graph the following functions and consider their limits as <m>x</m> approaches positive and negative infinity. Which function(s) have a limit that is nonzero and constant? Find each of these limits.
-            </p>
-      
-
-            <ol marker="A." cols="2">
-                <li><p><m>\displaystyle  f(x)= \dfrac{x^3-x+3}{2x^3-6x+1} </m></p></li>
-                <li><p><m>\displaystyle  f(x)= \dfrac{x^2-3}{5x^3-2x^2+5} </m></p></li>
-                <li><p><m>\displaystyle  f(x)= \dfrac{x^4-3x-2}{3x^3-5x+1} </m></p></li>
-                <li><p><m>\displaystyle  f(x)= \dfrac{10x^5-3x+2}{5x^5-3x^2+1} </m></p></li>
-                <li><p><m>\displaystyle  f(x)= \dfrac{-8x^2-5x+1}{2x^2-2x+3} </m></p></li>
-            </ol></task>
-    <task> <p>Conjecture a rule for how to determine that a rational function has a nonzero constant limit as <m>x</m> approaches positive and negative infinity. Test your rule by creating a rational function whose limit as <m>x \to \infty</m> equals 3 and then check it graphically. </p> </task>
-    </activity>
-
-
-   <activity xml:id="infinity-rational3">
-        <introduction> <p>  What about when the limit is not a nonzero constant? How do we recognize those? In this activity you will first conjecture the general behavior of rational functions and then test your conjectures.</p>
-              </introduction>
-          <task> <p>
-  Consider a rational function <m>r(x) = \dfrac{p(x)}{q(x)}</m>. Looking at the numerator <m>p(x)</m> and the denominator <m>q(x)</m>, when does the function <m>r(x) </m> have limit equal to 0 as <m>x \to \infty? </m>
-            </p>
-     <ol marker="A.">
-               
-         <li><p> When the ratio of the leading terms is a constant. </p></li>
-                <li><p>When the degree of the numerator is greater than the degree of the denominator.
- </p></li>
-                <li><p>When the degree of the numerator is less than the degree of the denominator.
- </p></li>
-                 <li><p>When the degree of the numerator is equal to the degree of the denominator.
- </p></li>
-              </ol>
-</task>
-          <task> <p>
-  Consider a rational function <m>r(x) = \dfrac{p(x)}{q(x)}</m>. Looking at the numerator <m>p(x)</m> and the denominator <m>q(x)</m>, when does the function <m>r(x) </m> have limit approaching infinity as <m>x \to \infty? </m>
-            </p>
-     <ol marker="A.">
-            
-         <li><p> When the ratio of the leading terms is a constant. </p></li>
-                <li><p>When the degree of the numerator is greater than the degree of the denominator.
- </p></li>
-                <li><p>When the degree of the numerator is less than the degree of the denominator.
- </p></li>
-                 <li><p>When the degree of the numerator is equal to the degree of the denominator.
- </p></li>
-              </ol>
-</task>
- <task> <p>Conjecture a rule for the each of the previous two parts of the activity. Test your rules by creating a rational function whose limit as <m>x \to \infty</m> equals 0 and another whose limit as <m>x \to \infty</m> is infinite. Then check them graphically.</p> </task>
-    </activity> 
-  
-    
-<activity xml:id="infinity-checkit">
-    <introduction>
-        <p>
-Explain how to find
-the value of each limit.
-        </p></introduction>
+            <p>
+                <ol marker="A.">
+                    <li>
+                        <p>
+                            The only possible limit is <m>0</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The only possible limits are <m>0</m> or <m>\pm \infty</m>
         
-                <task><p><me>
-\lim_{x\to-\infty } -\dfrac{6 \, {x^4} + 7 \, {x^3} - 7}{6 \, x - {x^4} + 9}
-\,\text{ and }\,
-\lim_{x\to+\infty } -\dfrac{6 \, {x^4} + 7 \, {x^3} - 7}{6 \, x - {x^4} + 9}
-                </me></p></task>
-                <task><p><me>
-\lim_{x\to-\infty } -\dfrac{7 \, {x^4} - 5 \, {x^3} + 8}{3 \, {\left(2 \, {x^5} + 3 \, {x^2} - 3\right)}}
-\,\text{ and }\,
-\lim_{x\to+\infty } -\dfrac{7 \, {x^4} - 5 \, {x^3} + 8}{3 \, {\left(2 \, {x^5} + 3 \, {x^2} - 3\right)}}
-                </me></p></task>
-                <task><p><me>
-\lim_{x\to-\infty } \dfrac{3 \, {x^6} + {x^3} - 8}{7 \, x - 6 \, {x^5} + 7}
-\,\text{ and }\,
-\lim_{x\to+\infty } \dfrac{3 \, {x^6} + {x^3} - 8}{7 \, x - 6 \, {x^5} + 7}
-                </me></p></task>
-       
- <!--   <answer>
-        <ol>
-                <li><p><me>
-\lim_{x\to-\infty } -\dfrac{6 \, {x^4} + 7 \, {x^3} - 7}{6 \, x - {x^4} + 9} = 6
-\,\text{ and }\,
-\lim_{x\to+\infty } -\dfrac{6 \, {x^4} + 7 \, {x^3} - 7}{6 \, x - {x^4} + 9} = 6
-                </me></p></li>
-                <li><p><me>
-\lim_{x\to-\infty } -\dfrac{7 \, {x^4} - 5 \, {x^3} + 8}{3 \, {\left(2 \, {x^5} + 3 \, {x^2} - 3\right)}} = 0
-\,\text{ and }\,
-\lim_{x\to+\infty } -\dfrac{7 \, {x^4} - 5 \, {x^3} + 8}{3 \, {\left(2 \, {x^5} + 3 \, {x^2} - 3\right)}} = 0
-                </me></p></li>
-                <li><p><me>
-\lim_{x\to-\infty } \dfrac{3 \, {x^6} + {x^3} - 8}{7 \, x - 6 \, {x^5} + 7} = +\infty
-\,\text{ and }\,
-\lim_{x\to+\infty } \dfrac{3 \, {x^6} + {x^3} - 8}{7 \, x - 6 \, {x^5} + 7} = -\infty
-                </me></p></li>
-        </ol>
-    </answer>-->
-</activity>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The only possible limits are <m>0</m>, <m>1</m> or <m>\pm \infty</m>
+        
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The only possible limits are any constant number (including 0 and 1) or <m>\pm \infty</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <activity xml:id="infinity-rational2">
+            <introduction>
+                <p>
+                  In this activity we will examine functions whose limit as <m>x</m> approaches positive and negative infinity is a nonzero constant.  
+                </p>
+            </introduction>
+            <task>
+                <p>
+                    Graph the following functions and consider their limits as <m>x</m> approaches positive and negative infinity. Use the graph to determine the limits and equations of horizontal asymptotes (if any)
+                </p>
+                <p>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>\ds  f(x)= \dfrac{x^3-x+3}{2x^3-6x+1}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\ds  f(x)= \dfrac{x^2-3}{5x^3-2x^2+5} </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\ds  f(x)= \dfrac{x^5-3x-2}{3x^4-5x+1} </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\ds  f(x)= \dfrac{10x^5-3x+2}{5x^5-3x^2+1} </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\ds  f(x)= \dfrac{-8x^2-5x+1}{2x^2-2x+3} </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> f(x) = \dfrac{-9x^8 + 1}{x^7 - 1}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> f(x) = \dfrac{x^7-1}{-9x^8 + 1}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </task>
+            <task>
+                <p>
+                    Take another look at part (a); what relationship do you see between the degree of the numerator and degree of the denominator? Use your answers to complete the rules for horizontal asymptotes below in <xref ref="L-thm-horizontal-asymptote-rules"/>
+                </p>
+            </task>
+        </activity>
+
+        <theorem xml:id="L-thm-horizontal-asymptote-rules">
+            <statement>
+                <p>
+                    Let <m>f(x) = \dfrac{p(x)}{q(x)}</m> be a rational function. Assume that <m>p(x)</m> has degree <m>p</m> and leading coefficient <m>A</m>; assume also that <m>q(x)</m> has degree <m>q</m> and leading coefficient <m>B</m>. Then,
+                    <ol>
+                        <li>
+                            <p>
+                                If <m>p \gt q</m>, then <m>f(x)</m> has <fillin characters="10" /> horizontal asymptote(s). 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>p \lt q</m>, then <m>f(x)</m> has <fillin characters="10" /> horizontal asymptote(s). The equation(s) is/are <m>y = </m><fillin characters="10" />.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>p = q</m>, then <m>f(x)</m> has <fillin characters="10" /> horizontal asymptote(s). The equation(s) is/are <m>y = </m><fillin characters="10" />.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </theorem>     
     
-    
- <activity xml:id="infinity-dne">
-        <introduction>
+        <activity xml:id="infinity-dne">
             <p>
-What is your best guess for the limit as <m> x</m> goes to <m>+ \infty </m> of the function graphed below?
+                What is your best guess for the limit as <m> x</m> goes to <m>+ \infty </m> of the function graphed below?
             </p>
             <figure>
+                <caption> A mysterious periodic function.</caption>
                 <image width="50%" xml:id="graph-limit-guess">
-                          <latex-image>
-                \begin{tikzpicture}
-\begin{axis}[
-		 axis lines=middle,
-    % 	 grid=major,
-    % 	 xmin=-3.14,
-    % 	 xmax=9.42,
-    	 ymin=-1.5,
-    	 ymax=1.5,
-    % 	 xtick={-3.14,0,...,9.42},
-    % 	 ytick={-1,-0.75,...,1},
-        ]
-   \addplot[samples=500,domain=-4*pi:4*pi, blue, thick]{sin(deg(x))};
-\end{axis}
-\end{tikzpicture}
-                        </latex-image>
-                    </image>
-                    <caption> A mysterious periodic function.</caption>
-                </figure>
-        </introduction>
-
-            <ol marker="A." cols="2">
-                <li><p> The limit is <m>0</m></p></li>
-                <li><p>The limit is <m>1</m>
- </p></li>
-                    <li><p>The limit is <m>-1</m>
- </p></li>
-                <li><p>The limit is <m>+\infty</m></p></li>
-                  <li><p>The limit DNE </p></li>
-            </ol>
-
-    </activity>
-
-<warning>
-     For a periodic function, a function whose outputs repeat periodically, there is not one distinguished long term behavior, so the limit DNE. Notice that this is different from the limit being +infinity in which case the outputs have a clear behavior: they are getting larger and larger. Unfortunately, you will find in many cases that the notation DNE is used both for a limit equal to infinity and a limit that does not tend to one distinguished value. Beware!
-</warning>
-    
-   <activity xml:id="infinity-ext1">
-        <introduction> <p>  Compute the following limits.</p>
-              </introduction>
-       
-    <task><p><m>\displaystyle  \lim_{x\to -\infty} \dfrac{x^3-x+83}{1} </m></p></task>
-    <task><p><m>\displaystyle  \lim_{x\to -\infty} \dfrac{1}{x^3-x+83} </m></p></task>
-    <task><p><m>\displaystyle  \lim_{x\to +\infty} \dfrac{x+3}{2-x}</m></p></task>
-    <task><p><m>\displaystyle  \lim_{x\to -\infty} \dfrac{\pi-3x}{\pi x-3}</m></p></task>
-    <task><p>(Challenge) <m>\displaystyle  \lim_{x\to + \infty} \dfrac{3e^x+2}{2e^x+3}</m></p></task>
-    <task><p>(Challenge) <m>\displaystyle  \lim_{x\to - \infty} \dfrac{3e^x+2}{2e^x+3}</m></p></task>
-        
-    </activity>    
-
-
-
-   <activity xml:id="study-rational1">
-        <introduction>
-            <p>   The graph below represents the function <m>f(x) =  \displaystyle\dfrac{2(x+3)(x+1)}{x^2-2x-3}</m>.   </p>
-             <figure>
-                    <image width="50%" xml:id="graph-rational-function">
                     <latex-image>
-\begin{tikzpicture}[scale=1]
-\begin{axis}[
-	axis lines=middle,
-    grid=major,
-    xmin=-10, xmax=10,
-    ymin=-5, ymax=8,
-    xtick={-10,-8,...,10},
-    ytick={-4,-2,...,10},
-  	tick style={thick},
-% 	x label style={at={(axis description cs:1,0.7)}},
-% 	y label style={at={(axis description cs:0.4,1)}},
-    ylabel=$y$,
-	xlabel=$x$,
-        ]
-    \addplot[domain=-10:-1.1, blue, ultra thick] {(2*x^2+8*x+6)/(x^2-2*x-3)};
-     \addplot[domain=-0.9:2.9, blue, ultra thick] {(2*x^2+8*x+6)/(x^2-2*x-3)};
-       \addplot[domain=3.1:10, blue, ultra thick] {(2*x^2+8*x+6)/(x^2-2*x-3)};
-    \addplot[mark=none, color=blue, nodes near coords={$f(x)$}] coordinates {(2,1)};
-   \draw[fill=white, draw=blue](axis cs:-1,-1) circle(1mm);
-<!-- \addplot [only marks, blue, mark=o] table {
--1	-1
-}; -->
+                        \begin{tikzpicture}
+                            \begin{axis}[
+                                    axis lines=middle,
+                                % 	 grid=major,
+                                % 	 xmin=-3.14,
+                                % 	 xmax=9.42,
+                                    ymin=-1.5,
+                                    ymax=1.5,
+                                % 	 xtick={-3.14,0,...,9.42},
+                                % 	 ytick={-1,-0.75,...,1},
+                                    ]
+                            \addplot[samples=500,domain=-4*pi:4*pi, blue, thick]{sin(deg(x))};
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+            <p>
+               <ol marker="A." cols="2">
+                    <li>
+                        <p>
+                            The limit is <m>0</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The limit is <m>1</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The limit is <m>-1</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The limit is <m>+\infty</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The limit DNE
+                        </p>
+                    </li>
+                </ol> 
+            </p>
+        </activity>
 
-\end{axis}
-\end{tikzpicture}
+        <activity xml:id="L-vertical-asymptote-intuition1">
+            <introduction>
+                <p>
+                    Again, think about the graph of <m>f(x) = 1/x^3</m> in <xref ref="LT5-infinity-intuition2-img"/>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following best describes the limit as <m>x</m> approaches zero (from the left) in the graph?
+                    </p>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    The limit is 0
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The limit is positive infinity
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The limit does not exist
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    This limit is negative infinity
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Will your answer change or stay the same if we approached zero from the right instead of the left? If it does, indicate your answer.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following best describes the relationship between the line <m>x=0 </m> and the graph of the function?
+                    </p>
+                    <p>
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    The line <m>x=0</m> is a horizontal asymptote for the function
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The function is not continuous at the point <m>x=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The function is moving away from the line <m>x=0</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The function is getting closer and closer to the line <m>x=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The function has a jump in outputs around <m>x=0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
 
-    </latex-image>
-                    </image>
-                    <caption>The graph of <m> f(x)</m></caption>
-                </figure>
-        </introduction>
- <task>
+        <definition xml:id="def-vertical-asymptote">
             <statement>
-                <p> Find the horizontal asymptote of <m> f(x) </m>. First, guess it from the graph. Then, prove that your guess is right using algebra.</p>
+                <p>
+                    A function has a <term>vertical asymptote</term><idx>vertical asymptote</idx> at <m>x=a</m> when
+                    <me>
+                        \lim_{x\to a} f(x) = + \infty
+                    </me>
+                    or
+                    <me>
+                        \lim_{x\to a} f(x) = - \infty
+                    </me>
+                </p>
+                <p>
+                    The statement <m>\ds \lim_{x\to a} f(x) = +\infty</m> means that we can make the output of <m>f(x)</m> as large a positive number as we want as long as we are sufficiently close to <m>x=a</m>.
+                </p>
+                <p>
+                    Similarly, the statement <m>\ds \lim_{x\to a} f(x) = -\infty</m> means that we can make the output of <m>f(x)</m> as large a negative number as we want as long as we are sufficiently close to <m>x=a</m>.
+                </p>
             </statement>
-        </task>
-         <task>
-            <statement>
-                <p> Use limit notation to describe the behavior of  <m> f(x)</m> at its horizontal asymptotes.</p>
-            </statement>
-        </task>
-<!--         <task> -->
-<!--             <statement>
-                <p> Use limit notation to describe the behavior of  <m> f(x)</m> at its horizontal asymptotes.</p>
-            </statement> -->
-<!--         </task>  -->
-    <task><statement><p>Come up with the formula of a rational function that has horizontal asymptote <m>y=3 </m>.</p></statement></task>
-        <task>
-            <statement>
-                <p> What do you think is happening around <m>x=3</m>? We will come back to this in the next section! </p>
-            </statement>
-        </task>
-    </activity>
-
-<!-- application activity  -->
-<note>
-    <statement>
-    <p> An exponential function <m>P(t) = a \, b^t</m> exhibiting exponential decay will have the long term behavior <m>P(t) \to 0</m> as <m> t \to \infty</m>. If we shift the graph up by <m>c</m> units, we obtain the new function <m>Q(t) = a \, b^t + c</m>, with the long term behavior <m>\displaystyle\lim_{t \to \infty} Q(t) = c</m>. A cooling object can be represented by the exponential decay model <m>Q(t) = a \, b^t + c</m>. </p>
-</statement> </note>
-
-   <activity xml:id="app-cooling">
-        <introduction>
-            <p>    In this activity you will explore an exponential model for a cooling object.
-  </p>
-    <p>Consider a cup of coffee initially at 100 degrees Fahrenheit. The said cup of coffee was forgotten this morning on the kitchen counter where the thermostat is set at 72 degrees Fahrenheit. From previous observations, we can assume that a cup of coffee looses 10 percent of its temperature each minute. </p>
-       </introduction>
- <task>
-            <statement>
-                <p> In the long run, what temperature do you expect the coffee to tend to? Write your observation with limit notation.
-</p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p> In the model <m> Q(t) = a \, b^t +c</m>, your previous answer gives you the value of one of the parameters in this model. Which one?
-</p>
-            </statement>
-        </task>
-       <task>
-            <statement>
-                <p> From the information given, we notice that the cup of coffee has decay rate of 10% or <m>r = -0.1</m>. When an exponential model has decay rate <m>r</m>, its exponential base <m>b</m> has value <m>b=1+r</m>. Use this to find the value of <m>b</m> for the exponential model described in this scenario. </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p> Assume that the initial temperature corresponds to input <m>t=0</m>. Use the data about the initial temperature to find the value of the parameter <m>a</m> in the model <m> Q(t) = a \, b^t + c</m>.  </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p> You should have found that this scenario has exponential model <m> Q(t) = 28 \, (0.9)^t + 72</m>. If you go back to drink the cup of coffee 30 minutes after it was left on the counter, what temperature will the coffee have reached?  </p>
-            </statement>
-        </task>
-
-
-    </activity>
-
-
+        </definition>
+        
+        <question>
+            <p>
+                Compare the definition of a hole of a function (<xref ref="def-hole"/>) and the definition a vertical asymptote of a function (<xref ref="def-vertical-asymptote"/>). Is it possible for a function to have both? If it is, give an example; if not, explain why.
+            </p>
+        </question>
+        
+        <activity xml:id="infinity-divide-zero">
+            <p>
+                Notice that as <m>x</m> goes to 0, the value of <m> x^2</m> goes to 0 but the value of <m>1/x^2</m>  goes to infinity. What is the best explanation for this behavior?
+            </p>
+            <p>
+                <ol marker="A.">
+                    <li>
+                        <p>
+                            When dividing by an increasingly small number we get an increasing big number
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            When dividing by an increasingly large number we get an increasing small number
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A rational function always has a vertical asymptote
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A rational function always has a horizontal asymptote
+                        </p>
+                    </li>
+                </ol> 
+            </p>               
+        </activity>
+        
+        <remark>
+            <p>
+                Informally, we say that the limit of "<m>\dfrac{1}{0}</m>" is infinite. Notice that this could be either positive or negative infinity, depending on how whether the outputs are becoming more and more positive or more and more negative as we approach zero.
+            </p>
+        </remark>
+    
+        <activity xml:id="limits-vert-asymptote">
+            <p>
+                Consider the rational function <m>f(x) = \dfrac{2}{x-3} </m>. Which of the following options best describes the limits as x approaches <m>3</m> from the right and from the left?
+            </p> 
+            <p>
+                <ol marker="A.">
+                    <li>
+                        <p>
+                            As <m>x \to 3^+</m>, the limit DNE, but as <m>x \to 3^-</m> the limit is <m>-\infty</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            As <m>x \to 3^+</m>, the limit is <m>+\infty</m>, but as <m>x \to 3^-</m> the limit is <m>-\infty</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            As <m>x \to 3^+</m>, the limit is <m>+\infty</m>, but as <m>x \to 3^-</m> the limit is <m>+\infty</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            As <m>x \to 3^+</m>, the limit is <m>-\infty</m>, but as <m>x \to 3^-</m> the limit is <m>-\infty</m>.
+                        </p>
+                    </li>
+                        <li>
+                            <p>
+                                As <m>x \to 3^+</m>, the limit DNE and as <m>x \to 3^-</m> the limit DNE.
+                            </p>
+                        </li>
+                    </ol>
+            </p>         
+         </activity>
+        
+          <remark xml:id="vert-asymptote-den">
+                <p>
+                    When considering a ratio of functions <m>f(x)/g(x) </m>, the inputs <m> a</m> where <m> g(a)=0</m> are not in the domain of the ratio. If <m>g(a)=0 </m> but <m>f(a) </m> is not equal to 0, then <m> x=a</m> is a vertical asymptote.</p>
+            </remark>
+    
+        <activity xml:id="limits-intuition-hole">
+            <p>
+                Consider the function <m>f(x)=\dfrac{x^2-1}{x-1}</m>. The line <m>x=1</m> is NOT a vertical asymptote for <m> f(x)</m>. Why?
+            </p>
+            <p>
+                <ol marker="A.">
+                    <li>
+                        <p>
+                            When <m>x</m> is not equal to <m>1</m>, we can simplify the fraction to <m>x-1</m>, so the limit is <m>1</m>.
+                        </p>
+                    </li>
+                        <li>
+                        <p>
+                            When <m>x</m> is not equal to <m>1</m>, we can simplify the fraction to <m>x+1</m>, so the limit is <m>2</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The function is always equal to <m>x+1</m>.
+                        </p>
+                    </li>
+                        <li>
+                        <p>
+                            The function is always equal to <m>x-1</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+         </activity>
+         
+         <activity>
+            <p>
+                For each of the following functions, identify the equations of any asymptotes and the location of any holes.
+            </p>
+            <p>
+                <ol marker="A.">
+                    <li>
+                        <p>
+                            <m>f(x) = \dfrac{x^2+6x+8}{x^2+3x-4}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>g(x) = \dfrac{5(x-3)(x-6)^3}{6(x+2)^3}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>h(x) = \dfrac{2x^2+8x-10}{2x+1}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>r(y) = \dfrac{(x^2-4)(x^2+1)}{x^5}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Challenge! For this problem, remember two things: <m>\sqrt{x} = |x| = \begin{cases} -x \amp x \lt 0 \\ x \amp x\geq 0\end{cases}</m> and <m>\sqrt{a+b}\neq \sqrt{a} + \sqrt{b}</m>.
+                        </p>
+                        <p>
+                            <m>C(t) = \dfrac{\sqrt{2t^2+1}}{3t-6}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+         </activity>
     </subsection>
-
 </section>
