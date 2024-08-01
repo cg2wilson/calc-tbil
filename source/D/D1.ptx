@@ -18,7 +18,97 @@
     <subsection xml:id="D1-activities">
         <title>In-Class Activities</title>
 
-        
+        <activity xml:id = "D-aroc-activity-ball1">
+            <introduction> 
+                <p>
+                    In this activity you will study the velocity of a ball falling under gravity. The height of the ball (in feet) is given by the formula <m> f(t) = 64-16(t-1)^2</m>, where <m>t</m> is measured in seconds. For your convenience, below you will find a table of values for <m>f(t)</m>.
+                </p>
+                <table xml:id="table-aroc-activity-ball1">
+                    <tabular>
+                        <row bottom="minor">
+                            <cell>
+                                <m> t\, \text{(seconds)} </m>
+                            </cell>
+                            <cell>
+                                1
+                            </cell>
+                            <cell>
+                                1.5
+                            </cell>
+                            <cell>
+                                1.75
+                            </cell>
+                            <cell>
+                                2
+                            </cell>
+                            <cell>
+                                2.25
+                            </cell>
+                            <cell>
+                                2.5
+                            </cell>
+                            <cell>
+                                3
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <m>f(t) \, \text{(feet)} </m>
+                            </cell>
+                            <cell>
+                                64
+                            </cell>
+                            <cell>
+                                60
+                            </cell>
+                            <cell>
+                                55
+                            </cell>
+                            <cell>
+                                48
+                            </cell>
+                            <cell>
+                                39
+                            </cell>
+                            <cell>
+                                28
+                            </cell>
+                            <cell>
+                                0
+                            </cell>         
+                        </row>
+                    </tabular>
+                </table>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        To start we will look at an interval of length one before <m>t=2</m> and after <m>t=2</m>, so we consider the intervals <m>[1,2]</m> and <m>[2,3]</m>. What was the average velocity on the interval <m>[1,2]</m>? What about on the interval <m>[2,3]</m>?
+                    </p>
+                </statement>
+            </task>  
+            <task>
+                <statement>
+                    <p>
+                        Now let's consider smaller intervals of length <m>0.5</m>. What was the average velocity on the interval <m>[1.5,2]</m>? What about on the interval <m>[2,2.5]</m>?
+                    </p>
+                </statement>
+            </task>   
+            <task>
+                <statement>
+                    <p>
+                        What was the average velocity on the interval <m>[1.75,2]</m>? What about on the interval <m>[2,2.25]</m>?
+                    </p>
+                </statement>
+            </task>    
+            <task>
+                <statement>
+                    <p>
+                        If we wanted to approximate the velocity at the instant <m>t=2</m>, what would be your best estimate for this instantaneous velocity?
+                    </p>
+                </statement>
+            </task> 
+        </activity>
 
     </subsection>
 
