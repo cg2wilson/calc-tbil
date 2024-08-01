@@ -6,7 +6,7 @@
   <objectives>
     <introduction>
       <p>
-        <em>NEED TO CHANGE/ADD THIS</em>
+        This module describes the conceptual development and computational development of the derivative. It contains nine learning targets:
       </p>
     </introduction>
       <dl>
@@ -59,23 +59,23 @@
           </p>
         </li>
         <li>
-          <title>D8</title>
+          <title>D9</title>
           <p>
             I can use implicit differentiation to find the derivative of an equation
           </p>
         </li>
+        <!--
+        Taking D10 out for Fall 2024
         <li>
           <title>D10</title>
           <p>
             I can compute derivatives using logarithmic differentiation
           </p>
         </li>
+      -->
       </dl>
   </objectives>
   
-    
-
-  <!-- include sections -->
   <xi:include href="./readiness.ptx" />
   <xi:include href="./D1.ptx" />
   <xi:include href="./D2.ptx" />
@@ -86,6 +86,9 @@
   <xi:include href="./D7.ptx" />
   <xi:include href="./D8.ptx" />
   <xi:include href="./D9.ptx" />
+  <!-- 
   <xi:include href="./D10.ptx" />
+  -->
+  
 
 </chapter>
