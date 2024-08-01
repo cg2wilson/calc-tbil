@@ -11,6 +11,8 @@
     </dl>
   </objectives>
 
+  <xi:include href="./preparation/L1-prep.ptx" />
+
   <subsection xml:id="L1-activities">
     <title>In-Class Activities</title>
     
