@@ -18,6 +18,19 @@
     <subsection xml:id="D1-activities">
         <title>In-Class Activities</title>
 
+        <!-- 
+        I think that the general structure goes like this:
+        1) Activity finding slope of a line
+        2) Activity finding slope of a polynomial with deg(P) > 1
+        3) Transition language from "slope" to "average rate of change"
+        4) Define AROC
+        5) Reword d-aroc-activity-ball1 so that average rate of change can be related to average velocity
+        6) Extract conjecture about what happens to AROC as interval decreases
+        7) Definition of instantaneous rate of change
+        8) Interpretations of instantaneous rate of change
+        9) Preview-type questions involving alternate expressions for the difference quotient
+        -->
+
         <activity xml:id = "D-aroc-activity-ball1">
             <introduction> 
                 <p>
