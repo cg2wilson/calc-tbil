@@ -88,6 +88,230 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#review-functions-2-4-1-1-2 { counter-set: review-functions-2-4-1-1-2 0; }
+#review-functions-2-4-1-1-2 > li::marker { content: ""counter(review-functions-2-4-1-1-2,lower-alpha)"."; }
+#review-functions-2-4-1-1-2 > li { counter-increment: review-functions-2-4-1-1-2; }
+#review-functions-2-4-2-1-1 { counter-set: review-functions-2-4-2-1-1 0; }
+#review-functions-2-4-2-1-1 > li::marker { content: ""counter(review-functions-2-4-2-1-1,lower-alpha)"."; }
+#review-functions-2-4-2-1-1 > li { counter-increment: review-functions-2-4-2-1-1; }
+#review-functions-2-5-1-1-2 { counter-set: review-functions-2-5-1-1-2 0; }
+#review-functions-2-5-1-1-2 > li::marker { content: ""counter(review-functions-2-5-1-1-2,lower-alpha)"."; }
+#review-functions-2-5-1-1-2 > li { counter-increment: review-functions-2-5-1-1-2; }
+#review-functions-2-5-2-1-1 { counter-set: review-functions-2-5-2-1-1 0; }
+#review-functions-2-5-2-1-1 > li::marker { content: ""counter(review-functions-2-5-2-1-1,lower-alpha)"."; }
+#review-functions-2-5-2-1-1 > li { counter-increment: review-functions-2-5-2-1-1; }
+#review-functions-3-3-1-1-3 { counter-set: review-functions-3-3-1-1-3 0; }
+#review-functions-3-3-1-1-3 > li::marker { content: ""counter(review-functions-3-3-1-1-3,lower-alpha)"."; }
+#review-functions-3-3-1-1-3 > li { counter-increment: review-functions-3-3-1-1-3; }
+#review-functions-3-3-2-1-1 { counter-set: review-functions-3-3-2-1-1 0; }
+#review-functions-3-3-2-1-1 > li::marker { content: ""counter(review-functions-3-3-2-1-1,lower-alpha)"."; }
+#review-functions-3-3-2-1-1 > li { counter-increment: review-functions-3-3-2-1-1; }
+#review-functions-3-5-1-1-3 { counter-set: review-functions-3-5-1-1-3 0; }
+#review-functions-3-5-1-1-3 > li::marker { content: ""counter(review-functions-3-5-1-1-3,lower-alpha)"."; }
+#review-functions-3-5-1-1-3 > li { counter-increment: review-functions-3-5-1-1-3; }
+#review-functions-3-5-2-1-1 { counter-set: review-functions-3-5-2-1-1 0; }
+#review-functions-3-5-2-1-1 > li::marker { content: ""counter(review-functions-3-5-2-1-1,lower-alpha)"."; }
+#review-functions-3-5-2-1-1 > li { counter-increment: review-functions-3-5-2-1-1; }
+#review-functions-3-7-1-4-1 { counter-set: review-functions-3-7-1-4-1 0; }
+#review-functions-3-7-1-4-1 > li::marker { content: ""counter(review-functions-3-7-1-4-1,lower-alpha)"."; }
+#review-functions-3-7-1-4-1 > li { counter-increment: review-functions-3-7-1-4-1; }
+#review-functions-3-7-2-1-1 { counter-set: review-functions-3-7-2-1-1 0; }
+#review-functions-3-7-2-1-1 > li::marker { content: ""counter(review-functions-3-7-2-1-1,lower-alpha)"."; }
+#review-functions-3-7-2-1-1 > li { counter-increment: review-functions-3-7-2-1-1; }
+#review-functions-3-8-1-1-1 { counter-set: review-functions-3-8-1-1-1 0; }
+#review-functions-3-8-1-1-1 > li::marker { content: ""counter(review-functions-3-8-1-1-1,lower-alpha)"."; }
+#review-functions-3-8-1-1-1 > li { counter-increment: review-functions-3-8-1-1-1; }
+#review-functions-3-8-2-1-1 { counter-set: review-functions-3-8-2-1-1 0; }
+#review-functions-3-8-2-1-1 > li::marker { content: ""counter(review-functions-3-8-2-1-1,lower-alpha)"."; }
+#review-functions-3-8-2-1-1 > li { counter-increment: review-functions-3-8-2-1-1; }
+#review-functions-4-3-1-1-1 { counter-set: review-functions-4-3-1-1-1 0; }
+#review-functions-4-3-1-1-1 > li::marker { content: ""counter(review-functions-4-3-1-1-1,lower-alpha)"."; }
+#review-functions-4-3-1-1-1 > li { counter-increment: review-functions-4-3-1-1-1; }
+#review-functions-4-3-2-1-1 { counter-set: review-functions-4-3-2-1-1 0; }
+#review-functions-4-3-2-1-1 > li::marker { content: ""counter(review-functions-4-3-2-1-1,lower-alpha)"."; }
+#review-functions-4-3-2-1-1 > li { counter-increment: review-functions-4-3-2-1-1; }
+#L-readiness-3 { counter-set: L-readiness-3 0; }
+#L-readiness-3 > li::marker { content: ""counter(L-readiness-3,lower-alpha)"."; }
+#L-readiness-3 > li { counter-increment: L-readiness-3; }
+#activity-limits-graphically1-2-2-1 { counter-set: activity-limits-graphically1-2-2-1 0; }
+#activity-limits-graphically1-2-2-1 > li::marker { content: ""counter(activity-limits-graphically1-2-2-1,upper-alpha)"."; }
+#activity-limits-graphically1-2-2-1 > li { counter-increment: activity-limits-graphically1-2-2-1; }
+#activity-limits-graphically1-3-2-1 { counter-set: activity-limits-graphically1-3-2-1 0; }
+#activity-limits-graphically1-3-2-1 > li::marker { content: ""counter(activity-limits-graphically1-3-2-1,upper-alpha)"."; }
+#activity-limits-graphically1-3-2-1 > li { counter-increment: activity-limits-graphically1-3-2-1; }
+#activity-limits-graphically2-3-2-1 { counter-set: activity-limits-graphically2-3-2-1 0; }
+#activity-limits-graphically2-3-2-1 > li::marker { content: ""counter(activity-limits-graphically2-3-2-1,upper-alpha)"."; }
+#activity-limits-graphically2-3-2-1 > li { counter-increment: activity-limits-graphically2-3-2-1; }
+#activity-limits-graphically2-4-2-1 { counter-set: activity-limits-graphically2-4-2-1 0; }
+#activity-limits-graphically2-4-2-1 > li::marker { content: ""counter(activity-limits-graphically2-4-2-1,upper-alpha)"."; }
+#activity-limits-graphically2-4-2-1 > li { counter-increment: activity-limits-graphically2-4-2-1; }
+#activity-limits-graphically-one-sided-2-2-1 { counter-set: activity-limits-graphically-one-sided-2-2-1 0; }
+#activity-limits-graphically-one-sided-2-2-1 > li::marker { content: ""counter(activity-limits-graphically-one-sided-2-2-1,upper-alpha)"."; }
+#activity-limits-graphically-one-sided-2-2-1 > li { counter-increment: activity-limits-graphically-one-sided-2-2-1; }
+#activity-limits-graphically-one-sided2-2-2-1 { counter-set: activity-limits-graphically-one-sided2-2-2-1 0; }
+#activity-limits-graphically-one-sided2-2-2-1 > li::marker { content: ""counter(activity-limits-graphically-one-sided2-2-2-1,upper-alpha)"."; }
+#activity-limits-graphically-one-sided2-2-2-1 > li { counter-increment: activity-limits-graphically-one-sided2-2-2-1; }
+#activity-limits-graphically-one-sided2-3-2-1 { counter-set: activity-limits-graphically-one-sided2-3-2-1 0; }
+#activity-limits-graphically-one-sided2-3-2-1 > li::marker { content: ""counter(activity-limits-graphically-one-sided2-3-2-1,upper-alpha)"."; }
+#activity-limits-graphically-one-sided2-3-2-1 > li { counter-increment: activity-limits-graphically-one-sided2-3-2-1; }
+#activity-limits-graphically-fluency1-6-2 { counter-set: activity-limits-graphically-fluency1-6-2 0; }
+#activity-limits-graphically-fluency1-6-2 > li::marker { content: ""counter(activity-limits-graphically-fluency1-6-2,upper-alpha)"."; }
+#activity-limits-graphically-fluency1-6-2 > li { counter-increment: activity-limits-graphically-fluency1-6-2; }
+#L1-activities-13-1-2-1 { counter-set: L1-activities-13-1-2-1 0; }
+#L1-activities-13-1-2-1 > li::marker { content: ""counter(L1-activities-13-1-2-1,decimal)"."; }
+#L1-activities-13-1-2-1 > li { counter-increment: L1-activities-13-1-2-1; }
+#activity-limits-numerically1-2-3 { counter-set: activity-limits-numerically1-2-3 0; }
+#activity-limits-numerically1-2-3 > li::marker { content: ""counter(activity-limits-numerically1-2-3,upper-alpha)"."; }
+#activity-limits-numerically1-2-3 > li { counter-increment: activity-limits-numerically1-2-3; }
+#activity-limits-numerically2-4-1 { counter-set: activity-limits-numerically2-4-1 0; }
+#activity-limits-numerically2-4-1 > li::marker { content: ""counter(activity-limits-numerically2-4-1,upper-alpha)"."; }
+#activity-limits-numerically2-4-1 > li { counter-increment: activity-limits-numerically2-4-1; }
+#activity-limits-numerically3-3-1 { counter-set: activity-limits-numerically3-3-1 0; }
+#activity-limits-numerically3-3-1 > li::marker { content: ""counter(activity-limits-numerically3-3-1,upper-alpha)"."; }
+#activity-limits-numerically3-3-1 > li { counter-increment: activity-limits-numerically3-3-1; }
+#activity-limits-numerically4-2-2-1 { counter-set: activity-limits-numerically4-2-2-1 0; }
+#activity-limits-numerically4-2-2-1 > li::marker { content: ""counter(activity-limits-numerically4-2-2-1,upper-alpha)"."; }
+#activity-limits-numerically4-2-2-1 > li { counter-increment: activity-limits-numerically4-2-2-1; }
+#activity-limits-numerically4-4-2-1 { counter-set: activity-limits-numerically4-4-2-1 0; }
+#activity-limits-numerically4-4-2-1 > li::marker { content: ""counter(activity-limits-numerically4-4-2-1,upper-alpha)"."; }
+#activity-limits-numerically4-4-2-1 > li { counter-increment: activity-limits-numerically4-4-2-1; }
+#activity-limits-numerically5-2-1-2-1 { counter-set: activity-limits-numerically5-2-1-2-1 0; }
+#activity-limits-numerically5-2-1-2-1 > li::marker { content: ""counter(activity-limits-numerically5-2-1-2-1,upper-alpha)"."; }
+#activity-limits-numerically5-2-1-2-1 > li { counter-increment: activity-limits-numerically5-2-1-2-1; }
+#activity-limits-analytically1-2-1 { counter-set: activity-limits-analytically1-2-1 0; }
+#activity-limits-analytically1-2-1 > li::marker { content: ""counter(activity-limits-analytically1-2-1,upper-alpha)"."; }
+#activity-limits-analytically1-2-1 > li { counter-increment: activity-limits-analytically1-2-1; }
+#activity-limits-analytically2-4-1 { counter-set: activity-limits-analytically2-4-1 0; }
+#activity-limits-analytically2-4-1 > li::marker { content: ""counter(activity-limits-analytically2-4-1,upper-alpha)"."; }
+#activity-limits-analytically2-4-1 > li { counter-increment: activity-limits-analytically2-4-1; }
+#theorem-limit-laws-1-2-1-8 { counter-set: theorem-limit-laws-1-2-1-8 0; }
+#theorem-limit-laws-1-2-1-8 > li::marker { content: ""counter(theorem-limit-laws-1-2-1-8,decimal)"."; }
+#theorem-limit-laws-1-2-1-8 > li { counter-increment: theorem-limit-laws-1-2-1-8; }
+#activity-limits-analytically3-2-1 { counter-set: activity-limits-analytically3-2-1 0; }
+#activity-limits-analytically3-2-1 > li::marker { content: ""counter(activity-limits-analytically3-2-1,upper-alpha)"."; }
+#activity-limits-analytically3-2-1 > li { counter-increment: activity-limits-analytically3-2-1; }
+#theorem-limit-laws-2-2-1-6 { counter-set: theorem-limit-laws-2-2-1-6 0; }
+#theorem-limit-laws-2-2-1-6 > li::marker { content: ""counter(theorem-limit-laws-2-2-1-6,decimal)"."; }
+#theorem-limit-laws-2-2-1-6 > li { counter-increment: theorem-limit-laws-2-2-1-6; }
+#activity-limits-analytically4-1-2-1 { counter-set: activity-limits-analytically4-1-2-1 0; }
+#activity-limits-analytically4-1-2-1 > li::marker { content: ""counter(activity-limits-analytically4-1-2-1,upper-alpha)"."; }
+#activity-limits-analytically4-1-2-1 > li { counter-increment: activity-limits-analytically4-1-2-1; }
+#activity-limits-rationals1-2-1 { counter-set: activity-limits-rationals1-2-1 0; }
+#activity-limits-rationals1-2-1 > li::marker { content: ""counter(activity-limits-rationals1-2-1,upper-alpha)"."; }
+#activity-limits-rationals1-2-1 > li { counter-increment: activity-limits-rationals1-2-1; }
+#activity-limits-rationals2-2-1 { counter-set: activity-limits-rationals2-2-1 0; }
+#activity-limits-rationals2-2-1 > li::marker { content: ""counter(activity-limits-rationals2-2-1,upper-alpha)"."; }
+#activity-limits-rationals2-2-1 > li { counter-increment: activity-limits-rationals2-2-1; }
+#activity-limits-zero-2-1 { counter-set: activity-limits-zero-2-1 0; }
+#activity-limits-zero-2-1 > li::marker { content: ""counter(activity-limits-zero-2-1,upper-alpha)"."; }
+#activity-limits-zero-2-1 > li { counter-increment: activity-limits-zero-2-1; }
+#activity-hole-limits-2-1-2-1 { counter-set: activity-hole-limits-2-1-2-1 0; }
+#activity-hole-limits-2-1-2-1 > li::marker { content: ""counter(activity-hole-limits-2-1-2-1,upper-alpha)"."; }
+#activity-hole-limits-2-1-2-1 > li { counter-increment: activity-hole-limits-2-1-2-1; }
+#LT5-infinity-intuition1-3-1 { counter-set: LT5-infinity-intuition1-3-1 0; }
+#LT5-infinity-intuition1-3-1 > li::marker { content: ""counter(LT5-infinity-intuition1-3-1,upper-alpha)"."; }
+#LT5-infinity-intuition1-3-1 > li { counter-increment: LT5-infinity-intuition1-3-1; }
+#LT5-infinity-intuition2-3-1 { counter-set: LT5-infinity-intuition2-3-1 0; }
+#LT5-infinity-intuition2-3-1 > li::marker { content: ""counter(LT5-infinity-intuition2-3-1,upper-alpha)"."; }
+#LT5-infinity-intuition2-3-1 > li { counter-increment: LT5-infinity-intuition2-3-1; }
+#L-activity-horizontal-asymptote-1-2-1-2-1 { counter-set: L-activity-horizontal-asymptote-1-2-1-2-1 0; }
+#L-activity-horizontal-asymptote-1-2-1-2-1 > li::marker { content: ""counter(L-activity-horizontal-asymptote-1-2-1-2-1,upper-alpha)"."; }
+#L-activity-horizontal-asymptote-1-2-1-2-1 > li { counter-increment: L-activity-horizontal-asymptote-1-2-1-2-1; }
+#L-activity-horizontal-asymptote-1-3-1-2-1 { counter-set: L-activity-horizontal-asymptote-1-3-1-2-1 0; }
+#L-activity-horizontal-asymptote-1-3-1-2-1 > li::marker { content: ""counter(L-activity-horizontal-asymptote-1-3-1-2-1,upper-alpha)"."; }
+#L-activity-horizontal-asymptote-1-3-1-2-1 > li { counter-increment: L-activity-horizontal-asymptote-1-3-1-2-1; }
+#infinity-rational1-2-1 { counter-set: infinity-rational1-2-1 0; }
+#infinity-rational1-2-1 > li::marker { content: ""counter(infinity-rational1-2-1,upper-alpha)"."; }
+#infinity-rational1-2-1 > li { counter-increment: infinity-rational1-2-1; }
+#infinity-rational2-2-2-1 { counter-set: infinity-rational2-2-2-1 0; }
+#infinity-rational2-2-2-1 > li::marker { content: ""counter(infinity-rational2-2-2-1,upper-alpha)"."; }
+#infinity-rational2-2-2-1 > li { counter-increment: infinity-rational2-2-2-1; }
+#L-thm-horizontal-asymptote-rules-1-1-8 { counter-set: L-thm-horizontal-asymptote-rules-1-1-8 0; }
+#L-thm-horizontal-asymptote-rules-1-1-8 > li::marker { content: ""counter(L-thm-horizontal-asymptote-rules-1-1-8,decimal)"."; }
+#L-thm-horizontal-asymptote-rules-1-1-8 > li { counter-increment: L-thm-horizontal-asymptote-rules-1-1-8; }
+#infinity-dne-3-1 { counter-set: infinity-dne-3-1 0; }
+#infinity-dne-3-1 > li::marker { content: ""counter(infinity-dne-3-1,upper-alpha)"."; }
+#infinity-dne-3-1 > li { counter-increment: infinity-dne-3-1; }
+#L-vertical-asymptote-intuition1-2-1-2-1 { counter-set: L-vertical-asymptote-intuition1-2-1-2-1 0; }
+#L-vertical-asymptote-intuition1-2-1-2-1 > li::marker { content: ""counter(L-vertical-asymptote-intuition1-2-1-2-1,upper-alpha)"."; }
+#L-vertical-asymptote-intuition1-2-1-2-1 > li { counter-increment: L-vertical-asymptote-intuition1-2-1-2-1; }
+#L-vertical-asymptote-intuition1-4-1-2-1 { counter-set: L-vertical-asymptote-intuition1-4-1-2-1 0; }
+#L-vertical-asymptote-intuition1-4-1-2-1 > li::marker { content: ""counter(L-vertical-asymptote-intuition1-4-1-2-1,upper-alpha)"."; }
+#L-vertical-asymptote-intuition1-4-1-2-1 > li { counter-increment: L-vertical-asymptote-intuition1-4-1-2-1; }
+#infinity-divide-zero-2-1 { counter-set: infinity-divide-zero-2-1 0; }
+#infinity-divide-zero-2-1 > li::marker { content: ""counter(infinity-divide-zero-2-1,upper-alpha)"."; }
+#infinity-divide-zero-2-1 > li { counter-increment: infinity-divide-zero-2-1; }
+#limits-vert-asymptote-2-1 { counter-set: limits-vert-asymptote-2-1 0; }
+#limits-vert-asymptote-2-1 > li::marker { content: ""counter(limits-vert-asymptote-2-1,upper-alpha)"."; }
+#limits-vert-asymptote-2-1 > li { counter-increment: limits-vert-asymptote-2-1; }
+#limits-intuition-hole-2-1 { counter-set: limits-intuition-hole-2-1 0; }
+#limits-intuition-hole-2-1 > li::marker { content: ""counter(limits-intuition-hole-2-1,upper-alpha)"."; }
+#limits-intuition-hole-2-1 > li { counter-increment: limits-intuition-hole-2-1; }
+#L3-activities-19-2-1 { counter-set: L3-activities-19-2-1 0; }
+#L3-activities-19-2-1 > li::marker { content: ""counter(L3-activities-19-2-1,upper-alpha)"."; }
+#L3-activities-19-2-1 > li { counter-increment: L3-activities-19-2-1; }
+#activity-continuous-scenarios-1-2-1 { counter-set: activity-continuous-scenarios-1-2-1 0; }
+#activity-continuous-scenarios-1-2-1 > li::marker { content: ""counter(activity-continuous-scenarios-1-2-1,upper-alpha)"."; }
+#activity-continuous-scenarios-1-2-1 > li { counter-increment: activity-continuous-scenarios-1-2-1; }
+#L-continuity-activity-def-2-1-2-1 { counter-set: L-continuity-activity-def-2-1-2-1 0; }
+#L-continuity-activity-def-2-1-2-1 > li::marker { content: ""counter(L-continuity-activity-def-2-1-2-1,upper-alpha)"."; }
+#L-continuity-activity-def-2-1-2-1 > li { counter-increment: L-continuity-activity-def-2-1-2-1; }
+#L-continuity-activity-def-3-1-2-1 { counter-set: L-continuity-activity-def-3-1-2-1 0; }
+#L-continuity-activity-def-3-1-2-1 > li::marker { content: ""counter(L-continuity-activity-def-3-1-2-1,upper-alpha)"."; }
+#L-continuity-activity-def-3-1-2-1 > li { counter-increment: L-continuity-activity-def-3-1-2-1; }
+#L-continuity-activity-def-4-1-2-1 { counter-set: L-continuity-activity-def-4-1-2-1 0; }
+#L-continuity-activity-def-4-1-2-1 > li::marker { content: ""counter(L-continuity-activity-def-4-1-2-1,upper-alpha)"."; }
+#L-continuity-activity-def-4-1-2-1 > li { counter-increment: L-continuity-activity-def-4-1-2-1; }
+#def-continuity-2-1-5 { counter-set: def-continuity-2-1-5 0; }
+#def-continuity-2-1-5 > li::marker { content: ""counter(def-continuity-2-1-5,decimal)"."; }
+#def-continuity-2-1-5 > li { counter-increment: def-continuity-2-1-5; }
+#activity-continuity-which-are-equal-1-2-1 { counter-set: activity-continuity-which-are-equal-1-2-1 0; }
+#activity-continuity-which-are-equal-1-2-1 > li::marker { content: ""counter(activity-continuity-which-are-equal-1-2-1,upper-alpha)"."; }
+#activity-continuity-which-are-equal-1-2-1 > li { counter-increment: activity-continuity-which-are-equal-1-2-1; }
+#L4-activities-8-2-1-2-1 { counter-set: L4-activities-8-2-1-2-1 0; }
+#L4-activities-8-2-1-2-1 > li::marker { content: ""counter(L4-activities-8-2-1-2-1,upper-alpha)"."; }
+#L4-activities-8-2-1-2-1 > li { counter-increment: L4-activities-8-2-1-2-1; }
+#L4-activities-8-2-1-4-1 { counter-set: L4-activities-8-2-1-4-1 0; }
+#L4-activities-8-2-1-4-1 > li::marker { content: ""counter(L4-activities-8-2-1-4-1,upper-alpha)"."; }
+#L4-activities-8-2-1-4-1 > li { counter-increment: L4-activities-8-2-1-4-1; }
+#L4-activities-8-3-1-2-1 { counter-set: L4-activities-8-3-1-2-1 0; }
+#L4-activities-8-3-1-2-1 > li::marker { content: ""counter(L4-activities-8-3-1-2-1,upper-alpha)"."; }
+#L4-activities-8-3-1-2-1 > li { counter-increment: L4-activities-8-3-1-2-1; }
+#L4-activities-8-3-1-4-1 { counter-set: L4-activities-8-3-1-4-1 0; }
+#L4-activities-8-3-1-4-1 > li::marker { content: ""counter(L4-activities-8-3-1-4-1,upper-alpha)"."; }
+#L4-activities-8-3-1-4-1 > li { counter-increment: L4-activities-8-3-1-4-1; }
+#L4-activities-8-4-1-2-1 { counter-set: L4-activities-8-4-1-2-1 0; }
+#L4-activities-8-4-1-2-1 > li::marker { content: ""counter(L4-activities-8-4-1-2-1,upper-alpha)"."; }
+#L4-activities-8-4-1-2-1 > li { counter-increment: L4-activities-8-4-1-2-1; }
+#L4-activities-8-4-1-4-1 { counter-set: L4-activities-8-4-1-4-1 0; }
+#L4-activities-8-4-1-4-1 > li::marker { content: ""counter(L4-activities-8-4-1-4-1,upper-alpha)"."; }
+#L4-activities-8-4-1-4-1 > li { counter-increment: L4-activities-8-4-1-4-1; }
+#L-continuity-identify-intervals-2-1-2-1 { counter-set: L-continuity-identify-intervals-2-1-2-1 0; }
+#L-continuity-identify-intervals-2-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-2-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-2-1-2-1 > li { counter-increment: L-continuity-identify-intervals-2-1-2-1; }
+#L-continuity-identify-intervals-3-1-2-1 { counter-set: L-continuity-identify-intervals-3-1-2-1 0; }
+#L-continuity-identify-intervals-3-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-3-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-3-1-2-1 > li { counter-increment: L-continuity-identify-intervals-3-1-2-1; }
+#L-continuity-identify-intervals-4-1-2-1 { counter-set: L-continuity-identify-intervals-4-1-2-1 0; }
+#L-continuity-identify-intervals-4-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-4-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-4-1-2-1 > li { counter-increment: L-continuity-identify-intervals-4-1-2-1; }
+#L-continuity-identify-intervals-5-1-2-1 { counter-set: L-continuity-identify-intervals-5-1-2-1 0; }
+#L-continuity-identify-intervals-5-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-5-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-5-1-2-1 > li { counter-increment: L-continuity-identify-intervals-5-1-2-1; }
+#L-continuity-identify-intervals-6-1-2-1 { counter-set: L-continuity-identify-intervals-6-1-2-1 0; }
+#L-continuity-identify-intervals-6-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-6-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-6-1-2-1 > li { counter-increment: L-continuity-identify-intervals-6-1-2-1; }
+#D-readiness-3 { counter-set: D-readiness-3 0; }
+#D-readiness-3 > li::marker { content: ""counter(D-readiness-3,lower-alpha)"."; }
+#D-readiness-3 > li { counter-increment: D-readiness-3; }
+#A-readiness-3 { counter-set: A-readiness-3 0; }
+#A-readiness-3 > li::marker { content: ""counter(A-readiness-3,lower-alpha)""; }
+#A-readiness-3 > li { counter-increment: A-readiness-3; }
+#I-readiness-3 { counter-set: I-readiness-3 0; }
+#I-readiness-3 > li::marker { content: ""counter(I-readiness-3,lower-alpha)""; }
+#I-readiness-3 > li { counter-increment: I-readiness-3; }
+</style>
 </head>
 <body id="TBIL Calculus 1" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -145,7 +369,12 @@ true);
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section active">
 <div class="toc-title-box"><a href="review-functions.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Functions</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-1" class="internal"><span class="codenumber">0.1.1</span> <span class="title">First Section</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-1" class="internal"><span class="codenumber">0.1.1</span> <span class="title">Basics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-2" class="internal"><span class="codenumber">0.1.2</span> <span class="title">Using Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-3" class="internal"><span class="codenumber">0.1.3</span> <span class="title">Combining Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-4" class="internal"><span class="codenumber">0.1.4</span> <span class="title">Symmetry</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="review-classes.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Classes of Functions</span></a></div>
@@ -187,10 +416,7 @@ true);
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="D1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">D1: Average/Instantaneous Rate of Change</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D1.html#D1-preclass" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D1.html#D1-activities" class="internal"><span class="codenumber">2.1.2</span> <span class="title">In-Class Activities</span></a></div></li>
-</ul>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D1.html#D1-activities" class="internal"><span class="codenumber">2.1.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="D2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">D2: The Derivative (Definition)</span></a></div>
@@ -246,13 +472,6 @@ true);
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D9.html#D9-preclass" class="internal"><span class="codenumber">2.9.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D9.html#D9-activities" class="internal"><span class="codenumber">2.9.2</span> <span class="title">In-Class Activities</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="D10.html" class="internal"><span class="codenumber">2.10</span> <span class="title">D10: Logarithmic Differentiation</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D10.html#D10-preclass" class="internal"><span class="codenumber">2.10.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D10.html#D10-activities" class="internal"><span class="codenumber">2.10.2</span> <span class="title">In-Class Activities</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -350,9 +569,377 @@ true);
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">0.1</span><span class="space"> </span><span class="title">Functions</span>
 </h2>
 <section class="subsection" id="review-functions-1"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">0.1.1</span><span class="space"> </span><span class="title">First Section</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">0.1.1</span><span class="space"> </span><span class="title">Basics</span>
 </h3>
-<div class="para" id="review-functions-1-2">stuff here</div></section></section></div>
+<article class="definition definition-like" id="def-relation-domain-range"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">0.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Relation/Domain/Range.</span>
+</h4> <div class="para" id="def-relation-domain-range-2-1">A <dfn class="terminology">relation</dfn> is a collection of ordered pairs of the form <span class="process-math">\((x,y)\text{.}\)</span> The collection of first components in a relation is called the <dfn class="terminology">domain</dfn> of the relation. The collection of second components in a relation is called the <dfn class="terminology">range</dfn> of the relation.</div></article><article class="definition definition-like" id="def-input-output"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">0.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Input/Output.</span>
+</h4> <div class="para" id="def-input-output-2-1">In an ordered pair <span class="process-math">\((x,y)\text{,}\)</span> the element <span class="process-math">\(x\)</span> is called an <dfn class="terminology">input</dfn> and the element <span class="process-math">\(y\)</span> is called an <dfn class="terminology">output</dfn>.</div></article><article class="definition definition-like" id="def-function"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">0.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Function.</span>
+</h4> <div class="para" id="def-function-2-1">A <dfn class="terminology">function</dfn> <span class="process-math">\(f\)</span> is a rule which assigns to each input <span class="process-math">\(x\)</span> in the domain a single output <span class="process-math">\(f(x)\)</span> in the range.</div></article><article class="example example-like" id="review-functions-1-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="review-functions-1-5-1-1">
+<div class="para">The relation <span class="process-math">\(f\)</span> is copied below. Is <span class="process-math">\(f\)</span> a function? Why or why not?</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lrbrace{(-2,1), (1,5), (0,-3), (-2,3), (10,1), (3,3)}
+\end{equation*}
+</div>
+</div>
+<div class="solutions"><details id="review-functions-1-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="review-functions-1-5-2-1">No, because the input <span class="process-math">\(-2\)</span> is assigned two outputs: <span class="process-math">\(1\)</span> and <span class="process-math">\(3\text{.}\)</span>
+</div></div></details></div></article><article class="definition definition-like" id="def-graph"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">0.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Graph.</span>
+</h4> <div class="para" id="def-graph-2-1">The <dfn class="terminology">graph</dfn> of a function is the collection of all coordinate pairs <span class="process-math">\((x,y)\text{,}\)</span> plotted on a coordinate system.</div></article><article class="theorem theorem-like" id="thm-vertical-line-test"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">0.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">Vertical Line Test.</span>
+</h4>
+<div class="para" id="thm-vertical-line-test-2-1">A relation is a function if and only if any vertical intersects the graph of the relation in <em class="emphasis">at most</em> one point.</div></article><article class="example example-like" id="review-functions-1-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="review-functions-1-8-1-1">Are both of these graphs functions? Why or why not?</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:44.4444444444444%;"><figure class="figure figure-like" id="functions-yes-or-no-function-1"><img src="generated/latex-image/functions-yes-or-no-function-1-2.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">0.1.8<span class="period">.</span></span><span class="space"> </span>Candidate function graph 1</figcaption></figure></div>
+<div class="sbspanel top" style="width:44.4444444444444%;"><figure class="figure figure-like" id="functions-yes-or-no-function-2"><img src="generated/latex-image/functions-yes-or-no-function-2-2.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">0.1.9<span class="period">.</span></span><span class="space"> </span>Candidate function graph 2</figcaption></figure></div>
+</div></div>
+<div class="solutions"><details id="review-functions-1-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="review-functions-1-8-2-1">The graph in <a href="review-functions.html#functions-yes-or-no-function-1" class="xref" data-knowl="./knowl/xref/functions-yes-or-no-function-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 0.1.8">Figure 0.1.8</a> is a function, because every input has only one output; however, the graph in <a href="review-functions.html#functions-yes-or-no-function-2" class="xref" data-knowl="./knowl/xref/functions-yes-or-no-function-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 0.1.9">Figure 0.1.9</a> is <em class="emphasis">not</em> a function because all inputs in <span class="process-math">\([-2,2]\)</span>
+</div></div></details></div></article><article class="example example-like" id="review-functions-1-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="review-functions-1-9-1-1">Below are numerical expressions for <span class="process-math">\(h\)</span> and <span class="process-math">\(k\text{.}\)</span> Is <span class="process-math">\(h\)</span> a function? What about <span class="process-math">\(k\text{?}\)</span>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(6\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(h(x)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+</tr>
+</table></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(t\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(6\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(k(t)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+</tr>
+</table></div>
+<div class="solutions"><details id="review-functions-1-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="review-functions-1-9-2-1">
+<span class="process-math">\(h\)</span> is not a function because the input <span class="process-math">\(1\)</span> has two outputs: <span class="process-math">\(1\)</span> and <span class="process-math">\(2\text{.}\)</span> However, <span class="process-math">\(k\)</span> is a function because every input has only one output.</div> <div class="para" id="review-functions-1-9-2-2">Even though the input <span class="process-math">\(1\)</span> appears twice, it has the same output. So in a sense, we can consider this a “duplicate” entry.</div>
+</div></details></div></article></section><section class="subsection" id="review-functions-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">0.1.2</span><span class="space"> </span><span class="title">Using Functions</span>
+</h3>
+<article class="remark remark-like" id="review-functions-2-2"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">0.1.11</span><span class="period">.</span><span class="space"> </span><span class="title">Function Notation: Functions of a Single Variable.</span>
+</h4> <div class="para logical" id="review-functions-2-2-2">
+<div class="para">The notation <span class="process-math">\(f(x)\)</span> has two pieces: an input and a rule. We are applying the <em class="emphasis">rule</em> <span class="process-math">\(f\)</span> to the <em class="emphasis">input</em> <span class="process-math">\(x\text{.}\)</span> The result is an output, usually denoted <span class="process-math">\(y\text{.}\)</span> So we can write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = f(x)
+\end{equation*}
+</div>
+<div class="para">as a way to say “the output <span class="process-math">\(y\)</span> is the result of applying the rule <span class="process-math">\(f\)</span> to the input <span class="process-math">\(x\)</span>”. This should be read as “<span class="process-math">\(y\)</span> equals <span class="process-math">\(f\)</span> of <span class="process-math">\(x\)</span>”</div>
+</div></article><article class="remark remark-like" id="review-functions-2-3"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">0.1.12</span><span class="period">.</span><span class="space"> </span><span class="title">Evaluating Functions.</span>
+</h4> <div class="para" id="review-functions-2-3-2">To evaluate a function <span class="process-math">\(f(x)\text{,}\)</span> replace all instances of the variable <span class="process-math">\(x\)</span> with the input shown.</div></article><article class="example example-like" id="review-functions-2-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.13</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="review-functions-2-4-1-1">
+<div class="para">Let <span class="process-math">\(f(x) = x^2 + 5\text{.}\)</span> Evaluate the following:</div>
+<ol class="lower-alpha" id="review-functions-2-4-1-1-2">
+<li id="review-functions-2-4-1-1-2-1"><div class="para" id="review-functions-2-4-1-1-2-1-1"><span class="process-math">\(\displaystyle f(1)\)</span></div></li>
+<li id="review-functions-2-4-1-1-2-2"><div class="para" id="review-functions-2-4-1-1-2-2-1"><span class="process-math">\(\displaystyle f(0)\)</span></div></li>
+<li id="review-functions-2-4-1-1-2-3"><div class="para" id="review-functions-2-4-1-1-2-3-1"><span class="process-math">\(\displaystyle f(-2)\)</span></div></li>
+<li id="review-functions-2-4-1-1-2-4"><div class="para" id="review-functions-2-4-1-1-2-4-1"><span class="process-math">\(\displaystyle f(a)\)</span></div></li>
+<li id="review-functions-2-4-1-1-2-5"><div class="para" id="review-functions-2-4-1-1-2-5-1"><span class="process-math">\(\displaystyle f(x + h)\)</span></div></li>
+</ol>
+</div>
+<div class="solutions"><details id="review-functions-2-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="review-functions-2-4-2-1"><ol class="lower-alpha" id="review-functions-2-4-2-1-1">
+<li id="review-functions-2-4-2-1-1-1"><div class="para" id="review-functions-2-4-2-1-1-1-1"><span class="process-math">\(\displaystyle f(1)=6\)</span></div></li>
+<li id="review-functions-2-4-2-1-1-2"><div class="para" id="review-functions-2-4-2-1-1-2-1"><span class="process-math">\(\displaystyle f(0)=5\)</span></div></li>
+<li id="review-functions-2-4-2-1-1-3"><div class="para" id="review-functions-2-4-2-1-1-3-1"><span class="process-math">\(\displaystyle f(-2)=9\)</span></div></li>
+<li id="review-functions-2-4-2-1-1-4"><div class="para" id="review-functions-2-4-2-1-1-4-1"><span class="process-math">\(\displaystyle f(a)=a^2+5\)</span></div></li>
+<li id="review-functions-2-4-2-1-1-5"><div class="para" id="review-functions-2-4-2-1-1-5-1"><span class="process-math">\(\displaystyle f(x + h)=x^2+2xh+h^2+5\)</span></div></li>
+</ol></div></div></details></div></article><article class="example example-like" id="review-functions-2-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.14</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="review-functions-2-5-1-1">
+<div class="para">Consider the following function rules: <span class="process-math">\(f(x) = x-1, g(x) = -x^2, h(x) = 2^x\text{.}\)</span> Write the function notation for the descriptions given, then compute.</div>
+<ol class="lower-alpha" id="review-functions-2-5-1-1-2">
+<li id="review-functions-2-5-1-1-2-1"><div class="para" id="review-functions-2-5-1-1-2-1-1">
+<span class="process-math">\(f\)</span> applied to the input 5</div></li>
+<li id="review-functions-2-5-1-1-2-2"><div class="para" id="review-functions-2-5-1-1-2-2-1">
+<span class="process-math">\(g\)</span> applied to the input <span class="process-math">\(a + 1\)</span>
+</div></li>
+<li id="review-functions-2-5-1-1-2-3"><div class="para" id="review-functions-2-5-1-1-2-3-1">
+<span class="process-math">\(h\)</span> applied to the input <span class="process-math">\(3 + r\)</span>
+</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="review-functions-2-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="review-functions-2-5-2-1"><ol class="lower-alpha" id="review-functions-2-5-2-1-1">
+<li id="review-functions-2-5-2-1-1-1"><div class="para" id="review-functions-2-5-2-1-1-1-1"><span class="process-math">\(\displaystyle f(5) = 4\)</span></div></li>
+<li id="review-functions-2-5-2-1-1-2"><div class="para" id="review-functions-2-5-2-1-1-2-1"><span class="process-math">\(\displaystyle g(a+1)=-a^2-2ah-h^2\)</span></div></li>
+<li id="review-functions-2-5-2-1-1-3"><div class="para" id="review-functions-2-5-2-1-1-3-1"><span class="process-math">\(\displaystyle h(3+r) = 2^{3+r} = 8\cdot 2^r\)</span></div></li>
+</ol></div></div></details></div></article></section><section class="subsection" id="review-functions-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">0.1.3</span><span class="space"> </span><span class="title">Combining Functions</span>
+</h3>
+<article class="assemblage assemblage-like" id="review-functions-3-2"><h4 class="heading"><span class="title">Function Combinations.</span></h4>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r0 l0 t0 lines">Name</td>
+<td class="l m b1 r0 l0 t0 lines">Notation</td>
+<td class="l m b1 r0 l0 t0 lines">Translation</td>
+<td class="l m b1 r0 l0 t0 lines">Note</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Sum</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((f+g)(x)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(f(x) + g(x)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Difference</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((f-g)(x)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(f(x) - g(x)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Product</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((f\cdot g)(x)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(f(x)\cdot g(x)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">
+<span class="process-math">\((f\cdot g)\)</span> can be written as <span class="process-math">\((fg)\)</span> as well</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Quotient</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\lrpar{\dfrac{f}{g}}(x)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\dfrac{f(x)}{g(x)}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">
+<span class="process-math">\(g(x)\)</span> cannot be zero</td>
+</tr>
+</table></div></article><article class="example example-like" id="review-functions-3-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.15</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="review-functions-3-3-1-1">
+<div class="para">Let <span class="process-math">\(f(x) = 3x-1\)</span> and <span class="process-math">\(g(x) = x^2+x+1\text{.}\)</span> Write and simplify the following.</div>
+<ol class="lower-alpha" id="review-functions-3-3-1-1-3">
+<li id="review-functions-3-3-1-1-3-1"><div class="para" id="review-functions-3-3-1-1-3-1-1"><span class="process-math">\(\displaystyle (f+g)(x)\)</span></div></li>
+<li id="review-functions-3-3-1-1-3-2"><div class="para" id="review-functions-3-3-1-1-3-2-1"><span class="process-math">\(\displaystyle (f-g)(x)\)</span></div></li>
+<li id="review-functions-3-3-1-1-3-3"><div class="para" id="review-functions-3-3-1-1-3-3-1"><span class="process-math">\(\displaystyle (fg)(x)\)</span></div></li>
+<li id="review-functions-3-3-1-1-3-4"><div class="para" id="review-functions-3-3-1-1-3-4-1"><span class="process-math">\(\displaystyle \lrpar{\dfrac{f}{g}}(x)\)</span></div></li>
+</ol>
+</div>
+<div class="solutions"><details id="review-functions-3-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="review-functions-3-3-2-1"><ol class="lower-alpha" id="review-functions-3-3-2-1-1">
+<li id="review-functions-3-3-2-1-1-1"><div class="para" id="review-functions-3-3-2-1-1-1-1"><span class="process-math">\(\displaystyle (f+g)(x) = x^2 + 4x\)</span></div></li>
+<li id="review-functions-3-3-2-1-1-2"><div class="para" id="review-functions-3-3-2-1-1-2-1"><span class="process-math">\(\displaystyle (f-g)(x) = -x^2 + 2x - 2\)</span></div></li>
+<li id="review-functions-3-3-2-1-1-3"><div class="para" id="review-functions-3-3-2-1-1-3-1"><span class="process-math">\(\displaystyle (fg)(x) = 3x^3+2x^2+x-1\)</span></div></li>
+<li id="review-functions-3-3-2-1-1-4"><div class="para" id="review-functions-3-3-2-1-1-4-1"><span class="process-math">\(\displaystyle \lrpar{\dfrac{f}{g}}(x) = \dfrac{3x-1}{x^2+x-1}\)</span></div></li>
+</ol></div></div></details></div></article><article class="remark remark-like" id="review-functions-3-4"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">0.1.16</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="review-functions-3-4-1">
+<div class="para">Functions can also be combined using <em class="emphasis">composition</em>: using one function as an input to another. The notation is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(f\circ g)(x) = f(g(x))
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="review-functions-3-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.17</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="review-functions-3-5-1-1">
+<div class="para">Let <span class="process-math">\(f(x) = 3x-1\)</span> and <span class="process-math">\(g(x) = x^2+x+1\text{.}\)</span> Write and simplify the following.</div>
+<ol class="lower-alpha" id="review-functions-3-5-1-1-3">
+<li id="review-functions-3-5-1-1-3-1"><div class="para" id="review-functions-3-5-1-1-3-1-1"><span class="process-math">\(\displaystyle (f\circ g)(x)\)</span></div></li>
+<li id="review-functions-3-5-1-1-3-2"><div class="para" id="review-functions-3-5-1-1-3-2-1"><span class="process-math">\(\displaystyle (g\circ f)(x)\)</span></div></li>
+<li id="review-functions-3-5-1-1-3-3"><div class="para" id="review-functions-3-5-1-1-3-3-1"><span class="process-math">\(\displaystyle g(-4x)\)</span></div></li>
+<li id="review-functions-3-5-1-1-3-4"><div class="para" id="review-functions-3-5-1-1-3-4-1"><span class="process-math">\(\displaystyle f(g(-x))\)</span></div></li>
+</ol>
+</div>
+<div class="solutions"><details id="review-functions-3-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="review-functions-3-5-2-1"><ol class="lower-alpha" id="review-functions-3-5-2-1-1">
+<li id="review-functions-3-5-2-1-1-1"><div class="para" id="review-functions-3-5-2-1-1-1-1"><span class="process-math">\(\displaystyle (f\circ g)(x)= 3x^2+3x+2\)</span></div></li>
+<li id="review-functions-3-5-2-1-1-2"><div class="para" id="review-functions-3-5-2-1-1-2-1"><span class="process-math">\(\displaystyle (g\circ f)(x)=9x^2-3x+1\)</span></div></li>
+<li id="review-functions-3-5-2-1-1-3"><div class="para" id="review-functions-3-5-2-1-1-3-1"><span class="process-math">\(\displaystyle g(-4x)=-12x-1\)</span></div></li>
+<li id="review-functions-3-5-2-1-1-4"><div class="para" id="review-functions-3-5-2-1-1-4-1"><span class="process-math">\(\displaystyle f(g(-x))=3x^2-3x+2\)</span></div></li>
+</ol></div></div></details></div></article><article class="remark remark-like" id="review-functions-3-6"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">0.1.18</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="review-functions-3-6-1">
+<div class="para">Given two functions <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(g(x)\text{,}\)</span> the composition <span class="process-math">\((f\circ g)(x)\)</span> has the domain</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Dom}\,(f\circ g) = \lrbrace{x\mid x\in \text{Dom}\,(g)\text{ and }g(x)\in\text{Dom}\, (f)}
+\end{equation*}
+</div>
+<div class="para">and the range</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Range}\, (f\circ g) = \lrbrace{y=f(x)\mid x\in \text{Range}\, (g)}
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="review-functions-3-7"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.19</span><span class="period">.</span>
+</h4>
+<div class="para" id="review-functions-3-7-1-1">Consider the functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> given below.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(-3\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(-2\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(f(x)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+</tr>
+</table></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(-4\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(-2\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(g(x)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+</tr>
+</table></div> <div class="para logical" id="review-functions-3-7-1-4">
+<div class="para">Find the following.</div>
+<ol class="lower-alpha" id="review-functions-3-7-1-4-1">
+<li id="review-functions-3-7-1-4-1-1"><div class="para" id="review-functions-3-7-1-4-1-1-1"><span class="process-math">\(\displaystyle (g\circ f)(3)\)</span></div></li>
+<li id="review-functions-3-7-1-4-1-2"><div class="para" id="review-functions-3-7-1-4-1-2-1">The domain and range of <span class="process-math">\((g\circ f)(x)\)</span>
+</div></li>
+<li id="review-functions-3-7-1-4-1-3"><div class="para" id="review-functions-3-7-1-4-1-3-1">The domain and range of <span class="process-math">\((f\circ g)(x)\)</span>
+</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="review-functions-3-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="review-functions-3-7-2-1"><ol class="lower-alpha" id="review-functions-3-7-2-1-1">
+<li id="review-functions-3-7-2-1-1-1"><div class="para" id="review-functions-3-7-2-1-1-1-1"><span class="process-math">\(\displaystyle (g\circ f)(3)=0\)</span></div></li>
+<li id="review-functions-3-7-2-1-1-2"><div class="para" id="review-functions-3-7-2-1-1-2-1">
+<span class="process-math">\(\text{Dom}\,(g\circ f) = \lrbrace{-2,0,2,4}\)</span> and <span class="process-math">\(\text{Range}\, (g\circ f) = \lrbrace{0,3,5}\)</span>
+</div></li>
+<li id="review-functions-3-7-2-1-1-3"><div class="para" id="review-functions-3-7-2-1-1-3-1">
+<span class="process-math">\(\text{Dom}\,(f\circ g) = \lrbrace{-4,-2,0,2}\)</span> and <span class="process-math">\(\text{Range}\, (f\circ g) = \lrbrace{-2,4}\)</span>
+</div></li>
+</ol></div></div></details></div></article><article class="example example-like" id="review-functions-3-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.20</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="review-functions-3-8-1-1">
+<div class="para">For each function below, completely decompose the function into smaller ones and find the domain of the composite.</div>
+<ol class="lower-alpha" id="review-functions-3-8-1-1-1">
+<li id="review-functions-3-8-1-1-1-1"><div class="para" id="review-functions-3-8-1-1-1-1-1"><span class="process-math">\(\displaystyle f(x) = \dfrac{1}{x+2}\)</span></div></li>
+<li id="review-functions-3-8-1-1-1-2"><div class="para" id="review-functions-3-8-1-1-1-2-1"><span class="process-math">\(\displaystyle q(x) = (2x+1)^5\)</span></div></li>
+<li id="review-functions-3-8-1-1-1-3"><div class="para" id="review-functions-3-8-1-1-1-3-1"><span class="process-math">\(\displaystyle s(h) = \sin \lrpar{5h^2 + \dfrac{1}{h}}\)</span></div></li>
+<li id="review-functions-3-8-1-1-1-4"><div class="para" id="review-functions-3-8-1-1-1-4-1"><span class="process-math">\(\displaystyle y(r) = \dfrac{5.317}{(2r^5+1.7)^2}\)</span></div></li>
+</ol>
+</div>
+<div class="solutions"><details id="review-functions-3-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="review-functions-3-8-2-1">
+<div class="para">Decompositions can vary; the answers shown here are suggested.</div>
+<ol class="lower-alpha" id="review-functions-3-8-2-1-1">
+<li id="review-functions-3-8-2-1-1-1"><div class="para" id="review-functions-3-8-2-1-1-1-1">
+<span class="process-math">\(f(x) = a(b(x))\)</span> where <span class="process-math">\(a(x) = \dfrac{1}{x}\)</span> and <span class="process-math">\(b(x) = x+2\)</span>
+</div></li>
+<li id="review-functions-3-8-2-1-1-2"><div class="para" id="review-functions-3-8-2-1-1-2-1">
+<span class="process-math">\(q(x) = a(b(x))\)</span> where <span class="process-math">\(a(x) = x^5\)</span> and <span class="process-math">\(b(x) = 2x+1\)</span>
+</div></li>
+<li id="review-functions-3-8-2-1-1-3"><div class="para" id="review-functions-3-8-2-1-1-3-1">
+<span class="process-math">\(s(h) = a(b(h))\)</span> where <span class="process-math">\(a(h) = \sin (h)\)</span> and <span class="process-math">\(b(h) = 5h^2 + \dfrac{1}{h}\)</span>
+</div></li>
+<li id="review-functions-3-8-2-1-1-4"><div class="para" id="review-functions-3-8-2-1-1-4-1">
+<span class="process-math">\(y(r) = a(b(r))\)</span> where <span class="process-math">\(a(r) = \dfrac{5.317}{r^2}\)</span> and <span class="process-math">\(b(r) = 2r^5 + 1.7\)</span>
+</div></li>
+</ol>
+</div></div></details></div></article><article class="example example-like" id="review-functions-3-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.21</span><span class="period">.</span>
+</h4>
+<div class="para" id="review-functions-3-9-1-1">Let <span class="process-math">\(k(x) = \sec (x^2)\tan(x^2)\text{.}\)</span> Find <span class="process-math">\(f,g\)</span> such that <span class="process-math">\(k(x) = f(g(x))\)</span>
+</div>
+<div class="solutions"><details id="review-functions-3-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="review-functions-3-9-2-1">
+<span class="process-math">\(f(x) = \sec (x)\tan (x)\)</span> and <span class="process-math">\(g(x) = x^2\)</span>
+</div></div></details></div></article><article class="example example-like" id="review-functions-3-10"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.22</span><span class="period">.</span>
+</h4>
+<div class="para" id="review-functions-3-10-1-1">Let <span class="process-math">\(f(x) = \cos^2 (x^2+9)\text{.}\)</span> Find functions <span class="process-math">\(a,b,c\)</span> such that <span class="process-math">\(f(x) = (a\circ b\circ c)(x)\)</span>
+</div>
+<div class="solutions"><details id="review-functions-3-10-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="review-functions-3-10-2-1">
+<span class="process-math">\(a(x) = x^2\text{,}\)</span> <span class="process-math">\(b(x) = \cos (x)\text{,}\)</span> <span class="process-math">\(c(x) = x^2 + 9\)</span>
+</div></div></details></div></article></section><section class="subsection" id="review-functions-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">0.1.4</span><span class="space"> </span><span class="title">Symmetry</span>
+</h3>
+<article class="definition definition-like" id="def-even-odd"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">0.1.23</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="def-even-odd-1-1">
+<div class="para">A function <span class="process-math">\(f(x)\)</span> is said to be <dfn class="terminology">even</dfn> if it has the property that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(-x) = f(x)
+\end{equation*}
+</div>
+<div class="para">for all <span class="process-math">\(x\)</span> in its domain.</div>
+</div> <div class="para logical" id="def-even-odd-1-2">
+<div class="para">A function <span class="process-math">\(g(x)\)</span> is said to be <dfn class="terminology">odd</dfn> if it has the property that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+g(-x) = -g(x)
+\end{equation*}
+</div>
+<div class="para">for all <span class="process-math">\(x\)</span> in its domain.</div>
+</div></article><article class="example example-like" id="review-functions-4-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">0.1.24</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="review-functions-4-3-1-1">
+<div class="para">Determine if the following functions are even, odd, or neither.</div>
+<ol class="lower-alpha" id="review-functions-4-3-1-1-1">
+<li id="review-functions-4-3-1-1-1-1"><div class="para" id="review-functions-4-3-1-1-1-1-1"><span class="process-math">\(\displaystyle f(x) = x^7 + x^5 -x\)</span></div></li>
+<li id="review-functions-4-3-1-1-1-2"><div class="para" id="review-functions-4-3-1-1-1-2-1"><span class="process-math">\(\displaystyle g(x) = 3-x^2\)</span></div></li>
+<li id="review-functions-4-3-1-1-1-3"><div class="para" id="review-functions-4-3-1-1-1-3-1"><span class="process-math">\(\displaystyle h(x) = x^2-x^3\)</span></div></li>
+</ol>
+</div>
+<div class="solutions"><details id="review-functions-4-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="review-functions-4-3-2-1"><ol class="lower-alpha" id="review-functions-4-3-2-1-1">
+<li id="review-functions-4-3-2-1-1-1"><div class="para" id="review-functions-4-3-2-1-1-1-1">Odd</div></li>
+<li id="review-functions-4-3-2-1-1-2"><div class="para" id="review-functions-4-3-2-1-1-2-1">Even</div></li>
+<li id="review-functions-4-3-2-1-1-3"><div class="para" id="review-functions-4-3-2-1-1-3-1">Neither</div></li>
+</ol></div></div></details></div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-review.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="review-classes.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

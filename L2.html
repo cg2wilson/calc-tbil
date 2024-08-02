@@ -88,6 +88,230 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#review-functions-2-4-1-1-2 { counter-set: review-functions-2-4-1-1-2 0; }
+#review-functions-2-4-1-1-2 > li::marker { content: ""counter(review-functions-2-4-1-1-2,lower-alpha)"."; }
+#review-functions-2-4-1-1-2 > li { counter-increment: review-functions-2-4-1-1-2; }
+#review-functions-2-4-2-1-1 { counter-set: review-functions-2-4-2-1-1 0; }
+#review-functions-2-4-2-1-1 > li::marker { content: ""counter(review-functions-2-4-2-1-1,lower-alpha)"."; }
+#review-functions-2-4-2-1-1 > li { counter-increment: review-functions-2-4-2-1-1; }
+#review-functions-2-5-1-1-2 { counter-set: review-functions-2-5-1-1-2 0; }
+#review-functions-2-5-1-1-2 > li::marker { content: ""counter(review-functions-2-5-1-1-2,lower-alpha)"."; }
+#review-functions-2-5-1-1-2 > li { counter-increment: review-functions-2-5-1-1-2; }
+#review-functions-2-5-2-1-1 { counter-set: review-functions-2-5-2-1-1 0; }
+#review-functions-2-5-2-1-1 > li::marker { content: ""counter(review-functions-2-5-2-1-1,lower-alpha)"."; }
+#review-functions-2-5-2-1-1 > li { counter-increment: review-functions-2-5-2-1-1; }
+#review-functions-3-3-1-1-3 { counter-set: review-functions-3-3-1-1-3 0; }
+#review-functions-3-3-1-1-3 > li::marker { content: ""counter(review-functions-3-3-1-1-3,lower-alpha)"."; }
+#review-functions-3-3-1-1-3 > li { counter-increment: review-functions-3-3-1-1-3; }
+#review-functions-3-3-2-1-1 { counter-set: review-functions-3-3-2-1-1 0; }
+#review-functions-3-3-2-1-1 > li::marker { content: ""counter(review-functions-3-3-2-1-1,lower-alpha)"."; }
+#review-functions-3-3-2-1-1 > li { counter-increment: review-functions-3-3-2-1-1; }
+#review-functions-3-5-1-1-3 { counter-set: review-functions-3-5-1-1-3 0; }
+#review-functions-3-5-1-1-3 > li::marker { content: ""counter(review-functions-3-5-1-1-3,lower-alpha)"."; }
+#review-functions-3-5-1-1-3 > li { counter-increment: review-functions-3-5-1-1-3; }
+#review-functions-3-5-2-1-1 { counter-set: review-functions-3-5-2-1-1 0; }
+#review-functions-3-5-2-1-1 > li::marker { content: ""counter(review-functions-3-5-2-1-1,lower-alpha)"."; }
+#review-functions-3-5-2-1-1 > li { counter-increment: review-functions-3-5-2-1-1; }
+#review-functions-3-7-1-4-1 { counter-set: review-functions-3-7-1-4-1 0; }
+#review-functions-3-7-1-4-1 > li::marker { content: ""counter(review-functions-3-7-1-4-1,lower-alpha)"."; }
+#review-functions-3-7-1-4-1 > li { counter-increment: review-functions-3-7-1-4-1; }
+#review-functions-3-7-2-1-1 { counter-set: review-functions-3-7-2-1-1 0; }
+#review-functions-3-7-2-1-1 > li::marker { content: ""counter(review-functions-3-7-2-1-1,lower-alpha)"."; }
+#review-functions-3-7-2-1-1 > li { counter-increment: review-functions-3-7-2-1-1; }
+#review-functions-3-8-1-1-1 { counter-set: review-functions-3-8-1-1-1 0; }
+#review-functions-3-8-1-1-1 > li::marker { content: ""counter(review-functions-3-8-1-1-1,lower-alpha)"."; }
+#review-functions-3-8-1-1-1 > li { counter-increment: review-functions-3-8-1-1-1; }
+#review-functions-3-8-2-1-1 { counter-set: review-functions-3-8-2-1-1 0; }
+#review-functions-3-8-2-1-1 > li::marker { content: ""counter(review-functions-3-8-2-1-1,lower-alpha)"."; }
+#review-functions-3-8-2-1-1 > li { counter-increment: review-functions-3-8-2-1-1; }
+#review-functions-4-3-1-1-1 { counter-set: review-functions-4-3-1-1-1 0; }
+#review-functions-4-3-1-1-1 > li::marker { content: ""counter(review-functions-4-3-1-1-1,lower-alpha)"."; }
+#review-functions-4-3-1-1-1 > li { counter-increment: review-functions-4-3-1-1-1; }
+#review-functions-4-3-2-1-1 { counter-set: review-functions-4-3-2-1-1 0; }
+#review-functions-4-3-2-1-1 > li::marker { content: ""counter(review-functions-4-3-2-1-1,lower-alpha)"."; }
+#review-functions-4-3-2-1-1 > li { counter-increment: review-functions-4-3-2-1-1; }
+#L-readiness-3 { counter-set: L-readiness-3 0; }
+#L-readiness-3 > li::marker { content: ""counter(L-readiness-3,lower-alpha)"."; }
+#L-readiness-3 > li { counter-increment: L-readiness-3; }
+#activity-limits-graphically1-2-2-1 { counter-set: activity-limits-graphically1-2-2-1 0; }
+#activity-limits-graphically1-2-2-1 > li::marker { content: ""counter(activity-limits-graphically1-2-2-1,upper-alpha)"."; }
+#activity-limits-graphically1-2-2-1 > li { counter-increment: activity-limits-graphically1-2-2-1; }
+#activity-limits-graphically1-3-2-1 { counter-set: activity-limits-graphically1-3-2-1 0; }
+#activity-limits-graphically1-3-2-1 > li::marker { content: ""counter(activity-limits-graphically1-3-2-1,upper-alpha)"."; }
+#activity-limits-graphically1-3-2-1 > li { counter-increment: activity-limits-graphically1-3-2-1; }
+#activity-limits-graphically2-3-2-1 { counter-set: activity-limits-graphically2-3-2-1 0; }
+#activity-limits-graphically2-3-2-1 > li::marker { content: ""counter(activity-limits-graphically2-3-2-1,upper-alpha)"."; }
+#activity-limits-graphically2-3-2-1 > li { counter-increment: activity-limits-graphically2-3-2-1; }
+#activity-limits-graphically2-4-2-1 { counter-set: activity-limits-graphically2-4-2-1 0; }
+#activity-limits-graphically2-4-2-1 > li::marker { content: ""counter(activity-limits-graphically2-4-2-1,upper-alpha)"."; }
+#activity-limits-graphically2-4-2-1 > li { counter-increment: activity-limits-graphically2-4-2-1; }
+#activity-limits-graphically-one-sided-2-2-1 { counter-set: activity-limits-graphically-one-sided-2-2-1 0; }
+#activity-limits-graphically-one-sided-2-2-1 > li::marker { content: ""counter(activity-limits-graphically-one-sided-2-2-1,upper-alpha)"."; }
+#activity-limits-graphically-one-sided-2-2-1 > li { counter-increment: activity-limits-graphically-one-sided-2-2-1; }
+#activity-limits-graphically-one-sided2-2-2-1 { counter-set: activity-limits-graphically-one-sided2-2-2-1 0; }
+#activity-limits-graphically-one-sided2-2-2-1 > li::marker { content: ""counter(activity-limits-graphically-one-sided2-2-2-1,upper-alpha)"."; }
+#activity-limits-graphically-one-sided2-2-2-1 > li { counter-increment: activity-limits-graphically-one-sided2-2-2-1; }
+#activity-limits-graphically-one-sided2-3-2-1 { counter-set: activity-limits-graphically-one-sided2-3-2-1 0; }
+#activity-limits-graphically-one-sided2-3-2-1 > li::marker { content: ""counter(activity-limits-graphically-one-sided2-3-2-1,upper-alpha)"."; }
+#activity-limits-graphically-one-sided2-3-2-1 > li { counter-increment: activity-limits-graphically-one-sided2-3-2-1; }
+#activity-limits-graphically-fluency1-6-2 { counter-set: activity-limits-graphically-fluency1-6-2 0; }
+#activity-limits-graphically-fluency1-6-2 > li::marker { content: ""counter(activity-limits-graphically-fluency1-6-2,upper-alpha)"."; }
+#activity-limits-graphically-fluency1-6-2 > li { counter-increment: activity-limits-graphically-fluency1-6-2; }
+#L1-activities-13-1-2-1 { counter-set: L1-activities-13-1-2-1 0; }
+#L1-activities-13-1-2-1 > li::marker { content: ""counter(L1-activities-13-1-2-1,decimal)"."; }
+#L1-activities-13-1-2-1 > li { counter-increment: L1-activities-13-1-2-1; }
+#activity-limits-numerically1-2-3 { counter-set: activity-limits-numerically1-2-3 0; }
+#activity-limits-numerically1-2-3 > li::marker { content: ""counter(activity-limits-numerically1-2-3,upper-alpha)"."; }
+#activity-limits-numerically1-2-3 > li { counter-increment: activity-limits-numerically1-2-3; }
+#activity-limits-numerically2-4-1 { counter-set: activity-limits-numerically2-4-1 0; }
+#activity-limits-numerically2-4-1 > li::marker { content: ""counter(activity-limits-numerically2-4-1,upper-alpha)"."; }
+#activity-limits-numerically2-4-1 > li { counter-increment: activity-limits-numerically2-4-1; }
+#activity-limits-numerically3-3-1 { counter-set: activity-limits-numerically3-3-1 0; }
+#activity-limits-numerically3-3-1 > li::marker { content: ""counter(activity-limits-numerically3-3-1,upper-alpha)"."; }
+#activity-limits-numerically3-3-1 > li { counter-increment: activity-limits-numerically3-3-1; }
+#activity-limits-numerically4-2-2-1 { counter-set: activity-limits-numerically4-2-2-1 0; }
+#activity-limits-numerically4-2-2-1 > li::marker { content: ""counter(activity-limits-numerically4-2-2-1,upper-alpha)"."; }
+#activity-limits-numerically4-2-2-1 > li { counter-increment: activity-limits-numerically4-2-2-1; }
+#activity-limits-numerically4-4-2-1 { counter-set: activity-limits-numerically4-4-2-1 0; }
+#activity-limits-numerically4-4-2-1 > li::marker { content: ""counter(activity-limits-numerically4-4-2-1,upper-alpha)"."; }
+#activity-limits-numerically4-4-2-1 > li { counter-increment: activity-limits-numerically4-4-2-1; }
+#activity-limits-numerically5-2-1-2-1 { counter-set: activity-limits-numerically5-2-1-2-1 0; }
+#activity-limits-numerically5-2-1-2-1 > li::marker { content: ""counter(activity-limits-numerically5-2-1-2-1,upper-alpha)"."; }
+#activity-limits-numerically5-2-1-2-1 > li { counter-increment: activity-limits-numerically5-2-1-2-1; }
+#activity-limits-analytically1-2-1 { counter-set: activity-limits-analytically1-2-1 0; }
+#activity-limits-analytically1-2-1 > li::marker { content: ""counter(activity-limits-analytically1-2-1,upper-alpha)"."; }
+#activity-limits-analytically1-2-1 > li { counter-increment: activity-limits-analytically1-2-1; }
+#activity-limits-analytically2-4-1 { counter-set: activity-limits-analytically2-4-1 0; }
+#activity-limits-analytically2-4-1 > li::marker { content: ""counter(activity-limits-analytically2-4-1,upper-alpha)"."; }
+#activity-limits-analytically2-4-1 > li { counter-increment: activity-limits-analytically2-4-1; }
+#theorem-limit-laws-1-2-1-8 { counter-set: theorem-limit-laws-1-2-1-8 0; }
+#theorem-limit-laws-1-2-1-8 > li::marker { content: ""counter(theorem-limit-laws-1-2-1-8,decimal)"."; }
+#theorem-limit-laws-1-2-1-8 > li { counter-increment: theorem-limit-laws-1-2-1-8; }
+#activity-limits-analytically3-2-1 { counter-set: activity-limits-analytically3-2-1 0; }
+#activity-limits-analytically3-2-1 > li::marker { content: ""counter(activity-limits-analytically3-2-1,upper-alpha)"."; }
+#activity-limits-analytically3-2-1 > li { counter-increment: activity-limits-analytically3-2-1; }
+#theorem-limit-laws-2-2-1-6 { counter-set: theorem-limit-laws-2-2-1-6 0; }
+#theorem-limit-laws-2-2-1-6 > li::marker { content: ""counter(theorem-limit-laws-2-2-1-6,decimal)"."; }
+#theorem-limit-laws-2-2-1-6 > li { counter-increment: theorem-limit-laws-2-2-1-6; }
+#activity-limits-analytically4-1-2-1 { counter-set: activity-limits-analytically4-1-2-1 0; }
+#activity-limits-analytically4-1-2-1 > li::marker { content: ""counter(activity-limits-analytically4-1-2-1,upper-alpha)"."; }
+#activity-limits-analytically4-1-2-1 > li { counter-increment: activity-limits-analytically4-1-2-1; }
+#activity-limits-rationals1-2-1 { counter-set: activity-limits-rationals1-2-1 0; }
+#activity-limits-rationals1-2-1 > li::marker { content: ""counter(activity-limits-rationals1-2-1,upper-alpha)"."; }
+#activity-limits-rationals1-2-1 > li { counter-increment: activity-limits-rationals1-2-1; }
+#activity-limits-rationals2-2-1 { counter-set: activity-limits-rationals2-2-1 0; }
+#activity-limits-rationals2-2-1 > li::marker { content: ""counter(activity-limits-rationals2-2-1,upper-alpha)"."; }
+#activity-limits-rationals2-2-1 > li { counter-increment: activity-limits-rationals2-2-1; }
+#activity-limits-zero-2-1 { counter-set: activity-limits-zero-2-1 0; }
+#activity-limits-zero-2-1 > li::marker { content: ""counter(activity-limits-zero-2-1,upper-alpha)"."; }
+#activity-limits-zero-2-1 > li { counter-increment: activity-limits-zero-2-1; }
+#activity-hole-limits-2-1-2-1 { counter-set: activity-hole-limits-2-1-2-1 0; }
+#activity-hole-limits-2-1-2-1 > li::marker { content: ""counter(activity-hole-limits-2-1-2-1,upper-alpha)"."; }
+#activity-hole-limits-2-1-2-1 > li { counter-increment: activity-hole-limits-2-1-2-1; }
+#LT5-infinity-intuition1-3-1 { counter-set: LT5-infinity-intuition1-3-1 0; }
+#LT5-infinity-intuition1-3-1 > li::marker { content: ""counter(LT5-infinity-intuition1-3-1,upper-alpha)"."; }
+#LT5-infinity-intuition1-3-1 > li { counter-increment: LT5-infinity-intuition1-3-1; }
+#LT5-infinity-intuition2-3-1 { counter-set: LT5-infinity-intuition2-3-1 0; }
+#LT5-infinity-intuition2-3-1 > li::marker { content: ""counter(LT5-infinity-intuition2-3-1,upper-alpha)"."; }
+#LT5-infinity-intuition2-3-1 > li { counter-increment: LT5-infinity-intuition2-3-1; }
+#L-activity-horizontal-asymptote-1-2-1-2-1 { counter-set: L-activity-horizontal-asymptote-1-2-1-2-1 0; }
+#L-activity-horizontal-asymptote-1-2-1-2-1 > li::marker { content: ""counter(L-activity-horizontal-asymptote-1-2-1-2-1,upper-alpha)"."; }
+#L-activity-horizontal-asymptote-1-2-1-2-1 > li { counter-increment: L-activity-horizontal-asymptote-1-2-1-2-1; }
+#L-activity-horizontal-asymptote-1-3-1-2-1 { counter-set: L-activity-horizontal-asymptote-1-3-1-2-1 0; }
+#L-activity-horizontal-asymptote-1-3-1-2-1 > li::marker { content: ""counter(L-activity-horizontal-asymptote-1-3-1-2-1,upper-alpha)"."; }
+#L-activity-horizontal-asymptote-1-3-1-2-1 > li { counter-increment: L-activity-horizontal-asymptote-1-3-1-2-1; }
+#infinity-rational1-2-1 { counter-set: infinity-rational1-2-1 0; }
+#infinity-rational1-2-1 > li::marker { content: ""counter(infinity-rational1-2-1,upper-alpha)"."; }
+#infinity-rational1-2-1 > li { counter-increment: infinity-rational1-2-1; }
+#infinity-rational2-2-2-1 { counter-set: infinity-rational2-2-2-1 0; }
+#infinity-rational2-2-2-1 > li::marker { content: ""counter(infinity-rational2-2-2-1,upper-alpha)"."; }
+#infinity-rational2-2-2-1 > li { counter-increment: infinity-rational2-2-2-1; }
+#L-thm-horizontal-asymptote-rules-1-1-8 { counter-set: L-thm-horizontal-asymptote-rules-1-1-8 0; }
+#L-thm-horizontal-asymptote-rules-1-1-8 > li::marker { content: ""counter(L-thm-horizontal-asymptote-rules-1-1-8,decimal)"."; }
+#L-thm-horizontal-asymptote-rules-1-1-8 > li { counter-increment: L-thm-horizontal-asymptote-rules-1-1-8; }
+#infinity-dne-3-1 { counter-set: infinity-dne-3-1 0; }
+#infinity-dne-3-1 > li::marker { content: ""counter(infinity-dne-3-1,upper-alpha)"."; }
+#infinity-dne-3-1 > li { counter-increment: infinity-dne-3-1; }
+#L-vertical-asymptote-intuition1-2-1-2-1 { counter-set: L-vertical-asymptote-intuition1-2-1-2-1 0; }
+#L-vertical-asymptote-intuition1-2-1-2-1 > li::marker { content: ""counter(L-vertical-asymptote-intuition1-2-1-2-1,upper-alpha)"."; }
+#L-vertical-asymptote-intuition1-2-1-2-1 > li { counter-increment: L-vertical-asymptote-intuition1-2-1-2-1; }
+#L-vertical-asymptote-intuition1-4-1-2-1 { counter-set: L-vertical-asymptote-intuition1-4-1-2-1 0; }
+#L-vertical-asymptote-intuition1-4-1-2-1 > li::marker { content: ""counter(L-vertical-asymptote-intuition1-4-1-2-1,upper-alpha)"."; }
+#L-vertical-asymptote-intuition1-4-1-2-1 > li { counter-increment: L-vertical-asymptote-intuition1-4-1-2-1; }
+#infinity-divide-zero-2-1 { counter-set: infinity-divide-zero-2-1 0; }
+#infinity-divide-zero-2-1 > li::marker { content: ""counter(infinity-divide-zero-2-1,upper-alpha)"."; }
+#infinity-divide-zero-2-1 > li { counter-increment: infinity-divide-zero-2-1; }
+#limits-vert-asymptote-2-1 { counter-set: limits-vert-asymptote-2-1 0; }
+#limits-vert-asymptote-2-1 > li::marker { content: ""counter(limits-vert-asymptote-2-1,upper-alpha)"."; }
+#limits-vert-asymptote-2-1 > li { counter-increment: limits-vert-asymptote-2-1; }
+#limits-intuition-hole-2-1 { counter-set: limits-intuition-hole-2-1 0; }
+#limits-intuition-hole-2-1 > li::marker { content: ""counter(limits-intuition-hole-2-1,upper-alpha)"."; }
+#limits-intuition-hole-2-1 > li { counter-increment: limits-intuition-hole-2-1; }
+#L3-activities-19-2-1 { counter-set: L3-activities-19-2-1 0; }
+#L3-activities-19-2-1 > li::marker { content: ""counter(L3-activities-19-2-1,upper-alpha)"."; }
+#L3-activities-19-2-1 > li { counter-increment: L3-activities-19-2-1; }
+#activity-continuous-scenarios-1-2-1 { counter-set: activity-continuous-scenarios-1-2-1 0; }
+#activity-continuous-scenarios-1-2-1 > li::marker { content: ""counter(activity-continuous-scenarios-1-2-1,upper-alpha)"."; }
+#activity-continuous-scenarios-1-2-1 > li { counter-increment: activity-continuous-scenarios-1-2-1; }
+#L-continuity-activity-def-2-1-2-1 { counter-set: L-continuity-activity-def-2-1-2-1 0; }
+#L-continuity-activity-def-2-1-2-1 > li::marker { content: ""counter(L-continuity-activity-def-2-1-2-1,upper-alpha)"."; }
+#L-continuity-activity-def-2-1-2-1 > li { counter-increment: L-continuity-activity-def-2-1-2-1; }
+#L-continuity-activity-def-3-1-2-1 { counter-set: L-continuity-activity-def-3-1-2-1 0; }
+#L-continuity-activity-def-3-1-2-1 > li::marker { content: ""counter(L-continuity-activity-def-3-1-2-1,upper-alpha)"."; }
+#L-continuity-activity-def-3-1-2-1 > li { counter-increment: L-continuity-activity-def-3-1-2-1; }
+#L-continuity-activity-def-4-1-2-1 { counter-set: L-continuity-activity-def-4-1-2-1 0; }
+#L-continuity-activity-def-4-1-2-1 > li::marker { content: ""counter(L-continuity-activity-def-4-1-2-1,upper-alpha)"."; }
+#L-continuity-activity-def-4-1-2-1 > li { counter-increment: L-continuity-activity-def-4-1-2-1; }
+#def-continuity-2-1-5 { counter-set: def-continuity-2-1-5 0; }
+#def-continuity-2-1-5 > li::marker { content: ""counter(def-continuity-2-1-5,decimal)"."; }
+#def-continuity-2-1-5 > li { counter-increment: def-continuity-2-1-5; }
+#activity-continuity-which-are-equal-1-2-1 { counter-set: activity-continuity-which-are-equal-1-2-1 0; }
+#activity-continuity-which-are-equal-1-2-1 > li::marker { content: ""counter(activity-continuity-which-are-equal-1-2-1,upper-alpha)"."; }
+#activity-continuity-which-are-equal-1-2-1 > li { counter-increment: activity-continuity-which-are-equal-1-2-1; }
+#L4-activities-8-2-1-2-1 { counter-set: L4-activities-8-2-1-2-1 0; }
+#L4-activities-8-2-1-2-1 > li::marker { content: ""counter(L4-activities-8-2-1-2-1,upper-alpha)"."; }
+#L4-activities-8-2-1-2-1 > li { counter-increment: L4-activities-8-2-1-2-1; }
+#L4-activities-8-2-1-4-1 { counter-set: L4-activities-8-2-1-4-1 0; }
+#L4-activities-8-2-1-4-1 > li::marker { content: ""counter(L4-activities-8-2-1-4-1,upper-alpha)"."; }
+#L4-activities-8-2-1-4-1 > li { counter-increment: L4-activities-8-2-1-4-1; }
+#L4-activities-8-3-1-2-1 { counter-set: L4-activities-8-3-1-2-1 0; }
+#L4-activities-8-3-1-2-1 > li::marker { content: ""counter(L4-activities-8-3-1-2-1,upper-alpha)"."; }
+#L4-activities-8-3-1-2-1 > li { counter-increment: L4-activities-8-3-1-2-1; }
+#L4-activities-8-3-1-4-1 { counter-set: L4-activities-8-3-1-4-1 0; }
+#L4-activities-8-3-1-4-1 > li::marker { content: ""counter(L4-activities-8-3-1-4-1,upper-alpha)"."; }
+#L4-activities-8-3-1-4-1 > li { counter-increment: L4-activities-8-3-1-4-1; }
+#L4-activities-8-4-1-2-1 { counter-set: L4-activities-8-4-1-2-1 0; }
+#L4-activities-8-4-1-2-1 > li::marker { content: ""counter(L4-activities-8-4-1-2-1,upper-alpha)"."; }
+#L4-activities-8-4-1-2-1 > li { counter-increment: L4-activities-8-4-1-2-1; }
+#L4-activities-8-4-1-4-1 { counter-set: L4-activities-8-4-1-4-1 0; }
+#L4-activities-8-4-1-4-1 > li::marker { content: ""counter(L4-activities-8-4-1-4-1,upper-alpha)"."; }
+#L4-activities-8-4-1-4-1 > li { counter-increment: L4-activities-8-4-1-4-1; }
+#L-continuity-identify-intervals-2-1-2-1 { counter-set: L-continuity-identify-intervals-2-1-2-1 0; }
+#L-continuity-identify-intervals-2-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-2-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-2-1-2-1 > li { counter-increment: L-continuity-identify-intervals-2-1-2-1; }
+#L-continuity-identify-intervals-3-1-2-1 { counter-set: L-continuity-identify-intervals-3-1-2-1 0; }
+#L-continuity-identify-intervals-3-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-3-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-3-1-2-1 > li { counter-increment: L-continuity-identify-intervals-3-1-2-1; }
+#L-continuity-identify-intervals-4-1-2-1 { counter-set: L-continuity-identify-intervals-4-1-2-1 0; }
+#L-continuity-identify-intervals-4-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-4-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-4-1-2-1 > li { counter-increment: L-continuity-identify-intervals-4-1-2-1; }
+#L-continuity-identify-intervals-5-1-2-1 { counter-set: L-continuity-identify-intervals-5-1-2-1 0; }
+#L-continuity-identify-intervals-5-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-5-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-5-1-2-1 > li { counter-increment: L-continuity-identify-intervals-5-1-2-1; }
+#L-continuity-identify-intervals-6-1-2-1 { counter-set: L-continuity-identify-intervals-6-1-2-1 0; }
+#L-continuity-identify-intervals-6-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-6-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-6-1-2-1 > li { counter-increment: L-continuity-identify-intervals-6-1-2-1; }
+#D-readiness-3 { counter-set: D-readiness-3 0; }
+#D-readiness-3 > li::marker { content: ""counter(D-readiness-3,lower-alpha)"."; }
+#D-readiness-3 > li { counter-increment: D-readiness-3; }
+#A-readiness-3 { counter-set: A-readiness-3 0; }
+#A-readiness-3 > li::marker { content: ""counter(A-readiness-3,lower-alpha)""; }
+#A-readiness-3 > li { counter-increment: A-readiness-3; }
+#I-readiness-3 { counter-set: I-readiness-3 0; }
+#I-readiness-3 > li::marker { content: ""counter(I-readiness-3,lower-alpha)""; }
+#I-readiness-3 > li { counter-increment: I-readiness-3; }
+</style>
 </head>
 <body id="TBIL Calculus 1" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -145,7 +369,12 @@ true);
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="review-functions.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Functions</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-1" class="internal"><span class="codenumber">0.1.1</span> <span class="title">First Section</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-1" class="internal"><span class="codenumber">0.1.1</span> <span class="title">Basics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-2" class="internal"><span class="codenumber">0.1.2</span> <span class="title">Using Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-3" class="internal"><span class="codenumber">0.1.3</span> <span class="title">Combining Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-4" class="internal"><span class="codenumber">0.1.4</span> <span class="title">Symmetry</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="review-classes.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Classes of Functions</span></a></div>
@@ -187,10 +416,7 @@ true);
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="D1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">D1: Average/Instantaneous Rate of Change</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D1.html#D1-preclass" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D1.html#D1-activities" class="internal"><span class="codenumber">2.1.2</span> <span class="title">In-Class Activities</span></a></div></li>
-</ul>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D1.html#D1-activities" class="internal"><span class="codenumber">2.1.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="D2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">D2: The Derivative (Definition)</span></a></div>
@@ -246,13 +472,6 @@ true);
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D9.html#D9-preclass" class="internal"><span class="codenumber">2.9.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D9.html#D9-activities" class="internal"><span class="codenumber">2.9.2</span> <span class="title">In-Class Activities</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="D10.html" class="internal"><span class="codenumber">2.10</span> <span class="title">D10: Logarithmic Differentiation</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D10.html#D10-preclass" class="internal"><span class="codenumber">2.10.1</span> <span class="title">Pre-Class Videos</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D10.html#D10-activities" class="internal"><span class="codenumber">2.10.2</span> <span class="title">In-Class Activities</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -353,7 +572,14 @@ true);
 <dl class="description-list">
 <dt id="L2-2-1-1">L2</dt>
 <dd><div class="para" id="L2-2-1-1-2">I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.</div></dd>
-</dl></article><section class="subsection" id="L2-activities"><h3 class="heading hide-type">
+</dl></article><article class="assemblage assemblage-like" id="L2-prep"><h3 class="heading"><span class="title">Pre-Class Preparation.</span></h3>
+<div class="para logical" id="L2-prep-2">
+<div class="para">Read the following sections of the text:</div>
+<ul class="disc" id="L2-prep-2-1"><li id="L2-prep-2-1-1">
+<div class="para" id="L2-prep-2-1-1-1"><a class="external" href="https://openstax.org/books/calculus-volume-1/pages/2-3-the-limit-laws" target="_blank">Section 2.3: The Limit Laws</a></div>
+<div class="para" id="L2-prep-2-1-1-2"><em class="emphasis">Do not read "The Squeeze Theorem"</em></div>
+</li></ul>
+</div></article><section class="subsection" id="L2-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
 </h3>
 <article class="remark remark-like" id="L2-activities-2"><h4 class="heading">
@@ -362,7 +588,7 @@ true);
 <div class="para" id="L2-activities-2-1">Recall that in <a href="L1.html#activity-limits-numerically4" class="xref" data-knowl="./knowl/xref/activity-limits-numerically4.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 1.1.10">Activity 1.1.10</a> we used numerical methods and table of values to find the limit of a relatively simple degree three polynomial at a point. This was inefficient, “there’s gotta be a better way!”</div></article><article class="activity project-like" id="activity-limits-analytically1"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
 </h4>
-<div class="para" id="activity-limits-analytically1-1">Given <span class="process-math">\(f(x)=3x^2-\dfrac{1}{2}x+4\text{,}\)</span> evaluate <span class="process-math">\(f(2)\)</span> and approximate <span class="process-math">\(\ds \lim_{x\to 2}f(x)\)</span> numerically (or graphically). What do you think is more likely?</div> <div class="para logical" id="activity-limits-analytically1-2"><ol class="upper-alpha cols2">
+<div class="para" id="activity-limits-analytically1-1">Given <span class="process-math">\(f(x)=3x^2-\dfrac{1}{2}x+4\text{,}\)</span> evaluate <span class="process-math">\(f(2)\)</span> and approximate <span class="process-math">\(\ds \lim_{x\to 2}f(x)\)</span> numerically (or graphically). What do you think is more likely?</div> <div class="para logical" id="activity-limits-analytically1-2"><ol class="upper-alpha cols2" id="activity-limits-analytically1-2-1">
 <li id="activity-limits-analytically1-2-1-1"><div class="para" id="p-derived-activity-limits-analytically1-2-1-1"><span class="process-math">\(\displaystyle \ds \lim_{x \to 2}f(x)=f(2)\)</span></div></li>
 <li id="activity-limits-analytically1-2-1-2"><div class="para" id="p-derived-activity-limits-analytically1-2-1-2"><span class="process-math">\(\displaystyle \ds \lim_{x \to 2}f(x) \approx f(2)\)</span></div></li>
 <li id="activity-limits-analytically1-2-1-3"><div class="para" id="p-derived-activity-limits-analytically1-2-1-3"><span class="process-math">\(\displaystyle \ds \lim_{x \to 2}f(x) \neq f(2)\)</span></div></li>
@@ -412,7 +638,7 @@ true);
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(322.065\)</span></td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(322.650\)</span></td>
 </tr>
-</table></div></figure> <div class="para" id="activity-limits-analytically2-3">Using the table above, which of the following is <em class="emphasis">least</em> likely to be true?</div> <div class="para logical" id="activity-limits-analytically2-4"><ol class="upper-alpha">
+</table></div></figure> <div class="para" id="activity-limits-analytically2-3">Using the table above, which of the following is <em class="emphasis">least</em> likely to be true?</div> <div class="para logical" id="activity-limits-analytically2-4"><ol class="upper-alpha" id="activity-limits-analytically2-4-1">
 <li id="activity-limits-analytically2-4-1-1"><div class="para" id="p-derived-activity-limits-analytically2-4-1-1">
 <span class="process-math">\(\ds \lim_{x\to 7}f(x)= 14\)</span> and <span class="process-math">\(\ds \lim_{x\to 7}g(x)= 23\)</span>
 </div></li>
@@ -430,7 +656,7 @@ true);
 \end{equation*}
 </div>
 <div class="para">for  <span class="process-math">\(L\)</span> and <span class="process-math">\(K\)</span> some real numbers. Then we have the following limits.</div>
-<ol class="decimal">
+<ol class="decimal" id="theorem-limit-laws-1-2-1-8">
 <li id="theorem-limit-laws-1-2-1-8-1"><div class="para" id="p-derived-theorem-limit-laws-1-2-1-8-1">Constant Law: <span class="process-math">\(\ds \lim_{x \to c} b = b\text{,}\)</span> for <span class="process-math">\(b\)</span> any constant real number</div></li>
 <li id="theorem-limit-laws-1-2-1-8-2"><div class="para" id="p-derived-theorem-limit-laws-1-2-1-8-2">Identity Law: <span class="process-math">\(\ds \lim_{x \to c} x = c\)</span>
 </div></li>
@@ -445,7 +671,7 @@ true);
 </div></article><article class="activity project-like" id="activity-limits-analytically3"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="activity-limits-analytically3-1">If <span class="process-math">\(\ds \lim_{x\to 2} f(x) = 2\)</span> and <span class="process-math">\(\ds \lim_{x\to 2} g(x) = -3\text{,}\)</span> which of the following statements are true? Select all that apply!</div> <div class="para logical" id="activity-limits-analytically3-2"><ol class="upper-alpha cols2">
+<div class="para" id="activity-limits-analytically3-1">If <span class="process-math">\(\ds \lim_{x\to 2} f(x) = 2\)</span> and <span class="process-math">\(\ds \lim_{x\to 2} g(x) = -3\text{,}\)</span> which of the following statements are true? Select all that apply!</div> <div class="para logical" id="activity-limits-analytically3-2"><ol class="upper-alpha cols2" id="activity-limits-analytically3-2-1">
 <li id="activity-limits-analytically3-2-1-1"><div class="para" id="p-derived-activity-limits-analytically3-2-1-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to 2} (f(x) \cdot g(x)) = -6\)</span></div></li>
 <li id="activity-limits-analytically3-2-1-2"><div class="para" id="p-derived-activity-limits-analytically3-2-1-2"><span class="process-math">\(\displaystyle \ds \lim_{x\to 2} (f(x) + g(x)) = -1\)</span></div></li>
 <li id="activity-limits-analytically3-2-1-3"><div class="para" id="p-derived-activity-limits-analytically3-2-1-3"><span class="process-math">\(\displaystyle \ds \lim_{x\to 2} (f(x) - g(x)) = -2\)</span></div></li>
@@ -461,7 +687,7 @@ true);
 \end{equation*}
 </div>
 <div class="para">Then we have the following limits as well.</div>
-<ol class="decimal">
+<ol class="decimal" id="theorem-limit-laws-2-2-1-6">
 <li id="theorem-limit-laws-2-2-1-6-1"><div class="para" id="p-derived-theorem-limit-laws-2-2-1-6-1">Power Law: <span class="process-math">\(\ds \lim_{x \to c} [f(x)]^n = L^n\text{,}\)</span> for  <span class="process-math">\(n\)</span> a positive integer</div></li>
 <li id="theorem-limit-laws-2-2-1-6-2"><div class="para" id="p-derived-theorem-limit-laws-2-2-1-6-2">Root Law: <span class="process-math">\(\ds \lim_{x \to c} \sqrt[n]{f(x)} = \sqrt[n]{L}\text{,}\)</span> for  <span class="process-math">\(n\)</span> a positive integer</div></li>
 <li id="theorem-limit-laws-2-2-1-6-3"><div class="para" id="p-derived-theorem-limit-laws-2-2-1-6-3">Composition Law: <span class="process-math">\(\ds \lim_{x \to c} g(f(x)) = K\)</span>
@@ -483,7 +709,7 @@ true);
 <div class="para" id="limit-laws-graphically-7-1-1">(Challenge) <span class="process-math">\(\ds \lim_{x \to -1^-} f(g(x))\text{.}\)</span> Take a careful look at <a href="L2.html#theorem-limit-laws-2" class="xref" data-knowl="./knowl/xref/theorem-limit-laws-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 1.2.4: Limit Laws, II">Theorem 1.2.4</a>!</div></article></article><article class="activity project-like" id="activity-limits-analytically4"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="activity-limits-analytically4-1-1">Given <span class="process-math">\(p(x) = -3x^2 - 5x+7\text{,}\)</span> which of the following limit laws would use to determine <span class="process-math">\(\ds \lim_{x\to 2} p(x)\text{?}\)</span> Choose all that apply.</div> <div class="para logical" id="activity-limits-analytically4-1-2"><ol class="upper-alpha cols2">
+<div class="para" id="activity-limits-analytically4-1-1">Given <span class="process-math">\(p(x) = -3x^2 - 5x+7\text{,}\)</span> which of the following limit laws would use to determine <span class="process-math">\(\ds \lim_{x\to 2} p(x)\text{?}\)</span> Choose all that apply.</div> <div class="para logical" id="activity-limits-analytically4-1-2"><ol class="upper-alpha cols2" id="activity-limits-analytically4-1-2-1">
 <li id="activity-limits-analytically4-1-2-1-1"><div class="para" id="activity-limits-analytically4-1-2-1-1-1">Sum/Difference Rule</div></li>
 <li id="activity-limits-analytically4-1-2-1-2"><div class="para" id="activity-limits-analytically4-1-2-1-2-1">Constant Multiple Law</div></li>
 <li id="activity-limits-analytically4-1-2-1-3"><div class="para" id="activity-limits-analytically4-1-2-1-3-1">Multiplication Law</div></li>
@@ -506,7 +732,7 @@ true);
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span>
 </h4>
 <div class="para" id="activity-limits-rationals1-1">Given <span class="process-math">\(p(x)=-3x^2-5x+7\)</span> and <span class="process-math">\(q(x)=x^4-x^2+3\text{,}\)</span> which of the following describes the most efficient way to determine <span class="process-math">\(\ds \lim_{x \to -1} \dfrac{p(x)}{q(x)}\text{?}\)</span>
-</div> <div class="para logical" id="activity-limits-rationals1-2"><ol class="upper-alpha">
+</div> <div class="para logical" id="activity-limits-rationals1-2"><ol class="upper-alpha" id="activity-limits-rationals1-2-1">
 <li id="activity-limits-rationals1-2-1-1"><div class="para" id="p-derived-activity-limits-rationals1-2-1-1">Sum/difference, Constant Multiple, and Multiplication Laws</div></li>
 <li id="activity-limits-rationals1-2-1-2"><div class="para" id="p-derived-activity-limits-rationals1-2-1-2">
 <a href="L2.html#direct-substitution" class="xref" data-knowl="./knowl/xref/direct-substitution.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 1.2.6: Direct Substitution Property">Theorem 1.2.6</a> and the Division Law</div></li>
@@ -515,7 +741,7 @@ true);
 </ol></div></article><article class="activity project-like" id="activity-limits-rationals2"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="activity-limits-rationals2-1">Consider taking the limit of a rational function <span class="process-math">\(\dfrac{p(x)}{q(x)}\)</span> as <span class="process-math">\(x \to c\text{.}\)</span> If <span class="process-math">\(q(c)=0\text{,}\)</span> is it possible for <span class="process-math">\(\ds\lim_{x \to c}\dfrac{p(x)}{q(x)} \)</span> to equal a number?</div> <div class="para logical" id="activity-limits-rationals2-2"><ol class="upper-alpha">
+<div class="para" id="activity-limits-rationals2-1">Consider taking the limit of a rational function <span class="process-math">\(\dfrac{p(x)}{q(x)}\)</span> as <span class="process-math">\(x \to c\text{.}\)</span> If <span class="process-math">\(q(c)=0\text{,}\)</span> is it possible for <span class="process-math">\(\ds\lim_{x \to c}\dfrac{p(x)}{q(x)} \)</span> to equal a number?</div> <div class="para logical" id="activity-limits-rationals2-2"><ol class="upper-alpha" id="activity-limits-rationals2-2-1">
 <li id="activity-limits-rationals2-2-1-1"><div class="para" id="p-derived-activity-limits-rationals2-2-1-1">No, because <span class="process-math">\(\dfrac{p(x)}{q(x)}\)</span> is not defined at <span class="process-math">\(x=c\)</span> since <span class="process-math">\(q(c)=0\)</span>
 </div></li>
 <li id="activity-limits-rationals2-2-1-2"><div class="para" id="p-derived-activity-limits-rationals2-2-1-2">Yes, because if you graph <span class="process-math">\(f(x)=\dfrac{x^2-1}{x-1}\text{,}\)</span> the value <span class="process-math">\(f(1)\)</span> is not defined, but the graph shows that the limit of <span class="process-math">\(f(x)\)</span> does exist as <span class="process-math">\(x \to 1\)</span>
@@ -526,7 +752,7 @@ true);
 </ol></div></article><article class="activity project-like" id="activity-limits-zero"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="activity-limits-zero-1">Let <span class="process-math">\(f(x) = 2x\)</span> and <span class="process-math">\(g(x) = x\text{,}\)</span> which of the following statements is true?</div> <div class="para logical" id="activity-limits-zero-2"><ol class="upper-alpha cols2">
+<div class="para" id="activity-limits-zero-1">Let <span class="process-math">\(f(x) = 2x\)</span> and <span class="process-math">\(g(x) = x\text{,}\)</span> which of the following statements is true?</div> <div class="para logical" id="activity-limits-zero-2"><ol class="upper-alpha cols2" id="activity-limits-zero-2-1">
 <li id="activity-limits-zero-2-1-1"><div class="para" id="p-derived-activity-limits-zero-2-1-1"><span class="process-math">\(\displaystyle \ds \lim_{x\to 0} (f(x)/g(x)) = 0\)</span></div></li>
 <li id="activity-limits-zero-2-1-2"><div class="para" id="p-derived-activity-limits-zero-2-1-2"><span class="process-math">\(\displaystyle \ds \lim_{x\to 0} (f(x)/g(x)) = 2\)</span></div></li>
 <li id="activity-limits-zero-2-1-3"><div class="para" id="p-derived-activity-limits-zero-2-1-3">
@@ -545,7 +771,7 @@ true);
 <div class="introduction" id="activity-hole-limits-1"><div class="para" id="activity-hole-limits-1-1">Consider the function <span class="process-math">\(f(x) = \dfrac{(x-1)(x^2-4)}{(x+1)(x-2)\sin (x)}\)</span>
 </div></div>
 <article class="task exercise-like" id="activity-hole-limits-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="activity-hole-limits-2-1-1">Which of the following are locations of holes for <span class="process-math">\(f(x)\text{?}\)</span> Select all that apply</div> <div class="para logical" id="activity-hole-limits-2-1-2"><ol class="upper-alpha cols2">
+<div class="para" id="activity-hole-limits-2-1-1">Which of the following are locations of holes for <span class="process-math">\(f(x)\text{?}\)</span> Select all that apply</div> <div class="para logical" id="activity-hole-limits-2-1-2"><ol class="upper-alpha cols2" id="activity-hole-limits-2-1-2-1">
 <li id="activity-hole-limits-2-1-2-1-1"><div class="para" id="activity-hole-limits-2-1-2-1-1-1"><span class="process-math">\(\displaystyle x=1\)</span></div></li>
 <li id="activity-hole-limits-2-1-2-1-2"><div class="para" id="activity-hole-limits-2-1-2-1-2-1"><span class="process-math">\(\displaystyle x=-1\)</span></div></li>
 <li id="activity-hole-limits-2-1-2-1-3"><div class="para" id="activity-hole-limits-2-1-2-1-3-1"><span class="process-math">\(\displaystyle x=2\)</span></div></li>

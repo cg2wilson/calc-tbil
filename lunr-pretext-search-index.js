@@ -16,7 +16,205 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "0.1",
   "title": "Functions",
-  "body": " Functions   First Section  stuff here   "
+  "body": " Functions   Basics   Relation\/Domain\/Range   A relation relation is a collection of ordered pairs of the form . The collection of first components in a relation is called the domain domain of the relation. The collection of second components in a relation is called the range range of the relation.     Input\/Output   In an ordered pair , the element is called an input input and the element is called an output output .     Function   A function function  is a rule which assigns to each input in the domain a single output in the range.      The relation is copied below. Is a function? Why or why not?     No, because the input is assigned two outputs: and .     Graph   The graph graph of a function is the collection of all coordinate pairs , plotted on a coordinate system.     Vertical Line Test   A relation is a function if and only if any vertical intersects the graph of the relation in at most one point.      Are both of these graphs functions? Why or why not?    Candidate function graph 1       Candidate function graph 2         The graph in is a function, because every input has only one output; however, the graph in is not a function because all inputs in       Below are numerical expressions for and . Is a function? What about ?                                                                                                     is not a function because the input has two outputs: and . However, is a function because every input has only one output.  Even though the input appears twice, it has the same output. So in a sense, we can consider this a duplicate entry.      Using Functions   Function Notation: Functions of a Single Variable  The notation has two pieces: an input and a rule. We are applying the rule  to the input  . The result is an output, usually denoted . So we can write as a way to say the output is the result of applying the rule to the input . This should be read as equals of     Evaluating Functions  To evaluate a function , replace all instances of the variable with the input shown.     Let . Evaluate the following:                                                                Consider the following function rules: . Write the function notation for the descriptions given, then compute.    applied to the input 5     applied to the input      applied to the input                               Combining Functions   Function Combinations    Name  Notation  Translation  Note    Sum            Difference            Product         can be written as as well    Quotient         cannot be zero       Let and . Write and simplify the following.                                                     Functions can also be combined using composition : using one function as an input to another. The notation is given by      Let and . Write and simplify the following.                                                     Given two functions and , the composition has the domain and the range      Consider the functions and given below.                                                                                                        Find the following.        The domain and range of     The domain and range of                 and      and          For each function below, completely decompose the function into smaller ones and find the domain of the composite.                          Decompositions can vary; the answers shown here are suggested.    where and      where and      where and      where and          Let . Find such that      and       Let . Find functions such that      , ,       Symmetry    A function is said to be even even function if it has the property that for all in its domain.  A function is said to be odd odd function if it has the property that for all in its domain.      Determine if the following functions are even, odd, or neither.                        Odd    Even    Neither        "
+},
+{
+  "id": "def-relation-domain-range",
+  "level": "2",
+  "url": "review-functions.html#def-relation-domain-range",
+  "type": "Definition",
+  "number": "0.1.1",
+  "title": "Relation\/Domain\/Range.",
+  "body": " Relation\/Domain\/Range   A relation relation is a collection of ordered pairs of the form . The collection of first components in a relation is called the domain domain of the relation. The collection of second components in a relation is called the range range of the relation.   "
+},
+{
+  "id": "def-input-output",
+  "level": "2",
+  "url": "review-functions.html#def-input-output",
+  "type": "Definition",
+  "number": "0.1.2",
+  "title": "Input\/Output.",
+  "body": " Input\/Output   In an ordered pair , the element is called an input input and the element is called an output output .   "
+},
+{
+  "id": "def-function",
+  "level": "2",
+  "url": "review-functions.html#def-function",
+  "type": "Definition",
+  "number": "0.1.3",
+  "title": "Function.",
+  "body": " Function   A function function  is a rule which assigns to each input in the domain a single output in the range.   "
+},
+{
+  "id": "review-functions-1-5",
+  "level": "2",
+  "url": "review-functions.html#review-functions-1-5",
+  "type": "Example",
+  "number": "0.1.4",
+  "title": "",
+  "body": "  The relation is copied below. Is a function? Why or why not?     No, because the input is assigned two outputs: and .   "
+},
+{
+  "id": "def-graph",
+  "level": "2",
+  "url": "review-functions.html#def-graph",
+  "type": "Definition",
+  "number": "0.1.5",
+  "title": "Graph.",
+  "body": " Graph   The graph graph of a function is the collection of all coordinate pairs , plotted on a coordinate system.   "
+},
+{
+  "id": "thm-vertical-line-test",
+  "level": "2",
+  "url": "review-functions.html#thm-vertical-line-test",
+  "type": "Theorem",
+  "number": "0.1.6",
+  "title": "Vertical Line Test.",
+  "body": " Vertical Line Test   A relation is a function if and only if any vertical intersects the graph of the relation in at most one point.   "
+},
+{
+  "id": "review-functions-1-8",
+  "level": "2",
+  "url": "review-functions.html#review-functions-1-8",
+  "type": "Example",
+  "number": "0.1.7",
+  "title": "",
+  "body": "  Are both of these graphs functions? Why or why not?    Candidate function graph 1       Candidate function graph 2         The graph in is a function, because every input has only one output; however, the graph in is not a function because all inputs in    "
+},
+{
+  "id": "review-functions-1-9",
+  "level": "2",
+  "url": "review-functions.html#review-functions-1-9",
+  "type": "Example",
+  "number": "0.1.10",
+  "title": "",
+  "body": "  Below are numerical expressions for and . Is a function? What about ?                                                                                                     is not a function because the input has two outputs: and . However, is a function because every input has only one output.  Even though the input appears twice, it has the same output. So in a sense, we can consider this a duplicate entry.   "
+},
+{
+  "id": "review-functions-2-2",
+  "level": "2",
+  "url": "review-functions.html#review-functions-2-2",
+  "type": "Remark",
+  "number": "0.1.11",
+  "title": "Function Notation: Functions of a Single Variable.",
+  "body": " Function Notation: Functions of a Single Variable  The notation has two pieces: an input and a rule. We are applying the rule  to the input  . The result is an output, usually denoted . So we can write as a way to say the output is the result of applying the rule to the input . This should be read as equals of   "
+},
+{
+  "id": "review-functions-2-3",
+  "level": "2",
+  "url": "review-functions.html#review-functions-2-3",
+  "type": "Remark",
+  "number": "0.1.12",
+  "title": "Evaluating Functions.",
+  "body": " Evaluating Functions  To evaluate a function , replace all instances of the variable with the input shown.  "
+},
+{
+  "id": "review-functions-2-4",
+  "level": "2",
+  "url": "review-functions.html#review-functions-2-4",
+  "type": "Example",
+  "number": "0.1.13",
+  "title": "",
+  "body": "  Let . Evaluate the following:                                                             "
+},
+{
+  "id": "review-functions-2-5",
+  "level": "2",
+  "url": "review-functions.html#review-functions-2-5",
+  "type": "Example",
+  "number": "0.1.14",
+  "title": "",
+  "body": "  Consider the following function rules: . Write the function notation for the descriptions given, then compute.    applied to the input 5     applied to the input      applied to the input                            "
+},
+{
+  "id": "review-functions-3-3",
+  "level": "2",
+  "url": "review-functions.html#review-functions-3-3",
+  "type": "Example",
+  "number": "0.1.15",
+  "title": "",
+  "body": "  Let and . Write and simplify the following.                                                   "
+},
+{
+  "id": "review-functions-3-4",
+  "level": "2",
+  "url": "review-functions.html#review-functions-3-4",
+  "type": "Remark",
+  "number": "0.1.16",
+  "title": "",
+  "body": " Functions can also be combined using composition : using one function as an input to another. The notation is given by   "
+},
+{
+  "id": "review-functions-3-5",
+  "level": "2",
+  "url": "review-functions.html#review-functions-3-5",
+  "type": "Example",
+  "number": "0.1.17",
+  "title": "",
+  "body": "  Let and . Write and simplify the following.                                                   "
+},
+{
+  "id": "review-functions-3-6",
+  "level": "2",
+  "url": "review-functions.html#review-functions-3-6",
+  "type": "Remark",
+  "number": "0.1.18",
+  "title": "",
+  "body": " Given two functions and , the composition has the domain and the range   "
+},
+{
+  "id": "review-functions-3-7",
+  "level": "2",
+  "url": "review-functions.html#review-functions-3-7",
+  "type": "Example",
+  "number": "0.1.19",
+  "title": "",
+  "body": "  Consider the functions and given below.                                                                                                        Find the following.        The domain and range of     The domain and range of                 and      and       "
+},
+{
+  "id": "review-functions-3-8",
+  "level": "2",
+  "url": "review-functions.html#review-functions-3-8",
+  "type": "Example",
+  "number": "0.1.20",
+  "title": "",
+  "body": "  For each function below, completely decompose the function into smaller ones and find the domain of the composite.                          Decompositions can vary; the answers shown here are suggested.    where and      where and      where and      where and       "
+},
+{
+  "id": "review-functions-3-9",
+  "level": "2",
+  "url": "review-functions.html#review-functions-3-9",
+  "type": "Example",
+  "number": "0.1.21",
+  "title": "",
+  "body": "  Let . Find such that      and    "
+},
+{
+  "id": "review-functions-3-10",
+  "level": "2",
+  "url": "review-functions.html#review-functions-3-10",
+  "type": "Example",
+  "number": "0.1.22",
+  "title": "",
+  "body": "  Let . Find functions such that      , ,    "
+},
+{
+  "id": "def-even-odd",
+  "level": "2",
+  "url": "review-functions.html#def-even-odd",
+  "type": "Definition",
+  "number": "0.1.23",
+  "title": "",
+  "body": "  A function is said to be even even function if it has the property that for all in its domain.  A function is said to be odd odd function if it has the property that for all in its domain.   "
+},
+{
+  "id": "review-functions-4-3",
+  "level": "2",
+  "url": "review-functions.html#review-functions-4-3",
+  "type": "Example",
+  "number": "0.1.24",
+  "title": "",
+  "body": "  Determine if the following functions are even, odd, or neither.                        Odd    Even    Neither      "
 },
 {
   "id": "review-classes",
@@ -52,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "L1: Limits Graphically\/Numerically",
-  "body": " L1: Limits Graphically\/Numerically     L1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.      In-Class Activities    In the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of .    A graph of a function that has not been rendered properly.    Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What -value are you approaching?    0.5    1    1.5    2    2.5     Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What -value are you approaching?    0.5    1    1.5    2    2.5        In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?    0.5    1    1.5    2    2.5     What is the -value that is approached as we move toward from the right?    0.5    1    1.5    2    2.5       When studying functions in algebra, we often focused on the value of a function given a specific -value. For instance, finding for some function . In and , we have instead been exploring what is happening as we approach a certain value on a graph. This concept in mathematics (especially important in calculus) is known as finding a limit .    Refer back to and . Write your first draft of the definition of a limit. What is important to include? (You can use concepts of limits from your daily life to motivate or define what a limit is.)    Limit   Given a function , a fixed input , and a real number , we say that has limit as approaches , limit definition and write provided that we can make as close to as we like by taking sufficiently close (but not equal) to .  If we cannot make as close to a single value as we would like as approaches , then we say that does not have a limit as approaches .      Conjecture why and illustrate the need for \"approaching\" an input value, and connect this to          A piecewise-defined function    What is the limit as approaches in ?    The limit is 1    The limit is -1    The limit is 0    The limit is not defined       Left- and Right-Hand Limits   We say that has limit as approaches from the left and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having . We call the left-hand limit of as approaches .  Similarly, we say is the right-hand limit of as approaches and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having .     Facts About Limits      A function has a limit at if and only if     For a function , it may have a limit at , even if does not exist.         Refer again to from .   Which of the following best matches the definition of right and left limits? (Note that DNE is short for \"does not exist.\")   The left limit is -1. The right limit is 1.  The left limit is 1. The right limit is -1.  The left limit DNE. The right limit is 1.  The left limit is -1. The right limit DNE.  The left limit DNE. The right limit DNE.    What do you think the overall limit equals?   The limit is 1  The limit is -1  The limit is 0  The limit is not defined       Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.          Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.      is finite, but is infinite.     , but .     but .                                                                Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999      Notice that the value we obtained in is only an approximation, based on the trends that we have seen within the table.                                                               In 's we found an approximation to the limit of the function as tends to 2.  Now let us say you are also given a table of numerical values ( ) for the function. Given this new information which of the choices below best describes the limit of the function as tends to 2?     There is not enough information because we do not know the value of the function at .    The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as goes to 2.    The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.    The limit cannot be approximated because the function might not exist at .                                        Based on , what information can be inferred about , , and ?      , and      , and does not exist.     , and does not exist.     , and         Consider the following function    Of the following options, at which values given would you evaluate to best determine numerically?   1.9, 1.99, 2.0, 2.01, 2.1  1.98, 1.99, 2.0, 2.01, 2.02  1.8, 1.9, 2.0, 2.1, 2.2  1.0, 1.5, 2.0, 2.5, 3.0    Use the values that you chose in part (a) to calculate an approximation for .  Which value best describes the limit that you obtained in part (b)?   The approximate value is 41.25  The approximate value is 41.5  The approximate value is 41.75  The approximate value is 42       In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                                              Based on the graph and table what is the best explanation for the limit as tends to zero?    The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for      Would your conclusion that resulted from change if the function was or ? Explain why or why not.      Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit      "
+  "body": " L1: Limits Graphically\/Numerically     L1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: The Limit of a Function        In-Class Activities    In the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of .    A graph of a function that has not been rendered properly.    Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What -value are you approaching?    0.5    1    1.5    2    2.5     Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What -value are you approaching?    0.5    1    1.5    2    2.5        In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?    0.5    1    1.5    2    2.5     What is the -value that is approached as we move toward from the right?    0.5    1    1.5    2    2.5       When studying functions in algebra, we often focused on the value of a function given a specific -value. For instance, finding for some function . In and , we have instead been exploring what is happening as we approach a certain value on a graph. This concept in mathematics (especially important in calculus) is known as finding a limit .    Refer back to and . Write your first draft of the definition of a limit. What is important to include? (You can use concepts of limits from your daily life to motivate or define what a limit is.)    Limit   Given a function , a fixed input , and a real number , we say that has limit as approaches , limit definition and write provided that we can make as close to as we like by taking sufficiently close (but not equal) to .  If we cannot make as close to a single value as we would like as approaches , then we say that does not have a limit as approaches .      Conjecture why and illustrate the need for \"approaching\" an input value, and connect this to          A piecewise-defined function    What is the limit as approaches in ?    The limit is 1    The limit is -1    The limit is 0    The limit is not defined       Left- and Right-Hand Limits   We say that has limit as approaches from the left and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having . We call the left-hand limit of as approaches .  Similarly, we say is the right-hand limit of as approaches and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having .     Facts About Limits      A function has a limit at if and only if     For a function , it may have a limit at , even if does not exist.         Refer again to from .   Which of the following best matches the definition of right and left limits? (Note that DNE is short for \"does not exist.\")   The left limit is -1. The right limit is 1.  The left limit is 1. The right limit is -1.  The left limit DNE. The right limit is 1.  The left limit is -1. The right limit DNE.  The left limit DNE. The right limit DNE.    What do you think the overall limit equals?   The limit is 1  The limit is -1  The limit is 0  The limit is not defined       Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.          Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.      is finite, but is infinite.     , but .     but .                                                                Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999      Notice that the value we obtained in is only an approximation, based on the trends that we have seen within the table.                                                               In 's we found an approximation to the limit of the function as tends to 2.  Now let us say you are also given a table of numerical values ( ) for the function. Given this new information which of the choices below best describes the limit of the function as tends to 2?     There is not enough information because we do not know the value of the function at .    The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as goes to 2.    The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.    The limit cannot be approximated because the function might not exist at .                                        Based on , what information can be inferred about , , and ?      , and      , and does not exist.     , and does not exist.     , and         Consider the following function    Of the following options, at which values given would you evaluate to best determine numerically?   1.9, 1.99, 2.0, 2.01, 2.1  1.98, 1.99, 2.0, 2.01, 2.02  1.8, 1.9, 2.0, 2.1, 2.2  1.0, 1.5, 2.0, 2.5, 3.0    Use the values that you chose in part (a) to calculate an approximation for .  Which value best describes the limit that you obtained in part (b)?   The approximate value is 41.25  The approximate value is 41.5  The approximate value is 41.75  The approximate value is 42       In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                                              Based on the graph and table what is the best explanation for the limit as tends to zero?    The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for      Would your conclusion that resulted from change if the function was or ? Explain why or why not.      Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit      "
 },
 {
   "id": "L1-2",
@@ -241,7 +439,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "L2: Limits Analytically",
-  "body": " L2: Limits Analytically     L2  I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.      In-Class Activities   Recall that in we used numerical methods and table of values to find the limit of a relatively simple degree three polynomial at a point. This was inefficient, “there’s gotta be a better way!”    Given , evaluate and approximate numerically (or graphically). What do you think is more likely?           The table below gives values of a few different functions.                                                                                                             Using the table above, which of the following is least likely to be true?     and                Limit Laws, I   Let and be functions defined on an open interval containing the real number satisfying for and some real numbers. Then we have the following limits.  Constant Law: , for any constant real number  Identity Law:   Sum\/Difference Law:   Scalar Multiple Law: , for any constant real number  Product Law:   Quotient Law: if , then .       If and , which of the following statements are true? Select all that apply!                    Limit Laws, II   Let and be functions defined on an open interval containing satisfying Then we have the following limits as well.  Power Law: , for a positive integer  Root Law: , for a positive integer  Composition Law:         Use the limit laws to determine the following limits, if they exist. The function is graphed as the solid line, and is graphed as the dashed line.   The function is graphed as the solid line, and is graphed as the dashed line.                                 (Challenge) . Take a careful look at !      Given , which of the following limit laws would use to determine ? Choose all that apply.    Sum\/Difference Rule  Constant Multiple Law  Multiplication Law  Constant Law  Exponent Law  Constant Law   Division Law        Direct Substitution Property   If is a function with in the domain of , then provided that is not a piecewise function .     Given and , which of the following describes the most efficient way to determine ?    Sum\/difference, Constant Multiple, and Multiplication Laws   and the Division Law  Exponent, Sum\/difference, Constant Multiple, and Constant Laws  Division and Root Laws      Consider taking the limit of a rational function as . If , is it possible for to equal a number?    No, because is not defined at since   Yes, because if you graph , the value is not defined, but the graph shows that the limit of does exist as   No, because if you graph , the value is not defined and the graph shows that the limit of does not exist  Yes, because we can use       Let and , which of the following statements is true?           cannot be determined   does not exist      When we compute the limit of a ratio where both the numerator and denominator have limit equal to zero, we have to compute the value of a  indeterminate form . The value of an indeteminate form can be any real number or even infinity or not existent, we just do not know yet! We can usually determine the value of an indeterminate form using some algebraic manipulations of the expression given.     A function has a hole hole at if does not exist but does exist and is equal to a real number.      Consider the function     Which of the following are locations of holes for ? Select all that apply                              There are no holes       Are there any holes that you didn't find in part (a)? What are they?     says that we should be able to find the limit of a function at a hole, but that the function is not defined at that input. For each hole you identified in part (a), determine the limit of as approaches the hole.      Determine the following limits and explain your reasoning. Use to determine if (and where) the function has a hole.                    "
+  "body": " L2: Limits Analytically     L2  I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.      Pre-Class Preparation  Read the following sections of the text:    Section 2.3: The Limit Laws    Do not read \"The Squeeze Theorem\"        In-Class Activities   Recall that in we used numerical methods and table of values to find the limit of a relatively simple degree three polynomial at a point. This was inefficient, “there’s gotta be a better way!”    Given , evaluate and approximate numerically (or graphically). What do you think is more likely?           The table below gives values of a few different functions.                                                                                                             Using the table above, which of the following is least likely to be true?     and                Limit Laws, I   Let and be functions defined on an open interval containing the real number satisfying for and some real numbers. Then we have the following limits.  Constant Law: , for any constant real number  Identity Law:   Sum\/Difference Law:   Scalar Multiple Law: , for any constant real number  Product Law:   Quotient Law: if , then .       If and , which of the following statements are true? Select all that apply!                    Limit Laws, II   Let and be functions defined on an open interval containing satisfying Then we have the following limits as well.  Power Law: , for a positive integer  Root Law: , for a positive integer  Composition Law:         Use the limit laws to determine the following limits, if they exist. The function is graphed as the solid line, and is graphed as the dashed line.   The function is graphed as the solid line, and is graphed as the dashed line.                                 (Challenge) . Take a careful look at !      Given , which of the following limit laws would use to determine ? Choose all that apply.    Sum\/Difference Rule  Constant Multiple Law  Multiplication Law  Constant Law  Exponent Law  Constant Law   Division Law        Direct Substitution Property   If is a function with in the domain of , then provided that is not a piecewise function .     Given and , which of the following describes the most efficient way to determine ?    Sum\/difference, Constant Multiple, and Multiplication Laws   and the Division Law  Exponent, Sum\/difference, Constant Multiple, and Constant Laws  Division and Root Laws      Consider taking the limit of a rational function as . If , is it possible for to equal a number?    No, because is not defined at since   Yes, because if you graph , the value is not defined, but the graph shows that the limit of does exist as   No, because if you graph , the value is not defined and the graph shows that the limit of does not exist  Yes, because we can use       Let and , which of the following statements is true?           cannot be determined   does not exist      When we compute the limit of a ratio where both the numerator and denominator have limit equal to zero, we have to compute the value of a  indeterminate form . The value of an indeteminate form can be any real number or even infinity or not existent, we just do not know yet! We can usually determine the value of an indeterminate form using some algebraic manipulations of the expression given.     A function has a hole hole at if does not exist but does exist and is equal to a real number.      Consider the function     Which of the following are locations of holes for ? Select all that apply                              There are no holes       Are there any holes that you didn't find in part (a)? What are they?     says that we should be able to find the limit of a function at a hole, but that the function is not defined at that input. For each hole you identified in part (a), determine the limit of as approaches the hole.      Determine the following limits and explain your reasoning. Use to determine if (and where) the function has a hole.                    "
 },
 {
   "id": "L2-2",
@@ -403,7 +601,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "L3: Asymptotes",
-  "body": " L3: Asymptotes     L3  I can determine when and if a function will have a vertical or horizontal asymptote.      In-Class Activities   Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.      We say that the limit as tends to negative infinity of is negative infinity and that the limit as tends to positive infinity of is positive infinity. In symbols, we write     Consider the graph of the rational function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of .         As tends to positive infinity, the function tends to positive infinity    As tends to negative infinity, the function tends to 0    As tends to positive infinity, the function tends to negative infinity    As tends to 0, the function tends to 0        A function has a horizontal asymptote horizontal asymptote at when or   This means that we can make the output of as close as we want to , as long as we take to be a large enough positive number ( ) or a large enough negative number ( ).      Think again about the graph of , given in .    Which of the following statements accurately describes the graph of ?     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at        Select all of the mathematical statements that agree with your answer from part (a)                                       Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as or ?     The only possible limit is     The only possible limits are or     The only possible limits are , or     The only possible limits are any constant number (including 0 and 1) or         In this activity we will examine functions whose limit as approaches positive and negative infinity is a nonzero constant.   Graph the following functions and consider their limits as approaches positive and negative infinity. Use the graph to determine the limits and equations of horizontal asymptotes (if any)                                        Take another look at part (a); what relationship do you see between the degree of the numerator and degree of the denominator? Use your answers to complete the rules for horizontal asymptotes below in      Let be a rational function. Assume that has degree and leading coefficient ; assume also that has degree and leading coefficient . Then,   If , then has horizontal asymptote(s).    If , then has horizontal asymptote(s). The equation(s) is\/are .    If , then has horizontal asymptote(s). The equation(s) is\/are .        What is your best guess for the limit as goes to of the function graphed below?   A mysterious periodic function.         The limit is     The limit is     The limit is     The limit is     The limit DNE        Again, think about the graph of in     Which of the following best describes the limit as approaches zero (from the left) in the graph?     The limit is 0    The limit is positive infinity    The limit does not exist    This limit is negative infinity       Will your answer change or stay the same if we approached zero from the right instead of the left? If it does, indicate your answer.    Which of the following best describes the relationship between the line and the graph of the function?     The line is a horizontal asymptote for the function    The function is not continuous at the point     The function is moving away from the line     The function is getting closer and closer to the line     The function has a jump in outputs around          A function has a vertical asymptote vertical asymptote at when or   The statement means that we can make the output of as large a positive number as we want as long as we are sufficiently close to .  Similarly, the statement means that we can make the output of as large a negative number as we want as long as we are sufficiently close to .     Compare the definition of a hole of a function ( ) and the definition a vertical asymptote of a function ( ). Is it possible for a function to have both? If it is, give an example; if not, explain why.    Notice that as goes to 0, the value of goes to 0 but the value of goes to infinity. What is the best explanation for this behavior?     When dividing by an increasingly small number we get an increasing big number    When dividing by an increasingly large number we get an increasing small number    A rational function always has a vertical asymptote    A rational function always has a horizontal asymptote       Informally, we say that the limit of \" \" is infinite. Notice that this could be either positive or negative infinity, depending on how whether the outputs are becoming more and more positive or more and more negative as we approach zero.    Consider the rational function . Which of the following options best describes the limits as x approaches from the right and from the left?     As , the limit DNE, but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit DNE and as the limit DNE.       When considering a ratio of functions , the inputs where are not in the domain of the ratio. If but is not equal to 0, then is a vertical asymptote.    Consider the function . The line is NOT a vertical asymptote for . Why?     When is not equal to , we can simplify the fraction to , so the limit is .    When is not equal to , we can simplify the fraction to , so the limit is .    The function is always equal to .    The function is always equal to .       For each of the following functions, identify the equations of any asymptotes and the location of any holes.                         Challenge! For this problem, remember two things: and .          "
+  "body": " L3: Asymptotes     L3  I can determine when and if a function will have a vertical or horizontal asymptote.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: The Limit of a Function    You only need to focus on the section about vertical asymptotes      Section 4.6: Limits at Infinity and Asymptotes    Do not read \"Guidelines for Drawing the Graph of a Function\"        In-Class Activities   Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.      We say that the limit as tends to negative infinity of is negative infinity and that the limit as tends to positive infinity of is positive infinity. In symbols, we write     Consider the graph of the rational function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of .         As tends to positive infinity, the function tends to positive infinity    As tends to negative infinity, the function tends to 0    As tends to positive infinity, the function tends to negative infinity    As tends to 0, the function tends to 0        A function has a horizontal asymptote horizontal asymptote at when or   This means that we can make the output of as close as we want to , as long as we take to be a large enough positive number ( ) or a large enough negative number ( ).      Think again about the graph of , given in .    Which of the following statements accurately describes the graph of ?     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at        Select all of the mathematical statements that agree with your answer from part (a)                                       Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as or ?     The only possible limit is     The only possible limits are or     The only possible limits are , or     The only possible limits are any constant number (including 0 and 1) or         In this activity we will examine functions whose limit as approaches positive and negative infinity is a nonzero constant.   Graph the following functions and consider their limits as approaches positive and negative infinity. Use the graph to determine the limits and equations of horizontal asymptotes (if any)                                        Take another look at part (a); what relationship do you see between the degree of the numerator and degree of the denominator? Use your answers to complete the rules for horizontal asymptotes below in      Let be a rational function. Assume that has degree and leading coefficient ; assume also that has degree and leading coefficient . Then,   If , then has horizontal asymptote(s).    If , then has horizontal asymptote(s). The equation(s) is\/are .    If , then has horizontal asymptote(s). The equation(s) is\/are .        What is your best guess for the limit as goes to of the function graphed below?   A mysterious periodic function.         The limit is     The limit is     The limit is     The limit is     The limit DNE        Again, think about the graph of in     Which of the following best describes the limit as approaches zero (from the left) in the graph?     The limit is 0    The limit is positive infinity    The limit does not exist    This limit is negative infinity       Will your answer change or stay the same if we approached zero from the right instead of the left? If it does, indicate your answer.    Which of the following best describes the relationship between the line and the graph of the function?     The line is a horizontal asymptote for the function    The function is not continuous at the point     The function is moving away from the line     The function is getting closer and closer to the line     The function has a jump in outputs around          A function has a vertical asymptote vertical asymptote at when or   The statement means that we can make the output of as large a positive number as we want as long as we are sufficiently close to .  Similarly, the statement means that we can make the output of as large a negative number as we want as long as we are sufficiently close to .     Compare the definition of a hole of a function ( ) and the definition a vertical asymptote of a function ( ). Is it possible for a function to have both? If it is, give an example; if not, explain why.    Notice that as goes to 0, the value of goes to 0 but the value of goes to infinity. What is the best explanation for this behavior?     When dividing by an increasingly small number we get an increasing big number    When dividing by an increasingly large number we get an increasing small number    A rational function always has a vertical asymptote    A rational function always has a horizontal asymptote       Informally, we say that the limit of \" \" is infinite. Notice that this could be either positive or negative infinity, depending on how whether the outputs are becoming more and more positive or more and more negative as we approach zero.    Consider the rational function . Which of the following options best describes the limits as x approaches from the right and from the left?     As , the limit DNE, but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit DNE and as the limit DNE.       When considering a ratio of functions , the inputs where are not in the domain of the ratio. If but is not equal to 0, then is a vertical asymptote.    Consider the function . The line is NOT a vertical asymptote for . Why?     When is not equal to , we can simplify the fraction to , so the limit is .    When is not equal to , we can simplify the fraction to , so the limit is .    The function is always equal to .    The function is always equal to .       For each of the following functions, identify the equations of any asymptotes and the location of any holes.                         Challenge! For this problem, remember two things: and .          "
 },
 {
   "id": "L3-2",
@@ -583,7 +781,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "L4: Continuity",
-  "body": " L4: Continuity     L4  I can identify where a function is continuous (on an interval or at a point), and describe the type of discontinuity.      In-Class Activities   A continuous function is one whose values change smoothly, with no jumps or gaps in the graph. We'll explore the idea first, and arrive at a mathematical definition soon.     Which of the following scenarios best describes a continuous function?     The age of a person reported in years    The price of postage for a parcel depending on its weight    The volume of water in a tank that is gradually filled over time    The number of likes on my latest TikTok depending on the time since I posted it         Use and to answer the following tasks.   A graph with several points of interest         is not continuous at . Why? Select all that apply.      does not exist     but      but      has two outputs at         is not continuous at . Why? Select all that apply.      and are not the same               does not exist        is not continuous at . Why? Select all that apply.      does not exist     and are not the same     has two outputs at               Based on , what conditions do you think need to be true in order for a function to be continuous at the input ?     Continuity   A function is continuous continuous function at provided that    has a limit as      is defined at (equivalently, is in the domain of ), and     .   A function is continuous on the interval if it is continuous at all inputs in .  If a function is not continuous at or on , it is called discontinuous at that input or on .      Suppose that some function is continuous at . Use to decide which of the following quantities are equal to each other.                              In , you saw several ways that a function could be discontinuous. In fact, these have names: removable discontinuity , infinite discontinuity , and jump discontinuity .    Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite         If and are continuous at and is a real number, then the functions , , , and are also continuous at . Moreover, is continuous at provided that .      All functions we deal with (except possibly piecewise functions) are continuous on their domain      Answer the questions below about piecewise functions. It may be helpful to look at some graphs.   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?      For each function, determine the appropriate interval of continuity. If the interval is not , identify specific reasons (like specific problem inputs) why not. It may be helpful to identify the domain of the function, thanks to .                                                                                                                                                       Suppose and are continuous functions such that and . What must be the value of ?     "
+  "body": " L4: Continuity     L4  I can identify where a function is continuous (on an interval or at a point), and describe the type of discontinuity.      Pre-Class Preparation  Read the following sections of the text:    Section 2.4: Continuity    Do not read \"The Intermediate Value Theorem\"        In-Class Activities   A continuous function is one whose values change smoothly, with no jumps or gaps in the graph. We'll explore the idea first, and arrive at a mathematical definition soon.     Which of the following scenarios best describes a continuous function?     The age of a person reported in years    The price of postage for a parcel depending on its weight    The volume of water in a tank that is gradually filled over time    The number of likes on my latest TikTok depending on the time since I posted it         Use and to answer the following tasks.   A graph with several points of interest         is not continuous at . Why? Select all that apply.      does not exist     but      but      has two outputs at         is not continuous at . Why? Select all that apply.      and are not the same               does not exist        is not continuous at . Why? Select all that apply.      does not exist     and are not the same     has two outputs at               Based on , what conditions do you think need to be true in order for a function to be continuous at the input ?     Continuity   A function is continuous continuous function at provided that    has a limit as      is defined at (equivalently, is in the domain of ), and     .   A function is continuous on the interval if it is continuous at all inputs in .  If a function is not continuous at or on , it is called discontinuous at that input or on .      Suppose that some function is continuous at . Use to decide which of the following quantities are equal to each other.                              In , you saw several ways that a function could be discontinuous. In fact, these have names: removable discontinuity , infinite discontinuity , and jump discontinuity .    Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite         If and are continuous at and is a real number, then the functions , , , and are also continuous at . Moreover, is continuous at provided that .      All functions we deal with (except possibly piecewise functions) are continuous on their domain      Answer the questions below about piecewise functions. It may be helpful to look at some graphs.   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?      For each function, determine the appropriate interval of continuity. If the interval is not , identify specific reasons (like specific problem inputs) why not. It may be helpful to identify the domain of the function, thanks to .                                                                                                                                                       Suppose and are continuous functions such that and . What must be the value of ?     "
 },
 {
   "id": "L4-2",
@@ -709,7 +907,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "D1: Average\/Instantaneous Rate of Change",
-  "body": " D1: Average\/Instantaneous Rate of Change     D1  I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.      Pre-Class Videos    In-Class Activities   "
+  "body": " D1: Average\/Instantaneous Rate of Change     D1  I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Defining the Derivative    Only read the \"Tangent Lines\" section        In-Class Activities     In this activity you will study the velocity of a ball falling under gravity. The height of the ball (in feet) is given by the formula , where is measured in seconds. For your convenience, below you will find a table of values for .        1  1.5  1.75  2  2.25  2.5  3       64  60  55  48  39  28  0       To start we will look at an interval of length one before and after , so we consider the intervals and . What was the average velocity on the interval ? What about on the interval ?    Now let's consider smaller intervals of length . What was the average velocity on the interval ? What about on the interval ?    What was the average velocity on the interval ? What about on the interval ?    If we wanted to approximate the velocity at the instant , what would be your best estimate for this instantaneous velocity?     "
 },
 {
   "id": "D1-2",
@@ -719,6 +917,15 @@ var ptx_lunr_docs = [
   "number": "2.1",
   "title": "",
   "body": "   D1  I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.    "
+},
+{
+  "id": "D-aroc-activity-ball1",
+  "level": "2",
+  "url": "D1.html#D-aroc-activity-ball1",
+  "type": "Activity",
+  "number": "2.1.1",
+  "title": "",
+  "body": "  In this activity you will study the velocity of a ball falling under gravity. The height of the ball (in feet) is given by the formula , where is measured in seconds. For your convenience, below you will find a table of values for .        1  1.5  1.75  2  2.25  2.5  3       64  60  55  48  39  28  0       To start we will look at an interval of length one before and after , so we consider the intervals and . What was the average velocity on the interval ? What about on the interval ?    Now let's consider smaller intervals of length . What was the average velocity on the interval ? What about on the interval ?    What was the average velocity on the interval ? What about on the interval ?    If we wanted to approximate the velocity at the instant , what would be your best estimate for this instantaneous velocity?   "
 },
 {
   "id": "D2",
@@ -863,24 +1070,6 @@ var ptx_lunr_docs = [
   "number": "2.9",
   "title": "",
   "body": "   D9  I can use implicit differentiation to find the derivative of an equation.    "
-},
-{
-  "id": "D10",
-  "level": "1",
-  "url": "D10.html",
-  "type": "Section",
-  "number": "2.10",
-  "title": "D10: Logarithmic Differentiation",
-  "body": " D10: Logarithmic Differentiation     D10  I can compute derivatives using logarithmic differentiation.      Pre-Class Videos    In-Class Activities   "
-},
-{
-  "id": "D10-2",
-  "level": "2",
-  "url": "D10.html#D10-2",
-  "type": "Objectives",
-  "number": "2.10",
-  "title": "",
-  "body": "   D10  I can compute derivatives using logarithmic differentiation.    "
 },
 {
   "id": "A1",
