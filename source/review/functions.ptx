@@ -5,14 +5,999 @@
   
   
   <subsection xml:id="review-functions-1">
-    <title>First Section</title>
-      
-      <p>
-        stuff here
-      </p>
-  
+    <title>Basics</title>
 
+      <definition xml:id="def-relation-domain-range">
+        <title>Relation/Domain/Range</title>
+        <statement>
+          <p>
+            A <term>relation</term><idx><h>relation</h></idx> is a collection of ordered pairs of the form <m>(x,y)</m>. The collection of first components in a relation is called the <term>domain</term><idx><h>domain</h></idx> of the relation. The collection of second components in a relation is called the <term>range</term><idx><h>range</h></idx> of the relation.
+          </p>
+        </statement>
+      </definition>
 
+      <definition xml:id="def-input-output">
+        <title>Input/Output</title>
+        <statement>
+          <p>
+            In an ordered pair <m>(x,y)</m>, the element <m>x</m> is called an <term>input</term><idx><h>input</h></idx> and the element <m>y</m> is called an <term>output</term><idx><h>output</h></idx>. 
+          </p>
+        </statement>
+      </definition>
+
+      <definition xml:id="def-function">
+        <title>Function</title>
+        <statement>
+          <p>
+            A <term>function</term><idx><h>function</h></idx> <m>f</m> is a rule which assigns to each input <m>x</m> in the domain a single output <m>f(x)</m> in the range.
+          </p>
+        </statement>
+      </definition>
+
+      <example>
+        <statement>
+          <p>
+            The relation <m>f</m> is copied below. Is <m>f</m> a function? Why or why not?
+            <me>
+             \lrbrace{(-2,1), (1,5), (0,-3), (-2,3), (10,1), (3,3)}
+            </me>
+          </p>    
+        </statement>
+        <solution>
+          <p>
+            No, because the input <m>-2</m> is assigned two outputs: <m>1</m> and <m>3</m>. 
+          </p>
+        </solution>
+      </example>
+
+      <definition xml:id="def-graph">
+        <title>Graph</title>
+        <statement>
+          <p>
+            The <term>graph</term><idx><h>graph</h></idx> of a function is the collection of all coordinate pairs <m>(x,y)</m>, plotted on a coordinate system.
+          </p>
+        </statement>
+      </definition>
+
+      <theorem xml:id="thm-vertical-line-test">
+        <title>Vertical Line Test</title>
+        <statement>
+          <p>
+            A relation is a function if and only if any vertical intersects the graph of the relation in <em>at most</em> one point.
+          </p>
+        </statement>
+      </theorem>
+
+      <example>
+        <statement>
+          <p>
+            Are both of these graphs functions? Why or why not?
+          </p>
+          <sidebyside widths="40% 40%">
+            <figure xml:id="functions-yes-or-no-function-1">
+              <caption>Candidate function graph 1</caption>
+              <image>
+                <latex-image>
+                  <xi:include href="./tikz/functions-yes-or-no-function-1.tex" parse="text"/> 
+                </latex-image>              
+              </image>
+            </figure>
+            <figure xml:id="functions-yes-or-no-function-2">
+              <caption>Candidate function graph 2</caption>
+              <image>
+                <latex-image>
+                  <xi:include href="./tikz/functions-yes-or-no-function-2.tex" parse="text"/> 
+                </latex-image>              
+              </image>
+            </figure>
+          </sidebyside>
+        </statement>
+        <solution>
+          <p>
+            The graph in <xref ref="functions-yes-or-no-function-1"/> is a function, because every input has only one output; however, the graph in <xref ref="functions-yes-or-no-function-2"/> is <em>not</em> a function because all inputs in <m>[-2,2]</m>
+          </p>
+        </solution>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Below are numerical expressions for <m>h</m> and <m>k</m>. Is <m>h</m> a function? What about <m>k</m>?
+          </p>
+          <tabular>
+            <row bottom="minor">
+              <cell>
+                <m>x</m>
+              </cell>
+              <cell>
+                <m>0</m>
+              </cell>
+              <cell>
+                <m>1</m>
+              </cell>
+              <cell>
+                <m>1</m>
+              </cell>
+              <cell>
+                <m>2</m>
+              </cell>
+              <cell>
+                <m>5</m>
+              </cell>
+              <cell>
+                <m>6</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                <m>h(x)</m>
+              </cell>
+              <cell>
+                <m>0</m>
+              </cell>
+              <cell>
+                <m>1</m>
+              </cell>
+              <cell>
+                <m>2</m>
+              </cell>
+              <cell>
+                <m>3</m>
+              </cell>
+              <cell>
+                <m>4</m>
+              </cell>
+              <cell>
+                <m>5</m>
+              </cell>
+            </row>
+          </tabular>
+          <tabular>
+            <row bottom="minor">
+              <cell>
+                <m>t</m>
+              </cell>
+              <cell>
+                <m>0</m>
+              </cell>
+              <cell>
+                <m>1</m>
+              </cell>
+              <cell>
+                <m>1</m>
+              </cell>
+              <cell>
+                <m>2</m>
+              </cell>
+              <cell>
+                <m>5</m>
+              </cell>
+              <cell>
+                <m>6</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                <m>k(t)</m>
+              </cell>
+              <cell>
+                <m>0</m>
+              </cell>
+              <cell>
+                <m>1</m>
+              </cell>
+              <cell>
+                <m>1</m>
+              </cell>
+              <cell>
+                <m>3</m>
+              </cell>
+              <cell>
+                <m>4</m>
+              </cell>
+              <cell>
+                <m>5</m>
+              </cell>
+            </row>
+          </tabular>
+        </statement>
+        <solution>
+          <p>
+            <m>h</m> is not a function because the input <m>1</m> has two outputs: <m>1</m> and <m>2</m>. However, <m>k</m> is a function because every input has only one output.
+          </p>
+          <p>
+            Even though the input <m>1</m> appears twice, it has the same output. So in a sense, we can consider this a <q>duplicate</q> entry.
+          </p>
+        </solution>
+      </example>
   </subsection>
 
+  <subsection xml:id="review-functions-2">
+    <title>Using Functions</title>
+    
+    <remark>
+      <title>
+        Function Notation: Functions of a Single Variable
+      </title>  
+      <p>
+        The notation <m>f(x)</m> has two pieces: an input and a rule. We are applying the <em>rule</em> <m>f</m> to the <em>input</em> <m>x</m>. The result is an output, usually denoted <m>y</m>. So we can write
+        <me>
+          y = f(x)
+        </me>
+        as a way to say <q>the output <m>y</m> is the result of applying the rule <m>f</m> to the input <m>x</m></q>. This should be read as <q><m>y</m> equals <m>f</m> of <m>x</m></q>
+      </p>
+    </remark>
+
+    <remark>
+      <title>Evaluating Functions</title>
+      <p>
+        To evaluate a function <m>f(x)</m>, replace all instances of the variable <m>x</m> with the input shown.
+      </p>
+    </remark>
+
+    <example>
+      <statement>
+        <p>
+          Let <m>f(x) = x^2 + 5</m>. Evaluate the following:
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>f(1)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(0)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(-2)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(a)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(x + h)</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>f(1)=6</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(0)=5</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(-2)=9</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(a)=a^2+5</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(x + h)=x^2+2xh+h^2+5</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Consider the following function rules: <m>f(x) = x-1, g(x) = -x^2, h(x) = 2^x</m>. Write the function notation for the descriptions given, then compute.
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>f</m> applied to the input 5
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>g</m> applied to the input <m>a + 1</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>h</m> applied to the input <m>3 + r</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>f(5) = 4</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>g(a+1)=-a^2-2ah-h^2</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>h(3+r) = 2^{3+r} = 8\cdot 2^r</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="review-functions-3">
+    <title>Combining Functions</title>
+
+    <assemblage>
+      <title>Function Combinations</title>
+      <tabular>
+        <row bottom="minor">
+          <cell>
+            Name
+          </cell>
+          <cell>
+            Notation
+          </cell>
+          <cell>
+            Translation
+          </cell>
+          <cell>
+            Note
+          </cell>
+        </row>
+        <row>
+          <cell>
+            Sum
+          </cell>
+          <cell>
+            <m>
+              (f+g)(x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              f(x) + g(x)
+            </m>
+          </cell>
+          <cell>
+            
+          </cell>
+        </row>
+        <row>
+          <cell>
+            Difference
+          </cell>
+          <cell>
+            <m>
+              (f-g)(x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              f(x) - g(x)
+            </m>
+          </cell>
+          <cell>
+            
+          </cell>
+        </row>
+        <row>
+          <cell>
+            Product
+          </cell>
+          <cell>
+            <m>
+              (f\cdot g)(x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              f(x)\cdot g(x)
+            </m>
+          </cell>
+          <cell>
+            <m>(f\cdot g)</m> can be written as <m>(fg)</m> as well
+          </cell>
+        </row>
+        <row>
+          <cell>
+            Quotient
+          </cell>
+          <cell>
+            <m>\lrpar{\dfrac{f}{g}}(x)</m>
+          </cell>
+          <cell>
+            <m>
+              \dfrac{f(x)}{g(x)}
+            </m>
+          </cell>
+          <cell>
+            <m>g(x)</m> cannot be zero
+          </cell>
+        </row>
+      </tabular>
+    </assemblage>
+
+    <example>
+      <statement>
+        <p>
+          Let <m>f(x) = 3x-1</m> and <m>g(x) = x^2+x+1</m>. Write and simplify the following.
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>
+                  (f+g)(x)
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  (f-g)(x)
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  (fg)(x)
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  \lrpar{\dfrac{f}{g}}(x)
+                </m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>
+                  (f+g)(x) = x^2 + 4x
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  (f-g)(x) = -x^2 + 2x - 2
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  (fg)(x) = 3x^3+2x^2+x-1
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  \lrpar{\dfrac{f}{g}}(x) = \dfrac{3x-1}{x^2+x-1}
+                </m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+
+    <remark>
+      <p>
+        Functions can also be combined using <em>composition</em>: using one function as an input to another. The notation is given by
+        <me>
+          (f\circ g)(x) = f(g(x))
+        </me>
+      </p>
+    </remark>
+
+    <example>
+      <statement>
+        <p>
+          Let <m>f(x) = 3x-1</m> and <m>g(x) = x^2+x+1</m>. Write and simplify the following.
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>
+                  (f\circ g)(x)
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  (g\circ f)(x)
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  g(-4x)
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  f(g(-x))
+                </m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>
+                  (f\circ g)(x)= 3x^2+3x+2
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  (g\circ f)(x)=9x^2-3x+1
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  g(-4x)=-12x-1
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  f(g(-x))=3x^2-3x+2
+                </m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+
+    <remark>
+      <p>
+        Given two functions <m>f(x)</m> and <m>g(x)</m>, the composition <m>(f\circ g)(x)</m> has the domain
+        <me>
+          \text{Dom}\,(f\circ g) = \lrbrace{x\mid x\in \text{Dom}\,(g)\text{ and }g(x)\in\text{Dom}\, (f)}
+        </me>
+        and the range
+        <me>
+          \text{Range}\, (f\circ g) = \lrbrace{y=f(x)\mid x\in \text{Range}\, (g)}
+        </me>
+      </p>
+    </remark>
+
+    <example>
+      <statement>
+        <p>
+          Consider the functions <m>f</m> and <m>g</m> given below.
+        </p>
+        <tabular>
+          <row bottom="minor">
+            <cell>
+              <m>
+                x
+              </m>
+            </cell>
+            <cell>
+              <m>
+                -3
+              </m>
+            </cell>
+            <cell>
+              <m>
+                -2
+              </m>
+            </cell>
+            <cell>
+              <m>
+                -1
+              </m>
+            </cell>
+            <cell>
+              <m>
+                0
+              </m>
+            </cell>
+            <cell>
+              <m>
+                1
+              </m>
+            </cell>
+            <cell>
+              <m>
+                2
+              </m>
+            </cell>
+            <cell>
+              <m>
+                3
+              </m>
+            </cell>
+            <cell>
+              <m>
+                4
+              </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>
+                f(x)
+              </m>
+            </cell>
+            <cell>
+              <m>
+                0
+              </m>
+            </cell>
+            <cell>
+              <m>
+                4
+              </m>
+            </cell>
+            <cell>
+              <m>
+                2
+              </m>
+            </cell>
+            <cell>
+              <m>
+                4
+              </m>
+            </cell>
+            <cell>
+              <m>
+                -2
+              </m>
+            </cell>
+            <cell>
+              <m>
+                0
+              </m>
+            </cell>
+            <cell>
+              <m>
+                -2
+              </m>
+            </cell>
+            <cell>
+              <m>
+                4
+              </m>
+            </cell>
+          </row>
+        </tabular>
+        <tabular>
+          <row bottom="minor">
+            <cell>
+              <m>
+                x
+              </m>
+            </cell>
+            <cell>
+              <m>
+                -4
+              </m>
+            </cell>
+            <cell>
+              <m>
+                -2
+              </m>
+            </cell>
+            <cell>
+              <m>
+                0
+              </m>
+            </cell>
+            <cell>
+              <m>
+                2
+              </m>
+            </cell>
+            <cell>
+              <m>
+                4
+              </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>
+                g(x)
+              </m>
+            </cell>
+            <cell>
+              <m>
+                1
+              </m>
+            </cell>
+            <cell>
+              <m>
+                0
+              </m>
+            </cell>
+            <cell>
+              <m>
+                3
+              </m>
+            </cell>
+            <cell>
+              <m>
+                0
+              </m>
+            </cell>
+            <cell>
+              <m>
+                5
+              </m>
+            </cell>
+          </row>
+        </tabular>
+        <p>
+          Find the following.
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>
+                  (g\circ f)(3)
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                The domain and range of <m>(g\circ f)(x)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                The domain and range of <m>(f\circ g)(x)</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>
+                  (g\circ f)(3)=0
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\text{Dom}\,(g\circ f) = \lrbrace{-2,0,2,4}</m> and <m>\text{Range}\, (g\circ f) = \lrbrace{0,3,5}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\text{Dom}\,(f\circ g) = \lrbrace{-4,-2,0,2}</m> and <m>\text{Range}\, (f\circ g) = \lrbrace{-2,4}</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          For each function below, completely decompose the function into smaller ones and find the domain of the composite.
+          <ol marker="a."> 
+            <li>
+              <p>
+                <m>
+                  f(x) = \dfrac{1}{x+2}
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  q(x) = (2x+1)^5
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  s(h) = \sin \lrpar{5h^2 + \dfrac{1}{h}}
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  y(r) = \dfrac{5.317}{(2r^5+1.7)^2}
+                </m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Decompositions can vary; the answers shown here are suggested.
+          <ol marker="a."> 
+            <li>
+              <p>
+                <m>
+                  f(x) = a(b(x))
+                </m>
+                where <m>a(x) = \dfrac{1}{x}</m> and <m>b(x) = x+2</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  q(x) = a(b(x))
+                </m>
+                where <m>a(x) = x^5</m> and <m>b(x) = 2x+1</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  s(h) = a(b(h))
+                </m>
+                where <m>a(h) = \sin (h)</m> and <m>b(h) = 5h^2 + \dfrac{1}{h}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  y(r) = a(b(r))
+                </m>
+                where <m>a(r) = \dfrac{5.317}{r^2}</m> and <m>b(r) = 2r^5 + 1.7</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Let <m>k(x) = \sec (x^2)\tan(x^2)</m>. Find <m>f,g</m> such that <m>k(x) = f(g(x))</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>f(x) = \sec (x)\tan (x)</m> and <m>g(x) = x^2</m>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Let <m>f(x) = \cos^2 (x^2+9)</m>. Find functions <m>a,b,c</m> such that <m>f(x) = (a\circ b\circ c)(x)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>a(x) = x^2</m>, <m>b(x) = \cos (x)</m>, <m>c(x) = x^2 + 9</m>
+        </p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="review-functions-4">
+    <title>Symmetry</title>
+
+    <definition xml:id="def-even-odd">
+      <statement>
+        <p>
+          A function <m>f(x)</m> is said to be <term>even</term><idx><h>even function</h></idx> if it has the property that
+          <me>
+            f(-x) = f(x)
+          </me>
+          for all <m>x</m> in its domain.
+        </p>
+        <p>
+          A function <m>g(x)</m> is said to be <term>odd</term><idx><h>odd function</h></idx> if it has the property that
+          <me>
+            g(-x) = -g(x)
+          </me>
+          for all <m>x</m> in its domain.
+        </p>
+      </statement>
+    </definition>
+
+    <example>
+      <statement>
+        <p>
+          Determine if the following functions are even, odd, or neither.
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>
+                  f(x) = x^7 + x^5 -x
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  g(x) = 3-x^2
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  h(x) = x^2-x^3
+                </m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                Odd
+              </p>
+            </li>
+            <li>
+              <p>
+                Even
+              </p>
+            </li>
+            <li>
+              <p>
+                Neither
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+  </subsection>
 </section>

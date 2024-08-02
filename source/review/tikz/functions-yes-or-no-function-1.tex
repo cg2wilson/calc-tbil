@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+    \begin{axis}[
+    axis x line = middle,
+            axis y line = middle,
+        every axis y label/.style={at={(ticklabel cs:1.1)}},
+        y label style={at={(axis description cs:0,1.1)},anchor=north},
+        ylabel = {$y$},
+            every axis x label/.style= {at ={(ticklabel cs:1)}},
+            x label style={at={(axis description cs:1.1,.48)},anchor=east},
+            xlabel = {$x$},
+    trig format plots = rad,
+    xmin = 0, xmax = 6.5,
+    ymin = -1.5, ymax = 1.5
+    ]
+    \addplot[thick, smooth, domain = 0:2*pi] {cos(x)};
+    \end{axis}
+\end{tikzpicture}
