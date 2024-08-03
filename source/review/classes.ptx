@@ -3,16 +3,568 @@
 <section xml:id="review-classes" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Classes of Functions</title>
   
-  
   <subsection xml:id="review-classes-1">
-    <title>First Section</title>
-      
+    <title>Linear Functions</title>
+
+    <definition xml:id="def-linear-function">
+      <title>Linear Function</title>
+      <statement>
+        <p>
+          A <term>linear function</term><idx><h>linear function</h></idx> takes the form
+          <me>
+            f(x) = mx + b
+          </me>
+          where <m>m</m> is the slope of the line and <m>(0,b)</m> is the location of the <m>y-</m>intercept.
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="def-slope">
+      <title>Slope</title>
+      <statement>
+        <p>
+          The <term>slope</term><idx><h>slope</h></idx> of a line is the ratio of the change in output value when the input changes by a specific amount. 
+        </p>
+        <p>
+          Given points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> on a line, the slope of the line is found by
+          <me>
+            m = \dfrac{y_2 - y_1}{x_2-x_1} = \dfrac{\Delta y}{\Delta x}
+          </me>
+          If we write <m>y_1 = f(x_1)</m> and <m>y_2 = f(x_2)</m>, then we can rewrite slope as
+          <me>
+            m = \dfrac{f(x_2)-f(x_1)}{x_2-x_1} = \dfrac{\Delta y}{\Delta x}
+          </me>
+        </p>
+      </statement>
+    </definition>
+
+    <assemblage>
+      <title>Three Forms of a Line</title>
       <p>
-        stuff here
+        A line is in <term>slope-intercept form</term><idx><h>slope-intercept form</h></idx> if it is written as
+        <me>
+          y = mx + b
+        </me>
+        where <m>m</m> is the slope of the line and <m>(0,b)</m> is the location of the <m>y-</m>intercept.
       </p>
-  
-
-
+      <p>
+        It is in <term>point-slope form</term><idx><h>point-slope form</h></idx> if it is written as
+        <me>
+          y-y_1 = m(x-x_1)
+        </me>
+        where <m>m</m> is the slope of the line and the line goes through the point <m>(x_1,y_1)</m>. 
+      </p>
+      <p>
+        The line is in <term>standard form</term><idx><h>standard form</h></idx> if it is written as
+        <me>
+          ax + by = c
+        </me>
+        where <m>a,b,c</m> are real numbers such that <m>a,b</m> are not both zero.
+      </p>
+    </assemblage>
+    
+    <assemblage>
+      <title>Four Types of Lines</title>
+      <p>
+        Consider a line of the form <m>ax + by = c</m>.
+        <ul>
+          <li>
+            <p>
+              If <m>a,b\neq 0</m>, then the line has slope <m>m = -\dfrac{a}{b}</m> and passes through the point <m>\lrpar{0,\dfrac{c}{b}}</m>. In particular, the line is neither horizontal nor vertical.
+            </p>
+            <p>
+              If <m>m \lt 0</m>, then the line has negative slope; if <m>m \gt 0</m>, then the line has positive slope.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>a = 0</m>, then the line has slope <m>m = 0</m> and passes through the point <m>\lrpar{0,\dfrac{c}{b}}</m>. In particular, the line is horizontal with equation 
+              <me>
+                y = \dfrac{c}{b}
+              </me>
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>b=0</m>, then the line has undefined slope and passes through the point <m>\lrpar{\dfrac{c}{a},0}</m>. In particular, it is vertical with equation 
+              <me>
+                x = \dfrac{c}{a}
+              </me>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </assemblage>
   </subsection>
 
+  <subsection xml:id="review-classes-2">
+    <title>Polynomials</title>
+    
+    <definition xml:id="def-polynomial">
+      <statement>
+        <p>
+          A function <m>P</m> is called a <term>polynomial</term><idx><h>polynomial function</h></idx> if it takes the form
+          <me>
+            P(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_2x^2+a_1x+a_0
+          </me>
+          where <m>n</m> is a non-negative integer and the numbers <m>a_i</m> are called the <term>coefficients</term><idx><h>coefficient</h></idx> of the polynomial. The <term>degree</term><idx><h>degree of a polynomial</h></idx> is the power of the leading term (<m>n</m>).
+        </p>
+      </statement>
+    </definition>
+
+    <assemblage>
+      <title>Domain and Range of Polynomials</title>
+      <p>
+        Let <m>a_nx^n + a_{n-1}x^{n-1}+\cdots a_1x + a_0</m> be a polynomial, and let <m>k</m> be some real number
+      </p>
+      <tabular>
+        <row bottom="minor">
+          <cell>
+            Type
+          </cell>
+          <cell>
+            Domain
+          </cell>
+          <cell>
+            Range
+          </cell>
+        </row>
+        <row>
+          <cell>
+            Even Degree, <m>a_n \gt 0</m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (k,\infty)
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            Even Degree, <m>a_n \lt 0</m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,k)
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            Odd Degree, <m>a_n \gt 0</m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            Odd Degree, <m>a_n \lt 0</m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+        </row>
+      </tabular>
+    </assemblage> 
+
+    <remark>
+      <p>
+        Some common polynomials are:
+        <ul>
+          <li>
+            <p>
+              <em>Linear</em>: These are described above
+            </p>
+          </li>
+          <li>
+            <p>
+              <em>Quadratic</em>: They take the form <m>f(x) = ax^2 + bx + c</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <em>Cubic</em>: These take the form <m>f(x) = ax^3 + bx^2 + cx + d</m>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </remark>
+
+    <assemblage>
+      <title>Zeros of a Polynomial</title>
+      <p>
+        The zeros of any polynomial <m>f(x)</m> are found by solving the equation
+        <me>
+          f(x) = 0
+        </me>
+        In paticular, if <m>f(x)</m> has zeros <m>x_1,...,x_k</m>, then <m>f(x)</m> can be written as
+        <me>
+          f(x) = (x-x_1)(x-x_2)\cdots (x-x_k)
+        </me>
+        A zero is said to have <em>multiplicity</em> <m>m</m> if the factor <m>x-x_j</m> occurs <m>m</m> times.
+      </p>
+    </assemblage>
+
+    <assemblage>
+      <title>Properties and Zeros of a Quadratic</title>
+      <p>
+        A quadratic function <m>f(x) = ax^2 + bx + c</m> has 
+        <ul>
+          <li>
+            <p>
+              Two real solutions if <m>b^2-4ac \gt 0</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              One real solution if <m>b^2-4ac = 0</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              No real solutions if <m>b^2 -4ac \lt 0</m>
+            </p>
+          </li>
+        </ul>
+      </p>
+      <p>
+        The <term>vertex</term><idx><h>vertex (of quadratic)</h></idx> of a quadratic function is located at the point
+        <me>
+          \lrpar{-\dfrac{b}{2a},f\lrpar{-\dfrac{b}{2a}}}
+        </me>
+        The zeros, if they exist, are located at 
+        <me>
+          x = -\dfrac{b}{2a} - \dfrac{\sqrt{b^2-4ac}}{2a}
+        </me>
+        and
+        <me>
+          x = -\dfrac{b}{2a} + \dfrac{\sqrt{b^2-4ac}}{2a}
+        </me>
+        i.e., the zeros are always <m>\dfrac{\sqrt{b^2-4ac}}{2a}</m> units away from the vertex.
+      </p>
+    </assemblage>
+
+    <assemblage>
+      <title>Quadratic Formula</title>
+      <p>
+        For a quadratic function of the form <m>f(x) = ax^2 + bx + c</m>, the solutions are given by 
+        <me>
+          x = \dfrac{-b\pm \sqrt{b^2-4ac}}{2a}
+        </me>
+        The term <m>b^2-4ac</m> is called the <term>discriminant</term><idx><h>discriminant (of a polynomial)</h></idx> of the quadratic.
+      </p>
+    </assemblage>
+
+    <example>
+      <statement>
+        <p>
+          Consider the quadratic function <m>f(x) = 2x^2-9x-5</m>.
+          <ol marker="a.">
+            <li>
+              <p>
+                Use the quadratic formula to identify the zeros of the function.
+              </p>
+            </li>
+            <li>
+              <p>
+                Find the zeros again, but this time by factoring.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the range of <m>f(x)</m>?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                Identifying <m>a=2,b=-9,c=-5</m>, we have
+                <me>
+                  x = \dfrac{9\pm \sqrt{(-9)^2-4(2)(-5)}}{2(2)}
+                </me>
+                which yields the solutions <m>x = -\dfrac{1}{2}</m> and <m>x=5</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Using any preferred method, we see that
+                <me>
+                  2x^2-9x-5 = (2x+1)(x-5)
+                </me>
+                which gives the same zeros as in (a).
+              </p>
+            </li>
+            <li>
+              <p>
+                Since <m>a \gt 0</m>, and the vertex is at
+                <me>
+                  \lrpar{\dfrac{9}{4},-\dfrac{121}{8}}
+                </me>
+                the range is
+                <me>
+                  \lrpar{-\dfrac{121}{8},\infty}
+                </me>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="review-classes-3">
+    <title>Rational Functions</title>
+    
+    <definition xml:id="def-rational-function">
+      <title>Rational Functions</title> 
+      <statement>
+        <p>
+          A <term>rational function</term><idx><h>rational function</h></idx> is one which takes the form
+          <me>
+            f(x) = \dfrac{P(x)}{Q(x)}
+          </me>
+          where <m>P(x)</m> and <m>Q(x)</m> are both polynomials
+        </p>
+      </statement>
+    </definition>
+
+    <assemblage>
+      <title>Domain of Rational Functions</title>
+      <p>
+        The domain of a rational function <m>f(x) = \dfrac{P(x)}{Q(x)}</m> is the set
+        <me>
+          \lrbrace{x\mid Q(x)\neq 0}
+        </me>
+      </p>
+    </assemblage>
+  </subsection>
+
+  <subsection xml:id="review-classes-4">
+    <title>Power Functions</title>
+    
+    <definition xml:id="def-power-function">
+      <title>Power Functions</title>
+      <statement>
+        <p>
+          A <term>power function</term><idx><h>power function</h></idx> is any function of the form 
+          <me>
+            f(x) = x^a
+          </me>
+          where <m>a</m> is any real number.
+        </p>
+      </statement>
+    </definition>
+
+    <remark>
+      <p>
+        There are two power functions which see special use:
+        <ul>
+          <li>
+            <p>
+              If <m>a = \dfrac{1}{n}</m>, where <m>n\geq 2</m> is an integer, then we call the function
+              <me>
+                f(x) = x^a = x^{1/n}
+              </me>
+              a <term>root function</term><idx><h>root function</h></idx>, since the rules of exponents say that
+              <me>
+                x^{1/n} = \sqrt[n]{x}
+              </me>
+            </p>
+            <p>
+              If <m>n=2</m>, then we have a square root function; if <m>n=3</m>, we have a cube root function.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>a=-1</m>, then the function
+              <me>
+                f(x) = x^{-1}=\dfrac{1}{x}
+              </me>
+              is called the <term>reciprocal function</term><idx><h>reciprocal function</h></idx>.
+            </p>
+            <p>
+              The reciprocal function can also be considered a rational function, with <m>P(x) = 1</m> and <m>Q(x) = x</m>.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </remark>
+  </subsection>
+
+  <subsection xml:id="review-classes-5">
+    <title>Algebraic &amp; Transcendental Functions</title>
+    
+    <definition xml:id="def-algebraic-function">
+      <title>Algebraic Function</title>
+      <statement>
+        <p>
+          The function <m>f(x)</m> is called <term>algebraic</term><idx><h>algebraic function</h></idx> if it can be constructed using algebraic operations such as addition, subtraction, multiplication, division, and taking roots, starting with polynomials.
+        </p>
+      </statement>
+    </definition>
+
+    <example>
+      <statement>
+        <p>
+          Find the domain of the function <m>f(x) = \dfrac{9x^2-1}{\sqrt{4x+5}}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            \lrpar{-\dfrac{5}{4},\infty}
+          </m>
+        </p>
+      </solution>
+    </example>
+
+    <definition xml:id="def-exp-log-function">
+      <title>Exponential &amp; Logarithmic Function</title>
+      <statement>
+        <p>
+          An <term>exponential function</term><idx><h>exponential function</h></idx> is a function of the form
+          <me>
+            f(x) = b^x
+          </me>
+          where the base <m>b</m> is a positive constant. 
+        </p>
+        <p>
+          A <term>logarithmic function</term><idx><h>logarithmic function</h></idx> is a function of the form
+          <me>
+            g(x) = \log_b(x)
+          </me>
+          where the base <m>b</m> is a positive constant.
+        </p>
+      </statement>
+    </definition>
+
+    <assemblage>
+      <title>Domain and Range of Transcendental Functions</title>
+      <tabular>
+        <row bottom="minor">
+          <cell>
+            Function
+          </cell>
+          <cell>
+            Domain
+          </cell>
+          <cell>
+            Range
+          </cell>
+          <cell>
+            Asymptote
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              f(x)=b^x
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (0,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              y = 0
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              f(x)=\log_b(x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (0,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              x=0
+            </m>
+          </cell>
+        </row>
+      </tabular>
+    </assemblage>
+
+    <example>
+      <statement>
+        <p>
+          Find the domain of the function <m>k(r) = \log_5(r^2-2r+3)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>(-\infty,-1)\cup (3,\infty)</m>
+        </p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="review-classes-6">
+    <title>Piecewise Functions</title>
+    
+    <definition xml:id="def-piecewise-function">
+      <title>Piecewise Functions</title>
+      <statement>
+        <p>
+          A <term>piecewise function</term> is a function defined by different formulas in different parts of its domain.
+        </p>
+      </statement>
+    </definition>
+
+    <remark>
+      <p>
+        The most common piecewise function you will encounter in Calculus is the <term>absolute value function</term><idx><h>absolute value function</h></idx>, which is defined by
+        <me>
+          |x| = \begin{cases} -x \amp x\lt 0 \\ x \amp x\geq 0 \end{cases}
+        </me>
+      </p>
+    </remark>
+  </subsection>
 </section>

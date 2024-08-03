@@ -1000,4 +1000,89 @@
       </solution>
     </example>
   </subsection>
+
+  <subsection xml:id="review-functions-5">
+    <title>Transformations of Functions</title>
+    
+    <assemblage>
+      <title>Vertical and Horizontal Shifts</title>
+      <p>
+        Let <m>c\gt 0</m>. To obtain the graph of 
+        <ul>
+          <li>
+            <p>
+              <m>y = f(x) + c</m>, shift the graph of <m>y=f(x)</m>  up by <m>c</m> units
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y = f(x) - c</m>, shift the graph of <m>y=f(x)</m> down by <m>c</m> units
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y = f(x+c)</m>, shift the graph of <m>y=f(x)</m> left by <m>c</m> units
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y = f(x-c)</m>, shift the graph of <m>y=f(x)</m> right by <m>c</m> units
+            </p>
+          </li>
+        </ul>
+      </p>
+    </assemblage>
+
+    <assemblage>
+      <title>Vertical and Horizontal Stretching/Reflecting</title>
+      <p>
+        Let <m>c \gt 1</m>. To obtain the graph of 
+        <ul>
+          <li>
+            <p>
+              <m>y = c\cdot f(x)</m>, stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>c</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y=\lrpar{\dfrac{1}{c}}\cdot f(x)</m>, shrink the graph of <m>y=f(x)</m> vertically by a factor of <m>c</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y= f(c\cdot x)</m>, shrink the graph of <m>y=f(x)</m> horizontally by a factor of <m>c</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y = f\lrpar{\dfrac{1}{c}\cdot x}</m>, stretch the graph of <m>y=f(x)</m> horizontally by a factor of <m>c</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y=-f(x)</m>, reflect the graph of <m>y=f(x)</m> about the <m>x-</m>axis
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>y=f(-x)</m>, reflect the graph of <m>y=f(x)</m> about the <m>y-</m>axis
+            </p>
+          </li>
+        </ul>
+      </p>
+    </assemblage>
+
+    <example>
+      <statement>
+        <p>
+          If <m>g(1) = 3</m>, what point must be on the graph of <m>h(t) = -2g(t-1)+6</m>?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>\lrpar{2,0}</m>
+        </p>
+      </solution>
+    </example>
+  </subsection>
 </section>
