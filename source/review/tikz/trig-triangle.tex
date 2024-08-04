@@ -1,0 +1,9 @@
+\begin{tikzpicture}[scale = .8]
+  \coordinate (one) at (0,0);
+  \coordinate (two) at (4,3); 
+  \coordinate (three) at (4,0);
+  \draw (one)--(two) node[midway, yshift = 9pt, sloped] {hyp};
+  \draw (two)--(three) node[midway, xshift = 14pt, yshift = -6pt] {opp};
+  \draw (three)--(one) node[midway, yshift = -9pt] {adj};
+  \draw (.75,0) node[yshift = 5pt] {$x$};
+\end{tikzpicture}

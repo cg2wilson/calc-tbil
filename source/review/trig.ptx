@@ -2,17 +2,490 @@
 
 <section xml:id="review-trig" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Trigonometry</title>
-  
-  
-  <subsection xml:id="review-trig-1">
-    <title>First Section</title>
-      
-      <p>
-        stuff here
-      </p>
-  
 
+  <subsection xml:id="review-trig-1">
+    <title>Definitions/Properties</title>
+
+      <sidebyside widths="40% 40%">
+        <tabular>
+          <row bottom="minor">
+            <cell colspan="3" halign="center">
+              Basic Trigonometric Functions
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>\sin x = \dfrac{opp}{hyp}</m>
+            </cell>
+            <cell>
+              <m>\cos x = \dfrac{adj}{hyp}</m>
+            </cell>
+            <cell>
+              <m>\tan x = \dfrac{opp}{adj}</m>
+            </cell>   
+          </row>
+          <row>
+            <cell>
+              <m>\csc x = \dfrac{hyp}{opp}</m>
+            </cell>
+            <cell>
+              <m>\sec x = \dfrac{hyp}{adj}</m>
+            </cell>
+            <cell>
+              <m>\cot x = \dfrac{adj}{opp}</m>
+            </cell>
+          </row>
+        </tabular>   
+        <image>
+          <description>
+            <p>
+              A right triangle with angle <m>x</m>, with hypotenuse labeled <q>hyp</q>, opposite side labeled <q>opp</q>, and adjacent labeled <q>adj</q>.  
+            </p>
+          </description>
+          <latex-image>
+            <xi:include href="./tikz/trig-triangle.tex" parse="text"/>
+          </latex-image>
+        </image>
+      </sidebyside> 
+    
+    <warning>
+      <p>
+        Trigonometric functions are <alert>functions</alert>, and always require an input (an angle). In particular, an expression like
+        <me>
+          \cos(x) = \dfrac{1}{3}
+        </me>
+        is appropriate, while
+        <me>
+          \cos = \dfrac{1}{3}
+        </me>
+        is <alert>inappropriate</alert>.
+      </p>
+    </warning> 
+
+    <assemblage>
+      <title>Properties of Trig Functions</title>
+      <tabular>
+        <row bottom="minor">
+          <cell>
+
+          </cell>
+          <cell>
+            Domain
+          </cell>
+          <cell>
+            Range
+          </cell>
+          <cell>
+            Period
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \sin (x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              [-1,1]
+            </m>
+          </cell>
+          <cell>
+            <m>
+              2\pi
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \cos (x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              [-1,1]
+            </m>
+          </cell>
+          <cell>
+            <m>
+              2\pi
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \tan (x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              x\neq \dfrac{\pi}{2} + \pi k,\,k\in \Z
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              \pi
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \cot (x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              x\neq \pi k,\,k\in \Z
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              \pi
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \sec (x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              x\neq \dfrac{\pi}{2} + \pi k,\,k\in \Z
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,1]\cup [1,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              2\pi
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \csc (x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              x\neq \pi k,\,k\in\Z
+            </m>
+          </cell>
+          <cell>
+            <m>
+              (-\infty,1]\cup [1,\infty)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              2\pi
+            </m>
+          </cell>
+        </row>
+      </tabular>
+    </assemblage>
 
   </subsection>
 
+  <subsection xml:id="review-trig-2">
+    <title>Radian Measure</title>
+    
+    <definition xml:id="def-radian">
+      <title>Radians</title>
+      <statement>
+        <p>
+          A <term>radian</term><idx><h>radian</h></idx> is defined to be the angle required to make the length of an arc on the circle the same length as the radius of the circle.
+        </p>
+      </statement>
+    </definition>
+
+    <assemblage>
+      <title>Converting Between Degrees and Radians</title>
+      <p>
+        <me>\pi \text{ radians }= 180\dc \qquad 1\dc = \dfrac{\pi}{180}\text{ radians} \qquad 1\text{ radian }= \dfrac{180\dc}{\pi}</me>
+      </p>
+    </assemblage>
+
+    <example>
+      <statement>
+        <p>
+          Convert <m>\dfrac{\pi}{45}</m> radians into degrees, and convert <m>215\dc</m> into radians.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>\dfrac{\pi}{45}</m> radians is equivalent to <m>4\dc</m>; <m>215\dc</m> is equivalent to <m>\dfrac{43\pi}{36}</m> radians
+        </p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="review-trig-3">
+    <title>Arc Length and Sector Area</title>
+    
+    <assemblage>
+      <title>Arc Length</title>
+      <p>
+        The length of an arc <m>s</m> of a circle of radius <m>r</m> is given by
+        <me>
+          s = r\theta
+        </me>
+        where <m>\theta</m> is the inscribed angle <em>in radians</em>.
+      </p>
+    </assemblage>
+
+    <assemblage>
+      <title>Area of a Sector</title>
+      <p>
+        The area <m>A</m> of a sector of a circle of radius <m>r</m> is given by 
+        <me>
+          A = \dfrac{1}{2}r^2\theta
+        </me>
+        where <m>\theta</m> is the inscribed angle <em>in radians</em>.
+      </p>
+    </assemblage>
+
+    <example>
+      <statement>
+        <p>
+          Find the area for a sector of a circle of radius 4 with an inscribed angle of <m>60\dc</m>, as well as the arc length.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>A = \dfrac{16\pi}{3}</m> and <m>s = \dfrac{4\pi}{3}</m>
+        </p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="review-trig-4">
+    <title>Unit Circle</title>
+    
+    <remark>
+      <p>
+        While not absolutely critical, it is good practice and will make your life much easier if you are familiar with the unit circle and its values. They are copied in the image below.
+      </p>
+    </remark>
+    
+    <figure xml:id="review-trig-unit-circle">
+      <caption>The Unit Circle</caption>
+      <image>
+        <latex-image>
+          <xi:include href="./tikz/unit-circle.tex" parse="text" />
+        </latex-image>        
+      </image>
+    </figure>
+  </subsection>
+
+  <subsection xml:id="review-trig-5">
+    <title>Identities</title>
+    
+    <assemblage>
+      <title>Useful Identities</title>
+      <tabular>
+        <row bottom="minor">
+          <cell>
+            Quotient Identities
+          </cell>
+          <cell>
+            Reciprocal Identities
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \tan (x) = \dfrac{\sin (x)}{\cos (x)}
+            </m>
+          </cell>
+          <cell>
+            <m>
+              \csc (x) = \dfrac{1}{\sin (x)}
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \cot (x) = \dfrac{\cos (x)}{\sin (x)}
+            </m>
+          </cell>
+          <cell>
+            <m>
+              \sec (x) = \dfrac{1}{\cos (x)}
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+
+          </cell>
+          <cell>
+            <m>
+              \cot (x) = \dfrac{1}{\tan (x)}
+            </m>
+          </cell>
+        </row>
+      </tabular>
+      <tabular>
+        <row bottom="minor">
+          <cell>
+            Double Angle Identities
+          </cell>
+          <cell>
+            Pythagorean Identities
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \sin (2x) = 2\sin (x)\cos (x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              \sin^2(x) + \cos^2(x) = 1
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \cos (2x) = 2\cos^2(x) - 1
+            </m>
+          </cell>
+          <cell>
+            <m>
+              1 + \cot^2(x) = \csc^2(x)
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \cos (2x) = 1-2\sin^2(x)
+            </m>
+          </cell>
+          <cell>
+            <m>
+              \tan^2(x) + 1 = \sec^2(x)
+            </m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            <m>
+              \cos (2x) = \cos^2(x) - \sin^2(x)
+            </m>
+          </cell>
+          <cell>
+
+          </cell>
+        </row>
+      </tabular>
+    </assemblage>
+  </subsection>
+
+  <subsection xml:id="review-trig-6">
+    <title>Trig Equations</title>
+    
+    <remark>
+      <p>
+        When solving equations involving trigonometric functions, the process is similar to solving polynomial functions; however, three things must be kept in mind:
+        <ul>
+          <li>
+            <p>
+              A trigonometric function <alert>must</alert> be of the form <m>\text{trig }(x)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              The range of the function in question
+            </p>
+          </li>
+          <li>
+            <p>
+              The interval(s) involved in the question
+            </p>
+          </li>
+        </ul>
+      </p>
+    </remark>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>\cos^2(x) - 2\cos (x) + 1 = 0</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>x = 0</m> is the base solution, but because <m>\cos (x)</m> has period <m>2\pi</m>, the solution set is
+          <me>
+            x = 2\pi k,\, k\in \Z
+          </me>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>\sin (3x) = \dfrac{1}{2}</m> on the interval <m>[0,2\pi)</m> and in general.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          On the interval <m>[0,2\pi)</m>, the solutions are
+          <me>
+            x = \dfrac{\pi}{18}, \dfrac{13\pi}{18}, \dfrac{25\pi}{18}
+          </me>
+          and 
+          <me>
+            x = \dfrac{5\pi}{18}, \dfrac{17\pi}{18}, \dfrac{29\pi}{18}
+          </me>
+        </p>
+        <p>
+          The general solutions are
+          <me>
+            x = \dfrac{\pi}{18} + \dfrac{2\pi}{3}k
+          </me>
+          and
+          <me>
+            x = \dfrac{5\pi}{18} + \dfrac{2\pi}{3}k
+          </me>
+          where <m>k\in \Z</m>
+        </p>
+      </solution>
+    </example>
+  </subsection>
 </section>
