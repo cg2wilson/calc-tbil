@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "0.1",
   "title": "Functions",
-  "body": " Functions   Basics   Relation\/Domain\/Range   A relation relation is a collection of ordered pairs of the form . The collection of first components in a relation is called the domain domain of the relation. The collection of second components in a relation is called the range range of the relation.     Input\/Output   In an ordered pair , the element is called an input input and the element is called an output output .     Function   A function function  is a rule which assigns to each input in the domain a single output in the range.      The relation is copied below. Is a function? Why or why not?     No, because the input is assigned two outputs: and .     Graph   The graph graph of a function is the collection of all coordinate pairs , plotted on a coordinate system.     Vertical Line Test   A relation is a function if and only if any vertical intersects the graph of the relation in at most one point.      Are both of these graphs functions? Why or why not?    Candidate function graph 1       Candidate function graph 2         The graph in is a function, because every input has only one output; however, the graph in is not a function because all inputs in       Below are numerical expressions for and . Is a function? What about ?                                                                                                     is not a function because the input has two outputs: and . However, is a function because every input has only one output.  Even though the input appears twice, it has the same output. So in a sense, we can consider this a duplicate entry.      Using Functions   Function Notation: Functions of a Single Variable  The notation has two pieces: an input and a rule. We are applying the rule  to the input  . The result is an output, usually denoted . So we can write as a way to say the output is the result of applying the rule to the input . This should be read as equals of     Evaluating Functions  To evaluate a function , replace all instances of the variable with the input shown.     Let . Evaluate the following:                                                                Consider the following function rules: . Write the function notation for the descriptions given, then compute.    applied to the input 5     applied to the input      applied to the input                               Combining Functions   Function Combinations    Name  Notation  Translation  Note    Sum            Difference            Product         can be written as as well    Quotient         cannot be zero       Let and . Write and simplify the following.                                                     Functions can also be combined using composition : using one function as an input to another. The notation is given by      Let and . Write and simplify the following.                                                     Given two functions and , the composition has the domain and the range      Consider the functions and given below.                                                                                                        Find the following.        The domain and range of     The domain and range of                 and      and          For each function below, completely decompose the function into smaller ones and find the domain of the composite.                          Decompositions can vary; the answers shown here are suggested.    where and      where and      where and      where and          Let . Find such that      and       Let . Find functions such that      , ,       Symmetry    A function is said to be even even function if it has the property that for all in its domain.  A function is said to be odd odd function if it has the property that for all in its domain.      Determine if the following functions are even, odd, or neither.                        Odd    Even    Neither        "
+  "body": " Functions   Basics   Relation\/Domain\/Range   A relation relation is a collection of ordered pairs of the form . The collection of first components in a relation is called the domain domain of the relation. The collection of second components in a relation is called the range range of the relation.     Input\/Output   In an ordered pair , the element is called an input input and the element is called an output output .     Function   A function function  is a rule which assigns to each input in the domain a single output in the range.      The relation is copied below. Is a function? Why or why not?     No, because the input is assigned two outputs: and .     Graph   The graph graph of a function is the collection of all coordinate pairs , plotted on a coordinate system.     Vertical Line Test   A relation is a function if and only if any vertical intersects the graph of the relation in at most one point.      Are both of these graphs functions? Why or why not?    Candidate function graph 1       Candidate function graph 2         The graph in is a function, because every input has only one output; however, the graph in is not a function because all inputs in       Below are numerical expressions for and . Is a function? What about ?                                                                                                     is not a function because the input has two outputs: and . However, is a function because every input has only one output.  Even though the input appears twice, it has the same output. So in a sense, we can consider this a duplicate entry.      Using Functions   Function Notation: Functions of a Single Variable  The notation has two pieces: an input and a rule. We are applying the rule  to the input  . The result is an output, usually denoted . So we can write as a way to say the output is the result of applying the rule to the input . This should be read as equals of     Evaluating Functions  To evaluate a function , replace all instances of the variable with the input shown.     Let . Evaluate the following:                                                                Consider the following function rules: . Write the function notation for the descriptions given, then compute.    applied to the input 5     applied to the input      applied to the input                               Combining Functions   Function Combinations    Name  Notation  Translation  Note    Sum            Difference            Product         can be written as as well    Quotient         cannot be zero       Let and . Write and simplify the following.                                                     Functions can also be combined using composition : using one function as an input to another. The notation is given by      Let and . Write and simplify the following.                                                     Given two functions and , the composition has the domain and the range      Consider the functions and given below.                                                                                                        Find the following.        The domain and range of     The domain and range of                 and      and          For each function below, completely decompose the function into smaller ones and find the domain of the composite.                          Decompositions can vary; the answers shown here are suggested.    where and      where and      where and      where and          Let . Find such that      and       Let . Find functions such that      , ,       Symmetry    A function is said to be even even function if it has the property that for all in its domain.  A function is said to be odd odd function if it has the property that for all in its domain.      Determine if the following functions are even, odd, or neither.                        Odd    Even    Neither         Transformations of Functions   Vertical and Horizontal Shifts  Let . To obtain the graph of    , shift the graph of up by units     , shift the graph of down by units     , shift the graph of left by units     , shift the graph of right by units       Vertical and Horizontal Stretching\/Reflecting  Let . To obtain the graph of    , stretch the graph of vertically by a factor of      , shrink the graph of vertically by a factor of      , shrink the graph of horizontally by a factor of      , stretch the graph of horizontally by a factor of      , reflect the graph of about the axis     , reflect the graph of about the axis        If , what point must be on the graph of ?          "
 },
 {
   "id": "def-relation-domain-range",
@@ -217,13 +217,193 @@ var ptx_lunr_docs = [
   "body": "  Determine if the following functions are even, odd, or neither.                        Odd    Even    Neither      "
 },
 {
+  "id": "review-functions-5-4",
+  "level": "2",
+  "url": "review-functions.html#review-functions-5-4",
+  "type": "Example",
+  "number": "0.1.25",
+  "title": "",
+  "body": "  If , what point must be on the graph of ?        "
+},
+{
   "id": "review-classes",
   "level": "1",
   "url": "review-classes.html",
   "type": "Section",
   "number": "0.2",
   "title": "Classes of Functions",
-  "body": " Classes of Functions   First Section  stuff here   "
+  "body": " Classes of Functions   Linear Functions   Linear Function   A linear function linear function takes the form where is the slope of the line and is the location of the intercept.     Slope   The slope slope of a line is the ratio of the change in output value when the input changes by a specific amount.  Given points and on a line, the slope of the line is found by If we write and , then we can rewrite slope as      Three Forms of a Line  A line is in slope-intercept form slope-intercept form if it is written as where is the slope of the line and is the location of the intercept.  It is in point-slope form point-slope form if it is written as where is the slope of the line and the line goes through the point .  The line is in standard form standard form if it is written as where are real numbers such that are not both zero.    Four Types of Lines  Consider a line of the form .   If , then the line has slope and passes through the point . In particular, the line is neither horizontal nor vertical.  If , then the line has negative slope; if , then the line has positive slope.    If , then the line has slope and passes through the point . In particular, the line is horizontal with equation     If , then the line has undefined slope and passes through the point . In particular, it is vertical with equation         Polynomials    A function is called a polynomial polynomial function if it takes the form where is a non-negative integer and the numbers are called the coefficients coefficient of the polynomial. The degree degree of a polynomial is the power of the leading term ( ).     Domain and Range of Polynomials  Let be a polynomial, and let be some real number    Type  Domain  Range    Even Degree,           Even Degree,           Odd Degree,           Odd Degree,             Some common polynomials are:    Linear : These are described above     Quadratic : They take the form      Cubic : These take the form        Zeros of a Polynomial  The zeros of any polynomial are found by solving the equation In paticular, if has zeros , then can be written as A zero is said to have multiplicity  if the factor occurs times.    Properties and Zeros of a Quadratic  A quadratic function has   Two real solutions if     One real solution if     No real solutions if      The vertex vertex (of quadratic) of a quadratic function is located at the point The zeros, if they exist, are located at and i.e., the zeros are always units away from the vertex.    Quadratic Formula  For a quadratic function of the form , the solutions are given by The term is called the discriminant discriminant (of a polynomial) of the quadratic.     Consider the quadratic function .   Use the quadratic formula to identify the zeros of the function.    Find the zeros again, but this time by factoring.    What is the range of ?          Identifying , we have which yields the solutions and     Using any preferred method, we see that which gives the same zeros as in (a).    Since , and the vertex is at the range is          Rational Functions   Rational Functions   A rational function rational function is one which takes the form where and are both polynomials     Domain of Rational Functions  The domain of a rational function is the set      Power Functions   Power Functions   A power function power function is any function of the form where is any real number.     There are two power functions which see special use:   If , where is an integer, then we call the function a root function root function , since the rules of exponents say that   If , then we have a square root function; if , we have a cube root function.    If , then the function is called the reciprocal function reciprocal function .  The reciprocal function can also be considered a rational function, with and .        Algebraic & Transcendental Functions   Algebraic Function   The function is called algebraic algebraic function if it can be constructed using algebraic operations such as addition, subtraction, multiplication, division, and taking roots, starting with polynomials.      Find the domain of the function           Exponential & Logarithmic Function   An exponential function exponential function is a function of the form where the base is a positive constant.  A logarithmic function logarithmic function is a function of the form where the base is a positive constant.     Domain and Range of Transcendental Functions    Function  Domain  Range  Asymptote                                   Find the domain of the function            Piecewise Functions   Piecewise Functions   A piecewise function is a function defined by different formulas in different parts of its domain.     The most common piecewise function you will encounter in Calculus is the absolute value function absolute value function , which is defined by     "
+},
+{
+  "id": "def-linear-function",
+  "level": "2",
+  "url": "review-classes.html#def-linear-function",
+  "type": "Definition",
+  "number": "0.2.1",
+  "title": "Linear Function.",
+  "body": " Linear Function   A linear function linear function takes the form where is the slope of the line and is the location of the intercept.   "
+},
+{
+  "id": "def-slope",
+  "level": "2",
+  "url": "review-classes.html#def-slope",
+  "type": "Definition",
+  "number": "0.2.2",
+  "title": "Slope.",
+  "body": " Slope   The slope slope of a line is the ratio of the change in output value when the input changes by a specific amount.  Given points and on a line, the slope of the line is found by If we write and , then we can rewrite slope as    "
+},
+{
+  "id": "review-classes-1-4-2",
+  "level": "2",
+  "url": "review-classes.html#review-classes-1-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "slope-intercept form "
+},
+{
+  "id": "review-classes-1-4-3",
+  "level": "2",
+  "url": "review-classes.html#review-classes-1-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "point-slope form "
+},
+{
+  "id": "review-classes-1-4-4",
+  "level": "2",
+  "url": "review-classes.html#review-classes-1-4-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "standard form "
+},
+{
+  "id": "def-polynomial",
+  "level": "2",
+  "url": "review-classes.html#def-polynomial",
+  "type": "Definition",
+  "number": "0.2.3",
+  "title": "",
+  "body": "  A function is called a polynomial polynomial function if it takes the form where is a non-negative integer and the numbers are called the coefficients coefficient of the polynomial. The degree degree of a polynomial is the power of the leading term ( ).   "
+},
+{
+  "id": "review-classes-2-4",
+  "level": "2",
+  "url": "review-classes.html#review-classes-2-4",
+  "type": "Remark",
+  "number": "0.2.4",
+  "title": "",
+  "body": " Some common polynomials are:    Linear : These are described above     Quadratic : They take the form      Cubic : These take the form      "
+},
+{
+  "id": "review-classes-2-6-3",
+  "level": "2",
+  "url": "review-classes.html#review-classes-2-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "vertex "
+},
+{
+  "id": "review-classes-2-7-2",
+  "level": "2",
+  "url": "review-classes.html#review-classes-2-7-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "discriminant "
+},
+{
+  "id": "review-classes-2-8",
+  "level": "2",
+  "url": "review-classes.html#review-classes-2-8",
+  "type": "Example",
+  "number": "0.2.5",
+  "title": "",
+  "body": "  Consider the quadratic function .   Use the quadratic formula to identify the zeros of the function.    Find the zeros again, but this time by factoring.    What is the range of ?          Identifying , we have which yields the solutions and     Using any preferred method, we see that which gives the same zeros as in (a).    Since , and the vertex is at the range is       "
+},
+{
+  "id": "def-rational-function",
+  "level": "2",
+  "url": "review-classes.html#def-rational-function",
+  "type": "Definition",
+  "number": "0.2.6",
+  "title": "Rational Functions.",
+  "body": " Rational Functions   A rational function rational function is one which takes the form where and are both polynomials   "
+},
+{
+  "id": "def-power-function",
+  "level": "2",
+  "url": "review-classes.html#def-power-function",
+  "type": "Definition",
+  "number": "0.2.7",
+  "title": "Power Functions.",
+  "body": " Power Functions   A power function power function is any function of the form where is any real number.   "
+},
+{
+  "id": "review-classes-4-3",
+  "level": "2",
+  "url": "review-classes.html#review-classes-4-3",
+  "type": "Remark",
+  "number": "0.2.8",
+  "title": "",
+  "body": " There are two power functions which see special use:   If , where is an integer, then we call the function a root function root function , since the rules of exponents say that   If , then we have a square root function; if , we have a cube root function.    If , then the function is called the reciprocal function reciprocal function .  The reciprocal function can also be considered a rational function, with and .     "
+},
+{
+  "id": "def-algebraic-function",
+  "level": "2",
+  "url": "review-classes.html#def-algebraic-function",
+  "type": "Definition",
+  "number": "0.2.9",
+  "title": "Algebraic Function.",
+  "body": " Algebraic Function   The function is called algebraic algebraic function if it can be constructed using algebraic operations such as addition, subtraction, multiplication, division, and taking roots, starting with polynomials.   "
+},
+{
+  "id": "review-classes-5-3",
+  "level": "2",
+  "url": "review-classes.html#review-classes-5-3",
+  "type": "Example",
+  "number": "0.2.10",
+  "title": "",
+  "body": "  Find the domain of the function         "
+},
+{
+  "id": "def-exp-log-function",
+  "level": "2",
+  "url": "review-classes.html#def-exp-log-function",
+  "type": "Definition",
+  "number": "0.2.11",
+  "title": "Exponential &amp; Logarithmic Function.",
+  "body": " Exponential & Logarithmic Function   An exponential function exponential function is a function of the form where the base is a positive constant.  A logarithmic function logarithmic function is a function of the form where the base is a positive constant.   "
+},
+{
+  "id": "review-classes-5-6",
+  "level": "2",
+  "url": "review-classes.html#review-classes-5-6",
+  "type": "Example",
+  "number": "0.2.12",
+  "title": "",
+  "body": "  Find the domain of the function         "
+},
+{
+  "id": "def-piecewise-function",
+  "level": "2",
+  "url": "review-classes.html#def-piecewise-function",
+  "type": "Definition",
+  "number": "0.2.13",
+  "title": "Piecewise Functions.",
+  "body": " Piecewise Functions   A piecewise function is a function defined by different formulas in different parts of its domain.   "
+},
+{
+  "id": "review-classes-6-3",
+  "level": "2",
+  "url": "review-classes.html#review-classes-6-3",
+  "type": "Remark",
+  "number": "0.2.14",
+  "title": "",
+  "body": " The most common piecewise function you will encounter in Calculus is the absolute value function absolute value function , which is defined by   "
 },
 {
   "id": "review-trig",
@@ -232,7 +412,88 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "0.3",
   "title": "Trigonometry",
-  "body": " Trigonometry   First Section  stuff here   "
+  "body": " Trigonometry   Definitions\/Properties     Basic Trigonometric Functions                            A right triangle with angle , with hypotenuse labeled hyp , opposite side labeled opp , and adjacent labeled adj .       Trigonometric functions are functions , and always require an input (an angle). In particular, an expression like is appropriate, while is inappropriate .    Properties of Trig Functions      Domain  Range  Period                                                                                           Radian Measure   Radians   A radian radian is defined to be the angle required to make the length of an arc on the circle the same length as the radius of the circle.     Converting Between Degrees and Radians        Convert radians into degrees, and convert into radians.     radians is equivalent to ; is equivalent to radians      Arc Length and Sector Area   Arc Length  The length of an arc of a circle of radius is given by where is the inscribed angle in radians .    Area of a Sector  The area of a sector of a circle of radius is given by where is the inscribed angle in radians .     Find the area for a sector of a circle of radius 4 with an inscribed angle of , as well as the arc length.     and       Unit Circle   While not absolutely critical, it is good practice and will make your life much easier if you are familiar with the unit circle and its values. They are copied in the image below.    The Unit Circle        Identities   Useful Identities    Quotient Identities  Reciprocal Identities                             Double Angle Identities  Pythagorean Identities                                      Trig Equations   When solving equations involving trigonometric functions, the process is similar to solving polynomial functions; however, three things must be kept in mind:   A trigonometric function must be of the form     The range of the function in question    The interval(s) involved in the question        Solve the equation      is the base solution, but because has period , the solution set is       Solve the equation on the interval and in general.    On the interval , the solutions are and   The general solutions are and where      "
+},
+{
+  "id": "review-trig-1-3",
+  "level": "2",
+  "url": "review-trig.html#review-trig-1-3",
+  "type": "Warning",
+  "number": "0.3.1",
+  "title": "",
+  "body": " Trigonometric functions are functions , and always require an input (an angle). In particular, an expression like is appropriate, while is inappropriate .  "
+},
+{
+  "id": "def-radian",
+  "level": "2",
+  "url": "review-trig.html#def-radian",
+  "type": "Definition",
+  "number": "0.3.2",
+  "title": "Radians.",
+  "body": " Radians   A radian radian is defined to be the angle required to make the length of an arc on the circle the same length as the radius of the circle.   "
+},
+{
+  "id": "review-trig-2-4",
+  "level": "2",
+  "url": "review-trig.html#review-trig-2-4",
+  "type": "Example",
+  "number": "0.3.3",
+  "title": "",
+  "body": "  Convert radians into degrees, and convert into radians.     radians is equivalent to ; is equivalent to radians   "
+},
+{
+  "id": "review-trig-3-4",
+  "level": "2",
+  "url": "review-trig.html#review-trig-3-4",
+  "type": "Example",
+  "number": "0.3.4",
+  "title": "",
+  "body": "  Find the area for a sector of a circle of radius 4 with an inscribed angle of , as well as the arc length.     and    "
+},
+{
+  "id": "review-trig-4-2",
+  "level": "2",
+  "url": "review-trig.html#review-trig-4-2",
+  "type": "Remark",
+  "number": "0.3.5",
+  "title": "",
+  "body": " While not absolutely critical, it is good practice and will make your life much easier if you are familiar with the unit circle and its values. They are copied in the image below.  "
+},
+{
+  "id": "review-trig-unit-circle",
+  "level": "2",
+  "url": "review-trig.html#review-trig-unit-circle",
+  "type": "Figure",
+  "number": "0.3.6",
+  "title": "",
+  "body": " The Unit Circle     "
+},
+{
+  "id": "review-trig-6-2",
+  "level": "2",
+  "url": "review-trig.html#review-trig-6-2",
+  "type": "Remark",
+  "number": "0.3.7",
+  "title": "",
+  "body": " When solving equations involving trigonometric functions, the process is similar to solving polynomial functions; however, three things must be kept in mind:   A trigonometric function must be of the form     The range of the function in question    The interval(s) involved in the question     "
+},
+{
+  "id": "review-trig-6-3",
+  "level": "2",
+  "url": "review-trig.html#review-trig-6-3",
+  "type": "Example",
+  "number": "0.3.8",
+  "title": "",
+  "body": "  Solve the equation      is the base solution, but because has period , the solution set is    "
+},
+{
+  "id": "review-trig-6-4",
+  "level": "2",
+  "url": "review-trig.html#review-trig-6-4",
+  "type": "Example",
+  "number": "0.3.9",
+  "title": "",
+  "body": "  Solve the equation on the interval and in general.    On the interval , the solutions are and   The general solutions are and where    "
 },
 {
   "id": "review-inverse",
@@ -241,7 +502,79 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "0.4",
   "title": "Inverses of Functions",
-  "body": " Inverses of Functions   First Section  stuff here   "
+  "body": " Inverses of Functions   Inverse Functions & Properties    The table below gives the population of a bacterial culture, hours after it is introduced to an agar-filled petri dish.     hours                                hours                               The inverse function  gives the time elapsed since a bacterial culture was introduced to an agar-filled petri dish, when the population is bacteria. This creates the table below.     hours                                hours                                  One-to-One Function   A function is said to be one-to-one one-to-one function if every output has a unique input . Mathematically,      Inverse Function   Suppose the function is one-to-one with domain and range . Then, its inverse function has domain and range , and is defined by the equation       Is one-to-one? Why or why not?    Yes, it is one-to-one. Examining the graph shows that there is no spot where the function turns back on itself.      Is one-to-one? Why or why not?    No, it is not one-to-one. For example, .     Cancellation Properties  If is a one-to-one function with inverse , then and      is a special notation to indicate the function inverse ; you should not confuse this with the notation for the multiplicative inverse or reciprocal , such as . That is,    denotes the inverse of a function     denotes the multiplicative inverse of a variable, i.e.         Use the table below to answer the questions. If an answer does not exist, write DNE.                                                                                                                   DNE                  Restricting the Domain  Let be a function which is not one-to-one on domain . The process of restricting the domain restricting the domain of reduces the size of the domain so that the new graph is one-to-one on the smaller domain,     "
+},
+{
+  "id": "review-inverse-1-2",
+  "level": "2",
+  "url": "review-inverse.html#review-inverse-1-2",
+  "type": "Example",
+  "number": "0.4.1",
+  "title": "",
+  "body": "  The table below gives the population of a bacterial culture, hours after it is introduced to an agar-filled petri dish.     hours                                hours                               The inverse function  gives the time elapsed since a bacterial culture was introduced to an agar-filled petri dish, when the population is bacteria. This creates the table below.     hours                                hours                                "
+},
+{
+  "id": "def-injective",
+  "level": "2",
+  "url": "review-inverse.html#def-injective",
+  "type": "Definition",
+  "number": "0.4.2",
+  "title": "One-to-One Function.",
+  "body": " One-to-One Function   A function is said to be one-to-one one-to-one function if every output has a unique input . Mathematically,    "
+},
+{
+  "id": "def-inverse-function",
+  "level": "2",
+  "url": "review-inverse.html#def-inverse-function",
+  "type": "Definition",
+  "number": "0.4.3",
+  "title": "Inverse Function.",
+  "body": " Inverse Function   Suppose the function is one-to-one with domain and range . Then, its inverse function has domain and range , and is defined by the equation    "
+},
+{
+  "id": "review-inverse-1-5",
+  "level": "2",
+  "url": "review-inverse.html#review-inverse-1-5",
+  "type": "Example",
+  "number": "0.4.4",
+  "title": "",
+  "body": "  Is one-to-one? Why or why not?    Yes, it is one-to-one. Examining the graph shows that there is no spot where the function turns back on itself.   "
+},
+{
+  "id": "review-inverse-1-6",
+  "level": "2",
+  "url": "review-inverse.html#review-inverse-1-6",
+  "type": "Example",
+  "number": "0.4.5",
+  "title": "",
+  "body": "  Is one-to-one? Why or why not?    No, it is not one-to-one. For example, .   "
+},
+{
+  "id": "review-inverse-1-8",
+  "level": "2",
+  "url": "review-inverse.html#review-inverse-1-8",
+  "type": "Warning",
+  "number": "0.4.6",
+  "title": "",
+  "body": "  is a special notation to indicate the function inverse ; you should not confuse this with the notation for the multiplicative inverse or reciprocal , such as . That is,    denotes the inverse of a function     denotes the multiplicative inverse of a variable, i.e.      "
+},
+{
+  "id": "review-inverse-1-9",
+  "level": "2",
+  "url": "review-inverse.html#review-inverse-1-9",
+  "type": "Example",
+  "number": "0.4.7",
+  "title": "",
+  "body": "  Use the table below to answer the questions. If an answer does not exist, write DNE.                                                                                                                   DNE                "
+},
+{
+  "id": "review-inverse-1-10-2",
+  "level": "2",
+  "url": "review-inverse.html#review-inverse-1-10-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "restricting the domain "
 },
 {
   "id": "L1",
