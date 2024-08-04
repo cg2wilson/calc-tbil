@@ -5,12 +5,506 @@
   
   
   <subsection xml:id="review-inverse-1">
-    <title>First Section</title>
+    <title>Inverse Functions &amp; Properties</title>
       
+    <example>
+      <statement>
+        <p>
+          The table below gives the population <m>P(t)</m> of a bacterial culture, <m>t</m> hours after it is introduced to an agar-filled petri dish.
+        </p>
+        <tabular>
+          <row bottom="minor">
+            <cell>
+              <m>t</m> hours
+            </cell>
+            <cell>
+              <m>
+                0
+              </m>
+            </cell>
+            <cell>
+              <m>
+                1
+              </m>
+            </cell>
+            <cell>
+              <m>
+                2
+              </m>
+            </cell>
+            <cell>
+              <m>
+                3
+              </m>
+            </cell>
+            <cell>
+              <m>
+                4
+              </m>
+            </cell>
+            <cell>
+              <m>
+                5
+              </m>
+            </cell>
+            <cell>
+              <m>
+                6
+              </m>
+            </cell>
+            <cell>
+              <m>
+                7
+              </m>
+            </cell>
+            <cell>
+              <m>
+                8
+              </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>
+                t = \inv{P}(N)
+              </m>
+              hours
+            </cell>
+            <cell>
+              <m>
+                150
+              </m>
+            </cell>
+            <cell>
+              <m>
+                165
+              </m>
+            </cell>
+            <cell>
+              <m>
+                182
+              </m>
+            </cell>
+            <cell>
+              <m>
+                200
+              </m>
+            </cell>
+            <cell>
+              <m>
+                220
+              </m>
+            </cell>
+            <cell>
+              <m>
+                243
+              </m>
+            </cell>
+            <cell>
+              <m>
+                267
+              </m>
+            </cell>
+            <cell>
+              <m>
+                294
+              </m>
+            </cell>
+            <cell>
+              <m>
+                324
+              </m>
+            </cell>
+          </row>
+        </tabular>
+        <p>
+          The <em>inverse function</em> <m>\inv{P}(N)</m> gives the time elapsed since a bacterial culture was introduced to an agar-filled petri dish, when the population is <m>N</m> bacteria. This creates the table below.
+        </p>
+        <tabular>
+          <row bottom="minor">
+            <cell>
+              <m>
+                t = \inv{P}(N)
+              </m>
+              hours
+            </cell>
+            <cell>
+              <m>
+                150
+              </m>
+            </cell>
+            <cell>
+              <m>
+                165
+              </m>
+            </cell>
+            <cell>
+              <m>
+                182
+              </m>
+            </cell>
+            <cell>
+              <m>
+                200
+              </m>
+            </cell>
+            <cell>
+              <m>
+                220
+              </m>
+            </cell>
+            <cell>
+              <m>
+                243
+              </m>
+            </cell>
+            <cell>
+              <m>
+                267
+              </m>
+            </cell>
+            <cell>
+              <m>
+                294
+              </m>
+            </cell>
+            <cell>
+              <m>
+                324
+              </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>t</m> hours
+            </cell>
+            <cell>
+              <m>
+                0
+              </m>
+            </cell>
+            <cell>
+              <m>
+                1
+              </m>
+            </cell>
+            <cell>
+              <m>
+                2
+              </m>
+            </cell>
+            <cell>
+              <m>
+                3
+              </m>
+            </cell>
+            <cell>
+              <m>
+                4
+              </m>
+            </cell>
+            <cell>
+              <m>
+                5
+              </m>
+            </cell>
+            <cell>
+              <m>
+                6
+              </m>
+            </cell>
+            <cell>
+              <m>
+                7
+              </m>
+            </cell>
+            <cell>
+              <m>
+                8
+              </m>
+            </cell>
+          </row>
+        </tabular>
+      </statement>
+    </example>
+
+    <definition xml:id="def-injective">
+      <title>One-to-One Function</title>
+      <statement>
+        <p>
+          A function <m>f</m> is said to be <term>one-to-one</term><idx><h>one-to-one function</h></idx> if every output <m>f(x)</m> has a unique input <m>x</m>. Mathematically,
+          <me>
+            f(x_1) = f(x_2) \iff x_1=x_2
+          </me>
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="def-inverse-function">
+      <title>Inverse Function</title>
+      <statement>
+        <p>
+          Suppose the function <m>f</m> is one-to-one with domain <m>A</m> and range <m>B</m>. Then, its inverse function <m>\inv{f}</m> has domain <m>B</m> and range <m>A</m>, and is defined by the equation
+          <me>
+            f(x) = y \iff \inv{f}(y) = x
+          </me>
+        </p>
+      </statement>
+    </definition>
+
+    <example>
+      <statement>
+        <p>
+          Is <m>f(x) =x ^5</m> one-to-one? Why or why not?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Yes, it is one-to-one. Examining the graph shows that there is no spot where the function turns back on itself.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Is <m>f(x) = x^2</m> one-to-one? Why or why not?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          No, it is not one-to-one. For example, <m>f(-2) = 4 = f(2)</m>.
+        </p>
+      </solution>
+    </example>
+
+    <assemblage>
+      <title>Cancellation Properties</title>
       <p>
-        stuff here
+        If <m>f(x)</m> is a one-to-one function with inverse <m>\inv{f}(x)</m>, then
+        <me>
+          f(\inv{f}(x)) = x
+        </me>
+        and
+        <me>
+          \inv{f}(f(x)) = x
+        </me>
       </p>
-  
+    </assemblage>
+
+    <warning>
+      <p>
+        <m>\inv{f}</m> is a special notation to indicate the <alert>function inverse</alert>; you should not confuse this with the notation for the <em>multiplicative inverse</em> or <em>reciprocal</em>, such as <m>\inv{x}</m>. That is,
+        <ul>
+          <li>
+            <p>
+              <m>\inv{f}(x)</m> denotes the inverse of a function
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\inv{x}</m> denotes the multiplicative inverse of a variable, i.e. <m>\inv{x} = \dfrac{1}{x}</m>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </warning>
+
+    <example>
+      <statement>
+        <p>
+          Use the table below to answer the questions. If an answer does not exist, write DNE.
+        </p>
+        <tabular>
+          <row bottom="minor">
+            <cell>
+              <m>
+                x
+              </m>
+            </cell>
+            <cell>
+              <m>
+                f(x)
+              </m>
+            </cell>
+            <cell>
+              <m>
+                g(x)
+              </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>
+                0
+              </m>
+            </cell>
+            <cell>
+              <m>
+                5
+              </m>
+            </cell>
+            <cell>
+              <m>
+                10
+              </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>
+                1
+              </m>
+            </cell>
+            <cell>
+              <m>
+                8
+              </m>
+            </cell>
+            <cell>
+              <m>
+                7
+              </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>
+                2
+              </m>
+            </cell>
+            <cell>
+              <m>
+                -1
+              </m>
+            </cell>
+            <cell>
+              <m>
+                3
+              </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>
+                3
+              </m>
+            </cell>
+            <cell>
+              <m>
+                13
+              </m>
+            </cell>
+            <cell>
+              <m>
+                1
+              </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>
+                4
+              </m>
+            </cell>
+            <cell>
+              <m>
+                5
+              </m>
+            </cell>
+            <cell>
+              <m>
+                9
+              </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>
+                5
+              </m>
+            </cell>
+            <cell>
+              <m>
+                3
+              </m>
+            </cell>
+            <cell>
+              <m>
+                -2
+              </m>
+            </cell>
+          </row>
+        </tabular>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>\inv{g}(3)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  \inv{f}(5)
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  f(\inv{f}(13))
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  (\inv{g}\circ \inv{f})(8)
+                </m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                <m>
+                  2
+                </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                DNE
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>13</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>
+                  3
+                </m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+    
+    <assemblage>
+      <title>Restricting the Domain</title>
+      <p>
+        Let <m>f(x)</m> be a function which is not one-to-one on domain <m>A</m>. The process of <term>restricting the domain</term><idx><h>restricting the domain</h></idx> of <m>f(x)</m> reduces the size of the domain <m>A</m> so that the new graph <m>\overline{f(x)}</m> is one-to-one on the smaller domain, <m>\overline{A}</m>
+      </p>
+    </assemblage>
 
 
   </subsection>
