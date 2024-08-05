@@ -20,23 +20,238 @@
 
         <!-- 
         I think that the general structure goes like this:
-        1) Activity finding slope of a line
-        2) Activity finding slope of a polynomial with deg(P) > 1
-        3) Transition language from "slope" to "average rate of change"
-        4) Define AROC
-        5) Reword d-aroc-activity-ball1 so that average rate of change can be related to average velocity
-        6) Extract conjecture about what happens to AROC as interval decreases
+            1) Activity finding slope of a line
+            2) Activity finding slope of a polynomial with deg(P) > 1
+            3) Transition language from "slope" to "average rate of change"
+            4) Define AROC
+            5) Reword d-aroc-activity-ball1 so that average rate of change can be related to average velocity
+            6) Extract conjecture about what happens to AROC as interval decreases
         7) Definition of instantaneous rate of change
         8) Interpretations of instantaneous rate of change
         9) Preview-type questions involving alternate expressions for the difference quotient
         -->
 
-        <activity xml:id = "D-aroc-activity-ball1">
+        <activity xml:id="D-aroc-activity-slope1">
+            <introduction>
+                <p>
+                    A line goes through the points <m>(1,1)</m> and <m>(4,7)</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the slope of the line?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Undefined slope
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        2
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following statements best describes what the slope tells you?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    For every increase of one in the output values, the input values increase by two.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    For every increase of one in the input values, the output values increase by two.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    For every increase of one in the input values, the output values stay the same.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The slope does not tell you a relationship between the input values and the output values.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>f(x)</m> outputs the profit of a company (in hundred dollars) when the store is open <m>x</m> hours, write an interpretation for the slope using part (b).
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="D-aroc-activity-slope2">
+            <introduction>
+                <p>
+                    Now consider the function <m>g(t) = 3t^2 - t^3</m>. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        True or false: <q>slope</q> for <m>g(t)</m> means the same thing as it does for <m>f(x)</m> in <xref ref="D-aroc-activity-slope1"/>. Be prepared to explain your response.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    True
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    False
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        True or false: We can find the slope of the line between two points on <m>g(t)</m> the same way as we could find the slope of the line between two points on <m>f(x)</m> in <xref ref="D-aroc-activity-slope1"/>.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    True
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    False
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find the slope of the line between <m>g(1)</m> and <m>g(3)</m>. What does the slope of the line you found in part (c) mean for the function?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Assume that <m>g(t)</m> gives the distance (in miles) a capybara is from its home tree, <m>t</m> hours after a scrumptious nap. 
+                        <ol>
+                            <li>
+                                <p>
+                                    What does <m>g(1)</m> mean?
+                                    <ol marker="A." cols="2">
+                                        <li>
+                                            <p>
+                                                The distance the capybara is from its home tree after <m>1</m> hour
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                The total distance the capybara has traveled after <m>1</m> hour
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                The capybara's velocity (in miles per hour) after <m>1</m> hour
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Cannot be determined with this information
+                                            </p>
+                                        </li>
+                                    </ol>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Use your answer to part (a) to identify what <m>g(3)</m> means in context.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    In part (c), you found the value of the slope between <m>(1,g(1))</m> and <m>(3,g(3))</m>. What units should be attached to the slope now?
+                                    <ol marker="A." cols="2">
+                                        <li>
+                                            <p>
+                                                miles
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                hours
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                hours per mile
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                miles per hour
+                                            </p>
+                                        </li>
+                                    </ol>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-aroc">
+            <title>Average Rate of Change</title>
+            <statement>
+                <p>
+                    Let <m>f(x)</m> be a continuous function on some interval <m>[a,b]</m>. For two inputs <m>x_1</m> and <m>x_2</m> in <m>[a,b]</m>, the <term>average rate of change</term><idx><h>average rate of change</h></idx><idx><h>rate of change (average)</h></idx> of <m>f(x)</m> between <m>x_1</m> and <m>x_2</m> is given by
+                    <me>
+                        \dfrac{f(x_2)-f(x_1)}{x_2-x_1}
+                    </me>
+                </p>
+                <p>
+                    In the context of motion, the average rate of change of position is called <em>average velocity</em>.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="D-aroc-activity-ball">
             <introduction> 
                 <p>
                     In this activity you will study the velocity of a ball falling under gravity. The height of the ball (in feet) is given by the formula <m> f(t) = 64-16(t-1)^2</m>, where <m>t</m> is measured in seconds. For your convenience, below you will find a table of values for <m>f(t)</m>.
                 </p>
-                <table xml:id="table-aroc-activity-ball1">
+                <table>
                     <tabular>
                         <row bottom="minor">
                             <cell>
@@ -117,11 +332,119 @@
             <task>
                 <statement>
                     <p>
-                        If we wanted to approximate the velocity at the instant <m>t=2</m>, what would be your best estimate for this instantaneous velocity?
+                        If we wanted to approximate the velocity at the instant <m>t=2</m>, what would be your best estimate for this velocity? We call a rate of change at a single instant (rather than over an interval) the <em>instantaneous rate of change</em>, or <em>instantaneous velocity</em> in this context.
                     </p>
                 </statement>
             </task> 
         </activity>
+
+        <activity xml:id="d-aroc-activity-iroc">
+            <introduction>
+                <p>
+                    Think again about the ball falling in <xref ref="D-aroc-activity-ball"/>. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Why are we unable to use the average rate of change formula to answer part (d) of <xref ref="D-aroc-activity-ball"/>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    We are actually able to use the average rate of change formula, we just didn't use it there.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    If we computed it using <m>t_1=t_2=2</m>, we would end up with <m>\dfrac{0}{0}</m> for the average rate of change.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    We don't have specific numbers to put into the formula.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    If we computed it using <m>t_1=t_2=2</m>, only the denominator would be <m>0</m>, and that makes the fraction undefined.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        In <xref ref="L1"/> and <xref ref="L2"/>, we talked about limits as a way to approach an input without actually reaching it. Use the ideas from these sections to argue why the expression below solves problem identified in part (a):
+                        <me>
+                            \lim_{x_1\to x_2} \dfrac{f(x_2)-f(x_1)}{x_2-x_1}
+                        </me>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-iroc">
+            <title>Instantaneous Rate of Change</title>
+            <statement>
+                <p>
+                    The <term>instantaneous rate of change</term><idx><h>instantaneous rate of change</h></idx><idx><h>rate of change (instantaneous)</h></idx> of a function <m>f</m> at the input <m>x=a</m>is given by
+                    <me>
+                        \lim_{h\to 0} \dfrac{f(a+h)-f(a)}{h}
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <activity>
+            <statement>
+                <p>
+                    There is a way to make the definition of instantaneous rate of change match with the expression given in Task (b) of <xref ref="d-aroc-activity-iroc"/>. What is the connection between the two expressions?
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-secant-line">
+            <title>Secant Line</title>
+            <statement>
+                <p>
+                    Let <m>f(x)</m> be a continuous function on <m>[a,b]</m>, and let <m>x_1</m> and <m>x_2</m> be inputs in <m>[a,b]</m>. Then, the <term>secant line</term><idx><h>secant line</h></idx> between <m>x_1</m> and <m>x_2</m> is the line which goes through the points <m>(x_1,f(x_1))</m> and <m>(x_2,f(x_2))</m>
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-tangent-line">
+            <title>Tangent Line</title>
+            <statement>
+                <p>
+                    Let <m>f(x)</m> be a continuous function in a neighborhood of the input <m>x=a</m>. The <term>tangent line</term><idx><h>tangent line</h></idx> to <m>f</m> and <m>a</m> is the line which only intercepts <m>f(x)</m> <q>intentionally</q> at <m>x=a</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="d-aroc-secant-tangent">
+            <introduction>
+                <p>
+                    Refer to <xref ref="def-secant-line"/> and <xref ref="def-tangent-line"/> for this activity.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        We have already have a name for the slope of the secant line between two points; what is it? Rewrite the formula.       
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What would be the slope of the <em>tangent line</em>, based on your response in part (a)?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
 
     </subsection>
 
