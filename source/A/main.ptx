@@ -13,25 +13,25 @@
         <li>
           <title>A1</title>
           <p>
-            I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change
+            I can set up and solve related rates problems.
           </p>
         </li>
         <li>
           <title>A2</title>
           <p>
-            I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function
+            I can define absolute extrema, local extrema, critical points, inflection points, and use them to determine the qualitative behavior of a function (increasing/decreasing, concavity, classification of local extrema, classification of absolute extrema on a closed interval).
           </p>
         </li>
         <li>
           <title>A3</title>
           <p>
-            I can interpret the meaning of a derivative in context (with appropriate units)
+            I can set up and solve applied optimization problems.
           </p>
         </li>
         <li>
           <title>A4</title>
           <p>
-            Given a graph, I can sketch its derivative.
+            I can identify and classify indeterminate forms, and compute them using L’Hospital’s Rule or another applicable technique. 
           </p>
         </li>
       </dl>
