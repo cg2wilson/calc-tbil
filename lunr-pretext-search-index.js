@@ -1420,7 +1420,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.6",
   "title": "D6: Derivative Shortcuts",
-  "body": " D6: Derivative Shortcuts     D6  I can apply shortcuts to determine derivatives of any order of the following types of functions: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.      Pre-Class Videos    In-Class Activities   "
+  "body": " D6: Derivative Shortcuts     D6  I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.      Pre-Class Videos    In-Class Activities   "
 },
 {
   "id": "D6-2",
@@ -1429,7 +1429,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "2.6",
   "title": "",
-  "body": "   D6  I can apply shortcuts to determine derivatives of any order of the following types of functions: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.    "
+  "body": "   D6  I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.    "
 },
 {
   "id": "D7",
@@ -1438,7 +1438,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.7",
   "title": "D7: Derivative Rules",
-  "body": " D7: Derivative Rules     D7  I can compute derivatives using one or more of the following rules or techniques: constant multiple, sum, difference, product, quotient, inverse.      Pre-Class Videos    In-Class Activities   "
+  "body": " D7: Derivative Rules     D7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.      Pre-Class Videos    In-Class Activities   "
 },
 {
   "id": "D7-2",
@@ -1447,7 +1447,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "2.7",
   "title": "",
-  "body": "   D7  I can compute derivatives using one or more of the following rules or techniques: constant multiple, sum, difference, product, quotient, inverse.    "
+  "body": "   D7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.    "
 },
 {
   "id": "D8",
@@ -1687,6 +1687,15 @@ var ptx_lunr_docs = [
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
+  "type": "Index",
+  "number": "",
+  "title": "Index",
+  "body": " Index   "
+},
+{
+  "id": "backmatter-3",
+  "level": "1",
+  "url": "backmatter-3.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
