@@ -13,14 +13,29 @@
         </dl>
     </objectives>
 
-    <subsection xml:id="D2-preclass">
-        <title>Pre-Class Videos</title>
-        
-    </subsection>
-
     <subsection xml:id="D2-activities">
         <title>In-Class Activities</title>
 
+        <activity>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>
+
+<!-- 
+    outline: 
+    1) Find equations of tangent lines
+    2) Define the derivative at a point 
+    3) Compute the derivative by hand (x2, x3 examples)
+    4) Transition to derivative as a function
+    5) Notation
+    6) Notation examples
+    7) Compute derivative function by hand
+    8) Throwback to the ball example
+    9) Another application, maybe volume/surface area and/or area/circumference (include equation of tangent line here)
+-->

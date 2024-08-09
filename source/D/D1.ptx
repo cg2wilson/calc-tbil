@@ -383,6 +383,34 @@
                     </p>
                 </statement>
             </task>
+            <task>
+                <statement>
+                    <p>
+                        True or false: the expressions
+                        <me>
+                            \lim_{x_1\to x_2} \dfrac{f(x_2)-f(x_1)}{x_2-x_1}
+                        </me>
+                        and 
+                        <me>
+                            \lim_{x_2\to x_1} \dfrac{f(x_2)-f(x_1)}{x_2-x_1}
+                        </me>
+                        compute two <em>different</em> values
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    True
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    False
+                                </p>
+                            </li>
+                        </ol>
+                        Be prepared to defend your response!
+                    </p>
+                </statement>
+            </task>
         </activity>
 
         <definition xml:id="def-iroc">
