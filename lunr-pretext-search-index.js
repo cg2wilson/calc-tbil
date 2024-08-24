@@ -1348,7 +1348,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "D2: The Derivative (Definition)",
-  "body": " D2: The Derivative (Definition)     D2  I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function.      In-Class Activities         "
+  "body": " D2: The Derivative (Definition)     D2  I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function.      In-Class Activities   Recall that we defined the slope of a tangent line in       Let     Which of the following is a correct first step in computing the slope of the tangent line to at ?                           Consider the function . Which of the following best summarizes the average rates of changes of on on the intervals , , and ?     The average rate of change on the intervals and are equal to the slope of , but the average rate of change of cannot be determined on without a specific value of .    The average rate of change on the intervals , , and are all different values.    The average rate of change on the intervals , , and are all equal to .       Is it possible to find the instantaneous rate of change of at without doing any computations?     No, because we cannot compute the value .    No, because we cannot compute the average rate of change on the interval .    Yes, because the intercept of the tangent line at any point is equal to the constant intercept of .    Yes, because the slope of the tangent line at any point is equal to the constant slope of .       Derivative (at a point)   The derivative of at the input derivative (at a point) is given by the expression or assuming this limit exists.     The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .     Let .    Compute using the first expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative. What does this number represent?    If we wanted to compute , what change(s) would you need to make to your work in (b) and (c)?     Derivative (as a function)  Derivative (as a function)   The derivative of is given by the expression assuming this limit exists.     The derivative of a function can be written as If we change the label of the function to and the independent variable to , then the derivative would be written as      In this activity you will consider and compute its derivative function using the limit definition of the derivative function .    What expression do you get when you simplify the difference quotient                           After taking the limit as , which of the following is your result for the derivative function ?                            Using the limit definition of the derivative, you want to find for . We will do this by first simplifying the difference quotient and then taking the limit as .    What expression do you get when you simplify the difference quotient                                After taking the limit as , which of the following is your result for the derivative function ?                                Second Derivative   The second derivative of a function derivative (second order) is the derivative of the first derivative. Mathematically, we write      Higher-Order Derivatives   For a function , the derivative of order derivative (higher order) is the result of taking derivatives of .     The second derivative of a function is written as For higher-order derivatives, we write There is no equivalent flyspeck notation for higher-order derivatives.     Recall that in , we analyzed the behavior of the function which modeled the height of a ball falling under gravity.    Use the definition of the derivative ( ) to compute .    The first derivative of a position function gives the velocity function, usually denoted . What is ?    The second derivative of a position function (which is the first derivative of velocity) gives the acceleration function, usually denoted . Compute the acceleration of the ball at , , and .    What do you notice about the acceleration at different points in time for the ball? What can you conjecture about the acceleration of other objects experiencing free-fall?      This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the fact that .                          Using the same idea, and the fact that , which is the appropriate derivative of cosine?                                "
 },
 {
   "id": "D2-2",
@@ -1363,10 +1363,145 @@ var ptx_lunr_docs = [
   "id": "D2-activities-2",
   "level": "2",
   "url": "D2.html#D2-activities-2",
+  "type": "Remark",
+  "number": "2.2.1",
+  "title": "",
+  "body": " Recall that we defined the slope of a tangent line in   "
+},
+{
+  "id": "d-activity-derivdef-point1",
+  "level": "2",
+  "url": "D2.html#d-activity-derivdef-point1",
   "type": "Activity",
   "number": "2.2.1",
   "title": "",
-  "body": "     "
+  "body": "  Let     Which of the following is a correct first step in computing the slope of the tangent line to at ?                         "
+},
+{
+  "id": "d-activity-derivdef-linear",
+  "level": "2",
+  "url": "D2.html#d-activity-derivdef-linear",
+  "type": "Activity",
+  "number": "2.2.2",
+  "title": "",
+  "body": " Consider the function . Which of the following best summarizes the average rates of changes of on on the intervals , , and ?     The average rate of change on the intervals and are equal to the slope of , but the average rate of change of cannot be determined on without a specific value of .    The average rate of change on the intervals , , and are all different values.    The average rate of change on the intervals , , and are all equal to .     "
+},
+{
+  "id": "d-activity-derivdef-linear2",
+  "level": "2",
+  "url": "D2.html#d-activity-derivdef-linear2",
+  "type": "Activity",
+  "number": "2.2.3",
+  "title": "",
+  "body": " Is it possible to find the instantaneous rate of change of at without doing any computations?     No, because we cannot compute the value .    No, because we cannot compute the average rate of change on the interval .    Yes, because the intercept of the tangent line at any point is equal to the constant intercept of .    Yes, because the slope of the tangent line at any point is equal to the constant slope of .     "
+},
+{
+  "id": "def-derivative-point",
+  "level": "2",
+  "url": "D2.html#def-derivative-point",
+  "type": "Definition",
+  "number": "2.2.2",
+  "title": "Derivative (at a point).",
+  "body": " Derivative (at a point)   The derivative of at the input derivative (at a point) is given by the expression or assuming this limit exists.   "
+},
+{
+  "id": "derivative-notation-point",
+  "level": "2",
+  "url": "D2.html#derivative-notation-point",
+  "type": "Remark",
+  "number": "2.2.3",
+  "title": "",
+  "body": " The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .  "
+},
+{
+  "id": "D2-activities-8",
+  "level": "2",
+  "url": "D2.html#D2-activities-8",
+  "type": "Activity",
+  "number": "2.2.4",
+  "title": "",
+  "body": "  Let .    Compute using the first expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative. What does this number represent?    If we wanted to compute , what change(s) would you need to make to your work in (b) and (c)?   "
+},
+{
+  "id": "def-derivative-function",
+  "level": "2",
+  "url": "D2.html#def-derivative-function",
+  "type": "Definition",
+  "number": "2.2.4",
+  "title": "Derivative (as a function).",
+  "body": " Derivative (as a function)  Derivative (as a function)   The derivative of is given by the expression assuming this limit exists.   "
+},
+{
+  "id": "derivative-notation-function1",
+  "level": "2",
+  "url": "D2.html#derivative-notation-function1",
+  "type": "Remark",
+  "number": "2.2.5",
+  "title": "",
+  "body": " The derivative of a function can be written as If we change the label of the function to and the independent variable to , then the derivative would be written as   "
+},
+{
+  "id": "D2-activities-11",
+  "level": "2",
+  "url": "D2.html#D2-activities-11",
+  "type": "Activity",
+  "number": "2.2.5",
+  "title": "",
+  "body": "  In this activity you will consider and compute its derivative function using the limit definition of the derivative function .    What expression do you get when you simplify the difference quotient                           After taking the limit as , which of the following is your result for the derivative function ?                         "
+},
+{
+  "id": "d-activity-derivdef-fraction",
+  "level": "2",
+  "url": "D2.html#d-activity-derivdef-fraction",
+  "type": "Activity",
+  "number": "2.2.6",
+  "title": "",
+  "body": "  Using the limit definition of the derivative, you want to find for . We will do this by first simplifying the difference quotient and then taking the limit as .    What expression do you get when you simplify the difference quotient                                After taking the limit as , which of the following is your result for the derivative function ?                              "
+},
+{
+  "id": "def-derivative-second",
+  "level": "2",
+  "url": "D2.html#def-derivative-second",
+  "type": "Definition",
+  "number": "2.2.6",
+  "title": "Second Derivative.",
+  "body": " Second Derivative   The second derivative of a function derivative (second order) is the derivative of the first derivative. Mathematically, we write    "
+},
+{
+  "id": "def-derivative-higher",
+  "level": "2",
+  "url": "D2.html#def-derivative-higher",
+  "type": "Definition",
+  "number": "2.2.7",
+  "title": "Higher-Order Derivatives.",
+  "body": " Higher-Order Derivatives   For a function , the derivative of order derivative (higher order) is the result of taking derivatives of .   "
+},
+{
+  "id": "d-deriv-notation-higher",
+  "level": "2",
+  "url": "D2.html#d-deriv-notation-higher",
+  "type": "Remark",
+  "number": "2.2.8",
+  "title": "",
+  "body": " The second derivative of a function is written as For higher-order derivatives, we write There is no equivalent flyspeck notation for higher-order derivatives.  "
+},
+{
+  "id": "D2-activities-16",
+  "level": "2",
+  "url": "D2.html#D2-activities-16",
+  "type": "Activity",
+  "number": "2.2.7",
+  "title": "",
+  "body": "  Recall that in , we analyzed the behavior of the function which modeled the height of a ball falling under gravity.    Use the definition of the derivative ( ) to compute .    The first derivative of a position function gives the velocity function, usually denoted . What is ?    The second derivative of a position function (which is the first derivative of velocity) gives the acceleration function, usually denoted . Compute the acceleration of the ball at , , and .    What do you notice about the acceleration at different points in time for the ball? What can you conjecture about the acceleration of other objects experiencing free-fall?   "
+},
+{
+  "id": "D2-activities-17",
+  "level": "2",
+  "url": "D2.html#D2-activities-17",
+  "type": "Activity",
+  "number": "2.2.8",
+  "title": "",
+  "body": "  This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the fact that .                          Using the same idea, and the fact that , which is the appropriate derivative of cosine?                              "
 },
 {
   "id": "D3",
