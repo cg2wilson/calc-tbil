@@ -13,14 +13,190 @@
         </dl>
     </objectives>
 
-    <subsection xml:id="D4-preclass">
-        <title>Pre-Class Videos</title>
-        
-    </subsection>
-
     <subsection xml:id="D4-activities">
         <title>In-Class Activities</title>
 
+        <activity xml:id="d-activity-sketch-1">
+            <introduction>
+                <p>
+                    Let <m>f(x) = 2x-x^2</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>f'(x)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the <c>Calc</c> tool at the top of the page to graph <m>f(x)</m> and <m>f'(x)</m>. Which relationship(s) do you observe to be true?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    When the function is increasing, the derivative graph is positive
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    When the function is decreasing, the derivative graph is negative
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    When the function is not changing, the derivative graph is zero
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    There is no connection between the graph of <m>f(x)</m> and <m>f'(x)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="d-activity-sketch-2">
+            <p>
+                Use the graph given below to sketch the graph of the derivative.
+            </p>
+            <figure xml:id="d-sketch-derivative-1-img">
+                <caption>The graph of a function</caption>
+                <image>
+                    <latex-image>
+                        <xi:include href="./tikz/d4-graph-1.tex" parse="text"/>
+                    </latex-image>
+                </image>
+            </figure>
+        </activity>
+
+        <activity>
+            <p>
+                Match each graph below with the graph of its derivative.
+            </p>
+            <sidebyside widths = "30% 30% 30%">
+                <figure xml:id="d-sketch-derivative-2-img1">
+                    <caption>Graph A</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph1.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+                
+                <figure xml:id="d-sketch-derivative-2-img2">
+                    <caption>Graph B</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph2.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+                
+                <figure xml:id="d-sketch-derivative-2-img3">
+                    <caption>Graph C</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph3.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+                
+            </sidebyside>
+            <sidebyside widths = "30% 30% 30%">
+                <figure xml:id="d-sketch-derivative-2-img4">
+                    <caption>Graph I</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph4.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+                <figure xml:id="d-sketch-derivative-2-img5">
+                    <caption>Graph II</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph5.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+                <figure xml:id="d-sketch-derivative-2-img6">
+                    <caption>Graph III</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph6.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+            </sidebyside>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    The image below shows the graphs of a position function (<m>s(t)</m>), a velocity function (<m>v(t) = s'(t)</m>), and an acceleration function (<m>a(t) = v'(t) = s''(t)</m>). 
+                </p>
+                <figure xml:id="d-sketch-derivative-3-img7">
+                    <caption>Three graphs: Position, velocity, acceleration</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-graph-2.tex" parse="text" />
+                        </latex-image>                        
+                    </image>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which order represents the position function, the velocity function, and the acceleration function?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Red, Blue, Black
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Blue, Red, Black
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Blue, Black, Red
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Red, Black, Blue
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Black, Red, Blue
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Black, Blue, Red
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Try to sketch the fourth derivative of position (called <em>jerk</em>) based on your answer above
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    
     </subsection>
 
 </section>
