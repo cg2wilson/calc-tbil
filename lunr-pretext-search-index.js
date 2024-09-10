@@ -1348,7 +1348,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "D2: The Derivative (Definition)",
-  "body": " D2: The Derivative (Definition)     D2  I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Defining the Derivative    Read the \"The Derivative of a Function at a Point\" section and the \"Velocities and Rates of Change\" section      Section 3.2: The Derivative as a Function    Read the \"Derivative Functions\" and \"Higher Order Derivatives\" sections        In-Class Activities   Recall that we defined the slope of a tangent line in       Let     Which of the following is a correct first step in computing the slope of the tangent line to at ?                           Consider the function . Which of the following best summarizes the average rates of changes of on on the intervals , , and ?     The average rate of change on the intervals and are equal to the slope of , but the average rate of change of cannot be determined on without a specific value of .    The average rate of change on the intervals , , and are all different values.    The average rate of change on the intervals , , and are all equal to .       Is it possible to find the instantaneous rate of change of at without doing any computations?     No, because we cannot compute the value .    No, because we cannot compute the average rate of change on the interval .    Yes, because the intercept of the tangent line at any point is equal to the constant intercept of .    Yes, because the slope of the tangent line at any point is equal to the constant slope of .       Derivative (at a point)   The derivative of at the input derivative (at a point) is given by the expression or assuming this limit exists.     The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .     Let .    Compute using the first expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative. What does this number represent?    If we wanted to compute , what change(s) would you need to make to your work in (b) and (c)?     Derivative (as a function)  Derivative (as a function)   The derivative of is given by the expression assuming this limit exists.     The derivative of a function can be written as If we change the label of the function to and the independent variable to , then the derivative would be written as      In this activity you will consider and compute its derivative function using the limit definition of the derivative function .    What expression do you get when you simplify the difference quotient                           After taking the limit as , which of the following is your result for the derivative function ?                            Using the limit definition of the derivative, you want to find for . We will do this by first simplifying the difference quotient and then taking the limit as .    What expression do you get when you simplify the difference quotient                                After taking the limit as , which of the following is your result for the derivative function ?                                Second Derivative   The second derivative of a function derivative (second order) is the derivative of the first derivative. Mathematically, we write      Higher-Order Derivatives   For a function , the derivative of order derivative (higher order) is the result of taking derivatives of .     The second derivative of a function is written as For higher-order derivatives, we write There is no equivalent flyspeck notation for higher-order derivatives.     Recall that in , we analyzed the behavior of the function which modeled the height of a ball falling under gravity.    Use the definition of the derivative ( ) to compute .    The first derivative of a position function gives the velocity function, usually denoted . What is ?    The second derivative of a position function (which is the first derivative of velocity) gives the acceleration function, usually denoted . Compute the acceleration of the ball at , , and .    What do you notice about the acceleration at different points in time for the ball? What can you conjecture about the acceleration of other objects experiencing free-fall?      This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the fact that .                          Using the same idea, and the fact that , which is the appropriate derivative of cosine?                                "
+  "body": " D2: The Derivative (Definition)     D2  I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Defining the Derivative    Read the \"The Derivative of a Function at a Point\" section and the \"Velocities and Rates of Change\" section      Section 3.2: The Derivative as a Function    Read the \"Derivative Functions\" and \"Higher Order Derivatives\" sections        In-Class Activities   Recall that we defined the slope of a tangent line in       Let     Which of the following is a correct first step in computing the slope of the tangent line to at ?                           Consider the function . Which of the following best summarizes the average rates of changes of on on the intervals , , and ?     The average rate of change on the intervals and are equal to the slope of , but the average rate of change of cannot be determined on without a specific value of .    The average rate of change on the intervals , , and are all different values.    The average rate of change on the intervals , , and are all equal to .       Is it possible to find the instantaneous rate of change of at without doing any computations?     No, because we cannot compute the value .    No, because we cannot compute the average rate of change on the interval .    Yes, because the intercept of the tangent line at any point is equal to the constant intercept of .    Yes, because the slope of the tangent line at any point is equal to the constant slope of .       Derivative (at a point)   The derivative of at the input derivative (at a point) is given by the expression or assuming this limit exists.     The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .     Let .    Compute using the first expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative. What does this number represent?    If we wanted to compute , what change(s) would you need to make to your work in (b) and (c)?     Derivative (as a function)  Derivative (as a function)   The derivative of is given by the expression assuming this limit exists.     The derivative of a function can be written as If we change the label of the function to and the independent variable to , then the derivative would be written as      In this activity you will consider and compute its derivative function using the limit definition of the derivative function .    What expression do you get when you simplify the difference quotient                           After taking the limit as , which of the following is your result for the derivative function ?                            Using the limit definition of the derivative, you want to find for . We will do this by first simplifying the difference quotient and then taking the limit as .    What expression do you get when you simplify the difference quotient                                After taking the limit as , which of the following is your result for the derivative function ?                                Second Derivative   The second derivative of a function derivative (second order) is the derivative of the first derivative. Mathematically, we write      Higher-Order Derivatives   For a function , the derivative of order derivative (higher order) is the result of taking derivatives of .     The second derivative of a function is written as For higher-order derivatives, we write There is no equivalent flyspeck notation for higher-order derivatives.     Recall that in , we analyzed the behavior of the function which modeled the height of a ball falling under gravity.    Use the definition of the derivative ( ) to compute .    The first derivative of a position function gives the velocity function, usually denoted . What is ?    The second derivative of a position function (which is the first derivative of velocity) gives the acceleration function, usually denoted . Compute the acceleration of the ball at , , and .    What do you notice about the acceleration at different points in time for the ball? What can you conjecture about the acceleration of other objects experiencing free-fall?      This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the facts that and .                          Using the same idea, and the facts that and , which is the appropriate derivative of cosine?                                "
 },
 {
   "id": "D2-2",
@@ -1501,7 +1501,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.2.8",
   "title": "",
-  "body": "  This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the fact that .                          Using the same idea, and the fact that , which is the appropriate derivative of cosine?                              "
+  "body": "  This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the facts that and .                          Using the same idea, and the facts that and , which is the appropriate derivative of cosine?                              "
 },
 {
   "id": "D3",
@@ -1510,7 +1510,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "D3: Interpreting the Derivative",
-  "body": " D3: Interpreting the Derivative     D3  I can interpret the meaning of a derivative in context (with appropriate units).      Pre-Class Videos    In-Class Activities   "
+  "body": " D3: Interpreting the Derivative     D3  I can interpret the meaning of a derivative in context (with appropriate units).      In-Class Activities    Recall the definition of the derivative, given in . Consider the generic function for the tasks below.    Which of the following best describes the numerator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        Which of the following best describes the denominator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        If inputs time (in hours) and outputs distance (in miles), which of the following best describes the average rate of change expression ?   The distance traveled in miles between the inputs and     The time between the inputs and     The ratio of the change in the output of to the change in the input of on the interval     The ratio of the change in the input of to the change in the output of on the interval          The function gives the distance (in feet) an experimental vehicle has gone, seconds after starting its motion.    Compute the derivative, .    What are the units for ?   feet per second    feet per seconds    seconds per foot    second per feet       The units suggest that the first derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special       Compute the second derivative of , . What are the appropriate units here? Refer back to if you need.   feet per second per foot    feet per second per second    feet per second    feet per feet per second       The units suggest that the second derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special         Recall that the derivative at an input gives the slope of the tangent line to at .    Assume that for some function , . What does this mean about the function, , at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about        Now assume that . What does this mean about the function at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about          Suppose that gives the profit of a multinational corporation (in billion dollars), years after development of a new product.    Write the units for the first derivative, .    Write the units for the second derivative, .    Suppose that it is known . Which description is most accurate?   Three years after the product was developed, the profit was increasing by two billion dollars per year    Two years after the product was developed, the profit was increasing by three billion dollars per year    Three years after the product was developed, the profit was increasing by two billion dollars    Two years after the product was developed, the profit was decreasing by three billion dollars per year       Which statement best translates the statement Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year ?                           When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change is happening at this moment in time , as opposed to an averate rate of change, which occurs over a period of time .     Suppose that gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, minutes after leaving the International Space Station (ISS), and that gives the amount of fuel (in pounds) consumed by the capsule minutes after leaving its launchpad.    Data collected suggests that, when returning to Earth from the ISS, was positive but smaller than , when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?    Which would you expect to be larger: or ? Why?     "
 },
 {
   "id": "D3-2",
@@ -1522,13 +1522,67 @@ var ptx_lunr_docs = [
   "body": "   D3  I can interpret the meaning of a derivative in context (with appropriate units).    "
 },
 {
+  "id": "d-activity-derivative-units1",
+  "level": "2",
+  "url": "D3.html#d-activity-derivative-units1",
+  "type": "Activity",
+  "number": "2.3.1",
+  "title": "",
+  "body": "  Recall the definition of the derivative, given in . Consider the generic function for the tasks below.    Which of the following best describes the numerator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        Which of the following best describes the denominator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        If inputs time (in hours) and outputs distance (in miles), which of the following best describes the average rate of change expression ?   The distance traveled in miles between the inputs and     The time between the inputs and     The ratio of the change in the output of to the change in the input of on the interval     The ratio of the change in the input of to the change in the output of on the interval       "
+},
+{
+  "id": "d-activity-derivative-units2",
+  "level": "2",
+  "url": "D3.html#d-activity-derivative-units2",
+  "type": "Activity",
+  "number": "2.3.2",
+  "title": "",
+  "body": "  The function gives the distance (in feet) an experimental vehicle has gone, seconds after starting its motion.    Compute the derivative, .    What are the units for ?   feet per second    feet per seconds    seconds per foot    second per feet       The units suggest that the first derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special       Compute the second derivative of , . What are the appropriate units here? Refer back to if you need.   feet per second per foot    feet per second per second    feet per second    feet per feet per second       The units suggest that the second derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special      "
+},
+{
+  "id": "d-activity-derivative-incdec",
+  "level": "2",
+  "url": "D3.html#d-activity-derivative-incdec",
+  "type": "Activity",
+  "number": "2.3.3",
+  "title": "",
+  "body": "  Recall that the derivative at an input gives the slope of the tangent line to at .    Assume that for some function , . What does this mean about the function, , at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about        Now assume that . What does this mean about the function at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about       "
+},
+{
+  "id": "d-activity-derivative-incdec-app",
+  "level": "2",
+  "url": "D3.html#d-activity-derivative-incdec-app",
+  "type": "Activity",
+  "number": "2.3.4",
+  "title": "",
+  "body": "  Suppose that gives the profit of a multinational corporation (in billion dollars), years after development of a new product.    Write the units for the first derivative, .    Write the units for the second derivative, .    Suppose that it is known . Which description is most accurate?   Three years after the product was developed, the profit was increasing by two billion dollars per year    Two years after the product was developed, the profit was increasing by three billion dollars per year    Three years after the product was developed, the profit was increasing by two billion dollars    Two years after the product was developed, the profit was decreasing by three billion dollars per year       Which statement best translates the statement Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year ?                         "
+},
+{
+  "id": "D3-activities-6",
+  "level": "2",
+  "url": "D3.html#D3-activities-6",
+  "type": "Remark",
+  "number": "2.3.1",
+  "title": "",
+  "body": " When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change is happening at this moment in time , as opposed to an averate rate of change, which occurs over a period of time .  "
+},
+{
+  "id": "D3-activities-7",
+  "level": "2",
+  "url": "D3.html#D3-activities-7",
+  "type": "Activity",
+  "number": "2.3.5",
+  "title": "",
+  "body": "  Suppose that gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, minutes after leaving the International Space Station (ISS), and that gives the amount of fuel (in pounds) consumed by the capsule minutes after leaving its launchpad.    Data collected suggests that, when returning to Earth from the ISS, was positive but smaller than , when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?    Which would you expect to be larger: or ? Why?   "
+},
+{
   "id": "D4",
   "level": "1",
   "url": "D4.html",
   "type": "Section",
   "number": "2.4",
   "title": "D4: Sketching the Derivative",
-  "body": " D4: Sketching the Derivative     D4  Given a graph, I can sketch its derivative.      Pre-Class Videos    In-Class Activities   "
+  "body": " D4: Sketching the Derivative     D4  Given a graph, I can sketch its derivative.      In-Class Activities    Let .    Compute     Use the Calc tool at the top of the page to graph and . Which relationship(s) do you observe to be true?   When the function is increasing, the derivative graph is positive    When the function is decreasing, the derivative graph is negative    When the function is not changing, the derivative graph is zero    There is no connection between the graph of and         Use the graph given below to sketch the graph of the derivative.   The graph of a function        Match each graph below with the graph of its derivative.    Graph A       Graph B       Graph C         Graph I       Graph II       Graph III          The image below shows the graphs of a position function ( ), a velocity function ( ), and an acceleration function ( ).   Three graphs: Position, velocity, acceleration        Which order represents the position function, the velocity function, and the acceleration function?   Red, Blue, Black    Blue, Red, Black    Blue, Black, Red    Red, Black, Blue    Black, Red, Blue    Black, Blue, Red       Try to sketch the fourth derivative of position (called jerk ) based on your answer above     "
 },
 {
   "id": "D4-2",
@@ -1538,6 +1592,42 @@ var ptx_lunr_docs = [
   "number": "2.4",
   "title": "",
   "body": "   D4  Given a graph, I can sketch its derivative.    "
+},
+{
+  "id": "d-activity-sketch-1",
+  "level": "2",
+  "url": "D4.html#d-activity-sketch-1",
+  "type": "Activity",
+  "number": "2.4.1",
+  "title": "",
+  "body": "  Let .    Compute     Use the Calc tool at the top of the page to graph and . Which relationship(s) do you observe to be true?   When the function is increasing, the derivative graph is positive    When the function is decreasing, the derivative graph is negative    When the function is not changing, the derivative graph is zero    There is no connection between the graph of and       "
+},
+{
+  "id": "d-activity-sketch-2",
+  "level": "2",
+  "url": "D4.html#d-activity-sketch-2",
+  "type": "Activity",
+  "number": "2.4.2",
+  "title": "",
+  "body": " Use the graph given below to sketch the graph of the derivative.   The graph of a function      "
+},
+{
+  "id": "D4-activities-4",
+  "level": "2",
+  "url": "D4.html#D4-activities-4",
+  "type": "Activity",
+  "number": "2.4.3",
+  "title": "",
+  "body": " Match each graph below with the graph of its derivative.    Graph A       Graph B       Graph C         Graph I       Graph II       Graph III       "
+},
+{
+  "id": "D4-activities-5",
+  "level": "2",
+  "url": "D4.html#D4-activities-5",
+  "type": "Activity",
+  "number": "2.4.4",
+  "title": "",
+  "body": "  The image below shows the graphs of a position function ( ), a velocity function ( ), and an acceleration function ( ).   Three graphs: Position, velocity, acceleration        Which order represents the position function, the velocity function, and the acceleration function?   Red, Blue, Black    Blue, Red, Black    Blue, Black, Red    Red, Black, Blue    Black, Red, Blue    Black, Blue, Red       Try to sketch the fourth derivative of position (called jerk ) based on your answer above   "
 },
 {
   "id": "D5",
