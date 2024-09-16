@@ -1636,7 +1636,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "D5: Differentiability",
-  "body": " D5: Differentiability     D5  I can graphically, numerically, or algebraically determine where a function is differentiable      Pre-Class Videos    In-Class Activities   "
+  "body": " D5: Differentiability     D5  I can graphically, numerically, or algebraically determine where a function is differentiable      In-Class Activities    Consider the function .    Remember that . Use this fact to compute .    Now compute     True or false: exists. Be prepared to defend your answer with a reason why if it exists, and why not if it doesn't.   True    False         Now consider the function . Define the left-hand derivative to be the expression and the right-hand derivative to be the expression     Which is the appropriate value of ?                   DNE       Which is the appropriate value of ?                   DNE       Your answers to (a) and (b) should lead to you conclude what about the value of    The limit exists and therefore     The limit exists and therefore     The limit exists and therefore     The limit does not exist and therefore does not exist       Recall that the expression computes the slope of a function between the points and . Based on this, complete the statement: If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...       A function is said to be differentiable differentiable at the point if the limit exists     Using , write an explicit, mathematical statement for why is not differentiable at .     The figures below show three common cases for non-differentiability.    The graph of around       The graph of a piecewise function       The graph of around         Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at         "
 },
 {
   "id": "D5-2",
@@ -1646,6 +1646,51 @@ var ptx_lunr_docs = [
   "number": "2.5",
   "title": "",
   "body": "   D5  I can graphically, numerically, or algebraically determine where a function is differentiable    "
+},
+{
+  "id": "D5-activities-2",
+  "level": "2",
+  "url": "D5.html#D5-activities-2",
+  "type": "Activity",
+  "number": "2.5.1",
+  "title": "",
+  "body": "  Consider the function .    Remember that . Use this fact to compute .    Now compute     True or false: exists. Be prepared to defend your answer with a reason why if it exists, and why not if it doesn't.   True    False      "
+},
+{
+  "id": "D5-activities-3",
+  "level": "2",
+  "url": "D5.html#D5-activities-3",
+  "type": "Activity",
+  "number": "2.5.2",
+  "title": "",
+  "body": "  Now consider the function . Define the left-hand derivative to be the expression and the right-hand derivative to be the expression     Which is the appropriate value of ?                   DNE       Which is the appropriate value of ?                   DNE       Your answers to (a) and (b) should lead to you conclude what about the value of    The limit exists and therefore     The limit exists and therefore     The limit exists and therefore     The limit does not exist and therefore does not exist       Recall that the expression computes the slope of a function between the points and . Based on this, complete the statement: If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...    "
+},
+{
+  "id": "def-differentiability",
+  "level": "2",
+  "url": "D5.html#def-differentiability",
+  "type": "Definition",
+  "number": "2.5.1",
+  "title": "",
+  "body": "  A function is said to be differentiable differentiable at the point if the limit exists   "
+},
+{
+  "id": "D5-activities-5",
+  "level": "2",
+  "url": "D5.html#D5-activities-5",
+  "type": "Activity",
+  "number": "2.5.3",
+  "title": "",
+  "body": " Using , write an explicit, mathematical statement for why is not differentiable at .  "
+},
+{
+  "id": "D5-activities-6",
+  "level": "2",
+  "url": "D5.html#D5-activities-6",
+  "type": "Activity",
+  "number": "2.5.4",
+  "title": "",
+  "body": "  The figures below show three common cases for non-differentiability.    The graph of around       The graph of a piecewise function       The graph of around         Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at       "
 },
 {
   "id": "D6",
