@@ -13,14 +13,285 @@
         </dl>
     </objectives>
 
-    <subsection xml:id="D5-preclass">
-        <title>Pre-Class Videos</title>
-        
-    </subsection>
-
     <subsection xml:id="D5-activities">
         <title>In-Class Activities</title>
 
+        <activity>
+            <introduction>
+                <p>
+                    Consider the function <m>f(x) = \dfrac{x^2+11x+30}{|x+6|}</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Remember that <m>|x| = \begin{cases} -x &amp; x\lt 0 \\ x &amp; x\geq 0\end{cases}</m>. Use this fact to compute <m>\ds \lim_{x\to 6^+} f(x)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now compute <m>\ds \lim_{x\to 6^-} f(x)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        True or false: <m>\ds \lim_{x\to 6} f(x) </m> exists. Be prepared to defend your answer with a reason <em>why</em> if it exists, and <em>why not</em> if it doesn't.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    True
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    False
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Now consider the function <m>g(x) = |x|</m>. Define the <em>left-hand derivative</em> to be the expression
+                    <me>
+                        g'_- (x) = \lim_{h\to 0^-} \dfrac{g(x+h) - g(x)}{h}
+                    </me>
+                    and the <em>right-hand derivative</em> to be the expression
+                    <me>
+                        g'_+ (x) = \lim_{h\to 0^+} \dfrac{g(x+h)-g(x)}{h}
+                    </me>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is the appropriate value of <m>g'_-(0)</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>g'_-(0) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_-(0) = 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_-(0) = -1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_-(0)</m> DNE
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which is the appropriate value of <m>g'_+(0)</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>g'_+(0) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_+(0) = 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_+(0) = -1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_+(0)</m> DNE
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Your answers to (a) and (b) should lead to you conclude what about the value of 
+                        <me>
+                            \lim_{h\to 0} \dfrac{g(x+h)-g(x)}{h}
+                        </me>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    The limit exists and therefore <m>g'(0) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The limit exists and therefore <m>g'(0) = 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The limit exists and therefore <m>g'(0) = -1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The limit does not exist and therefore <m>g'(0)</m> does not exist
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Recall that the expression <m>\dfrac{f(x+h)-f(x)}{h}</m> computes the slope of a function <m>f(x)</m> between the points <m>(x,f(x))</m> and <m>(x+h,f(x+h))</m>. Based on this, complete the statement: <q>If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...</q>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-differentiability">
+            <statement>
+                <p>
+                    A function <m>f(x)</m> is said to be <term>differentiable</term><idx><h>differentiable</h></idx> at the point <m>x=a</m> if the limit
+                    <me>
+                        \lim_{h\to 0} \dfrac{f(a+h)-f(a)}{h}
+                    </me>
+                    exists
+                </p>
+            </statement>
+        </definition>
+
+        <activity>
+            <p>
+                Using <xref ref="def-differentiability"/>, write an explicit, mathematical statement for why <m>f(x) = |x|</m> is <em>not</em> differentiable at <m>x=0</m>.
+            </p>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    The figures below show three common cases for non-differentiability. 
+                </p>
+                <sidebyside widths="30% 30% 30%">
+                    <figure xml:id="d5-diff-img1">
+                        <caption>The graph of <m>f(x) = |x-1|</m> around <m>x=1</m></caption>
+                        <image>
+                            <latex-image>
+                                <xi:include href="./tikz/d5-diff-img1.tex" parse="text" />
+                            </latex-image>
+                        </image>
+                    </figure>
+                    <figure xml:id="d5-diff-img2">
+                        <caption>The graph of a piecewise function <m>g(x)</m></caption>
+                        <image>
+                            <latex-image>
+                                <xi:include href="./tikz/d5-diff-img2.tex" parse="text" />
+                            </latex-image>
+                        </image>
+                    </figure>
+                    <figure xml:id="d5-diff-img3">
+                        <caption>The graph of <m>h(x) = \sqrt[3]{x+1}</m> around <m>x=-1</m></caption>
+                        <image>
+                            <latex-image>
+                                <xi:include href="./tikz/d5-diff-img3.tex" parse="text" />
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following reasons seem most appropriate for why <m>f(x)</m> is not differentiable at <m>x=1</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    There is a discontinuity at <m>x=1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    There is a sharp change in direction/slope at <m>x=1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The tangent line appears to become vertical at <m>x=1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following reasons seem most appropriate for why <m>g(x)</m> is not differentiable at <m>x=2</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    There is a discontinuity at <m>x=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    There is a sharp change in direction/slope at <m>x=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The tangent line appears to become vertical at <m>x=0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following reasons seem most appropriate for why <m>h(x)</m> is not differentiable at <m>x=-1</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    There is a discontinuity at <m>x=-1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    There is a sharp change in direction/slope at <m>x=-1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The tangent line appears to become vertical at <m>x=-1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>
