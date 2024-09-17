@@ -13,6 +13,8 @@
         </dl>
     </objectives>
 
+    <xi:include href="./preparation/D5-prep.ptx" />
+
     <subsection xml:id="D5-activities">
         <title>In-Class Activities</title>
 

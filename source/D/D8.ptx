@@ -13,10 +13,7 @@
         </dl>
     </objectives>
 
-    <subsection xml:id="D8-preclass">
-        <title>Pre-Class Videos</title>
-        
-    </subsection>
+    <xi:include href="./preparation/D8-prep.ptx" />
 
     <subsection xml:id="D8-activities">
         <title>In-Class Activities</title>
