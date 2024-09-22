@@ -613,11 +613,10 @@
                     <p>
                         The first derivative of the function <m>g(x) = x^e + e^{x}</m> is given by <m>g'(x) = ex^{e-1} + e^{x}</m>.  What is the second derivative of <m>g(x)</m>? 
                         <ol marker="A.">
-                            <li><m>f'(x) = 7\cos(x) + 2e^{x} + x^{-2/3} - 2x.</m></li>
-                            <li><m>f'(x) = 7\cos(x) + 2e^{x} + -2x^{-2/3} - 2.</m></li>
-                            <li><m>f'(x) = -7\sin(x) + e^{x} + x^{-2/3}.</m></li>
-                            <li><m>f'(x) = -7\cos(x) + 2e^{x}\ln(x) + x^{-2/3}.</m></li>
-                            <li><m>f'(x) = 7\cos(x) + 2e^x + x^{-2/3}.</m></li>
+                            <li><m>g''(x) = x^{e} + e^{x}.</m></li>
+                            <li><m>g''(x) = e(e-1)x^{e-2} + e^x.</m></li>
+                            <li><m>g''(x) = ex^{e-1} + e^x.</m></li>
+                            <li><m>g''(x) = e^x.</m></li>
                         </ol>
                     </p>
                 </statement>
