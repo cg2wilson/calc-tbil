@@ -605,16 +605,84 @@
         <activity xml:id="d-activity-derivativerules-practice2">
             <introduction>
                 <p>
-                    
+                    Use <xref ref="thm-derivative-rules-functions"/> to answer the questions below.
                 </p>
             </introduction>
+            <task>
+                <statement>
+                    <p>
+                        The first derivative of the function <m>g(x) = x^e + e^{x}</m> is given by <m>g'(x) = ex^{e-1} + e^{x}</m>.  What is the second derivative of <m>g(x)</m>? 
+                        <ol marker="A.">
+                            <li><m>f'(x) = 7\cos(x) + 2e^{x} + x^{-2/3} - 2x.</m></li>
+                            <li><m>f'(x) = 7\cos(x) + 2e^{x} + -2x^{-2/3} - 2.</m></li>
+                            <li><m>f'(x) = -7\sin(x) + e^{x} + x^{-2/3}.</m></li>
+                            <li><m>f'(x) = -7\cos(x) + 2e^{x}\ln(x) + x^{-2/3}.</m></li>
+                            <li><m>f'(x) = 7\cos(x) + 2e^x + x^{-2/3}.</m></li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The derivative of <m>f(x) = 7\sin(x) + 2e^x + 3x^{1/3} - 2</m> is:
+                        <ol marker="A.">
+                            <li><m>f'(x) = 7\cos(x) + 2e^{x} + x^{-2/3} - 2x.</m></li>
+                            <li><m>f'(x) = 7\cos(x) + 2e^{x} + -2x^{-2/3} - 2.</m></li>
+                            <li><m>f'(x) = -7\sin(x) + e^{x} + x^{-2/3}.</m></li>
+                            <li><m>f'(x) = -7\cos(x) + 2e^{x}\ln(x) + x^{-2/3}.</m></li>
+                            <li><m>f'(x) = 7\cos(x) + 2e^x + x^{-2/3}.</m></li>
+                        </ol> 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following statements is NOT true?
+                        <ol marker="A.">
+                            <li>The derivative of <m>y = 2\ln(x)</m> is <m>y' = \dfrac{2}{x}.</m></li>
+                            <li>The derivative of <m>y = \dfrac{\ln(x)}{2}</m> is <m>y' = \dfrac{1}{2x}.</m></li>
+                            <li>The derivative of <m>y = \dfrac{2}{3}\ln(x)</m> is <m>y' = \dfrac{3}{2x}.</m></li>
+                            <li>The derivative of <m>y = \ln(x^{2})</m> is <m>y' = \dfrac{2}{x}</m>.</li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
         </activity>
-        <!-- 
-            Copy the activities from ./D/03.ptx as tasks
-
-            Add one or two more activities
-q
-        -->
+        <activity>
+            <p>
+                Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, <m>t</m> minutes after forgetting it on a bench outside, is given by the function
+                <me>f(t) = 40 \, (0.5)^t + 50</me>
+                Find <m>f(1)</m> and <m>f'(1)</m> and try to interpret your result in the context of this problem. 
+            </p>
+        </activity>
+        <activity>
+            <introduction>
+                <p>
+                    In this activity you will use our first derivative rules to study the slope of tangent lines. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        The graph of <m>y=x^3-9x^2-16x+1</m> has a slope of 5 at two points.  Find the coordinates of these points. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find the equations of the two lines tangent to the parabola <m>y=(x-2)^2</m> which pass through the origin.
+                    </p>
+                    <hint>
+                        <p>
+                            You will want to think about slope in two ways: as the derivative at <m>x=a</m> and the rise over the run in a linear function through the origin and the point <m>(a, f(a))</m>. Use a graph to check your work and sketch the tangent lines on your graph.
+                        </p>
+                    </hint>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>
