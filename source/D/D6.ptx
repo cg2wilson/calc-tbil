@@ -713,7 +713,7 @@
             <task>
                 <statement>
                     <p>
-                        <m>j(r) = \sqrt[7]{r^3} + e^r + \inv{\sec}(x)</m>
+                        <m>j(r) = \sqrt[7]{r^3} + e^r + \inv{\sec}(r)</m>
                     </p>
                 </statement>
             </task>
