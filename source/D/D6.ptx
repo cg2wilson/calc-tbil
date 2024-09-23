@@ -682,6 +682,42 @@
                 </statement>
             </task>
         </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Compute the following derivatives:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = 2^x + x^2 - \inv{\sin}(x)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>g(t) = \sin (t) - 3\csc (t)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>h(y) = \log_3(x) - \inv{\tan}(x) + \pi^3</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>j(r) = \sqrt[7]{r^3} + e^r + \inv{\sec}(x)</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>
