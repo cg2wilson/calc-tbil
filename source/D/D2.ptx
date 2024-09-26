@@ -308,7 +308,7 @@
                 <p>
                     The <term>derivative of <m>f(x)</m></term> is given by the expression
                     <me>
-                        f'(x) = \lim_{h\to 0} \dfrac{f(x+h)-f(a)}{h}
+                        f'(x) = \lim_{h\to 0} \dfrac{f(x+h)-f(x)}{h}
                     </me>
                     assuming this limit exists.
                 </p>

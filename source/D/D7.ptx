@@ -17,7 +17,354 @@
 
     <subsection xml:id="D7-activities">
         <title>In-Class Activities</title>
+        
+        <activity xml:id="d-prodquotrule-idea">
+            <introduction>
+                <p>
+                    Let <m>f(t) = 8t^5 -6\sqrt{t}</m> and <m>g(t) = 2t</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>f'(t)</m> and <m>g'(t)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <task>
+                        <statement>
+                            <p>
+                                Find the product function, <m>P(t) = f(t)\cdot g(t)</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Compute <m>P'(t)</m>
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                True or false: <m>P'(t) = f'(t)\cdot g'(t)</m>
+                            </p>
+                        </statement>
+                    </task>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <task>
+                        <statement>
+                            <p>
+                                Find the quotient function, <m>Q(t) = \dfrac{f(t)}{g(t)}</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Compute <m>Q'(t)</m>
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                True or false: <m>Q'(t) = \dfrac{f'(t)}{g'(t)}</m>
+                            </p>
+                        </statement>
+                    </task>
+                </statement>
+            </task>
+        </activity>
 
+        <theorem xml:id="thm-deriv-product">
+            <title>The Product Rule</title>
+            <statement>
+                <p>
+                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions. Then,
+                    <me>
+                        \dfrac{d}{dx}[f(x)\cdot g(x)] = f'(x)g(x) + f(x)g'(x)
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+
+        <theorem xml:id="thm-deriv-quotient">
+            <title>The Quotient Rule</title>
+            <statement>
+                <p>
+                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions. Then,
+                    <me>
+                        \dfrac{d}{dx}\left[\dfrac{f(x)}{g(x)}\right] = \dfrac{f'(x)g(x) - f(x)g'(x)}{(g(x))^2}
+                    </me>
+                    provided <m>g(x)\neq 0</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="d-activity-which-productrule">
+            <p>
+                The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.
+                <ol marker="A." cols="2">
+                    <li>
+                        <m>f(x)=e^x \sin(x)</m>
+                    </li>
+                    <li>
+                        <m>f(x)=\sqrt{x}(x^3+3x-3)</m>
+                    </li>
+                    <li>
+                        <m>f(x)=(4)(x^5)</m>
+                    </li>
+                    <li>
+                        <m>f(x)=x \ln(x)</m>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <activity xml:id="d-activity-fluency-productrule">
+            <introduction>
+                <p>
+                    Use the product rule to find the derivative of the following functions.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            f(x)=(x^2+3x)\tan(x)
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            f(x)=2^x \cos(x)
+                        </m> 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            f(x) = x^2\inv{\sin}(x)
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            
+        </activity>
+
+        <activity xml:id="d-activity-which-quotientrule">
+            <p>
+                Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.
+                <ol marker="A." cols="2">
+                    <li>
+                        <m>f(x) = \dfrac{6}{x^3}</m>
+                    </li>
+                    <li>
+                        <m>f(x) = \dfrac{-5}{\ln(x)}</m>
+                    </li>
+                    <li>
+                        <m>f(x) = \dfrac{e^x}{\csc(x)}</m>
+                    </li>
+                    <li>
+                        <m>f(x) = \dfrac{x^3+3x}{x}</m>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <activity xml:id="d-activity-fluency-quotientrule">
+            <introduction>
+                <p>
+                    Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            f(x) = \dfrac{\inv{\tan}(x)}{x^3}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            g(x) = \dfrac{x^2 + x^{5/3}}{x^4}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            h(x) = \dfrac{5e^x - \cos(x)}{x}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <activity xml:id="d-activity-show-trig">
+            <introduction>
+                <p>
+                    Use the quotient rule and appropriate trigonometric identities to prove the following:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \dfrac{d}{dx}[\tan(x)] = \sec^2(x)
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \dfrac{d}{dx}[\cot(x)] = -\csc^2(x)
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \dfrac{d}{dx}[\sec(x)] = \sec(x)\tan(x)
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \dfrac{d}{dx}[\csc(x)] = -\csc(x)\cot(x)
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <theorem xml:id="thm-deriv-inverse">
+            <title>Derivative of Inverse Functions (at a Point)</title>
+            <statement>
+                <p>
+                    Let <m>f</m> be one-to-one and differentiable at <m>x=a</m>, with inverse function <m>\inv{f}</m> and <m>f'(\inv{f}(a)) \neq 0</m>. Then, the inverse function is differentiable at <m>x=a</m> and 
+                    <me>
+                        (\inv{f})'(a) = \dfrac{1}{f'(\inv{f}(a))}
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="d-activity-fluency-inv-deriv-1">
+            <introduction>
+                <p>
+                    Let <m>f(x) = 3x - \sin(x)</m>. In order to find <m>(\inv{f})'(0)</m>, we need to verify that we can use the formula in <xref ref="thm-deriv-inverse"/>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        One way to check if a function is one-to-one is by taking its derivative and determining if it is always positive or always negative. 
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>f'(x) = 3 + \cos(x)</m>, and it is always negative
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) = 3x -\cos(x)</m>, and switches sign
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) = 3 -\cos(x)</m>, and switches sign
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) = 3-\cos(x)</m>, and is always positive
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Instead of finding the inverse function, <m>\inv{f}(0)</m>, we can take advantage of the fact that
+                        <me>
+                            \inv{f}(0) = x \iff f(x) = 0
+                        </me>
+                        What value (or values) makes this statement true?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>x = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x = \pi</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x = 0</m> and <m>x = \pi</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x = \dfrac{\pi}{2}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now we can compute <m>f'(\inv{f}(0))</m>. What is its value?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now finish the formula. What is the value of <m>(\inv{f})'(0)</m>?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="d-activity-fluency-inv-deriv-2">
+            <p>
+                Suppose that <m>\inv{f}</m> is the inverse function of a differentiable function <m>f</m> with <m>f(4) = 5</m> and <m>f'(4) = \dfrac{2}{3}</m>. Find <m>(\inv{f})'(5)</m>
+            </p>
+        </activity>
+        
     </subsection>
 
 </section>
