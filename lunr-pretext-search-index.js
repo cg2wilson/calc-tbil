@@ -1807,7 +1807,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.7",
   "title": "D7: Derivative Rules",
-  "body": " D7: Derivative Rules     D7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Product Rule\", \"The Quotient Rule\", and \"Combining Differentiation Rules\" sections      Section 3.7: Derivatives of Inverse Functions    Read all sections        In-Class Activities   "
+  "body": " D7: Derivative Rules     D7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Product Rule\", \"The Quotient Rule\", and \"Combining Differentiation Rules\" sections      Section 3.7: Derivatives of Inverse Functions    Read all sections    It will also likely be helpful to review the section on inverses:     In-Class Activities    Let and .    Compute and      Find the product function, .    Compute     True or false:       Find the quotient function, .    Compute     True or false:       The Product Rule   Let and be differentiable functions. Then,      The Quotient Rule   Let and be differentiable functions. Then, provided .     The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.                   Use the product rule to find the derivative of the following functions.                    Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.                   Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).                     Use the quotient rule and appropriate trigonometric identities to prove the following:                         Derivative of Inverse Functions (at a Point)   Let be one-to-one and differentiable at , with inverse function and . Then, the inverse function is differentiable at and       Let . In order to find , we need to verify that we can use the formula in .    One way to check if a function is one-to-one is by taking its derivative and determining if it is always positive or always negative.    , and it is always negative     , and switches sign     , and switches sign     , and is always positive       Instead of finding the inverse function, , we can take advantage of the fact that What value (or values) makes this statement true?              and             Now we can compute . What is its value?    Now finish the formula. What is the value of ?     Suppose that is the inverse function of a differentiable function with and . Find     "
 },
 {
   "id": "D7-2",
@@ -1817,6 +1817,105 @@ var ptx_lunr_docs = [
   "number": "2.7",
   "title": "",
   "body": "   D7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.    "
+},
+{
+  "id": "d-prodquotrule-idea",
+  "level": "2",
+  "url": "D7.html#d-prodquotrule-idea",
+  "type": "Activity",
+  "number": "2.7.1",
+  "title": "",
+  "body": "  Let and .    Compute and      Find the product function, .    Compute     True or false:       Find the quotient function, .    Compute     True or false:     "
+},
+{
+  "id": "thm-deriv-product",
+  "level": "2",
+  "url": "D7.html#thm-deriv-product",
+  "type": "Theorem",
+  "number": "2.7.1",
+  "title": "The Product Rule.",
+  "body": " The Product Rule   Let and be differentiable functions. Then,    "
+},
+{
+  "id": "thm-deriv-quotient",
+  "level": "2",
+  "url": "D7.html#thm-deriv-quotient",
+  "type": "Theorem",
+  "number": "2.7.2",
+  "title": "The Quotient Rule.",
+  "body": " The Quotient Rule   Let and be differentiable functions. Then, provided .   "
+},
+{
+  "id": "d-activity-which-productrule",
+  "level": "2",
+  "url": "D7.html#d-activity-which-productrule",
+  "type": "Activity",
+  "number": "2.7.2",
+  "title": "",
+  "body": " The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.                "
+},
+{
+  "id": "d-activity-fluency-productrule",
+  "level": "2",
+  "url": "D7.html#d-activity-fluency-productrule",
+  "type": "Activity",
+  "number": "2.7.3",
+  "title": "",
+  "body": "  Use the product rule to find the derivative of the following functions.                  "
+},
+{
+  "id": "d-activity-which-quotientrule",
+  "level": "2",
+  "url": "D7.html#d-activity-which-quotientrule",
+  "type": "Activity",
+  "number": "2.7.4",
+  "title": "",
+  "body": " Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.                "
+},
+{
+  "id": "d-activity-fluency-quotientrule",
+  "level": "2",
+  "url": "D7.html#d-activity-fluency-quotientrule",
+  "type": "Activity",
+  "number": "2.7.5",
+  "title": "",
+  "body": "  Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).                  "
+},
+{
+  "id": "d-activity-show-trig",
+  "level": "2",
+  "url": "D7.html#d-activity-show-trig",
+  "type": "Activity",
+  "number": "2.7.6",
+  "title": "",
+  "body": "  Use the quotient rule and appropriate trigonometric identities to prove the following:                       "
+},
+{
+  "id": "thm-deriv-inverse",
+  "level": "2",
+  "url": "D7.html#thm-deriv-inverse",
+  "type": "Theorem",
+  "number": "2.7.3",
+  "title": "Derivative of Inverse Functions (at a Point).",
+  "body": " Derivative of Inverse Functions (at a Point)   Let be one-to-one and differentiable at , with inverse function and . Then, the inverse function is differentiable at and    "
+},
+{
+  "id": "d-activity-fluency-inv-deriv-1",
+  "level": "2",
+  "url": "D7.html#d-activity-fluency-inv-deriv-1",
+  "type": "Activity",
+  "number": "2.7.7",
+  "title": "",
+  "body": "  Let . In order to find , we need to verify that we can use the formula in .    One way to check if a function is one-to-one is by taking its derivative and determining if it is always positive or always negative.    , and it is always negative     , and switches sign     , and switches sign     , and is always positive       Instead of finding the inverse function, , we can take advantage of the fact that What value (or values) makes this statement true?              and             Now we can compute . What is its value?    Now finish the formula. What is the value of ?   "
+},
+{
+  "id": "d-activity-fluency-inv-deriv-2",
+  "level": "2",
+  "url": "D7.html#d-activity-fluency-inv-deriv-2",
+  "type": "Activity",
+  "number": "2.7.8",
+  "title": "",
+  "body": " Suppose that is the inverse function of a differentiable function with and . Find   "
 },
 {
   "id": "D8",
