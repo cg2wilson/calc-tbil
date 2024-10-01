@@ -20,9 +20,908 @@
             <note>
                 <title>Notation</title>
                 <p>
-                    
+                    When a function <m>f</m> inputs a number as its argument (also known as input), we write an expression like <m>f(1)</m> or <m>f(0.21)</m>.
                 </p>                
+                <p>
+                    We can extend this idea. If <m>f</m> takes a <em>function</em> <m>g(x)</m> as its input, we write either 
+                    <me>
+                        f(g(x))\qquad \text{or}\qquad (f\circ g)(x)
+                    </me>
+                </p>
             </note>
+
+            <activity xml:id="d-deriv-chainrule-intuition1">
+                <introduction>
+                    <p>
+                        Let <m>f(x) = -x^2+5</m> and <m>g(x) = 2x-1</m>.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Which of the following is a formula for <m>f(g(x))</m>?
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        <m>
+                                            -4x^2 +4x +4
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            4x^2 -4x +5
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            -2x^2 +9
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            -2x^2 +4
+                                        </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            One of the options above is a formula for <m>g(f(x))</m>. Which one?
+                        </p>
+                    </statement>
+                </task>
+            </activity>
+
+            <activity xml:id="d-deriv-chainrule-decomposition">
+                <introduction>
+                    <p>
+                        Consider the composite function <m> f(g(x))= \sqrt{e^x}</m>.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Which function is the outside function <m>f(x)</m> and which one is the inside function <m>g(x)</m>?
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        <m>
+                                            f(x)=x^2 \, , \, g(x)=e^x
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            f(x)=\sqrt{x} \, , \, g(x)=e^x
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            f(x)=e^x \, , \, g(x)=\sqrt{x} 
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            f(x)=e^x \, , \, g(x)=x^2
+                                        </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Using properties of exponents, we can rewrite the original function as <m> \ds e^{\frac{x}{2}}</m>. Using this new expression, what is your new inside function and your new outside function?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Consider the function <m>\displaystyle e^{\sqrt{x}}</m>. In this case, what are the inside and outside functions?
+                        </p>
+                    </statement>
+                </task>
+            </activity>
+            <activity xml:id="d-deriv-chainrule-intuition2">
+                <introduction>
+                    <p>
+                        In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.
+                    </p>
+                    <p>
+                        My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns.  Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            The scenario gives you information regarding the rate of growth of <m>s(a)</m>, the squirrel population as a function of acorn availability (measured in bushels). What is the current value of <m>\dfrac{ds}{da}</m>?
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        2
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        100
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        200
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        50
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            The scenario gives you information regarding the rate of growth of <m>a(t)</m>, the acorn availability as a function of time (measured in weeks). What is the current value of <m>\dfrac{da}{dt}</m>?
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        2
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        100
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        200
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        50
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Given all the information provided, what is your best guess for the value of  <m>\dfrac{ds}{dt}</m>, the rate at which the squirrel population is growing per week?
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        2
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        100
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        200
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        50
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Given your answers above, what is the relationship between <m>\dfrac{ds}{da}, \dfrac{da}{dt}, \dfrac{ds}{dt}</m>?
+                        </p>
+                    </statement>
+                </task>
+            </activity>
+
+            <theorem xml:id="thm-chainrule">
+                <title>Chain Rule</title>
+                <statement>
+                    <p>
+                        For the composite function <m>f(g(x))</m>, 
+                        <me>
+                            \dfrac{d}{dx}[f(g(x))] = f'(g(x))\cdot g'(x)
+                        </me>
+                    </p>
+                    <p>
+                        In Leibniz notation, if we consider the composite function <m>f(g(x))</m>, where <m>f = f(g)</m> and <m>g = g(x)</m>, then
+                        <me>
+                            \dfrac{df}{dx} = \dfrac{df}{dg}\cdot \dfrac{dg}{dx}
+                        </me>
+                    </p>
+                </statement>
+            </theorem>
+
+            <activity xml:id="d-deriv-chainrule-warning">
+                <introduction>
+                    <p>
+                        Consider the function <m>f(x) = -x^2+5 </m> and <m>g(x)=2x-1</m>. Notice that <m>f(g(x))= -4x^2 +4x +4 </m>.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Which of the following is the derivative function of the composite function <m>f(g(x))</m>?
+                        </p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        -8x +4 
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        -4x
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        -2x
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        2
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            One of the options above is a formula for <m>f'(x) \cdot g'(x) </m>. Which one? Notice that this is not the same as the derivative of <m>f(g(x))</m>! 
+                        </p>
+                    </statement>
+                </task>
+            </activity>
+
+            <activity xml:id="d-deriv-chainrule-practice1">
+                <introduction>
+                    <p>
+                        Consider the composite function <m> \ds h(x) =\sqrt{e^x} = e^{\frac{x}{2}}</m>. For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to <m>h'(x)</m>? Select all!
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{2}\lrpar{e^x}^{-1/2}\cdot e^x
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{2}\lrpar{e^x}^{3/2}\cdot e^x
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{2}e^{-x/2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        e^{x/2}\cdot \dfrac{1}{2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{2}\sqrt{e^x}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \sqrt{e^x}\cdot e^x
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </introduction>
+            </activity>
+            
+            <activity xml:id="d-deriv-chainrule-practice2">
+                <introduction>
+                    <p>
+                        Below you are given the graphs of two functions: <m>a(x)</m> and <m>b(x)</m>. Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of <m>x</m> and then plug in the input you want to study.
+                    </p>
+                    <figure xml:id="chainrule-practice2-graph">
+                        <caption>The graphs of two piecewise functions</caption>
+                        <image>
+                            <latex-image>
+                                <xi:include href="./tikz/d8-chain-img1.tex" parse="text" />
+                            </latex-image>
+                        </image>
+                    </figure>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Notice that the derivative of <m>a \circ b</m> is given by <m>a'(b(x)) \cdot b'(x)</m>, so the derivative of <m>a \circ b</m>  at <m> x= 4</m> is given by the quantity <m>a'(b(4)) \cdot b'(4) = a'(-2) \cdot b'(4)</m>, because <m>b(4)=-2</m>. Using the graphs to compute slopes, what is the derivative of <m>a \circ b</m> at <m> x= 4</m>?
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        <m>0</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>-1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>-2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The derivative does not exist at this point.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        Which of the following values is the derivative of <m>a \circ b</m> at <m> x=2 </m>?
+                        <p>
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        <m>0</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>-1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>-2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The derivative does not exist at this point.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        Which of the following values is the derivative of <m>b \circ a</m> (different order!) at <m>x=-2 </m>?
+                        <p>
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        <m>0</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>-1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>1</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>-2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        The derivative does not exist at this point.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+            </activity>
+            
+            <activity xml:id="d-deriv-chainrule-chainpower">
+                <introduction>
+                    <p>
+                        In this activity you will study the derivative of <m>\cos^n(x)</m> for different powers <m>n</m>.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Consider the function <m>\cos^2(x) = \left( \cos(x) \right)^2</m>. Combining power and chain rule, what do you get if you differentiate <m>\cos^2(x)</m>?
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        <m>
+                                            -\cos^2(x)\sin(x)
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            -\cos^2(x)\sin(x)   
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            2\cos(x)\sin(x)
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            - 2\cos(x)\sin(x)
+                                        </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Consider the function <m>\cos^3(x)</m>. Find its derivative.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Now consider <m>\cos^n(x)</m>, for arbitary <m>n</m>. Find the general formula for its derivative.
+                        </p>
+                    </statement>
+                </task>
+            </activity>
+
+            <activity xml:id="d-deriv-chainrule-chainexp">
+                <introduction>
+                    <p>
+                        In this activity you will study the derivative of <m>b^{\sin(x)}</m> for different bases <m>b</m>.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Consider the function <m>e^{\cos(x)} </m>. Combining exponential and chain rule, what do you get if you differentiate <m>e^{\cos(x)}</m>?
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        <m>
+                                            e^{\sin(x)}
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            e^{\sin(x)}\cos (x)                                        
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            e^{\cos(x)}
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            e^{\sin(x)}\sin(x)
+                                        </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Consider the function <m>2^{\sin(x)}</m>. Find its derivative.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Now consider the function <m>b^{\sin(x)}</m> for <m>b \gt 0</m>. Find the general formula for its derivative.
+                        </p>
+                    </statement>
+                </task>
+            </activity>
+
+            <activity xml:id="d-deriv-chainrule-practice3">
+                <introduction>
+                    <p>
+                        Find the derivative of the following functions.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                f(x) = \sqrt{x^2+1}
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                g(x) = \tan(x^2)
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                \sin^2(\sqrt{x^2-1})
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                y = \dfrac{3}{(\sec(t) + e^t)}
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                \inv{\tan}(\theta^2)
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+            </activity>
+
+            <activity xml:id="d-deriv-chainrule-practice4">
+                <introduction>
+                    <p>
+                        Now that we've learned the chain rule, we can tackle some derivatives using <em>generic functions</em> rather than specific ones.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Let <m>f(x) = [g(\sin(x))]^3</m>. Which of the following is the correct expression for <m>f'(x)</m>?
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        <m>
+                                            (\sin(x))^3\cdot \cos(x)
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            3g'(\sin(x))^2\cdot \cos (x)
+                                        </m>
+                                    </p> 
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            3g'(\cos(x))^2
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            3(\cos(x))^2\cdot -\sin(x)
+                                        </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            If <m>h(x) = \sqrt{4+3f(x)}</m>, <m>f(1) = 7</m>, and <m>f'(1) = 4</m>, what must be the value of  <m>h'(1)</m>?
+                        </p>
+                    </statement>
+                </task>
+            </activity>
+
+            <activity xml:id="d-deriv-chainrule-practice5">
+                <introduction>
+                    <p>
+                        Use the table below to find the derivatives
+                    </p>
+                    <tabular>
+                        <row>
+                            <cell>
+                                <m>
+                                    x
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    f(x)
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    g(x)
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    f'(x)
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    g'(x)
+                                </m>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <m>
+                                    -\dfrac{\pi}{4}
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    -2
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    -1
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    0
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    0
+                                </m>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <m>
+                                    0
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    -1
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    4
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    1
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    -3
+                                </m>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <m>
+                                    1
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    3
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    2
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    4
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    6
+                                </m>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <m>
+                                    2
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    1
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    8
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    5
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    7
+                                </m>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <m>
+                                    3
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    7
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    2
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    7
+                                </m>
+                            </cell>
+                            <cell>
+                                <m>
+                                    9
+                                </m>
+                            </cell>
+                        </row>
+                    </tabular>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            <m>h'(2)</m> if <m>h(x) = \dfrac{f(x)}{x^2}</m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>h'(1)</m> if <m>h(x) = g(\cos(\pi x))</m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>h'(1)</m> if <m>h(x) = x\inv{f}(x)</m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>h'(0)</m> if <m>h(x) = g(\inv{\tan}(f(x)))</m>
+                        </p>
+                    </statement>
+                </task>
+            </activity>
     </subsection>
 
 </section>

@@ -11,6 +11,11 @@
                     <em>Read all sections</em>
                 </p>
             </li>
+            <li>
+                <p>
+                    Read the material about function composition in <xref ref="review-functions"/>
+                </p>
+            </li>
         </ul>
     </p>
 </assemblage>
