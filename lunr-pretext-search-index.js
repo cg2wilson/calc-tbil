@@ -2059,7 +2059,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.9",
   "title": "D9: Implicit Differentiation",
-  "body": " D9: Implicit Differentiation     D9  I can use implicit differentiation to find the derivative of an equation.      Pre-Class Preparation  Read the following sections of the text:    Section 3.8: Implicit Differentiation    Read all sections        In-Class Activities   "
+  "body": " D9: Implicit Differentiation     D9  I can use implicit differentiation to find the derivative of an equation.      Pre-Class Preparation  Read the following sections of the text:    Section 3.8: Implicit Differentiation    Read all sections        In-Class Activities  Many of the equations that has been discussed so far fall under the category of an explicit equation. An explicit equation is one in which the relationship between and is given explicitly, such as . In this section we will examine when the relationship between and is given implicity. An implicit equation looks like where both sides of the equation may depend on both and .     Consider a circle of radius 4, centered at the origin, given by the implicit equation     Rewrite the equation using the fact that (that is, is a function of ).    Why would we need to use the chain rule in order to take this derivative?    Take the derivative of both sides of the equation, and solve for .      For this activity we want to find the equation of a tangent line for a circle with radius 5 centered at the origin, at the point     Which expression gives the derivative with respect to for the equation of the circle?                          Solving for gives which expression?                          Plug the point into the expression found above for the derivative to get the slope of the tangent line.    Use the value for the slope of the tangent line to obtain the equation of the tangent line.      Find all points where the tangent line to the curve is horizontal.      Find for each of the following equations                   "
 },
 {
   "id": "D9-2",
@@ -2069,6 +2069,51 @@ var ptx_lunr_docs = [
   "number": "2.9",
   "title": "",
   "body": "   D9  I can use implicit differentiation to find the derivative of an equation.    "
+},
+{
+  "id": "D9-activities-2",
+  "level": "2",
+  "url": "D9.html#D9-activities-2",
+  "type": "Note",
+  "number": "2.9.1",
+  "title": "",
+  "body": "Many of the equations that has been discussed so far fall under the category of an explicit equation. An explicit equation is one in which the relationship between and is given explicitly, such as . In this section we will examine when the relationship between and is given implicity. An implicit equation looks like where both sides of the equation may depend on both and . "
+},
+{
+  "id": "d-deriv-implicit-intuition",
+  "level": "2",
+  "url": "D9.html#d-deriv-implicit-intuition",
+  "type": "Activity",
+  "number": "2.9.1",
+  "title": "",
+  "body": "  Consider a circle of radius 4, centered at the origin, given by the implicit equation     Rewrite the equation using the fact that (that is, is a function of ).    Why would we need to use the chain rule in order to take this derivative?    Take the derivative of both sides of the equation, and solve for .   "
+},
+{
+  "id": "d-deriv-implicit-practice1",
+  "level": "2",
+  "url": "D9.html#d-deriv-implicit-practice1",
+  "type": "Activity",
+  "number": "2.9.2",
+  "title": "",
+  "body": "  For this activity we want to find the equation of a tangent line for a circle with radius 5 centered at the origin, at the point     Which expression gives the derivative with respect to for the equation of the circle?                          Solving for gives which expression?                          Plug the point into the expression found above for the derivative to get the slope of the tangent line.    Use the value for the slope of the tangent line to obtain the equation of the tangent line.   "
+},
+{
+  "id": "d-deriv-implicit-practice2",
+  "level": "2",
+  "url": "D9.html#d-deriv-implicit-practice2",
+  "type": "Activity",
+  "number": "2.9.3",
+  "title": "",
+  "body": "  Find all points where the tangent line to the curve is horizontal.   "
+},
+{
+  "id": "d-deriv-implicit-practice3",
+  "level": "2",
+  "url": "D9.html#d-deriv-implicit-practice3",
+  "type": "Activity",
+  "number": "2.9.4",
+  "title": "",
+  "body": "  Find for each of the following equations                  "
 },
 {
   "id": "A1",
