@@ -1924,7 +1924,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.8",
   "title": "D8: Chain Rule",
-  "body": " D8: Chain Rule     D8  I can compute derivatives using the chain rule by itself and with other rules.      Pre-Class Preparation  Read the following sections of the text:    Section 3.6: The Chain Rule    Read all sections        In-Class Activities   "
+  "body": " D8: Chain Rule     D8  I can compute derivatives using the chain rule by itself and with other rules.      Pre-Class Preparation  Read the following sections of the text:    Section 3.6: The Chain Rule    Read all sections     Read the material about function composition in        In-Class Activities   Notation  When a function inputs a number as its argument (also known as input), we write an expression like or .  We can extend this idea. If takes a function  as its input, we write either      Let and .    Which of the following is a formula for ?                          One of the options above is a formula for . Which one?      Consider the composite function .    Which function is the outside function and which one is the inside function ?                          Using properties of exponents, we can rewrite the original function as . Using this new expression, what is your new inside function and your new outside function?    Consider the function . In this case, what are the inside and outside functions?      In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.  My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns. Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?    The scenario gives you information regarding the rate of growth of , the squirrel population as a function of acorn availability (measured in bushels). What is the current value of ?   2    100    200    50       The scenario gives you information regarding the rate of growth of , the acorn availability as a function of time (measured in weeks). What is the current value of ?   2    100    200    50       Given all the information provided, what is your best guess for the value of , the rate at which the squirrel population is growing per week?   2    100    200    50       Given your answers above, what is the relationship between ?     Chain Rule   For the composite function ,   In Leibniz notation, if we consider the composite function , where and , then       Consider the function and . Notice that .    Which of the following is the derivative function of the composite function ?                          One of the options above is a formula for . Which one? Notice that this is not the same as the derivative of !      Consider the composite function . For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to ? Select all!                                      Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.      Which of the following values is the derivative of at ?                             The derivative does not exist at this point.      Which of the following values is the derivative of (different order!) at ?                             The derivative does not exist at this point.         In this activity you will study the derivative of for different powers .    Consider the function . Combining power and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider , for arbitary . Find the general formula for its derivative.      In this activity you will study the derivative of for different bases .    Consider the function . Combining exponential and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider the function for . Find the general formula for its derivative.      Find the derivative of the following functions.                               Now that we've learned the chain rule, we can tackle some derivatives using generic functions rather than specific ones.    Let . Which of the following is the correct expression for ?                          If , , and , what must be the value of ?      Use the table below to find the derivatives                                                                                                             if      if      if      if      "
 },
 {
   "id": "D8-2",
@@ -1934,6 +1934,123 @@ var ptx_lunr_docs = [
   "number": "2.8",
   "title": "",
   "body": "   D8  I can compute derivatives using the chain rule by itself and with other rules.    "
+},
+{
+  "id": "D8-activities-2",
+  "level": "2",
+  "url": "D8.html#D8-activities-2",
+  "type": "Note",
+  "number": "2.8.1",
+  "title": "Notation.",
+  "body": " Notation  When a function inputs a number as its argument (also known as input), we write an expression like or .  We can extend this idea. If takes a function  as its input, we write either   "
+},
+{
+  "id": "d-deriv-chainrule-intuition1",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-intuition1",
+  "type": "Activity",
+  "number": "2.8.1",
+  "title": "",
+  "body": "  Let and .    Which of the following is a formula for ?                          One of the options above is a formula for . Which one?   "
+},
+{
+  "id": "d-deriv-chainrule-decomposition",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-decomposition",
+  "type": "Activity",
+  "number": "2.8.2",
+  "title": "",
+  "body": "  Consider the composite function .    Which function is the outside function and which one is the inside function ?                          Using properties of exponents, we can rewrite the original function as . Using this new expression, what is your new inside function and your new outside function?    Consider the function . In this case, what are the inside and outside functions?   "
+},
+{
+  "id": "d-deriv-chainrule-intuition2",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-intuition2",
+  "type": "Activity",
+  "number": "2.8.3",
+  "title": "",
+  "body": "  In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.  My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns. Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?    The scenario gives you information regarding the rate of growth of , the squirrel population as a function of acorn availability (measured in bushels). What is the current value of ?   2    100    200    50       The scenario gives you information regarding the rate of growth of , the acorn availability as a function of time (measured in weeks). What is the current value of ?   2    100    200    50       Given all the information provided, what is your best guess for the value of , the rate at which the squirrel population is growing per week?   2    100    200    50       Given your answers above, what is the relationship between ?   "
+},
+{
+  "id": "thm-chainrule",
+  "level": "2",
+  "url": "D8.html#thm-chainrule",
+  "type": "Theorem",
+  "number": "2.8.2",
+  "title": "Chain Rule.",
+  "body": " Chain Rule   For the composite function ,   In Leibniz notation, if we consider the composite function , where and , then    "
+},
+{
+  "id": "d-deriv-chainrule-warning",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-warning",
+  "type": "Activity",
+  "number": "2.8.4",
+  "title": "",
+  "body": "  Consider the function and . Notice that .    Which of the following is the derivative function of the composite function ?                          One of the options above is a formula for . Which one? Notice that this is not the same as the derivative of !   "
+},
+{
+  "id": "d-deriv-chainrule-practice1",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-practice1",
+  "type": "Activity",
+  "number": "2.8.5",
+  "title": "",
+  "body": "  Consider the composite function . For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to ? Select all!                                   "
+},
+{
+  "id": "d-deriv-chainrule-practice2",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-practice2",
+  "type": "Activity",
+  "number": "2.8.6",
+  "title": "",
+  "body": "  Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.      Which of the following values is the derivative of at ?                             The derivative does not exist at this point.      Which of the following values is the derivative of (different order!) at ?                             The derivative does not exist at this point.      "
+},
+{
+  "id": "d-deriv-chainrule-chainpower",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-chainpower",
+  "type": "Activity",
+  "number": "2.8.7",
+  "title": "",
+  "body": "  In this activity you will study the derivative of for different powers .    Consider the function . Combining power and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider , for arbitary . Find the general formula for its derivative.   "
+},
+{
+  "id": "d-deriv-chainrule-chainexp",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-chainexp",
+  "type": "Activity",
+  "number": "2.8.8",
+  "title": "",
+  "body": "  In this activity you will study the derivative of for different bases .    Consider the function . Combining exponential and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider the function for . Find the general formula for its derivative.   "
+},
+{
+  "id": "d-deriv-chainrule-practice3",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-practice3",
+  "type": "Activity",
+  "number": "2.8.9",
+  "title": "",
+  "body": "  Find the derivative of the following functions.                            "
+},
+{
+  "id": "d-deriv-chainrule-practice4",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-practice4",
+  "type": "Activity",
+  "number": "2.8.10",
+  "title": "",
+  "body": "  Now that we've learned the chain rule, we can tackle some derivatives using generic functions rather than specific ones.    Let . Which of the following is the correct expression for ?                          If , , and , what must be the value of ?   "
+},
+{
+  "id": "d-deriv-chainrule-practice5",
+  "level": "2",
+  "url": "D8.html#d-deriv-chainrule-practice5",
+  "type": "Activity",
+  "number": "2.8.11",
+  "title": "",
+  "body": "  Use the table below to find the derivatives                                                                                                             if      if      if      if    "
 },
 {
   "id": "D9",
