@@ -13,14 +13,447 @@
         </dl>
     </objectives>
 
-    <subsection xml:id="A1-preclass">
-        <title>Pre-Class Videos</title>
-        
-    </subsection>
+    <xi:include href="./preparation/A1-prep.ptx" />
 
     <subsection xml:id="A1-activities">
         <title>In-Class Activities</title>
 
+        <activity xml:id="a-rates-intro1">
+            <introduction>
+                <p>
+                    Consider the equation <m>x^2+y^2 = 64</m>. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Is this an implicit or explicit equation? Be prepared to defend your answer.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Implicit
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Explicit
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        To find the derivative of both sides of the equation, we think of <m>y</m> as a function of <m>x</m>, i.e. <m><q>y</q>  = y(x)</m>. Find the derivative, <m>\dfrac{dy}{dx}</m> by replacing every instance of <m>y</m> with <m>y(x)</m> and thinking about the chain rule.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now think of <m>x</m> as a function of <m>y</m>, i.e. <m><q>x</q> = x(y)</m>. Which represents the derivative, <m>\dfrac{dx}{dy}</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\dfrac{x}{y}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-\dfrac{y}{x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{64-2y}{2x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{64}{2x}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now reconsider <m>x^2 + y^2 = 64</m>. If <em>both</em> <m>x</m> and <m>y</m> are functions of a separate variable <m>t</m>, i.e. <m><q>x</q> = x(t)</m> and <m><q>y</q> = y(t)</m>, which expression represents <m>\dfrac{dy}{dt}</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{32-x\cdot dx/dt}{y}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        -\dfrac{x}{y}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{32-2x}{y}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        -\dfrac{x\cdot dx/dt}{y}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="a-rates-implicitfluency1">
+            <introduction>
+                <p>
+                    Recall that the perimeter of a quadrilateral is given by <m>P = x + y</m>, and the area by <m>A = xy</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find <m>\dfrac{dP}{dt}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which expression correctly identifies <m>\dfrac{dA}{dt}</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{dx}{dt}\cdot \dfrac{dy}{dt}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{dy}{dx}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        x\cdot \dfrac{dy}{dt} + y\cdot \dfrac{dx}{dt}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        x + y
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <activity xml:id="a-rates-practice-walkthrough">
+            <introduction>
+                <p>
+                    This problem will introduce related rates problems. Air is being pumped into a spherical balloon so that its volume is increasing at a rate of 100 cm<m>^3</m>/s. How fast is the radius of the balloon increasing when the diameter is 50cm?
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        First we should draw translate the problem from words into pictures and/or math. Draw two spheres. On the first, include only <em>non-derivative/non-rate</em> information; on the second, include only <em>derivative/rate</em> information. Label with appropriate variables.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following equations seem like they would be useful for the problem? Be ready to defend your answer(s).
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        V = \dfrac{4\pi}{3}r^3
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A = 4\pi r^2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        d = 2r
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        A = \pi r^2 
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which equation will allow us to use the rate(s) given in the problem statement?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Take the derivative with respect to <m>t</m>. Which is the correctly solved expression for the rate we wish to solve for?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{dV/dr}{4\pi r^2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        4\pi r^2 
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{dV/dt}{4\pi r^2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        4\pi r^2 \dfrac{dr}{dt}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which is the correct value of the rate at which the radius is increasing?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{25\pi}
+                                    </m>
+                                    cm/s<m>^2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{25\pi}
+                                    </m>
+                                    cm/s
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{25\pi}
+                                    </m>
+                                    cm<m>^2</m>/s
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{25\pi}
+                                    </m>
+                                    cm<m>^3</m>/s
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <remark xml:id="a-rates-strategy">
+            <title>Strategy for Solving Related Rates Problems</title>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Identify equations and variables involved, as well as the variable we are differentiating against.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If possible, sketch <em>two</em> pictures of the situation: one with the variables, and one with the numbers.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Implicitly differentiate.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Use your sketch/the problem to input known quantities.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Solve for the desired quantity.
+                        </p>
+                    </li>
+                </ol>
+            </p>            
+        </remark>
+
+        <activity xml:id="a-rates-practice1">
+            <introduction>
+                <p>
+                    A 10-foot ladder rests along a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 1 ft/s, how fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 ft from the wall?
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which shape best models the situation?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Circle
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Square
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Triangle
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Sphere
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify an equation, related to the answer in part (a), which would give a relationship appropriate for this problem.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the rates associated with the sides/variables. Pay close attention to the side where the ladder is; will that length ever change? What should its rate look like in that case?
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        Finish solving the problem. Which of the following is the correct answer?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                   <m>
+                                    -\dfrac{3}{4}
+                                   </m> 
+                                   ft/s
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>
+                                    \dfrac{1}{2}
+                                   </m> 
+                                   ft/s
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>
+                                    \dfrac{3}{4}
+                                   </m> 
+                                   ft/s
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>
+                                    -\dfrac{1}{2}
+                                   </m> 
+                                   ft/s
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="a-rates-practice2">
+            <p>
+                A 10-foot ladder rests along a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 1 ft/s, how fast is the angle between the wall and the ladder changing at the moment when the bottom of the ladder is 5ft from the wall?
+            </p>
+            <p>
+                Notice: while similar to the previous problem, there's a key distinction between the two.
+            </p>
+        </activity>
+
+        <activity xml:id="a-rates-practice3">
+            <p>
+                A conical water tank has a base radius of 3 m and height 6 m. If water is being pumped into the tank at a rate of 2 m<m>3</m>/min, find the rate at which the water level is rising when the water is 3 m deep.
+            </p>
+            <p>
+                The volume of a cone is <m>V = \dfrac{1}{3}\pi r^2 h</m>
+            </p>
+        </activity>
+        
+        <activity xml:id="a-rates-practice4">
+            <p>
+                A Toyota Camry is traveling west at 50 mi/h and a Ford Focus is traveling north at 65 mi/h. Both cars are heading for the intersection of the two roads. At what rate are the cars approaching each other when the Camry is 0.4 mi and the Focus is 0.3 mi from the intersection?
+            </p>
+        </activity>
     </subsection>
 
 </section>

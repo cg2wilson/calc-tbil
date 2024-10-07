@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="A4" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>A4: L'Hospital's Rule</title>
+    <title>A4: L'Hopital's Rule</title>
     <objectives>
         <dl>
             <li>
                 <title>A4</title>
                 <p>
-                    I can identify and classify indeterminate forms, and compute them using L’Hospital’s Rule or another applicable technique. 
+                    I can identify and classify indeterminate forms, and compute them using L’Hopital’s Rule or another applicable technique. 
                 </p>
             </li>
         </dl>
     </objectives>
 
-    <subsection xml:id="A4-preclass">
-        <title>Pre-Class Videos</title>
-        
-    </subsection>
+    <xi:include href="./preparation/A4-prep.ptx" />
 
     <subsection xml:id="A4-activities">
         <title>In-Class Activities</title>
