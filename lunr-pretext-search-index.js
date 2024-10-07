@@ -2122,7 +2122,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "A1: Related Rates",
-  "body": " A1: Related Rates     A1  I can set up and solve related rates problems.      Pre-Class Videos    In-Class Activities   "
+  "body": " A1: Related Rates     A1  I can set up and solve related rates problems.      Pre-Class Preparation  Read the following sections of the text:    Section 4.1: Related Rates    Read all sections        In-Class Activities    Consider the equation .    Is this an implicit or explicit equation? Be prepared to defend your answer.   Implicit    Explicit       To find the derivative of both sides of the equation, we think of as a function of , i.e. . Find the derivative, .    Now think of as a function of , i.e. . Which represents the derivative, ?                          Now assume is a function of , i.e. . Which is the appropriate expression for , assuming is a constant ?                          Now reconsider . If both  and are functions of , i.e. and , which expression represents the derivative of both sides of the equation?                            Recall that the perimeter of a quadrilateral is given by , and the area by     Find     Which expression correctly identifies ?                            This problem will introduce related rates problems. Air is being pumped into a spherical balloon so that its volume is increasing at a rate of 100 cm \/s. How fast is the radius of the balloon increasing when the diameter is 50cm?    First we should draw translate the problem from words into pictures and\/or math. Draw two spheres. On the first, include only non-derivative\/non-rate information; on the second, include only derivative\/rate information. Label with appropriate variables.    Which of the following equations seem like they would be useful for the problem? Be ready to defend your answer(s).                          Which equation will allow us to use the rate(s) given in the problem statement?    Take the derivative with respect to . Which is the correctly solved expression for the rate we wish to solve for?                          Which is the correct value of the rate at which the radius is increasing?    cm\/s      cm\/s     cm \/s     cm \/s        Strategy for Solving Related Rates Problems     Identify equations and variables involved, as well as the variable we are differentiating against.    If possible, sketch two pictures of the situation: one with the variables, and one with the numbers.    Implicitly differentiate.    Use your sketch\/the problem to input known quantities.    Solve for the desired quantity.        A 10-foot ladder rests along a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 1 ft\/s, how fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 ft from the wall?    Which shape best models the situation?   Circle    Square    Triangle    Sphere       Identify an equation, related to the answer in part (a), which would give a relationship appropriate for this problem.    Identify the rates associated with the sides\/variables.    Finish solving the problem. Which of the following is the correct answer?    ft\/s     ft\/s     ft\/s     ft\/s        A 10-foot ladder rests along a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 1 ft\/s, how fast is the angle between the wall and the ladder changing at the moment when the bottom of the ladder is 5ft from the wall?  Notice: while similar to the previous problem, there's a key distinction between the two.    A conical water tank has a base radius of 3 m and height 6 m. If water is being pumped into the tank at a rate of 2 m \/min, find the rate at which the water level is rising when the water is 3 m deep.  The volume of a cone is     A Toyota Camry is traveling west at 50 mi\/h and a Ford Focus is traveling north at 65 mi\/h. Both cars are heading for the intersection of the two roads. At what rate are the cars approaching each other when the Camry is 0.4 mi and the Focus is 0.3 mi from the intersection?    "
 },
 {
   "id": "A1-2",
@@ -2134,13 +2134,85 @@ var ptx_lunr_docs = [
   "body": "   A1  I can set up and solve related rates problems.    "
 },
 {
+  "id": "a-rates-intro1",
+  "level": "2",
+  "url": "A1.html#a-rates-intro1",
+  "type": "Activity",
+  "number": "3.1.1",
+  "title": "",
+  "body": "  Consider the equation .    Is this an implicit or explicit equation? Be prepared to defend your answer.   Implicit    Explicit       To find the derivative of both sides of the equation, we think of as a function of , i.e. . Find the derivative, .    Now think of as a function of , i.e. . Which represents the derivative, ?                          Now assume is a function of , i.e. . Which is the appropriate expression for , assuming is a constant ?                          Now reconsider . If both  and are functions of , i.e. and , which expression represents the derivative of both sides of the equation?                         "
+},
+{
+  "id": "a-rates-implicitfluency1",
+  "level": "2",
+  "url": "A1.html#a-rates-implicitfluency1",
+  "type": "Activity",
+  "number": "3.1.2",
+  "title": "",
+  "body": "  Recall that the perimeter of a quadrilateral is given by , and the area by     Find     Which expression correctly identifies ?                         "
+},
+{
+  "id": "a-rates-practice-walkthrough",
+  "level": "2",
+  "url": "A1.html#a-rates-practice-walkthrough",
+  "type": "Activity",
+  "number": "3.1.3",
+  "title": "",
+  "body": "  This problem will introduce related rates problems. Air is being pumped into a spherical balloon so that its volume is increasing at a rate of 100 cm \/s. How fast is the radius of the balloon increasing when the diameter is 50cm?    First we should draw translate the problem from words into pictures and\/or math. Draw two spheres. On the first, include only non-derivative\/non-rate information; on the second, include only derivative\/rate information. Label with appropriate variables.    Which of the following equations seem like they would be useful for the problem? Be ready to defend your answer(s).                          Which equation will allow us to use the rate(s) given in the problem statement?    Take the derivative with respect to . Which is the correctly solved expression for the rate we wish to solve for?                          Which is the correct value of the rate at which the radius is increasing?    cm\/s      cm\/s     cm \/s     cm \/s      "
+},
+{
+  "id": "a-rates-strategy",
+  "level": "2",
+  "url": "A1.html#a-rates-strategy",
+  "type": "Remark",
+  "number": "3.1.1",
+  "title": "Strategy for Solving Related Rates Problems.",
+  "body": " Strategy for Solving Related Rates Problems     Identify equations and variables involved, as well as the variable we are differentiating against.    If possible, sketch two pictures of the situation: one with the variables, and one with the numbers.    Implicitly differentiate.    Use your sketch\/the problem to input known quantities.    Solve for the desired quantity.     "
+},
+{
+  "id": "a-rates-practice1",
+  "level": "2",
+  "url": "A1.html#a-rates-practice1",
+  "type": "Activity",
+  "number": "3.1.4",
+  "title": "",
+  "body": "  A 10-foot ladder rests along a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 1 ft\/s, how fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 ft from the wall?    Which shape best models the situation?   Circle    Square    Triangle    Sphere       Identify an equation, related to the answer in part (a), which would give a relationship appropriate for this problem.    Identify the rates associated with the sides\/variables.    Finish solving the problem. Which of the following is the correct answer?    ft\/s     ft\/s     ft\/s     ft\/s      "
+},
+{
+  "id": "a-rates-practice2",
+  "level": "2",
+  "url": "A1.html#a-rates-practice2",
+  "type": "Activity",
+  "number": "3.1.5",
+  "title": "",
+  "body": " A 10-foot ladder rests along a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 1 ft\/s, how fast is the angle between the wall and the ladder changing at the moment when the bottom of the ladder is 5ft from the wall?  Notice: while similar to the previous problem, there's a key distinction between the two.  "
+},
+{
+  "id": "a-rates-practice3",
+  "level": "2",
+  "url": "A1.html#a-rates-practice3",
+  "type": "Activity",
+  "number": "3.1.6",
+  "title": "",
+  "body": " A conical water tank has a base radius of 3 m and height 6 m. If water is being pumped into the tank at a rate of 2 m \/min, find the rate at which the water level is rising when the water is 3 m deep.  The volume of a cone is   "
+},
+{
+  "id": "a-rates-practice4",
+  "level": "2",
+  "url": "A1.html#a-rates-practice4",
+  "type": "Activity",
+  "number": "3.1.7",
+  "title": "",
+  "body": " A Toyota Camry is traveling west at 50 mi\/h and a Ford Focus is traveling north at 65 mi\/h. Both cars are heading for the intersection of the two roads. At what rate are the cars approaching each other when the Camry is 0.4 mi and the Focus is 0.3 mi from the intersection?  "
+},
+{
   "id": "A2",
   "level": "1",
   "url": "A2.html",
   "type": "Section",
   "number": "3.2",
   "title": "A2: Derivatives and Qualitative Behavior of Graphs",
-  "body": " A2: Derivatives and Qualitative Behavior of Graphs     A2  I can define absolute extrema, local extrema, critical points, inflection points, and use them to determine the qualitative behavior of a function (increasing\/decreasing, concavity, classification of local extrema, classification of absolute extrema on a closed interval).      Pre-Class Videos    In-Class Activities   "
+  "body": " A2: Derivatives and Qualitative Behavior of Graphs     A2  I can define absolute extrema, local extrema, critical points, inflection points, and use them to determine the qualitative behavior of a function (increasing\/decreasing, concavity, classification of local extrema, classification of absolute extrema on a closed interval).      Pre-Class Preparation  Read the following sections of the text:    Section 4.3: Maxima and Minima    Read all sections      Section 4.5: Derivatives and teh Shape of a Graph    Read all sections        In-Class Activities   "
 },
 {
   "id": "A2-2",
@@ -2158,7 +2230,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "A3: Optimization",
-  "body": " A3: Optimization     A3  I can set up and solve applied optimization problems.      Pre-Class Videos    In-Class Activities   "
+  "body": " A3: Optimization     A3  I can set up and solve applied optimization problems.      Pre-Class Preparation  Read the following sections of the text:    Section 4.7: Applied Optimization Problems    Read all sections        In-Class Activities   "
 },
 {
   "id": "A3-2",
@@ -2175,8 +2247,8 @@ var ptx_lunr_docs = [
   "url": "A4.html",
   "type": "Section",
   "number": "3.4",
-  "title": "A4: L’Hospital’s Rule",
-  "body": " A4: L'Hospital's Rule     A4  I can identify and classify indeterminate forms, and compute them using L’Hospital’s Rule or another applicable technique.      Pre-Class Videos    In-Class Activities   "
+  "title": "A4: L’Hopital’s Rule",
+  "body": " A4: L'Hopital's Rule     A4  I can identify and classify indeterminate forms, and compute them using L’Hopital’s Rule or another applicable technique.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: L'Hopital's Rule    Read all sections        In-Class Activities   "
 },
 {
   "id": "A4-2",
@@ -2185,7 +2257,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "3.4",
   "title": "",
-  "body": "   A4  I can identify and classify indeterminate forms, and compute them using L’Hospital’s Rule or another applicable technique.    "
+  "body": "   A4  I can identify and classify indeterminate forms, and compute them using L’Hopital’s Rule or another applicable technique.    "
 },
 {
   "id": "I1",
