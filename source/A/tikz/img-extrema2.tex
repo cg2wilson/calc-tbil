@@ -1,0 +1,32 @@
+\begin{tikzpicture}
+    \begin{axis}[
+        axis x line = middle,
+            axis y line = middle,
+            every axis y label/.style={at={(ticklabel cs:1.1)}},
+        y label style={at={(axis description cs:.25,1.1)},anchor=north},
+            ylabel = {$y$},
+            every axis x label/.style= {at ={(ticklabel cs:1)}},
+            x label style={at={(axis description cs:1.1,.5)},anchor=east},
+            xlabel = {$x$},
+            xtick = {-2,-1,1,2,3,4,5},
+            ytick = {-4,...,4},
+        xmin = -2, xmax = 6,
+        ymin = -5, ymax = 5,
+        trig format plots = rad
+        ]		
+        \addplot[thick,smooth, samples=100, domain=0:2] {4-x^2};
+        \addplot[thick,smooth, samples=100, domain=2:3] {3*x-7};
+        \addplot[thick,smooth,samples=100,domain=3:5] {-1.5*x+6.5};
+        \coordinate (a) at (0,4);
+        \coordinate (b) at (2,0);
+        \coordinate (c) at (2,-1);
+        \coordinate (d) at (3,2);
+        \coordinate (e) at (5,-1);
+    \end{axis}
+        \fill (a) circle (0.1);
+        \fill (b) circle (0.1);
+        \fill[white] (c) circle (0.1);
+        \draw (c) circle (0.1);
+        \fill (d) circle (0.1);
+        \fill (e) circle (0.1);
+\end{tikzpicture}
