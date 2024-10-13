@@ -401,6 +401,571 @@
                 </p>
             </statement>
         </definition>
+
+        <activity xml:id="a-activity-fdt-intuition">
+            <introduction>
+                <p>
+                    This activity will develop the intuition for the <em>First Derivative Test</em>, a method of classifying local extrema. The questions below refer to this prompt:
+                </p>
+                <p>
+                    Sketch the graph of a continuous function <m>f(x)</m> which has the following properties:
+                    <ul>
+                        <li>
+                            <p>
+                                <m>\ds \lim_{x\to -\infty} = -\infty</m> and <m>\ds \lim_{x\to \infty} = \infty</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f</m> has a local maximum at <m>x = -2</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f</m> is neither increasing nor decreasing at <m>x = 0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f</m> has a local minimum at <m>x = 2</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is the most accurate description for how the graph behaves around <m>x=-2</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>f'(x) \lt 0</m> before <m>x=-2</m> and <m>f'(x) \gt 0</m> after <m>x=-2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) \lt 0</m> before <m>x=-2</m>, <m>f'(x) = 0</m> at <m>x = -2</m>, and <m>f'(x) \gt 0</m> after <m>x=-2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) \gt 0</m> before <m>x=-2</m> and <m>f'(x) \lt 0</m> after <m>x=-2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) \gt 0</m> before <m>x=-2</m>, <m>f'(x) = 0</m> at <m>x = -2</m>, and <m>f'(x) \lt 0</m> after <m>x=-2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which is the most accurate description for how the graph behaves around <m>x = 0</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>f'(x) \lt 0</m> before <m>x=0</m> and <m>f'(x) \lt 0</m> after <m>x=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) \lt 0</m> before <m>x=0</m>, <m>f'(0) = 0</m>, and <m>f'(x) \lt 0</m> after <m>x=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) \gt 0</m> before <m>x=0</m> and <m>f'(x) \gt 0</m> after <m>x=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) \gt 0</m> before <m>x=0</m>, <m>f'(0) = 0</m>, and <m>f'(x) \gt 0</m> after <m>x=0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which is the most accurate description for how the graph behaves around <m>x=2</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>f'(x) \lt 0</m> before <m>x=2</m>, <m>f'(x) = 0</m> at <m>x = 2</m>, and <m>f'(x) \gt 0</m> after <m>x=2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) \lt 0</m> before <m>x=2</m> and <m>f'(x) \gt 0</m> after <m>x=2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) \gt 0</m> before <m>x=2</m> and <m>f'(x) \lt 0</m> after <m>x=2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f'(x) \gt 0</m> before <m>x=2</m>, <m>f'(x) = 0</m> at <m>x = 2</m>, and <m>f'(x) \lt 0</m> after <m>x=2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-first-derivative-test">
+            <title>First Derivative Test</title>
+            <idx><h>First Derivative Test</h></idx>
+            <statement>
+                <p>
+                    Suppose that <m>(c,f(c))</m> is a critical point of <m>f(x)</m> and that <m>f(x)</m> is continuous at <m>x=c</m>. 
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                If <m>f'(x)</m> switches from negative to positive around <m>c</m>, then <m>f(x)</m> has a local minimum at <m>x=c</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>f'(x)</m> switches from positive to negative around <m>c</m>, then <m>f(x)</m> has a local maximum at <m>x=c</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>f'(x)</m> does not switch sign around <m>c</m>, then <m>f(x)</m> has neither a local maximum nor a local minimum at <m>x=c</m>; the most we can say is that it has a <em>horizontal tangent line</em>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="a-activity-fdt1">
+            <introduction>
+                <p>
+                    This activity will walk you through how to use <xref ref="thm-first-derivative-test"/> to classify local extrema.
+                </p>
+                <p>
+                    Let <m>f(x) = x^4-4x^3+4x^2</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        The first thing to do is to find the critical inputs for <m>f(x)</m>, then organize them on a number line. Which number line is most accurate for this function?
+                        <ol marker="A.">
+                            <li>
+                                <figure>
+                                    <image>
+                                        <latex-image>
+                                            <xi:include href="./tikz/a2-fdt1-NL1.tex" parse="text"/>
+                                        </latex-image>
+                                    </image>
+                                    <caption>
+                                        A possible number line for <m>f(x)</m>, with critical inputs <m>x=0,-1,2</m>
+                                    </caption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <image>
+                                        <latex-image>
+                                            <xi:include href="./tikz/a2-fdt1-NL2.tex" parse="text"/>
+                                        </latex-image>
+                                    </image>
+                                    <caption>
+                                        A possible number line for <m>f(x)</m>, with critical inputs <m>x=0,1,-2</m>
+                                    </caption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <image>
+                                        <latex-image>
+                                            <xi:include href="./tikz/a2-fdt1-NL3.tex" parse="text"/>
+                                        </latex-image>
+                                    </image>
+                                    <caption>
+                                        A possible number line for <m>f(x)</m>, with critical inputs <m>x=1,2</m>
+                                    </caption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <image>
+                                        <latex-image>
+                                            <xi:include href="./tikz/a2-fdt1-NL4.tex" parse="text"/>
+                                        </latex-image>
+                                    </image>
+                                    <caption>
+                                        A possible number line for <m>f(x)</m>, with critical inputs <m>x=0,1,2</m>
+                                    </caption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <image>
+                                        <latex-image>
+                                            <xi:include href="./tikz/a2-fdt1-NL5.tex" parse="text"/>
+                                        </latex-image>
+                                    </image>
+                                    <caption>
+                                        A possible number line for <m>f(x)</m>, with critical inputs <m>x=0,-1,-2</m>
+                                    </caption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <image>
+                                        <latex-image>
+                                            <xi:include href="./tikz/a2-fdt1-NL6.tex" parse="text"/>
+                                        </latex-image>
+                                    </image>
+                                    <caption>
+                                        A possible number line for <m>f(x)</m>, with critical inputs <m>x=-1,-2</m>
+                                    </caption>
+                                </figure>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the intervals which your critical inputs have split <m>(-infty,\infty)</m> into. There should be 4 total if you chose A, B, D, or E; there should be 3 if you chose C or F.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Choose an <m>x-</m>value which lies in each of the intervals you chose. For each interval, determine: is <m>f'(x)</m> positive or negative at the test point? Record your answers with the number line in some fashion.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        On which interval(s) is <m>f(x)</m> increasing? What about the interval(s) where <m>f(x)</m> is decreasing? Record your answers with the number line in some fashion.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use part (d) to classify all critical points of <m>f(x)</m> as local maxima, local minima, or neither.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Sketch a rough graph of <m>f(x)</m> based on the information you've collected to this point.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-second-derivative-test">
+            <title>Second Derivative Test</title>
+            <idx><h>Second Derivative Test</h></idx>            
+            <statement>
+                <p>
+                    Suppose that <m>x=c</m> is a critical input for <m>f(x)</m> and that <m>f''(x)</m> is continuous at <m>x=c</m>. Then,
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                If <m>f''(c) \lt 0</m>, then <m>f(x)</m> has a local maximum at <m>x=c</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>f''(c) \gt 0</m>, then <m>f(x)</m> has a local minimum at <m>x=c</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>f''(c) = 0</m>, the Second Derivative Test is inconclusive.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="a-activity-sdt1">
+            <introduction>
+                <p>
+                    Consider <m>f(x) = -x^3+3x+4</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Perform the first derivative test on the derivative, <m>f'(x) = -3x^2+3</m>. This includes drawing/dividing the number line.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which statement is most correct?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>f(x)</m> has a maximum at <m>x= -1</m> and a minimum at <m>x= 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x)</m> has a maximum at <m>x= 1</m> and a minimum at <m>x= -1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x)</m> has a maximum at <m>x= 1</m> and a maximum at <m>x= -1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x)</m> has a minimum at <m>x= -1</m> and a minimum at <m>x= 1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="a-activity-fdtsdt1">
+            <introduction>
+                <p>
+                    For each of the following functions, find the intervals on which <m>f(x)</m> is increasing or decreasing. Then identify any local extrema using either the First or Second Derivative Test.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x)=x^3+3x^2+3x+1</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x)=\dfrac{1}{2}x+\cos x</m> on <m>(0,2\pi)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x)=(x^2-9)^{2/3}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x)= \ln(2x-1)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x)=\dfrac{x^2}{x^2-4}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-concavity">
+            <title>Concavity</title>
+            <idx><h>concave up</h></idx>
+            <idx><h>concave down</h></idx>
+            <idx><h>concavity</h></idx>
+            <statement>
+                <p>
+                    A function <m>f(x)</m> is said to be <term>concave up</term> if it bends upward away from its tangent lines; if it bends downward away from its tangent lines, we say <m>f(x)</m> is <term>concave down</term>.
+                </p>
+                <p>
+                    The quality of being concave up/concave down is called the <term>concavity</term> of the function.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="a-activity-concavity1">
+            <introduction>
+                <p>
+                    Let <m>f(x) = x^2</m> and <m>g(x) = -x^2+5</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Sketch the graph <m>f'(x)</m> and <m>g'(x)</m>. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which is true about <m>f(x)</m> and <m>g(x)</m> when compared against their derivative graphs?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>f(x)</m> is concave up and <m>f'(x)</m> has a negative slope; <m>g(x)</m> is concave down and <m>g'(x)</m> has a positive slope
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x)</m> is concave up and <m>f'(x)</m> has a positive slope; <m>g(x)</m> is concave down and <m>g'(x)</m> has a negative slope
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x)</m> is concave down and <m>f'(x)</m> has a negative slope; <m>g(x)</m> is concave up and <m>g'(x)</m> has a positive slope
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x)</m> is concave down and <m>f'(x)</m> has a positive slope; <m>g(x)</m> is concave up and <m>g'(x)</m> has a negative slope
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What connection do you think exists between concavity and the second derivative of a function? Write a sentence connecting the two ideas.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-concavity-test">
+            <title>Concavity Test</title>
+            <idx><h>Concavity Test</h></idx>
+            <statement>
+                <p>
+                    Suppose that <m>f(x)</m> is twice-differentiable on some interval <m>(a,b)</m>. If <m>f''(x) \gt 0</m> on <m>(a,b)</m>, then <m>f</m> is concave up on <m>(a,b)</m>. If <m>f''(x) \lt 0</m> on <m>(a,b)</m>, then <m>f</m> is concave down on <m>(a,b)</m>.
+                </p>
+            </statement>
+        </theorem>
+        
+
+        <definition xml:id="def-inflection-point">
+            <title>Inflection Point</title>
+            <idx><h>inflection point</h></idx>
+            <statement>
+                <p>
+                    Let <m>f(x)</m> be continuous around <m>x=c</m>. <m>f(x)</m> has an <term>inflection point</term> at <m>(c,f(c))</m> if <m>f''(c) = 0</m> and <m>f''(x)</m> changes sign around <m>x=c</m>
+                </p>
+                <p>
+                    An inflection point occurs when a function is <em>differentiable</em> and changes concavity.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="a-activity-classifypoints1">
+            <introduction>
+                <p>
+                    Let <m>f(x) = x^4-54x^2</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Perform the first derivative test on <m>f(x)</m> to classify its local extrema
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        On which intervals is <m>f(x)</m> increasing? What about decreasing?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Conduct the Concavity Test on <m>f(x)</m> to determine the intervals on which <m>f(x)</m> is concave up and concave down.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Does <m>f(x)</m> have any inflection points? Where and why?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="a-activity-classifypoints2">
+            <introduction>
+                <p>
+                    For each function: 1) identify the intervals where it is increasing/decreasing; 2) classify any extrema for the function; 3) identify the intervals where it is concave up/concave down; 4) identify the inflection points, if any; 5) use the information to give a rough sketch of the graph.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            f(x) = -\dfrac{1}{4}x^5 - \dfrac{5}{2}x^4-\dfrac{15}{2}x^3
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            g(x) = \dfrac{3}{20}x^5 + x^4 - \dfrac{5}{2}x^3
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            h(x) = x-\cos\lrpar{\dfrac{\pi}{2}x}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        
+        <!-- 
+            things to add:
+            1) activity working through FDT, including diagram
+            2) use FDT 
+            3) introduce SDT
+            4) use SDT
+            5) introduce concavity
+            6) use FDT and concavity to find extrema/inflection points (two examples)
+            7) sketch graph of a function
+        -->
     </subsection>
 
 </section>

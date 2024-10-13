@@ -17,7 +17,252 @@
 
     <subsection xml:id="A3-activities">
         <title>In-Class Activities</title>
+        
+        <activity xml:id="a-activity-optimization-intuition">
+            <introduction>
+                <p>
+                    Rather than go straight into optimization, we'll give some motivation for the process first, as well as connect it to material we have already learned.
+                </p>
+                <p>
+                    Consider the function <m>f(x) = -x^2+6x+11</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is the correct critical <em>point</em> for <m>f(x)</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        (3,0)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        (-3,0)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        (-3,-16)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        (3,20)
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Suppose that <m>f(x)</m> gives the profit (in hundred dollars) that a compny makes from a certain product, when <m>x</m> thousand units are sold. The critical point found in (a) has a physical meaning to it now; write a sentence describing that meaning.
+                    </p>
+                </statement>
+            </task>
+        </activity>
 
+        <note>
+            <p>
+                In <xref ref="a-activity-optimization-intuition"/>, you were given the function for profit. More often than not, however, you will need to develop the appropriate formula(s) for yourself.
+            </p>
+        </note>
+
+        <activity xml:id="a-activity-optimization1">
+            <introduction>
+                <p>
+                    A farmer has 2400 ft of fencing and wants to fence off a rectangular field that borders a straight river.  He needs no fence along the river.  What are the dimensions of the field with the largest area?
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Draw a sketch of the situation. Label the sketch using <m>x</m> for components parallel to the river, and <m>y</m> for components perpendicular to the river.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which pair of formulas best describes the situation shown in your sketch?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>2x + y = 2400</m> and <m>A = xy</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2y + x = 2400</m> and <m>A = xy</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>xy = 2400</m> and <m>P = 2x + y</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>xy = 2400</m> and <m>P = 2y + x</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which function do you want to optimize (or maximize): <em>area</em> or <em>perimeter</em>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Area
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Perimeter
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The equation which includes the number(s) given in the problem is called the <em>auxilliary equation</em>. Use the auxilliary equation here to reduce the goal function to a single variable; simplify if possible.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the techniques of <xref ref="A2"/> to locate the local extremum of the function.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the information above to identify the dimensions requested; be sure to include proper units.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <assemblage xml:id="a-strategy-for-optimization1">
+            <title>Strategy for Optimization</title>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Draw a picture of the situation (if possible).  Label all pieces of your diagram with a variable that will not confuse you later.    
+                        </p>
+                        
+                    </li>
+                    <li>
+                        <p>
+                            Use the picture (or the description) to find equation(s) which relate to the problem.
+                        </p>
+                        
+                    </li>
+                    <li>
+                        <p>
+                           Identify the equation which will be optimized.  Use the equations from (2) and algebra to reduce the variables in the optimizing equation, and simplify. 
+                        </p>
+                        
+                    </li>
+                    <li>
+                        <p>
+                          Take the derivative of your optimizing equation, set it equal to zero, and solve.  
+                        </p>
+                        
+                    </li>
+                    <li>
+                        <p>
+                          If necessary, use your answer to find the remaining pieces of information.  
+                        </p>	
+                        
+                    </li>
+                </ol>
+            </p>
+        </assemblage>
+
+        <activity xml:id="a-activity-optimization2">
+            <p>
+                A cylindrical can is to hold 1 L of oil.  Find the dimensions that will minimize the cost of the metal to manufacture the can.
+            </p>
+            <p>
+                <em>Note</em>: Give exact answers here, and expect them to be highly non-pretty.
+            </p>
+        </activity>
+
+        <activity xml:id="a-activity-optimization3">
+            <p>
+                Find the point on the parabola <m>y^2 = 2x</m> that is closest to the point <m>(1,4)</m>.
+                <ol marker="A." cols="2">
+                    <li>
+                        <p>
+                            <m>
+                                (1,2)
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>
+                                (2,2)
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>
+                                (0,0)
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>
+                                (3,\sqrt{6})
+                            </m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <activity xml:id="a-activity-optimization4">
+            <p>
+                The sum of two positive numbers is 20.  What is the smallest possible value of the sum of their squares?
+            </p>
+        </activity>
+
+        <activity xml:id="a-activity-optimization5">
+            <p>
+                A box with a square base and open top must have a volume of 32,000 cm<m>^3</m>.  Find the dimensions of the box that minimize the amount of material used.
+            </p>
+        </activity>
+
+        <activity xml:id="a-activity-optimization6">
+            <p>
+                A poster is to have an area of 180 in<m>^2</m> with 1-inch margins at the bottom and sides, and a 2-inch margin at the top.  What dimensions will give the largest printed area?
+            </p>
+        </activity>
     </subsection>
 
 </section>
