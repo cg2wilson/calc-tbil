@@ -2212,7 +2212,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "A2: Derivatives and Qualitative Behavior of Graphs",
-  "body": " A2: Derivatives and Qualitative Behavior of Graphs     A2  I can define absolute extrema, local extrema, critical points, inflection points, and use them to determine the qualitative behavior of a function (increasing\/decreasing, concavity, classification of local extrema, classification of absolute extrema on a closed interval).      Pre-Class Preparation  Read the following sections of the text:    Section 4.3: Maxima and Minima    Read all sections      Section 4.5: Derivatives and teh Shape of a Graph    Read all sections        In-Class Activities   "
+  "body": " A2: Derivatives and Qualitative Behavior of Graphs     A2  I can define absolute extrema, local extrema, critical points, inflection points, and use them to determine the qualitative behavior of a function (increasing\/decreasing, concavity, classification of local extrema, classification of absolute extrema on a closed interval).      Pre-Class Preparation  Read the following sections of the text:    Section 4.3: Maxima and Minima    Read all sections      Section 4.5: Derivatives and the Shape of a Graph    Read all sections        In-Class Activities   Global Maximum\/Minimum (Extrema)  global maximum  global minimum  global maximum value  global minimum value  global extrema  global extremum  absolute maximum  absolute minimum   We say that has a global maximum at provided that for all in the domain of the function. We also say that is a global maximum value for the function.  On the other hand, we say that has a global minimum at provided that for all in the domain of the function. We also say that is a global minimum value for the function.  The global maxima and minima are also known as the global extrema (or extreme values or absolute extrema) of the function. A single maximum or minimum is also referred to as an extremum .  You may also see the terms absolute maximum or absolute minimum used instead of global maximum or global minimum.      Use to determine which of the following statements best describes the global extrema of the function shown below.   A function describing the height of an object.        The global maximum is , because this is where the function goes from increasing to decreasing.    The global maximum is , because for every other input .    The graph has two global minima at the endpoints because the endpoints must be global extrema.    The graph has no global minimum.       There can be some issues when trying to determine the global mimimum and maximum values of a function only using its graph. The Extreme Value Theorem will guarantee the existence of global extrema on a closed interval. Then we will see how to use derivatives to find algebraically the extrema of a function.    Extreme Value Theorem   If is continuous on a closed interval , then has both a global maximum and a global minimum on the interval.      Use the image below to answer the following questions.      A function defined on the interval      True or false: The Extreme Value Theorem guarantees that we have a global maximum and a global minimum.   True    False       What is the value of the global maximum?   0    2    3    5       What is the value of the global minimum?   0    2    3    5        Critical Input\/Value\/Point  critical number  critical input  critical value  critical point   We say that is a critical input (or critical number) of if is in the domain of and either or does not exist.  The output is called the critical value and the pair is the critical point .      Which of the following are critical numbers for ?    and       and         The Closed Interval Method  The following is a way of finding the global extrema of a continuous function on a closed interval .   Make a list of all critical points of in . (Do not include any critical points outside of the interval).  Add the endpoints and to the list.  Evaluate at all points on your list.  The smallest output occurs at the global minimum. The largest output occurs at the global maximum.      Identify the global extrema for the functions below.     on    Global maximum is when and global minimum when .    Global maximum is when and global minimum when .    Global maximum is when and global minimum when .    Global maximum is when and global minimum when .        on .   Global maximum is when and global minimum when .    Global maximum is when and global minimum when .    Global maximum is when and global minimum when .    Global maximum is when and global minimum when .        Local Maximum\/Minimum  local maximum  local minimum  relative maximum  relative minimum   We say that has a local maximum at provided that for all near . We also say that is a local maximum value for the function. On the other hand, we say that has a local minimum at provided that for all near . We also say that is a local minimum value for the function. The local maxima and minima are also known as the local extrema (or relative extrema) of the function.     To find the extreme values of a function we can consider all its local extrema (local maxima and minima) and study them to find which one(s) give the largest and smallest values on the function. But how do you find the local\/relative extrema? We will see that we can detect local extrema by computing the first derivative and finding the critical points of the function. By finding the critical points, we will produce a list of candidates for the extrema of the function.    We have encountered several terms recently, so we should make sure that we understand how they are related. Which of the following statements are true?   In a closed interval an endpoint is always a local extrema but it might or might not be a global extremum.    In a closed interval an endpoint is always a global extremum.    A critical point is always a local extremum but it might or might not be a global extremum.    A local extremum only occurs where the first derivative is equal to zero.    A local extremum always occurs at a critical point.    A local extremum might occur at a critical point or at an endpoint of a closed interval.       Increasing\/Decreasing  increasing  decreasing   Let be a differentiable function on the interval . is increasing on the interval if , and decreasing on if .      This activity will develop the intuition for the First Derivative Test , a method of classifying local extrema. The questions below refer to this prompt:  Sketch the graph of a continuous function which has the following properties:    and      has a local maximum at      is neither increasing nor decreasing at      has a local minimum at        Which is the most accurate description for how the graph behaves around ?    before and after      before , at , and after      before and after      before , at , and after        Which is the most accurate description for how the graph behaves around ?    before and after      before , , and after      before and after      before , , and after        Which is the most accurate description for how the graph behaves around ?    before , at , and after      before and after      before and after      before , at , and after         First Derivative Test  First Derivative Test   Suppose that is a critical point of and that is continuous at .     If switches from negative to positive around , then has a local minimum at .    If switches from positive to negative around , then has a local maximum at     If does not switch sign around , then has neither a local maximum nor a local minimum at ; the most we can say is that it has a horizontal tangent line .         This activity will walk you through how to use to classify local extrema.  Let .    The first thing to do is to find the critical inputs for , then organize them on a number line. Which number line is most accurate for this function?       A possible number line for , with critical inputs          A possible number line for , with critical inputs          A possible number line for , with critical inputs          A possible number line for , with critical inputs          A possible number line for , with critical inputs          A possible number line for , with critical inputs         Identify the intervals which your critical inputs have split into. There should be 4 total if you chose A, B, D, or E; there should be 3 if you chose C or F.    Choose an value which lies in each of the intervals you chose. For each interval, determine: is positive or negative at the test point? Record your answers with the number line in some fashion.    On which interval(s) is increasing? What about the interval(s) where is decreasing? Record your answers with the number line in some fashion.    Use part (d) to classify all critical points of as local maxima, local minima, or neither.    Sketch a rough graph of based on the information you've collected to this point.     Second Derivative Test  Second Derivative Test   Suppose that is a critical input for and that is continuous at . Then,     If , then has a local maximum at .    If , then has a local minimum at .    If , the Second Derivative Test is inconclusive.         Consider     Perform the first derivative test on the derivative, . This includes drawing\/dividing the number line.    Which statement is most correct?    has a maximum at and a minimum at      has a maximum at and a minimum at      has a maximum at and a maximum at      has a minimum at and a minimum at          For each of the following functions, find the intervals on which is increasing or decreasing. Then identify any local extrema using either the First or Second Derivative Test.          on                     Concavity  concave up  concave down  concavity   A function is said to be concave up if it bends upward away from its tangent lines; if it bends downward away from its tangent lines, we say is concave down .  The quality of being concave up\/concave down is called the concavity of the function.      Let and     Sketch the graph and .    Which is true about and when compared against their derivative graphs?    is concave up and has a negative slope; is concave down and has a positive slope     is concave up and has a positive slope; is concave down and has a negative slope     is concave down and has a negative slope; is concave up and has a positive slope     is concave down and has a positive slope; is concave up and has a negative slope       What connection do you think exists between concavity and the second derivative of a function? Write a sentence connecting the two ideas.     Concavity Test  Concavity Test   Suppose that is twice-differentiable on some interval . If on , then is concave up on . If on , then is concave down on .     Inflection Point  inflection point   Let be continuous around . has an inflection point at if and changes sign around   An inflection point occurs when a function is differentiable and changes concavity.      Let .    Perform the first derivative test on to classify its local extrema    On which intervals is increasing? What about decreasing?    Conduct the Concavity Test on to determine the intervals on which is concave up and concave down.    Does have any inflection points? Where and why?      For each function: 1) identify the intervals where it is increasing\/decreasing; 2) classify any extrema for the function; 3) identify the intervals where it is concave up\/concave down; 4) identify the inflection points, if any; 5) use the information to give a rough sketch of the graph.                     "
 },
 {
   "id": "A2-2",
@@ -2224,13 +2224,238 @@ var ptx_lunr_docs = [
   "body": "   A2  I can define absolute extrema, local extrema, critical points, inflection points, and use them to determine the qualitative behavior of a function (increasing\/decreasing, concavity, classification of local extrema, classification of absolute extrema on a closed interval).    "
 },
 {
+  "id": "def-global-extrema",
+  "level": "2",
+  "url": "A2.html#def-global-extrema",
+  "type": "Definition",
+  "number": "3.2.1",
+  "title": "Global Maximum\/Minimum (Extrema).",
+  "body": " Global Maximum\/Minimum (Extrema)  global maximum  global minimum  global maximum value  global minimum value  global extrema  global extremum  absolute maximum  absolute minimum   We say that has a global maximum at provided that for all in the domain of the function. We also say that is a global maximum value for the function.  On the other hand, we say that has a global minimum at provided that for all in the domain of the function. We also say that is a global minimum value for the function.  The global maxima and minima are also known as the global extrema (or extreme values or absolute extrema) of the function. A single maximum or minimum is also referred to as an extremum .  You may also see the terms absolute maximum or absolute minimum used instead of global maximum or global minimum.   "
+},
+{
+  "id": "a-activity-extrema1",
+  "level": "2",
+  "url": "A2.html#a-activity-extrema1",
+  "type": "Activity",
+  "number": "3.2.1",
+  "title": "",
+  "body": "  Use to determine which of the following statements best describes the global extrema of the function shown below.   A function describing the height of an object.        The global maximum is , because this is where the function goes from increasing to decreasing.    The global maximum is , because for every other input .    The graph has two global minima at the endpoints because the endpoints must be global extrema.    The graph has no global minimum.     "
+},
+{
+  "id": "A2-activities-4",
+  "level": "2",
+  "url": "A2.html#A2-activities-4",
+  "type": "Observation",
+  "number": "3.2.3",
+  "title": "",
+  "body": " There can be some issues when trying to determine the global mimimum and maximum values of a function only using its graph. The Extreme Value Theorem will guarantee the existence of global extrema on a closed interval. Then we will see how to use derivatives to find algebraically the extrema of a function.  "
+},
+{
+  "id": "thm-extreme-value-theorem",
+  "level": "2",
+  "url": "A2.html#thm-extreme-value-theorem",
+  "type": "Theorem",
+  "number": "3.2.4",
+  "title": "Extreme Value Theorem.",
+  "body": " Extreme Value Theorem   If is continuous on a closed interval , then has both a global maximum and a global minimum on the interval.   "
+},
+{
+  "id": "a-activity-extrema2",
+  "level": "2",
+  "url": "A2.html#a-activity-extrema2",
+  "type": "Activity",
+  "number": "3.2.2",
+  "title": "",
+  "body": "  Use the image below to answer the following questions.      A function defined on the interval      True or false: The Extreme Value Theorem guarantees that we have a global maximum and a global minimum.   True    False       What is the value of the global maximum?   0    2    3    5       What is the value of the global minimum?   0    2    3    5      "
+},
+{
+  "id": "def-critical-point",
+  "level": "2",
+  "url": "A2.html#def-critical-point",
+  "type": "Definition",
+  "number": "3.2.6",
+  "title": "Critical Input\/Value\/Point.",
+  "body": " Critical Input\/Value\/Point  critical number  critical input  critical value  critical point   We say that is a critical input (or critical number) of if is in the domain of and either or does not exist.  The output is called the critical value and the pair is the critical point .   "
+},
+{
+  "id": "a-activity-critical1",
+  "level": "2",
+  "url": "A2.html#a-activity-critical1",
+  "type": "Activity",
+  "number": "3.2.3",
+  "title": "",
+  "body": "  Which of the following are critical numbers for ?    and       and        "
+},
+{
+  "id": "CIM",
+  "level": "2",
+  "url": "A2.html#CIM",
+  "type": "Remark",
+  "number": "3.2.7",
+  "title": "The Closed Interval Method.",
+  "body": "The Closed Interval Method  The following is a way of finding the global extrema of a continuous function on a closed interval .   Make a list of all critical points of in . (Do not include any critical points outside of the interval).  Add the endpoints and to the list.  Evaluate at all points on your list.  The smallest output occurs at the global minimum. The largest output occurs at the global maximum.   "
+},
+{
+  "id": "a-activity-critical2",
+  "level": "2",
+  "url": "A2.html#a-activity-critical2",
+  "type": "Activity",
+  "number": "3.2.4",
+  "title": "",
+  "body": "  Identify the global extrema for the functions below.     on    Global maximum is when and global minimum when .    Global maximum is when and global minimum when .    Global maximum is when and global minimum when .    Global maximum is when and global minimum when .        on .   Global maximum is when and global minimum when .    Global maximum is when and global minimum when .    Global maximum is when and global minimum when .    Global maximum is when and global minimum when .      "
+},
+{
+  "id": "def-local-extrema",
+  "level": "2",
+  "url": "A2.html#def-local-extrema",
+  "type": "Definition",
+  "number": "3.2.8",
+  "title": "Local Maximum\/Minimum.",
+  "body": " Local Maximum\/Minimum  local maximum  local minimum  relative maximum  relative minimum   We say that has a local maximum at provided that for all near . We also say that is a local maximum value for the function. On the other hand, we say that has a local minimum at provided that for all near . We also say that is a local minimum value for the function. The local maxima and minima are also known as the local extrema (or relative extrema) of the function.   "
+},
+{
+  "id": "A2-activities-12",
+  "level": "2",
+  "url": "A2.html#A2-activities-12",
+  "type": "Observation",
+  "number": "3.2.9",
+  "title": "",
+  "body": " To find the extreme values of a function we can consider all its local extrema (local maxima and minima) and study them to find which one(s) give the largest and smallest values on the function. But how do you find the local\/relative extrema? We will see that we can detect local extrema by computing the first derivative and finding the critical points of the function. By finding the critical points, we will produce a list of candidates for the extrema of the function.  "
+},
+{
+  "id": "a-activity-extrema-terminology",
+  "level": "2",
+  "url": "A2.html#a-activity-extrema-terminology",
+  "type": "Activity",
+  "number": "3.2.5",
+  "title": "",
+  "body": " We have encountered several terms recently, so we should make sure that we understand how they are related. Which of the following statements are true?   In a closed interval an endpoint is always a local extrema but it might or might not be a global extremum.    In a closed interval an endpoint is always a global extremum.    A critical point is always a local extremum but it might or might not be a global extremum.    A local extremum only occurs where the first derivative is equal to zero.    A local extremum always occurs at a critical point.    A local extremum might occur at a critical point or at an endpoint of a closed interval.     "
+},
+{
+  "id": "def-increasing-decreasing",
+  "level": "2",
+  "url": "A2.html#def-increasing-decreasing",
+  "type": "Definition",
+  "number": "3.2.10",
+  "title": "Increasing\/Decreasing.",
+  "body": " Increasing\/Decreasing  increasing  decreasing   Let be a differentiable function on the interval . is increasing on the interval if , and decreasing on if .   "
+},
+{
+  "id": "a-activity-fdt-intuition",
+  "level": "2",
+  "url": "A2.html#a-activity-fdt-intuition",
+  "type": "Activity",
+  "number": "3.2.6",
+  "title": "",
+  "body": "  This activity will develop the intuition for the First Derivative Test , a method of classifying local extrema. The questions below refer to this prompt:  Sketch the graph of a continuous function which has the following properties:    and      has a local maximum at      is neither increasing nor decreasing at      has a local minimum at        Which is the most accurate description for how the graph behaves around ?    before and after      before , at , and after      before and after      before , at , and after        Which is the most accurate description for how the graph behaves around ?    before and after      before , , and after      before and after      before , , and after        Which is the most accurate description for how the graph behaves around ?    before , at , and after      before and after      before and after      before , at , and after       "
+},
+{
+  "id": "thm-first-derivative-test",
+  "level": "2",
+  "url": "A2.html#thm-first-derivative-test",
+  "type": "Theorem",
+  "number": "3.2.11",
+  "title": "First Derivative Test.",
+  "body": " First Derivative Test  First Derivative Test   Suppose that is a critical point of and that is continuous at .     If switches from negative to positive around , then has a local minimum at .    If switches from positive to negative around , then has a local maximum at     If does not switch sign around , then has neither a local maximum nor a local minimum at ; the most we can say is that it has a horizontal tangent line .      "
+},
+{
+  "id": "a-activity-fdt1",
+  "level": "2",
+  "url": "A2.html#a-activity-fdt1",
+  "type": "Activity",
+  "number": "3.2.7",
+  "title": "",
+  "body": "  This activity will walk you through how to use to classify local extrema.  Let .    The first thing to do is to find the critical inputs for , then organize them on a number line. Which number line is most accurate for this function?       A possible number line for , with critical inputs          A possible number line for , with critical inputs          A possible number line for , with critical inputs          A possible number line for , with critical inputs          A possible number line for , with critical inputs          A possible number line for , with critical inputs         Identify the intervals which your critical inputs have split into. There should be 4 total if you chose A, B, D, or E; there should be 3 if you chose C or F.    Choose an value which lies in each of the intervals you chose. For each interval, determine: is positive or negative at the test point? Record your answers with the number line in some fashion.    On which interval(s) is increasing? What about the interval(s) where is decreasing? Record your answers with the number line in some fashion.    Use part (d) to classify all critical points of as local maxima, local minima, or neither.    Sketch a rough graph of based on the information you've collected to this point.   "
+},
+{
+  "id": "thm-second-derivative-test",
+  "level": "2",
+  "url": "A2.html#thm-second-derivative-test",
+  "type": "Theorem",
+  "number": "3.2.18",
+  "title": "Second Derivative Test.",
+  "body": " Second Derivative Test  Second Derivative Test   Suppose that is a critical input for and that is continuous at . Then,     If , then has a local maximum at .    If , then has a local minimum at .    If , the Second Derivative Test is inconclusive.      "
+},
+{
+  "id": "a-activity-sdt1",
+  "level": "2",
+  "url": "A2.html#a-activity-sdt1",
+  "type": "Activity",
+  "number": "3.2.8",
+  "title": "",
+  "body": "  Consider     Perform the first derivative test on the derivative, . This includes drawing\/dividing the number line.    Which statement is most correct?    has a maximum at and a minimum at      has a maximum at and a minimum at      has a maximum at and a maximum at      has a minimum at and a minimum at       "
+},
+{
+  "id": "a-activity-fdtsdt1",
+  "level": "2",
+  "url": "A2.html#a-activity-fdtsdt1",
+  "type": "Activity",
+  "number": "3.2.9",
+  "title": "",
+  "body": "  For each of the following functions, find the intervals on which is increasing or decreasing. Then identify any local extrema using either the First or Second Derivative Test.          on                   "
+},
+{
+  "id": "def-concavity",
+  "level": "2",
+  "url": "A2.html#def-concavity",
+  "type": "Definition",
+  "number": "3.2.19",
+  "title": "Concavity.",
+  "body": " Concavity  concave up  concave down  concavity   A function is said to be concave up if it bends upward away from its tangent lines; if it bends downward away from its tangent lines, we say is concave down .  The quality of being concave up\/concave down is called the concavity of the function.   "
+},
+{
+  "id": "a-activity-concavity1",
+  "level": "2",
+  "url": "A2.html#a-activity-concavity1",
+  "type": "Activity",
+  "number": "3.2.10",
+  "title": "",
+  "body": "  Let and     Sketch the graph and .    Which is true about and when compared against their derivative graphs?    is concave up and has a negative slope; is concave down and has a positive slope     is concave up and has a positive slope; is concave down and has a negative slope     is concave down and has a negative slope; is concave up and has a positive slope     is concave down and has a positive slope; is concave up and has a negative slope       What connection do you think exists between concavity and the second derivative of a function? Write a sentence connecting the two ideas.   "
+},
+{
+  "id": "thm-concavity-test",
+  "level": "2",
+  "url": "A2.html#thm-concavity-test",
+  "type": "Theorem",
+  "number": "3.2.20",
+  "title": "Concavity Test.",
+  "body": " Concavity Test  Concavity Test   Suppose that is twice-differentiable on some interval . If on , then is concave up on . If on , then is concave down on .   "
+},
+{
+  "id": "def-inflection-point",
+  "level": "2",
+  "url": "A2.html#def-inflection-point",
+  "type": "Definition",
+  "number": "3.2.21",
+  "title": "Inflection Point.",
+  "body": " Inflection Point  inflection point   Let be continuous around . has an inflection point at if and changes sign around   An inflection point occurs when a function is differentiable and changes concavity.   "
+},
+{
+  "id": "a-activity-classifypoints1",
+  "level": "2",
+  "url": "A2.html#a-activity-classifypoints1",
+  "type": "Activity",
+  "number": "3.2.11",
+  "title": "",
+  "body": "  Let .    Perform the first derivative test on to classify its local extrema    On which intervals is increasing? What about decreasing?    Conduct the Concavity Test on to determine the intervals on which is concave up and concave down.    Does have any inflection points? Where and why?   "
+},
+{
+  "id": "a-activity-classifypoints2",
+  "level": "2",
+  "url": "A2.html#a-activity-classifypoints2",
+  "type": "Activity",
+  "number": "3.2.12",
+  "title": "",
+  "body": "  For each function: 1) identify the intervals where it is increasing\/decreasing; 2) classify any extrema for the function; 3) identify the intervals where it is concave up\/concave down; 4) identify the inflection points, if any; 5) use the information to give a rough sketch of the graph.                  "
+},
+{
   "id": "A3",
   "level": "1",
   "url": "A3.html",
   "type": "Section",
   "number": "3.3",
   "title": "A3: Optimization",
-  "body": " A3: Optimization     A3  I can set up and solve applied optimization problems.      Pre-Class Preparation  Read the following sections of the text:    Section 4.7: Applied Optimization Problems    Read all sections        In-Class Activities   "
+  "body": " A3: Optimization     A3  I can set up and solve applied optimization problems.      Pre-Class Preparation  Read the following sections of the text:    Section 4.7: Applied Optimization Problems    Read all sections        In-Class Activities    Rather than go straight into optimization, we'll give some motivation for the process first, as well as connect it to material we have already learned.  Consider the function .    Which is the correct critical point for ?                          Suppose that gives the profit (in hundred dollars) that a compny makes from a certain product, when thousand units are sold. The critical point found in (a) has a physical meaning to it now; write a sentence describing that meaning.     In , you were given the function for profit. More often than not, however, you will need to develop the appropriate formula(s) for yourself.     A farmer has 2400 ft of fencing and wants to fence off a rectangular field that borders a straight river. He needs no fence along the river. What are the dimensions of the field with the largest area?    Draw a sketch of the situation. Label the sketch using for components parallel to the river, and for components perpendicular to the river.    Which pair of formulas best describes the situation shown in your sketch?    and      and      and      and        Which function do you want to optimize (or maximize): area or perimeter ?   Area    Perimeter       The equation which includes the number(s) given in the problem is called the auxilliary equation . Use the auxilliary equation here to reduce the goal function to a single variable; simplify if possible.    Use the techniques of to locate the local extremum of the function.    Use the information above to identify the dimensions requested; be sure to include proper units.     Strategy for Optimization     Draw a picture of the situation (if possible). Label all pieces of your diagram with a variable that will not confuse you later.    Use the picture (or the description) to find equation(s) which relate to the problem.    Identify the equation which will be optimized. Use the equations from (2) and algebra to reduce the variables in the optimizing equation, and simplify.    Take the derivative of your optimizing equation, set it equal to zero, and solve.    If necessary, use your answer to find the remaining pieces of information.       A cylindrical can is to hold 1 L of oil. Find the dimensions that will minimize the cost of the metal to manufacture the can.   Note : Give exact answers here, and expect them to be highly non-pretty.    Find the point on the parabola that is closest to the point .                          The sum of two positive numbers is 20. What is the smallest possible value of the sum of their squares?    A box with a square base and open top must have a volume of 32,000 cm . Find the dimensions of the box that minimize the amount of material used.    A poster is to have an area of 180 in with 1-inch margins at the bottom and sides, and a 2-inch margin at the top. What dimensions will give the largest printed area?    "
 },
 {
   "id": "A3-2",
@@ -2240,6 +2465,78 @@ var ptx_lunr_docs = [
   "number": "3.3",
   "title": "",
   "body": "   A3  I can set up and solve applied optimization problems.    "
+},
+{
+  "id": "a-activity-optimization-intuition",
+  "level": "2",
+  "url": "A3.html#a-activity-optimization-intuition",
+  "type": "Activity",
+  "number": "3.3.1",
+  "title": "",
+  "body": "  Rather than go straight into optimization, we'll give some motivation for the process first, as well as connect it to material we have already learned.  Consider the function .    Which is the correct critical point for ?                          Suppose that gives the profit (in hundred dollars) that a compny makes from a certain product, when thousand units are sold. The critical point found in (a) has a physical meaning to it now; write a sentence describing that meaning.   "
+},
+{
+  "id": "A3-activities-3",
+  "level": "2",
+  "url": "A3.html#A3-activities-3",
+  "type": "Note",
+  "number": "3.3.1",
+  "title": "",
+  "body": " In , you were given the function for profit. More often than not, however, you will need to develop the appropriate formula(s) for yourself.  "
+},
+{
+  "id": "a-activity-optimization1",
+  "level": "2",
+  "url": "A3.html#a-activity-optimization1",
+  "type": "Activity",
+  "number": "3.3.2",
+  "title": "",
+  "body": "  A farmer has 2400 ft of fencing and wants to fence off a rectangular field that borders a straight river. He needs no fence along the river. What are the dimensions of the field with the largest area?    Draw a sketch of the situation. Label the sketch using for components parallel to the river, and for components perpendicular to the river.    Which pair of formulas best describes the situation shown in your sketch?    and      and      and      and        Which function do you want to optimize (or maximize): area or perimeter ?   Area    Perimeter       The equation which includes the number(s) given in the problem is called the auxilliary equation . Use the auxilliary equation here to reduce the goal function to a single variable; simplify if possible.    Use the techniques of to locate the local extremum of the function.    Use the information above to identify the dimensions requested; be sure to include proper units.   "
+},
+{
+  "id": "a-activity-optimization2",
+  "level": "2",
+  "url": "A3.html#a-activity-optimization2",
+  "type": "Activity",
+  "number": "3.3.3",
+  "title": "",
+  "body": " A cylindrical can is to hold 1 L of oil. Find the dimensions that will minimize the cost of the metal to manufacture the can.   Note : Give exact answers here, and expect them to be highly non-pretty.  "
+},
+{
+  "id": "a-activity-optimization3",
+  "level": "2",
+  "url": "A3.html#a-activity-optimization3",
+  "type": "Activity",
+  "number": "3.3.4",
+  "title": "",
+  "body": " Find the point on the parabola that is closest to the point .                        "
+},
+{
+  "id": "a-activity-optimization4",
+  "level": "2",
+  "url": "A3.html#a-activity-optimization4",
+  "type": "Activity",
+  "number": "3.3.5",
+  "title": "",
+  "body": " The sum of two positive numbers is 20. What is the smallest possible value of the sum of their squares?  "
+},
+{
+  "id": "a-activity-optimization5",
+  "level": "2",
+  "url": "A3.html#a-activity-optimization5",
+  "type": "Activity",
+  "number": "3.3.6",
+  "title": "",
+  "body": " A box with a square base and open top must have a volume of 32,000 cm . Find the dimensions of the box that minimize the amount of material used.  "
+},
+{
+  "id": "a-activity-optimization6",
+  "level": "2",
+  "url": "A3.html#a-activity-optimization6",
+  "type": "Activity",
+  "number": "3.3.7",
+  "title": "",
+  "body": " A poster is to have an area of 180 in with 1-inch margins at the bottom and sides, and a 2-inch margin at the top. What dimensions will give the largest printed area?  "
 },
 {
   "id": "A4",
