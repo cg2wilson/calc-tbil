@@ -18,6 +18,62 @@
     <subsection xml:id="A1-activities">
         <title>In-Class Activities</title>
 
+        <assemblage xml:id="a-related-rates-formulastoknow">
+            <title>Formulas to Know</title>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Volume of a sphere: <m>V = \dfrac{4}{3}\pi r^3</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Surface area of a sphere: <m>A = 4\pi r^2</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Volume of a rectangular prism: <m>V = lwh</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Surface area of a rectangular prism: <m>A = 2lw + 2lh + 2wh</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Area of parallelogram: <m>A = lw</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Perimeter of parallelogram: <m>P = 2x + 2y</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Area of circle: <m>A = \pi r^2</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Circumference of circle: <m>C = 2\pi r</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Volume of a cone: <m>V = \dfrac{1}{3}\pi r^2h</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                I only expect you to know <em>volume of a sphere</em>, <em>area of a circle</em>, <em>circumference of a circle</em>, <em>area of a parallelogram</em>, <em>perimeter of a parallelogram</em>, <em>volume of a rectangular prism</em>
+            </p>
+        </assemblage>
+
         <activity xml:id="a-rates-intro1">
             <introduction>
                 <p>

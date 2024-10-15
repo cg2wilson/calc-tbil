@@ -18,6 +18,52 @@
     <subsection xml:id="A4-activities">
         <title>In-Class Activities</title>
 
+        <activity xml:id="a-activity-lhopital-background1">
+            <statement>
+                <p>
+                    In <xref ref="L2"/>, we learned <xref ref="direct-substitution"/>. It says that if <m>f</m> is a <q>nice</q> function (polynomial, algebraic, transcendental, trigonometric), and <m>a</m> is in the domain of <m>f</m>, then <m>\ds \lim_{x\to a} f(x) = f(a)</m>.
+                </p>
+                <p>
+                    Below, consider the function <m>f(x) = \dfrac{x^2-4}{x-2}</m>.
+                </p>
+            </statement>
+            <task>
+                <statement>
+                    <p>
+                        Which option gives the <em>best</em> reason why we can't use Direct Substitution?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    The function is not <q>nice</q>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Direct substitution yields a 0 in the denominator
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Direct substutition yields a 0 in the numerator
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Direct substitution yields a 0 in the numerator and the denominator
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Rewrite the function so that you can use Direct Substitution, and then find the limit. 
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>
