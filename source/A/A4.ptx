@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="A4" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>A4: L'Hopital's Rule</title>
+    <title>A4: L'H&#xF4;pital's Rule</title>
     <objectives>
         <dl>
             <li>
@@ -19,14 +19,14 @@
         <title>In-Class Activities</title>
 
         <activity xml:id="a-activity-lhopital-background1">
-            <statement>
+            <introduction>
                 <p>
                     In <xref ref="L2"/>, we learned <xref ref="direct-substitution"/>. It says that if <m>f</m> is a <q>nice</q> function (polynomial, algebraic, transcendental, trigonometric), and <m>a</m> is in the domain of <m>f</m>, then <m>\ds \lim_{x\to a} f(x) = f(a)</m>.
                 </p>
                 <p>
                     Below, consider the function <m>f(x) = \dfrac{x^2-4}{x-2}</m>.
                 </p>
-            </statement>
+            </introduction>
             <task>
                 <statement>
                     <p>
@@ -63,6 +63,159 @@
                     </p>
                 </statement>
             </task>
+        </activity>
+
+        <definition xml:id="def-indeterminate-form-division">
+            <title>Indeterminate Form (0/0 and <m>\infty/\infty</m>)</title>
+            <idx><h>indeterminate form (0/0)</h></idx>
+            <idx><h>indeterminate form (<m>\infty/\infty</m>)</h></idx>
+            <statement>
+                <p>
+                    An <term>indeterminate form of the type 0/0</term> is a limit of the form
+                    <me>
+                        \ds \lim_{x\to a} \dfrac{f(x)}{g(x)}
+                    </me>
+                    where <m>f(x)\to 0</m> and <m>g(x)\to 0</m>, or <m>f(x)\to \pm \infty</m> and <m>g(x)\to \pm \infty</m>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="a-activity-lhopital-identify1">
+            <introduction>
+                <p>
+                    Each limit below is an indeterminate form. Classify it as one of
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>0/0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\infty/\infty</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds\lim_{x\to 1} \dfrac{\ln x}{x - 1}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \lim_{x\to \pi/2^-} \dfrac{\sec x}{1+\tan x}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \lim_{x\to \infty} \dfrac{e^x}{x^2}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <remark>
+            <statement>
+                <p>
+                    Consider the limits
+                    <me>
+                        \lim_{h \to 0} \frac{f(a+h)-f(a)}{h} = f'(a)
+                    </me>
+                    and
+                    <me>
+                        \lim_{x \to a} \frac{f(x)-f(a)}{x-a} = f'(a)
+                    </me>
+                    Notice that these limits give indeterminate forms of the type <m>\frac{0}{0}</m>. However, these limits are equal to <m>f'(a)</m>, the derivative of <m>f(x)</m> at <m>x=a</m>. If you can compute <m>f'(a)</m>, then you have computed the value of the limit! 
+                </p>
+            </statement>
+        </remark>
+
+        <theorem xml:id="thm-lhopitals-rule">
+            <title>L'H&#xF4;pital's Rule</title>
+            <statement>
+                <p>
+                    If the functions <m>f(x), g(x)</m> are both differentiable around <m>x = a</m> and for the limit of <m>\frac{f(x)}{g(x)}</m> as <m>x \to a</m> (or <m>x \to \pm \infty</m>) we have one of the indeterminate forms <m>\frac{0}{0}</m> or <m>\frac{\infty}{\infty}</m>, then 
+                    <me>
+                        \lim_{x\to a} \frac{f(x)}{g(x)} = \lim_{x\to a} \frac{f'(x)}{g'(x)}
+                    </me> 
+                    provided that the limit exists.
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="a-activity-lhopital-compute1">
+            <statement>
+                <p>
+                    For each of the limits below, 1) verify that we can use L'H&#xF4;pital's Rule, and 2) compute the limit.
+                </p>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                \ds\lim_{x\to 1} \dfrac{\ln x}{x - 1}
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                \ds \lim_{x\to \pi/2^-} \dfrac{\sec x}{1+\tan x}
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                \ds \lim_{x\to \infty} \dfrac{e^x}{x^2}
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                \ds \lim_{x\to 0} \frac{\sin(x)}{x}
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                \ds \lim_{x\to \infty} \frac{3x^2+3}{x^2+ 2x}
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>
+                                \ds \lim_{x\to 0} \frac{\sin^2(3x)}{5x^3 - 3x^2}
+                            </m>
+                        </p>
+                    </statement>
+                </task>
+            </statement>
         </activity>
     </subsection>
 
