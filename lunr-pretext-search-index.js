@@ -2544,8 +2544,8 @@ var ptx_lunr_docs = [
   "url": "A4.html",
   "type": "Section",
   "number": "3.4",
-  "title": "A4: L’Hopital’s Rule",
-  "body": " A4: L'Hopital's Rule     A4  I can identify and classify indeterminate forms, and compute them using L’Hopital’s Rule or another applicable technique.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: L'Hopital's Rule    Read all sections        In-Class Activities    In , we learned . It says that if is a nice function (polynomial, algebraic, transcendental, trigonometric), and is in the domain of , then .  Below, consider the function .    Which option gives the best reason why we can't use Direct Substitution?   The function is not nice     Direct substitution yields a 0 in the denominator    Direct substutition yields a 0 in the numerator    Direct substitution yields a 0 in the numerator and the denominator       Rewrite the function so that you can use Direct Substitution, and then find the limit.     "
+  "title": "A4: L’Hôpital’s Rule",
+  "body": " A4: L'Hôpital's Rule     A4  I can identify and classify indeterminate forms, and compute them using L’Hopital’s Rule or another applicable technique.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: L'Hopital's Rule    Read all sections        In-Class Activities    In , we learned . It says that if is a nice function (polynomial, algebraic, transcendental, trigonometric), and is in the domain of , then .  Below, consider the function .    Which option gives the best reason why we can't use Direct Substitution?   The function is not nice     Direct substitution yields a 0 in the denominator    Direct substutition yields a 0 in the numerator    Direct substitution yields a 0 in the numerator and the denominator       Rewrite the function so that you can use Direct Substitution, and then find the limit.     Indeterminate Form (0\/0 and )  indeterminate form (0\/0)  indeterminate form ( )   An indeterminate form of the type 0\/0 is a limit of the form where and , or and       Each limit below is an indeterminate form. Classify it as one of                                 Consider the limits and Notice that these limits give indeterminate forms of the type . However, these limits are equal to , the derivative of at . If you can compute , then you have computed the value of the limit!     L'Hôpital's Rule   If the functions are both differentiable around and for the limit of as (or ) we have one of the indeterminate forms or , then provided that the limit exists.      For each of the limits below, 1) verify that we can use L'Hôpital's Rule, and 2) compute the limit.                                   "
 },
 {
   "id": "A4-2",
@@ -2566,13 +2566,58 @@ var ptx_lunr_docs = [
   "body": "  In , we learned . It says that if is a nice function (polynomial, algebraic, transcendental, trigonometric), and is in the domain of , then .  Below, consider the function .    Which option gives the best reason why we can't use Direct Substitution?   The function is not nice     Direct substitution yields a 0 in the denominator    Direct substutition yields a 0 in the numerator    Direct substitution yields a 0 in the numerator and the denominator       Rewrite the function so that you can use Direct Substitution, and then find the limit.   "
 },
 {
+  "id": "def-indeterminate-form-division",
+  "level": "2",
+  "url": "A4.html#def-indeterminate-form-division",
+  "type": "Definition",
+  "number": "3.4.1",
+  "title": "Indeterminate Form (0\/0 and <span class=\"process-math\">\\(\\infty\/\\infty\\)<\/span>).",
+  "body": " Indeterminate Form (0\/0 and )  indeterminate form (0\/0)  indeterminate form ( )   An indeterminate form of the type 0\/0 is a limit of the form where and , or and    "
+},
+{
+  "id": "a-activity-lhopital-identify1",
+  "level": "2",
+  "url": "A4.html#a-activity-lhopital-identify1",
+  "type": "Activity",
+  "number": "3.4.2",
+  "title": "",
+  "body": "  Each limit below is an indeterminate form. Classify it as one of                              "
+},
+{
+  "id": "A4-activities-5",
+  "level": "2",
+  "url": "A4.html#A4-activities-5",
+  "type": "Remark",
+  "number": "3.4.2",
+  "title": "",
+  "body": "  Consider the limits and Notice that these limits give indeterminate forms of the type . However, these limits are equal to , the derivative of at . If you can compute , then you have computed the value of the limit!   "
+},
+{
+  "id": "thm-lhopitals-rule",
+  "level": "2",
+  "url": "A4.html#thm-lhopitals-rule",
+  "type": "Theorem",
+  "number": "3.4.3",
+  "title": "L’Hôpital’s Rule.",
+  "body": " L'Hôpital's Rule   If the functions are both differentiable around and for the limit of as (or ) we have one of the indeterminate forms or , then provided that the limit exists.   "
+},
+{
+  "id": "a-activity-lhopital-compute1",
+  "level": "2",
+  "url": "A4.html#a-activity-lhopital-compute1",
+  "type": "Activity",
+  "number": "3.4.3",
+  "title": "",
+  "body": "  For each of the limits below, 1) verify that we can use L'Hôpital's Rule, and 2) compute the limit.                                 "
+},
+{
   "id": "I1",
   "level": "1",
   "url": "I1.html",
   "type": "Section",
   "number": "4.1",
   "title": "I1: Antiderivatives",
-  "body": " I1: Antiderivatives     I1  I can compute the indefinite integral\/antiderivative of a function using rules and appropriate notation.      Pre-Class Videos    In-Class Activities   "
+  "body": " I1: Antiderivatives     I1  I can compute the indefinite integral\/antiderivative of a function using rules and appropriate notation.      Pre-Class Preparation  Read the following sections of the text:    Section 4.10: Antiderivatives    Read all sections        In-Class Activities   "
 },
 {
   "id": "I1-2",
@@ -2590,7 +2635,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "I2: Approximating Areas",
-  "body": " I2: Approximating Areas     I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.      Pre-Class Videos    In-Class Activities   "
+  "body": " I2: Approximating Areas     I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Approximating Areas    Read all sections        In-Class Activities   "
 },
 {
   "id": "I2-2",
@@ -2608,7 +2653,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "I3: The Definite Integral",
-  "body": " I3: The Definite Integral     I3  I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer.      Pre-Class Videos    In-Class Activities   "
+  "body": " I3: The Definite Integral     I3  I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer.      Pre-Class Preparation  Read the following sections of the text:    Section 5.2: The Definite Integral    Read until \"Average Value of a Function\"        In-Class Activities   "
 },
 {
   "id": "I3-2",
@@ -2626,7 +2671,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "I4: Derivatives of Integral",
-  "body": " I4: Derivatives of Integral     I4  I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus      Pre-Class Videos    In-Class Activities   "
+  "body": " I4: Derivatives of Integral     I4  I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Fundamental Theorem of Calculus    Read the section \"Fundamental Theorem of Calculus Part 1: Integrals and Antiderivatives\"        In-Class Activities   "
 },
 {
   "id": "I4-2",
@@ -2644,7 +2689,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.5",
   "title": "I5: Computing Definite Integrals",
-  "body": " I5: Computing Definite Integrals     I5  I can use the Second Fundamental Theorem of Calculus to compute definite integrals.      Pre-Class Videos    In-Class Activities   "
+  "body": " I5: Computing Definite Integrals     I5  I can use the Second Fundamental Theorem of Calculus to compute definite integrals.      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Fundamental Theorem of Calculus    Read the section \"Fundamental Theorem of Calculus, Part 2: The Evaluation Theorem\"        In-Class Activities   "
 },
 {
   "id": "I5-2",
@@ -2662,7 +2707,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.6",
   "title": "I6: Substitution",
-  "body": " I6: Substitution     I6  I can use substitution to compute definite or indefinite integrals      Pre-Class Videos    In-Class Activities   "
+  "body": " I6: Substitution     I6  I can use substitution to compute definite or indefinite integrals      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: Substitution    Read all sections        In-Class Activities   "
 },
 {
   "id": "I6-2",
@@ -2680,7 +2725,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.7",
   "title": "I7: Area Between Curves",
-  "body": " I7: Area Between Curves     I7  I can determine the area between two curves.      Pre-Class Videos    In-Class Activities   "
+  "body": " I7: Area Between Curves     I7  I can determine the area between two curves.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Area between Curves    Read all sections        In-Class Activities   "
 },
 {
   "id": "I7-2",
