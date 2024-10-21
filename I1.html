@@ -633,8 +633,35 @@ window.MathJax = {
 #a-activity-lhopital-identify1-1-1-1 > li::marker { content: ""counter(a-activity-lhopital-identify1-1-1-1,upper-alpha)"."; }
 #a-activity-lhopital-identify1-1-1-1 > li { counter-increment: a-activity-lhopital-identify1-1-1-1; }
 #I-readiness-3 { counter-set: I-readiness-3 0; }
-#I-readiness-3 > li::marker { content: ""counter(I-readiness-3,lower-alpha)""; }
+#I-readiness-3 > li::marker { content: ""counter(I-readiness-3,lower-alpha)"."; }
 #I-readiness-3 > li { counter-increment: I-readiness-3; }
+#i-activity-antiderivative1-1-1-3 { counter-set: i-activity-antiderivative1-1-1-3 0; }
+#i-activity-antiderivative1-1-1-3 > li::marker { content: ""counter(i-activity-antiderivative1-1-1-3,upper-alpha)"."; }
+#i-activity-antiderivative1-1-1-3 > li { counter-increment: i-activity-antiderivative1-1-1-3; }
+#I1-activities-4-3-1-1-3 { counter-set: I1-activities-4-3-1-1-3 0; }
+#I1-activities-4-3-1-1-3 > li::marker { content: ""counter(I1-activities-4-3-1-1-3,upper-alpha)"."; }
+#I1-activities-4-3-1-1-3 > li { counter-increment: I1-activities-4-3-1-1-3; }
+#I1-activities-4-4-1-1-2 { counter-set: I1-activities-4-4-1-1-2 0; }
+#I1-activities-4-4-1-1-2 > li::marker { content: ""counter(I1-activities-4-4-1-1-2,upper-alpha)"."; }
+#I1-activities-4-4-1-1-2 > li { counter-increment: I1-activities-4-4-1-1-2; }
+#I1-activities-4-5-1-1-2 { counter-set: I1-activities-4-5-1-1-2 0; }
+#I1-activities-4-5-1-1-2 > li::marker { content: ""counter(I1-activities-4-5-1-1-2,upper-alpha)"."; }
+#I1-activities-4-5-1-1-2 > li { counter-increment: I1-activities-4-5-1-1-2; }
+#i-activity-ivp1-2-1-1-3 { counter-set: i-activity-ivp1-2-1-1-3 0; }
+#i-activity-ivp1-2-1-1-3 > li::marker { content: ""counter(i-activity-ivp1-2-1-1-3,upper-alpha)"."; }
+#i-activity-ivp1-2-1-1-3 > li { counter-increment: i-activity-ivp1-2-1-1-3; }
+#i-activity-ivp1-5-1-1-2 { counter-set: i-activity-ivp1-5-1-1-2 0; }
+#i-activity-ivp1-5-1-1-2 > li::marker { content: ""counter(i-activity-ivp1-5-1-1-2,upper-alpha)"."; }
+#i-activity-ivp1-5-1-1-2 > li { counter-increment: i-activity-ivp1-5-1-1-2; }
+#i-activity-ivp2-2-1-1-2 { counter-set: i-activity-ivp2-2-1-1-2 0; }
+#i-activity-ivp2-2-1-1-2 > li::marker { content: ""counter(i-activity-ivp2-2-1-1-2,upper-alpha)"."; }
+#i-activity-ivp2-2-1-1-2 > li { counter-increment: i-activity-ivp2-2-1-1-2; }
+#i-activity-ivp2-3-1-1-4 { counter-set: i-activity-ivp2-3-1-1-4 0; }
+#i-activity-ivp2-3-1-1-4 > li::marker { content: ""counter(i-activity-ivp2-3-1-1-4,upper-alpha)"."; }
+#i-activity-ivp2-3-1-1-4 > li { counter-increment: i-activity-ivp2-3-1-1-4; }
+#i-activity-ivp2-4-1-1-2 { counter-set: i-activity-ivp2-4-1-1-2 0; }
+#i-activity-ivp2-4-1-1-2 > li::marker { content: ""counter(i-activity-ivp2-4-1-1-2,upper-alpha)"."; }
+#i-activity-ivp2-4-1-1-2 > li { counter-increment: i-activity-ivp2-4-1-1-2; }
 </style>
 </head>
 <body id="TBIL Calculus 1" class="pretext book ignore-math">
@@ -869,7 +896,244 @@ true);
 </li></ul>
 </div></article><section class="subsection" id="I1-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
-</h3></section></section></div>
+</h3>
+<article class="definition definition-like" id="def-antiderivative"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Antiderivative/Indefinite Integral.</span>
+</h4>
+<div class="para logical" id="def-antiderivative-4-1">
+<div class="para">The function <span class="process-math">\(F(x)\)</span> is said to be an <dfn class="terminology">antiderivative</dfn> of the function <span class="process-math">\(f(x)\)</span> on the interval <span class="process-math">\(I\)</span> if <span class="process-math">\(\dfrac{d}{dx}[F(x)] = f(x)\text{.}\)</span> An antiderivative is often called an <dfn class="terminology">indefinite integral</dfn>, and the notation is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\ds \int f(x)\,dx = F(x) + C
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(C\)</span> is an arbitrary constant.</div>
+</div></article><article class="activity project-like" id="i-activity-antiderivative1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="i-activity-antiderivative1-1-1">
+<div class="para">Which of the following could be antiderivatives for the function <span class="process-math">\(f(x) = \cos (x)\text{?}\)</span> In other words, which option or options could be a solution to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\ds \int \cos (x)\, dx
+\end{equation*}
+</div>
+<ol class="upper-alpha cols2" id="i-activity-antiderivative1-1-1-3">
+<li id="i-activity-antiderivative1-1-1-3-1"><div class="para" id="i-activity-antiderivative1-1-1-3-1-1"><span class="process-math">\(\displaystyle \tan (x)\)</span></div></li>
+<li id="i-activity-antiderivative1-1-1-3-2"><div class="para" id="i-activity-antiderivative1-1-1-3-2-1"><span class="process-math">\(\displaystyle -\sin (x)\)</span></div></li>
+<li id="i-activity-antiderivative1-1-1-3-3"><div class="para" id="i-activity-antiderivative1-1-1-3-3-1"><span class="process-math">\(\displaystyle -\sin (x) + 3\)</span></div></li>
+<li id="i-activity-antiderivative1-1-1-3-4"><div class="para" id="i-activity-antiderivative1-1-1-3-4-1"><span class="process-math">\(\displaystyle \sin (x) - 3\)</span></div></li>
+<li id="i-activity-antiderivative1-1-1-3-5"><div class="para" id="i-activity-antiderivative1-1-1-3-5-1"><span class="process-math">\(\displaystyle \sin (x) + \pi\)</span></div></li>
+<li id="i-activity-antiderivative1-1-1-3-6"><div class="para" id="i-activity-antiderivative1-1-1-3-6-1"><span class="process-math">\(\displaystyle \cos (x)\)</span></div></li>
+<li id="i-activity-antiderivative1-1-1-3-7"><div class="para" id="i-activity-antiderivative1-1-1-3-7-1"><span class="process-math">\(\displaystyle \sin(x) - \pi\)</span></div></li>
+<li id="i-activity-antiderivative1-1-1-3-8"><div class="para" id="i-activity-antiderivative1-1-1-3-8-1"><span class="process-math">\(\displaystyle \tan (x) +3\)</span></div></li>
+</ol>
+</div></article><article class="activity project-like" id="I1-activities-4"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="I1-activities-4-1"><div class="para" id="I1-activities-4-1-1">This activity will develop the power rule for indefinite integrals.</div></div>
+<article class="task exercise-like" id="I1-activities-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="I1-activities-4-2-1-1">Rewrite the power rule for <em class="emphasis">derivatives</em>: <span class="process-math">\(\dfrac{d}{dx}[x^n] = \cdots\)</span>
+</div></article><article class="task exercise-like" id="I1-activities-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="I1-activities-4-3-1-1">
+<div class="para">Consider the function <span class="process-math">\(f(x) = 2x\text{.}\)</span> Which function could be an antiderivative for <span class="process-math">\(f(x)\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2" id="I1-activities-4-3-1-1-3">
+<li id="I1-activities-4-3-1-1-3-1"><div class="para" id="I1-activities-4-3-1-1-3-1-1"><span class="process-math">\(\displaystyle F(x) = 2\)</span></div></li>
+<li id="I1-activities-4-3-1-1-3-2"><div class="para" id="I1-activities-4-3-1-1-3-2-1"><span class="process-math">\(\displaystyle F(x) = \dfrac{1}{2}x^2\)</span></div></li>
+<li id="I1-activities-4-3-1-1-3-3"><div class="para" id="I1-activities-4-3-1-1-3-3-1"><span class="process-math">\(\displaystyle F(x) = \dfrac{1}{3}x^2\)</span></div></li>
+<li id="I1-activities-4-3-1-1-3-4"><div class="para" id="I1-activities-4-3-1-1-3-4-1"><span class="process-math">\(\displaystyle x^2\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="I1-activities-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="I1-activities-4-4-1-1">
+<div class="para">Repeat the process for <span class="process-math">\(f(x) = x^2\text{.}\)</span>
+</div>
+<ol class="upper-alpha cols2" id="I1-activities-4-4-1-1-2">
+<li id="I1-activities-4-4-1-1-2-1"><div class="para" id="I1-activities-4-4-1-1-2-1-1"><span class="process-math">\(\displaystyle x^3\)</span></div></li>
+<li id="I1-activities-4-4-1-1-2-2"><div class="para" id="I1-activities-4-4-1-1-2-2-1"><span class="process-math">\(\displaystyle \dfrac{1}{3}x^3\)</span></div></li>
+<li id="I1-activities-4-4-1-1-2-3"><div class="para" id="I1-activities-4-4-1-1-2-3-1"><span class="process-math">\(\displaystyle \dfrac{1}{2}x^3\)</span></div></li>
+<li id="I1-activities-4-4-1-1-2-4"><div class="para" id="I1-activities-4-4-1-1-2-4-1"><span class="process-math">\(\displaystyle \dfrac{1}{3}x^2\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="I1-activities-4-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para logical" id="I1-activities-4-5-1-1">
+<div class="para">Once more, repeat with <span class="process-math">\(f(x) = x^3\text{.}\)</span>
+</div>
+<ol class="upper-alpha cols2" id="I1-activities-4-5-1-1-2">
+<li id="I1-activities-4-5-1-1-2-1"><div class="para" id="I1-activities-4-5-1-1-2-1-1"><span class="process-math">\(\displaystyle x^4\)</span></div></li>
+<li id="I1-activities-4-5-1-1-2-2"><div class="para" id="I1-activities-4-5-1-1-2-2-1"><span class="process-math">\(\displaystyle \dfrac{1}{3}x^4\)</span></div></li>
+<li id="I1-activities-4-5-1-1-2-3"><div class="para" id="I1-activities-4-5-1-1-2-3-1"><span class="process-math">\(\displaystyle \dfrac{1}{4}x^3\)</span></div></li>
+<li id="I1-activities-4-5-1-1-2-4"><div class="para" id="I1-activities-4-5-1-1-2-4-1"><span class="process-math">\(\displaystyle \dfrac{1}{4}x^4\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="I1-activities-4-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="I1-activities-4-6-1-1">Based on parts (a)-(d), what kind of pattern do you believe is viable to describe the power rule for indefinite integrals? Does this work for <em class="emphasis">all</em> numbers, or is there a specific one for which the rule fails?</div></article></article><article class="remark remark-like" id="I1-activities-5"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="I1-activities-5-1">We now note that whenever we know the derivative of a function, we have a <em class="emphasis">function-derivative pair</em>, so we also know the antiderivative of a function. For instance, we determined a derivative pair in <a href="I1.html#i-activity-antiderivative1" class="xref" data-knowl="./knowl/xref/i-activity-antiderivative1.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 4.1.1">Activity 4.1.1</a>. Every elementary derivative rule leads us to a function-derivative pair, and thus to a known antiderivative/indefinite integral.</div></article><article class="activity project-like" id="I1-activities-6"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="I1-activities-6-1-1">In the following activity, we work to build a list of basic functions whose antiderivatives we may already know.</div> <div class="para" id="I1-activities-6-1-2">Use your knowledge of derivatives of basic functions to complete the table of antiderivatives below, <a href="I1.html#table-antiderivatives" class="xref" data-knowl="./knowl/xref/table-antiderivatives.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.3: Antiderivative/Indefinite Integrals">Table 4.1.3</a>.</div></article><figure class="table table-like" id="table-antiderivatives"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.3<span class="period">.</span></span><span class="space"> </span>Antiderivative/Indefinite Integrals</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r0 l0 t1 lines"><span class="process-math">\(f(x)\)</span></td>
+<td class="l m b2 r0 l0 t1 lines">
+<span class="process-math">\(F(x)\)</span> or <span class="process-math">\(\ds \int f(x)\, dx\)</span>
+</td>
+<td class="l m b2 r0 l0 t1 lines"><span class="process-math">\(f(x)\)</span></td>
+<td class="l m b2 r0 l0 t1 lines">
+<span class="process-math">\(F(x)\)</span> or <span class="process-math">\(\ds \int f(x)\, dx\)</span>
+</td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b2 r0 l0 t0 lines">
+<span class="process-math">\(k\)</span> (a constant)</td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines">
+<span class="process-math">\(x^n\)</span> (<span class="process-math">\(n\neq -1\)</span>)</td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\dfrac{1}{x}\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\sin(x)\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\cos(x)\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\sec^2(x)\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\csc^2(x)\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\sec(x)\tan(x)\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\csc(x)\cot(x)\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(e^x\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(b^x\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\dfrac{1}{1+x^2}\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\dfrac{1}{\sqrt{1-x^2}}\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\dfrac{1}{x\sqrt{x^2-1}}\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+</table></div></figure><article class="activity project-like" id="i-activity-antiderivatives3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.4</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="i-activity-antiderivatives3-1"><div class="para logical" id="i-activity-antiderivatives3-1-1">
+<div class="para">The Sum/Difference and Constant Multiple rules for derivatives also apply to indefinite integrals:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\ds \int c\cdot f(x)\, dx = c \cdot \int f(x)\, dx
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\ds \int [f(x)\pm g(x)]\, dx =  \int f(x)\, dx \pm \int g(x)\, dx
+\end{equation*}
+</div>
+<div class="para">Use this information to compute the indefinite integral for the functions below.</div>
+</div></div>
+<article class="task exercise-like" id="i-activity-antiderivatives3-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="i-activity-antiderivatives3-2-1-1"><span class="process-math">\(f(x) = 5\sin(x) - 4x^2\)</span></div></article><article class="task exercise-like" id="i-activity-antiderivatives3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="i-activity-antiderivatives3-3-1-1"><span class="process-math">\(g(t)=-3\csc(t)\cot(t) + 3(2^x)\)</span></div></article><article class="task exercise-like" id="i-activity-antiderivatives3-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="i-activity-antiderivatives3-4-1-1"><span class="process-math">\(h(x)=e^x - x^e + 3 - \dfrac{1}{x}\)</span></div></article><article class="task exercise-like" id="i-activity-antiderivatives3-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="i-activity-antiderivatives3-5-1-1"><span class="process-math">\(j(k) = \dfrac{4}{1+k^2} + \dfrac{\pi}{\sqrt{4-4k^2}}\)</span></div> <div class="para" id="i-activity-antiderivatives3-5-1-2">Hint: think about factoring a value out of the root...</div></article><article class="task exercise-like" id="i-activity-antiderivatives3-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="i-activity-antiderivatives3-6-1-1"><span class="process-math">\(W(x) = \cos (x) + 7\sin(x) - \sec^2(x)\)</span></div></article></article><article class="activity project-like" id="i-activity-ivp1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.5</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="i-activity-ivp1-1"><div class="para" id="i-activity-ivp1-1-1">When integrating, we must include the <span class="process-math">\(+C\)</span> term because, without extra information, we can’t know the antiderivative for certain. However, we <em class="emphasis">can</em> do this once we know information about the antiderivative. These kinds of problems, called <em class="emphasis">initial value problems</em>, are a type of <em class="emphasis">ordinary differential equation</em>.</div></div>
+<article class="task exercise-like" id="i-activity-ivp1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="i-activity-ivp1-2-1-1">
+<div class="para">Consider the function <span class="process-math">\(f'(x) = x^2 + 2x\text{.}\)</span> Which of the following equations for <span class="process-math">\(f(x)\)</span> satisfies the differential equation?</div>
+<ol class="upper-alpha cols2" id="i-activity-ivp1-2-1-1-3">
+<li id="i-activity-ivp1-2-1-1-3-1"><div class="para" id="i-activity-ivp1-2-1-1-3-1-1"><span class="process-math">\(\displaystyle f(x) = \frac{x^3}{3} + x^2 + 4\)</span></div></li>
+<li id="i-activity-ivp1-2-1-1-3-2"><div class="para" id="i-activity-ivp1-2-1-1-3-2-1"><span class="process-math">\(\displaystyle f(x) = 2x + 2\)</span></div></li>
+<li id="i-activity-ivp1-2-1-1-3-3"><div class="para" id="i-activity-ivp1-2-1-1-3-3-1"><span class="process-math">\(\displaystyle f(x) = \frac{x^3}{3} + x^2 + 10\)</span></div></li>
+<li id="i-activity-ivp1-2-1-1-3-4"><div class="para" id="i-activity-ivp1-2-1-1-3-4-1"><span class="process-math">\(\displaystyle f(x) = \frac{x^3}{3} + x^2\)</span></div></li>
+<li id="i-activity-ivp1-2-1-1-3-5"><div class="para" id="i-activity-ivp1-2-1-1-3-5-1"><span class="process-math">\(\displaystyle f(x) = 2x\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="i-activity-ivp1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="i-activity-ivp1-3-1-1">Write a function for <span class="process-math">\(f(x)\)</span> which captures the <em class="emphasis">most general</em> antideriative, i.e. the indefinite integral.</div></article><article class="task exercise-like" id="i-activity-ivp1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="i-activity-ivp1-4-1-1">Now assume that we know <span class="process-math">\(f(0) = 10\text{.}\)</span> What is the appropriate expression for <span class="process-math">\(f(x)\)</span> knowing this piece of information.</div></article><article class="task exercise-like" id="i-activity-ivp1-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para logical" id="i-activity-ivp1-5-1-1">
+<div class="para">Which of the following functions satisfies the initial value problem</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\dfrac{dy}{dx} = \sin(x),\quad y(0) = 1
+\end{equation*}
+</div>
+<ol class="upper-alpha cols2" id="i-activity-ivp1-5-1-1-2">
+<li id="i-activity-ivp1-5-1-1-2-1"><div class="para" id="i-activity-ivp1-5-1-1-2-1-1"><span class="process-math">\(\displaystyle y(x) = \cos(x)\)</span></div></li>
+<li id="i-activity-ivp1-5-1-1-2-2"><div class="para" id="i-activity-ivp1-5-1-1-2-2-1"><span class="process-math">\(\displaystyle y(x) = \cos(x) + 2\)</span></div></li>
+<li id="i-activity-ivp1-5-1-1-2-3"><div class="para" id="i-activity-ivp1-5-1-1-2-3-1"><span class="process-math">\(\displaystyle y(x) = \cos(x) + 1\)</span></div></li>
+<li id="i-activity-ivp1-5-1-1-2-4"><div class="para" id="i-activity-ivp1-5-1-1-2-4-1"><span class="process-math">\(\displaystyle y(x) = -\cos(x)\)</span></div></li>
+<li id="i-activity-ivp1-5-1-1-2-5"><div class="para" id="i-activity-ivp1-5-1-1-2-5-1"><span class="process-math">\(\displaystyle y(x) = -\cos(x) + 2\)</span></div></li>
+<li id="i-activity-ivp1-5-1-1-2-6"><div class="para" id="i-activity-ivp1-5-1-1-2-6-1"><span class="process-math">\(\displaystyle y(x) = -\cos(x) + 1\)</span></div></li>
+</ol>
+</div></article></article><article class="activity project-like" id="i-activity-ivp2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.6</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="i-activity-ivp2-1"><div class="para" id="i-activity-ivp2-1-1">One of the applications of initial value problems is calculating the distance traveled from a point based on the velocity of the object, or computing velocity given acceleration.</div></div>
+<article class="task exercise-like" id="i-activity-ivp2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="i-activity-ivp2-2-1-1">
+<div class="para">Given that the velocity of the of an object in km/hr is approximated by <span class="process-math">\(v(t) = \cos(t) + 1\text{,}\)</span> what is the approximate distance travelled by the object after 1 hour?</div>
+<ol class="upper-alpha cols2" id="i-activity-ivp2-2-1-1-2">
+<li id="i-activity-ivp2-2-1-1-2-1"><div class="para" id="i-activity-ivp2-2-1-1-2-1-1">
+<span class="process-math">\(s(1) \approx 1\)</span> km</div></li>
+<li id="i-activity-ivp2-2-1-1-2-2"><div class="para" id="i-activity-ivp2-2-1-1-2-2-1">
+<span class="process-math">\(s(1) \approx 0.1585\)</span> km</div></li>
+<li id="i-activity-ivp2-2-1-1-2-3"><div class="para" id="i-activity-ivp2-2-1-1-2-3-1">
+<span class="process-math">\(s(1) \approx 1.8415\)</span> km</div></li>
+<li id="i-activity-ivp2-2-1-1-2-4"><div class="para" id="i-activity-ivp2-2-1-1-2-4-1">
+<span class="process-math">\(s(1) \approx 2.3415\)</span> km</div></li>
+</ol>
+</div></article><article class="task exercise-like" id="i-activity-ivp2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="i-activity-ivp2-3-1-1">
+<div class="para">Recall that to find the acceleration of an object, you can take the derivative of the velocity of an object.  Let use say we have the acceleration of a falling object in m/s<span class="process-math">\(^2\)</span> given by <span class="process-math">\(a(t) = -9.8\text{.}\)</span> What is the velocity of the falling object, if the initial velocity is given by <span class="process-math">\(v(0) = 0\)</span> m/s?</div>
+<ol class="upper-alpha cols2" id="i-activity-ivp2-3-1-1-4">
+<li id="i-activity-ivp2-3-1-1-4-1"><div class="para" id="i-activity-ivp2-3-1-1-4-1-1"><span class="process-math">\(\displaystyle v(t) = -9.8t\)</span></div></li>
+<li id="i-activity-ivp2-3-1-1-4-2"><div class="para" id="i-activity-ivp2-3-1-1-4-2-1">
+<span class="process-math">\(v(t) = -9.8t\)</span> m/s</div></li>
+<li id="i-activity-ivp2-3-1-1-4-3"><div class="para" id="i-activity-ivp2-3-1-1-4-3-1">
+<span class="process-math">\(v(t) = 9.8t\)</span> m/s</div></li>
+<li id="i-activity-ivp2-3-1-1-4-4"><div class="para" id="i-activity-ivp2-3-1-1-4-4-1">
+<span class="process-math">\(v(t) = 9.8t+1\)</span> m</div></li>
+</ol>
+</div></article><article class="task exercise-like" id="i-activity-ivp2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="i-activity-ivp2-4-1-1">
+<div class="para">Now, what is the position of the object from the previous part, if its initial position is given by <span class="process-math">\(s(0) = 10\)</span> m?</div>
+<ol class="upper-alpha cols2" id="i-activity-ivp2-4-1-1-2">
+<li id="i-activity-ivp2-4-1-1-2-1"><div class="para" id="i-activity-ivp2-4-1-1-2-1-1">
+<span class="process-math">\(s(t) = 4.9t + 10\)</span> m</div></li>
+<li id="i-activity-ivp2-4-1-1-2-2"><div class="para" id="i-activity-ivp2-4-1-1-2-2-1">
+<span class="process-math">\(s(t) = -4.9t^2 + 14.9\)</span> m</div></li>
+<li id="i-activity-ivp2-4-1-1-2-3"><div class="para" id="i-activity-ivp2-4-1-1-2-3-1">
+<span class="process-math">\(s(t) = -4.9t^2 + 10\)</span> m</div></li>
+<li id="i-activity-ivp2-4-1-1-2-4"><div class="para" id="i-activity-ivp2-4-1-1-2-4-1">
+<span class="process-math">\(s(t) = 4.9t + 5.1\)</span> m</div></li>
+</ol>
+</div></article></article><article class="activity project-like" id="i-activity-kinematic"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.1.7</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="i-activity-kinematic-1"><div class="para" id="i-activity-kinematic-1-1">Knowing that acceleration due to gravity is given by <span class="process-math">\(a(t) = -9.8\)</span> m/s<span class="process-math">\(^2\text{,}\)</span> for an object with initial velocity <span class="process-math">\(v_0\)</span> and initial position <span class="process-math">\(s_0\text{,}\)</span> write an expression which gives the object’s position at time <span class="process-math">\(t\text{.}\)</span>
+</div></div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-I.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="I2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

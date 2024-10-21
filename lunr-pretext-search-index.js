@@ -2617,7 +2617,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "I1: Antiderivatives",
-  "body": " I1: Antiderivatives     I1  I can compute the indefinite integral\/antiderivative of a function using rules and appropriate notation.      Pre-Class Preparation  Read the following sections of the text:    Section 4.10: Antiderivatives    Read all sections        In-Class Activities   "
+  "body": " I1: Antiderivatives     I1  I can compute the indefinite integral\/antiderivative of a function using rules and appropriate notation.      Pre-Class Preparation  Read the following sections of the text:    Section 4.10: Antiderivatives    Read all sections        In-Class Activities   Antiderivative\/Indefinite Integral  antiderivative  indefinite integral   The function is said to be an antiderivative of the function on the interval if . An antiderivative is often called an indefinite integral , and the notation is given by where is an arbitrary constant.      Which of the following could be antiderivatives for the function ? In other words, which option or options could be a solution to                                                 This activity will develop the power rule for indefinite integrals.    Rewrite the power rule for derivatives :     Consider the function . Which function could be an antiderivative for ?                          Repeat the process for .                          Once more, repeat with .                          Based on parts (a)-(d), what kind of pattern do you believe is viable to describe the power rule for indefinite integrals? Does this work for all numbers, or is there a specific one for which the rule fails?     We now note that whenever we know the derivative of a function, we have a function-derivative pair , so we also know the antiderivative of a function. For instance, we determined a derivative pair in . Every elementary derivative rule leads us to a function-derivative pair, and thus to a known antiderivative\/indefinite integral.     In the following activity, we work to build a list of basic functions whose antiderivatives we may already know.  Use your knowledge of derivatives of basic functions to complete the table of antiderivatives below, .     Antiderivative\/Indefinite Integrals     or   or           (a constant)        ( )                                                                                                    The Sum\/Difference and Constant Multiple rules for derivatives also apply to indefinite integrals: and Use this information to compute the indefinite integral for the functions below.                      Hint: think about factoring a value out of the root...           When integrating, we must include the term because, without extra information, we can't know the antiderivative for certain. However, we can do this once we know information about the antiderivative. These kinds of problems, called initial value problems , are a type of ordinary differential equation .    Consider the function . Which of the following equations for satisfies the differential equation?                               Write a function for which captures the most general antideriative, i.e. the indefinite integral.    Now assume that we know . What is the appropriate expression for knowing this piece of information.    Which of the following functions satisfies the initial value problem                                       One of the applications of initial value problems is calculating the distance traveled from a point based on the velocity of the object, or computing velocity given acceleration.    Given that the velocity of the of an object in km\/hr is approximated by , what is the approximate distance travelled by the object after 1 hour?    km     km     km     km       Recall that to find the acceleration of an object, you can take the derivative of the velocity of an object. Let use say we have the acceleration of a falling object in m\/s given by . What is the velocity of the falling object, if the initial velocity is given by m\/s?         m\/s     m\/s     m       Now, what is the position of the object from the previous part, if its initial position is given by m?    m     m     m     m         Knowing that acceleration due to gravity is given by m\/s , for an object with initial velocity and initial position , write an expression which gives the object's position at time .     "
 },
 {
   "id": "I1-2",
@@ -2627,6 +2627,96 @@ var ptx_lunr_docs = [
   "number": "4.1",
   "title": "",
   "body": "   I1  I can compute the indefinite integral\/antiderivative of a function using rules and appropriate notation.    "
+},
+{
+  "id": "def-antiderivative",
+  "level": "2",
+  "url": "I1.html#def-antiderivative",
+  "type": "Definition",
+  "number": "4.1.1",
+  "title": "Antiderivative\/Indefinite Integral.",
+  "body": " Antiderivative\/Indefinite Integral  antiderivative  indefinite integral   The function is said to be an antiderivative of the function on the interval if . An antiderivative is often called an indefinite integral , and the notation is given by where is an arbitrary constant.   "
+},
+{
+  "id": "i-activity-antiderivative1",
+  "level": "2",
+  "url": "I1.html#i-activity-antiderivative1",
+  "type": "Activity",
+  "number": "4.1.1",
+  "title": "",
+  "body": "  Which of the following could be antiderivatives for the function ? In other words, which option or options could be a solution to                                              "
+},
+{
+  "id": "I1-activities-4",
+  "level": "2",
+  "url": "I1.html#I1-activities-4",
+  "type": "Activity",
+  "number": "4.1.2",
+  "title": "",
+  "body": "  This activity will develop the power rule for indefinite integrals.    Rewrite the power rule for derivatives :     Consider the function . Which function could be an antiderivative for ?                          Repeat the process for .                          Once more, repeat with .                          Based on parts (a)-(d), what kind of pattern do you believe is viable to describe the power rule for indefinite integrals? Does this work for all numbers, or is there a specific one for which the rule fails?   "
+},
+{
+  "id": "I1-activities-5",
+  "level": "2",
+  "url": "I1.html#I1-activities-5",
+  "type": "Remark",
+  "number": "4.1.2",
+  "title": "",
+  "body": " We now note that whenever we know the derivative of a function, we have a function-derivative pair , so we also know the antiderivative of a function. For instance, we determined a derivative pair in . Every elementary derivative rule leads us to a function-derivative pair, and thus to a known antiderivative\/indefinite integral.  "
+},
+{
+  "id": "I1-activities-6",
+  "level": "2",
+  "url": "I1.html#I1-activities-6",
+  "type": "Activity",
+  "number": "4.1.3",
+  "title": "",
+  "body": "  In the following activity, we work to build a list of basic functions whose antiderivatives we may already know.  Use your knowledge of derivatives of basic functions to complete the table of antiderivatives below, .   "
+},
+{
+  "id": "table-antiderivatives",
+  "level": "2",
+  "url": "I1.html#table-antiderivatives",
+  "type": "Table",
+  "number": "4.1.3",
+  "title": "Antiderivative\/Indefinite Integrals",
+  "body": " Antiderivative\/Indefinite Integrals     or   or           (a constant)        ( )                                                                                                 "
+},
+{
+  "id": "i-activity-antiderivatives3",
+  "level": "2",
+  "url": "I1.html#i-activity-antiderivatives3",
+  "type": "Activity",
+  "number": "4.1.4",
+  "title": "",
+  "body": "  The Sum\/Difference and Constant Multiple rules for derivatives also apply to indefinite integrals: and Use this information to compute the indefinite integral for the functions below.                      Hint: think about factoring a value out of the root...        "
+},
+{
+  "id": "i-activity-ivp1",
+  "level": "2",
+  "url": "I1.html#i-activity-ivp1",
+  "type": "Activity",
+  "number": "4.1.5",
+  "title": "",
+  "body": "  When integrating, we must include the term because, without extra information, we can't know the antiderivative for certain. However, we can do this once we know information about the antiderivative. These kinds of problems, called initial value problems , are a type of ordinary differential equation .    Consider the function . Which of the following equations for satisfies the differential equation?                               Write a function for which captures the most general antideriative, i.e. the indefinite integral.    Now assume that we know . What is the appropriate expression for knowing this piece of information.    Which of the following functions satisfies the initial value problem                                    "
+},
+{
+  "id": "i-activity-ivp2",
+  "level": "2",
+  "url": "I1.html#i-activity-ivp2",
+  "type": "Activity",
+  "number": "4.1.6",
+  "title": "",
+  "body": "  One of the applications of initial value problems is calculating the distance traveled from a point based on the velocity of the object, or computing velocity given acceleration.    Given that the velocity of the of an object in km\/hr is approximated by , what is the approximate distance travelled by the object after 1 hour?    km     km     km     km       Recall that to find the acceleration of an object, you can take the derivative of the velocity of an object. Let use say we have the acceleration of a falling object in m\/s given by . What is the velocity of the falling object, if the initial velocity is given by m\/s?         m\/s     m\/s     m       Now, what is the position of the object from the previous part, if its initial position is given by m?    m     m     m     m      "
+},
+{
+  "id": "i-activity-kinematic",
+  "level": "2",
+  "url": "I1.html#i-activity-kinematic",
+  "type": "Activity",
+  "number": "4.1.7",
+  "title": "",
+  "body": "  Knowing that acceleration due to gravity is given by m\/s , for an object with initial velocity and initial position , write an expression which gives the object's position at time .   "
 },
 {
   "id": "I2",
