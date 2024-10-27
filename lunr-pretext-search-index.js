@@ -2725,7 +2725,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "I2: Approximating Areas",
-  "body": " I2: Approximating Areas     I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Approximating Areas    Read all sections        In-Class Activities   "
+  "body": " I2: Approximating Areas     I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Approximating Areas    Read all sections        In-Class Activities   Definite Integral  definite integral   The definite integral of a positive function on the interval , notated as gives the net area between the curve and the input axis.      Determine the exact value of the definite integrals below; some potentially helpful geometric formulas are:   Triangle:     Circle:     Rectangle:    If necessary, sketch the graph of the function.          , where         Hint: The function is given by ; if you aren't sure about graph, try rearranging so that there aren't any roots... is that a familiar expression?      Use the image below to find the value of the definite integrals below.    An image of a piecewise function                                                                                                                   In and , we were able to use known geometric formulas to find the areas under the curve. However, this is an extreme exception to the usual rule.    Below is the graph of on a grid. Which value does your group feel is the best approximation of ? Be prepared to defend your group's answer.   A graph of on         2.25    2.5    2.75    3    3.25    3.5       The grid from part (a) has been made finer; which answer does your group feel is closest to the true answer to ?   A graph of on         2.25    2.5    2.75    3    3.25    3.5       Which image do you feel gives you the best chance of approximating ? Why?   First image    Second image        Left\/Right Riemann Sum  left approximation  right approximation  riemann sum   Consider the definite integral on the interval . The left Riemann sum\/approximation is the approximation and the right Riemann sum\/approximation is the approximation where is the number of subdivisions made to and is the length of each subdivision.     Using sigma notation, we can rewrite and      Again, consider on the interval . We will compute and .    Which is the appropriate expression for ?                          The value of is , because that is the beginning of the interval; what is the value of ? Use this idea to find                           Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          If you wanted a better approximation, what does your group feel must be done to the subintervals?          Consider a moving car, with increasing velocity. The velocity was measured every two seconds, and the results collected in the table below.    Time (sec)  0  2  4  6  8  10    Velocity (ft\/s)  20  30  38  44  48  50      Find an upper estimate for the distance the car traveled in 10 seconds.    Find a lower estimate for the distance the car traveled in 10 seconds.     "
 },
 {
   "id": "I2-2",
@@ -2735,6 +2735,78 @@ var ptx_lunr_docs = [
   "number": "4.2",
   "title": "",
   "body": "   I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.    "
+},
+{
+  "id": "def-definite-integral",
+  "level": "2",
+  "url": "I2.html#def-definite-integral",
+  "type": "Definition",
+  "number": "4.2.1",
+  "title": "Definite Integral.",
+  "body": " Definite Integral  definite integral   The definite integral of a positive function on the interval , notated as gives the net area between the curve and the input axis.   "
+},
+{
+  "id": "i-activity-definite-integral-geometry1",
+  "level": "2",
+  "url": "I2.html#i-activity-definite-integral-geometry1",
+  "type": "Activity",
+  "number": "4.2.1",
+  "title": "",
+  "body": "  Determine the exact value of the definite integrals below; some potentially helpful geometric formulas are:   Triangle:     Circle:     Rectangle:    If necessary, sketch the graph of the function.          , where         Hint: The function is given by ; if you aren't sure about graph, try rearranging so that there aren't any roots... is that a familiar expression?   "
+},
+{
+  "id": "i-activity-definite-integral-geometry2",
+  "level": "2",
+  "url": "I2.html#i-activity-definite-integral-geometry2",
+  "type": "Activity",
+  "number": "4.2.2",
+  "title": "",
+  "body": "  Use the image below to find the value of the definite integrals below.    An image of a piecewise function                                                                                                                "
+},
+{
+  "id": "i-activity-riemannsum-intro1",
+  "level": "2",
+  "url": "I2.html#i-activity-riemannsum-intro1",
+  "type": "Activity",
+  "number": "4.2.3",
+  "title": "",
+  "body": "  In and , we were able to use known geometric formulas to find the areas under the curve. However, this is an extreme exception to the usual rule.    Below is the graph of on a grid. Which value does your group feel is the best approximation of ? Be prepared to defend your group's answer.   A graph of on         2.25    2.5    2.75    3    3.25    3.5       The grid from part (a) has been made finer; which answer does your group feel is closest to the true answer to ?   A graph of on         2.25    2.5    2.75    3    3.25    3.5       Which image do you feel gives you the best chance of approximating ? Why?   First image    Second image      "
+},
+{
+  "id": "def-riemannsum-left-right",
+  "level": "2",
+  "url": "I2.html#def-riemannsum-left-right",
+  "type": "Definition",
+  "number": "4.2.5",
+  "title": "Left\/Right Riemann Sum.",
+  "body": " Left\/Right Riemann Sum  left approximation  right approximation  riemann sum   Consider the definite integral on the interval . The left Riemann sum\/approximation is the approximation and the right Riemann sum\/approximation is the approximation where is the number of subdivisions made to and is the length of each subdivision.   "
+},
+{
+  "id": "I2-activities-7",
+  "level": "2",
+  "url": "I2.html#I2-activities-7",
+  "type": "Remark",
+  "number": "4.2.6",
+  "title": "",
+  "body": " Using sigma notation, we can rewrite and   "
+},
+{
+  "id": "i-activity-riemannsum-1",
+  "level": "2",
+  "url": "I2.html#i-activity-riemannsum-1",
+  "type": "Activity",
+  "number": "4.2.4",
+  "title": "",
+  "body": "  Again, consider on the interval . We will compute and .    Which is the appropriate expression for ?                          The value of is , because that is the beginning of the interval; what is the value of ? Use this idea to find                           Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          If you wanted a better approximation, what does your group feel must be done to the subintervals?       "
+},
+{
+  "id": "I2-activities-9",
+  "level": "2",
+  "url": "I2.html#I2-activities-9",
+  "type": "Activity",
+  "number": "4.2.5",
+  "title": "",
+  "body": "  Consider a moving car, with increasing velocity. The velocity was measured every two seconds, and the results collected in the table below.    Time (sec)  0  2  4  6  8  10    Velocity (ft\/s)  20  30  38  44  48  50      Find an upper estimate for the distance the car traveled in 10 seconds.    Find a lower estimate for the distance the car traveled in 10 seconds.   "
 },
 {
   "id": "I3",
@@ -2760,8 +2832,8 @@ var ptx_lunr_docs = [
   "url": "I4.html",
   "type": "Section",
   "number": "4.4",
-  "title": "I4: Derivatives of Integral",
-  "body": " I4: Derivatives of Integral     I4  I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Fundamental Theorem of Calculus    Read the section \"Fundamental Theorem of Calculus Part 1: Integrals and Antiderivatives\"        In-Class Activities   "
+  "title": "I4: Derivatives of Integrals",
+  "body": " I4: Derivatives of Integrals     I4  I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Fundamental Theorem of Calculus    Read the section \"Fundamental Theorem of Calculus Part 1: Integrals and Antiderivatives\"        In-Class Activities   "
 },
 {
   "id": "I4-2",
