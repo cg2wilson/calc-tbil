@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+    \begin{axis}[
+        axis x line = middle,
+        axis y line = middle,
+        every axis y label/.style={at={(ticklabel cs:1.1)}},
+    y label style={at={(axis description cs:.5,1.15)},anchor=north},
+        ylabel = {$f(x)$},
+        every axis x label/.style= {at ={(ticklabel cs:1)}},
+        x label style={at={(axis description cs:1.1,0)},anchor=east},
+        xlabel = {$x$},
+    xmin=0,xmax=2,
+    grid=major,
+    xtick={0,0.5,1,1.5,2}
+            ]
+            \addplot [domain=0:2,samples=100,thick] {x^2}; 
+   \end{axis}
+\end{tikzpicture}

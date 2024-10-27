@@ -18,6 +18,629 @@
     <subsection xml:id="I2-activities">
         <title>In-Class Activities</title>
 
+        <definition xml:id="def-definite-integral">
+            <title>
+                Definite Integral
+            </title>
+            <idx><h>definite integral</h></idx>
+            <statement>
+                <p>
+                    The <term>definite integral</term> of a positive function <m>f(x)</m> on the interval <m>[a,b]</m>, notated as
+                    <me>
+                        \ds \int_a^b f(x)\, dx
+                    </me>
+                    gives the net area between the curve and the input axis.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="i-activity-definite-integral-geometry1">
+            <introduction>
+                <p>
+                    Determine the exact value of the definite integrals below; some potentially helpful geometric formulas are:
+                    <ul>
+                        <li>
+                            <p>
+                                Triangle: <m>A = \dfrac{1}{2}b\cdot h</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Circle: <m>A = \pi r^2</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Rectangle: <m>A = b\cdot h</m>
+                            </p>
+                        </li>
+                    </ul>
+                    If necessary, sketch the graph of the function.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_0^2 x+1\, dx</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_1^3 f(x)\, dx</m>, where <m>f(x) = \begin{cases} 2 &amp; x\lt 2 \\ -2x + 6 &amp; x\geq 2 \end{cases}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_{-1}^1 \sqrt{1-x^2}\, dx</m>
+                    </p>
+                    <p>
+                        <em>Hint:</em> The function is given by <m>y=\sqrt{1-x^2}</m>; if you aren't sure about graph, try rearranging so that there aren't any roots... is that a familiar expression?
+                    </p>
+                </statement>   
+            </task>
+        </activity>
+
+        <activity xml:id="i-activity-definite-integral-geometry2">
+            <introduction>
+                <p>
+                    Use the image below to find the value of the definite integrals below.
+                </p>
+                <figure xml:id="i-activity-definite-integral-geometry2-img">
+                    <image source="def-integral-geometry1.png"/>
+                    <caption>An image of a piecewise function</caption>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_0^2 f(x)\, dx</m>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        2
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        4
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        6
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_0^5 f(x)\, dx</m>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        10
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        6
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        7
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        5
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_5^7 f(x)\, dx</m>
+                    </p>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>
+                                    3
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    6
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    -6
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    -3
+                                </m>
+                            </p>
+                        </li>
+                    </ol>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_0^9 f(x)\, dx</m>
+                    </p>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>
+                                    -5
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    5
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    2
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    9
+                                </m>
+                            </p>
+                        </li>
+                    </ol>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="i-activity-riemannsum-intro1">
+            <introduction>
+                <p>
+                    In <xref ref="i-activity-definite-integral-geometry1"/> and <xref ref="i-activity-definite-integral-geometry2"/>, we were able to use known geometric formulas to find the areas under the curve. However, this is an extreme exception to the usual rule.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Below is the graph of <m>f(x) = x^2</m> on a grid. Which value does your group feel is the best approximation of <m>\ds \int_0^2 x^2\, dx</m>? Be prepared to defend your group's answer.
+                    </p>
+                    <figure xml:id="i-activity-riemannsum-intro1-img1">
+                        <caption>A graph of <m>f(x) = x^2</m> on <m>[0,2]</m></caption>
+                        <image>
+                            <latex-image>
+                                <xi:include href="./tikz/parabola-1.tex" parse="text"/>
+                            </latex-image>
+                        </image>
+                    </figure>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    2.25
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    2.5
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    2.75
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    3
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    3.25
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    3.5
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>    
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The grid from part (a) has been made finer; which answer does your group feel is closest to the true answer to <m>\ds \int_0^2 x^2\, dx</m>?
+                    </p>
+                    <figure xml:id="i-activity-riemannsum-intro1-img2">
+                        <caption>A graph of <m>f(x) = x^2</m> on <m>[0,2]</m></caption>
+                        <image>
+                            <latex-image>
+                                <xi:include href="./tikz/parabola-2.tex" parse="text"/>
+                            </latex-image>
+                        </image>
+                    </figure>
+                    <p>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    2.25
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    2.5
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    2.75
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    3
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    3.25
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    3.5
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which image do you feel gives you the best chance of approximating <m>\ds \int_0^2 x^2\, dx</m>? Why?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    First image
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Second image
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-riemannsum-left-right">
+            <title>Left/Right Riemann Sum</title>
+            <idx><h>left approximation</h></idx>
+            <idx><h>right approximation</h></idx>
+            <idx><h>riemann sum</h></idx>
+            <statement>
+                <p>
+                    Consider the definite integral <m>\ds \int_a^b f(x)\, dx</m> on the interval <m>[a,b]</m>. The <term>left Riemann sum/approximation</term> is the approximation 
+                    <me>
+                        L_n = f(x_0)\Delta x + f(x_1)\Delta x + \cdots + f(x_{n-1})\Delta x \approx \int_a^b f(x)\, dx
+                    </me>
+                    and the <term>right Riemann sum/approximation</term> is the approximation
+                    <me>
+                        R_n = f(x_1)\Delta x + f(x_2)\Delta x + \cdots f(x_n)\Delta x \approx \int_a^b f(x)\, dx
+                    </me>
+                    where <m>n</m> is the number of subdivisions made to <m>[a,b]</m> and <m>\Delta x = \dfrac{b-a}{n}</m> is the length of each subdivision.
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
+            <p>
+                Using sigma notation, we can rewrite
+                <me>
+                    L_n = f(x_0)\Delta x + f(x_1)\Delta x + \cdots + f(x_{n-1})\Delta x = \sum_{i=0}^{n-1}(f(x_i)\Delta x)
+                </me>
+                and 
+                <me>
+                    R_n = f(x_1)\Delta x + f(x_2)\Delta x + \cdots f(x_n)\Delta x = \sum_{i=1}^n (f(x_i)\Delta x)
+                </me>
+            </p>
+        </remark>
+
+        <activity xml:id="i-activity-riemannsum-1">
+            <introduction>
+                <p>
+                    Again, consider <m>f(x) = x^2</m> on the interval <m>[0,2]</m>. We will compute <m>L_8</m> and <m>R_8</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is the appropriate expression for <m>L_8</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        L_8 = \sum_{i=0}^8 \lrpar{(x_i)^2\cdot \dfrac{1}{4}}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        L_8 = \sum_{i=1}^7 \lrpar{(x_i)^2\cdot \dfrac{1}{4}}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        L_8 = \sum_{i=0}^7 \lrpar{(x_i)^2\cdot \dfrac{1}{4}}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        L_8 = \sum_{i=1}^8 \lrpar{(x_i)^2\cdot \dfrac{1}{4}}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The value of <m>x_0</m> is <m>0</m>, because that is the beginning of the interval; what is the value of <m>x_6</m>? Use this idea to find <m>x_0,x_1,...,x_8</m>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{3}{4}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{6}{4}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{6}{8}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Using (a), (b), and <xref ref="def-riemannsum-left-right"/>, which is the correct value of <m>L_8</m>? A calculator will be helpful here.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        2.1875
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3.1875
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                       1.59375
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        12.75
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Using (a), (b), and <xref ref="def-riemannsum-left-right"/>, which is the correct value of <m>R_8</m>? A calculator will be helpful here.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        2.1875
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3.1875
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                       1.59375
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        12.75
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If you wanted a better approximation, what does your group feel must be done to the subintervals?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Consider a moving car, with increasing velocity.  The velocity was measured every two seconds, and the results collected in the table below.
+                </p>
+                <tabular top="medium" left="medium">
+                    <row bottom="medium">
+                        <cell halign="center" left="medium" right="medium">
+                        Time (sec) 
+                        </cell>
+                        <cell halign="center" right="medium">
+                        0 
+                        </cell>
+                        <cell halign="center" right="medium">
+                        2 
+                        </cell>
+                        <cell halign="center" right="medium">
+                        4 
+                        </cell>
+                        <cell halign="center" right="medium">
+                        6
+                        </cell>
+                        <cell halign="center" right="medium">
+                        8
+                        </cell>
+                        <cell halign="center" right="medium">
+                        10 
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell halign="center" left="medium" right="medium">
+                        Velocity (ft/s)
+                        </cell>
+                        <cell halign="center" right="medium">
+                        20
+                        </cell>
+                        <cell halign="center" right="medium">
+                        30
+                        </cell>
+                        <cell halign="center" right="medium">
+                        38
+                        </cell>
+                        <cell halign="center" right="medium">
+                        44
+                        </cell>
+                        <cell halign="center" right="medium">
+                        48
+                        </cell>
+                        <cell halign="center" right="medium">
+                        50
+                        </cell>
+                    </row>
+                </tabular>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find an upper estimate for the distance the car traveled in 10 seconds.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find a lower estimate for the distance the car traveled in 10 seconds.
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>
