@@ -18,11 +18,11 @@
     <subsection xml:id="I2-activities">
         <title>In-Class Activities</title>
 
-        <definition xml:id="def-definite-integral">
+        <definition xml:id="def-definite-integral-intuitive">
             <title>
-                Definite Integral
+                The Definite Integral (Intuitive Definition)
             </title>
-            <idx><h>definite integral</h></idx>
+            <idx><h>definite integral (intuitive)</h></idx>
             <statement>
                 <p>
                     The <term>definite integral</term> of a positive function <m>f(x)</m> on the interval <m>[a,b]</m>, notated as
@@ -563,16 +563,10 @@
                     </p>
                 </statement>
             </task>
-            <task>
-                <statement>
-                    <p>
-                        
-                    </p>
-                </statement>
-            </task>
+
         </activity>
 
-        <activity>
+        <activity xml:id="i-activity-riemannsum2">
             <introduction>
                 <p>
                     Consider a moving car, with increasing velocity.  The velocity was measured every two seconds, and the results collected in the table below.
