@@ -2725,7 +2725,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "I2: Approximating Areas",
-  "body": " I2: Approximating Areas     I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Approximating Areas    Read all sections        In-Class Activities   Definite Integral  definite integral   The definite integral of a positive function on the interval , notated as gives the net area between the curve and the input axis.      Determine the exact value of the definite integrals below; some potentially helpful geometric formulas are:   Triangle:     Circle:     Rectangle:    If necessary, sketch the graph of the function.          , where         Hint: The function is given by ; if you aren't sure about graph, try rearranging so that there aren't any roots... is that a familiar expression?      Use the image below to find the value of the definite integrals below.    An image of a piecewise function                                                                                                                   In and , we were able to use known geometric formulas to find the areas under the curve. However, this is an extreme exception to the usual rule.    Below is the graph of on a grid. Which value does your group feel is the best approximation of ? Be prepared to defend your group's answer.   A graph of on         2.25    2.5    2.75    3    3.25    3.5       The grid from part (a) has been made finer; which answer does your group feel is closest to the true answer to ?   A graph of on         2.25    2.5    2.75    3    3.25    3.5       Which image do you feel gives you the best chance of approximating ? Why?   First image    Second image        Left\/Right Riemann Sum  left approximation  right approximation  riemann sum   Consider the definite integral on the interval . The left Riemann sum\/approximation is the approximation and the right Riemann sum\/approximation is the approximation where is the number of subdivisions made to and is the length of each subdivision.     Using sigma notation, we can rewrite and      Again, consider on the interval . We will compute and .    Which is the appropriate expression for ?                          The value of is , because that is the beginning of the interval; what is the value of ? Use this idea to find                           Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          If you wanted a better approximation, what does your group feel must be done to the subintervals?          Consider a moving car, with increasing velocity. The velocity was measured every two seconds, and the results collected in the table below.    Time (sec)  0  2  4  6  8  10    Velocity (ft\/s)  20  30  38  44  48  50      Find an upper estimate for the distance the car traveled in 10 seconds.    Find a lower estimate for the distance the car traveled in 10 seconds.     "
+  "body": " I2: Approximating Areas     I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Approximating Areas    Read all sections        In-Class Activities   The Definite Integral (Intuitive Definition)  definite integral (intuitive)   The definite integral of a positive function on the interval , notated as gives the net area between the curve and the input axis.      Determine the exact value of the definite integrals below; some potentially helpful geometric formulas are:   Triangle:     Circle:     Rectangle:    If necessary, sketch the graph of the function.          , where         Hint: The function is given by ; if you aren't sure about graph, try rearranging so that there aren't any roots... is that a familiar expression?      Use the image below to find the value of the definite integrals below.    An image of a piecewise function                                                                                                                   In and , we were able to use known geometric formulas to find the areas under the curve. However, this is an extreme exception to the usual rule.    Below is the graph of on a grid. Which value does your group feel is the best approximation of ? Be prepared to defend your group's answer.   A graph of on         2.25    2.5    2.75    3    3.25    3.5       The grid from part (a) has been made finer; which answer does your group feel is closest to the true answer to ?   A graph of on         2.25    2.5    2.75    3    3.25    3.5       Which image do you feel gives you the best chance of approximating ? Why?   First image    Second image        Left\/Right Riemann Sum  left approximation  right approximation  riemann sum   Consider the definite integral on the interval . The left Riemann sum\/approximation is the approximation and the right Riemann sum\/approximation is the approximation where is the number of subdivisions made to and is the length of each subdivision.     Using sigma notation, we can rewrite and      Again, consider on the interval . We will compute and .    Which is the appropriate expression for ?                          The value of is , because that is the beginning of the interval; what is the value of ? Use this idea to find                           Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          If you wanted a better approximation, what does your group feel must be done to the subintervals?      Consider a moving car, with increasing velocity. The velocity was measured every two seconds, and the results collected in the table below.    Time (sec)  0  2  4  6  8  10    Velocity (ft\/s)  20  30  38  44  48  50      Find an upper estimate for the distance the car traveled in 10 seconds.    Find a lower estimate for the distance the car traveled in 10 seconds.     "
 },
 {
   "id": "I2-2",
@@ -2737,13 +2737,13 @@ var ptx_lunr_docs = [
   "body": "   I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.    "
 },
 {
-  "id": "def-definite-integral",
+  "id": "def-definite-integral-intuitive",
   "level": "2",
-  "url": "I2.html#def-definite-integral",
+  "url": "I2.html#def-definite-integral-intuitive",
   "type": "Definition",
   "number": "4.2.1",
-  "title": "Definite Integral.",
-  "body": " Definite Integral  definite integral   The definite integral of a positive function on the interval , notated as gives the net area between the curve and the input axis.   "
+  "title": "The Definite Integral (Intuitive Definition).",
+  "body": " The Definite Integral (Intuitive Definition)  definite integral (intuitive)   The definite integral of a positive function on the interval , notated as gives the net area between the curve and the input axis.   "
 },
 {
   "id": "i-activity-definite-integral-geometry1",
@@ -2797,12 +2797,12 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "4.2.4",
   "title": "",
-  "body": "  Again, consider on the interval . We will compute and .    Which is the appropriate expression for ?                          The value of is , because that is the beginning of the interval; what is the value of ? Use this idea to find                           Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          If you wanted a better approximation, what does your group feel must be done to the subintervals?       "
+  "body": "  Again, consider on the interval . We will compute and .    Which is the appropriate expression for ?                          The value of is , because that is the beginning of the interval; what is the value of ? Use this idea to find                           Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          Using (a), (b), and , which is the correct value of ? A calculator will be helpful here.                          If you wanted a better approximation, what does your group feel must be done to the subintervals?   "
 },
 {
-  "id": "I2-activities-9",
+  "id": "i-activity-riemannsum2",
   "level": "2",
-  "url": "I2.html#I2-activities-9",
+  "url": "I2.html#i-activity-riemannsum2",
   "type": "Activity",
   "number": "4.2.5",
   "title": "",
@@ -2815,7 +2815,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "I3: The Definite Integral",
-  "body": " I3: The Definite Integral     I3  I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer.      Pre-Class Preparation  Read the following sections of the text:    Section 5.2: The Definite Integral    Read until \"Average Value of a Function\"        In-Class Activities   "
+  "body": " I3: The Definite Integral     I3  I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer.      Pre-Class Preparation  Read the following sections of the text:    Section 5.2: The Definite Integral    Read until \"Average Value of a Function\"        In-Class Activities   Recall that in we approximated the area between the curve and the axis on the interval by approximating with left and right rectangles. Part (e) asks: if we want a better approximation (than or ), what must be done to the subintervals? What was your group's response?    The Definite Integral (Limit Definition)  definite integral (limit definition)   Let be a function with a finite number of discontinuities on the interval , none of which are infinite. Then, the definite integral of on is given by A function for which the definite integral exists is said to be integrable .     Properties of the Definite Integral  definite integral (properties of)   Let be real numbers with , and let be a constant. Let and be integrable functions on . Then,                        , for some .         If and , what is ?      We will find the exact value of .    Which is the correct value of ?                          In order to compute the height of a rectangle, , first we need to determine the generic expression for an input in the interval, . This formula is given by . Use this fact to determine the correct value of :                          Use parts (a) and (b) to write a simplified expression for , the area of the -th rectangle in the subinterval.    The next part of the definition of the definite integral finds the approximation of the area under the curve on the entire interval, . In order to compute it, we need to know two facts:            Use these facts to show that     We can now complete the definition of the integral by computing . Which is the correct value of the limit?                            Use the following facts and to show that                   An object falls under constant acceleration in free-fall; on Earth, acceleration due to gravity is m\/s . So, let .    Which option gives , the antiderivative of , and its proper units?     m\/s     m\/s      m\/s      m\/s      Compute . What are the units of the integral?    Your answer in (b) has a physical meaning; which is it?   The change in velocity between and seconds    The change in position between and seconds    The position after 1 second    The velocity after 1 second         The function represents the rate of change of population (in people per year) in a quiet mountain town. At years after 2000, the town's population was 15000; suppose that . Which interpretation is most correct?   In 2010, the population was decreasing by 1210 people per year    In 2010, there were -1210 people    Between 2000 and 2010, the population decreased by 1210 people per year    Between 2000 and 2010, the population decreased by 1210 people        "
 },
 {
   "id": "I3-2",
@@ -2825,6 +2825,78 @@ var ptx_lunr_docs = [
   "number": "4.3",
   "title": "",
   "body": "   I3  I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer.    "
+},
+{
+  "id": "I3-activities-2",
+  "level": "2",
+  "url": "I3.html#I3-activities-2",
+  "type": "Remark",
+  "number": "4.3.1",
+  "title": "",
+  "body": " Recall that in we approximated the area between the curve and the axis on the interval by approximating with left and right rectangles. Part (e) asks: if we want a better approximation (than or ), what must be done to the subintervals? What was your group's response?  "
+},
+{
+  "id": "def-definite-integral-limit",
+  "level": "2",
+  "url": "I3.html#def-definite-integral-limit",
+  "type": "Definition",
+  "number": "4.3.2",
+  "title": "The Definite Integral (Limit Definition).",
+  "body": " The Definite Integral (Limit Definition)  definite integral (limit definition)   Let be a function with a finite number of discontinuities on the interval , none of which are infinite. Then, the definite integral of on is given by A function for which the definite integral exists is said to be integrable .   "
+},
+{
+  "id": "thm-properties-definite-integral",
+  "level": "2",
+  "url": "I3.html#thm-properties-definite-integral",
+  "type": "Theorem",
+  "number": "4.3.3",
+  "title": "Properties of the Definite Integral.",
+  "body": " Properties of the Definite Integral  definite integral (properties of)   Let be real numbers with , and let be a constant. Let and be integrable functions on . Then,                        , for some .      "
+},
+{
+  "id": "i-activity-definite-properties1",
+  "level": "2",
+  "url": "I3.html#i-activity-definite-properties1",
+  "type": "Activity",
+  "number": "4.3.1",
+  "title": "",
+  "body": "  If and , what is ?   "
+},
+{
+  "id": "i-activity-definite-compute1",
+  "level": "2",
+  "url": "I3.html#i-activity-definite-compute1",
+  "type": "Activity",
+  "number": "4.3.2",
+  "title": "",
+  "body": "  We will find the exact value of .    Which is the correct value of ?                          In order to compute the height of a rectangle, , first we need to determine the generic expression for an input in the interval, . This formula is given by . Use this fact to determine the correct value of :                          Use parts (a) and (b) to write a simplified expression for , the area of the -th rectangle in the subinterval.    The next part of the definition of the definite integral finds the approximation of the area under the curve on the entire interval, . In order to compute it, we need to know two facts:            Use these facts to show that     We can now complete the definition of the integral by computing . Which is the correct value of the limit?                         "
+},
+{
+  "id": "i-activity-definite-compute2",
+  "level": "2",
+  "url": "I3.html#i-activity-definite-compute2",
+  "type": "Activity",
+  "number": "4.3.3",
+  "title": "",
+  "body": "  Use the following facts and to show that                "
+},
+{
+  "id": "i-activity-definite-interp1",
+  "level": "2",
+  "url": "I3.html#i-activity-definite-interp1",
+  "type": "Activity",
+  "number": "4.3.4",
+  "title": "",
+  "body": "  An object falls under constant acceleration in free-fall; on Earth, acceleration due to gravity is m\/s . So, let .    Which option gives , the antiderivative of , and its proper units?     m\/s     m\/s      m\/s      m\/s      Compute . What are the units of the integral?    Your answer in (b) has a physical meaning; which is it?   The change in velocity between and seconds    The change in position between and seconds    The position after 1 second    The velocity after 1 second      "
+},
+{
+  "id": "i-activity-definite-interp2",
+  "level": "2",
+  "url": "I3.html#i-activity-definite-interp2",
+  "type": "Activity",
+  "number": "4.3.5",
+  "title": "",
+  "body": "  The function represents the rate of change of population (in people per year) in a quiet mountain town. At years after 2000, the town's population was 15000; suppose that . Which interpretation is most correct?   In 2010, the population was decreasing by 1210 people per year    In 2010, there were -1210 people    Between 2000 and 2010, the population decreased by 1210 people per year    Between 2000 and 2010, the population decreased by 1210 people      "
 },
 {
   "id": "I4",
