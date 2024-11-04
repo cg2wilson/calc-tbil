@@ -2905,7 +2905,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "I4: Derivatives of Integrals",
-  "body": " I4: Derivatives of Integrals     I4  I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Fundamental Theorem of Calculus    Read the section \"Fundamental Theorem of Calculus Part 1: Integrals and Antiderivatives\"        In-Class Activities   "
+  "body": " I4: Derivatives of Integrals     I4  I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Fundamental Theorem of Calculus    Read the section \"Fundamental Theorem of Calculus Part 1: Integrals and Antiderivatives\"        In-Class Activities   In and , we established a connection between the definite integral and accumulation of change. The theorem below, the First Fundamental Theorem of Calculus , establishes a link between rates of change (derivatives) and accumulations of change (definite integrals).    First Fundamental Theorem of Calculus  fundamental theorem of calculus (first)   If is continuous on , then the function defined by , for is continuous on , differentiable on , and . Using Leibniz notation, we have       This activity will bring some intuition to   The function is given in the graph below. Define the function .   The piecewise function        Which is ?        Can't be determined            Which is the best explanation for why ?   The area between and is 1    The output on the function at is 1    Between and , the function looks like the line        Find , , , and .    Give a rough sketch of using the points you found in (a)-(c).    Looking at the graph, what can you say about ? How does it relate to the graph of ?    Repeat part (e) for and .      establishes this explicit connection: differentiation and integration are inverse operations ; differentiation undoes integration, and integration undoes differentiation.     Compute the derivatives of the following integrals.                     This activity will generalize to allow for functions in the upper bound of the integral. Consider the function .    Which expression best communicates                           Write the expression that corresponds to instead finding .    Now, let's make the argument of a function rather than a number. Which expression best communicates ?                          The chain rule says that . Use your answer from part (c) to identify the correct derivative of                             Find the derivative of the following.                     Use the image below to answer the following questions, knowing that    An accumulation function        Where is increasing?    Where is decreasing?    Where does have a local minimum?    Compute .     "
 },
 {
   "id": "I4-2",
@@ -2915,6 +2915,78 @@ var ptx_lunr_docs = [
   "number": "4.4",
   "title": "",
   "body": "   I4  I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus    "
+},
+{
+  "id": "I4-activities-2",
+  "level": "2",
+  "url": "I4.html#I4-activities-2",
+  "type": "Remark",
+  "number": "4.4.1",
+  "title": "",
+  "body": " In and , we established a connection between the definite integral and accumulation of change. The theorem below, the First Fundamental Theorem of Calculus , establishes a link between rates of change (derivatives) and accumulations of change (definite integrals).  "
+},
+{
+  "id": "thm-ftc1",
+  "level": "2",
+  "url": "I4.html#thm-ftc1",
+  "type": "Theorem",
+  "number": "4.4.2",
+  "title": "First Fundamental Theorem of Calculus.",
+  "body": " First Fundamental Theorem of Calculus  fundamental theorem of calculus (first)   If is continuous on , then the function defined by , for is continuous on , differentiable on , and . Using Leibniz notation, we have    "
+},
+{
+  "id": "i-activity-ftc1-intuition1",
+  "level": "2",
+  "url": "I4.html#i-activity-ftc1-intuition1",
+  "type": "Activity",
+  "number": "4.4.1",
+  "title": "",
+  "body": "  This activity will bring some intuition to   The function is given in the graph below. Define the function .   The piecewise function        Which is ?        Can't be determined            Which is the best explanation for why ?   The area between and is 1    The output on the function at is 1    Between and , the function looks like the line        Find , , , and .    Give a rough sketch of using the points you found in (a)-(c).    Looking at the graph, what can you say about ? How does it relate to the graph of ?    Repeat part (e) for and .   "
+},
+{
+  "id": "I4-activities-5",
+  "level": "2",
+  "url": "I4.html#I4-activities-5",
+  "type": "Remark",
+  "number": "4.4.4",
+  "title": "",
+  "body": "  establishes this explicit connection: differentiation and integration are inverse operations ; differentiation undoes integration, and integration undoes differentiation.  "
+},
+{
+  "id": "i-activity-ftc1-compute-normal",
+  "level": "2",
+  "url": "I4.html#i-activity-ftc1-compute-normal",
+  "type": "Activity",
+  "number": "4.4.2",
+  "title": "",
+  "body": "  Compute the derivatives of the following integrals.                  "
+},
+{
+  "id": "i-activity-ftc1-compute-chain",
+  "level": "2",
+  "url": "I4.html#i-activity-ftc1-compute-chain",
+  "type": "Activity",
+  "number": "4.4.3",
+  "title": "",
+  "body": "  This activity will generalize to allow for functions in the upper bound of the integral. Consider the function .    Which expression best communicates                           Write the expression that corresponds to instead finding .    Now, let's make the argument of a function rather than a number. Which expression best communicates ?                          The chain rule says that . Use your answer from part (c) to identify the correct derivative of                          "
+},
+{
+  "id": "i-activity-ftc1-compute1",
+  "level": "2",
+  "url": "I4.html#i-activity-ftc1-compute1",
+  "type": "Activity",
+  "number": "4.4.4",
+  "title": "",
+  "body": "  Find the derivative of the following.                  "
+},
+{
+  "id": "i-activity-ftc1-compute2",
+  "level": "2",
+  "url": "I4.html#i-activity-ftc1-compute2",
+  "type": "Activity",
+  "number": "4.4.5",
+  "title": "",
+  "body": "  Use the image below to answer the following questions, knowing that    An accumulation function        Where is increasing?    Where is decreasing?    Where does have a local minimum?    Compute .   "
 },
 {
   "id": "I5",
