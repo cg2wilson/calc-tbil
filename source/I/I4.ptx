@@ -18,6 +18,368 @@
     <subsection xml:id="I4-activities">
         <title>In-Class Activities</title>
 
+        <remark>
+            <p>
+                In <xref ref="I2"/> and <xref ref="I3"/>, we established a connection between the definite integral and accumulation of change. The theorem below, the <term>First Fundamental Theorem of Calculus</term>, establishes a link between rates of change (derivatives) and accumulations of change (definite integrals).
+            </p>
+        </remark>
+
+        <theorem xml:id="thm-ftc1">
+            <title>First Fundamental Theorem of Calculus</title>
+            <idx><h>fundamental theorem of calculus (first)</h></idx>
+            <statement>
+                <p>
+                    If <m>f</m> is continuous on <m>[a,b]</m>, then the function <m>g</m> defined by <m>g(x) = \ds \int_a^x f(t)\, dt</m>, for <m>a\leq x\leq b</m> is continuous on <m>[a,b]</m>, differentiable on <m>(a,b)</m>, and <m>g'(x) = f(x)</m>.  Using Leibniz notation, we have <m>\ds \dfrac{d}{dx}\left[\int_a^x f(t)\, dt\right] = f(x)</m>
+                </p>
+            </statement>
+        </theorem>
+        
+
+        <activity xml:id="i-activity-ftc1-intuition1">
+            <introduction>
+                <p>
+                    This activity will bring some intuition to <xref ref="thm-ftc1"/>
+                </p>
+                <p>
+                    The function <m>f</m> is given in the graph below.  Define the function <m>g(x) = \ds \int_0^x f(t)\, dt</m>.
+                </p>
+                <figure xml:id="i-activity-ftc1-intuition1-img">
+                    <caption>The piecewise function <m>f(x)</m></caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/accumulation-intuition.tex" parse="text" />
+                        </latex-image>
+                    </image>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is <m>g(0)</m>? 
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        0
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Can't be determined
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        1
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which is the best explanation for why <m>g(1) = 1</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    The area between <m>x=0</m> and <m>x=1</m> is 1
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The output on the function at <m>x=1</m> is 1
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Between <m>x=0</m> and <m>x=1</m>, the function looks like the line <m>y=1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find <m>g(2)</m>, <m>g(3)</m>, <m>g(4)</m>, and <m>g(5)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Give a rough sketch of <m>g(x)</m> using the points you found in (a)-(c).
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Looking at the graph, what can you say about <m>g'(0.5)</m>? How does it relate to the graph of <m>f(x)</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Repeat part (e) for <m>x= 2</m> and <m>x=4</m>.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <remark>
+            <p>
+                <xref ref="thm-ftc1"/> establishes this explicit connection: differentiation and integration are <em>inverse operations</em>; differentiation undoes integration, and integration undoes differentiation.
+            </p>
+        </remark>
+
+        <activity xml:id="i-activity-ftc1-compute-normal">
+            <introduction>
+                <p>
+                    Compute the derivatives of the following integrals.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            g(x) = \ds \int_0^x \sqrt{1-t^2}\, dt
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            g(y) = \ds \int_3^y x^3\, dx
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            h(x) = \ds \int_x^{10} e^t\, dt
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="i-activity-ftc1-compute-chain">
+            <introduction>
+                <p>
+                    This activity will generalize <xref ref="thm-ftc1"/> to allow for <em>functions</em> in the upper bound of the integral. Consider the function <m>g(x) = \ds \int_a^x f(t)\, dt</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which expression best communicates <m>g(10)?</m>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{10}^x f(t)\, dt
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_a^{10} f(10)\, dt
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_a^x f(10)\, dt
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_a^{10} f(t)\, dt
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Write the expression that corresponds to instead finding <m>g(y)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now, let's make the argument of <m>g</m> a function rather than a number. Which expression best communicates <m>g(x^2)</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{x^2}^x f(t)\, dt
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_a^{x^2} f(t)\, dt
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_a^x f(x^2)\, dt
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_a^{x^2} f(x^2)\, dt
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The chain rule says that <m>g'(x^2) = g'(x^2)\cdot 2x</m>. Use your answer from part (c) to identify the correct derivative of <m>\ds \int_a^{x^2}\, \cos(t)\, dt</m>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        2x\sin(x^2)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        2x
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        -2x\sin (x^2)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        2x\cos (x^2)
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <activity xml:id="i-activity-ftc1-compute1">
+            <introduction>
+                <p>
+                    Find the derivative of the following.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            f(x) = \ds \int_0^{x^4} \tan^2t\, dt
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            r(y) = \ds \int_{\sin y}^2 t^3\cos (t)\, dt
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            y = \ds\int_0^{4x^3} \tan^2\theta\, d\theta
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="i-activity-ftc1-compute2">
+            <introduction>
+                <p>
+                    Use the image below to answer the following questions, knowing that <m>g(x) = \ds \int_0^x f(t)\, dt</m>
+                </p>
+                <figure xml:id="i-activity-ftc1-compute2-fig">
+                    <caption>An accumulation function</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/accumulation-piecewise.tex" parse="text"/>
+                        </latex-image>
+                        
+                    </image>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Where is <m>g</m> increasing?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Where is <m>g</m> decreasing?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Where does <m>g</m> have a local minimum?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>g''(1.5)</m>.
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>
