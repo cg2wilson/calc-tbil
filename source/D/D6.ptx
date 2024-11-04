@@ -639,7 +639,7 @@
                 <statement>
                     <p>
                         Which of the following statements is NOT true?
-                        <ol marker="A.">
+                        <ol marker="A." cols="2">
                             <li>The derivative of <m>y = 2\ln(x)</m> is <m>y' = \dfrac{2}{x}.</m></li>
                             <li>The derivative of <m>y = \dfrac{\ln(x)}{2}</m> is <m>y' = \dfrac{1}{2x}.</m></li>
                             <li>The derivative of <m>y = \dfrac{2}{3}\ln(x)</m> is <m>y' = \dfrac{3}{2x}.</m></li>
@@ -649,14 +649,14 @@
                 </statement>
             </task>
         </activity>
-        <activity>
-            <p>
+        <activity xml:id="d-activity-derivativerules-practice3">
+            <p> 
                 Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, <m>t</m> minutes after forgetting it on a bench outside, is given by the function
                 <me>f(t) = 40 \, (0.5)^t + 50</me>
                 Find <m>f(1)</m> and <m>f'(1)</m> and try to interpret your result in the context of this problem. 
             </p>
         </activity>
-        <activity>
+        <activity xml:id="d-activity-derivativerules-tangentlines">
             <introduction>
                 <p>
                     In this activity you will use our first derivative rules to study the slope of tangent lines. 
@@ -674,16 +674,14 @@
                     <p>
                         Find the equations of the two lines tangent to the parabola <m>y=(x-2)^2</m> which pass through the origin.
                     </p>
-                    <hint>
-                        <p>
-                            You will want to think about slope in two ways: as the derivative at <m>x=a</m> and the rise over the run in a linear function through the origin and the point <m>(a, f(a))</m>. Use a graph to check your work and sketch the tangent lines on your graph.
-                        </p>
-                    </hint>
+                    <p>
+                        <em>Hint:</em> You will want to think about slope in two ways: as the derivative at <m>x=a</m> and the rise over the run in a linear function through the origin and the point <m>(a, f(a))</m>. Use a graph to check your work and sketch the tangent lines on your graph.
+                    </p>
                 </statement>
             </task>
         </activity>
 
-        <activity>
+        <activity xml:id="d-activity-derivativerules-compute">
             <introduction>
                 <p>
                     Compute the following derivatives:
