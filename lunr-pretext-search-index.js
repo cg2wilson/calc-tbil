@@ -1699,7 +1699,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.6",
   "title": "D6: Derivative Shortcuts",
-  "body": " D6: Derivative Shortcuts     D6  I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Basic Rules\", \"The Power Rule\", and \"The Sum, Difference, and Constant Multiple Rules\" sections      Section 3.5: Derivatives of Trigonometric Functions    Read the \"Derivatives of the Sine and Cosine Functions\" and \"Higher-Order Derivatives\" sections      Section 3.9: Derivatives of Exponential and Logarithmic Functions    Read \"Derivative of the Exponential Function\" and \"Derivative of the Logarithmic Function\" sections        In-Class Activities    Recall the definition of the derivative of a function, . This activity will develop the constant rule .    Let be a constant function. Which of the following is the correct expression for ?                          Which of the following characterizations is true of , the derivative of a function at a point?   It represents the slope of the secant line at that point    It represents the slope of the secant line for the entire function    It represents the slope of the tangent line at that point    It represents the slope of the tangent line for the entire function       Think about the graph of . Why does your answer from part (a) make sense in light of part (b)?      In each task below, we define , where changes from to . This will help us develop the power rule .    Using the limit definition of the derivative, what is for the power function ?                   does not exist       Using the limit definition of the derivative, what is for the power function ? Use the fact that .                          Using the limit definition of the derivative, what is for the power function ? Use the fact that .                           Without using the limit definition of the derivative, which option below is the most reasonable guess for when ? Use parts (a)-(c) to develop a pattern.                           Derivative Rules, Part 1   Let be any real number, be any real constant, and and be differentiable functions. Then,    Constant Rule: If , then      Power Rule: If , then      Sum\/Difference Rule: The derivative of a sum or difference of functions is the sum or difference of the derivatives:      Constant Multiple Rule: The derivative of a constant times a function is the constant times the derivative of the function:          Let , , and . Which of the following are true statements? For those statements that are wrong, give the correct derivative.   The derivative of is     The derivative of is     The derivative of is     The derivative of is          Let .    Which is the correct expression for ?                          Which is the correct expression for ?                           Derivative Rules, Part 2   The following are base functions and their derivatives.    Function  Derivative                                                                                                                                        Use to answer the questions below.    The first derivative of the function is given by . What is the second derivative of ?          The derivative of is:           Which of the following statements is NOT true?  The derivative of is  The derivative of is  The derivative of is  The derivative of is .       Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, minutes after forgetting it on a bench outside, is given by the function Find and and try to interpret your result in the context of this problem.     In this activity you will use our first derivative rules to study the slope of tangent lines.    The graph of has a slope of 5 at two points. Find the coordinates of these points.    Find the equations of the two lines tangent to the parabola which pass through the origin.   You will want to think about slope in two ways: as the derivative at and the rise over the run in a linear function through the origin and the point . Use a graph to check your work and sketch the tangent lines on your graph.       Compute the following derivatives:                         "
+  "body": " D6: Derivative Shortcuts     D6  I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Basic Rules\", \"The Power Rule\", and \"The Sum, Difference, and Constant Multiple Rules\" sections      Section 3.5: Derivatives of Trigonometric Functions    Read the \"Derivatives of the Sine and Cosine Functions\" and \"Higher-Order Derivatives\" sections      Section 3.9: Derivatives of Exponential and Logarithmic Functions    Read \"Derivative of the Exponential Function\" and \"Derivative of the Logarithmic Function\" sections        In-Class Activities    Recall the definition of the derivative of a function, . This activity will develop the constant rule .    Let be a constant function. Which of the following is the correct expression for ?                          Which of the following characterizations is true of , the derivative of a function at a point?   It represents the slope of the secant line at that point    It represents the slope of the secant line for the entire function    It represents the slope of the tangent line at that point    It represents the slope of the tangent line for the entire function       Think about the graph of . Why does your answer from part (a) make sense in light of part (b)?      In each task below, we define , where changes from to . This will help us develop the power rule .    Using the limit definition of the derivative, what is for the power function ?                   does not exist       Using the limit definition of the derivative, what is for the power function ? Use the fact that .                          Using the limit definition of the derivative, what is for the power function ? Use the fact that .                           Without using the limit definition of the derivative, which option below is the most reasonable guess for when ? Use parts (a)-(c) to develop a pattern.                           Derivative Rules, Part 1   Let be any real number, be any real constant, and and be differentiable functions. Then,    Constant Rule: If , then      Power Rule: If , then      Sum\/Difference Rule: The derivative of a sum or difference of functions is the sum or difference of the derivatives:      Constant Multiple Rule: The derivative of a constant times a function is the constant times the derivative of the function:          Let , , and . Which of the following are true statements? For those statements that are wrong, give the correct derivative.   The derivative of is     The derivative of is     The derivative of is     The derivative of is          Let .    Which is the correct expression for ?                          Which is the correct expression for ?                           Derivative Rules, Part 2   The following are base functions and their derivatives.    Function  Derivative                                                                                                                                        Use to answer the questions below.    The first derivative of the function is given by . What is the second derivative of ?          The derivative of is:           Which of the following statements is NOT true?  The derivative of is  The derivative of is  The derivative of is  The derivative of is .       Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, minutes after forgetting it on a bench outside, is given by the function Find and and try to interpret your result in the context of this problem.     In this activity you will use our first derivative rules to study the slope of tangent lines.    The graph of has a slope of 5 at two points. Find the coordinates of these points.    Find the equations of the two lines tangent to the parabola which pass through the origin.   Hint: You will want to think about slope in two ways: as the derivative at and the rise over the run in a linear function through the origin and the point . Use a graph to check your work and sketch the tangent lines on your graph.      Compute the following derivatives:                         "
 },
 {
   "id": "D6-2",
@@ -1774,27 +1774,27 @@ var ptx_lunr_docs = [
   "body": "  Use to answer the questions below.    The first derivative of the function is given by . What is the second derivative of ?          The derivative of is:           Which of the following statements is NOT true?  The derivative of is  The derivative of is  The derivative of is  The derivative of is .     "
 },
 {
-  "id": "D6-activities-9",
+  "id": "d-activity-derivativerules-practice3",
   "level": "2",
-  "url": "D6.html#D6-activities-9",
+  "url": "D6.html#d-activity-derivativerules-practice3",
   "type": "Activity",
   "number": "2.6.6",
   "title": "",
   "body": " Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, minutes after forgetting it on a bench outside, is given by the function Find and and try to interpret your result in the context of this problem.  "
 },
 {
-  "id": "D6-activities-10",
+  "id": "d-activity-derivativerules-tangentlines",
   "level": "2",
-  "url": "D6.html#D6-activities-10",
+  "url": "D6.html#d-activity-derivativerules-tangentlines",
   "type": "Activity",
   "number": "2.6.7",
   "title": "",
-  "body": "  In this activity you will use our first derivative rules to study the slope of tangent lines.    The graph of has a slope of 5 at two points. Find the coordinates of these points.    Find the equations of the two lines tangent to the parabola which pass through the origin.   You will want to think about slope in two ways: as the derivative at and the rise over the run in a linear function through the origin and the point . Use a graph to check your work and sketch the tangent lines on your graph.    "
+  "body": "  In this activity you will use our first derivative rules to study the slope of tangent lines.    The graph of has a slope of 5 at two points. Find the coordinates of these points.    Find the equations of the two lines tangent to the parabola which pass through the origin.   Hint: You will want to think about slope in two ways: as the derivative at and the rise over the run in a linear function through the origin and the point . Use a graph to check your work and sketch the tangent lines on your graph.   "
 },
 {
-  "id": "D6-activities-11",
+  "id": "d-activity-derivativerules-compute",
   "level": "2",
-  "url": "D6.html#D6-activities-11",
+  "url": "D6.html#d-activity-derivativerules-compute",
   "type": "Activity",
   "number": "2.6.8",
   "title": "",
@@ -2995,7 +2995,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.5",
   "title": "I5: Computing Definite Integrals",
-  "body": " I5: Computing Definite Integrals     I5  I can use the Second Fundamental Theorem of Calculus to compute definite integrals.      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Fundamental Theorem of Calculus    Read the section \"Fundamental Theorem of Calculus, Part 2: The Evaluation Theorem\"        In-Class Activities   "
+  "body": " I5: Computing Definite Integrals     I5  I can use the Second Fundamental Theorem of Calculus to compute definite integrals.      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Fundamental Theorem of Calculus    Read the section \"Fundamental Theorem of Calculus, Part 2: The Evaluation Theorem\"        In-Class Activities    has us compute integrals by hand; this process is tedious, and can be avoided by using .    Fundamental Theorem of Calculus (Part 2)  fundamental theorem of calculus (part 2)   If is continuous on with antiderivative on , then       Compute the value of each definite integral below.                                       Determine       Is the statement correct? Why or why not?      Find the area bounded by the curves , and .     "
 },
 {
   "id": "I5-2",
@@ -3005,6 +3005,51 @@ var ptx_lunr_docs = [
   "number": "4.5",
   "title": "",
   "body": "   I5  I can use the Second Fundamental Theorem of Calculus to compute definite integrals.    "
+},
+{
+  "id": "I5-activities-2",
+  "level": "2",
+  "url": "I5.html#I5-activities-2",
+  "type": "Remark",
+  "number": "4.5.1",
+  "title": "",
+  "body": "  has us compute integrals by hand; this process is tedious, and can be avoided by using .  "
+},
+{
+  "id": "thm-ftc2",
+  "level": "2",
+  "url": "I5.html#thm-ftc2",
+  "type": "Theorem",
+  "number": "4.5.2",
+  "title": "Fundamental Theorem of Calculus (Part 2).",
+  "body": " Fundamental Theorem of Calculus (Part 2)  fundamental theorem of calculus (part 2)   If is continuous on with antiderivative on , then    "
+},
+{
+  "id": "i-activity-ftc2-1",
+  "level": "2",
+  "url": "I5.html#i-activity-ftc2-1",
+  "type": "Activity",
+  "number": "4.5.1",
+  "title": "",
+  "body": "  Compute the value of each definite integral below.                                       Determine    "
+},
+{
+  "id": "i-activity-ftc2-continuity",
+  "level": "2",
+  "url": "I5.html#i-activity-ftc2-continuity",
+  "type": "Activity",
+  "number": "4.5.2",
+  "title": "",
+  "body": "  Is the statement correct? Why or why not?   "
+},
+{
+  "id": "i-activity-ftc2-3",
+  "level": "2",
+  "url": "I5.html#i-activity-ftc2-3",
+  "type": "Activity",
+  "number": "4.5.3",
+  "title": "",
+  "body": "  Find the area bounded by the curves , and .   "
 },
 {
   "id": "I6",
