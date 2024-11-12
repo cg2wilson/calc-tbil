@@ -18,6 +18,402 @@
     <subsection xml:id="I6-activities">
         <title>In-Class Activities</title>
 
+        <activity xml:id="i-activity-substitution-intuition">
+            <introduction>
+                <p>
+                    Let <m>f(x) = \sin(x^3+1)</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is the correct expression for <m>f'(x)</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \cos(x^3+1)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \sin(x^3+1)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \cos(x^3+1)(3x^2)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        -\cos(x^3+1)(3x^2)
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>f(x) = f(u(x))</m>, where <m>f(u) = \sin (u)</m> and <m>u(x) = x^3+1</m>, identify <m>f'(u)</m> and <m>u'(x)</m> from part (a).
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The integral <m>\ds \int 3x^2\cos(x^3+1)\,dx</m> is not a basic function for which we can find an antiderivative. How can we use parts (a) and (b) to find the antiderivative?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-substitution-integrals">
+            <title>Substitution Rule</title>
+            <idx><h>u-substitution</h></idx>
+            <statement>
+                <p>
+                    If <m>u=g(x)</m> is a differentiable function whose range is an interval <m>I</m> and <m>f</m> is continuous on <m>I</m>, then <m>\ds \int f(g(x))\cdot g'(x)\, dx = \int f(u)\, du</m>
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="i-activity-substitution-practice1">
+            <statement>
+                <p>
+                    Find the general antiderivative of <m>f(x) = \sin (2x)</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="i-activity-substitution-bounds">
+            <introduction>
+                <p>
+                    The process of substitution changes the integral from being in terms of the original variable to a <em>substitution variable</em>, often <m>u</m>. This means that ALL references to the original variable must be removed when we substitute.
+                </p>
+                <p>
+                    Consider the definite integral <m>\ds \int_{-\pi/3}^{\pi/3} \cos(2x)\, dx</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is the best choice for the substitution variable, <m>u</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        u = 2
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        u = 2x
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        u = \cos (x)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        u = \cos (2x)
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The upper and lower bounds of the integral can really be written as <m>x = -\dfrac{\pi}{3}</m> and <m>x = \dfrac{\pi}{3}</m>. This means that they need to be changed in order to compute the integral. Which expression correctly identifies the changed bounds? Here, <m>a</m> is the lower bound and <m>b</m> is the upper bound
+                    </p>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>
+                                    a = -\dfrac{2\pi}{3}\qquad b = \dfrac{\pi}{3}
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    a = -\dfrac{2\pi}{3}\qquad b = \dfrac{2\pi}{3}
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    a = -\dfrac{\pi}{3}\qquad b = \dfrac{2\pi}{3}
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    a = \dfrac{2\pi}{3}\qquad b = -\dfrac{2\pi}{3}
+                                </m>
+                            </p>
+                        </li>
+                    </ol>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Rewrite the integral<ndash>bounds and all</ndash>and compute it. Which answer do you get?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        1
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        2
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        4
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
+    <activity xml:id="i-activity-substitution-practice2">
+        <introduction>
+            <p>
+                Compute the integrals below.
+            </p>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_{\pi/2}^\pi \sin\lrpar{\dfrac{2\theta}{3}}\,d\theta
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_0^a x\sqrt{a^2-x^2}\,dx
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int y^2(4-y^3)^{2/3}\,dy
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </introduction>
+    </activity>
+
+    <activity xml:id="i-activity-substitution-practice3">
+        <introduction>
+            <p>
+                Determine the answer to each of the following integrals.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>
+                        \ds \int 54x\sqrt{9x^2+5}\, dx
+                    </m>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>
+                                    1
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    2
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    3
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    4
+                                </m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>
+                        \ds \int_0^4 \sqrt{2x+1}\, dx
+                    </m>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>
+                                    1
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    2
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    3
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    4
+                                </m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>
+                        \ds \int \dfrac{\cos(t)}{\sin^2(t)}\, dt
+                    </m>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>
+                                    1
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    2
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    3
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    4
+                                </m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>
+                        \ds \int_0^1 xe^{4x^2+3}\, dx
+                    </m>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>
+                                    1
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    2
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    3
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    4
+                                </m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+    </activity>
 </section>
