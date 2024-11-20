@@ -3058,7 +3058,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.6",
   "title": "I6: Substitution",
-  "body": " I6: Substitution     I6  I can use substitution to compute definite or indefinite integrals      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: Substitution    Read all sections        In-Class Activities    Let     Which is the correct expression for ?                          If , where and , identify and from part (a).    The integral is not a basic function for which we can find an antiderivative. How can we use parts (a) and (b) to find the antiderivative?     Substitution Rule  u-substitution   If is a differentiable function whose range is an interval and is continuous on , then       Find the general antiderivative of       The process of substitution changes the integral from being in terms of the original variable to a substitution variable , often . This means that ALL references to the original variable must be removed when we substitute.  Consider the definite integral .    Which is the best choice for the substitution variable, ?                          The upper and lower bounds of the integral can really be written as and . This means that they need to be changed in order to compute the integral. Which expression correctly identifies the changed bounds? Here, is the lower bound and is the upper bound                          Rewrite the integral bounds and all and compute it. Which answer do you get?                             Compute the integrals below.                     Determine the answer to each of the following integrals.                                                                                                                "
+  "body": " I6: Substitution     I6  I can use substitution to compute definite or indefinite integrals      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: Substitution    Read all sections        In-Class Activities    Let     Which is the correct expression for ?                          If , where and , identify and from part (a).    The integral is not a basic function for which we can find an antiderivative. How can we use parts (a) and (b) to find the antiderivative?     Substitution Rule  u-substitution   If is a differentiable function whose range is an interval and is continuous on , then       Find the general antiderivative of       The process of substitution changes the integral from being in terms of the original variable to a substitution variable , often . This means that ALL references to the original variable must be removed when we substitute.  Consider the definite integral .    Which is the best choice for the substitution variable, ?                          The upper and lower bounds of the integral can really be written as and . This means that they need to be changed in order to compute the integral. Which expression correctly identifies the changed bounds? Here, is the lower bound and is the upper bound                          Rewrite the integral bounds and all and compute it. Which answer do you get?        Compute the integrals below.                     Determine the answer to each of the following integrals.                            "
 },
 {
   "id": "I6-2",
@@ -3103,7 +3103,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "4.6.3",
   "title": "",
-  "body": "  The process of substitution changes the integral from being in terms of the original variable to a substitution variable , often . This means that ALL references to the original variable must be removed when we substitute.  Consider the definite integral .    Which is the best choice for the substitution variable, ?                          The upper and lower bounds of the integral can really be written as and . This means that they need to be changed in order to compute the integral. Which expression correctly identifies the changed bounds? Here, is the lower bound and is the upper bound                          Rewrite the integral bounds and all and compute it. Which answer do you get?                         "
+  "body": "  The process of substitution changes the integral from being in terms of the original variable to a substitution variable , often . This means that ALL references to the original variable must be removed when we substitute.  Consider the definite integral .    Which is the best choice for the substitution variable, ?                          The upper and lower bounds of the integral can really be written as and . This means that they need to be changed in order to compute the integral. Which expression correctly identifies the changed bounds? Here, is the lower bound and is the upper bound                          Rewrite the integral bounds and all and compute it. Which answer do you get?    "
 },
 {
   "id": "i-activity-substitution-practice2",
@@ -3121,7 +3121,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "4.6.5",
   "title": "",
-  "body": "  Determine the answer to each of the following integrals.                                                                                                               "
+  "body": "  Determine the answer to each of the following integrals.                           "
 },
 {
   "id": "I7",
