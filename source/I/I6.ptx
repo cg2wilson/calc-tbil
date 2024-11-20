@@ -182,6 +182,7 @@
                 <statement>
                     <p>
                         Rewrite the integral<ndash>bounds and all</ndash>and compute it. Which answer do you get?
+                        <!--
                         <ol marker="A." cols="2">
                             <li>
                                 <p>
@@ -212,6 +213,7 @@
                                 </p>
                             </li>
                         </ol>
+                        -->
                     </p>
                 </statement>
             </task>
@@ -265,6 +267,7 @@
                     <m>
                         \ds \int 54x\sqrt{9x^2+5}\, dx
                     </m>
+                    <!--
                     <ol marker="A." cols="2">
                         <li>
                             <p>
@@ -295,6 +298,7 @@
                             </p>
                         </li>
                     </ol>
+                    -->
                 </p>
             </statement>
         </task>
@@ -304,6 +308,7 @@
                     <m>
                         \ds \int_0^4 \sqrt{2x+1}\, dx
                     </m>
+                    <!--
                     <ol marker="A." cols="2">
                         <li>
                             <p>
@@ -334,6 +339,7 @@
                             </p>
                         </li>
                     </ol>
+                    -->
                 </p>
             </statement>
         </task>
@@ -343,6 +349,7 @@
                     <m>
                         \ds \int \dfrac{\cos(t)}{\sin^2(t)}\, dt
                     </m>
+                    <!--
                     <ol marker="A." cols="2">
                         <li>
                             <p>
@@ -373,6 +380,7 @@
                             </p>
                         </li>
                     </ol>
+                    -->
                 </p>
             </statement>
         </task>
@@ -382,6 +390,7 @@
                     <m>
                         \ds \int_0^1 xe^{4x^2+3}\, dx
                     </m>
+                    <!--
                     <ol marker="A." cols="2">
                         <li>
                             <p>
@@ -412,6 +421,7 @@
                             </p>
                         </li>
                     </ol>
+                    -->
                 </p>
             </statement>
         </task>
