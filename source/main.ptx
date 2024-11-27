@@ -4,18 +4,27 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./meta/docinfo.ptx" />
 
-  <book xml:id="occc-tbil-calc1">
-    <title>Notes for TBIL Calculus 1</title>
-    <subtitle>Fall 2024</subtitle>
+  <book xml:id="occc-tbil-calc">
+    <title>Notes for TBIL Calculus</title>
+    <subtitle>Spring 2025</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./meta/frontmatter.ptx" />
     <!-- Include chapters -->
     <xi:include href="./review/main.ptx"/>
-    <xi:include href="./L/main.ptx" />
-    <xi:include href="./D/main.ptx" />
-    <xi:include href="./A/main.ptx" />
-    <xi:include href="./I/main.ptx" />
+    <xi:include href="./LT/main.ptx" />
+    <xi:include href="./DF/main.ptx" />
+    <xi:include href="./AD/main.ptx" />
+    <xi:include href="./IN/main.ptx" />
+    <xi:include href="./VE/main.ptx" />
+    <xi:include href="./AI/main.ptx" />
+    <xi:include href="./TI/main.ptx" />
+    <xi:include href="./SE/main.ptx" />
+    <xi:include href="./PS/main.ptx" />
+    <xi:include href="./PD/main.ptx" />
+    <xi:include href="./MI/main.ptx" />
+    <xi:include href="./VF/main.ptx" />
+    <xi:include href="./FS/main.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./meta/backmatter.ptx" />
