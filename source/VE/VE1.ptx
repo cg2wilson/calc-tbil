@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="VE1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>VE1: Working with Vectors</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>VE1</title>
+                <p>
+                    I can identify, create, combine, modify, and apply vectors in two- or three-dimensional space.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/VE1-prep.ptx" />
+
+    <subsection xml:id="VE1-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>

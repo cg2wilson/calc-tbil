@@ -6,7 +6,8 @@
 
   <book xml:id="occc-tbil-calc">
     <title>Notes for TBIL Calculus</title>
-    <subtitle>Spring 2025</subtitle>
+    <subtitle>Oklahoma City Community College</subtitle>
+    
 
     <!-- Include frontmatter -->
     <xi:include href="./meta/frontmatter.ptx" />

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<introduction xml:id="VE-readiness" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Readiness Assurance</title>
+      <p>
+        Before beginning this chapter, you should be able to...
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Find the distance between points using the distance formula. (<url href="https://www.khanacademy.org/math/geometry/hs-geo-analytic-geometry/hs-geo-distance-and-midpoints/v/distance-formula">Khan Academy</url>)
+            </p>
+          </li>
+          <li>
+            <p>
+              Use the sine, cosine, and tangent ratios (<url href="https://www.khanacademy.org/math/trigonometry/unit-circle-trig-func/unit-circle-definition-of-trig-functions/v/matching-ratios-trig-functions">Khan Academy</url>)
+            </p>
+          </li>
+          <li>
+            <p>
+              Determine values for trigonometric functions based on the unit circle (<url href="https://www.mathsisfun.com/geometry/unit-circle.html">Math Is Fun</url>)
+            </p>
+          </li>
+          <li>
+            <p>
+              Identify similarities/differences between degrees and radians (<url href="https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:radians/v/introduction-to-radians">Khan Academy 1</url> and <url href="https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:radians/v/radian-and-degree-conversion-practice">Khan Academy 2</url>), and convert between the two (<url href="https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:radians/v/we-converting-degrees-to-radians">Khan Academy 1</url> <url href="https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:radians/v/we-converting-radians-to-degrees">Khan Academy 2</url>)
+            </p>
+          </li>
+        </ol>  
+      </p>
+</introduction>
