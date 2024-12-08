@@ -23,6 +23,7 @@
     \newcommand{\ds}{\displaystyle}
     \newcommand{\lrpar}[1]{\left(#1\right)}
     \newcommand{\lrbrace}[1]{\left\lbrace #1 \right\rbrace}
+    \newcommand{\lrangle}[1]{\left\langle #1 \right\rangle}
     \newcommand{\inv}[1]{#1^{-1}}
     \newcommand{\R}{\mathbb{R}}
     \newcommand{\Z}{\mathbb{Z}}
@@ -31,7 +32,6 @@
     \DeclareMathOperator{\arcsec}{arcsec}
     \DeclareMathOperator{\arccot}{arccot}
     \DeclareMathOperator{\arccsc}{arccsc}
-    \newcommand[1]{\vs}{\vspace*{\stretch{#1}}}
 </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->
