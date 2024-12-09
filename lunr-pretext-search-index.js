@@ -1,13 +1,13 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "frontmatter-2",
+  "id": "front-colophon",
   "level": "1",
-  "url": "frontmatter-2.html",
+  "url": "front-colophon.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": "  copyright  "
+  "body": ""
 },
 {
   "id": "review-functions",
@@ -2571,7 +2571,7 @@ var ptx_lunr_docs = [
   "url": "A4.html#def-indeterminate-form-division",
   "type": "Definition",
   "number": "3.4.1",
-  "title": "Indeterminate Form (0\/0 and <span class=\"process-math\">\\(\\infty\/\\infty\\)<\/span>).",
+  "title": "Indeterminate Form (0\/0 and <span xmlns:pf=\"https:\/\/prefigure.org\" class=\"process-math\">\\(\\infty\/\\infty\\)<\/span>).",
   "body": " Indeterminate Form (0\/0 and )  indeterminate form (0\/0)  indeterminate form ( )   An indeterminate form of the type 0\/0 is a limit of the form where and , or and    "
 },
 {
@@ -3140,6 +3140,231 @@ var ptx_lunr_docs = [
   "number": "4.7",
   "title": "",
   "body": "   I7  I can determine the area between two curves.    "
+},
+{
+  "id": "VE1",
+  "level": "1",
+  "url": "VE1.html",
+  "type": "Section",
+  "number": "5.1",
+  "title": "VE1: Working with Vectors",
+  "body": " VE1: Working with Vectors     VE1  I can identify, create, combine, modify, and apply vectors in two- or three-dimensional space.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.1: Vectors in the Plane    Read all sections      Volume 3, Section 2.2: Vectors in Three Dimensions    Read all sections        In-Class Activities   Vector  vector   A vector is a quantity which has both magnitude\/length and direction . We will denote a vector using boldface type, as . Vectors are generally depicted visually as an arrow beginning at an initial point ( below) and ending at a terminal point ( below).            Vectors can be decomposed into components - horizontal and vertical. See the diagram below.          If the length of the horizontal leg is , and the length of the vertical leg is , which is the best description for the magnitude of , denoted ?                          Which expression best identifies the direction of the vector, denoted in the diagram?                                    Use trigonometry and\/or part (a) to find expressions for the length of and the length of in terms of the direction and magnitude of .     A vector with horizontal component and vertical component is written in component form as .     Consider the points and .    Write the component form of the vector beginning at and ending at .                          What is the direction of this vector?    Write the component form of the vector beginning at and ending at .                          What is the direction of this vector?    What do you notice about the vectors from part (a) and from part (c)?      Now consider the points and     Find the vector .    Consider the additional point . Find the vector .                          Sketch and on the same coordinate grid. What relationship do you see between and ?    Now consider the point . Find the vector .    Sketch on the same grid from part (f). What relationship do see between and ?      Vectors can be added and subtracted like regular numbers. Addition happens component-wise ; for example, adding the vectors gives the resultant vector        Let and . Find the following vectors.                                                                                       This activity will develop the parallelogram rule , a method for visualizing the addition or subtraction of two vectors.  Consider the vectors and for the tasks below.    Find .    On a coordinate grid, draw the vectors and so that their tails are touching.    Create a parallelogram by translating and , then include on the parallelogram. What do you notice about its position on the diagram?    Compute . How, if at all, does it fit in the diagram from (c)?     Vector Properties  Let and be three vectors, and let be scalar values. The following properties hold:   (Commutativity of Vectors)     (Associativity of Vectors)     (Additive Identity for Vectors)     (Additive Inverse for Vectors)     (Associativity of Scalar Muliplication)     (Distributivity)     (Distributivity)     (Multiplicative Identity for Vectors)     (Multiplicative Zero for Vectors)        A convenient thing about working with vectors is that the same ideas that work in two dimensions work in any number of dimensions. The number of dimensions is equal to the number of components in the vector. For example, the vector is two-dimensional because there are only two components, while the vector is six-dimensional because there are six components.     For the vectors , , find the following.                                          In order to avoid confusion, we talk about a three-dimensional coordinate system using the right-hand rule : when using your right hand, point your index finger out, thumb up, and middle finger perpendicular to both. Your index finger represents the axis, your middle finger represents the axis, and your thumb represents the axis.        Recall from that the magnitude or length of a two-dimensional vector can be found by computing .    For a three-dimensional vector , how might you compute ?    Find the length of the vector .    What is the length of the vector ?      A unit vector is a vector with unit length, i.e. length exactly 1.      For each vector, find its associated unit vector.                         The unit vector is the vector whose first component 1 and all others are 0, is the one whose second component is 1 with all others 0, and is the one whose third component is 1 with all others 0.     Write each vector as a sum of the standard unit vectors .                                                                           The speed of an object is the magnitude of its associated velocity vector. A football is thrown by a player with an initial speed of 82 miles per hour and an angle of elevation of . Determine the velocity vector in miles per hour and express in component form and in terms of the standard unit vectors. Assume the ball is thrown in the plane.    Which of the following best expresses the horizontal component of the vector?                                    Which option best describes the vertical component of the vector?                                    Use your answers to (a) and (b) to write the velocity vector in component form.    Use your answers to (a) and (b) to write the velocity vector using the standard unit vectors. Remember that the ball is thrown in the plane.    Why would we consider the ball to be thrown in the plane rather than the plane or the plane?      In order to fly from Oklahoma City to Dayton, OH, a plane must fly east of north. A plane leaves Oklahoma City at a ground speed of 525 miles per hour. A 30 mph wind blows from the north during the flight.    What is the ground speed of the plane when the wind begins to blow?    What is the new bearing of the plane?      An object is said to be in static equilibrium if the resultant force of the forces that act on it is zero. Let , , and be three forces acting on an object. Find the resultant force necessary to place the object in static equilibrium.      "
+},
+{
+  "id": "VE1-2",
+  "level": "2",
+  "url": "VE1.html#VE1-2",
+  "type": "Objectives",
+  "number": "5.1",
+  "title": "",
+  "body": "   VE1  I can identify, create, combine, modify, and apply vectors in two- or three-dimensional space.    "
+},
+{
+  "id": "def-vector",
+  "level": "2",
+  "url": "VE1.html#def-vector",
+  "type": "Definition",
+  "number": "5.1.1",
+  "title": "Vector.",
+  "body": " Vector  vector   A vector is a quantity which has both magnitude\/length and direction . We will denote a vector using boldface type, as . Vectors are generally depicted visually as an arrow beginning at an initial point ( below) and ending at a terminal point ( below).         "
+},
+{
+  "id": "ve1-magnitude-direction-1",
+  "level": "2",
+  "url": "VE1.html#ve1-magnitude-direction-1",
+  "type": "Activity",
+  "number": "5.1.1",
+  "title": "",
+  "body": "  Vectors can be decomposed into components - horizontal and vertical. See the diagram below.          If the length of the horizontal leg is , and the length of the vertical leg is , which is the best description for the magnitude of , denoted ?                          Which expression best identifies the direction of the vector, denoted in the diagram?                                    Use trigonometry and\/or part (a) to find expressions for the length of and the length of in terms of the direction and magnitude of .   "
+},
+{
+  "id": "ve1-rmk-component-form",
+  "level": "2",
+  "url": "VE1.html#ve1-rmk-component-form",
+  "type": "Remark",
+  "number": "5.1.4",
+  "title": "",
+  "body": " A vector with horizontal component and vertical component is written in component form as .  "
+},
+{
+  "id": "ve1-vector-computation-1",
+  "level": "2",
+  "url": "VE1.html#ve1-vector-computation-1",
+  "type": "Activity",
+  "number": "5.1.2",
+  "title": "",
+  "body": "  Consider the points and .    Write the component form of the vector beginning at and ending at .                          What is the direction of this vector?    Write the component form of the vector beginning at and ending at .                          What is the direction of this vector?    What do you notice about the vectors from part (a) and from part (c)?   "
+},
+{
+  "id": "ve1-vector-computation-2",
+  "level": "2",
+  "url": "VE1.html#ve1-vector-computation-2",
+  "type": "Activity",
+  "number": "5.1.3",
+  "title": "",
+  "body": "  Now consider the points and     Find the vector .    Consider the additional point . Find the vector .                          Sketch and on the same coordinate grid. What relationship do you see between and ?    Now consider the point . Find the vector .    Sketch on the same grid from part (f). What relationship do see between and ?   "
+},
+{
+  "id": "ve1-rmk-add-subtract",
+  "level": "2",
+  "url": "VE1.html#ve1-rmk-add-subtract",
+  "type": "Remark",
+  "number": "5.1.5",
+  "title": "",
+  "body": "  Vectors can be added and subtracted like regular numbers. Addition happens component-wise ; for example, adding the vectors gives the resultant vector     "
+},
+{
+  "id": "ve1-vector-computation-3",
+  "level": "2",
+  "url": "VE1.html#ve1-vector-computation-3",
+  "type": "Activity",
+  "number": "5.1.4",
+  "title": "",
+  "body": "  Let and . Find the following vectors.                                                                                    "
+},
+{
+  "id": "ve1-activity-parallelogram-rule",
+  "level": "2",
+  "url": "VE1.html#ve1-activity-parallelogram-rule",
+  "type": "Activity",
+  "number": "5.1.5",
+  "title": "",
+  "body": "  This activity will develop the parallelogram rule , a method for visualizing the addition or subtraction of two vectors.  Consider the vectors and for the tasks below.    Find .    On a coordinate grid, draw the vectors and so that their tails are touching.    Create a parallelogram by translating and , then include on the parallelogram. What do you notice about its position on the diagram?    Compute . How, if at all, does it fit in the diagram from (c)?   "
+},
+{
+  "id": "ve1-rmk-vectors-dimension",
+  "level": "2",
+  "url": "VE1.html#ve1-rmk-vectors-dimension",
+  "type": "Remark",
+  "number": "5.1.6",
+  "title": "",
+  "body": " A convenient thing about working with vectors is that the same ideas that work in two dimensions work in any number of dimensions. The number of dimensions is equal to the number of components in the vector. For example, the vector is two-dimensional because there are only two components, while the vector is six-dimensional because there are six components.  "
+},
+{
+  "id": "ve1-vector-computation-4",
+  "level": "2",
+  "url": "VE1.html#ve1-vector-computation-4",
+  "type": "Activity",
+  "number": "5.1.6",
+  "title": "",
+  "body": "  For the vectors , , find the following.                                        "
+},
+{
+  "id": "ve1-rmk-right-hand-rule",
+  "level": "2",
+  "url": "VE1.html#ve1-rmk-right-hand-rule",
+  "type": "Remark",
+  "number": "5.1.7",
+  "title": "",
+  "body": " In order to avoid confusion, we talk about a three-dimensional coordinate system using the right-hand rule : when using your right hand, point your index finger out, thumb up, and middle finger perpendicular to both. Your index finger represents the axis, your middle finger represents the axis, and your thumb represents the axis.     "
+},
+{
+  "id": "ve1-activity-unit-vector",
+  "level": "2",
+  "url": "VE1.html#ve1-activity-unit-vector",
+  "type": "Activity",
+  "number": "5.1.7",
+  "title": "",
+  "body": "  Recall from that the magnitude or length of a two-dimensional vector can be found by computing .    For a three-dimensional vector , how might you compute ?    Find the length of the vector .    What is the length of the vector ?   "
+},
+{
+  "id": "def-unit-vector",
+  "level": "2",
+  "url": "VE1.html#def-unit-vector",
+  "type": "Definition",
+  "number": "5.1.8",
+  "title": "",
+  "body": "  A unit vector is a vector with unit length, i.e. length exactly 1.   "
+},
+{
+  "id": "ve1-vector-computation-5",
+  "level": "2",
+  "url": "VE1.html#ve1-vector-computation-5",
+  "type": "Activity",
+  "number": "5.1.8",
+  "title": "",
+  "body": "  For each vector, find its associated unit vector.                       "
+},
+{
+  "id": "ve1-rmk-ijk",
+  "level": "2",
+  "url": "VE1.html#ve1-rmk-ijk",
+  "type": "Remark",
+  "number": "5.1.9",
+  "title": "",
+  "body": " The unit vector is the vector whose first component 1 and all others are 0, is the one whose second component is 1 with all others 0, and is the one whose third component is 1 with all others 0.  "
+},
+{
+  "id": "ve1-unit-vectors-1",
+  "level": "2",
+  "url": "VE1.html#ve1-unit-vectors-1",
+  "type": "Activity",
+  "number": "5.1.9",
+  "title": "",
+  "body": "  Write each vector as a sum of the standard unit vectors .                                                                        "
+},
+{
+  "id": "ve1-vector-application-1",
+  "level": "2",
+  "url": "VE1.html#ve1-vector-application-1",
+  "type": "Activity",
+  "number": "5.1.10",
+  "title": "",
+  "body": "  The speed of an object is the magnitude of its associated velocity vector. A football is thrown by a player with an initial speed of 82 miles per hour and an angle of elevation of . Determine the velocity vector in miles per hour and express in component form and in terms of the standard unit vectors. Assume the ball is thrown in the plane.    Which of the following best expresses the horizontal component of the vector?                                    Which option best describes the vertical component of the vector?                                    Use your answers to (a) and (b) to write the velocity vector in component form.    Use your answers to (a) and (b) to write the velocity vector using the standard unit vectors. Remember that the ball is thrown in the plane.    Why would we consider the ball to be thrown in the plane rather than the plane or the plane?   "
+},
+{
+  "id": "ve1-vector-application-2",
+  "level": "2",
+  "url": "VE1.html#ve1-vector-application-2",
+  "type": "Activity",
+  "number": "5.1.11",
+  "title": "",
+  "body": "  In order to fly from Oklahoma City to Dayton, OH, a plane must fly east of north. A plane leaves Oklahoma City at a ground speed of 525 miles per hour. A 30 mph wind blows from the north during the flight.    What is the ground speed of the plane when the wind begins to blow?    What is the new bearing of the plane?   "
+},
+{
+  "id": "ve1-vector-application-3",
+  "level": "2",
+  "url": "VE1.html#ve1-vector-application-3",
+  "type": "Activity",
+  "number": "5.1.12",
+  "title": "",
+  "body": "  An object is said to be in static equilibrium if the resultant force of the forces that act on it is zero. Let , , and be three forces acting on an object. Find the resultant force necessary to place the object in static equilibrium.   "
+},
+{
+  "id": "VE2",
+  "level": "1",
+  "url": "VE2.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "VE2: Dot Products and Cross Products",
+  "body": " VE2: Dot Products and Cross Products     I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Approximating Areas    Read all sections        In-Class Activities   "
+},
+{
+  "id": "VE2-2",
+  "level": "2",
+  "url": "VE2.html#VE2-2",
+  "type": "Objectives",
+  "number": "5.2",
+  "title": "",
+  "body": "   I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.    "
+},
+{
+  "id": "VE3",
+  "level": "1",
+  "url": "VE3.html",
+  "type": "Section",
+  "number": "5.3",
+  "title": "VE3: The Definite Integral",
+  "body": " VE3: The Definite Integral     I3  I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer.      Pre-Class Preparation  Read the following sections of the text:    Section 5.2: The Definite Integral    Read until \"Average Value of a Function\"        In-Class Activities   "
+},
+{
+  "id": "VE3-2",
+  "level": "2",
+  "url": "VE3.html#VE3-2",
+  "type": "Objectives",
+  "number": "5.3",
+  "title": "",
+  "body": "   I3  I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer.    "
 },
 {
   "id": "backmatter-2",

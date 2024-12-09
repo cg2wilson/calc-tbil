@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>VE1: Working with Vectors</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta xmlns:pf="https://prefigure.org" property="og:type" content="book">
+<meta xmlns:pf="https://prefigure.org" property="book:title" content="Notes for TBIL Calculus">
+<meta xmlns:pf="https://prefigure.org" property="book:author" content="Cory Wilson">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:pf="https://prefigure.org" rel="preconnect" href="https://fonts.googleapis.com">
+<link xmlns:pf="https://prefigure.org" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link xmlns:pf="https://prefigure.org" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link xmlns:pf="https://prefigure.org" href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link xmlns:pf="https://prefigure.org" href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link xmlns:pf="https://prefigure.org" href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link xmlns:pf="https://prefigure.org" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<script src="https://cdn.geogebra.org/apps/deployggb.js"></script><link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#review-functions-2-4-1-1-2 { counter-set: review-functions-2-4-1-1-2 0; }
+#review-functions-2-4-1-1-2 > li::marker { content: ""counter(review-functions-2-4-1-1-2,lower-alpha)"."; }
+#review-functions-2-4-1-1-2 > li { counter-increment: review-functions-2-4-1-1-2; }
+#review-functions-2-4-2-1-1 { counter-set: review-functions-2-4-2-1-1 0; }
+#review-functions-2-4-2-1-1 > li::marker { content: ""counter(review-functions-2-4-2-1-1,lower-alpha)"."; }
+#review-functions-2-4-2-1-1 > li { counter-increment: review-functions-2-4-2-1-1; }
+#review-functions-2-5-1-1-2 { counter-set: review-functions-2-5-1-1-2 0; }
+#review-functions-2-5-1-1-2 > li::marker { content: ""counter(review-functions-2-5-1-1-2,lower-alpha)"."; }
+#review-functions-2-5-1-1-2 > li { counter-increment: review-functions-2-5-1-1-2; }
+#review-functions-2-5-2-1-1 { counter-set: review-functions-2-5-2-1-1 0; }
+#review-functions-2-5-2-1-1 > li::marker { content: ""counter(review-functions-2-5-2-1-1,lower-alpha)"."; }
+#review-functions-2-5-2-1-1 > li { counter-increment: review-functions-2-5-2-1-1; }
+#review-functions-3-3-1-1-3 { counter-set: review-functions-3-3-1-1-3 0; }
+#review-functions-3-3-1-1-3 > li::marker { content: ""counter(review-functions-3-3-1-1-3,lower-alpha)"."; }
+#review-functions-3-3-1-1-3 > li { counter-increment: review-functions-3-3-1-1-3; }
+#review-functions-3-3-2-1-1 { counter-set: review-functions-3-3-2-1-1 0; }
+#review-functions-3-3-2-1-1 > li::marker { content: ""counter(review-functions-3-3-2-1-1,lower-alpha)"."; }
+#review-functions-3-3-2-1-1 > li { counter-increment: review-functions-3-3-2-1-1; }
+#review-functions-3-5-1-1-3 { counter-set: review-functions-3-5-1-1-3 0; }
+#review-functions-3-5-1-1-3 > li::marker { content: ""counter(review-functions-3-5-1-1-3,lower-alpha)"."; }
+#review-functions-3-5-1-1-3 > li { counter-increment: review-functions-3-5-1-1-3; }
+#review-functions-3-5-2-1-1 { counter-set: review-functions-3-5-2-1-1 0; }
+#review-functions-3-5-2-1-1 > li::marker { content: ""counter(review-functions-3-5-2-1-1,lower-alpha)"."; }
+#review-functions-3-5-2-1-1 > li { counter-increment: review-functions-3-5-2-1-1; }
+#review-functions-3-7-1-4-1 { counter-set: review-functions-3-7-1-4-1 0; }
+#review-functions-3-7-1-4-1 > li::marker { content: ""counter(review-functions-3-7-1-4-1,lower-alpha)"."; }
+#review-functions-3-7-1-4-1 > li { counter-increment: review-functions-3-7-1-4-1; }
+#review-functions-3-7-2-1-1 { counter-set: review-functions-3-7-2-1-1 0; }
+#review-functions-3-7-2-1-1 > li::marker { content: ""counter(review-functions-3-7-2-1-1,lower-alpha)"."; }
+#review-functions-3-7-2-1-1 > li { counter-increment: review-functions-3-7-2-1-1; }
+#review-functions-3-8-1-1-1 { counter-set: review-functions-3-8-1-1-1 0; }
+#review-functions-3-8-1-1-1 > li::marker { content: ""counter(review-functions-3-8-1-1-1,lower-alpha)"."; }
+#review-functions-3-8-1-1-1 > li { counter-increment: review-functions-3-8-1-1-1; }
+#review-functions-3-8-2-1-1 { counter-set: review-functions-3-8-2-1-1 0; }
+#review-functions-3-8-2-1-1 > li::marker { content: ""counter(review-functions-3-8-2-1-1,lower-alpha)"."; }
+#review-functions-3-8-2-1-1 > li { counter-increment: review-functions-3-8-2-1-1; }
+#review-functions-4-3-1-1-1 { counter-set: review-functions-4-3-1-1-1 0; }
+#review-functions-4-3-1-1-1 > li::marker { content: ""counter(review-functions-4-3-1-1-1,lower-alpha)"."; }
+#review-functions-4-3-1-1-1 > li { counter-increment: review-functions-4-3-1-1-1; }
+#review-functions-4-3-2-1-1 { counter-set: review-functions-4-3-2-1-1 0; }
+#review-functions-4-3-2-1-1 > li::marker { content: ""counter(review-functions-4-3-2-1-1,lower-alpha)"."; }
+#review-functions-4-3-2-1-1 > li { counter-increment: review-functions-4-3-2-1-1; }
+#review-classes-2-8-1-1-2 { counter-set: review-classes-2-8-1-1-2 0; }
+#review-classes-2-8-1-1-2 > li::marker { content: ""counter(review-classes-2-8-1-1-2,lower-alpha)"."; }
+#review-classes-2-8-1-1-2 > li { counter-increment: review-classes-2-8-1-1-2; }
+#review-classes-2-8-2-1-1 { counter-set: review-classes-2-8-2-1-1 0; }
+#review-classes-2-8-2-1-1 > li::marker { content: ""counter(review-classes-2-8-2-1-1,lower-alpha)"."; }
+#review-classes-2-8-2-1-1 > li { counter-increment: review-classes-2-8-2-1-1; }
+#review-inverse-1-9-1-3-1 { counter-set: review-inverse-1-9-1-3-1 0; }
+#review-inverse-1-9-1-3-1 > li::marker { content: ""counter(review-inverse-1-9-1-3-1,lower-alpha)"."; }
+#review-inverse-1-9-1-3-1 > li { counter-increment: review-inverse-1-9-1-3-1; }
+#review-inverse-1-9-2-1-1 { counter-set: review-inverse-1-9-2-1-1 0; }
+#review-inverse-1-9-2-1-1 > li::marker { content: ""counter(review-inverse-1-9-2-1-1,lower-alpha)"."; }
+#review-inverse-1-9-2-1-1 > li { counter-increment: review-inverse-1-9-2-1-1; }
+#L-readiness-3 { counter-set: L-readiness-3 0; }
+#L-readiness-3 > li::marker { content: ""counter(L-readiness-3,lower-alpha)"."; }
+#L-readiness-3 > li { counter-increment: L-readiness-3; }
+#activity-limits-graphically1-2-2-1 { counter-set: activity-limits-graphically1-2-2-1 0; }
+#activity-limits-graphically1-2-2-1 > li::marker { content: ""counter(activity-limits-graphically1-2-2-1,upper-alpha)"."; }
+#activity-limits-graphically1-2-2-1 > li { counter-increment: activity-limits-graphically1-2-2-1; }
+#activity-limits-graphically1-3-2-1 { counter-set: activity-limits-graphically1-3-2-1 0; }
+#activity-limits-graphically1-3-2-1 > li::marker { content: ""counter(activity-limits-graphically1-3-2-1,upper-alpha)"."; }
+#activity-limits-graphically1-3-2-1 > li { counter-increment: activity-limits-graphically1-3-2-1; }
+#activity-limits-graphically2-3-2-1 { counter-set: activity-limits-graphically2-3-2-1 0; }
+#activity-limits-graphically2-3-2-1 > li::marker { content: ""counter(activity-limits-graphically2-3-2-1,upper-alpha)"."; }
+#activity-limits-graphically2-3-2-1 > li { counter-increment: activity-limits-graphically2-3-2-1; }
+#activity-limits-graphically2-4-2-1 { counter-set: activity-limits-graphically2-4-2-1 0; }
+#activity-limits-graphically2-4-2-1 > li::marker { content: ""counter(activity-limits-graphically2-4-2-1,upper-alpha)"."; }
+#activity-limits-graphically2-4-2-1 > li { counter-increment: activity-limits-graphically2-4-2-1; }
+#activity-limits-graphically-one-sided-2-2-1 { counter-set: activity-limits-graphically-one-sided-2-2-1 0; }
+#activity-limits-graphically-one-sided-2-2-1 > li::marker { content: ""counter(activity-limits-graphically-one-sided-2-2-1,upper-alpha)"."; }
+#activity-limits-graphically-one-sided-2-2-1 > li { counter-increment: activity-limits-graphically-one-sided-2-2-1; }
+#activity-limits-graphically-one-sided2-2-2-1 { counter-set: activity-limits-graphically-one-sided2-2-2-1 0; }
+#activity-limits-graphically-one-sided2-2-2-1 > li::marker { content: ""counter(activity-limits-graphically-one-sided2-2-2-1,upper-alpha)"."; }
+#activity-limits-graphically-one-sided2-2-2-1 > li { counter-increment: activity-limits-graphically-one-sided2-2-2-1; }
+#activity-limits-graphically-one-sided2-3-2-1 { counter-set: activity-limits-graphically-one-sided2-3-2-1 0; }
+#activity-limits-graphically-one-sided2-3-2-1 > li::marker { content: ""counter(activity-limits-graphically-one-sided2-3-2-1,upper-alpha)"."; }
+#activity-limits-graphically-one-sided2-3-2-1 > li { counter-increment: activity-limits-graphically-one-sided2-3-2-1; }
+#activity-limits-graphically-fluency1-6-2 { counter-set: activity-limits-graphically-fluency1-6-2 0; }
+#activity-limits-graphically-fluency1-6-2 > li::marker { content: ""counter(activity-limits-graphically-fluency1-6-2,upper-alpha)"."; }
+#activity-limits-graphically-fluency1-6-2 > li { counter-increment: activity-limits-graphically-fluency1-6-2; }
+#L1-activities-13-1-2-1 { counter-set: L1-activities-13-1-2-1 0; }
+#L1-activities-13-1-2-1 > li::marker { content: ""counter(L1-activities-13-1-2-1,decimal)"."; }
+#L1-activities-13-1-2-1 > li { counter-increment: L1-activities-13-1-2-1; }
+#activity-limits-numerically1-2-3 { counter-set: activity-limits-numerically1-2-3 0; }
+#activity-limits-numerically1-2-3 > li::marker { content: ""counter(activity-limits-numerically1-2-3,upper-alpha)"."; }
+#activity-limits-numerically1-2-3 > li { counter-increment: activity-limits-numerically1-2-3; }
+#activity-limits-numerically2-4-1 { counter-set: activity-limits-numerically2-4-1 0; }
+#activity-limits-numerically2-4-1 > li::marker { content: ""counter(activity-limits-numerically2-4-1,upper-alpha)"."; }
+#activity-limits-numerically2-4-1 > li { counter-increment: activity-limits-numerically2-4-1; }
+#activity-limits-numerically3-3-1 { counter-set: activity-limits-numerically3-3-1 0; }
+#activity-limits-numerically3-3-1 > li::marker { content: ""counter(activity-limits-numerically3-3-1,upper-alpha)"."; }
+#activity-limits-numerically3-3-1 > li { counter-increment: activity-limits-numerically3-3-1; }
+#activity-limits-numerically4-2-2-1 { counter-set: activity-limits-numerically4-2-2-1 0; }
+#activity-limits-numerically4-2-2-1 > li::marker { content: ""counter(activity-limits-numerically4-2-2-1,upper-alpha)"."; }
+#activity-limits-numerically4-2-2-1 > li { counter-increment: activity-limits-numerically4-2-2-1; }
+#activity-limits-numerically4-4-2-1 { counter-set: activity-limits-numerically4-4-2-1 0; }
+#activity-limits-numerically4-4-2-1 > li::marker { content: ""counter(activity-limits-numerically4-4-2-1,upper-alpha)"."; }
+#activity-limits-numerically4-4-2-1 > li { counter-increment: activity-limits-numerically4-4-2-1; }
+#activity-limits-numerically5-2-1-2-1 { counter-set: activity-limits-numerically5-2-1-2-1 0; }
+#activity-limits-numerically5-2-1-2-1 > li::marker { content: ""counter(activity-limits-numerically5-2-1-2-1,upper-alpha)"."; }
+#activity-limits-numerically5-2-1-2-1 > li { counter-increment: activity-limits-numerically5-2-1-2-1; }
+#activity-limits-analytically1-2-1 { counter-set: activity-limits-analytically1-2-1 0; }
+#activity-limits-analytically1-2-1 > li::marker { content: ""counter(activity-limits-analytically1-2-1,upper-alpha)"."; }
+#activity-limits-analytically1-2-1 > li { counter-increment: activity-limits-analytically1-2-1; }
+#activity-limits-analytically2-4-1 { counter-set: activity-limits-analytically2-4-1 0; }
+#activity-limits-analytically2-4-1 > li::marker { content: ""counter(activity-limits-analytically2-4-1,upper-alpha)"."; }
+#activity-limits-analytically2-4-1 > li { counter-increment: activity-limits-analytically2-4-1; }
+#theorem-limit-laws-1-2-1-8 { counter-set: theorem-limit-laws-1-2-1-8 0; }
+#theorem-limit-laws-1-2-1-8 > li::marker { content: ""counter(theorem-limit-laws-1-2-1-8,decimal)"."; }
+#theorem-limit-laws-1-2-1-8 > li { counter-increment: theorem-limit-laws-1-2-1-8; }
+#activity-limits-analytically3-2-1 { counter-set: activity-limits-analytically3-2-1 0; }
+#activity-limits-analytically3-2-1 > li::marker { content: ""counter(activity-limits-analytically3-2-1,upper-alpha)"."; }
+#activity-limits-analytically3-2-1 > li { counter-increment: activity-limits-analytically3-2-1; }
+#theorem-limit-laws-2-2-1-6 { counter-set: theorem-limit-laws-2-2-1-6 0; }
+#theorem-limit-laws-2-2-1-6 > li::marker { content: ""counter(theorem-limit-laws-2-2-1-6,decimal)"."; }
+#theorem-limit-laws-2-2-1-6 > li { counter-increment: theorem-limit-laws-2-2-1-6; }
+#activity-limits-analytically4-1-2-1 { counter-set: activity-limits-analytically4-1-2-1 0; }
+#activity-limits-analytically4-1-2-1 > li::marker { content: ""counter(activity-limits-analytically4-1-2-1,upper-alpha)"."; }
+#activity-limits-analytically4-1-2-1 > li { counter-increment: activity-limits-analytically4-1-2-1; }
+#activity-limits-rationals1-2-1 { counter-set: activity-limits-rationals1-2-1 0; }
+#activity-limits-rationals1-2-1 > li::marker { content: ""counter(activity-limits-rationals1-2-1,upper-alpha)"."; }
+#activity-limits-rationals1-2-1 > li { counter-increment: activity-limits-rationals1-2-1; }
+#activity-limits-rationals2-2-1 { counter-set: activity-limits-rationals2-2-1 0; }
+#activity-limits-rationals2-2-1 > li::marker { content: ""counter(activity-limits-rationals2-2-1,upper-alpha)"."; }
+#activity-limits-rationals2-2-1 > li { counter-increment: activity-limits-rationals2-2-1; }
+#activity-limits-zero-2-1 { counter-set: activity-limits-zero-2-1 0; }
+#activity-limits-zero-2-1 > li::marker { content: ""counter(activity-limits-zero-2-1,upper-alpha)"."; }
+#activity-limits-zero-2-1 > li { counter-increment: activity-limits-zero-2-1; }
+#activity-hole-limits-2-1-2-1 { counter-set: activity-hole-limits-2-1-2-1 0; }
+#activity-hole-limits-2-1-2-1 > li::marker { content: ""counter(activity-hole-limits-2-1-2-1,upper-alpha)"."; }
+#activity-hole-limits-2-1-2-1 > li { counter-increment: activity-hole-limits-2-1-2-1; }
+#LT5-infinity-intuition1-3-1 { counter-set: LT5-infinity-intuition1-3-1 0; }
+#LT5-infinity-intuition1-3-1 > li::marker { content: ""counter(LT5-infinity-intuition1-3-1,upper-alpha)"."; }
+#LT5-infinity-intuition1-3-1 > li { counter-increment: LT5-infinity-intuition1-3-1; }
+#LT5-infinity-intuition2-3-1 { counter-set: LT5-infinity-intuition2-3-1 0; }
+#LT5-infinity-intuition2-3-1 > li::marker { content: ""counter(LT5-infinity-intuition2-3-1,upper-alpha)"."; }
+#LT5-infinity-intuition2-3-1 > li { counter-increment: LT5-infinity-intuition2-3-1; }
+#L-activity-horizontal-asymptote-1-2-1-2-1 { counter-set: L-activity-horizontal-asymptote-1-2-1-2-1 0; }
+#L-activity-horizontal-asymptote-1-2-1-2-1 > li::marker { content: ""counter(L-activity-horizontal-asymptote-1-2-1-2-1,upper-alpha)"."; }
+#L-activity-horizontal-asymptote-1-2-1-2-1 > li { counter-increment: L-activity-horizontal-asymptote-1-2-1-2-1; }
+#L-activity-horizontal-asymptote-1-3-1-2-1 { counter-set: L-activity-horizontal-asymptote-1-3-1-2-1 0; }
+#L-activity-horizontal-asymptote-1-3-1-2-1 > li::marker { content: ""counter(L-activity-horizontal-asymptote-1-3-1-2-1,upper-alpha)"."; }
+#L-activity-horizontal-asymptote-1-3-1-2-1 > li { counter-increment: L-activity-horizontal-asymptote-1-3-1-2-1; }
+#infinity-rational1-2-1 { counter-set: infinity-rational1-2-1 0; }
+#infinity-rational1-2-1 > li::marker { content: ""counter(infinity-rational1-2-1,upper-alpha)"."; }
+#infinity-rational1-2-1 > li { counter-increment: infinity-rational1-2-1; }
+#infinity-rational2-2-2-1 { counter-set: infinity-rational2-2-2-1 0; }
+#infinity-rational2-2-2-1 > li::marker { content: ""counter(infinity-rational2-2-2-1,upper-alpha)"."; }
+#infinity-rational2-2-2-1 > li { counter-increment: infinity-rational2-2-2-1; }
+#L-thm-horizontal-asymptote-rules-1-1-8 { counter-set: L-thm-horizontal-asymptote-rules-1-1-8 0; }
+#L-thm-horizontal-asymptote-rules-1-1-8 > li::marker { content: ""counter(L-thm-horizontal-asymptote-rules-1-1-8,decimal)"."; }
+#L-thm-horizontal-asymptote-rules-1-1-8 > li { counter-increment: L-thm-horizontal-asymptote-rules-1-1-8; }
+#infinity-dne-3-1 { counter-set: infinity-dne-3-1 0; }
+#infinity-dne-3-1 > li::marker { content: ""counter(infinity-dne-3-1,upper-alpha)"."; }
+#infinity-dne-3-1 > li { counter-increment: infinity-dne-3-1; }
+#L-vertical-asymptote-intuition1-2-1-2-1 { counter-set: L-vertical-asymptote-intuition1-2-1-2-1 0; }
+#L-vertical-asymptote-intuition1-2-1-2-1 > li::marker { content: ""counter(L-vertical-asymptote-intuition1-2-1-2-1,upper-alpha)"."; }
+#L-vertical-asymptote-intuition1-2-1-2-1 > li { counter-increment: L-vertical-asymptote-intuition1-2-1-2-1; }
+#L-vertical-asymptote-intuition1-4-1-2-1 { counter-set: L-vertical-asymptote-intuition1-4-1-2-1 0; }
+#L-vertical-asymptote-intuition1-4-1-2-1 > li::marker { content: ""counter(L-vertical-asymptote-intuition1-4-1-2-1,upper-alpha)"."; }
+#L-vertical-asymptote-intuition1-4-1-2-1 > li { counter-increment: L-vertical-asymptote-intuition1-4-1-2-1; }
+#infinity-divide-zero-2-1 { counter-set: infinity-divide-zero-2-1 0; }
+#infinity-divide-zero-2-1 > li::marker { content: ""counter(infinity-divide-zero-2-1,upper-alpha)"."; }
+#infinity-divide-zero-2-1 > li { counter-increment: infinity-divide-zero-2-1; }
+#limits-vert-asymptote-2-1 { counter-set: limits-vert-asymptote-2-1 0; }
+#limits-vert-asymptote-2-1 > li::marker { content: ""counter(limits-vert-asymptote-2-1,upper-alpha)"."; }
+#limits-vert-asymptote-2-1 > li { counter-increment: limits-vert-asymptote-2-1; }
+#limits-intuition-hole-2-1 { counter-set: limits-intuition-hole-2-1 0; }
+#limits-intuition-hole-2-1 > li::marker { content: ""counter(limits-intuition-hole-2-1,upper-alpha)"."; }
+#limits-intuition-hole-2-1 > li { counter-increment: limits-intuition-hole-2-1; }
+#L3-activities-19-2-1 { counter-set: L3-activities-19-2-1 0; }
+#L3-activities-19-2-1 > li::marker { content: ""counter(L3-activities-19-2-1,upper-alpha)"."; }
+#L3-activities-19-2-1 > li { counter-increment: L3-activities-19-2-1; }
+#activity-continuous-scenarios-1-2-1 { counter-set: activity-continuous-scenarios-1-2-1 0; }
+#activity-continuous-scenarios-1-2-1 > li::marker { content: ""counter(activity-continuous-scenarios-1-2-1,upper-alpha)"."; }
+#activity-continuous-scenarios-1-2-1 > li { counter-increment: activity-continuous-scenarios-1-2-1; }
+#L-continuity-activity-def-2-1-2-1 { counter-set: L-continuity-activity-def-2-1-2-1 0; }
+#L-continuity-activity-def-2-1-2-1 > li::marker { content: ""counter(L-continuity-activity-def-2-1-2-1,upper-alpha)"."; }
+#L-continuity-activity-def-2-1-2-1 > li { counter-increment: L-continuity-activity-def-2-1-2-1; }
+#L-continuity-activity-def-3-1-2-1 { counter-set: L-continuity-activity-def-3-1-2-1 0; }
+#L-continuity-activity-def-3-1-2-1 > li::marker { content: ""counter(L-continuity-activity-def-3-1-2-1,upper-alpha)"."; }
+#L-continuity-activity-def-3-1-2-1 > li { counter-increment: L-continuity-activity-def-3-1-2-1; }
+#L-continuity-activity-def-4-1-2-1 { counter-set: L-continuity-activity-def-4-1-2-1 0; }
+#L-continuity-activity-def-4-1-2-1 > li::marker { content: ""counter(L-continuity-activity-def-4-1-2-1,upper-alpha)"."; }
+#L-continuity-activity-def-4-1-2-1 > li { counter-increment: L-continuity-activity-def-4-1-2-1; }
+#def-continuity-2-1-5 { counter-set: def-continuity-2-1-5 0; }
+#def-continuity-2-1-5 > li::marker { content: ""counter(def-continuity-2-1-5,decimal)"."; }
+#def-continuity-2-1-5 > li { counter-increment: def-continuity-2-1-5; }
+#activity-continuity-which-are-equal-1-2-1 { counter-set: activity-continuity-which-are-equal-1-2-1 0; }
+#activity-continuity-which-are-equal-1-2-1 > li::marker { content: ""counter(activity-continuity-which-are-equal-1-2-1,upper-alpha)"."; }
+#activity-continuity-which-are-equal-1-2-1 > li { counter-increment: activity-continuity-which-are-equal-1-2-1; }
+#L4-activities-8-2-1-2-1 { counter-set: L4-activities-8-2-1-2-1 0; }
+#L4-activities-8-2-1-2-1 > li::marker { content: ""counter(L4-activities-8-2-1-2-1,upper-alpha)"."; }
+#L4-activities-8-2-1-2-1 > li { counter-increment: L4-activities-8-2-1-2-1; }
+#L4-activities-8-2-1-4-1 { counter-set: L4-activities-8-2-1-4-1 0; }
+#L4-activities-8-2-1-4-1 > li::marker { content: ""counter(L4-activities-8-2-1-4-1,upper-alpha)"."; }
+#L4-activities-8-2-1-4-1 > li { counter-increment: L4-activities-8-2-1-4-1; }
+#L4-activities-8-3-1-2-1 { counter-set: L4-activities-8-3-1-2-1 0; }
+#L4-activities-8-3-1-2-1 > li::marker { content: ""counter(L4-activities-8-3-1-2-1,upper-alpha)"."; }
+#L4-activities-8-3-1-2-1 > li { counter-increment: L4-activities-8-3-1-2-1; }
+#L4-activities-8-3-1-4-1 { counter-set: L4-activities-8-3-1-4-1 0; }
+#L4-activities-8-3-1-4-1 > li::marker { content: ""counter(L4-activities-8-3-1-4-1,upper-alpha)"."; }
+#L4-activities-8-3-1-4-1 > li { counter-increment: L4-activities-8-3-1-4-1; }
+#L4-activities-8-4-1-2-1 { counter-set: L4-activities-8-4-1-2-1 0; }
+#L4-activities-8-4-1-2-1 > li::marker { content: ""counter(L4-activities-8-4-1-2-1,upper-alpha)"."; }
+#L4-activities-8-4-1-2-1 > li { counter-increment: L4-activities-8-4-1-2-1; }
+#L4-activities-8-4-1-4-1 { counter-set: L4-activities-8-4-1-4-1 0; }
+#L4-activities-8-4-1-4-1 > li::marker { content: ""counter(L4-activities-8-4-1-4-1,upper-alpha)"."; }
+#L4-activities-8-4-1-4-1 > li { counter-increment: L4-activities-8-4-1-4-1; }
+#L-continuity-identify-intervals-2-1-2-1 { counter-set: L-continuity-identify-intervals-2-1-2-1 0; }
+#L-continuity-identify-intervals-2-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-2-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-2-1-2-1 > li { counter-increment: L-continuity-identify-intervals-2-1-2-1; }
+#L-continuity-identify-intervals-3-1-2-1 { counter-set: L-continuity-identify-intervals-3-1-2-1 0; }
+#L-continuity-identify-intervals-3-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-3-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-3-1-2-1 > li { counter-increment: L-continuity-identify-intervals-3-1-2-1; }
+#L-continuity-identify-intervals-4-1-2-1 { counter-set: L-continuity-identify-intervals-4-1-2-1 0; }
+#L-continuity-identify-intervals-4-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-4-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-4-1-2-1 > li { counter-increment: L-continuity-identify-intervals-4-1-2-1; }
+#L-continuity-identify-intervals-5-1-2-1 { counter-set: L-continuity-identify-intervals-5-1-2-1 0; }
+#L-continuity-identify-intervals-5-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-5-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-5-1-2-1 > li { counter-increment: L-continuity-identify-intervals-5-1-2-1; }
+#L-continuity-identify-intervals-6-1-2-1 { counter-set: L-continuity-identify-intervals-6-1-2-1 0; }
+#L-continuity-identify-intervals-6-1-2-1 > li::marker { content: ""counter(L-continuity-identify-intervals-6-1-2-1,upper-alpha)"."; }
+#L-continuity-identify-intervals-6-1-2-1 > li { counter-increment: L-continuity-identify-intervals-6-1-2-1; }
+#D-readiness-2-1 { counter-set: D-readiness-2-1 0; }
+#D-readiness-2-1 > li::marker { content: ""counter(D-readiness-2-1,lower-alpha)"."; }
+#D-readiness-2-1 > li { counter-increment: D-readiness-2-1; }
+#D-aroc-activity-slope1-2-1-1-1 { counter-set: D-aroc-activity-slope1-2-1-1-1 0; }
+#D-aroc-activity-slope1-2-1-1-1 > li::marker { content: ""counter(D-aroc-activity-slope1-2-1-1-1,upper-alpha)"."; }
+#D-aroc-activity-slope1-2-1-1-1 > li { counter-increment: D-aroc-activity-slope1-2-1-1-1; }
+#D-aroc-activity-slope1-3-1-1-1 { counter-set: D-aroc-activity-slope1-3-1-1-1 0; }
+#D-aroc-activity-slope1-3-1-1-1 > li::marker { content: ""counter(D-aroc-activity-slope1-3-1-1-1,upper-alpha)"."; }
+#D-aroc-activity-slope1-3-1-1-1 > li { counter-increment: D-aroc-activity-slope1-3-1-1-1; }
+#D-aroc-activity-slope2-2-1-1-5 { counter-set: D-aroc-activity-slope2-2-1-1-5 0; }
+#D-aroc-activity-slope2-2-1-1-5 > li::marker { content: ""counter(D-aroc-activity-slope2-2-1-1-5,upper-alpha)"."; }
+#D-aroc-activity-slope2-2-1-1-5 > li { counter-increment: D-aroc-activity-slope2-2-1-1-5; }
+#D-aroc-activity-slope2-3-1-1-4 { counter-set: D-aroc-activity-slope2-3-1-1-4 0; }
+#D-aroc-activity-slope2-3-1-1-4 > li::marker { content: ""counter(D-aroc-activity-slope2-3-1-1-4,upper-alpha)"."; }
+#D-aroc-activity-slope2-3-1-1-4 > li { counter-increment: D-aroc-activity-slope2-3-1-1-4; }
+#D-aroc-activity-slope2-5-1-1-3 { counter-set: D-aroc-activity-slope2-5-1-1-3 0; }
+#D-aroc-activity-slope2-5-1-1-3 > li::marker { content: ""counter(D-aroc-activity-slope2-5-1-1-3,decimal)"."; }
+#D-aroc-activity-slope2-5-1-1-3 > li { counter-increment: D-aroc-activity-slope2-5-1-1-3; }
+#D-aroc-activity-slope2-5-1-1-3-1-1-2 { counter-set: D-aroc-activity-slope2-5-1-1-3-1-1-2 0; }
+#D-aroc-activity-slope2-5-1-1-3-1-1-2 > li::marker { content: ""counter(D-aroc-activity-slope2-5-1-1-3-1-1-2,upper-alpha)"."; }
+#D-aroc-activity-slope2-5-1-1-3-1-1-2 > li { counter-increment: D-aroc-activity-slope2-5-1-1-3-1-1-2; }
+#D-aroc-activity-slope2-5-1-1-3-3-1-3 { counter-set: D-aroc-activity-slope2-5-1-1-3-3-1-3 0; }
+#D-aroc-activity-slope2-5-1-1-3-3-1-3 > li::marker { content: ""counter(D-aroc-activity-slope2-5-1-1-3-3-1-3,upper-alpha)"."; }
+#D-aroc-activity-slope2-5-1-1-3-3-1-3 > li { counter-increment: D-aroc-activity-slope2-5-1-1-3-3-1-3; }
+#d-aroc-activity-iroc-2-1-1-2 { counter-set: d-aroc-activity-iroc-2-1-1-2 0; }
+#d-aroc-activity-iroc-2-1-1-2 > li::marker { content: ""counter(d-aroc-activity-iroc-2-1-1-2,upper-alpha)"."; }
+#d-aroc-activity-iroc-2-1-1-2 > li { counter-increment: d-aroc-activity-iroc-2-1-1-2; }
+#d-aroc-activity-iroc-4-1-1-4 { counter-set: d-aroc-activity-iroc-4-1-1-4 0; }
+#d-aroc-activity-iroc-4-1-1-4 > li::marker { content: ""counter(d-aroc-activity-iroc-4-1-1-4,upper-alpha)"."; }
+#d-aroc-activity-iroc-4-1-1-4 > li { counter-increment: d-aroc-activity-iroc-4-1-1-4; }
+#d-activity-derivdef-point1-2-1-1-4 { counter-set: d-activity-derivdef-point1-2-1-1-4 0; }
+#d-activity-derivdef-point1-2-1-1-4 > li::marker { content: ""counter(d-activity-derivdef-point1-2-1-1-4,upper-alpha)"."; }
+#d-activity-derivdef-point1-2-1-1-4 > li { counter-increment: d-activity-derivdef-point1-2-1-1-4; }
+#d-activity-derivdef-linear-2-1 { counter-set: d-activity-derivdef-linear-2-1 0; }
+#d-activity-derivdef-linear-2-1 > li::marker { content: ""counter(d-activity-derivdef-linear-2-1,upper-alpha)"."; }
+#d-activity-derivdef-linear-2-1 > li { counter-increment: d-activity-derivdef-linear-2-1; }
+#d-activity-derivdef-linear2-2-1 { counter-set: d-activity-derivdef-linear2-2-1 0; }
+#d-activity-derivdef-linear2-2-1 > li::marker { content: ""counter(d-activity-derivdef-linear2-2-1,upper-alpha)"."; }
+#d-activity-derivdef-linear2-2-1 > li { counter-increment: d-activity-derivdef-linear2-2-1; }
+#D2-activities-11-2-1-1-2 { counter-set: D2-activities-11-2-1-1-2 0; }
+#D2-activities-11-2-1-1-2 > li::marker { content: ""counter(D2-activities-11-2-1-1-2,upper-alpha)"."; }
+#D2-activities-11-2-1-1-2 > li { counter-increment: D2-activities-11-2-1-1-2; }
+#D2-activities-11-3-1-1-3 { counter-set: D2-activities-11-3-1-1-3 0; }
+#D2-activities-11-3-1-1-3 > li::marker { content: ""counter(D2-activities-11-3-1-1-3,upper-alpha)"."; }
+#D2-activities-11-3-1-1-3 > li { counter-increment: D2-activities-11-3-1-1-3; }
+#d-activity-derivdef-fraction-2-1-1-2 { counter-set: d-activity-derivdef-fraction-2-1-1-2 0; }
+#d-activity-derivdef-fraction-2-1-1-2 > li::marker { content: ""counter(d-activity-derivdef-fraction-2-1-1-2,upper-alpha)"."; }
+#d-activity-derivdef-fraction-2-1-1-2 > li { counter-increment: d-activity-derivdef-fraction-2-1-1-2; }
+#d-activity-derivdef-fraction-3-1-1-3 { counter-set: d-activity-derivdef-fraction-3-1-1-3 0; }
+#d-activity-derivdef-fraction-3-1-1-3 > li::marker { content: ""counter(d-activity-derivdef-fraction-3-1-1-3,upper-alpha)"."; }
+#d-activity-derivdef-fraction-3-1-1-3 > li { counter-increment: d-activity-derivdef-fraction-3-1-1-3; }
+#D2-activities-17-2-1-1-1 { counter-set: D2-activities-17-2-1-1-1 0; }
+#D2-activities-17-2-1-1-1 > li::marker { content: ""counter(D2-activities-17-2-1-1-1,upper-alpha)"."; }
+#D2-activities-17-2-1-1-1 > li { counter-increment: D2-activities-17-2-1-1-1; }
+#D2-activities-17-3-1-1-4 { counter-set: D2-activities-17-3-1-1-4 0; }
+#D2-activities-17-3-1-1-4 > li::marker { content: ""counter(D2-activities-17-3-1-1-4,upper-alpha)"."; }
+#D2-activities-17-3-1-1-4 > li { counter-increment: D2-activities-17-3-1-1-4; }
+#D2-activities-17-4-1-1-3 { counter-set: D2-activities-17-4-1-1-3 0; }
+#D2-activities-17-4-1-1-3 > li::marker { content: ""counter(D2-activities-17-4-1-1-3,upper-alpha)"."; }
+#D2-activities-17-4-1-1-3 > li { counter-increment: D2-activities-17-4-1-1-3; }
+#d-activity-derivative-units1-2-1-1-2 { counter-set: d-activity-derivative-units1-2-1-1-2 0; }
+#d-activity-derivative-units1-2-1-1-2 > li::marker { content: ""counter(d-activity-derivative-units1-2-1-1-2,upper-alpha)"."; }
+#d-activity-derivative-units1-2-1-1-2 > li { counter-increment: d-activity-derivative-units1-2-1-1-2; }
+#d-activity-derivative-units1-3-1-1-2 { counter-set: d-activity-derivative-units1-3-1-1-2 0; }
+#d-activity-derivative-units1-3-1-1-2 > li::marker { content: ""counter(d-activity-derivative-units1-3-1-1-2,upper-alpha)"."; }
+#d-activity-derivative-units1-3-1-1-2 > li { counter-increment: d-activity-derivative-units1-3-1-1-2; }
+#d-activity-derivative-units1-4-1-1-3 { counter-set: d-activity-derivative-units1-4-1-1-3 0; }
+#d-activity-derivative-units1-4-1-1-3 > li::marker { content: ""counter(d-activity-derivative-units1-4-1-1-3,upper-alpha)"."; }
+#d-activity-derivative-units1-4-1-1-3 > li { counter-increment: d-activity-derivative-units1-4-1-1-3; }
+#d-activity-derivative-units2-3-1-1-2 { counter-set: d-activity-derivative-units2-3-1-1-2 0; }
+#d-activity-derivative-units2-3-1-1-2 > li::marker { content: ""counter(d-activity-derivative-units2-3-1-1-2,upper-alpha)"."; }
+#d-activity-derivative-units2-3-1-1-2 > li { counter-increment: d-activity-derivative-units2-3-1-1-2; }
+#d-activity-derivative-units2-4-1-1-2 { counter-set: d-activity-derivative-units2-4-1-1-2 0; }
+#d-activity-derivative-units2-4-1-1-2 > li::marker { content: ""counter(d-activity-derivative-units2-4-1-1-2,upper-alpha)"."; }
+#d-activity-derivative-units2-4-1-1-2 > li { counter-increment: d-activity-derivative-units2-4-1-1-2; }
+#d-activity-derivative-units2-5-1-1-4 { counter-set: d-activity-derivative-units2-5-1-1-4 0; }
+#d-activity-derivative-units2-5-1-1-4 > li::marker { content: ""counter(d-activity-derivative-units2-5-1-1-4,upper-alpha)"."; }
+#d-activity-derivative-units2-5-1-1-4 > li { counter-increment: d-activity-derivative-units2-5-1-1-4; }
+#d-activity-derivative-units2-6-1-1-2 { counter-set: d-activity-derivative-units2-6-1-1-2 0; }
+#d-activity-derivative-units2-6-1-1-2 > li::marker { content: ""counter(d-activity-derivative-units2-6-1-1-2,upper-alpha)"."; }
+#d-activity-derivative-units2-6-1-1-2 > li { counter-increment: d-activity-derivative-units2-6-1-1-2; }
+#d-activity-derivative-incdec-2-1-1-5 { counter-set: d-activity-derivative-incdec-2-1-1-5 0; }
+#d-activity-derivative-incdec-2-1-1-5 > li::marker { content: ""counter(d-activity-derivative-incdec-2-1-1-5,upper-alpha)"."; }
+#d-activity-derivative-incdec-2-1-1-5 > li { counter-increment: d-activity-derivative-incdec-2-1-1-5; }
+#d-activity-derivative-incdec-3-1-1-3 { counter-set: d-activity-derivative-incdec-3-1-1-3 0; }
+#d-activity-derivative-incdec-3-1-1-3 > li::marker { content: ""counter(d-activity-derivative-incdec-3-1-1-3,upper-alpha)"."; }
+#d-activity-derivative-incdec-3-1-1-3 > li { counter-increment: d-activity-derivative-incdec-3-1-1-3; }
+#d-activity-derivative-incdec-app-4-1-1-2 { counter-set: d-activity-derivative-incdec-app-4-1-1-2 0; }
+#d-activity-derivative-incdec-app-4-1-1-2 > li::marker { content: ""counter(d-activity-derivative-incdec-app-4-1-1-2,upper-alpha)"."; }
+#d-activity-derivative-incdec-app-4-1-1-2 > li { counter-increment: d-activity-derivative-incdec-app-4-1-1-2; }
+#d-activity-derivative-incdec-app-5-1-1-2 { counter-set: d-activity-derivative-incdec-app-5-1-1-2 0; }
+#d-activity-derivative-incdec-app-5-1-1-2 > li::marker { content: ""counter(d-activity-derivative-incdec-app-5-1-1-2,upper-alpha)"."; }
+#d-activity-derivative-incdec-app-5-1-1-2 > li { counter-increment: d-activity-derivative-incdec-app-5-1-1-2; }
+#d-activity-sketch-1-3-1-1-4 { counter-set: d-activity-sketch-1-3-1-1-4 0; }
+#d-activity-sketch-1-3-1-1-4 > li::marker { content: ""counter(d-activity-sketch-1-3-1-1-4,upper-alpha)"."; }
+#d-activity-sketch-1-3-1-1-4 > li { counter-increment: d-activity-sketch-1-3-1-1-4; }
+#D4-activities-5-2-1-1-1 { counter-set: D4-activities-5-2-1-1-1 0; }
+#D4-activities-5-2-1-1-1 > li::marker { content: ""counter(D4-activities-5-2-1-1-1,upper-alpha)"."; }
+#D4-activities-5-2-1-1-1 > li { counter-increment: D4-activities-5-2-1-1-1; }
+#D5-activities-2-4-1-1-4 { counter-set: D5-activities-2-4-1-1-4 0; }
+#D5-activities-2-4-1-1-4 > li::marker { content: ""counter(D5-activities-2-4-1-1-4,upper-alpha)"."; }
+#D5-activities-2-4-1-1-4 > li { counter-increment: D5-activities-2-4-1-1-4; }
+#D5-activities-3-2-1-1-2 { counter-set: D5-activities-3-2-1-1-2 0; }
+#D5-activities-3-2-1-1-2 > li::marker { content: ""counter(D5-activities-3-2-1-1-2,upper-alpha)"."; }
+#D5-activities-3-2-1-1-2 > li { counter-increment: D5-activities-3-2-1-1-2; }
+#D5-activities-3-3-1-1-2 { counter-set: D5-activities-3-3-1-1-2 0; }
+#D5-activities-3-3-1-1-2 > li::marker { content: ""counter(D5-activities-3-3-1-1-2,upper-alpha)"."; }
+#D5-activities-3-3-1-1-2 > li { counter-increment: D5-activities-3-3-1-1-2; }
+#D5-activities-3-4-1-1-2 { counter-set: D5-activities-3-4-1-1-2 0; }
+#D5-activities-3-4-1-1-2 > li::marker { content: ""counter(D5-activities-3-4-1-1-2,upper-alpha)"."; }
+#D5-activities-3-4-1-1-2 > li { counter-increment: D5-activities-3-4-1-1-2; }
+#D5-activities-6-2-1-1-3 { counter-set: D5-activities-6-2-1-1-3 0; }
+#D5-activities-6-2-1-1-3 > li::marker { content: ""counter(D5-activities-6-2-1-1-3,upper-alpha)"."; }
+#D5-activities-6-2-1-1-3 > li { counter-increment: D5-activities-6-2-1-1-3; }
+#D5-activities-6-3-1-1-3 { counter-set: D5-activities-6-3-1-1-3 0; }
+#D5-activities-6-3-1-1-3 > li::marker { content: ""counter(D5-activities-6-3-1-1-3,upper-alpha)"."; }
+#D5-activities-6-3-1-1-3 > li { counter-increment: D5-activities-6-3-1-1-3; }
+#D5-activities-6-4-1-1-3 { counter-set: D5-activities-6-4-1-1-3 0; }
+#D5-activities-6-4-1-1-3 > li::marker { content: ""counter(D5-activities-6-4-1-1-3,upper-alpha)"."; }
+#D5-activities-6-4-1-1-3 > li { counter-increment: D5-activities-6-4-1-1-3; }
+#d-activity-derivativerules-develop1-2-1-1-3 { counter-set: d-activity-derivativerules-develop1-2-1-1-3 0; }
+#d-activity-derivativerules-develop1-2-1-1-3 > li::marker { content: ""counter(d-activity-derivativerules-develop1-2-1-1-3,upper-alpha)"."; }
+#d-activity-derivativerules-develop1-2-1-1-3 > li { counter-increment: d-activity-derivativerules-develop1-2-1-1-3; }
+#d-activity-derivativerules-develop1-3-1-1-2 { counter-set: d-activity-derivativerules-develop1-3-1-1-2 0; }
+#d-activity-derivativerules-develop1-3-1-1-2 > li::marker { content: ""counter(d-activity-derivativerules-develop1-3-1-1-2,upper-alpha)"."; }
+#d-activity-derivativerules-develop1-3-1-1-2 > li { counter-increment: d-activity-derivativerules-develop1-3-1-1-2; }
+#d-activity-derivativerules-develop2-2-1-1-3 { counter-set: d-activity-derivativerules-develop2-2-1-1-3 0; }
+#d-activity-derivativerules-develop2-2-1-1-3 > li::marker { content: ""counter(d-activity-derivativerules-develop2-2-1-1-3,upper-alpha)"."; }
+#d-activity-derivativerules-develop2-2-1-1-3 > li { counter-increment: d-activity-derivativerules-develop2-2-1-1-3; }
+#d-activity-derivativerules-develop2-3-1-1-4 { counter-set: d-activity-derivativerules-develop2-3-1-1-4 0; }
+#d-activity-derivativerules-develop2-3-1-1-4 > li::marker { content: ""counter(d-activity-derivativerules-develop2-3-1-1-4,upper-alpha)""; }
+#d-activity-derivativerules-develop2-3-1-1-4 > li { counter-increment: d-activity-derivativerules-develop2-3-1-1-4; }
+#d-activity-derivativerules-develop2-4-1-1-4 { counter-set: d-activity-derivativerules-develop2-4-1-1-4 0; }
+#d-activity-derivativerules-develop2-4-1-1-4 > li::marker { content: ""counter(d-activity-derivativerules-develop2-4-1-1-4,upper-alpha)"."; }
+#d-activity-derivativerules-develop2-4-1-1-4 > li { counter-increment: d-activity-derivativerules-develop2-4-1-1-4; }
+#d-activity-derivativerules-develop2-5-1-1-4 { counter-set: d-activity-derivativerules-develop2-5-1-1-4 0; }
+#d-activity-derivativerules-develop2-5-1-1-4 > li::marker { content: ""counter(d-activity-derivativerules-develop2-5-1-1-4,upper-alpha)"."; }
+#d-activity-derivativerules-develop2-5-1-1-4 > li { counter-increment: d-activity-derivativerules-develop2-5-1-1-4; }
+#d-activity-derivativerules-practice1-1-1-4 { counter-set: d-activity-derivativerules-practice1-1-1-4 0; }
+#d-activity-derivativerules-practice1-1-1-4 > li::marker { content: ""counter(d-activity-derivativerules-practice1-1-1-4,upper-alpha)"."; }
+#d-activity-derivativerules-practice1-1-1-4 > li { counter-increment: d-activity-derivativerules-practice1-1-1-4; }
+#d-activity-derivativerules-diffind-2-1-1-2 { counter-set: d-activity-derivativerules-diffind-2-1-1-2 0; }
+#d-activity-derivativerules-diffind-2-1-1-2 > li::marker { content: ""counter(d-activity-derivativerules-diffind-2-1-1-2,upper-alpha)"."; }
+#d-activity-derivativerules-diffind-2-1-1-2 > li { counter-increment: d-activity-derivativerules-diffind-2-1-1-2; }
+#d-activity-derivativerules-diffind-3-1-1-2 { counter-set: d-activity-derivativerules-diffind-3-1-1-2 0; }
+#d-activity-derivativerules-diffind-3-1-1-2 > li::marker { content: ""counter(d-activity-derivativerules-diffind-3-1-1-2,upper-alpha)"."; }
+#d-activity-derivativerules-diffind-3-1-1-2 > li { counter-increment: d-activity-derivativerules-diffind-3-1-1-2; }
+#d-activity-derivativerules-practice2-2-1-1-4 { counter-set: d-activity-derivativerules-practice2-2-1-1-4 0; }
+#d-activity-derivativerules-practice2-2-1-1-4 > li::marker { content: ""counter(d-activity-derivativerules-practice2-2-1-1-4,upper-alpha)"."; }
+#d-activity-derivativerules-practice2-2-1-1-4 > li { counter-increment: d-activity-derivativerules-practice2-2-1-1-4; }
+#d-activity-derivativerules-practice2-3-1-1-2 { counter-set: d-activity-derivativerules-practice2-3-1-1-2 0; }
+#d-activity-derivativerules-practice2-3-1-1-2 > li::marker { content: ""counter(d-activity-derivativerules-practice2-3-1-1-2,upper-alpha)"."; }
+#d-activity-derivativerules-practice2-3-1-1-2 > li { counter-increment: d-activity-derivativerules-practice2-3-1-1-2; }
+#d-activity-derivativerules-practice2-4-1-1-1 { counter-set: d-activity-derivativerules-practice2-4-1-1-1 0; }
+#d-activity-derivativerules-practice2-4-1-1-1 > li::marker { content: ""counter(d-activity-derivativerules-practice2-4-1-1-1,upper-alpha)"."; }
+#d-activity-derivativerules-practice2-4-1-1-1 > li { counter-increment: d-activity-derivativerules-practice2-4-1-1-1; }
+#d-activity-which-productrule-1-1 { counter-set: d-activity-which-productrule-1-1 0; }
+#d-activity-which-productrule-1-1 > li::marker { content: ""counter(d-activity-which-productrule-1-1,upper-alpha)"."; }
+#d-activity-which-productrule-1-1 > li { counter-increment: d-activity-which-productrule-1-1; }
+#d-activity-which-quotientrule-1-1 { counter-set: d-activity-which-quotientrule-1-1 0; }
+#d-activity-which-quotientrule-1-1 > li::marker { content: ""counter(d-activity-which-quotientrule-1-1,upper-alpha)"."; }
+#d-activity-which-quotientrule-1-1 > li { counter-increment: d-activity-which-quotientrule-1-1; }
+#d-activity-fluency-inv-deriv-1-2-1-1-1 { counter-set: d-activity-fluency-inv-deriv-1-2-1-1-1 0; }
+#d-activity-fluency-inv-deriv-1-2-1-1-1 > li::marker { content: ""counter(d-activity-fluency-inv-deriv-1-2-1-1-1,upper-alpha)"."; }
+#d-activity-fluency-inv-deriv-1-2-1-1-1 > li { counter-increment: d-activity-fluency-inv-deriv-1-2-1-1-1; }
+#d-activity-fluency-inv-deriv-1-3-1-1-3 { counter-set: d-activity-fluency-inv-deriv-1-3-1-1-3 0; }
+#d-activity-fluency-inv-deriv-1-3-1-1-3 > li::marker { content: ""counter(d-activity-fluency-inv-deriv-1-3-1-1-3,upper-alpha)"."; }
+#d-activity-fluency-inv-deriv-1-3-1-1-3 > li { counter-increment: d-activity-fluency-inv-deriv-1-3-1-1-3; }
+#d-deriv-chainrule-intuition1-2-1-1-2 { counter-set: d-deriv-chainrule-intuition1-2-1-1-2 0; }
+#d-deriv-chainrule-intuition1-2-1-1-2 > li::marker { content: ""counter(d-deriv-chainrule-intuition1-2-1-1-2,upper-alpha)"."; }
+#d-deriv-chainrule-intuition1-2-1-1-2 > li { counter-increment: d-deriv-chainrule-intuition1-2-1-1-2; }
+#d-deriv-chainrule-decomposition-2-1-1-3 { counter-set: d-deriv-chainrule-decomposition-2-1-1-3 0; }
+#d-deriv-chainrule-decomposition-2-1-1-3 > li::marker { content: ""counter(d-deriv-chainrule-decomposition-2-1-1-3,upper-alpha)"."; }
+#d-deriv-chainrule-decomposition-2-1-1-3 > li { counter-increment: d-deriv-chainrule-decomposition-2-1-1-3; }
+#d-deriv-chainrule-intuition2-2-1-1-3 { counter-set: d-deriv-chainrule-intuition2-2-1-1-3 0; }
+#d-deriv-chainrule-intuition2-2-1-1-3 > li::marker { content: ""counter(d-deriv-chainrule-intuition2-2-1-1-3,upper-alpha)"."; }
+#d-deriv-chainrule-intuition2-2-1-1-3 > li { counter-increment: d-deriv-chainrule-intuition2-2-1-1-3; }
+#d-deriv-chainrule-intuition2-3-1-1-3 { counter-set: d-deriv-chainrule-intuition2-3-1-1-3 0; }
+#d-deriv-chainrule-intuition2-3-1-1-3 > li::marker { content: ""counter(d-deriv-chainrule-intuition2-3-1-1-3,upper-alpha)"."; }
+#d-deriv-chainrule-intuition2-3-1-1-3 > li { counter-increment: d-deriv-chainrule-intuition2-3-1-1-3; }
+#d-deriv-chainrule-intuition2-4-1-1-2 { counter-set: d-deriv-chainrule-intuition2-4-1-1-2 0; }
+#d-deriv-chainrule-intuition2-4-1-1-2 > li::marker { content: ""counter(d-deriv-chainrule-intuition2-4-1-1-2,upper-alpha)"."; }
+#d-deriv-chainrule-intuition2-4-1-1-2 > li { counter-increment: d-deriv-chainrule-intuition2-4-1-1-2; }
+#d-deriv-chainrule-warning-2-1-2 { counter-set: d-deriv-chainrule-warning-2-1-2 0; }
+#d-deriv-chainrule-warning-2-1-2 > li::marker { content: ""counter(d-deriv-chainrule-warning-2-1-2,upper-alpha)"."; }
+#d-deriv-chainrule-warning-2-1-2 > li { counter-increment: d-deriv-chainrule-warning-2-1-2; }
+#d-deriv-chainrule-practice1-1-1-3 { counter-set: d-deriv-chainrule-practice1-1-1-3 0; }
+#d-deriv-chainrule-practice1-1-1-3 > li::marker { content: ""counter(d-deriv-chainrule-practice1-1-1-3,upper-alpha)"."; }
+#d-deriv-chainrule-practice1-1-1-3 > li { counter-increment: d-deriv-chainrule-practice1-1-1-3; }
+#d-deriv-chainrule-practice2-2-1-1-9 { counter-set: d-deriv-chainrule-practice2-2-1-1-9 0; }
+#d-deriv-chainrule-practice2-2-1-1-9 > li::marker { content: ""counter(d-deriv-chainrule-practice2-2-1-1-9,upper-alpha)"."; }
+#d-deriv-chainrule-practice2-2-1-1-9 > li { counter-increment: d-deriv-chainrule-practice2-2-1-1-9; }
+#d-deriv-chainrule-practice2-3-1-3-1 { counter-set: d-deriv-chainrule-practice2-3-1-3-1 0; }
+#d-deriv-chainrule-practice2-3-1-3-1 > li::marker { content: ""counter(d-deriv-chainrule-practice2-3-1-3-1,upper-alpha)"."; }
+#d-deriv-chainrule-practice2-3-1-3-1 > li { counter-increment: d-deriv-chainrule-practice2-3-1-3-1; }
+#d-deriv-chainrule-practice2-4-1-3-1 { counter-set: d-deriv-chainrule-practice2-4-1-3-1 0; }
+#d-deriv-chainrule-practice2-4-1-3-1 > li::marker { content: ""counter(d-deriv-chainrule-practice2-4-1-3-1,upper-alpha)"."; }
+#d-deriv-chainrule-practice2-4-1-3-1 > li { counter-increment: d-deriv-chainrule-practice2-4-1-3-1; }
+#d-deriv-chainrule-chainpower-2-1-1-3 { counter-set: d-deriv-chainrule-chainpower-2-1-1-3 0; }
+#d-deriv-chainrule-chainpower-2-1-1-3 > li::marker { content: ""counter(d-deriv-chainrule-chainpower-2-1-1-3,upper-alpha)"."; }
+#d-deriv-chainrule-chainpower-2-1-1-3 > li { counter-increment: d-deriv-chainrule-chainpower-2-1-1-3; }
+#d-deriv-chainrule-chainexp-2-1-1-3 { counter-set: d-deriv-chainrule-chainexp-2-1-1-3 0; }
+#d-deriv-chainrule-chainexp-2-1-1-3 > li::marker { content: ""counter(d-deriv-chainrule-chainexp-2-1-1-3,upper-alpha)"."; }
+#d-deriv-chainrule-chainexp-2-1-1-3 > li { counter-increment: d-deriv-chainrule-chainexp-2-1-1-3; }
+#d-deriv-chainrule-practice4-2-1-1-3 { counter-set: d-deriv-chainrule-practice4-2-1-1-3 0; }
+#d-deriv-chainrule-practice4-2-1-1-3 > li::marker { content: ""counter(d-deriv-chainrule-practice4-2-1-1-3,upper-alpha)"."; }
+#d-deriv-chainrule-practice4-2-1-1-3 > li { counter-increment: d-deriv-chainrule-practice4-2-1-1-3; }
+#d-deriv-implicit-practice1-2-1-1-2 { counter-set: d-deriv-implicit-practice1-2-1-1-2 0; }
+#d-deriv-implicit-practice1-2-1-1-2 > li::marker { content: ""counter(d-deriv-implicit-practice1-2-1-1-2,upper-alpha)"."; }
+#d-deriv-implicit-practice1-2-1-1-2 > li { counter-increment: d-deriv-implicit-practice1-2-1-1-2; }
+#d-deriv-implicit-practice1-3-1-1-2 { counter-set: d-deriv-implicit-practice1-3-1-1-2 0; }
+#d-deriv-implicit-practice1-3-1-1-2 > li::marker { content: ""counter(d-deriv-implicit-practice1-3-1-1-2,upper-alpha)"."; }
+#d-deriv-implicit-practice1-3-1-1-2 > li { counter-increment: d-deriv-implicit-practice1-3-1-1-2; }
+#A-readiness-3 { counter-set: A-readiness-3 0; }
+#A-readiness-3 > li::marker { content: ""counter(A-readiness-3,lower-alpha)""; }
+#A-readiness-3 > li { counter-increment: A-readiness-3; }
+#a-rates-intro1-2-1-1-1 { counter-set: a-rates-intro1-2-1-1-1 0; }
+#a-rates-intro1-2-1-1-1 > li::marker { content: ""counter(a-rates-intro1-2-1-1-1,upper-alpha)"."; }
+#a-rates-intro1-2-1-1-1 > li { counter-increment: a-rates-intro1-2-1-1-1; }
+#a-rates-intro1-4-1-1-5 { counter-set: a-rates-intro1-4-1-1-5 0; }
+#a-rates-intro1-4-1-1-5 > li::marker { content: ""counter(a-rates-intro1-4-1-1-5,upper-alpha)"."; }
+#a-rates-intro1-4-1-1-5 > li { counter-increment: a-rates-intro1-4-1-1-5; }
+#a-rates-intro1-5-1-1-9 { counter-set: a-rates-intro1-5-1-1-9 0; }
+#a-rates-intro1-5-1-1-9 > li::marker { content: ""counter(a-rates-intro1-5-1-1-9,upper-alpha)"."; }
+#a-rates-intro1-5-1-1-9 > li { counter-increment: a-rates-intro1-5-1-1-9; }
+#a-rates-implicitfluency1-3-1-1-2 { counter-set: a-rates-implicitfluency1-3-1-1-2 0; }
+#a-rates-implicitfluency1-3-1-1-2 > li::marker { content: ""counter(a-rates-implicitfluency1-3-1-1-2,upper-alpha)"."; }
+#a-rates-implicitfluency1-3-1-1-2 > li { counter-increment: a-rates-implicitfluency1-3-1-1-2; }
+#a-rates-practice-walkthrough-3-1-1-1 { counter-set: a-rates-practice-walkthrough-3-1-1-1 0; }
+#a-rates-practice-walkthrough-3-1-1-1 > li::marker { content: ""counter(a-rates-practice-walkthrough-3-1-1-1,upper-alpha)"."; }
+#a-rates-practice-walkthrough-3-1-1-1 > li { counter-increment: a-rates-practice-walkthrough-3-1-1-1; }
+#a-rates-practice-walkthrough-5-1-1-2 { counter-set: a-rates-practice-walkthrough-5-1-1-2 0; }
+#a-rates-practice-walkthrough-5-1-1-2 > li::marker { content: ""counter(a-rates-practice-walkthrough-5-1-1-2,upper-alpha)"."; }
+#a-rates-practice-walkthrough-5-1-1-2 > li { counter-increment: a-rates-practice-walkthrough-5-1-1-2; }
+#a-rates-practice-walkthrough-6-1-1-1 { counter-set: a-rates-practice-walkthrough-6-1-1-1 0; }
+#a-rates-practice-walkthrough-6-1-1-1 > li::marker { content: ""counter(a-rates-practice-walkthrough-6-1-1-1,upper-alpha)"."; }
+#a-rates-practice-walkthrough-6-1-1-1 > li { counter-increment: a-rates-practice-walkthrough-6-1-1-1; }
+#a-rates-strategy-2-1 { counter-set: a-rates-strategy-2-1 0; }
+#a-rates-strategy-2-1 > li::marker { content: ""counter(a-rates-strategy-2-1,decimal)"."; }
+#a-rates-strategy-2-1 > li { counter-increment: a-rates-strategy-2-1; }
+#a-rates-practice1-2-1-1-1 { counter-set: a-rates-practice1-2-1-1-1 0; }
+#a-rates-practice1-2-1-1-1 > li::marker { content: ""counter(a-rates-practice1-2-1-1-1,upper-alpha)"."; }
+#a-rates-practice1-2-1-1-1 > li { counter-increment: a-rates-practice1-2-1-1-1; }
+#a-rates-practice1-5-1-1-1 { counter-set: a-rates-practice1-5-1-1-1 0; }
+#a-rates-practice1-5-1-1-1 > li::marker { content: ""counter(a-rates-practice1-5-1-1-1,upper-alpha)"."; }
+#a-rates-practice1-5-1-1-1 > li { counter-increment: a-rates-practice1-5-1-1-1; }
+#a-activity-extrema1-1-3 { counter-set: a-activity-extrema1-1-3 0; }
+#a-activity-extrema1-1-3 > li::marker { content: ""counter(a-activity-extrema1-1-3,upper-alpha)"."; }
+#a-activity-extrema1-1-3 > li { counter-increment: a-activity-extrema1-1-3; }
+#a-activity-extrema2-2-1-1-1 { counter-set: a-activity-extrema2-2-1-1-1 0; }
+#a-activity-extrema2-2-1-1-1 > li::marker { content: ""counter(a-activity-extrema2-2-1-1-1,upper-alpha)"."; }
+#a-activity-extrema2-2-1-1-1 > li { counter-increment: a-activity-extrema2-2-1-1-1; }
+#a-activity-extrema2-3-1-1-2 { counter-set: a-activity-extrema2-3-1-1-2 0; }
+#a-activity-extrema2-3-1-1-2 > li::marker { content: ""counter(a-activity-extrema2-3-1-1-2,upper-alpha)"."; }
+#a-activity-extrema2-3-1-1-2 > li { counter-increment: a-activity-extrema2-3-1-1-2; }
+#a-activity-extrema2-4-1-1-2 { counter-set: a-activity-extrema2-4-1-1-2 0; }
+#a-activity-extrema2-4-1-1-2 > li::marker { content: ""counter(a-activity-extrema2-4-1-1-2,upper-alpha)"."; }
+#a-activity-extrema2-4-1-1-2 > li { counter-increment: a-activity-extrema2-4-1-1-2; }
+#a-activity-critical1-1-2 { counter-set: a-activity-critical1-1-2 0; }
+#a-activity-critical1-1-2 > li::marker { content: ""counter(a-activity-critical1-1-2,upper-alpha)"."; }
+#a-activity-critical1-1-2 > li { counter-increment: a-activity-critical1-1-2; }
+#CIM-3 { counter-set: CIM-3 0; }
+#CIM-3 > li::marker { content: ""counter(CIM-3,decimal)"."; }
+#CIM-3 > li { counter-increment: CIM-3; }
+#a-activity-critical2-2-1-1-3 { counter-set: a-activity-critical2-2-1-1-3 0; }
+#a-activity-critical2-2-1-1-3 > li::marker { content: ""counter(a-activity-critical2-2-1-1-3,upper-alpha)"."; }
+#a-activity-critical2-2-1-1-3 > li { counter-increment: a-activity-critical2-2-1-1-3; }
+#a-activity-critical2-3-1-1-3 { counter-set: a-activity-critical2-3-1-1-3 0; }
+#a-activity-critical2-3-1-1-3 > li::marker { content: ""counter(a-activity-critical2-3-1-1-3,upper-alpha)"."; }
+#a-activity-critical2-3-1-1-3 > li { counter-increment: a-activity-critical2-3-1-1-3; }
+#a-activity-extrema-terminology-1-1 { counter-set: a-activity-extrema-terminology-1-1 0; }
+#a-activity-extrema-terminology-1-1 > li::marker { content: ""counter(a-activity-extrema-terminology-1-1,upper-alpha)"."; }
+#a-activity-extrema-terminology-1-1 > li { counter-increment: a-activity-extrema-terminology-1-1; }
+#a-activity-fdt-intuition-2-1-1-2 { counter-set: a-activity-fdt-intuition-2-1-1-2 0; }
+#a-activity-fdt-intuition-2-1-1-2 > li::marker { content: ""counter(a-activity-fdt-intuition-2-1-1-2,upper-alpha)"."; }
+#a-activity-fdt-intuition-2-1-1-2 > li { counter-increment: a-activity-fdt-intuition-2-1-1-2; }
+#a-activity-fdt-intuition-3-1-1-2 { counter-set: a-activity-fdt-intuition-3-1-1-2 0; }
+#a-activity-fdt-intuition-3-1-1-2 > li::marker { content: ""counter(a-activity-fdt-intuition-3-1-1-2,upper-alpha)"."; }
+#a-activity-fdt-intuition-3-1-1-2 > li { counter-increment: a-activity-fdt-intuition-3-1-1-2; }
+#a-activity-fdt-intuition-4-1-1-2 { counter-set: a-activity-fdt-intuition-4-1-1-2 0; }
+#a-activity-fdt-intuition-4-1-1-2 > li::marker { content: ""counter(a-activity-fdt-intuition-4-1-1-2,upper-alpha)"."; }
+#a-activity-fdt-intuition-4-1-1-2 > li { counter-increment: a-activity-fdt-intuition-4-1-1-2; }
+#thm-first-derivative-test-3-2-1 { counter-set: thm-first-derivative-test-3-2-1 0; }
+#thm-first-derivative-test-3-2-1 > li::marker { content: ""counter(thm-first-derivative-test-3-2-1,decimal)"."; }
+#thm-first-derivative-test-3-2-1 > li { counter-increment: thm-first-derivative-test-3-2-1; }
+#a-activity-fdt1-2-1-1-2 { counter-set: a-activity-fdt1-2-1-1-2 0; }
+#a-activity-fdt1-2-1-1-2 > li::marker { content: ""counter(a-activity-fdt1-2-1-1-2,upper-alpha)"."; }
+#a-activity-fdt1-2-1-1-2 > li { counter-increment: a-activity-fdt1-2-1-1-2; }
+#thm-second-derivative-test-3-2-1 { counter-set: thm-second-derivative-test-3-2-1 0; }
+#thm-second-derivative-test-3-2-1 > li::marker { content: ""counter(thm-second-derivative-test-3-2-1,decimal)"."; }
+#thm-second-derivative-test-3-2-1 > li { counter-increment: thm-second-derivative-test-3-2-1; }
+#a-activity-sdt1-3-1-1-1 { counter-set: a-activity-sdt1-3-1-1-1 0; }
+#a-activity-sdt1-3-1-1-1 > li::marker { content: ""counter(a-activity-sdt1-3-1-1-1,upper-alpha)"."; }
+#a-activity-sdt1-3-1-1-1 > li { counter-increment: a-activity-sdt1-3-1-1-1; }
+#a-activity-concavity1-3-1-1-3 { counter-set: a-activity-concavity1-3-1-1-3 0; }
+#a-activity-concavity1-3-1-1-3 > li::marker { content: ""counter(a-activity-concavity1-3-1-1-3,upper-alpha)"."; }
+#a-activity-concavity1-3-1-1-3 > li { counter-increment: a-activity-concavity1-3-1-1-3; }
+#a-activity-optimization-intuition-2-1-1-3 { counter-set: a-activity-optimization-intuition-2-1-1-3 0; }
+#a-activity-optimization-intuition-2-1-1-3 > li::marker { content: ""counter(a-activity-optimization-intuition-2-1-1-3,upper-alpha)"."; }
+#a-activity-optimization-intuition-2-1-1-3 > li { counter-increment: a-activity-optimization-intuition-2-1-1-3; }
+#a-activity-optimization1-3-1-1-1 { counter-set: a-activity-optimization1-3-1-1-1 0; }
+#a-activity-optimization1-3-1-1-1 > li::marker { content: ""counter(a-activity-optimization1-3-1-1-1,upper-alpha)"."; }
+#a-activity-optimization1-3-1-1-1 > li { counter-increment: a-activity-optimization1-3-1-1-1; }
+#a-activity-optimization1-4-1-1-3 { counter-set: a-activity-optimization1-4-1-1-3 0; }
+#a-activity-optimization1-4-1-1-3 > li::marker { content: ""counter(a-activity-optimization1-4-1-1-3,upper-alpha)"."; }
+#a-activity-optimization1-4-1-1-3 > li { counter-increment: a-activity-optimization1-4-1-1-3; }
+#a-strategy-for-optimization1-2-1 { counter-set: a-strategy-for-optimization1-2-1 0; }
+#a-strategy-for-optimization1-2-1 > li::marker { content: ""counter(a-strategy-for-optimization1-2-1,decimal)"."; }
+#a-strategy-for-optimization1-2-1 > li { counter-increment: a-strategy-for-optimization1-2-1; }
+#a-activity-optimization3-1-3 { counter-set: a-activity-optimization3-1-3 0; }
+#a-activity-optimization3-1-3 > li::marker { content: ""counter(a-activity-optimization3-1-3,upper-alpha)"."; }
+#a-activity-optimization3-1-3 > li { counter-increment: a-activity-optimization3-1-3; }
+#a-activity-lhopital-background1-2-1-1-2 { counter-set: a-activity-lhopital-background1-2-1-1-2 0; }
+#a-activity-lhopital-background1-2-1-1-2 > li::marker { content: ""counter(a-activity-lhopital-background1-2-1-1-2,upper-alpha)"."; }
+#a-activity-lhopital-background1-2-1-1-2 > li { counter-increment: a-activity-lhopital-background1-2-1-1-2; }
+#a-activity-lhopital-identify1-1-1-1 { counter-set: a-activity-lhopital-identify1-1-1-1 0; }
+#a-activity-lhopital-identify1-1-1-1 > li::marker { content: ""counter(a-activity-lhopital-identify1-1-1-1,upper-alpha)"."; }
+#a-activity-lhopital-identify1-1-1-1 > li { counter-increment: a-activity-lhopital-identify1-1-1-1; }
+#I-readiness-3 { counter-set: I-readiness-3 0; }
+#I-readiness-3 > li::marker { content: ""counter(I-readiness-3,lower-alpha)"."; }
+#I-readiness-3 > li { counter-increment: I-readiness-3; }
+#i-activity-antiderivative1-1-1-3 { counter-set: i-activity-antiderivative1-1-1-3 0; }
+#i-activity-antiderivative1-1-1-3 > li::marker { content: ""counter(i-activity-antiderivative1-1-1-3,upper-alpha)"."; }
+#i-activity-antiderivative1-1-1-3 > li { counter-increment: i-activity-antiderivative1-1-1-3; }
+#I1-activities-4-3-1-1-3 { counter-set: I1-activities-4-3-1-1-3 0; }
+#I1-activities-4-3-1-1-3 > li::marker { content: ""counter(I1-activities-4-3-1-1-3,upper-alpha)"."; }
+#I1-activities-4-3-1-1-3 > li { counter-increment: I1-activities-4-3-1-1-3; }
+#I1-activities-4-4-1-1-2 { counter-set: I1-activities-4-4-1-1-2 0; }
+#I1-activities-4-4-1-1-2 > li::marker { content: ""counter(I1-activities-4-4-1-1-2,upper-alpha)"."; }
+#I1-activities-4-4-1-1-2 > li { counter-increment: I1-activities-4-4-1-1-2; }
+#I1-activities-4-5-1-1-2 { counter-set: I1-activities-4-5-1-1-2 0; }
+#I1-activities-4-5-1-1-2 > li::marker { content: ""counter(I1-activities-4-5-1-1-2,upper-alpha)"."; }
+#I1-activities-4-5-1-1-2 > li { counter-increment: I1-activities-4-5-1-1-2; }
+#i-activity-ivp1-2-1-1-3 { counter-set: i-activity-ivp1-2-1-1-3 0; }
+#i-activity-ivp1-2-1-1-3 > li::marker { content: ""counter(i-activity-ivp1-2-1-1-3,upper-alpha)"."; }
+#i-activity-ivp1-2-1-1-3 > li { counter-increment: i-activity-ivp1-2-1-1-3; }
+#i-activity-ivp1-5-1-1-2 { counter-set: i-activity-ivp1-5-1-1-2 0; }
+#i-activity-ivp1-5-1-1-2 > li::marker { content: ""counter(i-activity-ivp1-5-1-1-2,upper-alpha)"."; }
+#i-activity-ivp1-5-1-1-2 > li { counter-increment: i-activity-ivp1-5-1-1-2; }
+#i-activity-ivp2-2-1-1-2 { counter-set: i-activity-ivp2-2-1-1-2 0; }
+#i-activity-ivp2-2-1-1-2 > li::marker { content: ""counter(i-activity-ivp2-2-1-1-2,upper-alpha)"."; }
+#i-activity-ivp2-2-1-1-2 > li { counter-increment: i-activity-ivp2-2-1-1-2; }
+#i-activity-ivp2-3-1-1-4 { counter-set: i-activity-ivp2-3-1-1-4 0; }
+#i-activity-ivp2-3-1-1-4 > li::marker { content: ""counter(i-activity-ivp2-3-1-1-4,upper-alpha)"."; }
+#i-activity-ivp2-3-1-1-4 > li { counter-increment: i-activity-ivp2-3-1-1-4; }
+#i-activity-ivp2-4-1-1-2 { counter-set: i-activity-ivp2-4-1-1-2 0; }
+#i-activity-ivp2-4-1-1-2 > li::marker { content: ""counter(i-activity-ivp2-4-1-1-2,upper-alpha)"."; }
+#i-activity-ivp2-4-1-1-2 > li { counter-increment: i-activity-ivp2-4-1-1-2; }
+#i-activity-definite-integral-geometry2-2-1-1-2 { counter-set: i-activity-definite-integral-geometry2-2-1-1-2 0; }
+#i-activity-definite-integral-geometry2-2-1-1-2 > li::marker { content: ""counter(i-activity-definite-integral-geometry2-2-1-1-2,upper-alpha)"."; }
+#i-activity-definite-integral-geometry2-2-1-1-2 > li { counter-increment: i-activity-definite-integral-geometry2-2-1-1-2; }
+#i-activity-definite-integral-geometry2-3-1-1-2 { counter-set: i-activity-definite-integral-geometry2-3-1-1-2 0; }
+#i-activity-definite-integral-geometry2-3-1-1-2 > li::marker { content: ""counter(i-activity-definite-integral-geometry2-3-1-1-2,upper-alpha)"."; }
+#i-activity-definite-integral-geometry2-3-1-1-2 > li { counter-increment: i-activity-definite-integral-geometry2-3-1-1-2; }
+#i-activity-definite-integral-geometry2-4-1-2 { counter-set: i-activity-definite-integral-geometry2-4-1-2 0; }
+#i-activity-definite-integral-geometry2-4-1-2 > li::marker { content: ""counter(i-activity-definite-integral-geometry2-4-1-2,upper-alpha)"."; }
+#i-activity-definite-integral-geometry2-4-1-2 > li { counter-increment: i-activity-definite-integral-geometry2-4-1-2; }
+#i-activity-definite-integral-geometry2-5-1-2 { counter-set: i-activity-definite-integral-geometry2-5-1-2 0; }
+#i-activity-definite-integral-geometry2-5-1-2 > li::marker { content: ""counter(i-activity-definite-integral-geometry2-5-1-2,upper-alpha)"."; }
+#i-activity-definite-integral-geometry2-5-1-2 > li { counter-increment: i-activity-definite-integral-geometry2-5-1-2; }
+#i-activity-riemannsum-intro1-2-1-3-1 { counter-set: i-activity-riemannsum-intro1-2-1-3-1 0; }
+#i-activity-riemannsum-intro1-2-1-3-1 > li::marker { content: ""counter(i-activity-riemannsum-intro1-2-1-3-1,upper-alpha)"."; }
+#i-activity-riemannsum-intro1-2-1-3-1 > li { counter-increment: i-activity-riemannsum-intro1-2-1-3-1; }
+#i-activity-riemannsum-intro1-3-1-3-1 { counter-set: i-activity-riemannsum-intro1-3-1-3-1 0; }
+#i-activity-riemannsum-intro1-3-1-3-1 > li::marker { content: ""counter(i-activity-riemannsum-intro1-3-1-3-1,upper-alpha)"."; }
+#i-activity-riemannsum-intro1-3-1-3-1 > li { counter-increment: i-activity-riemannsum-intro1-3-1-3-1; }
+#i-activity-riemannsum-intro1-4-1-1-2 { counter-set: i-activity-riemannsum-intro1-4-1-1-2 0; }
+#i-activity-riemannsum-intro1-4-1-1-2 > li::marker { content: ""counter(i-activity-riemannsum-intro1-4-1-1-2,upper-alpha)"."; }
+#i-activity-riemannsum-intro1-4-1-1-2 > li { counter-increment: i-activity-riemannsum-intro1-4-1-1-2; }
+#i-activity-riemannsum-1-2-1-1-2 { counter-set: i-activity-riemannsum-1-2-1-1-2 0; }
+#i-activity-riemannsum-1-2-1-1-2 > li::marker { content: ""counter(i-activity-riemannsum-1-2-1-1-2,upper-alpha)"."; }
+#i-activity-riemannsum-1-2-1-1-2 > li { counter-increment: i-activity-riemannsum-1-2-1-1-2; }
+#i-activity-riemannsum-1-3-1-1-5 { counter-set: i-activity-riemannsum-1-3-1-1-5 0; }
+#i-activity-riemannsum-1-3-1-1-5 > li::marker { content: ""counter(i-activity-riemannsum-1-3-1-1-5,upper-alpha)"."; }
+#i-activity-riemannsum-1-3-1-1-5 > li { counter-increment: i-activity-riemannsum-1-3-1-1-5; }
+#i-activity-riemannsum-1-4-1-1-3 { counter-set: i-activity-riemannsum-1-4-1-1-3 0; }
+#i-activity-riemannsum-1-4-1-1-3 > li::marker { content: ""counter(i-activity-riemannsum-1-4-1-1-3,upper-alpha)"."; }
+#i-activity-riemannsum-1-4-1-1-3 > li { counter-increment: i-activity-riemannsum-1-4-1-1-3; }
+#i-activity-riemannsum-1-5-1-1-3 { counter-set: i-activity-riemannsum-1-5-1-1-3 0; }
+#i-activity-riemannsum-1-5-1-1-3 > li::marker { content: ""counter(i-activity-riemannsum-1-5-1-1-3,upper-alpha)"."; }
+#i-activity-riemannsum-1-5-1-1-3 > li { counter-increment: i-activity-riemannsum-1-5-1-1-3; }
+#thm-properties-definite-integral-3-1-7 { counter-set: thm-properties-definite-integral-3-1-7 0; }
+#thm-properties-definite-integral-3-1-7 > li::marker { content: ""counter(thm-properties-definite-integral-3-1-7,decimal)"."; }
+#thm-properties-definite-integral-3-1-7 > li { counter-increment: thm-properties-definite-integral-3-1-7; }
+#i-activity-definite-compute1-2-1-1-2 { counter-set: i-activity-definite-compute1-2-1-1-2 0; }
+#i-activity-definite-compute1-2-1-1-2 > li::marker { content: ""counter(i-activity-definite-compute1-2-1-1-2,upper-alpha)"."; }
+#i-activity-definite-compute1-2-1-1-2 > li { counter-increment: i-activity-definite-compute1-2-1-1-2; }
+#i-activity-definite-compute1-3-1-1-5 { counter-set: i-activity-definite-compute1-3-1-1-5 0; }
+#i-activity-definite-compute1-3-1-1-5 > li::marker { content: ""counter(i-activity-definite-compute1-3-1-1-5,upper-alpha)"."; }
+#i-activity-definite-compute1-3-1-1-5 > li { counter-increment: i-activity-definite-compute1-3-1-1-5; }
+#i-activity-definite-compute1-6-1-1-2 { counter-set: i-activity-definite-compute1-6-1-1-2 0; }
+#i-activity-definite-compute1-6-1-1-2 > li::marker { content: ""counter(i-activity-definite-compute1-6-1-1-2,upper-alpha)"."; }
+#i-activity-definite-compute1-6-1-1-2 > li { counter-increment: i-activity-definite-compute1-6-1-1-2; }
+#i-activity-definite-interp1-2-1-2 { counter-set: i-activity-definite-interp1-2-1-2 0; }
+#i-activity-definite-interp1-2-1-2 > li::marker { content: ""counter(i-activity-definite-interp1-2-1-2,upper-alpha)"."; }
+#i-activity-definite-interp1-2-1-2 > li { counter-increment: i-activity-definite-interp1-2-1-2; }
+#i-activity-definite-interp1-4-1-1-1 { counter-set: i-activity-definite-interp1-4-1-1-1 0; }
+#i-activity-definite-interp1-4-1-1-1 > li::marker { content: ""counter(i-activity-definite-interp1-4-1-1-1,upper-alpha)"."; }
+#i-activity-definite-interp1-4-1-1-1 > li { counter-increment: i-activity-definite-interp1-4-1-1-1; }
+#i-activity-definite-interp2-1-1-4 { counter-set: i-activity-definite-interp2-1-1-4 0; }
+#i-activity-definite-interp2-1-1-4 > li::marker { content: ""counter(i-activity-definite-interp2-1-1-4,upper-alpha)"."; }
+#i-activity-definite-interp2-1-1-4 > li { counter-increment: i-activity-definite-interp2-1-1-4; }
+#i-activity-ftc1-intuition1-2-1-1-2 { counter-set: i-activity-ftc1-intuition1-2-1-1-2 0; }
+#i-activity-ftc1-intuition1-2-1-1-2 > li::marker { content: ""counter(i-activity-ftc1-intuition1-2-1-1-2,upper-alpha)"."; }
+#i-activity-ftc1-intuition1-2-1-1-2 > li { counter-increment: i-activity-ftc1-intuition1-2-1-1-2; }
+#i-activity-ftc1-intuition1-3-1-1-2 { counter-set: i-activity-ftc1-intuition1-3-1-1-2 0; }
+#i-activity-ftc1-intuition1-3-1-1-2 > li::marker { content: ""counter(i-activity-ftc1-intuition1-3-1-1-2,upper-alpha)"."; }
+#i-activity-ftc1-intuition1-3-1-1-2 > li { counter-increment: i-activity-ftc1-intuition1-3-1-1-2; }
+#i-activity-ftc1-compute-chain-2-1-1-2 { counter-set: i-activity-ftc1-compute-chain-2-1-1-2 0; }
+#i-activity-ftc1-compute-chain-2-1-1-2 > li::marker { content: ""counter(i-activity-ftc1-compute-chain-2-1-1-2,upper-alpha)"."; }
+#i-activity-ftc1-compute-chain-2-1-1-2 > li { counter-increment: i-activity-ftc1-compute-chain-2-1-1-2; }
+#i-activity-ftc1-compute-chain-4-1-1-3 { counter-set: i-activity-ftc1-compute-chain-4-1-1-3 0; }
+#i-activity-ftc1-compute-chain-4-1-1-3 > li::marker { content: ""counter(i-activity-ftc1-compute-chain-4-1-1-3,upper-alpha)"."; }
+#i-activity-ftc1-compute-chain-4-1-1-3 > li { counter-increment: i-activity-ftc1-compute-chain-4-1-1-3; }
+#i-activity-ftc1-compute-chain-5-1-1-3 { counter-set: i-activity-ftc1-compute-chain-5-1-1-3 0; }
+#i-activity-ftc1-compute-chain-5-1-1-3 > li::marker { content: ""counter(i-activity-ftc1-compute-chain-5-1-1-3,upper-alpha)"."; }
+#i-activity-ftc1-compute-chain-5-1-1-3 > li { counter-increment: i-activity-ftc1-compute-chain-5-1-1-3; }
+#i-activity-substitution-intuition-2-1-1-2 { counter-set: i-activity-substitution-intuition-2-1-1-2 0; }
+#i-activity-substitution-intuition-2-1-1-2 > li::marker { content: ""counter(i-activity-substitution-intuition-2-1-1-2,upper-alpha)"."; }
+#i-activity-substitution-intuition-2-1-1-2 > li { counter-increment: i-activity-substitution-intuition-2-1-1-2; }
+#i-activity-substitution-bounds-2-1-1-2 { counter-set: i-activity-substitution-bounds-2-1-1-2 0; }
+#i-activity-substitution-bounds-2-1-1-2 > li::marker { content: ""counter(i-activity-substitution-bounds-2-1-1-2,upper-alpha)"."; }
+#i-activity-substitution-bounds-2-1-1-2 > li { counter-increment: i-activity-substitution-bounds-2-1-1-2; }
+#i-activity-substitution-bounds-3-1-2 { counter-set: i-activity-substitution-bounds-3-1-2 0; }
+#i-activity-substitution-bounds-3-1-2 > li::marker { content: ""counter(i-activity-substitution-bounds-3-1-2,upper-alpha)"."; }
+#i-activity-substitution-bounds-3-1-2 > li { counter-increment: i-activity-substitution-bounds-3-1-2; }
+#VE-readiness-3-1 { counter-set: VE-readiness-3-1 0; }
+#VE-readiness-3-1 > li::marker { content: ""counter(VE-readiness-3-1,lower-alpha)"."; }
+#VE-readiness-3-1 > li { counter-increment: VE-readiness-3-1; }
+#ve1-magnitude-direction-1-2-1-1-5 { counter-set: ve1-magnitude-direction-1-2-1-1-5 0; }
+#ve1-magnitude-direction-1-2-1-1-5 > li::marker { content: ""counter(ve1-magnitude-direction-1-2-1-1-5,upper-alpha)"."; }
+#ve1-magnitude-direction-1-2-1-1-5 > li { counter-increment: ve1-magnitude-direction-1-2-1-1-5; }
+#ve1-magnitude-direction-1-3-1-1-2 { counter-set: ve1-magnitude-direction-1-3-1-1-2 0; }
+#ve1-magnitude-direction-1-3-1-1-2 > li::marker { content: ""counter(ve1-magnitude-direction-1-3-1-1-2,upper-alpha)"."; }
+#ve1-magnitude-direction-1-3-1-1-2 > li { counter-increment: ve1-magnitude-direction-1-3-1-1-2; }
+#ve1-vector-computation-1-2-1-1-3 { counter-set: ve1-vector-computation-1-2-1-1-3 0; }
+#ve1-vector-computation-1-2-1-1-3 > li::marker { content: ""counter(ve1-vector-computation-1-2-1-1-3,upper-alpha)"."; }
+#ve1-vector-computation-1-2-1-1-3 > li { counter-increment: ve1-vector-computation-1-2-1-1-3; }
+#ve1-vector-computation-1-4-1-1-3 { counter-set: ve1-vector-computation-1-4-1-1-3 0; }
+#ve1-vector-computation-1-4-1-1-3 > li::marker { content: ""counter(ve1-vector-computation-1-4-1-1-3,upper-alpha)"."; }
+#ve1-vector-computation-1-4-1-1-3 > li { counter-increment: ve1-vector-computation-1-4-1-1-3; }
+#ve1-vector-computation-2-3-1-1-3 { counter-set: ve1-vector-computation-2-3-1-1-3 0; }
+#ve1-vector-computation-2-3-1-1-3 > li::marker { content: ""counter(ve1-vector-computation-2-3-1-1-3,upper-alpha)"."; }
+#ve1-vector-computation-2-3-1-1-3 > li { counter-increment: ve1-vector-computation-2-3-1-1-3; }
+#ve1-vector-computation-3-2-1-1-2 { counter-set: ve1-vector-computation-3-2-1-1-2 0; }
+#ve1-vector-computation-3-2-1-1-2 > li::marker { content: ""counter(ve1-vector-computation-3-2-1-1-2,upper-alpha)"."; }
+#ve1-vector-computation-3-2-1-1-2 > li { counter-increment: ve1-vector-computation-3-2-1-1-2; }
+#ve1-vector-computation-3-3-1-1-2 { counter-set: ve1-vector-computation-3-3-1-1-2 0; }
+#ve1-vector-computation-3-3-1-1-2 > li::marker { content: ""counter(ve1-vector-computation-3-3-1-1-2,upper-alpha)"."; }
+#ve1-vector-computation-3-3-1-1-2 > li { counter-increment: ve1-vector-computation-3-3-1-1-2; }
+#ve1-vector-computation-3-4-1-1-2 { counter-set: ve1-vector-computation-3-4-1-1-2 0; }
+#ve1-vector-computation-3-4-1-1-2 > li::marker { content: ""counter(ve1-vector-computation-3-4-1-1-2,upper-alpha)"."; }
+#ve1-vector-computation-3-4-1-1-2 > li { counter-increment: ve1-vector-computation-3-4-1-1-2; }
+#ve-vector-properties-2-4 { counter-set: ve-vector-properties-2-4 0; }
+#ve-vector-properties-2-4 > li::marker { content: ""counter(ve-vector-properties-2-4,decimal)"."; }
+#ve-vector-properties-2-4 > li { counter-increment: ve-vector-properties-2-4; }
+#ve1-vector-computation-4-2-1-1-2 { counter-set: ve1-vector-computation-4-2-1-1-2 0; }
+#ve1-vector-computation-4-2-1-1-2 > li::marker { content: ""counter(ve1-vector-computation-4-2-1-1-2,upper-alpha)"."; }
+#ve1-vector-computation-4-2-1-1-2 > li { counter-increment: ve1-vector-computation-4-2-1-1-2; }
+#ve1-unit-vectors-1-2-1-1-2 { counter-set: ve1-unit-vectors-1-2-1-1-2 0; }
+#ve1-unit-vectors-1-2-1-1-2 > li::marker { content: ""counter(ve1-unit-vectors-1-2-1-1-2,upper-alpha)"."; }
+#ve1-unit-vectors-1-2-1-1-2 > li { counter-increment: ve1-unit-vectors-1-2-1-1-2; }
+#ve1-unit-vectors-1-3-1-1-2 { counter-set: ve1-unit-vectors-1-3-1-1-2 0; }
+#ve1-unit-vectors-1-3-1-1-2 > li::marker { content: ""counter(ve1-unit-vectors-1-3-1-1-2,upper-alpha)"."; }
+#ve1-unit-vectors-1-3-1-1-2 > li { counter-increment: ve1-unit-vectors-1-3-1-1-2; }
+#ve1-vector-application-1-2-1-1-1 { counter-set: ve1-vector-application-1-2-1-1-1 0; }
+#ve1-vector-application-1-2-1-1-1 > li::marker { content: ""counter(ve1-vector-application-1-2-1-1-1,upper-alpha)"."; }
+#ve1-vector-application-1-2-1-1-1 > li { counter-increment: ve1-vector-application-1-2-1-1-1; }
+#ve1-vector-application-1-3-1-1-1 { counter-set: ve1-vector-application-1-3-1-1-1 0; }
+#ve1-vector-application-1-3-1-1-1 > li::marker { content: ""counter(ve1-vector-application-1-3-1-1-1,upper-alpha)"."; }
+#ve1-vector-application-1-3-1-1-1 > li { counter-increment: ve1-vector-application-1-3-1-1-1; }
+</style>
+</head>
+<body id="TBIL Calculus 1" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a xmlns:pf="https://prefigure.org" id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="occc-tbil-calc.html"><span class="title">Notes for TBIL Calculus:</span> <span class="subtitle">Oklahoma City Community College</span></a></h1>
+<p class="byline">Cory Wilson</p>
+</div>
+</div></header><nav xmlns:pf="https://prefigure.org" id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-2.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="calculator-toggle" class="calculator-toggle button" title="Show calculator" aria-expanded="false" aria-controls="calculator-container"><span class="icon material-symbols-outlined" aria-hidden="true">&#xea5f;</span><span class="name">Calc</span></button><div id="calculator-container" class="calculator-container" style="display: none; z-index:100;"><div id="geogebra-calculator"></div></div>
+<script>
+var ggbApp = new GGBApplet({"appName": "graphing",
+    "width": 330,
+    "height": 600,
+    "showToolBar": true,
+    "showAlgebraInput": true,
+    "perspective": "G/A",
+    "algebraInputPosition": "bottom",
+    "scaleContainerClass": "calculator-container",
+    "allowUpscale": true,
+    "autoHeight": true,
+    "disableAutoScale": false},
+true);
+</script></span><span class="treebuttons"><a class="previous-button button" href="ch-VE.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-VE.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="VE2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div xmlns:pf="https://prefigure.org" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\ds}{\displaystyle}
+\newcommand{\lrpar}[1]{\left(#1\right)}
+\newcommand{\lrbrace}[1]{\left\lbrace #1 \right\rbrace}
+\newcommand{\lrangle}[1]{\left\langle #1 \right\rangle}
+\newcommand{\inv}[1]{#1^{-1}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\dc}{^\circ}
+\newcommand{\unknown}{{\color{gray} ?}}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div xmlns:pf="https://prefigure.org" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-review.html" class="internal"><span class="codenumber">0</span> <span class="title">Review</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="review-functions.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-1" class="internal"><span class="codenumber">0.1.1</span> <span class="title">Basics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-2" class="internal"><span class="codenumber">0.1.2</span> <span class="title">Using Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-3" class="internal"><span class="codenumber">0.1.3</span> <span class="title">Combining Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-4" class="internal"><span class="codenumber">0.1.4</span> <span class="title">Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-functions.html#review-functions-5" class="internal"><span class="codenumber">0.1.5</span> <span class="title">Transformations of Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="review-classes.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Classes of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-classes.html#review-classes-1" class="internal"><span class="codenumber">0.2.1</span> <span class="title">Linear Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-classes.html#review-classes-2" class="internal"><span class="codenumber">0.2.2</span> <span class="title">Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-classes.html#review-classes-3" class="internal"><span class="codenumber">0.2.3</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-classes.html#review-classes-4" class="internal"><span class="codenumber">0.2.4</span> <span class="title">Power Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-classes.html#review-classes-5" class="internal"><span class="codenumber">0.2.5</span> <span class="title">Algebraic &amp; Transcendental Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-classes.html#review-classes-6" class="internal"><span class="codenumber">0.2.6</span> <span class="title">Piecewise Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="review-trig.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-trig.html#review-trig-1" class="internal"><span class="codenumber">0.3.1</span> <span class="title">Definitions/Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-trig.html#review-trig-2" class="internal"><span class="codenumber">0.3.2</span> <span class="title">Radian Measure</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-trig.html#review-trig-3" class="internal"><span class="codenumber">0.3.3</span> <span class="title">Arc Length and Sector Area</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-trig.html#review-trig-4" class="internal"><span class="codenumber">0.3.4</span> <span class="title">Unit Circle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-trig.html#review-trig-5" class="internal"><span class="codenumber">0.3.5</span> <span class="title">Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-trig.html#review-trig-6" class="internal"><span class="codenumber">0.3.6</span> <span class="title">Trig Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="review-inverse.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Inverses of Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="review-inverse.html#review-inverse-1" class="internal"><span class="codenumber">0.4.1</span> <span class="title">Inverse Functions &amp; Properties</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-L.html" class="internal"><span class="codenumber">1</span> <span class="title">Limits (L)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="L1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">L1: Limits Graphically/Numerically</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L1.html#L1-activities" class="internal"><span class="codenumber">1.1.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="L2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">L2: Limits Analytically</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L2.html#L2-activities" class="internal"><span class="codenumber">1.2.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="L3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">L3: Asymptotes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L3.html#L3-activities" class="internal"><span class="codenumber">1.3.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="L4.html" class="internal"><span class="codenumber">1.4</span> <span class="title">L4: Continuity</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="L4.html#L4-activities" class="internal"><span class="codenumber">1.4.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-D.html" class="internal"><span class="codenumber">2</span> <span class="title">Derivatives (D)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">D1: Average/Instantaneous Rate of Change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D1.html#D1-activities" class="internal"><span class="codenumber">2.1.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">D2: The Derivative (Definition)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D2.html#D2-activities" class="internal"><span class="codenumber">2.2.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">D3: Interpreting the Derivative</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D3.html#D3-activities" class="internal"><span class="codenumber">2.3.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">D4: Sketching the Derivative</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D4.html#D4-activities" class="internal"><span class="codenumber">2.4.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">D5: Differentiability</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D5.html#D5-activities" class="internal"><span class="codenumber">2.5.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D6.html" class="internal"><span class="codenumber">2.6</span> <span class="title">D6: Derivative Shortcuts</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D6.html#D6-activities" class="internal"><span class="codenumber">2.6.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D7.html" class="internal"><span class="codenumber">2.7</span> <span class="title">D7: Derivative Rules</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D7.html#D7-activities" class="internal"><span class="codenumber">2.7.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D8.html" class="internal"><span class="codenumber">2.8</span> <span class="title">D8: Chain Rule</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D8.html#D8-activities" class="internal"><span class="codenumber">2.8.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="D9.html" class="internal"><span class="codenumber">2.9</span> <span class="title">D9: Implicit Differentiation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="D9.html#D9-activities" class="internal"><span class="codenumber">2.9.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-A.html" class="internal"><span class="codenumber">3</span> <span class="title">Applications of Derivatives (A)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="A1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">A1: Related Rates</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A1.html#A1-activities" class="internal"><span class="codenumber">3.1.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="A2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">A2: Derivatives and Qualitative Behavior of Graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A2.html#A2-activities" class="internal"><span class="codenumber">3.2.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="A3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">A3: Optimization</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A3.html#A3-activities" class="internal"><span class="codenumber">3.3.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="A4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">A4: L’Hôpital’s Rule</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="A4.html#A4-activities" class="internal"><span class="codenumber">3.4.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-I.html" class="internal"><span class="codenumber">4</span> <span class="title">Integrals (I)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">I1: Antiderivatives</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I1.html#I1-activities" class="internal"><span class="codenumber">4.1.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">I2: Approximating Areas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I2.html#I2-activities" class="internal"><span class="codenumber">4.2.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">I3: The Definite Integral</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I3.html#I3-activities" class="internal"><span class="codenumber">4.3.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">I4: Derivatives of Integrals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I4.html#I4-activities" class="internal"><span class="codenumber">4.4.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">I5: Computing Definite Integrals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I5.html#I5-activities" class="internal"><span class="codenumber">4.5.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">I6: Substitution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I6.html#I6-activities" class="internal"><span class="codenumber">4.6.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="I7.html" class="internal"><span class="codenumber">4.7</span> <span class="title">I7: Area Between Curves</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="I7.html#I7-activities" class="internal"><span class="codenumber">4.7.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-VE.html" class="internal"><span class="codenumber">5</span> <span class="title">Vectors (VE)</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="VE1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">VE1: Working with Vectors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="VE1.html#VE1-activities" class="internal"><span class="codenumber">5.1.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="VE2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">VE2: Dot Products and Cross Products</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="VE2.html#VE2-activities" class="internal"><span class="codenumber">5.2.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="VE3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">VE3: The Definite Integral</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="VE3.html#VE3-activities" class="internal"><span class="codenumber">5.3.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:pf="https://prefigure.org" class="section" id="VE1"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">5.1</span><span class="space"> </span><span class="title">VE1: Working with Vectors</span>
+</h2>
+<article class="objectives goal-like" id="VE1-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<dl class="description-list">
+<dt id="VE1-2-1-1">VE1</dt>
+<dd><div class="para" id="VE1-2-1-1-2">I can identify, create, combine, modify, and apply vectors in two- or three-dimensional space.</div></dd>
+</dl></article><article class="assemblage assemblage-like" id="VE1-prep"><h3 class="heading"><span class="title">Pre-Class Preparation.</span></h3>
+<div class="para logical" id="VE1-prep-2">
+<div class="para">Read the following sections of the text:</div>
+<ul class="disc" id="VE1-prep-2-1">
+<li id="VE1-prep-2-1-1">
+<div class="para" id="VE1-prep-2-1-1-1"><a class="external" href="https://openstax.org/books/calculus-volume-3/pages/2-1-vectors-in-the-plane" target="_blank">Volume 3, Section 2.1: Vectors in the Plane</a></div>
+<div class="para" id="VE1-prep-2-1-1-2"><em class="emphasis">Read all sections</em></div>
+</li>
+<li id="VE1-prep-2-1-2">
+<div class="para" id="VE1-prep-2-1-2-1"><a class="external" href="https://openstax.org/books/calculus-volume-3/pages/2-2-vectors-in-three-dimensions" target="_blank">Volume 3, Section 2.2: Vectors in Three Dimensions</a></div>
+<div class="para" id="VE1-prep-2-1-2-2"><em class="emphasis">Read all sections</em></div>
+</li>
+</ul>
+</div></article><section class="subsection" id="VE1-activities"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.1.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
+</h3>
+<article class="definition definition-like" id="def-vector"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Vector.</span>
+</h4>
+<div class="para" id="def-vector-3-1">A <dfn class="terminology">vector</dfn> is a quantity which has both <em class="emphasis">magnitude/length</em> and <em class="emphasis">direction</em>. We will denote a vector using boldface type, as <span class="process-math">\(\textbf{v}\text{.}\)</span> Vectors are generally depicted visually as an arrow beginning at an <dfn class="terminology">initial point</dfn> (<span class="process-math">\(A\)</span> below) and ending at a <dfn class="terminology">terminal point</dfn> (<span class="process-math">\(B\)</span> below).</div> <figure class="figure figure-like" id="ve-vector-image"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/ve-vector-image-1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.1.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article><article class="activity project-like" id="ve1-magnitude-direction-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.1</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-magnitude-direction-1-1">
+<div class="para" id="ve1-magnitude-direction-1-1-1">Vectors can be decomposed into <em class="emphasis">components</em>- horizontal and vertical. See the diagram below.</div>
+<figure class="figure figure-like" id="ve-vector-components-1"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/ve-vector-components-1-1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.1.3<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
+</div>
+<article class="task exercise-like" id="ve1-magnitude-direction-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="ve1-magnitude-direction-1-2-1-1">
+<div class="para">If the length of the horizontal leg is <span class="process-math">\(a\text{,}\)</span> and the length of the vertical leg is <span class="process-math">\(b\text{,}\)</span> which is the best description for the magnitude of <span class="process-math">\(\textbf{v}\text{,}\)</span> denoted <span class="process-math">\(||\textbf{v}||\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2" id="ve1-magnitude-direction-1-2-1-1-5">
+<li id="ve1-magnitude-direction-1-2-1-1-5-1"><div class="para" id="ve1-magnitude-direction-1-2-1-1-5-1-1"><span class="process-math">\(\displaystyle a + b\)</span></div></li>
+<li id="ve1-magnitude-direction-1-2-1-1-5-2"><div class="para" id="ve1-magnitude-direction-1-2-1-1-5-2-1"><span class="process-math">\(\displaystyle \sqrt{b^2 - a^2}\)</span></div></li>
+<li id="ve1-magnitude-direction-1-2-1-1-5-3"><div class="para" id="ve1-magnitude-direction-1-2-1-1-5-3-1"><span class="process-math">\(\displaystyle \sqrt{a^2 + b^2}\)</span></div></li>
+<li id="ve1-magnitude-direction-1-2-1-1-5-4"><div class="para" id="ve1-magnitude-direction-1-2-1-1-5-4-1"><span class="process-math">\(\displaystyle a^2 + b^2\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-magnitude-direction-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="ve1-magnitude-direction-1-3-1-1">
+<div class="para">Which expression best identifies the direction of the vector, denoted <span class="process-math">\(\theta\)</span> in the diagram?</div>
+<ol class="upper-alpha cols2" id="ve1-magnitude-direction-1-3-1-1-2">
+<li id="ve1-magnitude-direction-1-3-1-1-2-1"><div class="para" id="ve1-magnitude-direction-1-3-1-1-2-1-1"><span class="process-math">\(\displaystyle \inv{\tan}\lrpar{\dfrac{a}{b}}\)</span></div></li>
+<li id="ve1-magnitude-direction-1-3-1-1-2-2"><div class="para" id="ve1-magnitude-direction-1-3-1-1-2-2-1"><span class="process-math">\(\displaystyle \inv{\tan}\lrpar{\dfrac{b}{a}}\)</span></div></li>
+<li id="ve1-magnitude-direction-1-3-1-1-2-3"><div class="para" id="ve1-magnitude-direction-1-3-1-1-2-3-1"><span class="process-math">\(\displaystyle \inv{\sin}\lrpar{\dfrac{a}{b}}\)</span></div></li>
+<li id="ve1-magnitude-direction-1-3-1-1-2-4"><div class="para" id="ve1-magnitude-direction-1-3-1-1-2-4-1"><span class="process-math">\(\displaystyle \inv{\sin}\lrpar{\dfrac{b}{a}}\)</span></div></li>
+<li id="ve1-magnitude-direction-1-3-1-1-2-5"><div class="para" id="ve1-magnitude-direction-1-3-1-1-2-5-1"><span class="process-math">\(\displaystyle \inv{\cos}\lrpar{\dfrac{a}{b}}\)</span></div></li>
+<li id="ve1-magnitude-direction-1-3-1-1-2-6"><div class="para" id="ve1-magnitude-direction-1-3-1-1-2-6-1"><span class="process-math">\(\displaystyle \inv{\cos}\lrpar{\dfrac{b}{a}}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-magnitude-direction-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ve1-magnitude-direction-1-4-1-1">Use trigonometry and/or part (a) to find expressions for the length of <span class="process-math">\(a\)</span> and the length of <span class="process-math">\(b\)</span> in terms of the direction and magnitude of <span class="process-math">\(\textbf{v}\text{.}\)</span>
+</div></article></article><article class="remark remark-like" id="ve1-rmk-component-form"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">5.1.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="ve1-rmk-component-form-1">A vector <span class="process-math">\(\textbf{v}\)</span> with horizontal component <span class="process-math">\(x\)</span> and vertical component <span class="process-math">\(y\)</span> is written in <dfn class="terminology">component form</dfn> as <span class="process-math">\(\lrangle{x,y}\text{.}\)</span>
+</div></article><article class="activity project-like" id="ve1-vector-computation-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.2</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-vector-computation-1-1"><div class="para" id="ve1-vector-computation-1-1-1">Consider the points <span class="process-math">\(A(1,2)\)</span> and <span class="process-math">\(B(6,9)\text{.}\)</span>
+</div></div>
+<article class="task exercise-like" id="ve1-vector-computation-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="ve1-vector-computation-1-2-1-1">
+<div class="para">Write the component form of the vector beginning at <span class="process-math">\(B\)</span> and ending at <span class="process-math">\(A\text{.}\)</span>
+</div>
+<ol class="upper-alpha cols2" id="ve1-vector-computation-1-2-1-1-3">
+<li id="ve1-vector-computation-1-2-1-1-3-1"><div class="para" id="ve1-vector-computation-1-2-1-1-3-1-1"><span class="process-math">\(\displaystyle \lrangle{7,5}\)</span></div></li>
+<li id="ve1-vector-computation-1-2-1-1-3-2"><div class="para" id="ve1-vector-computation-1-2-1-1-3-2-1"><span class="process-math">\(\displaystyle \lrangle{-7,-5}\)</span></div></li>
+<li id="ve1-vector-computation-1-2-1-1-3-3"><div class="para" id="ve1-vector-computation-1-2-1-1-3-3-1"><span class="process-math">\(\displaystyle \lrangle{5,7}\)</span></div></li>
+<li id="ve1-vector-computation-1-2-1-1-3-4"><div class="para" id="ve1-vector-computation-1-2-1-1-3-4-1"><span class="process-math">\(\displaystyle \lrangle{-5,-7}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-vector-computation-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ve1-vector-computation-1-3-1-1">What is the direction of this vector?</div></article><article class="task exercise-like" id="ve1-vector-computation-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="ve1-vector-computation-1-4-1-1">
+<div class="para">Write the component form of the vector beginning at <span class="process-math">\(A\)</span> and ending at <span class="process-math">\(B\text{.}\)</span>
+</div>
+<ol class="upper-alpha cols2" id="ve1-vector-computation-1-4-1-1-3">
+<li id="ve1-vector-computation-1-4-1-1-3-1"><div class="para" id="ve1-vector-computation-1-4-1-1-3-1-1"><span class="process-math">\(\displaystyle \lrangle{7,5}\)</span></div></li>
+<li id="ve1-vector-computation-1-4-1-1-3-2"><div class="para" id="ve1-vector-computation-1-4-1-1-3-2-1"><span class="process-math">\(\displaystyle \lrangle{-7,-5}\)</span></div></li>
+<li id="ve1-vector-computation-1-4-1-1-3-3"><div class="para" id="ve1-vector-computation-1-4-1-1-3-3-1"><span class="process-math">\(\displaystyle \lrangle{5,7}\)</span></div></li>
+<li id="ve1-vector-computation-1-4-1-1-3-4"><div class="para" id="ve1-vector-computation-1-4-1-1-3-4-1"><span class="process-math">\(\displaystyle \lrangle{-5,-7}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-vector-computation-1-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="ve1-vector-computation-1-5-1-1">What is the direction of this vector?</div></article><article class="task exercise-like" id="ve1-vector-computation-1-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="ve1-vector-computation-1-6-1-1">What do you notice about the vectors <span class="process-math">\(\textbf{BA}\)</span> from part (a) and <span class="process-math">\(\textbf{AB}\)</span> from part (c)?</div></article></article><article class="activity project-like" id="ve1-vector-computation-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.3</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-vector-computation-2-1"><div class="para" id="ve1-vector-computation-2-1-1">Now consider the points <span class="process-math">\(A(3,2)\)</span> and <span class="process-math">\(B(1,1)\)</span>
+</div></div>
+<article class="task exercise-like" id="ve1-vector-computation-2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ve1-vector-computation-2-2-1-1">Find the vector <span class="process-math">\(\textbf{AB}\text{.}\)</span>
+</div></article><article class="task exercise-like" id="ve1-vector-computation-2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="ve1-vector-computation-2-3-1-1">
+<div class="para">Consider the additional point <span class="process-math">\(C(2,2)\text{.}\)</span> Find the vector <span class="process-math">\(\textbf{AC}\text{.}\)</span>
+</div>
+<ol class="upper-alpha cols2" id="ve1-vector-computation-2-3-1-1-3">
+<li id="ve1-vector-computation-2-3-1-1-3-1"><div class="para" id="ve1-vector-computation-2-3-1-1-3-1-1"><span class="process-math">\(\displaystyle \lrangle{2,1}\)</span></div></li>
+<li id="ve1-vector-computation-2-3-1-1-3-2"><div class="para" id="ve1-vector-computation-2-3-1-1-3-2-1"><span class="process-math">\(\displaystyle \lrangle{1,2}\)</span></div></li>
+<li id="ve1-vector-computation-2-3-1-1-3-3"><div class="para" id="ve1-vector-computation-2-3-1-1-3-3-1"><span class="process-math">\(\displaystyle \lrangle{-1,-2}       \)</span></div></li>
+<li id="ve1-vector-computation-2-3-1-1-3-4"><div class="para" id="ve1-vector-computation-2-3-1-1-3-4-1"><span class="process-math">\(\displaystyle \lrangle{-2,-1}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-vector-computation-2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ve1-vector-computation-2-4-1-1">Sketch <span class="process-math">\(\textbf{AB}\)</span> and <span class="process-math">\(\textbf{AC}\)</span> on the same coordinate grid. What relationship do you see between <span class="process-math">\(\textbf{AC}\)</span> and <span class="process-math">\(\textbf{AB}\text{?}\)</span>
+</div></article><article class="task exercise-like" id="ve1-vector-computation-2-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="ve1-vector-computation-2-5-1-1">Now consider the point <span class="process-math">\(D(-1,-1)\text{.}\)</span> Find the vector <span class="process-math">\(\textbf{AD}\text{.}\)</span>
+</div></article><article class="task exercise-like" id="ve1-vector-computation-2-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="ve1-vector-computation-2-6-1-1">Sketch <span class="process-math">\(\textbf{AD}\)</span> on the same grid from part (f). What relationship do see between <span class="process-math">\(\textbf{AB}\)</span> and <span class="process-math">\(\textbf{AD}\text{?}\)</span>
+</div></article></article><article class="remark remark-like" id="ve1-rmk-add-subtract"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">5.1.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="ve1-rmk-add-subtract-1-1">Vectors can be added and subtracted like regular numbers. Addition happens <em class="emphasis">component-wise</em>; for example, adding the vectors <span class="process-math">\(\lrangle{1,3} + \lrangle{-4,2}\)</span> gives the <em class="emphasis">resultant vector</em> <span class="process-math">\(\lrangle{1-4,3+2} = \lrangle{-3,5}\)</span>
+</div></article><article class="activity project-like" id="ve1-vector-computation-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.4</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-vector-computation-3-1"><div class="para" id="ve1-vector-computation-3-1-1">Let <span class="process-math">\(\textbf{u} = \lrangle{-2,1}\)</span> and <span class="process-math">\(\textbf{v} = \lrangle{0,3}\text{.}\)</span> Find the following vectors.</div></div>
+<article class="task exercise-like" id="ve1-vector-computation-3-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="ve1-vector-computation-3-2-1-1">
+<div class="para"><span class="process-math">\(\textbf{u} + \textbf{v}\)</span></div>
+<ol class="upper-alpha cols2" id="ve1-vector-computation-3-2-1-1-2">
+<li id="ve1-vector-computation-3-2-1-1-2-1"><div class="para" id="ve1-vector-computation-3-2-1-1-2-1-1"><span class="process-math">\(\displaystyle \lrangle{2,2}\)</span></div></li>
+<li id="ve1-vector-computation-3-2-1-1-2-2"><div class="para" id="ve1-vector-computation-3-2-1-1-2-2-1"><span class="process-math">\(\displaystyle \lrangle{-2,4}\)</span></div></li>
+<li id="ve1-vector-computation-3-2-1-1-2-3"><div class="para" id="ve1-vector-computation-3-2-1-1-2-3-1"><span class="process-math">\(\displaystyle \lrangle{1,1}\)</span></div></li>
+<li id="ve1-vector-computation-3-2-1-1-2-4"><div class="para" id="ve1-vector-computation-3-2-1-1-2-4-1"><span class="process-math">\(\displaystyle \lrangle{-1,3}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-vector-computation-3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="ve1-vector-computation-3-3-1-1">
+<div class="para"><span class="process-math">\(\textbf{u} - \textbf{v}\)</span></div>
+<ol class="upper-alpha cols2" id="ve1-vector-computation-3-3-1-1-2">
+<li id="ve1-vector-computation-3-3-1-1-2-1"><div class="para" id="ve1-vector-computation-3-3-1-1-2-1-1"><span class="process-math">\(\displaystyle \lrangle{-2,-2}\)</span></div></li>
+<li id="ve1-vector-computation-3-3-1-1-2-2"><div class="para" id="ve1-vector-computation-3-3-1-1-2-2-1"><span class="process-math">\(\displaystyle \lrangle{2,2}\)</span></div></li>
+<li id="ve1-vector-computation-3-3-1-1-2-3"><div class="para" id="ve1-vector-computation-3-3-1-1-2-3-1"><span class="process-math">\(\displaystyle \lrangle{-5,1}\)</span></div></li>
+<li id="ve1-vector-computation-3-3-1-1-2-4"><div class="para" id="ve1-vector-computation-3-3-1-1-2-4-1"><span class="process-math">\(\displaystyle \lrangle{5,-1}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-vector-computation-3-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="ve1-vector-computation-3-4-1-1">
+<div class="para"><span class="process-math">\(2\textbf{u} - \dfrac{1}{2}\textbf{v}\)</span></div>
+<ol class="upper-alpha cols2" id="ve1-vector-computation-3-4-1-1-2">
+<li id="ve1-vector-computation-3-4-1-1-2-1"><div class="para" id="ve1-vector-computation-3-4-1-1-2-1-1"><span class="process-math">\(\displaystyle \lrangle{2,5}\)</span></div></li>
+<li id="ve1-vector-computation-3-4-1-1-2-2"><div class="para" id="ve1-vector-computation-3-4-1-1-2-2-1"><span class="process-math">\(\displaystyle \lrangle{-4,\dfrac{5}{2}}\)</span></div></li>
+<li id="ve1-vector-computation-3-4-1-1-2-3"><div class="para" id="ve1-vector-computation-3-4-1-1-2-3-1"><span class="process-math">\(\displaystyle \lrangle{1,-\dfrac{5}{2}}\)</span></div></li>
+<li id="ve1-vector-computation-3-4-1-1-2-4"><div class="para" id="ve1-vector-computation-3-4-1-1-2-4-1"><span class="process-math">\(\displaystyle \lrangle{-4,-\dfrac{1}{2}}\)</span></div></li>
+</ol>
+</div></article></article><article class="activity project-like" id="ve1-activity-parallelogram-rule"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.5</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-activity-parallelogram-rule-1">
+<div class="para" id="ve1-activity-parallelogram-rule-1-1">This activity will develop the <em class="emphasis">parallelogram rule</em>, a method for visualizing the addition or subtraction of two vectors.</div>
+<div class="para" id="ve1-activity-parallelogram-rule-1-2">Consider the vectors <span class="process-math">\(\textbf{a} = \lrangle{2,0}\)</span> and <span class="process-math">\(\textbf{b} = \lrangle{1,1}\)</span> for the tasks below.</div>
+</div>
+<article class="task exercise-like" id="ve1-activity-parallelogram-rule-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ve1-activity-parallelogram-rule-2-1-1">Find <span class="process-math">\(\textbf{a} + \textbf{b}\text{.}\)</span>
+</div></article><article class="task exercise-like" id="ve1-activity-parallelogram-rule-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ve1-activity-parallelogram-rule-3-1-1">On a coordinate grid, draw the vectors <span class="process-math">\(\textbf{a}\)</span> and <span class="process-math">\(\textbf{b}\)</span> so that their tails are touching.</div></article><article class="task exercise-like" id="ve1-activity-parallelogram-rule-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ve1-activity-parallelogram-rule-4-1-1">Create a parallelogram by translating <span class="process-math">\(\textbf{a}\)</span> and <span class="process-math">\(\textbf{b}\text{,}\)</span> then include <span class="process-math">\(\textbf{a} + \textbf{b}\)</span> on the parallelogram. What do you notice about its position on the diagram?</div></article><article class="task exercise-like" id="ve1-activity-parallelogram-rule-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="ve1-activity-parallelogram-rule-5-1-1">Compute <span class="process-math">\(\textbf{a} - \textbf{b}\text{.}\)</span> How, if at all, does it fit in the diagram from (c)?</div></article></article><article class="assemblage assemblage-like" id="ve-vector-properties"><h4 class="heading"><span class="title">Vector Properties.</span></h4>
+<div class="para logical" id="ve-vector-properties-2">
+<div class="para">Let <span class="process-math">\(\textbf{a}, \textbf{b}\)</span> and <span class="process-math">\(\textbf{c}\)</span> be three vectors, and let <span class="process-math">\(k,r\)</span> be scalar values. The following properties hold:</div>
+<ol class="decimal" id="ve-vector-properties-2-4">
+<li id="ve-vector-properties-2-4-1"><div class="para" id="ve-vector-properties-2-4-1-1">(Commutativity of Vectors) <span class="process-math">\(\textbf{a} + \textbf{b} = \textbf{b} + \textbf{a}\)</span>
+</div></li>
+<li id="ve-vector-properties-2-4-2"><div class="para" id="ve-vector-properties-2-4-2-1">(Associativity of Vectors) <span class="process-math">\((\textbf{a} + \textbf{b}) + \textbf{c} = \textbf{a} + (\textbf{b} + \textbf{c})\)</span>
+</div></li>
+<li id="ve-vector-properties-2-4-3"><div class="para" id="ve-vector-properties-2-4-3-1">(Additive Identity for Vectors) <span class="process-math">\(\textbf{a} + \textbf{0} = \textbf{a}\)</span>
+</div></li>
+<li id="ve-vector-properties-2-4-4"><div class="para" id="ve-vector-properties-2-4-4-1">(Additive Inverse for Vectors) <span class="process-math">\(\textbf{u} + (-\textbf{u}) = \textbf{0}\)</span>
+</div></li>
+<li id="ve-vector-properties-2-4-5"><div class="para" id="ve-vector-properties-2-4-5-1">(Associativity of Scalar Muliplication) <span class="process-math">\(k(r\textbf{a}) = (kr)\textbf{a}\)</span>
+</div></li>
+<li id="ve-vector-properties-2-4-6"><div class="para" id="ve-vector-properties-2-4-6-1">(Distributivity) <span class="process-math">\((k+r)\textbf{a} = k\textbf{a} + r\textbf{a}\)</span>
+</div></li>
+<li id="ve-vector-properties-2-4-7"><div class="para" id="ve-vector-properties-2-4-7-1">(Distributivity) <span class="process-math">\(k(\textbf{a} + \textbf{b}) = k\textbf{a} + k\textbf{b}\)</span>
+</div></li>
+<li id="ve-vector-properties-2-4-8"><div class="para" id="ve-vector-properties-2-4-8-1">(Multiplicative Identity for Vectors) <span class="process-math">\(1\textbf{a} = \textbf{a}\)</span>
+</div></li>
+<li id="ve-vector-properties-2-4-9"><div class="para" id="ve-vector-properties-2-4-9-1">(Multiplicative Zero for Vectors) <span class="process-math">\(0\textbf{a} = \textbf{0}\)</span>
+</div></li>
+</ol>
+</div></article><article class="remark remark-like" id="ve1-rmk-vectors-dimension"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">5.1.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="ve1-rmk-vectors-dimension-1">A convenient thing about working with vectors is that the same ideas that work in two dimensions work in any number of dimensions. The number of dimensions is equal to the number of components in the vector. For example, the vector <span class="process-math">\(\lrangle{1,4}\)</span> is two-dimensional because there are only two components, while the vector <span class="process-math">\(\lrangle{0,1,2,3,4,5}\)</span> is six-dimensional because there are six components.</div></article><article class="activity project-like" id="ve1-vector-computation-4"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.6</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-vector-computation-4-1"><div class="para" id="ve1-vector-computation-4-1-1">For the vectors <span class="process-math">\(\textbf{a} = \lrangle{-3,5,1}\text{,}\)</span> <span class="process-math">\(\textbf{b} = \lrangle{1,0,2}\text{,}\)</span> find the following.</div></div>
+<article class="task exercise-like" id="ve1-vector-computation-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="ve1-vector-computation-4-2-1-1">
+<div class="para"><span class="process-math">\(\textbf{a} + \textbf{b}\)</span></div>
+<ol class="upper-alpha cols2" id="ve1-vector-computation-4-2-1-1-2">
+<li id="ve1-vector-computation-4-2-1-1-2-1"><div class="para" id="ve1-vector-computation-4-2-1-1-2-1-1"><span class="process-math">\(\displaystyle \lrangle{-2,5,3}\)</span></div></li>
+<li id="ve1-vector-computation-4-2-1-1-2-2"><div class="para" id="ve1-vector-computation-4-2-1-1-2-2-1"><span class="process-math">\(\displaystyle \lrangle{-4,5,-1}\)</span></div></li>
+<li id="ve1-vector-computation-4-2-1-1-2-3"><div class="para" id="ve1-vector-computation-4-2-1-1-2-3-1"><span class="process-math">\(\displaystyle \lrangle{4,-5,1}\)</span></div></li>
+<li id="ve1-vector-computation-4-2-1-1-2-4"><div class="para" id="ve1-vector-computation-4-2-1-1-2-4-1"><span class="process-math">\(\displaystyle 6\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-vector-computation-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ve1-vector-computation-4-3-1-1"><span class="process-math">\(-\dfrac{1}{2}\textbf{a} + \dfrac{3}{4}\textbf{b}\)</span></div></article><article class="task exercise-like" id="ve1-vector-computation-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ve1-vector-computation-4-4-1-1"><span class="process-math">\(5\textbf{a} \)</span></div></article></article><article class="remark remark-like" id="ve1-rmk-right-hand-rule"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">5.1.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="ve1-rmk-right-hand-rule-1">In order to avoid confusion, we talk about a three-dimensional coordinate system using the <dfn class="terminology">right-hand rule</dfn>: when using your right hand, point your index finger out, thumb up, and middle finger perpendicular to both. Your index finger represents the <span class="process-math">\(y-\)</span>axis, your middle finger represents the <span class="process-math">\(x-\)</span>axis, and your thumb represents the <span class="process-math">\(z-\)</span>axis.</div>
+<div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="generated/latex-image/ve1-rmk-right-hand-rule-2.svg" role="img" class="contained"></div></article><article class="activity project-like" id="ve1-activity-unit-vector"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.7</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-activity-unit-vector-1"><div class="para" id="ve1-activity-unit-vector-1-1">Recall from <a href="VE1.html#ve1-magnitude-direction-1" class="xref" data-knowl="./knowl/xref/ve1-magnitude-direction-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 5.1.1">Activity 5.1.1</a> that the magnitude or length of a two-dimensional vector <span class="process-math">\(\textbf{v} = \lrangle{a,b}\)</span> can be found by computing <span class="process-math">\(\sqrt{a^2 + b^2}\text{.}\)</span>
+</div></div>
+<article class="task exercise-like" id="ve1-activity-unit-vector-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ve1-activity-unit-vector-2-1-1">For a three-dimensional vector <span class="process-math">\(\textbf{u} = \lrangle{a,b,c}\text{,}\)</span> how might you compute <span class="process-math">\(||\textbf{u}||\text{?}\)</span>
+</div></article><article class="task exercise-like" id="ve1-activity-unit-vector-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ve1-activity-unit-vector-3-1-1">Find the length of the vector <span class="process-math">\(\textbf{a} = \lrangle{0,3,4}\text{.}\)</span>
+</div></article><article class="task exercise-like" id="ve1-activity-unit-vector-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ve1-activity-unit-vector-4-1-1">What is the length of the vector <span class="process-math">\(\dfrac{1}{||\textbf{a}||}\textbf{a}\text{?}\)</span>
+</div></article></article><article class="definition definition-like" id="def-unit-vector"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="def-unit-vector-1-1">A <dfn class="terminology">unit vector</dfn> is a vector with unit length, i.e. length exactly 1.</div></article><article class="activity project-like" id="ve1-vector-computation-5"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.8</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-vector-computation-5-1"><div class="para" id="ve1-vector-computation-5-1-1">For each vector, find its associated unit vector.</div></div>
+<article class="task exercise-like" id="ve1-vector-computation-5-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ve1-vector-computation-5-2-1-1"><span class="process-math">\(\lrangle{7,6}\)</span></div></article><article class="task exercise-like" id="ve1-vector-computation-5-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ve1-vector-computation-5-3-1-1"><span class="process-math">\(\lrangle{-1,0,8}\)</span></div></article><article class="task exercise-like" id="ve1-vector-computation-5-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ve1-vector-computation-5-4-1-1"><span class="process-math">\(\lrangle{0,1}\)</span></div></article><article class="task exercise-like" id="ve1-vector-computation-5-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="ve1-vector-computation-5-5-1-1"><span class="process-math">\(\lrangle{1,1,1}\)</span></div></article></article><article class="remark remark-like" id="ve1-rmk-ijk"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">5.1.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="ve1-rmk-ijk-1">The unit vector <span class="process-math">\(\textbf{i}\)</span> is the vector whose first component 1 and all others are 0, <span class="process-math">\(\textbf{j}\)</span> is the one whose second component is 1 with all others 0, and <span class="process-math">\(\textbf{k}\)</span> is the one whose third component is 1 with all others 0.</div></article><article class="activity project-like" id="ve1-unit-vectors-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.9</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-unit-vectors-1-1"><div class="para" id="ve1-unit-vectors-1-1-1">Write each vector as a sum of the standard unit vectors <span class="process-math">\(\textbf{i}, \textbf{j}, \textbf{k}\text{.}\)</span>
+</div></div>
+<article class="task exercise-like" id="ve1-unit-vectors-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="ve1-unit-vectors-1-2-1-1">
+<div class="para"><span class="process-math">\(\lrangle{-4,3}\)</span></div>
+<ol class="upper-alpha cols2" id="ve1-unit-vectors-1-2-1-1-2">
+<li id="ve1-unit-vectors-1-2-1-1-2-1"><div class="para" id="ve1-unit-vectors-1-2-1-1-2-1-1"><span class="process-math">\(\displaystyle -4\textbf{j} + 3\textbf{k}\)</span></div></li>
+<li id="ve1-unit-vectors-1-2-1-1-2-2"><div class="para" id="ve1-unit-vectors-1-2-1-1-2-2-1"><span class="process-math">\(\displaystyle -4\textbf{i} + 3\textbf{k}\)</span></div></li>
+<li id="ve1-unit-vectors-1-2-1-1-2-3"><div class="para" id="ve1-unit-vectors-1-2-1-1-2-3-1"><span class="process-math">\(\displaystyle -4\textbf{i} + 3\textbf{j}\)</span></div></li>
+<li id="ve1-unit-vectors-1-2-1-1-2-4"><div class="para" id="ve1-unit-vectors-1-2-1-1-2-4-1"><span class="process-math">\(\displaystyle -4\textbf{j} + 3\textbf{i}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-unit-vectors-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="ve1-unit-vectors-1-3-1-1">
+<div class="para"><span class="process-math">\(\lrangle{3,1,-5}\)</span></div>
+<ol class="upper-alpha cols2" id="ve1-unit-vectors-1-3-1-1-2">
+<li id="ve1-unit-vectors-1-3-1-1-2-1"><div class="para" id="ve1-unit-vectors-1-3-1-1-2-1-1"><span class="process-math">\(\displaystyle 3\textbf{j} + \textbf{i} - 5\textbf{k}\)</span></div></li>
+<li id="ve1-unit-vectors-1-3-1-1-2-2"><div class="para" id="ve1-unit-vectors-1-3-1-1-2-2-1"><span class="process-math">\(\displaystyle 3\textbf{j} + \textbf{k} - 5\textbf{i}\)</span></div></li>
+<li id="ve1-unit-vectors-1-3-1-1-2-3"><div class="para" id="ve1-unit-vectors-1-3-1-1-2-3-1"><span class="process-math">\(\displaystyle 3\textbf{i} + \textbf{j} - 5\textbf{k}\)</span></div></li>
+<li id="ve1-unit-vectors-1-3-1-1-2-4"><div class="para" id="ve1-unit-vectors-1-3-1-1-2-4-1"><span class="process-math">\(\displaystyle 3\textbf{i} + \textbf{k} - 5\textbf{j}\)</span></div></li>
+<li id="ve1-unit-vectors-1-3-1-1-2-5"><div class="para" id="ve1-unit-vectors-1-3-1-1-2-5-1"><span class="process-math">\(\displaystyle 3\textbf{k} + \textbf{i} - 5\textbf{j}   \)</span></div></li>
+<li id="ve1-unit-vectors-1-3-1-1-2-6"><div class="para" id="ve1-unit-vectors-1-3-1-1-2-6-1"><span class="process-math">\(\displaystyle 3\textbf{k} + \textbf{j} - 5\textbf{i}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-unit-vectors-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ve1-unit-vectors-1-4-1-1"><span class="process-math">\(\lrangle{-1,1,0}\)</span></div></article></article><article class="activity project-like" id="ve1-vector-application-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.10</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-vector-application-1-1"><div class="para" id="ve1-vector-application-1-1-1">The speed of an object is the magnitude of its associated velocity vector. A football is thrown by a player with an initial speed of 82 miles per hour and an angle of elevation of <span class="process-math">\(25\dc\text{.}\)</span> Determine the velocity vector in miles per hour and express in component form and in terms of the standard unit vectors. Assume the ball is thrown in the <span class="process-math">\(xz-\)</span>plane.</div></div>
+<article class="task exercise-like" id="ve1-vector-application-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="ve1-vector-application-1-2-1-1">
+<div class="para">Which of the following best expresses the horizontal component of the vector?</div>
+<ol class="upper-alpha cols2" id="ve1-vector-application-1-2-1-1-1">
+<li id="ve1-vector-application-1-2-1-1-1-1"><div class="para" id="ve1-vector-application-1-2-1-1-1-1-1"><span class="process-math">\(\displaystyle 82\sin(25\dc)\)</span></div></li>
+<li id="ve1-vector-application-1-2-1-1-1-2"><div class="para" id="ve1-vector-application-1-2-1-1-1-2-1"><span class="process-math">\(\displaystyle 25\cos(82\dc)\)</span></div></li>
+<li id="ve1-vector-application-1-2-1-1-1-3"><div class="para" id="ve1-vector-application-1-2-1-1-1-3-1"><span class="process-math">\(\displaystyle 82\cos(25\dc)\)</span></div></li>
+<li id="ve1-vector-application-1-2-1-1-1-4"><div class="para" id="ve1-vector-application-1-2-1-1-1-4-1"><span class="process-math">\(\displaystyle 25\sin(82\dc)\)</span></div></li>
+<li id="ve1-vector-application-1-2-1-1-1-5"><div class="para" id="ve1-vector-application-1-2-1-1-1-5-1"><span class="process-math">\(\displaystyle 82\sin(65\dc)\)</span></div></li>
+<li id="ve1-vector-application-1-2-1-1-1-6"><div class="para" id="ve1-vector-application-1-2-1-1-1-6-1"><span class="process-math">\(\displaystyle 82\cos(65\dc)\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-vector-application-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="ve1-vector-application-1-3-1-1">
+<div class="para">Which option best describes the vertical component of the vector?</div>
+<ol class="upper-alpha cols2" id="ve1-vector-application-1-3-1-1-1">
+<li id="ve1-vector-application-1-3-1-1-1-1"><div class="para" id="ve1-vector-application-1-3-1-1-1-1-1"><span class="process-math">\(\displaystyle 82\sin(25\dc)\)</span></div></li>
+<li id="ve1-vector-application-1-3-1-1-1-2"><div class="para" id="ve1-vector-application-1-3-1-1-1-2-1"><span class="process-math">\(\displaystyle 25\cos(82\dc)\)</span></div></li>
+<li id="ve1-vector-application-1-3-1-1-1-3"><div class="para" id="ve1-vector-application-1-3-1-1-1-3-1"><span class="process-math">\(\displaystyle 82\cos(25\dc)\)</span></div></li>
+<li id="ve1-vector-application-1-3-1-1-1-4"><div class="para" id="ve1-vector-application-1-3-1-1-1-4-1"><span class="process-math">\(\displaystyle 25\sin(82\dc)\)</span></div></li>
+<li id="ve1-vector-application-1-3-1-1-1-5"><div class="para" id="ve1-vector-application-1-3-1-1-1-5-1"><span class="process-math">\(\displaystyle 82\sin(65\dc)\)</span></div></li>
+<li id="ve1-vector-application-1-3-1-1-1-6"><div class="para" id="ve1-vector-application-1-3-1-1-1-6-1"><span class="process-math">\(\displaystyle 82\cos(65\dc)\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="ve1-vector-application-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ve1-vector-application-1-4-1-1">Use your answers to (a) and (b) to write the velocity vector in component form.</div></article><article class="task exercise-like" id="ve1-vector-application-1-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="ve1-vector-application-1-5-1-1">Use your answers to (a) and (b) to write the velocity vector using the standard unit vectors. Remember that the ball is thrown in the <span class="process-math">\(xz-\)</span>plane.</div></article><article class="task exercise-like" id="ve1-vector-application-1-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="ve1-vector-application-1-6-1-1">Why would we consider the ball to be thrown in the <span class="process-math">\(xz-\)</span>plane rather than the <span class="process-math">\(xy-\)</span>plane or the <span class="process-math">\(yz-\)</span>plane?</div></article></article><article class="activity project-like" id="ve1-vector-application-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.11</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ve1-vector-application-2-1"><div class="para" id="ve1-vector-application-2-1-1">In order to fly from Oklahoma City to Dayton, OH, a plane must fly <span class="process-math">\(64\dc\)</span> east of north. A plane leaves Oklahoma City at a ground speed of 525 miles per hour. A 30 mph wind blows from the north during the flight.</div></div>
+<article class="task exercise-like" id="ve1-vector-application-2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ve1-vector-application-2-2-1-1">What is the ground speed of the plane when the wind begins to blow?</div></article><article class="task exercise-like" id="ve1-vector-application-2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ve1-vector-application-2-3-1-1">What is the new bearing of the plane?</div></article></article><article class="activity project-like" id="ve1-vector-application-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.1.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="ve1-vector-application-3-1-1">An object is said to be in static equilibrium if the resultant force of the forces that act on it is zero. Let <span class="process-math">\(\textbf{F}_1 = \lrangle{10,6,3}\text{,}\)</span> <span class="process-math">\(\textbf{F}_2 = \lrangle{0,4,9}\text{,}\)</span> and <span class="process-math">\(\textbf{F}_3 = \lrangle{10,-3,-9}\)</span> be three forces acting on an object. Find the resultant force necessary to place the object in static equilibrium.</div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ch-VE.html" title="Previous"><span xmlns:pf="https://prefigure.org" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:pf="https://prefigure.org" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="VE2.html" title="Next"><span class="name">Next</span><span xmlns:pf="https://prefigure.org" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a xmlns:pf="https://prefigure.org" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:pf="https://prefigure.org" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a xmlns:pf="https://prefigure.org" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
