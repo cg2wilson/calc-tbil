@@ -5,13 +5,20 @@
         <ul>
             <li>
                 <p>
-                    <url visual="" href="https://openstax.org/books/calculus-volume-1/pages/4-10-antiderivatives">Section 4.10: Antiderivatives</url>
+                    <url visual="" href="https://openstax.org/books/calculus-volume-3/pages/2-1-vectors-in-the-plane">Volume 3, Section 2.1: Vectors in the Plane</url>
                 </p>
                 <p>
                     <em>Read all sections</em>
                 </p>
             </li>
-
+            <li>
+                <p>
+                    <url visual="" href="https://openstax.org/books/calculus-volume-3/pages/2-2-vectors-in-three-dimensions">Volume 3, Section 2.2: Vectors in Three Dimensions</url>
+                </p>
+                <p>
+                    <em>Read all sections</em>
+                </p>
+            </li>
         </ul>
     </p>
 </assemblage>
