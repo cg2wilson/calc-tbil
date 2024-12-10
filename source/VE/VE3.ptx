@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="VE3" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>VE3: The Definite Integral</title>
+    <title>VE3: Lines and Planes in Space</title>
     <objectives>
         <dl>
             <li>
                 <title>I3</title>
                 <p>
-                    I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer.
+                    I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.
                 </p>
             </li>
         </dl>

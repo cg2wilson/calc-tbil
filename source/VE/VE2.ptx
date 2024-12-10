@@ -7,7 +7,7 @@
             <li>
                 <title>I2</title>
                 <p>
-                    I can use Riemann sums to approximate the area under curves and use appropriate notation to do so. 
+                    I can compute and apply the dot product and cross product of vectors.
                 </p>
             </li>
         </dl>
@@ -18,7 +18,558 @@
     <subsection xml:id="VE2-activities">
         <title>In-Class Activities</title>
 
+        <remark>
+            <p>
+                In <xref ref="VE1"/>, we learned how to add vectors and multiply vectors with <em>scalar values</em>; we didn't talk about multiplying two vectors.
+            </p>
+            <p>
+                There are two ways of multiplying vectors: the <em>dot product</em> and the <em>cross product</em>. 
+            </p>
+        </remark>
 
+        <definition xml:id="def-dot-product-alg">
+            <title>Dot Product (Algebraic Definition)</title>
+            <idx><h>dot product (algebraic definition)</h></idx>
+            <idx><h>scalar product</h></idx>
+            <statement>
+                <p>
+                    Given two vectors <m>\textbf{a} = \lrangle{a_1,a_2,a_3}</m> and <m>\textbf{b} = \lrangle{b_1,b_2,b_3}</m>, the <term>dot product</term> of <m>\textbf{a}</m> and <m>\textbf{b}</m> is given by
+                    <me>
+                        \textbf{a}\cdot \textbf{b} = a_1b_1 + a_2b_2+a_3b_3
+                    </me>
+                </p>
+                <p>
+                    The dot product is sometimes also called the <em>scalar product</em> because it results in a scalar value rather than a vector value.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="ve2-dot-product-compute-1">
+            <statement>
+                <p>
+                    Which option gives the dot product <m>\lrangle{10,-1,2}\cdot\lrangle{-8,4,0}</m>?
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>
+                                    \lrangle{2,3,2}
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                7
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    \lrangle{-80,-4,0}
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    -84
+                                </m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="ve2-activity-dot-product-props">
+            <introduction>
+                <p>
+                    This activity will introduce some properties of the dot product. Let <m>\textbf{u} = \lrangle{1,0,2}</m>, <m>\textbf{v} = \lrangle{-1,3,4}</m>, and <m>\textbf{w} = \lrangle{0,-2,-1}</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find <m>||\textbf{u}||</m>, <m>||\textbf{v}||</m>, and <m>||\textbf{w}||</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\textbf{u}\cdot\textbf{v}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of these statements is true about <m>\textbf{v}\cdot \textbf{u}</m>? Justify your response.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    It is similar but not the same as <m>\textbf{u}\cdot \textbf{v}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    It is the same as <m>\textbf{u}\cdot \textbf{v}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    It is not similar to <m>\textbf{u}\cdot \textbf{v}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\textbf{v}+\textbf{w}</m> and <m>\textbf{u}\cdot\textbf{w}</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        True or false: <m>\textbf{u}\cdot (\textbf{v}+\textbf{w}) = \textbf{u}\cdot \textbf{v} + \textbf{w}</m>. Justify your answer.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    True
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    False
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Let <m>c</m> be a scalar value. For the value <m>c(\textbf{u}\cdot \textbf{v})</m>, does it matter if we compute <m>(c\textbf{u})\cdot \textbf{v}</m> or <m>\textbf{u}\cdot (c\textbf{v})</m>? Why or why not?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Yes, it matters because the values are different from <m>c(\textbf{u}\cdot \textbf{v})</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Yes, because we get a vector value when we should get a scalar value
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    No, because we get a scalar value when we expect a scalar value
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    No, because the values are the same as <m>c(\textbf{u}\cdot \textbf{v})</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\textbf{u}\cdot \textbf{u}</m> and <m>\textbf{v}\cdot \textbf{v}</m>. How do these compare with the lengths you computed in part (a)?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the previous part to predict the value of <m>\textbf{w}\cdot\textbf{w}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <assemblage xml:id="dot-product-props">
+            <title>Properties of the Dot Product</title>
+            <p>
+                Let <m>\textbf{u},\textbf{v}</m>, and <m>\textbf{w}</m> be vectors, and let <m>c</m> be a scalar value.
+                <ol>
+                    <li>
+                        <p>
+                            (Commutative Property)
+                            <me>\textbf{u}\cdot\textbf{v} = \textbf{v}\cdot\textbf{u}</me>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            (Distributive Property)
+                            <me>
+                            \textbf{u}\cdot (\textbf{v}+\textbf{w}) = \textbf{u}\cdot\textbf{v} + \textbf{u}\cdot\textbf{w}
+                            </me>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            (Associative Property)
+                            <me>
+                            c(\textbf{u}\cdot\textbf{v}) = (c\textbf{u})\cdot\textbf{v} = \textbf{u}\cdot (c\textbf{v})
+                            </me>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            (Property of magnitude)
+                            <me>
+                                \textbf{u}\cdot \textbf{u} = ||\textbf{u}||^2
+                            </me>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </assemblage>
+
+        <definition xml:id="def-dot-product-geo">
+            <title>Dot Product (Geometric Definition)</title>
+            <idx><h>dot product (geometric definition)</h></idx>            
+            <statement>
+                <p>
+                    If the angle between the two vectors <m>\textbf{u}</m> and <m>\textbf{v}</m> is given by <m>\theta</m> (in radians), then
+                    <me>
+                        \textbf{u}\cdot\textbf{v} = ||\textbf{u}||\,||\textbf{v}||\cos\theta
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="ve2-dot-product-geo-1">
+            <statement>
+                <p>
+                    Which is the correct angle between the vectors <m>\textbf{i}+\textbf{j}-\textbf{k}</m> and <m>\textbf{i} -2\textbf{j}-3\textbf{k}</m>?
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>
+                                
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                
+                                </m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="ve2-dot-product-geo-2">
+            <introduction>
+                <p>
+                    Two vectors are said to be <em>orthogonal</em> if the angle between them is <m>\dfrac{\pi}{2}</m> or <m>90\dc</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the value of the dot product for two orthogonal vectors?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        1
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        -1
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Any value                                
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    0
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Are the vectors <m>\lrangle{10,0,5}</m> and <m>\lrangle{1,3,-2}</m> orthogonal? Justify your answer.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        For what value or values of <m>x</m> is the vector <m>\textbf{p} = \lrangle{2,8,-1}</m> orthogonal to <m>\textbf{q} = \lrangle{x,-1,2}</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ve2-dot-product-application">
+            <statement>
+                <p>
+                    When constant force is applied to an object so that the object moves in a straight line from point <m>P</m> to point <m>Q</m>, the work <m>W</m> done by the form <m>\textbf{F}</m>, acting at an angle <m>\theta</m> from the line of motion, is given by
+                    <me>
+                        W = \textbf{F}\cdot \textbf{PQ} = ||\textbf{F}||\, ||\textbf{PQ}||\cos\theta
+                    </me>
+                </p>
+                <p>
+                    A constant force of 30 pounds is applied at an gle of <m>60\dc</m> to pull a handcart 10 feet across the ground. What is the work done by this force?
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-cross-product-alg">
+            <title>Cross Product (Algebraic Definition)</title>
+            <idx><h>cross product (algebraic definition)</h></idx>
+            <statement>
+                <p>
+                    The <term>cross product</term>, or vector product, of two vectors <m>\textbf{a} = \lrangle{a_1,a_2,a_3}</m> and <m>\textbf{b} = \lrangle{b_1,b_2,b_3}</m> is given by 
+                    <me>
+                        \textbf{a}\times\textbf{b} = \lrangle{a_2b_3-a_3b_2,a_3b_1-a_1b_3,a_1b_2-a_2b_1}
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
+            <p>
+                The cross product of two vectors <m>\textbf{a}</m> and <m>\textbf{b}</m> produces a third vector, <m>\textbf{a}\times\textbf{b}</m>, which is orthogonal to <m>\textbf{a}</m> and <m>\textbf{b}</m> according to the right-hand rule.
+            </p>
+            <image width="25%">
+                <latex-image>
+                    <xi:include href="./tikz/cross-product-rhr.tex" parse="text" />
+                </latex-image>
+            </image>
+        </remark>
+
+        <activity xml:id="ve2-cross-product-1">
+            <introduction>
+                <p>
+                    Let <m>\textbf{a} = \lrangle{-1,2,3}</m> and <m>\textbf{b} = \lrangle{1,0,-1}</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which vector gives the cross product <m>\textbf{a}\times\textbf{b}</m>?
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{-2,2,-2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{2,-2,2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{2,2,2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{-2,-2,-2}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which option gives the cross product <m>\textbf{b}\times\textbf{a}</m>?
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{-2,2,-2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{2,-2,2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{2,2,2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{-2,-2,-2}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        In order to be commutative, it must be true that <m>\textbf{a}\times\textbf{b} = \textbf{b}\times\textbf{a}</m>. Is the cross product commutative? What relationship, if any, can you establish from this task?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <assemblage xml:id="cross-product-properties">
+            <title>Properties of the Cross Product</title>
+            <p>
+                Let <m>\textbf{u},\textbf{v},\textbf{w}</m> be three-dimensional vectors, and let <m>c</m> be a scalar. Then, the following properties hold:
+                <ol>
+                    <li>
+                        <p>
+                            (Anticommutative Property)
+                            <m>
+                            \textbf{u}\times\textbf{v} = -\textbf{v}\times\textbf{u}
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            (Distributive Property)
+                            <m>
+                            \textbf{u}\times (\textbf{v}+\textbf{w}) = \textbf{u}\times\textbf{v} + \textbf{u}\times\textbf{w}
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            (Constant Multiple Property)
+                            <m>
+                            c(\textbf{u}\times\textbf{v}) = (c\textbf{u})\times \textbf{v} = \textbf{u}\times (c\textbf{v})
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            (Cross Product of Zero Vector)
+                            <m>
+                            \textbf{u}\times\textbf{0} = \textbf{0}\times\textbf{u} = \textbf{0}
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            (Cross Product of a Vector with Itself)
+                            <m>
+                            \textbf{u}\times\textbf{u} = \textbf{0}
+                            </m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </assemblage>
+
+        <activity xml:id="ve2-cross-product-2">
+            <statement>
+                <p>
+                    Use the properties of the cross product to compute <m>(3\textbf{j}\times 2\textbf{k})\times (-\textbf{i})</m>
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-cross-product-geo">
+            <title>Cross Product (Geometric Definition)</title>
+            <idx><h>cross product (geometric definition)</h></idx>
+            <statement>
+                <p>
+                    Let <m>\textbf{u}</m> and <m>\textbf{v}</m> be two vectors, and let <m>\theta</m> be the angle between them. Then,
+                    <me>
+                        ||\textbf{u}\times\textbf{v}|| = ||\textbf{u}||\,||\textbf{v}||\sin\theta
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="ve2-cross-product-3">
+            <statement>
+                <p>
+                    Find a unit vector orthogonal to both <m>\textbf{u} = \lrangle{4,0,3}</m> and <m>\textbf{w} = \lrangle{1,1,4}</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="ve2-cross-product-4">
+            <statement>
+                <p>
+                    <em>Torque</em> is the tendency of a force to produce rotation about an axis of rotation. Let <m>\textbf{r}</m> is a vector whose initial point is located on the axis of rotation and whose terminal point is located at the point where the force is applied. Let <m>\textbf{F}</m> be the vector representing the force. Then, 
+                    <me>
+                    \mathbf{\tau} = \textbf{r}\times\textbf{F}
+                    </me>
+                    where <m>\mathbf{\tau}</m> represents the torque vector.
+                </p>
+                <p>
+                    A bolt is tightened by applying a 10 N force to a wrench of length 0.3 meters; the angle between the wrench and the force vector is <m>40\dc</m>. Find the magnitude of the torque about the center of the bolt.
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>
+
+<!-- 
+
+-->
