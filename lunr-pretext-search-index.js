@@ -3337,7 +3337,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "VE2: Dot Products and Cross Products",
-  "body": " VE2: Dot Products and Cross Products     I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Approximating Areas    Read all sections        In-Class Activities   "
+  "body": " VE2: Dot Products and Cross Products     I2  I can compute and apply the dot product and cross product of vectors.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.3: The Dot Product    Read all sections      Volume 3, Section 2.4: The Cross Product    Read all sections        In-Class Activities   In , we learned how to add vectors and multiply vectors with scalar values ; we didn't talk about multiplying two vectors.  There are two ways of multiplying vectors: the dot product and the cross product .    Dot Product (Algebraic Definition)  dot product (algebraic definition)  scalar product   Given two vectors and , the dot product of and is given by   The dot product is sometimes also called the scalar product because it results in a scalar value rather than a vector value.      Which option gives the dot product ?        7                   This activity will introduce some properties of the dot product. Let , , and     Find , , and .    Compute     Which of these statements is true about ? Justify your response.   It is similar but not the same as     It is the same as     It is not similar to        Compute and .    True or false: . Justify your answer.   True    False       Let be a scalar value. For the value , does it matter if we compute or ? Why or why not?   Yes, it matters because the values are different from     Yes, because we get a vector value when we should get a scalar value    No, because we get a scalar value when we expect a scalar value    No, because the values are the same as        Compute and . How do these compare with the lengths you computed in part (a)?    Use the previous part to predict the value of      Properties of the Dot Product  Let , and be vectors, and let be a scalar value.   (Commutative Property)     (Distributive Property)     (Associative Property)     (Property of magnitude)        Dot Product (Geometric Definition)  dot product (geometric definition)   If the angle between the two vectors and is given by (in radians), then       Which is the correct angle between the vectors and ?                            Two vectors are said to be orthogonal if the angle between them is or .    What is the value of the dot product for two orthogonal vectors?             Any value    0       Are the vectors and orthogonal? Justify your answer.    For what value or values of is the vector orthogonal to ?            When constant force is applied to an object so that the object moves in a straight line from point to point , the work done by the form , acting at an angle from the line of motion, is given by   A constant force of 30 pounds is applied at an gle of to pull a handcart 10 feet across the ground. What is the work done by this force?     Cross Product (Algebraic Definition)  cross product (algebraic definition)   The cross product , or vector product, of two vectors and is given by      The cross product of two vectors and produces a third vector, , which is orthogonal to and according to the right-hand rule.        Let and .    Which vector gives the cross product ?                          Which option gives the cross product ?                          In order to be commutative, it must be true that . Is the cross product commutative? What relationship, if any, can you establish from this task?     Properties of the Cross Product  Let be three-dimensional vectors, and let be a scalar. Then, the following properties hold:   (Anticommutative Property)     (Distributive Property)     (Constant Multiple Property)     (Cross Product of Zero Vector)     (Cross Product of a Vector with Itself)         Use the properties of the cross product to compute      Cross Product (Geometric Definition)  cross product (geometric definition)   Let and be two vectors, and let be the angle between them. Then,       Find a unit vector orthogonal to both and        Torque is the tendency of a force to produce rotation about an axis of rotation. Let is a vector whose initial point is located on the axis of rotation and whose terminal point is located at the point where the force is applied. Let be the vector representing the force. Then, where represents the torque vector.  A bolt is tightened by applying a 10 N force to a wrench of length 0.3 meters; the angle between the wrench and the force vector is . Find the magnitude of the torque about the center of the bolt.     "
 },
 {
   "id": "VE2-2",
@@ -3346,7 +3346,142 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "5.2",
   "title": "",
-  "body": "   I2  I can use Riemann sums to approximate the area under curves and use appropriate notation to do so.    "
+  "body": "   I2  I can compute and apply the dot product and cross product of vectors.    "
+},
+{
+  "id": "VE2-activities-2",
+  "level": "2",
+  "url": "VE2.html#VE2-activities-2",
+  "type": "Remark",
+  "number": "5.2.1",
+  "title": "",
+  "body": " In , we learned how to add vectors and multiply vectors with scalar values ; we didn't talk about multiplying two vectors.  There are two ways of multiplying vectors: the dot product and the cross product .  "
+},
+{
+  "id": "def-dot-product-alg",
+  "level": "2",
+  "url": "VE2.html#def-dot-product-alg",
+  "type": "Definition",
+  "number": "5.2.2",
+  "title": "Dot Product (Algebraic Definition).",
+  "body": " Dot Product (Algebraic Definition)  dot product (algebraic definition)  scalar product   Given two vectors and , the dot product of and is given by   The dot product is sometimes also called the scalar product because it results in a scalar value rather than a vector value.   "
+},
+{
+  "id": "ve2-dot-product-compute-1",
+  "level": "2",
+  "url": "VE2.html#ve2-dot-product-compute-1",
+  "type": "Activity",
+  "number": "5.2.1",
+  "title": "",
+  "body": "  Which option gives the dot product ?        7                "
+},
+{
+  "id": "ve2-activity-dot-product-props",
+  "level": "2",
+  "url": "VE2.html#ve2-activity-dot-product-props",
+  "type": "Activity",
+  "number": "5.2.2",
+  "title": "",
+  "body": "  This activity will introduce some properties of the dot product. Let , , and     Find , , and .    Compute     Which of these statements is true about ? Justify your response.   It is similar but not the same as     It is the same as     It is not similar to        Compute and .    True or false: . Justify your answer.   True    False       Let be a scalar value. For the value , does it matter if we compute or ? Why or why not?   Yes, it matters because the values are different from     Yes, because we get a vector value when we should get a scalar value    No, because we get a scalar value when we expect a scalar value    No, because the values are the same as        Compute and . How do these compare with the lengths you computed in part (a)?    Use the previous part to predict the value of    "
+},
+{
+  "id": "def-dot-product-geo",
+  "level": "2",
+  "url": "VE2.html#def-dot-product-geo",
+  "type": "Definition",
+  "number": "5.2.3",
+  "title": "Dot Product (Geometric Definition).",
+  "body": " Dot Product (Geometric Definition)  dot product (geometric definition)   If the angle between the two vectors and is given by (in radians), then    "
+},
+{
+  "id": "ve2-dot-product-geo-1",
+  "level": "2",
+  "url": "VE2.html#ve2-dot-product-geo-1",
+  "type": "Activity",
+  "number": "5.2.3",
+  "title": "",
+  "body": "  Which is the correct angle between the vectors and ?                         "
+},
+{
+  "id": "ve2-dot-product-geo-2",
+  "level": "2",
+  "url": "VE2.html#ve2-dot-product-geo-2",
+  "type": "Activity",
+  "number": "5.2.4",
+  "title": "",
+  "body": "  Two vectors are said to be orthogonal if the angle between them is or .    What is the value of the dot product for two orthogonal vectors?             Any value    0       Are the vectors and orthogonal? Justify your answer.    For what value or values of is the vector orthogonal to ?         "
+},
+{
+  "id": "ve2-dot-product-application",
+  "level": "2",
+  "url": "VE2.html#ve2-dot-product-application",
+  "type": "Activity",
+  "number": "5.2.5",
+  "title": "",
+  "body": "  When constant force is applied to an object so that the object moves in a straight line from point to point , the work done by the form , acting at an angle from the line of motion, is given by   A constant force of 30 pounds is applied at an gle of to pull a handcart 10 feet across the ground. What is the work done by this force?   "
+},
+{
+  "id": "def-cross-product-alg",
+  "level": "2",
+  "url": "VE2.html#def-cross-product-alg",
+  "type": "Definition",
+  "number": "5.2.4",
+  "title": "Cross Product (Algebraic Definition).",
+  "body": " Cross Product (Algebraic Definition)  cross product (algebraic definition)   The cross product , or vector product, of two vectors and is given by    "
+},
+{
+  "id": "VE2-activities-12",
+  "level": "2",
+  "url": "VE2.html#VE2-activities-12",
+  "type": "Remark",
+  "number": "5.2.5",
+  "title": "",
+  "body": " The cross product of two vectors and produces a third vector, , which is orthogonal to and according to the right-hand rule.     "
+},
+{
+  "id": "ve2-cross-product-1",
+  "level": "2",
+  "url": "VE2.html#ve2-cross-product-1",
+  "type": "Activity",
+  "number": "5.2.6",
+  "title": "",
+  "body": "  Let and .    Which vector gives the cross product ?                          Which option gives the cross product ?                          In order to be commutative, it must be true that . Is the cross product commutative? What relationship, if any, can you establish from this task?   "
+},
+{
+  "id": "ve2-cross-product-2",
+  "level": "2",
+  "url": "VE2.html#ve2-cross-product-2",
+  "type": "Activity",
+  "number": "5.2.7",
+  "title": "",
+  "body": "  Use the properties of the cross product to compute    "
+},
+{
+  "id": "def-cross-product-geo",
+  "level": "2",
+  "url": "VE2.html#def-cross-product-geo",
+  "type": "Definition",
+  "number": "5.2.6",
+  "title": "Cross Product (Geometric Definition).",
+  "body": " Cross Product (Geometric Definition)  cross product (geometric definition)   Let and be two vectors, and let be the angle between them. Then,    "
+},
+{
+  "id": "ve2-cross-product-3",
+  "level": "2",
+  "url": "VE2.html#ve2-cross-product-3",
+  "type": "Activity",
+  "number": "5.2.8",
+  "title": "",
+  "body": "  Find a unit vector orthogonal to both and    "
+},
+{
+  "id": "ve2-cross-product-4",
+  "level": "2",
+  "url": "VE2.html#ve2-cross-product-4",
+  "type": "Activity",
+  "number": "5.2.9",
+  "title": "",
+  "body": "   Torque is the tendency of a force to produce rotation about an axis of rotation. Let is a vector whose initial point is located on the axis of rotation and whose terminal point is located at the point where the force is applied. Let be the vector representing the force. Then, where represents the torque vector.  A bolt is tightened by applying a 10 N force to a wrench of length 0.3 meters; the angle between the wrench and the force vector is . Find the magnitude of the torque about the center of the bolt.   "
 },
 {
   "id": "VE3",
@@ -3354,8 +3489,8 @@ var ptx_lunr_docs = [
   "url": "VE3.html",
   "type": "Section",
   "number": "5.3",
-  "title": "VE3: The Definite Integral",
-  "body": " VE3: The Definite Integral     I3  I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer.      Pre-Class Preparation  Read the following sections of the text:    Section 5.2: The Definite Integral    Read until \"Average Value of a Function\"        In-Class Activities   "
+  "title": "VE3: Lines and Planes in Space",
+  "body": " VE3: Lines and Planes in Space     I3  I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.5: Equations of Lines and Planes in Space    Read all sections        In-Class Activities   "
 },
 {
   "id": "VE3-2",
@@ -3364,7 +3499,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "5.3",
   "title": "",
-  "body": "   I3  I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer.    "
+  "body": "   I3  I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.    "
 },
 {
   "id": "backmatter-2",
