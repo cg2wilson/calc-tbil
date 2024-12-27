@@ -17,8 +17,326 @@
 
     <subsection xml:id="VE3-activities">
         <title>In-Class Activities</title>
+        <!-- 
+        Vector, parametric, symmetric equations of a line through a given point in given direction and line between two points
+        Distance from point to line
+        Distance from plane to line
+        Vector/scalar equations of a plane through a given point with given normal
+        Distance from point to plane
+        Angle between two planes
+        -->
 
- 
+        <remark>
+            <p>
+                In three dimensions, lines can take slightly different form than we are accustomed to in two dimensions.
+            </p>
+        </remark>
+        
+        <definition xml:id="def-direction-vector">
+            <title>Direction Vector</title>
+            <idx><h>direction vector</h></idx>            
+            <statement>
+                <p>
+                    The <term>direction vector</term> of a line is a vector which points in the same direction as the line.
+                </p>
+            </statement>
+        </definition>
+
+        <fact xml:id="fact-parallel-vectors">
+            <statement>
+                <p>
+                    Two vectors are parallel if they have the same or opposite directions. This means that there is some scalar value <m>k</m> such that
+                    <me>
+                        \textbf{u} = k\textbf{v}
+                    </me>
+                    or equivalently that, if the vectors have the same direction
+                    <me>
+                        k = \dfrac{||\textbf{u}||}{||\textbf{v}||}
+                    </me>
+                    or 
+                    <me>
+                        k = -\dfrac{||\textbf{u}||}{||\textbf{v}||}
+                    </me>
+                    if they have opposite directions.
+                </p>
+            </statement>
+        </fact>
+
+        <activity xml:id="ve3-vector-equation-line">
+            <introduction>
+                <p>
+                    This activity will develop the vector equation of a line.
+                </p>
+                <p>
+                    Let <m>L</m> be a line in space passing through the point <m>P(x_0,y_0,z_0)</m> and let <m>\textbf{v} = \lrangle{a,b,c}</m> be a vector parallel to <m>L</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Let <m>Q(x,y,z)</m> be another point on <m>L</m>. Write the vector <m>\textbf{PQ}</m>. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Since <m>Q</m> is on <m>L</m>, <m>\textbf{v}</m> will also be parallel to <m>\textbf{PQ}</m>. Using <xref ref="fact-parallel-vectors"/>, write an expression (using <m>t</m> for your scalar value) relating <m>\textbf{PQ}</m> and <m>\textbf{v}</m>. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use vector operations to complete the equation: <m>\lrangle{x,y,z} = </m><fillin characters="5" />
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <assemblage xml:id="parametric-symmetric-forms-of-lines">
+            <title>Parametric/Symmetric Forms of Lines</title>
+            <p>
+                Let the line <m>L</m> go through the points <m>(x_0,y_0,z_0)</m> and have direction vector <m>\lrangle{a,b,c}</m>.
+            </p>
+            <p>
+                Then, <m>L</m> can be expressed in parametric form as
+                <me>
+                    x = x_0+ta\qquad y = y_0+tb\qquad z = z_0+tc
+                </me>
+                and in symmetric form as
+                <me>
+                    t = \dfrac{x-x_0}{a} = \dfrac{y-y_0}{b} = \dfrac{z-z_0}{c}
+                </me>
+            </p>
+        </assemblage>
+
+        <activity xml:id="ve3-parametric-symmetric-1">
+            <introduction>
+                <p>
+                    Let <m>L</m> be the line passing through the points <m>(1,4,-2)</m> and <m>(0,-3,5)</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which expression gives the parametric form of the line?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which expression gives the symmetric form of the line?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ve3-distance-point-line1">
+            <introduction>
+                <p>
+                    To find the distance between a point and a line, recall that the cross product of two vectors <m>\textbf{a}</m> and <m>\textbf{b}</m> produces a third vector <m>\textbf{a}\times\textbf{b}</m> which is orthogonal to both <m>\textbf{a}</m> and <m>\textbf{b}</m>.
+                </p>
+                <p>
+                    Let <m>L</m> be a line in space passing through the point <m>P</m> with direction vector <m>\textbf{v}</m>. Let <m>M</m> be a point which is not on <m>L</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        First, create a sketch with <m>L</m>, <m>P</m>, <m>\textbf{v}</m>, and <m>M</m>. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Create a parallelogram whose sides are the vector <m>\textbf{PM}</m> and <m>\textbf{v}</m>. It is a fact that the area of the parallelogram is given by <m>||\textbf{PM}\times\textbf{v}</m>. 
+                    </p>
+                    <p>
+                        Write another expression which gives the area of the parallelogram, using <m>d</m> for the distance between <m>M</m> and <m>L</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Solve for <m>d</m> to get the formula for the distance from a point to a line in space.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <assemblage xml:id="formula-distance-point-line">
+            <title>Distance from a Point to a Line</title>
+            <p>
+                Consider line <m>L</m> in space which passes through <m>P</m> with direction vector <m>\textbf{v}</m>. If <m>M</m> is a point not on <m>L</m>, then the distance from <m>M</m> to <m>L</m> is given by
+                <me>
+                    d = \dfrac{||\textbf{PM}\times\textbf{v}||}{||v||}
+                </me>
+            </p>
+        </assemblage>
+
+        <activity xml:id="ve3-distance-point-line2">
+            <introduction>
+                <p>
+                   Find the distance between <m>M = (0,3,-2)</m> and the line given by
+                   <me>
+                    \dfrac{x-3}{4}=\dfrac{y+1}{2} = z-3
+                   </me>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is the correct direction vector for the line?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Why do we know the point <m>P(3,-1,3)</m> lies on the line?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\textbf{PM}</m> is given by which of the following?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrangle{}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute the distance between <m>M</m> and the line.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <definition xml:id="def-skew-lines">
+            <title>Skew Lines</title>
+            <idx><h>skew lines</h></idx>
+            <statement>
+                <p>
+                    Two lines are called <term>skew</term> when they are neither parallel nor intersecting.
+                </p>
+            </statement>
+        </definition>
+
+        <activity>
+            <statement>
+                <p>
+                    Consider the lines given by the parametric equations
+                    <me>
+                        x = 1-4t\qquad y = 3+t\qquad z=8-6t
+                    </me>
+                    and
+                    <me>
+                        x = 2+3s\qquad y = 2s\qquad z = -1-3s
+                    </me>
+                </p>
+                <p>
+                    True or false: the lines are skew
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                True
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                False
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
     </subsection>
 
 </section>
