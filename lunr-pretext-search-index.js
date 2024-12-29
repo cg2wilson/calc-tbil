@@ -2571,7 +2571,7 @@ var ptx_lunr_docs = [
   "url": "A4.html#def-indeterminate-form-division",
   "type": "Definition",
   "number": "3.4.1",
-  "title": "Indeterminate Form (0\/0 and <span xmlns:pf=\"https:\/\/prefigure.org\" class=\"process-math\">\\(\\infty\/\\infty\\)<\/span>).",
+  "title": "Indeterminate Form (0\/0 and <span class=\"process-math\">\\(\\infty\/\\infty\\)<\/span>).",
   "body": " Indeterminate Form (0\/0 and )  indeterminate form (0\/0)  indeterminate form ( )   An indeterminate form of the type 0\/0 is a limit of the form where and , or and    "
 },
 {
@@ -3337,7 +3337,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "VE2: Dot Products and Cross Products",
-  "body": " VE2: Dot Products and Cross Products     I2  I can compute and apply the dot product and cross product of vectors.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.3: The Dot Product    Read all sections      Volume 3, Section 2.4: The Cross Product    Read all sections        In-Class Activities   In , we learned how to add vectors and multiply vectors with scalar values ; we didn't talk about multiplying two vectors.  There are two ways of multiplying vectors: the dot product and the cross product .    Dot Product (Algebraic Definition)  dot product (algebraic definition)  scalar product   Given two vectors and , the dot product of and is given by   The dot product is sometimes also called the scalar product because it results in a scalar value rather than a vector value.      Which option gives the dot product ?        7                   This activity will introduce some properties of the dot product. Let , , and     Find , , and .    Compute     Which of these statements is true about ? Justify your response.   It is similar but not the same as     It is the same as     It is not similar to        Compute and .    True or false: . Justify your answer.   True    False       Let be a scalar value. For the value , does it matter if we compute or ? Why or why not?   Yes, it matters because the values are different from     Yes, because we get a vector value when we should get a scalar value    No, because we get a scalar value when we expect a scalar value    No, because the values are the same as        Compute and . How do these compare with the lengths you computed in part (a)?    Use the previous part to predict the value of      Properties of the Dot Product  Let , and be vectors, and let be a scalar value.   (Commutative Property)     (Distributive Property)     (Associative Property)     (Property of magnitude)        Dot Product (Geometric Definition)  dot product (geometric definition)   If the angle between the two vectors and is given by (in radians), then       Which is the correct angle between the vectors and ?                            Two vectors are said to be orthogonal if the angle between them is or .    What is the value of the dot product for two orthogonal vectors?             Any value    0       Are the vectors and orthogonal? Justify your answer.    For what value or values of is the vector orthogonal to ?            When constant force is applied to an object so that the object moves in a straight line from point to point , the work done by the form , acting at an angle from the line of motion, is given by   A constant force of 30 pounds is applied at an gle of to pull a handcart 10 feet across the ground. What is the work done by this force?     Cross Product (Algebraic Definition)  cross product (algebraic definition)   The cross product , or vector product, of two vectors and is given by      The cross product of two vectors and produces a third vector, , which is orthogonal to and according to the right-hand rule.        Let and .    Which vector gives the cross product ?                          Which option gives the cross product ?                          In order to be commutative, it must be true that . Is the cross product commutative? What relationship, if any, can you establish from this task?     Properties of the Cross Product  Let be three-dimensional vectors, and let be a scalar. Then, the following properties hold:   (Anticommutative Property)     (Distributive Property)     (Constant Multiple Property)     (Cross Product of Zero Vector)     (Cross Product of a Vector with Itself)         Use the properties of the cross product to compute      Cross Product (Geometric Definition)  cross product (geometric definition)   Let and be two vectors, and let be the angle between them. Then,       Find a unit vector orthogonal to both and        Torque is the tendency of a force to produce rotation about an axis of rotation. Let is a vector whose initial point is located on the axis of rotation and whose terminal point is located at the point where the force is applied. Let be the vector representing the force. Then, where represents the torque vector.  A bolt is tightened by applying a 10 N force to a wrench of length 0.3 meters; the angle between the wrench and the force vector is . Find the magnitude of the torque about the center of the bolt.     "
+  "body": " VE2: Dot Products and Cross Products     VE2  I can compute and apply the dot product and cross product of vectors.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.3: The Dot Product    Read all sections      Volume 3, Section 2.4: The Cross Product    Read all sections        In-Class Activities   In , we learned how to add vectors and multiply vectors with scalar values ; we didn't talk about multiplying two vectors.  There are two ways of multiplying vectors: the dot product and the cross product .    Dot Product (Algebraic Definition)  dot product (algebraic definition)  scalar product   Given two vectors and , the dot product of and is given by   The dot product is sometimes also called the scalar product because it results in a scalar value rather than a vector value.      Which option gives the dot product ?        7                   This activity will introduce some properties of the dot product. Let , , and     Find , , and .    Compute     Which of these statements is true about ? Justify your response.   It is similar but not the same as     It is the same as     It is not similar to        Compute and .    True or false: . Justify your answer.   True    False       Let be a scalar value. For the value , does it matter if we compute or ? Why or why not?   Yes, it matters because the values are different from     Yes, because we get a vector value when we should get a scalar value    No, because we get a scalar value when we expect a scalar value    No, because the values are the same as        Compute and . How do these compare with the lengths you computed in part (a)?    Use the previous part to predict the value of      Properties of the Dot Product  Let , and be vectors, and let be a scalar value.   (Commutative Property)     (Distributive Property)     (Associative Property)     (Property of magnitude)        Dot Product (Geometric Definition)  dot product (geometric definition)   If the angle between the two vectors and is given by (in radians), then       Which is the correct angle between the vectors and ?                            Two vectors are said to be orthogonal if the angle between them is or .    What is the value of the dot product for two orthogonal vectors?             Any value    0       Are the vectors and orthogonal? Justify your answer.    For what value or values of is the vector orthogonal to ?            When constant force is applied to an object so that the object moves in a straight line from point to point , the work done by the form , acting at an angle from the line of motion, is given by   A constant force of 30 pounds is applied at angle of to pull a handcart 10 feet across the ground. What is the work done by this force?     Cross Product (Algebraic Definition)  cross product (algebraic definition)   The cross product , or vector product, of two vectors and is given by      The cross product of two vectors and produces a third vector, , which is orthogonal to and according to the right-hand rule.        Let and .    Which vector gives the cross product ?                          Which option gives the cross product ?                          In order to be commutative, it must be true that . Is the cross product commutative? What relationship, if any, can you establish from this task?     Properties of the Cross Product  Let be three-dimensional vectors, and let be a scalar. Then, the following properties hold:   (Anticommutative Property)     (Distributive Property)     (Constant Multiple Property)     (Cross Product of Zero Vector)     (Cross Product of a Vector with Itself)         Use the properties of the cross product to compute      Cross Product (Geometric Definition)  cross product (geometric definition)   Let and be two vectors, and let be the angle between them. Then,       Find a unit vector orthogonal to both and        Torque is the tendency of a force to produce rotation about an axis of rotation. Let is a vector whose initial point is located on the axis of rotation and whose terminal point is located at the point where the force is applied. Let be the vector representing the force. Then, where represents the torque vector.  A bolt is tightened by applying a 10 N force to a wrench of length 0.3 meters; the angle between the wrench and the force vector is . Find the magnitude of the torque about the center of the bolt.     "
 },
 {
   "id": "VE2-2",
@@ -3346,7 +3346,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "5.2",
   "title": "",
-  "body": "   I2  I can compute and apply the dot product and cross product of vectors.    "
+  "body": "   VE2  I can compute and apply the dot product and cross product of vectors.    "
 },
 {
   "id": "VE2-activities-2",
@@ -3418,7 +3418,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "5.2.5",
   "title": "",
-  "body": "  When constant force is applied to an object so that the object moves in a straight line from point to point , the work done by the form , acting at an angle from the line of motion, is given by   A constant force of 30 pounds is applied at an gle of to pull a handcart 10 feet across the ground. What is the work done by this force?   "
+  "body": "  When constant force is applied to an object so that the object moves in a straight line from point to point , the work done by the form , acting at an angle from the line of motion, is given by   A constant force of 30 pounds is applied at angle of to pull a handcart 10 feet across the ground. What is the work done by this force?   "
 },
 {
   "id": "def-cross-product-alg",
@@ -3490,7 +3490,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "VE3: Lines and Planes in Space",
-  "body": " VE3: Lines and Planes in Space     I3  I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.5: Equations of Lines and Planes in Space    Read all sections        In-Class Activities   "
+  "body": " VE3: Lines and Planes in Space     VE3  I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.5: Equations of Lines and Planes in Space    Read all sections        In-Class Activities    In three dimensions, lines can take slightly different form than we are accustomed to in two dimensions.    Direction Vector  direction vector   The direction vector of a line is a vector which points in the same direction as the line.      Two vectors are parallel if they have the same or opposite directions. This means that there is some scalar value such that or equivalently that, if the vectors have the same direction or if they have opposite directions.      This activity will develop the vector equation of a line.  Let be a line in space passing through the point and let be a vector parallel to .    Let be another point on . Write the vector .    Since is on , will also be parallel to . Using , write an expression (using for your scalar value) relating and .    Use vector operations to complete the equation:      Parametric\/Symmetric Forms of Lines  Let the line go through the points and have direction vector .  Then, can be expressed in parametric form as and in symmetric form as      Let be the line passing through the points and .    Which expression gives the parametric form of the line?              Which expression gives the symmetric form of the line?            To find the distance between a point and a line, recall that the cross product of two vectors and produces a third vector which is orthogonal to both and .  Let be a line in space passing through the point with direction vector . Let be a point which is not on .    First, create a sketch with , , , and .    Create a parallelogram whose sides are the vector and . It is a fact that the area of the parallelogram is given by .  Write another expression which gives the area of the parallelogram, using for the distance between and .    Solve for to get the formula for the distance from a point to a line in space.     Distance from a Point to a Line  Consider line in space which passes through with direction vector . If is a point not on , then the distance from to is given by      Find the distance between and the line given by     Which is the correct direction vector for the line?                          Why do we know the point lies on the line?     is given by which of the following?                          Compute the distance between and the line.     Skew Lines  skew lines   Two lines are called skew when they are neither parallel nor intersecting.      Consider the lines given by the parametric equations and   True or false: the lines are skew   True    False        "
 },
 {
   "id": "VE3-2",
@@ -3499,7 +3499,250 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "5.3",
   "title": "",
-  "body": "   I3  I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.    "
+  "body": "   VE3  I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.    "
+},
+{
+  "id": "VE3-activities-2",
+  "level": "2",
+  "url": "VE3.html#VE3-activities-2",
+  "type": "Remark",
+  "number": "5.3.1",
+  "title": "",
+  "body": " In three dimensions, lines can take slightly different form than we are accustomed to in two dimensions.  "
+},
+{
+  "id": "def-direction-vector",
+  "level": "2",
+  "url": "VE3.html#def-direction-vector",
+  "type": "Definition",
+  "number": "5.3.2",
+  "title": "Direction Vector.",
+  "body": " Direction Vector  direction vector   The direction vector of a line is a vector which points in the same direction as the line.   "
+},
+{
+  "id": "fact-parallel-vectors",
+  "level": "2",
+  "url": "VE3.html#fact-parallel-vectors",
+  "type": "Fact",
+  "number": "5.3.3",
+  "title": "",
+  "body": "  Two vectors are parallel if they have the same or opposite directions. This means that there is some scalar value such that or equivalently that, if the vectors have the same direction or if they have opposite directions.   "
+},
+{
+  "id": "ve3-vector-equation-line",
+  "level": "2",
+  "url": "VE3.html#ve3-vector-equation-line",
+  "type": "Activity",
+  "number": "5.3.1",
+  "title": "",
+  "body": "  This activity will develop the vector equation of a line.  Let be a line in space passing through the point and let be a vector parallel to .    Let be another point on . Write the vector .    Since is on , will also be parallel to . Using , write an expression (using for your scalar value) relating and .    Use vector operations to complete the equation:    "
+},
+{
+  "id": "ve3-parametric-symmetric-1",
+  "level": "2",
+  "url": "VE3.html#ve3-parametric-symmetric-1",
+  "type": "Activity",
+  "number": "5.3.2",
+  "title": "",
+  "body": "  Let be the line passing through the points and .    Which expression gives the parametric form of the line?              Which expression gives the symmetric form of the line?         "
+},
+{
+  "id": "ve3-distance-point-line1",
+  "level": "2",
+  "url": "VE3.html#ve3-distance-point-line1",
+  "type": "Activity",
+  "number": "5.3.3",
+  "title": "",
+  "body": "  To find the distance between a point and a line, recall that the cross product of two vectors and produces a third vector which is orthogonal to both and .  Let be a line in space passing through the point with direction vector . Let be a point which is not on .    First, create a sketch with , , , and .    Create a parallelogram whose sides are the vector and . It is a fact that the area of the parallelogram is given by .  Write another expression which gives the area of the parallelogram, using for the distance between and .    Solve for to get the formula for the distance from a point to a line in space.   "
+},
+{
+  "id": "ve3-distance-point-line2",
+  "level": "2",
+  "url": "VE3.html#ve3-distance-point-line2",
+  "type": "Activity",
+  "number": "5.3.4",
+  "title": "",
+  "body": "  Find the distance between and the line given by     Which is the correct direction vector for the line?                          Why do we know the point lies on the line?     is given by which of the following?                          Compute the distance between and the line.   "
+},
+{
+  "id": "def-skew-lines",
+  "level": "2",
+  "url": "VE3.html#def-skew-lines",
+  "type": "Definition",
+  "number": "5.3.4",
+  "title": "Skew Lines.",
+  "body": " Skew Lines  skew lines   Two lines are called skew when they are neither parallel nor intersecting.   "
+},
+{
+  "id": "VE3-activities-12",
+  "level": "2",
+  "url": "VE3.html#VE3-activities-12",
+  "type": "Activity",
+  "number": "5.3.5",
+  "title": "",
+  "body": "  Consider the lines given by the parametric equations and   True or false: the lines are skew   True    False      "
+},
+{
+  "id": "AI1",
+  "level": "1",
+  "url": "AI1.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "AI1: Volumes by Cross-Sectional Area",
+  "body": " AI1: Volumes by Cross-Sectional Area     AI1  I can determine the volume of objects by integrating cross-sectional areas.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: Determining Volumes by Slicing    Read until \"Solids of Revolution\"        In-Class Activities   "
+},
+{
+  "id": "AI1-2",
+  "level": "2",
+  "url": "AI1.html#AI1-2",
+  "type": "Objectives",
+  "number": "6.1",
+  "title": "",
+  "body": "   AI1  I can determine the volume of objects by integrating cross-sectional areas.    "
+},
+{
+  "id": "AI2",
+  "level": "1",
+  "url": "AI2.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "AI2: Volumes by Disks\/Washers",
+  "body": " AI2: Volumes by Disks\/Washers     AI2  I can use the disk and washer methods to compute the volume of solids of revolution.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: Determining Volumes by Slicing    Read from \"Solids of Revolution\" to the end        In-Class Activities   "
+},
+{
+  "id": "AI2-2",
+  "level": "2",
+  "url": "AI2.html#AI2-2",
+  "type": "Objectives",
+  "number": "6.2",
+  "title": "",
+  "body": "   AI2  I can use the disk and washer methods to compute the volume of solids of revolution.    "
+},
+{
+  "id": "AI3",
+  "level": "1",
+  "url": "AI3.html",
+  "type": "Section",
+  "number": "6.3",
+  "title": "AI3: Volumes by Cylindrical Shells",
+  "body": " AI3: Volumes by Cylindrical Shells     AI3  I can use the method of cylindrical shells to compute the volume of solids of revolution.      Pre-Class Preparation  Read the following sections of the text:    Section 2.3: Volumes of Revolution: Cylindrical Shells    Read all sections        In-Class Activities   "
+},
+{
+  "id": "AI3-2",
+  "level": "2",
+  "url": "AI3.html#AI3-2",
+  "type": "Objectives",
+  "number": "6.3",
+  "title": "",
+  "body": "   AI3  I can use the method of cylindrical shells to compute the volume of solids of revolution.    "
+},
+{
+  "id": "AI4",
+  "level": "1",
+  "url": "AI4.html",
+  "type": "Section",
+  "number": "6.4",
+  "title": "AI4: Arc Length &amp; Surface Area",
+  "body": " AI4: Arc Length & Surface Area     AI4  I can determine the arc length of a curve and the surface area of a solid of revolution.      Pre-Class Preparation  Read the following sections of the text:    Section 2.4: Arc Length of a Curve and Surface Area    Read all sections        In-Class Activities   "
+},
+{
+  "id": "AI4-2",
+  "level": "2",
+  "url": "AI4.html#AI4-2",
+  "type": "Objectives",
+  "number": "6.4",
+  "title": "",
+  "body": "   AI4  I can determine the arc length of a curve and the surface area of a solid of revolution.    "
+},
+{
+  "id": "TI1",
+  "level": "1",
+  "url": "TI1.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "TI1: Integration by Parts",
+  "body": " TI1: Integration by Parts     TI1  I can compute integrals using integration by parts.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Integration by Parts    Read all sections        In-Class Activities   "
+},
+{
+  "id": "TI1-2",
+  "level": "2",
+  "url": "TI1.html#TI1-2",
+  "type": "Objectives",
+  "number": "7.1",
+  "title": "",
+  "body": "   TI1  I can compute integrals using integration by parts.    "
+},
+{
+  "id": "TI2",
+  "level": "1",
+  "url": "TI2.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "TI2: Trigonometric Integrals",
+  "body": " TI2: Trigonometric Integrals     TI2  I can compute the integrals of combinations of trigonometric functions.      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: Trigonometric Integrals    Read all sections        In-Class Activities   "
+},
+{
+  "id": "TI2-2",
+  "level": "2",
+  "url": "TI2.html#TI2-2",
+  "type": "Objectives",
+  "number": "7.2",
+  "title": "",
+  "body": "   TI2  I can compute the integrals of combinations of trigonometric functions.    "
+},
+{
+  "id": "TI3",
+  "level": "1",
+  "url": "TI3.html",
+  "type": "Section",
+  "number": "7.3",
+  "title": "TI3: Trigonometric Substitution",
+  "body": " TI3: Trigonometric Substitution     TI3  I can compute integrals using trigonometric substitution.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Trigonometric Substitution    Read all sections        In-Class Activities   "
+},
+{
+  "id": "TI3-2",
+  "level": "2",
+  "url": "TI3.html#TI3-2",
+  "type": "Objectives",
+  "number": "7.3",
+  "title": "",
+  "body": "   TI3  I can compute integrals using trigonometric substitution.    "
+},
+{
+  "id": "TI4",
+  "level": "1",
+  "url": "TI4.html",
+  "type": "Section",
+  "number": "7.4",
+  "title": "TI4: Integration by Partial Fractions",
+  "body": " TI4: Integration by Partial Fractions     TI4  I can use partial fraction decomposition as a means to compute integrals of rational or rational-like functions.      Pre-Class Preparation  Read the following sections of the text:    Section 3.4: Partial Fractions    Read all sections        In-Class Activities   "
+},
+{
+  "id": "TI4-2",
+  "level": "2",
+  "url": "TI4.html#TI4-2",
+  "type": "Objectives",
+  "number": "7.4",
+  "title": "",
+  "body": "   TI4  I can use partial fraction decomposition as a means to compute integrals of rational or rational-like functions.    "
+},
+{
+  "id": "TI5",
+  "level": "1",
+  "url": "TI5.html",
+  "type": "Section",
+  "number": "7.5",
+  "title": "TI5: Improper Integrals",
+  "body": " TI5: Improper Integrals     TI5  I can compute the integral of a function on an unbounded input interval.      Pre-Class Preparation  Read the following sections of the text:    Section 3.7: Improper Integrals    Read all sections        In-Class Activities   "
+},
+{
+  "id": "TI5-2",
+  "level": "2",
+  "url": "TI5.html#TI5-2",
+  "type": "Objectives",
+  "number": "7.5",
+  "title": "",
+  "body": "   TI5  I can compute the integral of a function on an unbounded input interval.    "
 },
 {
   "id": "backmatter-2",
