@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="TI5" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>TI5: Improper Integrals</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>TI5</title>
+                <p>
+                    I can compute the integral of a function on an unbounded input interval.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/TI5-prep.ptx" />
+
+    <subsection xml:id="TI5-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

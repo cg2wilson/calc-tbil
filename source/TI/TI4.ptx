@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="TI4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>TI4: Integration by Partial Fractions</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>TI4</title>
+                <p>
+                    I can use partial fraction decomposition as a means to compute integrals of rational or rational-like functions.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/TI4-prep.ptx" />
+
+    <subsection xml:id="TI4-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

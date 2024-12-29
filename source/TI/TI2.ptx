@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="TI2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>TI2: Trigonometric Integrals</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>TI2</title>
+                <p>
+                    I can compute the integrals of combinations of trigonometric functions.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/TI2-prep.ptx" />
+
+    <subsection xml:id="TI2-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

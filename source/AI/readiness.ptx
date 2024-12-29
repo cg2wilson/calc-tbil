@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<introduction xml:id="AI-readiness" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Readiness Assurance</title>
+      <p>
+        Before beginning this chapter, you should be able to...
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+                Compute an integral using the limit definition of a definite integral (<url href="https://youtu.be/F0uuW-I6icY?si=NamS9gNy0QM29Ah6">Professor Leonard</url> and <url href="https://www.youtube.com/watch?v=CXCtqBlEZ7g">Khan Academy</url>)
+            </p>
+            <p>
+                Compute integrals using the Fundamental Theorem of Calculus (<url href="https://www.youtube.com/watch?v=ns8N1UuXl4w">Organic Chemistry Tutor</url> and <url href="https://youtu.be/xjtEfS0vY2o?si=tgQx2Ra_XpujCFFk">Professor Leonard</url>)
+            </p>
+          </li>
+          <li>
+            <p>
+                Find the area between two curves (<url href="https://www.youtube.com/watch?v=kgg5Rspf1Js">Organic Chemistry Tutor</url> and <url href="https://www.youtube.com/watch?v=c7wur9Lixb0">Professor Leonard</url>)
+            </p>
+          </li>
+        </ol>  
+      </p>
+</introduction>

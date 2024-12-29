@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="TI1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>TI1: Integration by Parts</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>TI1</title>
+                <p>
+                    I can compute integrals using integration by parts.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/TI1-prep.ptx" />
+
+    <subsection xml:id="TI1-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

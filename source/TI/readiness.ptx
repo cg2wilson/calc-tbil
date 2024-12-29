@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<introduction xml:id="TI-readiness" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Readiness Assurance</title>
+      <p>
+        Before beginning this chapter, you should be able to...
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+                Compute integrals using the Fundamental Theorem of Calculus (<url href="https://www.youtube.com/watch?v=ns8N1UuXl4w">Organic Chemistry Tutor</url> and <url href="https://youtu.be/xjtEfS0vY2o?si=tgQx2Ra_XpujCFFk">Professor Leonard</url>)
+            </p>
+          </li>
+          <li>
+            <p>
+                Compute integrals using substitution (<url href="https://youtu.be/sdYdnpYn-1o?si=Hv2DiGxrNR6QtFRX">Organic Chemistry Tutor</url> and <url href="https://youtu.be/8B31SAk1nD8?si=hqpB76KN26scRpg0">NancyPi</url>)
+            </p>
+          </li>
+          <li>
+            <p>
+                Use identities to convert between forms of trigonometric functions (<url href="https://www.youtube.com/watch?v=m1OitPmkydY">Organic Chemistry Tutor</url> and <url href="https://youtu.be/4OEeVLo5V1o?si=lQacNwdu8Qo-8awf">Khan Academy</url>)
+            </p>
+          </li>
+          <li>
+            <p>
+                Decompose a fraction into smaller pieces (<url href="https://www.youtube.com/watch?v=QKkdYW77xNI">Organic Chemistry Tutor</url>)
+            </p>
+          </li>
+        </ol>  
+      </p>
+</introduction>

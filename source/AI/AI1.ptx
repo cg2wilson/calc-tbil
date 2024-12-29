@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="AI1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>AI1: Volumes by Cross-Sectional Area</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>AI1</title>
+                <p>
+                    I can determine the volume of objects by integrating cross-sectional areas.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/AI1-prep.ptx" />
+
+    <subsection xml:id="AI1-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

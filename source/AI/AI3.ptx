@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="AI3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>AI3: Volumes by Cylindrical Shells</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>AI3</title>
+                <p>
+                    I can use the method of cylindrical shells to compute the volume of solids of revolution.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/AI3-prep.ptx" />
+
+    <subsection xml:id="AI3-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

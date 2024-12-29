@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="AI4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>AI4: Arc Length &amp; Surface Area</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>AI4</title>
+                <p>
+                   I can determine the arc length of a curve and the surface area of a solid of revolution.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/AI4-prep.ptx" />
+
+    <subsection xml:id="AI4-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

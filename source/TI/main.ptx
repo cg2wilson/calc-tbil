@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-TI" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Techniques of Integration (AI)</title>
+
+  <objectives>
+    <introduction>
+      <p>
+        This module develops techniques of integration for functions of several forms, as well as integrals with unbounded inputs:
+      </p>
+    </introduction>
+      <dl>
+        <li>
+          <title>TI1</title>
+          <p>
+            I can compute integrals using integration by parts.
+          </p>
+        </li>
+        <li>
+          <title>TI2</title>
+          <p>
+            I can compute the integrals of combinations of trigonometric functions.
+          </p>
+        </li>
+        <li>
+          <title>TI3</title>
+          <p>
+            I can compute integrals using trigonometric substitution.
+          </p>
+        </li>
+        <li>
+          <title>TI4</title>
+          <p>
+            I can use partial fraction decomposition as a means to compute integrals of rational or rational-like functions.
+          </p>
+        </li>
+        <li>
+          <title>TI5</title>
+          <p>
+            I can compute the integral of a function on an unbounded input interval.
+          </p>
+        </li>
+      </dl>
+  </objectives>
+  
+  <xi:include href="./readiness.ptx" />
+  <xi:include href="./TI1.ptx" />
+  <xi:include href="./TI2.ptx" />
+  <xi:include href="./TI3.ptx" />
+  <xi:include href="./TI4.ptx" />
+  <xi:include href="./TI5.ptx" />
+
+  
+
+</chapter>

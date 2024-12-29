@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="TI3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>TI3: Trigonometric Substitution</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>TI3</title>
+                <p>
+                    I can compute integrals using trigonometric substitution.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/TI3-prep.ptx" />
+
+    <subsection xml:id="TI3-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

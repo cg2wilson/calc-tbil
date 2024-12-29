@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-AI" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Applications of Integration (AI)</title>
+
+  <objectives>
+    <introduction>
+      <p>
+        This module describes the conceptual development and computational development of the derivative. It contains nine learning targets:
+      </p>
+    </introduction>
+      <dl>
+        <li>
+          <title>AI1</title>
+          <p>
+            I can determine the volume of objects by integrating cross-sectional areas.
+          </p>
+        </li>
+        <li>
+          <title>AI2</title>
+          <p>
+            I can use the disk and washer methods to compute the volume of solids of revolution.
+          </p>
+        </li>
+        <li>
+          <title>AI3</title>
+          <p>
+            I can use the method of cylindrical shells to compute the volume of solids of revolution.
+          </p>
+        </li>
+        <li>
+          <title>AI4</title>
+          <p>
+            I can determine the arc length of a curve and the surface area of a solid of revolution.
+          </p>
+        </li>
+      </dl>
+  </objectives>
+  
+  <xi:include href="./readiness.ptx" />
+  <xi:include href="./AI1.ptx" />
+  <xi:include href="./AI2.ptx" />
+  <xi:include href="./AI3.ptx" />
+  <xi:include href="./AI4.ptx" />
+
+  
+
+</chapter>
