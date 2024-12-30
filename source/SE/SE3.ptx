@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="SE3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>SE3: The Integral Test</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>SE3</title>
+                <p>
+                    I can use the integral test to determine if a series converges or diverges.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/SE3-prep.ptx" />
+
+    <subsection xml:id="SE3-activities">
+        <title>In-Class Activities</title>
+
+
+    </subsection>
+
+</section>

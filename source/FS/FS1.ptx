@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="FS1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>FS1: Double Integrals in Cartesian Coordinates</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>FS1</title>
+                <p>
+                    I can parametrize curves and use calculus to analyze their behavior.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/FS1-prep.ptx" />
+
+    <subsection xml:id="FS1-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

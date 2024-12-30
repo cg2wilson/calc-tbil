@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="VF5" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>VF5: The Jacobian</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>VF5</title>
+                <p>
+                    I can identify when I can use Green’s Theorem, and use it for computations.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/VF5-prep.ptx" />
+
+    <subsection xml:id="VF5-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="PD1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>PD1: Functions of Multiple Variables</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>PD1</title>
+                <p>
+                    I can work with functions of multiple variables, including identifying contour curves, level surfaces, and quadric surfaces.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/PD1-prep.ptx" />
+
+    <subsection xml:id="PD1-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

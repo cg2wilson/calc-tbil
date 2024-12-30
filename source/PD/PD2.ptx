@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="PD2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>PD2: Limits and Continuity</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>PD2</title>
+                <p>
+                    I can compute the limit of a function of multiple variables and identify where a function of two variables is discontinuous.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/PD2-prep.ptx" />
+
+    <subsection xml:id="PD2-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

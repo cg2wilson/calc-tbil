@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="VF1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>VF1: Double Integrals in Cartesian Coordinates</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>VF1</title>
+                <p>
+                    I can parametrize curves and use calculus to analyze their behavior.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/VF1-prep.ptx" />
+
+    <subsection xml:id="VF1-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

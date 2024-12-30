@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-SE" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sequences and Series (SE)</title>
+
+  <objectives>
+    <introduction>
+      <p>
+        This module describes sequences and how to add up sequences (called series):
+      </p>
+    </introduction>
+      <dl>
+        <li>
+          <title>SE1</title>
+          <p>
+            I can work with sequences by determining its general form, computing its limit, and determining its convergence or divergence
+          </p>
+        </li>
+        <li>
+          <title>SE2</title>
+          <p>
+            I can determine if a series is geometric, telescoping, or neither, and find its sum if possible.
+          </p>
+        </li>
+        <li>
+          <title>SE3</title>
+          <p>
+            I can use the integral test to determine if a series converges or diverges
+          </p>
+        </li>
+        <li>
+          <title>SE4</title>
+          <p>
+            I can use the direct comparison test and limit comparison test to determine if a series converges or diverges
+          </p>
+        </li>
+        <li>
+          <title>SE5</title>
+          <p>
+            I can determine the convergence or divergence of an alternating series, and determine if the series converges absolutely or conditionally.
+          </p>
+        </li>
+        <li>
+          <title>SE6</title>
+          <p>
+            I can use the ratio test and the root test to determine if a series converges absolutely, conditionally, or diverges
+          </p>
+        </li>
+        <li>
+          <title>SE7</title>
+          <p>
+            I can determine if a series converges or diverges, and use the appropriate test to show why.  
+          </p>
+        </li>
+      </dl>
+  </objectives>
+  
+  <xi:include href="./readiness.ptx" />
+  <xi:include href="./SE1.ptx" />
+  <xi:include href="./SE2.ptx" />
+  <xi:include href="./SE3.ptx" />
+  <xi:include href="./SE4.ptx" />
+  <xi:include href="./SE5.ptx" />
+  <xi:include href="./SE6.ptx" />
+
+  
+
+</chapter>

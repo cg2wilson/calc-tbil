@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="MI4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>MI4: Triple Integrals in Cylindrical/Spherical Coordinates</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>MI4</title>
+                <p>
+                    I can compute triple integrals in cylindrical or spherical coordinates.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/MI4-prep.ptx" />
+
+    <subsection xml:id="MI4-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

@@ -1,0 +1,29 @@
+<assemblage xml:id="MI2-prep">
+    <title>Pre-Class Preparation</title>
+    <p>
+        Read the following sections of the text:
+        <ul>
+            <li>
+                <p>
+                    <url visual="" href="https://openstax.org/books/calculus-volume-3/pages/1-3-polar-coordinates">Section 1.3: Polar Coordinates</url>
+                </p>
+                <p>
+                    <em>Read all sections</em>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <url visual="" href="https://openstax.org/books/calculus-volume-3/pages/1-4-area-and-arc-length-in-polar-coordinates">Section 1.4: Area and Arc Length in Polar Coordinates</url>
+                </p>
+                <p>
+                    <em>Read "Areas of Regions Bounded by Polar Curves" only</em>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <url visual="" href="https://openstax.org/books/calculus-volume-3/pages/5-3-double-integrals-in-polar-coordinates">Section 5.3: Double Integrals in Polar Coordinates</url>
+                </p>
+            </li>
+        </ul>
+    </p>
+</assemblage>

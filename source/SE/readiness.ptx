@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<introduction xml:id="SE-readiness" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Readiness Assurance</title>
+      <p>
+        Before beginning this chapter, you should be able to...
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+                Compute an improper integral (<url href="https://youtu.be/qv7DM5Ph0vU?si=7P25vGil1Gy17RN8">Khan Academy</url>)
+            </p>
+          </li>
+        </ol>  
+      </p>
+</introduction>

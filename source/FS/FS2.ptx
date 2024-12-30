@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="FS2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>FS2: Double Integrals in Polar Coordinates</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>FS2</title>
+                <p>
+                    I can work with vector-valued functions in space, and use calculus to analyze their behavior.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/FS2-prep.ptx" />
+
+    <subsection xml:id="FS2-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

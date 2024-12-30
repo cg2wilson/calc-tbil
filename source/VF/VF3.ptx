@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="VF3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>VF3: Triple Integrals in Cartesian Coordinates</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>VF3</title>
+                <p>
+                    I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/VF3-prep.ptx" />
+
+    <subsection xml:id="VF3-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

@@ -20,14 +20,12 @@
     <xi:include href="./VE/main.ptx" />
     <xi:include href="./AI/main.ptx" />
     <xi:include href="./TI/main.ptx" />
-    <!--
     <xi:include href="./SE/main.ptx" />
     <xi:include href="./PS/main.ptx" />
     <xi:include href="./PD/main.ptx" />
     <xi:include href="./MI/main.ptx" />
     <xi:include href="./VF/main.ptx" />
     <xi:include href="./FS/main.ptx" />
-    -->
     <!-- Include backmatter -->
     <xi:include href="./meta/backmatter.ptx" />
 

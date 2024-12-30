@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-MI" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Multiple Integrals (MI)</title>
+
+  <objectives>
+    <introduction>
+      <p>
+        This module describes the conceptual development and computational development of multiple integrals, some of its uses, and its computation in different coordinate systems.
+      </p>
+    </introduction>
+      <dl>
+        <li>
+          <title>MI1</title>
+          <p>
+            I can compute double integrals using Cartesian coordinates, and interpret the results.
+          </p>
+        </li>
+        <li>
+          <title>MI2</title>
+          <p>
+            I can compute double integrals using polar coordinates
+          </p>
+        </li>
+        <li>
+          <title>MI3</title>
+          <p>
+            I can compute triple integrals over rectangular boxes, and interpret the results.
+          </p>
+        </li>
+        <li>
+          <title>MI4</title>
+          <p>
+            I can compute triple integrals in cylindrical or spherical coordinates
+          </p>
+        </li>
+        <li>
+          <title>MI5</title>
+          <p>
+            I can compute and use the Jacobian of a transformation in order to change variables of a multiple integral.
+          </p>
+        </li>
+      </dl>
+  </objectives>
+  
+  <xi:include href="./readiness.ptx" />
+  <xi:include href="./MI1.ptx" />
+  <xi:include href="./MI2.ptx" />
+  <xi:include href="./MI3.ptx" />
+  <xi:include href="./MI4.ptx" />
+  <xi:include href="./MI5.ptx" />
+
+</chapter>

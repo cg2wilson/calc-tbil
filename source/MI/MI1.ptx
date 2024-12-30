@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="MI1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>MI1: Double Integrals in Cartesian Coordinates</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>MI1</title>
+                <p>
+                    I can compute double integrals using Cartesian coordinates, and interpret the results.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/MI1-prep.ptx" />
+
+    <subsection xml:id="MI1-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

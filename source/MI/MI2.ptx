@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="MI2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>MI2: Double Integrals in Polar Coordinates</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>MI2</title>
+                <p>
+                    I can compute double integrals using polar coordinates
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/MI2-prep.ptx" />
+
+    <subsection xml:id="MI2-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

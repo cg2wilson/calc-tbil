@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="PS3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>PS3: Taylor and Maclaurin Series</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>PS3</title>
+                <p>
+                    I can compute the Taylor or Maclaurin series of a function, centered at a given input.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/PS3-prep.ptx" />
+
+    <subsection xml:id="PS3-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

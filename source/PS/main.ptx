@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-PS" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Power Series (PS)</title>
+
+  <objectives>
+    <introduction>
+      <p>
+        This module describes power series- how to find them, and use them to approximate functions.
+      </p>
+    </introduction>
+      <dl>
+        <li>
+          <title>PS1</title>
+          <p>
+            I can determine the radius and interval of convergence of a power series.
+          </p>
+        </li>
+        <li>
+          <title>PS2</title>
+          <p>
+            I can use properties of work with and represent power series by addition, subtraction, multiplication, differentiation, or integration
+          </p>
+        </li>
+        <li>
+          <title>PS3</title>
+          <p>
+            I can compute the Taylor or Maclaurin series of a function, centered at a given input
+          </p>
+        </li>
+      </dl>
+  </objectives>
+  
+  <xi:include href="./readiness.ptx" />
+  <xi:include href="./PS1.ptx" />
+  <xi:include href="./PS2.ptx" />
+  <xi:include href="./PS3.ptx" />
+
+  
+
+</chapter>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="SE5" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>SE5: The Alternating Series Test</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>SE5</title>
+                <p>
+                    I can determine the convergence or divergence of an alternating series, and determine if the series converges absolutely or conditionally.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/SE5-prep.ptx" />
+
+    <subsection xml:id="SE5-activities">
+        <title>In-Class Activities</title>
+
+
+    </subsection>
+
+</section>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="SE1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>SE1: Sequences</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>SE1</title>
+                <p>
+                    I can work with sequences by determining its general form, computing its limit, and determining its convergence or divergence.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/SE1-prep.ptx" />
+
+    <subsection xml:id="SE1-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>

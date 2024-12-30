@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<introduction xml:id="PD-readiness" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Readiness Assurance</title>
+      <p>
+        Before beginning this chapter, you should be able to...
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Describe the concept of a limit of a function (<url href="https://www.youtube.com/watch?v=riXcZT2ICjA">Khan Academy</url>), and compute limits of functions (<url href="https://www.youtube.com/watch?v=nJZm-zp639s">NancyPi</url>)
+            </p>
+          </li>
+          <li>
+            <p>
+              Compute the derivative of a function (<url href="https://www.youtube.com/watch?v=QqF3i1pnyzU">NancyPi</url>, <url href="https://www.youtube.com/watch?v=IvLpN1G1Ncg">Organic Chemistry Tutor</url>)
+            </p>
+          </li>
+        </ol>  
+      </p>
+</introduction>

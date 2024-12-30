@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="MI5" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>MI5: The Jacobian</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>MI5</title>
+                <p>
+                    I can compute and use the Jacobian of a transformation in order to change variables of a multiple integral.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/MI5-prep.ptx" />
+
+    <subsection xml:id="MI5-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

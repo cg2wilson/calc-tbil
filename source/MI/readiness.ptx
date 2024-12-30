@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<introduction xml:id="MI-readiness" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Readiness Assurance</title>
+      <p>
+        Before beginning this chapter, you should be able to...
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              Compute the integral of a function (<url href="https://www.youtube.com/watch?v=zOxaUlRkFG0">Organic Chemistry Tutor</url>, <url href="https://www.youtube.com/watch?v=e1nxhJQyLYI">NancyPi</url>) and use different techniques of integration such as substitution, integration by parts, etc.
+            </p>
+          </li>
+          <li>
+            <p>
+              Use identities to convert between forms of trigonometric functions (<url href="https://www.youtube.com/watch?v=m1OitPmkydY">Organic Chemistry Tutor</url> and <url href="https://youtu.be/4OEeVLo5V1o?si=lQacNwdu8Qo-8awf">Khan Academy</url>)
+            </p>
+          </li>
+        </ol>  
+      </p>
+</introduction>

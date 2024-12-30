@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<introduction xml:id="PS-readiness" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Readiness Assurance</title>
+      <p>
+        Before beginning this chapter, you should be able to...
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+                Compute a derivative using the power rule (<url href="https://www.youtube.com/watch?v=9Yz-RCdS2Tg">Organic Chemistry Tutor</url> and an integral using the power rule<url href="https://www.youtube.com/watch?v=WfTFcHIOurc">Ace Tutors</url>)
+            </p>
+          </li>
+          <li>
+            <p>
+                Use the ratio test to check for absolute convergence (<url href="https://www.youtube.com/watch?v=kkfILYpkJS8">Organic Chemistry Tutor</url> and <url href="https://www.youtube.com/watch?v=av947KCWf2U">Khan Academy</url>)
+            </p>
+          </li>
+        </ol>  
+      </p>
+</introduction>

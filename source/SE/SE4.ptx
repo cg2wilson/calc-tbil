@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="SE4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>SE4: The Comparison Tests</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>SE4</title>
+                <p>
+                    I can use the direct comparison test and limit comparison test to determine if a series converges or diverges
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/SE4-prep.ptx" />
+
+    <subsection xml:id="SE4-activities">
+        <title>In-Class Activities</title>
+
+
+    </subsection>
+
+</section>

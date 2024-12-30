@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="FS4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>FS4: Triple Integrals in Cylindrical/Spherical Coordinates</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>FS4</title>
+                <p>
+                    I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/FS4-prep.ptx" />
+
+    <subsection xml:id="FS4-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="PS1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>PS1: Power Series</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>PS1</title>
+                <p>
+                    I can determine the radius and interval of convergence of a power series.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/PS1-prep.ptx" />
+
+    <subsection xml:id="PS1-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

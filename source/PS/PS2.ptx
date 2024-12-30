@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="PS2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>PS2: Properties of Power Series</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>PS2</title>
+                <p>
+                    I can use properties of work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/PS2-prep.ptx" />
+
+    <subsection xml:id="PS2-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-PD" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Partial Derivatives (PD)</title>
+
+  <objectives>
+    <introduction>
+      <p>
+        This module describes the conceptual development and computational development of the partial derivative, as well as some of its uses.
+      </p>
+    </introduction>
+      <dl>
+        <li>
+          <title>PD1</title>
+          <p>
+            I can work with functions of multiple variables, including identifying contour curves, level surfaces, and quadric surfaces.
+          </p>
+        </li>
+        <li>
+          <title>PD2</title>
+          <p>
+            I can compute the limit of a function of multiple variables and identify where a function of two variables is discontinuous.
+          </p>
+        </li>
+        <li>
+          <title>PD3</title>
+          <p>
+            Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface.
+          </p>
+        </li>
+        <li>
+          <title>PD4</title>
+          <p>
+            Given a multivariable function, I can compute its directional derivative in a given direction, and determine/interpret its gradient vector
+          </p>
+        </li>
+        <li>
+          <title>PD5</title>
+          <p>
+            I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface
+          </p>
+        </li>
+        <li>
+          <title>PD6</title>
+          <p>
+            I can use Lagrange Multipliers to solve optimization problems with constraints.
+          </p>
+        </li>
+      </dl>
+  </objectives>
+  
+  <xi:include href="./readiness.ptx" />
+  <xi:include href="./PD1.ptx" />
+  <xi:include href="./PD2.ptx" />
+  <xi:include href="./PD3.ptx" />
+  <xi:include href="./PD4.ptx" />
+  <xi:include href="./PD5.ptx" />
+  <xi:include href="./PD6.ptx" />
+
+  
+
+</chapter>

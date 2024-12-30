@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-FS" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Flux and Surface Integrals (FS)</title>
+
+  <objectives>
+    <introduction>
+      <p>
+        This module develops the idea of a flux integral and a surface integral, and culminates in Stokes' Theorem and the Divergence Theorem- methods of computing flux/surface integrals using simpler multiple integrals. 
+      </p>
+    </introduction>
+      <dl>
+        <li>
+          <title>FS1</title>
+          <p>
+            Given a vector field, I can compute its divergence and curl, and interpret my results.
+          </p>
+        </li>
+        <li>
+          <title>FS2</title>
+          <p>
+            I can compute the surface area of a parametrized surface.
+          </p>
+        </li>
+        <li>
+          <title>FS3</title>
+          <p>
+            I can compute surface integrals of a scalar function and a vector field, and interpret my answers.
+          </p>
+        </li>
+        <li>
+          <title>FS4</title>
+          <p>
+            I can use Stokes’ Theorem and the Divergence Theorem to evaluate various mathematical expressions, and interpret my answers.
+          </p>
+        </li>
+      </dl>
+  </objectives>
+  
+  <xi:include href="./readiness.ptx" />
+  <xi:include href="./FS1.ptx" />
+  <xi:include href="./FS2.ptx" />
+  <xi:include href="./FS3.ptx" />
+  <xi:include href="./FS4.ptx" />
+
+</chapter>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="PD5" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>PD5:  Multivariate Optimization</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>PD5</title>
+                <p>
+                    I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface. 
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/PD5-prep.ptx" />
+
+    <subsection xml:id="PD5-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

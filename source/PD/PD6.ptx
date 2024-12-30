@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="PD6" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>PD6:  Lagrange Multipliers</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>PD6</title>
+                <p>
+                    I can use Lagrange Multipliers to solve optimization problems with constraints. 
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/PD6-prep.ptx" />
+
+    <subsection xml:id="PD6-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="PD3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>PD3: Partial Derivatives</title>
+    <objectives>
+        <dl>
+            <li>
+                <title>PD3</title>
+                <p>
+                    Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface
+                </p>
+            </li>
+        </dl>
+    </objectives>
+
+    <xi:include href="./preparation/PD3-prep.ptx" />
+
+    <subsection xml:id="PD3-activities">
+        <title>In-Class Activities</title>
+
+    </subsection>
+
+</section>
+
