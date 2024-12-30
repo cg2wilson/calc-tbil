@@ -3745,6 +3745,528 @@ var ptx_lunr_docs = [
   "body": "   TI5  I can compute the integral of a function on an unbounded input interval.    "
 },
 {
+  "id": "SE1",
+  "level": "1",
+  "url": "SE1.html",
+  "type": "Section",
+  "number": "8.1",
+  "title": "SE1: Sequences",
+  "body": " SE1: Sequences     SE1  I can work with sequences by determining its general form, computing its limit, and determining its convergence or divergence.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Sequences    Read all sections        In-Class Activities   "
+},
+{
+  "id": "SE1-2",
+  "level": "2",
+  "url": "SE1.html#SE1-2",
+  "type": "Objectives",
+  "number": "8.1",
+  "title": "",
+  "body": "   SE1  I can work with sequences by determining its general form, computing its limit, and determining its convergence or divergence.    "
+},
+{
+  "id": "SE2",
+  "level": "1",
+  "url": "SE2.html",
+  "type": "Section",
+  "number": "8.2",
+  "title": "SE2: Series",
+  "body": " SE2: Series     SE2  I can determine if a series is geometric, telescoping, or neither, and find its sum if possible.      Pre-Class Preparation  Read the following sections of the text:    Section 5.2: Infinite Series    Read all sections        In-Class Activities   "
+},
+{
+  "id": "SE2-2",
+  "level": "2",
+  "url": "SE2.html#SE2-2",
+  "type": "Objectives",
+  "number": "8.2",
+  "title": "",
+  "body": "   SE2  I can determine if a series is geometric, telescoping, or neither, and find its sum if possible.    "
+},
+{
+  "id": "SE3",
+  "level": "1",
+  "url": "SE3.html",
+  "type": "Section",
+  "number": "8.3",
+  "title": "SE3: The Integral Test",
+  "body": " SE3: The Integral Test     SE3  I can use the integral test to determine if a series converges or diverges.      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Divergence and Integral Tests    Read all sections        In-Class Activities   "
+},
+{
+  "id": "SE3-2",
+  "level": "2",
+  "url": "SE3.html#SE3-2",
+  "type": "Objectives",
+  "number": "8.3",
+  "title": "",
+  "body": "   SE3  I can use the integral test to determine if a series converges or diverges.    "
+},
+{
+  "id": "SE4",
+  "level": "1",
+  "url": "SE4.html",
+  "type": "Section",
+  "number": "8.4",
+  "title": "SE4: The Comparison Tests",
+  "body": " SE4: The Comparison Tests     SE4  I can use the direct comparison test and limit comparison test to determine if a series converges or diverges      Pre-Class Preparation  Read the following sections of the text:    Section 5.4: The Comparison Tests    Read all sections        In-Class Activities   "
+},
+{
+  "id": "SE4-2",
+  "level": "2",
+  "url": "SE4.html#SE4-2",
+  "type": "Objectives",
+  "number": "8.4",
+  "title": "",
+  "body": "   SE4  I can use the direct comparison test and limit comparison test to determine if a series converges or diverges    "
+},
+{
+  "id": "SE5",
+  "level": "1",
+  "url": "SE5.html",
+  "type": "Section",
+  "number": "8.5",
+  "title": "SE5: The Alternating Series Test",
+  "body": " SE5: The Alternating Series Test     SE5  I can determine the convergence or divergence of an alternating series, and determine if the series converges absolutely or conditionally.      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: The Alternating Series Test    Read all sections        In-Class Activities   "
+},
+{
+  "id": "SE5-2",
+  "level": "2",
+  "url": "SE5.html#SE5-2",
+  "type": "Objectives",
+  "number": "8.5",
+  "title": "",
+  "body": "   SE5  I can determine the convergence or divergence of an alternating series, and determine if the series converges absolutely or conditionally.    "
+},
+{
+  "id": "SE6",
+  "level": "1",
+  "url": "SE6.html",
+  "type": "Section",
+  "number": "8.6",
+  "title": "SE6: The Ratio and Root Tests",
+  "body": " SE6: The Ratio and Root Tests     SE6  I can use the ratio test and the root test to determine if a series converges absolutely, conditionally, or diverges.      Pre-Class Preparation  Read the following sections of the text:    Section 5.6: The Ratio and Root Tests    Read all sections        In-Class Activities   "
+},
+{
+  "id": "SE6-2",
+  "level": "2",
+  "url": "SE6.html#SE6-2",
+  "type": "Objectives",
+  "number": "8.6",
+  "title": "",
+  "body": "   SE6  I can use the ratio test and the root test to determine if a series converges absolutely, conditionally, or diverges.    "
+},
+{
+  "id": "PS1",
+  "level": "1",
+  "url": "PS1.html",
+  "type": "Section",
+  "number": "9.1",
+  "title": "PS1: Power Series",
+  "body": " PS1: Power Series     PS1  I can determine the radius and interval of convergence of a power series.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Power Series and Functions    Read all sections        In-Class Activities   "
+},
+{
+  "id": "PS1-2",
+  "level": "2",
+  "url": "PS1.html#PS1-2",
+  "type": "Objectives",
+  "number": "9.1",
+  "title": "",
+  "body": "   PS1  I can determine the radius and interval of convergence of a power series.    "
+},
+{
+  "id": "PS2",
+  "level": "1",
+  "url": "PS2.html",
+  "type": "Section",
+  "number": "9.2",
+  "title": "PS2: Properties of Power Series",
+  "body": " PS2: Properties of Power Series     PS2  I can use properties of work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.      Pre-Class Preparation  Read the following sections of the text:    Section 6.2: Properties of Power Seriess    Read all sections        In-Class Activities   "
+},
+{
+  "id": "PS2-2",
+  "level": "2",
+  "url": "PS2.html#PS2-2",
+  "type": "Objectives",
+  "number": "9.2",
+  "title": "",
+  "body": "   PS2  I can use properties of work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.    "
+},
+{
+  "id": "PS3",
+  "level": "1",
+  "url": "PS3.html",
+  "type": "Section",
+  "number": "9.3",
+  "title": "PS3: Taylor and Maclaurin Series",
+  "body": " PS3: Taylor and Maclaurin Series     PS3  I can compute the Taylor or Maclaurin series of a function, centered at a given input.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Taylor and Maclaurin Series    Read all sections        In-Class Activities   "
+},
+{
+  "id": "PS3-2",
+  "level": "2",
+  "url": "PS3.html#PS3-2",
+  "type": "Objectives",
+  "number": "9.3",
+  "title": "",
+  "body": "   PS3  I can compute the Taylor or Maclaurin series of a function, centered at a given input.    "
+},
+{
+  "id": "PD1",
+  "level": "1",
+  "url": "PD1.html",
+  "type": "Section",
+  "number": "10.1",
+  "title": "PD1: Functions of Multiple Variables",
+  "body": " PD1: Functions of Multiple Variables     PD1  I can work with functions of multiple variables, including identifying contour curves, level surfaces, and quadric surfaces.      Pre-Class Preparation  Read the following sections of the text:    Section 4.1: Functions of Several Variables    Read all sections      Section 2.6: Quadric Surfaces    Read all sections        In-Class Activities   "
+},
+{
+  "id": "PD1-2",
+  "level": "2",
+  "url": "PD1.html#PD1-2",
+  "type": "Objectives",
+  "number": "10.1",
+  "title": "",
+  "body": "   PD1  I can work with functions of multiple variables, including identifying contour curves, level surfaces, and quadric surfaces.    "
+},
+{
+  "id": "PD2",
+  "level": "1",
+  "url": "PD2.html",
+  "type": "Section",
+  "number": "10.2",
+  "title": "PD2: Limits and Continuity",
+  "body": " PD2: Limits and Continuity     PD2  I can compute the limit of a function of multiple variables and identify where a function of two variables is discontinuous.      Pre-Class Preparation  Read the following sections of the text:    Section 4.2: Limits and Continuity    Read all sections        In-Class Activities   "
+},
+{
+  "id": "PD2-2",
+  "level": "2",
+  "url": "PD2.html#PD2-2",
+  "type": "Objectives",
+  "number": "10.2",
+  "title": "",
+  "body": "   PD2  I can compute the limit of a function of multiple variables and identify where a function of two variables is discontinuous.    "
+},
+{
+  "id": "PD3",
+  "level": "1",
+  "url": "PD3.html",
+  "type": "Section",
+  "number": "10.3",
+  "title": "PD3: Partial Derivatives",
+  "body": " PD3: Partial Derivatives     PD3  Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface      Pre-Class Preparation  Read the following sections of the text:    Section 4.3: Partial Derivatives    Read all sections      Section 4.4: Tangent Planes and Linear Approximations    Read the \"Tangent Planes\" section only        In-Class Activities   "
+},
+{
+  "id": "PD3-2",
+  "level": "2",
+  "url": "PD3.html#PD3-2",
+  "type": "Objectives",
+  "number": "10.3",
+  "title": "",
+  "body": "   PD3  Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface    "
+},
+{
+  "id": "PD4",
+  "level": "1",
+  "url": "PD4.html",
+  "type": "Section",
+  "number": "10.4",
+  "title": "PD4: Directional Derivatives and Gradients",
+  "body": " PD4: Directional Derivatives and Gradients     PD4  Given a multivariable function, I can compute its directional derivative in a given direction, and determine\/interpret its gradient vector.      Pre-Class Preparation  Read the following sections of the text:    Section 4.6: Directional Derivatives and the Gradient    Read all sections        In-Class Activities   "
+},
+{
+  "id": "PD4-2",
+  "level": "2",
+  "url": "PD4.html#PD4-2",
+  "type": "Objectives",
+  "number": "10.4",
+  "title": "",
+  "body": "   PD4  Given a multivariable function, I can compute its directional derivative in a given direction, and determine\/interpret its gradient vector.    "
+},
+{
+  "id": "PD5",
+  "level": "1",
+  "url": "PD5.html",
+  "type": "Section",
+  "number": "10.5",
+  "title": "PD5:  Multivariate Optimization",
+  "body": " PD5: Multivariate Optimization     PD5  I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface.      Pre-Class Preparation  Read the following sections of the text:    Section 4.7: Maxima\/Minima Problems    Read all sections        In-Class Activities   "
+},
+{
+  "id": "PD5-2",
+  "level": "2",
+  "url": "PD5.html#PD5-2",
+  "type": "Objectives",
+  "number": "10.5",
+  "title": "",
+  "body": "   PD5  I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface.    "
+},
+{
+  "id": "PD6",
+  "level": "1",
+  "url": "PD6.html",
+  "type": "Section",
+  "number": "10.6",
+  "title": "PD6:  Lagrange Multipliers",
+  "body": " PD6: Lagrange Multipliers     PD6  I can use Lagrange Multipliers to solve optimization problems with constraints.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: Lagrange Multipliers    Read all sections        In-Class Activities   "
+},
+{
+  "id": "PD6-2",
+  "level": "2",
+  "url": "PD6.html#PD6-2",
+  "type": "Objectives",
+  "number": "10.6",
+  "title": "",
+  "body": "   PD6  I can use Lagrange Multipliers to solve optimization problems with constraints.    "
+},
+{
+  "id": "MI1",
+  "level": "1",
+  "url": "MI1.html",
+  "type": "Section",
+  "number": "11.1",
+  "title": "MI1: Double Integrals in Cartesian Coordinates",
+  "body": " MI1: Double Integrals in Cartesian Coordinates     MI1  I can compute double integrals using Cartesian coordinates, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Double Integrals over Rectangular Regions    Read all sections      Section 5.2: Double Integrals over General Regions    Read all sections        In-Class Activities   "
+},
+{
+  "id": "MI1-2",
+  "level": "2",
+  "url": "MI1.html#MI1-2",
+  "type": "Objectives",
+  "number": "11.1",
+  "title": "",
+  "body": "   MI1  I can compute double integrals using Cartesian coordinates, and interpret the results.    "
+},
+{
+  "id": "MI2",
+  "level": "1",
+  "url": "MI2.html",
+  "type": "Section",
+  "number": "11.2",
+  "title": "MI2: Double Integrals in Polar Coordinates",
+  "body": " MI2: Double Integrals in Polar Coordinates     MI2  I can compute double integrals using polar coordinates      Pre-Class Preparation  Read the following sections of the text:    Section 1.3: Polar Coordinates    Read all sections      Section 1.4: Area and Arc Length in Polar Coordinates    Read \"Areas of Regions Bounded by Polar Curves\" only      Section 5.3: Double Integrals in Polar Coordinates        In-Class Activities   "
+},
+{
+  "id": "MI2-2",
+  "level": "2",
+  "url": "MI2.html#MI2-2",
+  "type": "Objectives",
+  "number": "11.2",
+  "title": "",
+  "body": "   MI2  I can compute double integrals using polar coordinates    "
+},
+{
+  "id": "MI3",
+  "level": "1",
+  "url": "MI3.html",
+  "type": "Section",
+  "number": "11.3",
+  "title": "MI3: Triple Integrals in Cartesian Coordinates",
+  "body": " MI3: Triple Integrals in Cartesian Coordinates     MI3  I can compute triple integrals over rectangular boxes, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.4: Triple Integrals    Read until \"Average Value of a Function of Three Variables\"        In-Class Activities   "
+},
+{
+  "id": "MI3-2",
+  "level": "2",
+  "url": "MI3.html#MI3-2",
+  "type": "Objectives",
+  "number": "11.3",
+  "title": "",
+  "body": "   MI3  I can compute triple integrals over rectangular boxes, and interpret the results.    "
+},
+{
+  "id": "MI4",
+  "level": "1",
+  "url": "MI4.html",
+  "type": "Section",
+  "number": "11.4",
+  "title": "MI4: Triple Integrals in Cylindrical\/Spherical Coordinates",
+  "body": " MI4: Triple Integrals in Cylindrical\/Spherical Coordinates     MI4  I can compute triple integrals in cylindrical or spherical coordinates.      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: Triple Integrals in Cylindrical and Spherical Coordinatess    Read all sections        In-Class Activities   "
+},
+{
+  "id": "MI4-2",
+  "level": "2",
+  "url": "MI4.html#MI4-2",
+  "type": "Objectives",
+  "number": "11.4",
+  "title": "",
+  "body": "   MI4  I can compute triple integrals in cylindrical or spherical coordinates.    "
+},
+{
+  "id": "MI5",
+  "level": "1",
+  "url": "MI5.html",
+  "type": "Section",
+  "number": "11.5",
+  "title": "MI5: The Jacobian",
+  "body": " MI5: The Jacobian     MI5  I can compute and use the Jacobian of a transformation in order to change variables of a multiple integral.      Pre-Class Preparation  Read the following sections of the text:    Section 5.7: Change of Variables in Multiple Integrals    Read all sections        In-Class Activities   "
+},
+{
+  "id": "MI5-2",
+  "level": "2",
+  "url": "MI5.html#MI5-2",
+  "type": "Objectives",
+  "number": "11.5",
+  "title": "",
+  "body": "   MI5  I can compute and use the Jacobian of a transformation in order to change variables of a multiple integral.    "
+},
+{
+  "id": "VF1",
+  "level": "1",
+  "url": "VF1.html",
+  "type": "Section",
+  "number": "12.1",
+  "title": "VF1: Double Integrals in Cartesian Coordinates",
+  "body": " VF1: Double Integrals in Cartesian Coordinates     VF1  I can parametrize curves and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 1.1: Parametric Equations    Read all sections      Section 1.2: Calculus of Parametric Curves    Read all sections        In-Class Activities   "
+},
+{
+  "id": "VF1-2",
+  "level": "2",
+  "url": "VF1.html#VF1-2",
+  "type": "Objectives",
+  "number": "12.1",
+  "title": "",
+  "body": "   VF1  I can parametrize curves and use calculus to analyze their behavior.    "
+},
+{
+  "id": "VF2",
+  "level": "1",
+  "url": "VF2.html",
+  "type": "Section",
+  "number": "12.2",
+  "title": "VF2: Double Integrals in Polar Coordinates",
+  "body": " VF2: Double Integrals in Polar Coordinates     VF2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Vector-Valued Functions and Space Curves    Read all sections      Section 3.2: Calculus of Vector-Valued Functions    Read all sections      Section 3.3: Arc Length and Curvature    Read until \"Curvature\"        In-Class Activities   "
+},
+{
+  "id": "VF2-2",
+  "level": "2",
+  "url": "VF2.html#VF2-2",
+  "type": "Objectives",
+  "number": "12.2",
+  "title": "",
+  "body": "   VF2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.    "
+},
+{
+  "id": "VF3",
+  "level": "1",
+  "url": "VF3.html",
+  "type": "Section",
+  "number": "12.3",
+  "title": "VF3: Triple Integrals in Cartesian Coordinates",
+  "body": " VF3: Triple Integrals in Cartesian Coordinates     VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Vector Fields    Read all sections      Line Integrals    Read all sections        In-Class Activities   "
+},
+{
+  "id": "VF3-2",
+  "level": "2",
+  "url": "VF3.html#VF3-2",
+  "type": "Objectives",
+  "number": "12.3",
+  "title": "",
+  "body": "   VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.    "
+},
+{
+  "id": "VF4",
+  "level": "1",
+  "url": "VF4.html",
+  "type": "Section",
+  "number": "12.4",
+  "title": "VF4: Triple Integrals in Cylindrical\/Spherical Coordinates",
+  "body": " VF4: Triple Integrals in Cylindrical\/Spherical Coordinates     VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Conservative Vector Fields    Read all sections        In-Class Activities   "
+},
+{
+  "id": "VF4-2",
+  "level": "2",
+  "url": "VF4.html#VF4-2",
+  "type": "Objectives",
+  "number": "12.4",
+  "title": "",
+  "body": "   VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.    "
+},
+{
+  "id": "VF5",
+  "level": "1",
+  "url": "VF5.html",
+  "type": "Section",
+  "number": "12.5",
+  "title": "VF5: The Jacobian",
+  "body": " VF5: The Jacobian     VF5  I can identify when I can use Green’s Theorem, and use it for computations.      Pre-Class Preparation  Read the following sections of the text:    Section 6.4: Green's Theorem    Read all sections        In-Class Activities   "
+},
+{
+  "id": "VF5-2",
+  "level": "2",
+  "url": "VF5.html#VF5-2",
+  "type": "Objectives",
+  "number": "12.5",
+  "title": "",
+  "body": "   VF5  I can identify when I can use Green’s Theorem, and use it for computations.    "
+},
+{
+  "id": "FS1",
+  "level": "1",
+  "url": "FS1.html",
+  "type": "Section",
+  "number": "13.1",
+  "title": "FS1: Double Integrals in Cartesian Coordinates",
+  "body": " FS1: Double Integrals in Cartesian Coordinates     FS1  I can parametrize curves and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 6.5: Divergence and Curl    Read all sections        In-Class Activities   "
+},
+{
+  "id": "FS1-2",
+  "level": "2",
+  "url": "FS1.html#FS1-2",
+  "type": "Objectives",
+  "number": "13.1",
+  "title": "",
+  "body": "   FS1  I can parametrize curves and use calculus to analyze their behavior.    "
+},
+{
+  "id": "FS2",
+  "level": "1",
+  "url": "FS2.html",
+  "type": "Section",
+  "number": "13.2",
+  "title": "FS2: Double Integrals in Polar Coordinates",
+  "body": " FS2: Double Integrals in Polar Coordinates     FS2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read until \"Surface Integral of a Scalar-Valued Function\"        In-Class Activities   "
+},
+{
+  "id": "FS2-2",
+  "level": "2",
+  "url": "FS2.html#FS2-2",
+  "type": "Objectives",
+  "number": "13.2",
+  "title": "",
+  "body": "   FS2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.    "
+},
+{
+  "id": "FS3",
+  "level": "1",
+  "url": "FS3.html",
+  "type": "Section",
+  "number": "13.3",
+  "title": "FS3: Triple Integrals in Cartesian Coordinates",
+  "body": " FS3: Triple Integrals in Cartesian Coordinates     FS3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read from \"Surface Integral of a Scalar-Valued Function\" to the end        In-Class Activities   "
+},
+{
+  "id": "FS3-2",
+  "level": "2",
+  "url": "FS3.html#FS3-2",
+  "type": "Objectives",
+  "number": "13.3",
+  "title": "",
+  "body": "   FS3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.    "
+},
+{
+  "id": "FS4",
+  "level": "1",
+  "url": "FS4.html",
+  "type": "Section",
+  "number": "13.4",
+  "title": "FS4: Triple Integrals in Cylindrical\/Spherical Coordinates",
+  "body": " FS4: Triple Integrals in Cylindrical\/Spherical Coordinates     FS4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.7: Stokes' Theorem    Read all sections      Section 6.8: The Divergence Theorem    Read all sections        In-Class Activities   "
+},
+{
+  "id": "FS4-2",
+  "level": "2",
+  "url": "FS4.html#FS4-2",
+  "type": "Objectives",
+  "number": "13.4",
+  "title": "",
+  "body": "   FS4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.    "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
