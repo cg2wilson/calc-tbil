@@ -344,40 +344,26 @@
         <activity>
             <statement>
                 <p>
-                    Which image shows the cylinder <m>x = 2y^2 - z</m>?
-                    <ol marker="A." cols="2">
+                    Which image shows the cylinder <m>z = y^2</m>?
+                    <ol marker="A.">
                         <li>
                             <p>
-                                <image>
-                                    <sageplot>
-                                    
+                                <image width = "50%">
+                                    <sageplot variant="3d">
+                                        x = var('x')
+                                        y = var('y')
+                                        plot3d(x^2, (x,-2,2),(y,-2,2),axes_labels=('x','y','z'))
                                     </sageplot>
                                 </image>
                             </p>
                         </li>
                         <li>
                             <p>
-                                <image>
-                                    <sageplot>
-                                    
-                                    </sageplot>
-                                </image>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <image>
-                                    <sageplot>
-                                    
-                                    </sageplot>
-                                </image>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <image>
-                                    <sageplot>
-                                    
+                                <image width = "50%">
+                                    <sageplot variant="3d">
+                                        x = var('x')
+                                        y = var('y')
+                                        plot3d(y^2, (x,-2,2),(y,-2,2),axes_labels=('x','y','z'))
                                     </sageplot>
                                 </image>
                             </p>
@@ -386,6 +372,208 @@
                 </p>
             </statement>
         </activity>
+
+        <definition xml:id="def-quadric-surface">
+            <title>Quadric Surface</title>
+            <statement>
+                <p>
+                    A <term>quadric surface</term> is a surface of the form
+                    <me>
+                        Ax^2 + By^2 + Cz^2 + Dxy + Exz + Fyz + Gx + Hy + Jz + K = 0
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <fact xml:id="fact-quadric-surfaces">
+            <statement>
+                <p>
+                    There are six common types of quadric surfaces:
+                    <ul>
+                        <li>
+                            <p>
+                                Ellipsoid
+                                <me>
+                                    \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} + \dfrac{z^2}{c^2} = 1
+                                </me>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Elliptic Cone
+                                <me>
+                                    \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} - \dfrac{z^2}{c^2} = 0
+                                </me>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Elliptic Paraboloid
+                                <me>
+                                    z = \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2}
+                                </me>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Hyperboloid of One Sheet
+                                <me>
+                                    \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} - \dfrac{z^2}{c^2} = 1
+                                </me>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Hyperboloid of Two Sheets
+                                <me>
+                                    \dfrac{z^2}{c^2} - \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1
+                                </me>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Hyperbolic Paraboloid
+                                <me>
+                                    z = \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2}
+                                </me>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </fact>
+
+        <activity>
+            <introduction>
+                <p>
+                    Each equation below is a quadric surface. Identify which kind it is.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            -x^2 + 36y^2 + 36z^2 = 9
+                        </m>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Ellipsoid
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hyperboloid of One Sheet
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Elliptic Cone
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Elliptic Paraboloid
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hyperboloid of Two Sheets
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hyperbolic Paraboloid
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            5y=x^2-z^2
+                        </m>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Ellipsoid
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hyperboloid of One Sheet
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Elliptic Cone
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Elliptic Paraboloid
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hyperboloid of Two Sheets
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hyperbolic Paraboloid
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            x^2+5y^2-8z^2 = 0
+                        </m>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Ellipsoid
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hyperboloid of One Sheet
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Elliptic Cone
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Elliptic Paraboloid
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hyperboloid of Two Sheets
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hyperbolic Paraboloid
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
     </subsection>
 </section>
 
