@@ -18,6 +18,218 @@
     <subsection xml:id="PD2-activities">
         <title>In-Class Activities</title>
 
+        <remark>
+            <p>
+                Recall that in single-variable calculus, we define a limit as follows: The function <m>f(x)</m> has limit <m>L</m> as <m>x</m> approaches <m>a</m> if 
+                <me>
+                    \lim_{x\to a^-} f(x) = \lim_{x\to a^+} f(x) = L
+                </me>
+                i.e. the output approaches <m>L</m> as <m>x</m> approaches <m>a</m> from both the left and right sides.
+            </p>
+        </remark>
+
+        <definition xml:id="def-limits-two-var">
+            <title>Limit of a Function of Two Variables</title>
+            <idx><h>limit (function of two variables)</h></idx>            
+            <statement>
+                <p>
+                    Let <m>f(x,y)</m> be a function of two variables. We say that <m>f</m> has limit <m>L</m> as the input <m>(x,y)</m> approaches the ordered pair <m>(a,b)</m> if the outputs of <m>f</m> approach <m>L</m> from all directions. In this case, we write
+                    <me>
+                        \lim_{(x,y)\to (a,b)} f(x,y) = L
+                    </me>
+                </p>
+                <p>
+                    Formally, we say the limit exists if for every <m>\varepsilon \gt 0</m>, there exists a <m>\delta \gt 0</m> such that
+                    <me>
+                        \sqrt{(x-a)^2 + (y-b)^2} \lt \delta \Rightarrow |f(x) - L| \lt \varepsilon
+                    </me>   
+                </p>
+            </statement>
+        </definition>
+
+        <fact>
+            <p>
+                The limit laws from Calculus 1 apply to functions of multiple variables.
+            </p>
+        </fact>
+
+        <activity>
+            <introduction>
+                <p>
+                    Compute the following limits.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \lim_{(x,y)\to (1,2)} \dfrac{5x^2}{x^2 + y^2}
+                        </m>    
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \lim_{(x,y)\to (11,13)} \sqrt{\dfrac{1}{xy}}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <remark>
+            <p>
+                For functions of one variable, there is only one possible way to approach a function: from the left or from the right. For functions of multiple variable, we can also approach a function along a <em>path</em>. 
+            </p>
+        </remark>
+
+        <activity>
+            <introduction>
+                <p>
+                    Consider the function <m>f(x,y) = \dfrac{7xy}{3x^2 + y^2}</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Why is it not possible to compute the limit <m>\ds \lim_{(x,y)\to (0,0)} f(x,y)</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        We can compute the limit if we approach along a specific line. Along which path are we approaching in the limit <m>\ds \lim_{(x,y)\to (x,0)} f(x,y) </m>?
+                        <ol marker="A." cols ="2">
+                            <li>
+                                <p>
+                                    The line <m>y = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The line <m>x = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The line <m>y = x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The parabola <m>y = x^2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute the limit from part (b). 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Show the limit doesn't exist by approaching along the line <m>y = x</m>. Which expression is the correct one to express this limit?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{(x,y) \to (0,0)} f(x,y)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{(x,y)\to (y,x)} f(x,y)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{(x,y)\to (x,x)} f(x,y)
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{(x,y)\to (y,y)} f(x,y)
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <remark>
+            <p>
+                Continuity for functions of multiple variables is defined similarly to functions of a single variable. We say that a function <m>f(x,y)</m> is continuous at the point <m>(a,b)</m> if 
+                <ol>
+                    <li>
+                        <p>
+                            <m>f(a,b)</m> exists
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\ds \lim_{(x,y)\to (a,b)} f(x,y)</m> exists
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\ds \lim_{(x,y)\to (a,b)} f(x,y) = f(a,b)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </remark>
+
+        <activity>
+            <introduction>
+                <p>
+                    Consider the function the function <m>g(x,y) = \sqrt{26-2x^2-y^2}</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        True or false: <m>g(x,y)</m> is continuous at <m>(2,-3)</m>.
+                        <ol marker="A." cols = "2">
+                            <li>
+                                <p>
+                                    True
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    False
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        For what inputs is the function discontinuous? Why?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
     </subsection>
 
 </section>
