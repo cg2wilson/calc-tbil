@@ -3913,7 +3913,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.1",
   "title": "PD1: Functions of Multiple Variables",
-  "body": " PD1: Functions of Multiple Variables     PD1  I can work with functions of multiple variables, including identifying contour curves, level surfaces, and quadric surfaces.      Pre-Class Preparation  Read the following sections of the text:    Section 4.1: Functions of Several Variables    Read all sections      Section 2.6: Quadric Surfaces    Read all sections        In-Class Activities    Let be a function.    The set of values is called the   Range    Inputs    Domain    Outputs       The set of values is called the   Range    Inputs    Domain    Outputs         Now consider a function of two variables, . Use to help you answer the following.    The set of values is called the   Range    Inputs    Domain    Outputs       The set of values is called the   Range    Inputs    Domain    Outputs       Use parts (a) and (b) to complete the generalization of a function in      Function of Multiple Variables   A function of multiple variables  is a rule which maps the ordered pair in a subset of to a unique real number . The set is called the of the function, and the is the set of all real numbers such that       Identify the domain of the functions below.                                      Use technology to graph the function . Report the domain and the range of the function.     Level Curve  level curve   For a function of two variables and a number in the range of , a level curve of is defined to be the set of inputs such that       A contour map is a collection of level curves for a surface. Which of the following is a contour map for the function ?                                   "
+  "body": " PD1: Functions of Multiple Variables     PD1  I can work with functions of multiple variables, including identifying contour curves, level surfaces, and quadric surfaces.      Pre-Class Preparation  Read the following sections of the text:    Section 4.1: Functions of Several Variables    Read all sections      Section 2.6: Quadric Surfaces    Read all sections        In-Class Activities    Let be a function.    The set of values is called the   Range    Inputs    Domain    Outputs       The set of values is called the   Range    Inputs    Domain    Outputs         Now consider a function of two variables, . Use to help you answer the following.    The set of values is called the   Range    Inputs    Domain    Outputs       The set of values is called the   Range    Inputs    Domain    Outputs       Use parts (a) and (b) to complete the generalization of a function in      Function of Multiple Variables   A function of multiple variables  is a rule which maps the ordered pair in a subset of to a unique real number . The set is called the of the function, and the is the set of all real numbers such that       Identify the domain of the functions below.                                      Use technology to graph the function . Report the domain and the range of the function.     Level Curve  level curve   For a function of two variables and a number in the range of , a level curve of is defined to be the set of inputs such that       A contour map is a collection of level curves for a surface. Which of the following is a contour map for the function ?                                    Sketch the contour map for the function for      Vertical Trace  vertical trace   The vertical trace of a function are the set of points that solve the equation or for constants and       Which of the following sets up the vertical trace for for the function ?                           Cylinder  cylinder   A cylinder is a set of lines parallel to a given line, passing through a given curve.      Which image shows the cylinder ?                     Quadric Surface   A quadric surface is a surface of the form       There are six common types of quadric surfaces:   Ellipsoid     Elliptic Cone     Elliptic Paraboloid     Hyperboloid of One Sheet     Hyperboloid of Two Sheets     Hyperbolic Paraboloid          Each equation below is a quadric surface. Identify which kind it is.        Ellipsoid    Hyperboloid of One Sheet    Elliptic Cone    Elliptic Paraboloid    Hyperboloid of Two Sheets    Hyperbolic Paraboloid           Ellipsoid    Hyperboloid of One Sheet    Elliptic Cone    Elliptic Paraboloid    Hyperboloid of Two Sheets    Hyperbolic Paraboloid           Ellipsoid    Hyperboloid of One Sheet    Elliptic Cone    Elliptic Paraboloid    Hyperboloid of Two Sheets    Hyperbolic Paraboloid        "
 },
 {
   "id": "PD1-2",
@@ -3988,13 +3988,85 @@ var ptx_lunr_docs = [
   "body": "  A contour map is a collection of level curves for a surface. Which of the following is a contour map for the function ?                                 "
 },
 {
+  "id": "PD1-activities-9",
+  "level": "2",
+  "url": "PD1.html#PD1-activities-9",
+  "type": "Activity",
+  "number": "10.1.6",
+  "title": "",
+  "body": "  Sketch the contour map for the function for    "
+},
+{
+  "id": "def-vertical-trace",
+  "level": "2",
+  "url": "PD1.html#def-vertical-trace",
+  "type": "Definition",
+  "number": "10.1.3",
+  "title": "Vertical Trace.",
+  "body": " Vertical Trace  vertical trace   The vertical trace of a function are the set of points that solve the equation or for constants and    "
+},
+{
+  "id": "pd-vertical-trace1",
+  "level": "2",
+  "url": "PD1.html#pd-vertical-trace1",
+  "type": "Activity",
+  "number": "10.1.7",
+  "title": "",
+  "body": "  Which of the following sets up the vertical trace for for the function ?                         "
+},
+{
+  "id": "def-cylinder",
+  "level": "2",
+  "url": "PD1.html#def-cylinder",
+  "type": "Definition",
+  "number": "10.1.4",
+  "title": "Cylinder.",
+  "body": " Cylinder  cylinder   A cylinder is a set of lines parallel to a given line, passing through a given curve.   "
+},
+{
+  "id": "PD1-activities-13",
+  "level": "2",
+  "url": "PD1.html#PD1-activities-13",
+  "type": "Activity",
+  "number": "10.1.8",
+  "title": "",
+  "body": "  Which image shows the cylinder ?                   "
+},
+{
+  "id": "def-quadric-surface",
+  "level": "2",
+  "url": "PD1.html#def-quadric-surface",
+  "type": "Definition",
+  "number": "10.1.5",
+  "title": "Quadric Surface.",
+  "body": " Quadric Surface   A quadric surface is a surface of the form    "
+},
+{
+  "id": "fact-quadric-surfaces",
+  "level": "2",
+  "url": "PD1.html#fact-quadric-surfaces",
+  "type": "Fact",
+  "number": "10.1.6",
+  "title": "",
+  "body": "  There are six common types of quadric surfaces:   Ellipsoid     Elliptic Cone     Elliptic Paraboloid     Hyperboloid of One Sheet     Hyperboloid of Two Sheets     Hyperbolic Paraboloid       "
+},
+{
+  "id": "PD1-activities-16",
+  "level": "2",
+  "url": "PD1.html#PD1-activities-16",
+  "type": "Activity",
+  "number": "10.1.9",
+  "title": "",
+  "body": "  Each equation below is a quadric surface. Identify which kind it is.        Ellipsoid    Hyperboloid of One Sheet    Elliptic Cone    Elliptic Paraboloid    Hyperboloid of Two Sheets    Hyperbolic Paraboloid           Ellipsoid    Hyperboloid of One Sheet    Elliptic Cone    Elliptic Paraboloid    Hyperboloid of Two Sheets    Hyperbolic Paraboloid           Ellipsoid    Hyperboloid of One Sheet    Elliptic Cone    Elliptic Paraboloid    Hyperboloid of Two Sheets    Hyperbolic Paraboloid      "
+},
+{
   "id": "PD2",
   "level": "1",
   "url": "PD2.html",
   "type": "Section",
   "number": "10.2",
   "title": "PD2: Limits and Continuity",
-  "body": " PD2: Limits and Continuity     PD2  I can compute the limit of a function of multiple variables and identify where a function of two variables is discontinuous.      Pre-Class Preparation  Read the following sections of the text:    Section 4.2: Limits and Continuity    Read all sections        In-Class Activities   "
+  "body": " PD2: Limits and Continuity     PD2  I can compute the limit of a function of multiple variables and identify where a function of two variables is discontinuous.      Pre-Class Preparation  Read the following sections of the text:    Section 4.2: Limits and Continuity    Read all sections        In-Class Activities   Recall that in single-variable calculus, we define a limit as follows: The function has limit as approaches if i.e. the output approaches as approaches from both the left and right sides.    Limit of a Function of Two Variables  limit (function of two variables)   Let be a function of two variables. We say that has limit as the input approaches the ordered pair if the outputs of approach from all directions. In this case, we write   Formally, we say the limit exists if for every , there exists a such that      The limit laws from Calculus 1 apply to functions of multiple variables.     Compute the following limits.               For functions of one variable, there is only one possible way to approach a function: from the left or from the right. For functions of multiple variable, we can also approach a function along a path .     Consider the function .    Why is it not possible to compute the limit ?    We can compute the limit if we approach along a specific line. Along which path are we approaching in the limit ?   The line     The line     The line     The parabola        Compute the limit from part (b).    Show the limit doesn't exist by approaching along the line . Which expression is the correct one to express this limit?                           Continuity for functions of multiple variables is defined similarly to functions of a single variable. We say that a function is continuous at the point if    exists     exists             Consider the function the function     True or false: is continuous at .   True    False       For what inputs is the function discontinuous? Why?     "
 },
 {
   "id": "PD2-2",
@@ -4004,6 +4076,78 @@ var ptx_lunr_docs = [
   "number": "10.2",
   "title": "",
   "body": "   PD2  I can compute the limit of a function of multiple variables and identify where a function of two variables is discontinuous.    "
+},
+{
+  "id": "PD2-activities-2",
+  "level": "2",
+  "url": "PD2.html#PD2-activities-2",
+  "type": "Remark",
+  "number": "10.2.1",
+  "title": "",
+  "body": " Recall that in single-variable calculus, we define a limit as follows: The function has limit as approaches if i.e. the output approaches as approaches from both the left and right sides.  "
+},
+{
+  "id": "def-limits-two-var",
+  "level": "2",
+  "url": "PD2.html#def-limits-two-var",
+  "type": "Definition",
+  "number": "10.2.2",
+  "title": "Limit of a Function of Two Variables.",
+  "body": " Limit of a Function of Two Variables  limit (function of two variables)   Let be a function of two variables. We say that has limit as the input approaches the ordered pair if the outputs of approach from all directions. In this case, we write   Formally, we say the limit exists if for every , there exists a such that    "
+},
+{
+  "id": "PD2-activities-4",
+  "level": "2",
+  "url": "PD2.html#PD2-activities-4",
+  "type": "Fact",
+  "number": "10.2.3",
+  "title": "",
+  "body": " The limit laws from Calculus 1 apply to functions of multiple variables.  "
+},
+{
+  "id": "PD2-activities-5",
+  "level": "2",
+  "url": "PD2.html#PD2-activities-5",
+  "type": "Activity",
+  "number": "10.2.1",
+  "title": "",
+  "body": "  Compute the following limits.             "
+},
+{
+  "id": "PD2-activities-6",
+  "level": "2",
+  "url": "PD2.html#PD2-activities-6",
+  "type": "Remark",
+  "number": "10.2.4",
+  "title": "",
+  "body": " For functions of one variable, there is only one possible way to approach a function: from the left or from the right. For functions of multiple variable, we can also approach a function along a path .  "
+},
+{
+  "id": "PD2-activities-7",
+  "level": "2",
+  "url": "PD2.html#PD2-activities-7",
+  "type": "Activity",
+  "number": "10.2.2",
+  "title": "",
+  "body": "  Consider the function .    Why is it not possible to compute the limit ?    We can compute the limit if we approach along a specific line. Along which path are we approaching in the limit ?   The line     The line     The line     The parabola        Compute the limit from part (b).    Show the limit doesn't exist by approaching along the line . Which expression is the correct one to express this limit?                         "
+},
+{
+  "id": "PD2-activities-8",
+  "level": "2",
+  "url": "PD2.html#PD2-activities-8",
+  "type": "Remark",
+  "number": "10.2.5",
+  "title": "",
+  "body": " Continuity for functions of multiple variables is defined similarly to functions of a single variable. We say that a function is continuous at the point if    exists     exists          "
+},
+{
+  "id": "PD2-activities-9",
+  "level": "2",
+  "url": "PD2.html#PD2-activities-9",
+  "type": "Activity",
+  "number": "10.2.3",
+  "title": "",
+  "body": "  Consider the function the function     True or false: is continuous at .   True    False       For what inputs is the function discontinuous? Why?   "
 },
 {
   "id": "PD3",
