@@ -19,11 +19,11 @@
         <title>In-Class Activities</title>
 
         <activity xml:id="pd-functions-recall">
-            <statement>
+            <introduction>
                 <p>
                     Let <m>y = f(x)</m> be a function.
                 </p>
-            </statement>
+            </introduction>
             <task>
                 <statement>
                     <p>
@@ -85,11 +85,11 @@
         </activity>
 
         <activity xml:id="pd-functions-multiple1">
-            <statement>
+            <introduction>
                 <p>
                     Now consider a function of <em>two</em> variables, <m>z = f(x,y)</m>. Use <xref ref="pd-functions-recall"/> to help you answer the following.
                 </p>
-            </statement>
+            </introduction>
             <task>
                 <statement>
                     <p>
@@ -166,11 +166,11 @@
         </definition>
 
         <activity xml:id="pd-functions-domain-range1">
-            <statement>
+            <introduction>
                 <p>
                     Identify the domain of the functions below.
                 </p>
-            </statement>
+            </introduction>
             <task>
                 <statement>
                     <p>
@@ -283,7 +283,109 @@
                 </p>
             </statement>
         </activity>
-    </subsection>
+        <activity>
+            <statement>
+                <p>
+                    Sketch the contour map for the function <m>f(x,y) = \sqrt{8+8x-4y-4x^2-y^2}</m> for <m>c = 0,1,2,3,4</m>
+                </p>
+            </statement>
+        </activity>
 
+        <definition xml:id="def-vertical-trace">
+            <title>Vertical Trace</title>
+            <idx><h>vertical trace</h></idx>
+            <statement>
+                <p>
+                    The <term>vertical trace</term> of a function <m>f(x,y)</m> are the set of points that solve the equation <m>f(a,y) = z</m> or <m>f(x,b) = z</m> for constants <m>x=a</m> and <m>y=b</m>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="pd-vertical-trace1">
+            <statement>
+                <p>
+                    Which of the following sets up the vertical trace for <m>x=1</m> for the function <m>z = 4-x-y</m>?
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>1 = 4-x-y</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>z = 3-y</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x + y = 3</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>z = 3-x</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-cylinder">
+            <title>Cylinder</title>
+            <idx><h>cylinder</h></idx>
+            <statement>
+                <p>
+                    A <term>cylinder</term> is a set of lines parallel to a given line, passing through a given curve.
+                </p>
+            </statement>
+        </definition>
+
+        <activity>
+            <statement>
+                <p>
+                    Which image shows the cylinder <m>x = 2y^2 - z</m>?
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <image>
+                                    <sageplot>
+                                    
+                                    </sageplot>
+                                </image>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <image>
+                                    <sageplot>
+                                    
+                                    </sageplot>
+                                </image>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <image>
+                                    <sageplot>
+                                    
+                                    </sageplot>
+                                </image>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <image>
+                                    <sageplot>
+                                    
+                                    </sageplot>
+                                </image>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+    </subsection>
 </section>
 
