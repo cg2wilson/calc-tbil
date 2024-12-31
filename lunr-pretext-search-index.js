@@ -1,13 +1,13 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "front-colophon",
+  "id": "frontmatter-2",
   "level": "1",
-  "url": "front-colophon.html",
+  "url": "frontmatter-2.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": ""
+  "body": "  copyright  "
 },
 {
   "id": "review-functions",
@@ -3913,7 +3913,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.1",
   "title": "PD1: Functions of Multiple Variables",
-  "body": " PD1: Functions of Multiple Variables     PD1  I can work with functions of multiple variables, including identifying contour curves, level surfaces, and quadric surfaces.      Pre-Class Preparation  Read the following sections of the text:    Section 4.1: Functions of Several Variables    Read all sections      Section 2.6: Quadric Surfaces    Read all sections        In-Class Activities   "
+  "body": " PD1: Functions of Multiple Variables     PD1  I can work with functions of multiple variables, including identifying contour curves, level surfaces, and quadric surfaces.      Pre-Class Preparation  Read the following sections of the text:    Section 4.1: Functions of Several Variables    Read all sections      Section 2.6: Quadric Surfaces    Read all sections        In-Class Activities    Let be a function.    The set of values is called the   Range    Inputs    Domain    Outputs       The set of values is called the   Range    Inputs    Domain    Outputs         Now consider a function of two variables, . Use to help you answer the following.    The set of values is called the   Range    Inputs    Domain    Outputs       The set of values is called the   Range    Inputs    Domain    Outputs       Use parts (a) and (b) to complete the generalization of a function in      Function of Multiple Variables   A function of multiple variables  is a rule which maps the ordered pair in a subset of to a unique real number . The set is called the of the function, and the is the set of all real numbers such that       Identify the domain of the functions below.                                      Use technology to graph the function . Report the domain and the range of the function.     Level Curve  level curve   For a function of two variables and a number in the range of , a level curve of is defined to be the set of inputs such that       A contour map is a collection of level curves for a surface. Which of the following is a contour map for the function ?                                   "
 },
 {
   "id": "PD1-2",
@@ -3923,6 +3923,69 @@ var ptx_lunr_docs = [
   "number": "10.1",
   "title": "",
   "body": "   PD1  I can work with functions of multiple variables, including identifying contour curves, level surfaces, and quadric surfaces.    "
+},
+{
+  "id": "pd-functions-recall",
+  "level": "2",
+  "url": "PD1.html#pd-functions-recall",
+  "type": "Activity",
+  "number": "10.1.1",
+  "title": "",
+  "body": "  Let be a function.    The set of values is called the   Range    Inputs    Domain    Outputs       The set of values is called the   Range    Inputs    Domain    Outputs      "
+},
+{
+  "id": "pd-functions-multiple1",
+  "level": "2",
+  "url": "PD1.html#pd-functions-multiple1",
+  "type": "Activity",
+  "number": "10.1.2",
+  "title": "",
+  "body": "  Now consider a function of two variables, . Use to help you answer the following.    The set of values is called the   Range    Inputs    Domain    Outputs       The set of values is called the   Range    Inputs    Domain    Outputs       Use parts (a) and (b) to complete the generalization of a function in    "
+},
+{
+  "id": "def-function-multiple-variables",
+  "level": "2",
+  "url": "PD1.html#def-function-multiple-variables",
+  "type": "Definition",
+  "number": "10.1.1",
+  "title": "Function of Multiple Variables.",
+  "body": " Function of Multiple Variables   A function of multiple variables  is a rule which maps the ordered pair in a subset of to a unique real number . The set is called the of the function, and the is the set of all real numbers such that    "
+},
+{
+  "id": "pd-functions-domain-range1",
+  "level": "2",
+  "url": "PD1.html#pd-functions-domain-range1",
+  "type": "Activity",
+  "number": "10.1.3",
+  "title": "",
+  "body": "  Identify the domain of the functions below.                                   "
+},
+{
+  "id": "pd-functions-graph1",
+  "level": "2",
+  "url": "PD1.html#pd-functions-graph1",
+  "type": "Activity",
+  "number": "10.1.4",
+  "title": "",
+  "body": "  Use technology to graph the function . Report the domain and the range of the function.   "
+},
+{
+  "id": "def-level-curve",
+  "level": "2",
+  "url": "PD1.html#def-level-curve",
+  "type": "Definition",
+  "number": "10.1.2",
+  "title": "Level Curve.",
+  "body": " Level Curve  level curve   For a function of two variables and a number in the range of , a level curve of is defined to be the set of inputs such that    "
+},
+{
+  "id": "PD1-activities-8",
+  "level": "2",
+  "url": "PD1.html#PD1-activities-8",
+  "type": "Activity",
+  "number": "10.1.5",
+  "title": "",
+  "body": "  A contour map is a collection of level curves for a surface. Which of the following is a contour map for the function ?                                 "
 },
 {
   "id": "PD2",

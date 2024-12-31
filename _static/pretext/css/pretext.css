@@ -679,10 +679,6 @@ https://yoshiwarabooks.org/mfg/MathModels.html */
     white-space: pre;
 }
 
-.ptx-content .colophon .credit {
-  margin-top: 1em;
-}
-
 button {
    font: inherit;
 }
@@ -1006,7 +1002,7 @@ xxxxxx[data-ruler="sunriseunderline"] .onelineX:hover + .onelineX {
 }
 
 .ptx-footnote {
-    display: inline-block;
+    display: inline;
 }
 
 .ptx-footnote[open] {
