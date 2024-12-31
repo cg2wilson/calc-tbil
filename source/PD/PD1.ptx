@@ -18,6 +18,271 @@
     <subsection xml:id="PD1-activities">
         <title>In-Class Activities</title>
 
+        <activity xml:id="pd-functions-recall">
+            <statement>
+                <p>
+                    Let <m>y = f(x)</m> be a function.
+                </p>
+            </statement>
+            <task>
+                <statement>
+                    <p>
+                        The set of values <m>\lrbrace{x\mid f(x)\text{ exists}}</m> is called the
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Range
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Inputs
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Domain
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Outputs
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of values <m>\lrbrace{y\mid y = f(x)}</m> is called the
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Range
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Inputs
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Domain
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Outputs
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="pd-functions-multiple1">
+            <statement>
+                <p>
+                    Now consider a function of <em>two</em> variables, <m>z = f(x,y)</m>. Use <xref ref="pd-functions-recall"/> to help you answer the following.
+                </p>
+            </statement>
+            <task>
+                <statement>
+                    <p>
+                        The set of values <m>\lrbrace{(x,y)\mid f(x,y)\text{ exists}}</m> is called the
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Range
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Inputs
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Domain
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Outputs
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of values <m>\lrbrace{z\mid z=f(x,y)}</m> is called the
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Range
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Inputs
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Domain
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Outputs
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use parts (a) and (b) to complete the generalization of a function in <xref ref="def-function-multiple-variables"/>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        <definition xml:id="def-function-multiple-variables">
+            <title>Function of Multiple Variables</title>
+            <statement>
+                <p>
+                    A <term>function of multiple variables</term> <m>z = f(x_1,x_2,...,x_n)</m> is a rule which maps the ordered pair <fillin characters="5" /> in a subset <m>D</m> of <m>\R^n</m> to a unique real number <fillin characters="5" />. The set <m>D</m> is called the <fillin characters="5" /> of the function, and the <fillin characters="5" /> is the set of all real numbers <m>z</m> such that <fillin characters="5" />
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="pd-functions-domain-range1">
+            <statement>
+                <p>
+                    Identify the domain of the functions below.
+                </p>
+            </statement>
+            <task>
+                <statement>
+                    <p>
+                        <m>g(x,y) = \sqrt{36-x^2-y^2}</m>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\lrbrace{(x,y)\mid x^2 + y^2 \gt 6}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\lrbrace{(x,y)\mid x^2 + y^2 \geq 6}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\lrbrace{(x,y)\mid x^2 + y^2 \lt 6}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\lrbrace{(x,y)\mid x^2 + y^2 \leq 6}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>h(y,z) = 2y^2 + z^2</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        <activity xml:id="pd-functions-graph1">
+            <statement>
+                <p>
+                    Use technology to graph the function <m>f(x,y) = \sqrt{x^2 + y^2}</m>. Report the domain and the range of the function.
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-level-curve">
+            <title>Level Curve</title>
+            <idx><h>level curve</h></idx>
+            <statement>
+                <p>
+                    For a function of two variables <m>f(x,y)</m> and a number <m>c</m> in the range of <m>f</m>, a <term>level curve</term> of <m>f</m> is defined to be the set of inputs <m>(x,y)</m> such that <m>f(x,y) = c</m>
+                </p>
+            </statement>
+        </definition>
+
+        <activity>
+            <statement>
+                <p>
+                   A <term>contour map</term> is a collection of level curves for a surface. Which of the following is a contour map for the function <m>f(x,y) = \sqrt{x^2 + y^2}</m>? 
+                   <ol marker="A." cols="2">
+                    <li>
+                        <p>
+                            <image>
+                                <sageplot>
+                                    x = var('x')
+                                    y = var('y')
+                                    f(x,y) = x^2 + y^2
+                                    contour_plot(f,(x,-4,4),(y,-4,4),fill=False,plot_points=150,axes_labels=('$x$','$y$'))
+                                </sageplot>
+                            </image>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <image>
+                                <sageplot>
+                                    x = var('x')
+                                    y = var('y')
+                                    f(x,y) = sqrt(x^2 + y^2)
+                                    contour_plot(f,(x,-4,4),(y,-4,4),fill=False,plot_points=150,axes_labels=('$x$','$y$'))
+                                </sageplot>
+                            </image>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <image>
+                                <sageplot>
+                                    x = var('x')
+                                    y = var('y')
+                                    f(x,y) = x^2 - y^2
+                                    contour_plot(f,(x,-4,4),(y,-4,4),fill=False,plot_points=150,axes_labels=('$x$','$y$'))
+                                </sageplot>
+                            </image>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <image>
+                                <sageplot>
+                                    x = var('x')
+                                    y = var('y')
+                                    f(x,y) = sqrt(x^2 - y^2)
+                                    contour_plot(f,(x,-4,4),(y,-4,4),fill=False,plot_points=150,axes_labels=('$x$','$y$'))
+                                </sageplot>
+                            </image>
+                        </p>
+                    </li>
+                   </ol>
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>
