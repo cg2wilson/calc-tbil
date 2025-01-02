@@ -18,6 +18,357 @@
     <subsection xml:id="PD3-activities">
         <title>In-Class Activities</title>
 
+        <activity xml:id="pd-partialderivative-intuition1">
+            <introduction>
+                <p>
+                    A metal rod lying along the <m>x-</m>axis is heated unevenly. Assume that its temperature is a function of its distance from the origin, so that the input is given by <m>x</m> cm and the output, <m>t(x)</m>, is given in degrees Celsius. The temperature of the rod is given in the table below.
+                </p>
+                <tabular>
+                    <row>
+                        <cell> <m>x</m> cm</cell>
+                        <cell> 0 </cell>
+                        <cell> 1 </cell>
+                        <cell> 2 </cell>
+                        <cell> 3 </cell>
+                        <cell> 4 </cell>
+                        <cell> 5 </cell>
+                    </row>
+                    <row>
+                        <cell><m>t(x)\dc C</m></cell>
+                        <cell> 125 </cell>
+                        <cell> 128 </cell>
+                        <cell> 135 </cell>
+                        <cell> 160 </cell>
+                        <cell> 175 </cell>
+                        <cell> 160 </cell>
+                    </row>
+                </tabular>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which expression will approximate the derivative <m>t'(2)</m>? 
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{t(x) - t(2)}{x-2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{t(2+h)-t(2)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{x\to 2} \dfrac{t(x) - t(2)}{x-2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{t(2+h)-t(2)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>t'(2)</m>, and include proper units.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="pd-partialderivative-intutition2">
+            <introduction>
+                <p>
+                    Now consider an unevenly heated plate, whose corner lies at the origin, as in the image below.
+                </p>
+                <image>
+                    <sageplot>
+                        p = Graphics()
+                        p += polygon(([(0,0),(0,3),(5,3),(5,0)]),alpha = 0.25, gridlines=True, axes_labels = (r'$x$',r'$t(x)$'), fontsize=10)
+                        p += polygon(([(0,0),(0,3),(5,3),(5,0)]),fill=False,color='black')
+                        p
+                    </sageplot>
+                </image>
+                <p>
+                    The temperature at certain points is given by the table below.
+                </p>
+                <tabular>
+                    <row>
+                        <cell> 3 </cell>
+                        <cell> 85 </cell>
+                        <cell> 90 </cell>
+                        <cell> 110 </cell>
+                        <cell> 135 </cell>
+                        <cell> 155 </cell>
+                        <cell> 180 </cell>
+                    </row>
+                    <row>
+                        <cell> 2 </cell>
+                        <cell> 100 </cell>
+                        <cell> 110 </cell>
+                        <cell> 120 </cell>
+                        <cell> 145 </cell>
+                        <cell> 190 </cell>
+                        <cell> 170 </cell>
+                    </row>
+                    <row>
+                        <cell> 1 </cell>
+                        <cell> 125 </cell>
+                        <cell> 128 </cell>
+                        <cell> 135 </cell>
+                        <cell> 160 </cell>
+                        <cell> 175 </cell>
+                        <cell> 160 </cell>
+                    </row>
+                    <row>
+                        <cell> 0 </cell>
+                        <cell> 120 </cell>
+                        <cell> 135 </cell>
+                        <cell> 155 </cell>
+                        <cell> 160 </cell>
+                        <cell> 160 </cell>
+                        <cell> 150 </cell>
+                    </row>
+                    <row>
+                        <cell>  </cell>
+                        <cell> 0 </cell>
+                        <cell> 1 </cell>
+                        <cell> 2 </cell>
+                        <cell> 3 </cell>
+                        <cell> 4 </cell>
+                        <cell> 5 </cell>
+                    </row>
+                </tabular>
+                <p>
+                    Let <m>T(x,y)</m> give the temperature at a point on the plate, and let <m>t(x) = T(x,y)</m>, where <m>y</m> is a fixed number. <m>x</m> is measured in feet, and <m>y</m> is measured in meters.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        In order to compute the rate of change at a specific point, we need to analyze how the function changes in a specific direction. We accomplish this by looking along specific vertical slices of the function. 
+                    </p>
+                    <p>
+                        Fix <m>y=1</m>, so that <m>t(x) = T(x,1)</m>. Which expression correctly identifies <m>t'(2)</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{T(x + h,1) -T(2,1)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{T(2,2+h)-T(2,1)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{T(2+h,y) - T(2,1)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{T(2+h,1)-T(2,1)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>h=1</m>, evaluate <m>t(2)</m>. What are the units associated to <m>t'(2)</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\dc C</m>/m
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dc C</m>/ft
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    ft/<m>\dc C</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    m/<m>\dc C</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If instead we look at the rate of change in the <m>y-</m>direction at <m>(2,1)</m>, which would be the expression we should compute?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{T(2+h,y+k) -T(2,1)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{T(2,1+h)-T(2,1)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{T(x,y+h) - T(2,1)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{T(2+h,1)-T(2,1)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute the rate of change in the <m>y-</m>direction, and include appropriate units.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-partial-derivative">
+            <title>Partial Derivative</title>
+            <statement>
+                <p>
+                    Let <m>f(x,y)</m> be a function of two variables. The <term>partial derivative</term> of <m>f</m> with respect to <m>x</m>, written as <m>\dfrac{\partial f}{\partial x}</m> or <m>f_x(x,y)</m>, is given by the limit
+                    <me>
+                        \dfrac{\partial f}{\partial x} = \lim_{h\to 0} \dfrac{f(x+h,y)-f(x,y)}{h}
+                    </me>
+                    The partial derivative of <m>f</m> with respect to <m>y</m> is written as <m>\dfrac{\partial f}{\partial y}</m> or <m>f_y(x,y)</m>, and is given by the limit
+                    <me>
+                        \dfrac{\partial f}{\partial y} = \lim_{h\to 0} \dfrac{f(x,y+h)-f(x,y)}{h}
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="pd-partialderivative-compute1">
+            <introduction>
+                <p>
+                    Let <m>f(x,y) = 4x^2 + 3xy - y^2 + 5</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which expression correctly sets up <m>f_x(x,y)</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{4(x+h)^2+3(x+h)(y+h)-(y+h)^2 + 5-4x^2-3xy+y^2-5}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{4(x+h)^2+3(x+h)y -y^2 + 5 -4x^2 + 3xy-y^2+5}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{4x^2+3x(y+h) -(y+h)^2 + 5 -4x^2 - 3xy+y^2-5}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \lim_{h\to 0} \dfrac{4(x+h)^2+3(x+h)y -y^2 + 5 -4x^2 - 3xy+y^2-5}{h}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Evaluate <m>f_x(2,1)</m>. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Evaluate <m>\dfrac{\partial f}{\partial y}\bigg\rvert_{(x,y) = (2,1)}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compare and contrast your answers to (b) and (c). What do they tell you about how the function is changing at <m>(2,1)</m>?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <remark>
+            <p>
+                Partial derivatives can be computed like single-variable derivatives by holding the other variables constant and differentiating.
+            </p>
+            <p>
+                For example, if <m>f(x,y) = x^2y + \sin(x)\cos(y)</m>, <m>f_x(x,y)</m> can be visualized as
+                <md>
+                    <mrow>f_x(x,y) \amp = \dfrac{\partial}{\partial x}(x^2y) + \dfrac{\partial}{\partial x}(\sin(x)\cos(y)) </mrow>
+                    <mrow>  \amp = y\cdot \dfrac{\partial}{\partial x}(x^2) + \cos(y)\cdot \dfrac{\partial}{\partial x}(\sin(x)) </mrow>
+                    <mrow> \amp = y(2x) + \cos(y)(\cos(x)) </mrow>
+                    <mrow> \amp = 2xy + \cos(x)\cos(y)  </mrow>
+                </md>
+            </p>
+        </remark>
+
     </subsection>
 
 </section>
