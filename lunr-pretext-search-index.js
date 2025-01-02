@@ -4156,7 +4156,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.3",
   "title": "PD3: Partial Derivatives",
-  "body": " PD3: Partial Derivatives     PD3  Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface      Pre-Class Preparation  Read the following sections of the text:    Section 4.3: Partial Derivatives    Read all sections      Section 4.4: Tangent Planes and Linear Approximations    Read the \"Tangent Planes\" section only        In-Class Activities   "
+  "body": " PD3: Partial Derivatives     PD3  Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface      Pre-Class Preparation  Read the following sections of the text:    Section 4.3: Partial Derivatives    Read all sections      Section 4.4: Tangent Planes and Linear Approximations    Read the \"Tangent Planes\" section only        In-Class Activities    A metal rod lying along the axis is heated unevenly. Assume that its temperature is a function of its distance from the origin, so that the input is given by cm and the output, , is given in degrees Celsius. The temperature of the rod is given in the table below.     cm  0  1  2  3  4  5     125  128  135  160  175  160      Which expression will approximate the derivative ?                          Compute , and include proper units.      Now consider an unevenly heated plate, whose corner lies at the origin, as in the image below.     The temperature at certain points is given by the table below.    3  85  90  110  135  155  180    2  100  110  120  145  190  170    1  125  128  135  160  175  160    0  120  135  155  160  160  150      0  1  2  3  4  5    Let give the temperature at a point on the plate, and let , where is a fixed number. is measured in feet, and is measured in meters.    In order to compute the rate of change at a specific point, we need to analyze how the function changes in a specific direction. We accomplish this by looking along specific vertical slices of the function.  Fix , so that . Which expression correctly identifies ?                          If , evaluate . What are the units associated to ?    \/m     \/ft    ft\/     m\/        If instead we look at the rate of change in the direction at , which would be the expression we should compute?                          Compute the rate of change in the direction, and include appropriate units.     Partial Derivative   Let be a function of two variables. The partial derivative of with respect to , written as or , is given by the limit The partial derivative of with respect to is written as or , and is given by the limit       Let     Which expression correctly sets up ?                          Evaluate .    Evaluate     Compare and contrast your answers to (b) and (c). What do they tell you about how the function is changing at ?     Partial derivatives can be computed like single-variable derivatives by holding the other variables constant and differentiating.  For example, if , can be visualized as     "
 },
 {
   "id": "PD3-2",
@@ -4166,6 +4166,51 @@ var ptx_lunr_docs = [
   "number": "10.3",
   "title": "",
   "body": "   PD3  Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface    "
+},
+{
+  "id": "pd-partialderivative-intuition1",
+  "level": "2",
+  "url": "PD3.html#pd-partialderivative-intuition1",
+  "type": "Activity",
+  "number": "10.3.1",
+  "title": "",
+  "body": "  A metal rod lying along the axis is heated unevenly. Assume that its temperature is a function of its distance from the origin, so that the input is given by cm and the output, , is given in degrees Celsius. The temperature of the rod is given in the table below.     cm  0  1  2  3  4  5     125  128  135  160  175  160      Which expression will approximate the derivative ?                          Compute , and include proper units.   "
+},
+{
+  "id": "pd-partialderivative-intutition2",
+  "level": "2",
+  "url": "PD3.html#pd-partialderivative-intutition2",
+  "type": "Activity",
+  "number": "10.3.2",
+  "title": "",
+  "body": "  Now consider an unevenly heated plate, whose corner lies at the origin, as in the image below.     The temperature at certain points is given by the table below.    3  85  90  110  135  155  180    2  100  110  120  145  190  170    1  125  128  135  160  175  160    0  120  135  155  160  160  150      0  1  2  3  4  5    Let give the temperature at a point on the plate, and let , where is a fixed number. is measured in feet, and is measured in meters.    In order to compute the rate of change at a specific point, we need to analyze how the function changes in a specific direction. We accomplish this by looking along specific vertical slices of the function.  Fix , so that . Which expression correctly identifies ?                          If , evaluate . What are the units associated to ?    \/m     \/ft    ft\/     m\/        If instead we look at the rate of change in the direction at , which would be the expression we should compute?                          Compute the rate of change in the direction, and include appropriate units.   "
+},
+{
+  "id": "def-partial-derivative",
+  "level": "2",
+  "url": "PD3.html#def-partial-derivative",
+  "type": "Definition",
+  "number": "10.3.1",
+  "title": "Partial Derivative.",
+  "body": " Partial Derivative   Let be a function of two variables. The partial derivative of with respect to , written as or , is given by the limit The partial derivative of with respect to is written as or , and is given by the limit    "
+},
+{
+  "id": "pd-partialderivative-compute1",
+  "level": "2",
+  "url": "PD3.html#pd-partialderivative-compute1",
+  "type": "Activity",
+  "number": "10.3.3",
+  "title": "",
+  "body": "  Let     Which expression correctly sets up ?                          Evaluate .    Evaluate     Compare and contrast your answers to (b) and (c). What do they tell you about how the function is changing at ?   "
+},
+{
+  "id": "PD3-activities-6",
+  "level": "2",
+  "url": "PD3.html#PD3-activities-6",
+  "type": "Remark",
+  "number": "10.3.2",
+  "title": "",
+  "body": " Partial derivatives can be computed like single-variable derivatives by holding the other variables constant and differentiating.  For example, if , can be visualized as   "
 },
 {
   "id": "PD4",
