@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="D6" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>D6: Derivative Shortcuts</title>
+<section xml:id="DE6" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DE6: Derivative Shortcuts</title>
     <objectives>
         <dl>
             <li>
-                <title>D6</title>
+                <title>DE6</title>
                 <p>
                     I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.  
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/D6-prep.ptx" />
+    <xi:include href="./preparation/DE6-prep.ptx" />
 
-    <subsection xml:id="D6-activities">
+    <subsection xml:id="DE6-activities">
         <title>In-Class Activities</title>
 
         <activity xml:id="d-activity-derivativerules-develop1">

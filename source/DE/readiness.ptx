@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<introduction xml:id="D-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <paragraphs xml:id="D-readiness">
+<introduction xml:id="DE-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <paragraphs xml:id="DE-readiness">
     <title>Readiness Assurance</title>
       <p>
         Before beginning this chapter, you should be able to...
@@ -31,7 +31,7 @@
           </li>        
           <li>
             <p>
-              Compute a limit numerically, graphically, or analytically (<xref ref="L1"/>, <xref ref="L2"/>)
+              Compute a limit numerically, graphically, or analytically (<xref ref="LT1"/>, <xref ref="LT2"/>)
             </p>
           </li>
         </ol>

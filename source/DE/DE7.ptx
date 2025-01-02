@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="D7" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>D7: Derivative Rules</title>
+<section xml:id="DE7" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DE7: Derivative Rules</title>
     <objectives>
         <dl>
             <li>
-                <title>D7</title>
+                <title>DE7</title>
                 <p>
                     I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse. 
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/D7-prep.ptx" />
+    <xi:include href="./preparation/DE7-prep.ptx" />
 
-    <subsection xml:id="D7-activities">
+    <subsection xml:id="DE7-activities">
         <title>In-Class Activities</title>
         
         <activity xml:id="d-prodquotrule-idea">

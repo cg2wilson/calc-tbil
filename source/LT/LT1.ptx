@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="L1" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>L1: Limits Graphically/Numerically</title>
+<section xml:id="LT1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>LT1: Limits Graphically/Numerically</title>
   <objectives>
     <dl>
       <li>
-        <title>L1</title>
+        <title>LT1</title>
         <p>I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.</p>
       </li>
     </dl>
   </objectives>
 
-  <xi:include href="./preparation/L1-prep.ptx" />
+  <xi:include href="./preparation/LT1-prep.ptx" />
 
-  <subsection xml:id="L1-activities">
+  <subsection xml:id="LT1-activities">
     <title>In-Class Activities</title>
     
       <activity xml:id="activity-limits-graphically1" estimated-time="5">

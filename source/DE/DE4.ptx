@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="D4" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>D4: Sketching the Derivative</title>
+<section xml:id="DE4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DE4: Sketching the Derivative</title>
     <objectives>
         <dl>
             <li>
-                <title>D4</title>
+                <title>DE4</title>
                 <p>
                     Given a graph, I can sketch its derivative.
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/D4-prep.ptx" />
+    <xi:include href="./preparation/DE4-prep.ptx" />
 
-    <subsection xml:id="D4-activities">
+    <subsection xml:id="DE4-activities">
         <title>In-Class Activities</title>
 
         <activity xml:id="d-activity-sketch-1">

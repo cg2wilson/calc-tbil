@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="D9" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>D9: Implicit Differentiation</title>
+<section xml:id="DE9" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DE9: Implicit Differentiation</title>
     <objectives>
         <dl>
             <li>
-                <title>D9</title>
+                <title>DE9</title>
                 <p>
                     I can use implicit differentiation to find the derivative of an equation.
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/D9-prep.ptx" />
+    <xi:include href="./preparation/DE9-prep.ptx" />
 
-    <subsection xml:id="D9-activities">
+    <subsection xml:id="DE9-activities">
         <title>In-Class Activities</title>
 
         <note>

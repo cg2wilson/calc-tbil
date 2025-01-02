@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="L4" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>L4: Continuity</title>
+<section xml:id="LT4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>LT4: Continuity</title>
     <objectives>
         <dl>
             <li>
-                <title>L4</title>
+                <title>LT4</title>
                 <p>
                     I can identify where a function is continuous (on an interval or at a point), and describe the type of discontinuity.
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/L4-prep.ptx" />
+    <xi:include href="./preparation/LT4-prep.ptx" />
 
-    <subsection xml:id="L4-activities">
+    <subsection xml:id="LT4-activities">
         <title>In-Class Activities</title>
 
         <remark xml:id="L-continuity-intuition">

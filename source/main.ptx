@@ -14,7 +14,7 @@
     <!-- Include chapters -->
     <xi:include href="./review/main.ptx"/>
     <xi:include href="./LT/main.ptx" />
-    <xi:include href="./DF/main.ptx" />
+    <xi:include href="./DE/main.ptx" />
     <xi:include href="./AD/main.ptx" />
     <xi:include href="./IN/main.ptx" />
     <xi:include href="./VE/main.ptx" />

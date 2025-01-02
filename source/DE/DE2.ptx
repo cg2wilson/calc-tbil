@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="D2" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>D2: The Derivative (Definition)</title>
+<section xml:id="DE2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DE2: The Derivative (Definition)</title>
     <objectives>
         <dl>
             <li>
-                <title>D2</title>
+                <title>DE2</title>
                 <p>
                     I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function. 
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/D2-prep.ptx" />
+    <xi:include href="./preparation/DE2-prep.ptx" />
 
-    <subsection xml:id="D2-activities">
+    <subsection xml:id="DE2-activities">
         <title>In-Class Activities</title>
 
         <remark>

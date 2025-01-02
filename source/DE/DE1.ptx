@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="D1" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>D1: Average/Instantaneous Rate of Change</title>
+<section xml:id="DE1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DE1: Average/Instantaneous Rate of Change</title>
     <objectives>
         <dl>
             <li>
-                <title>D1</title>
+                <title>DE1</title>
                 <p>
                     I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/D1-prep.ptx" />
+    <xi:include href="./preparation/DE1-prep.ptx" />
 
-    <subsection xml:id="D1-activities">
+    <subsection xml:id="DE1-activities">
         <title>In-Class Activities</title>
 
         <!-- 
@@ -376,7 +376,7 @@
             <task>
                 <statement>
                     <p>
-                        In <xref ref="L1"/> and <xref ref="L2"/>, we talked about limits as a way to approach an input without actually reaching it. Use the ideas from these sections to argue why the expression below solves problem identified in part (a):
+                        In <xref ref="LT1"/> and <xref ref="LT2"/>, we talked about limits as a way to approach an input without actually reaching it. Use the ideas from these sections to argue why the expression below solves problem identified in part (a):
                         <me>
                             \lim_{x_1\to x_2} \dfrac{f(x_2)-f(x_1)}{x_2-x_1}
                         </me>

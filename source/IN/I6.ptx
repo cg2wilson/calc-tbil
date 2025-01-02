@@ -225,34 +225,34 @@
             <p>
                 Compute the integrals below.
             </p>
-            <task>
-                <statement>
-                    <p>
-                        <m>
-                            \ds \int_{\pi/2}^\pi \sin\lrpar{\dfrac{2\theta}{3}}\,d\theta
-                        </m>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        <m>
-                            \ds \int_0^a x\sqrt{a^2-x^2}\,dx
-                        </m>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        <m>
-                            \ds \int y^2(4-y^3)^{2/3}\,dy
-                        </m>
-                    </p>
-                </statement>
-            </task>
         </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>
+                        \ds \int_{\pi/2}^\pi \sin\lrpar{\dfrac{2\theta}{3}}\,d\theta
+                    </m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>
+                        \ds \int_0^a x\sqrt{a^2-x^2}\,dx
+                    </m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>
+                        \ds \int y^2(4-y^3)^{2/3}\,dy
+                    </m>
+                </p>
+            </statement>
+        </task>
     </activity>
 
     <activity xml:id="i-activity-substitution-practice3">

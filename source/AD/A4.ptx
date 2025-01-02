@@ -21,7 +21,7 @@
         <activity xml:id="a-activity-lhopital-background1">
             <introduction>
                 <p>
-                    In <xref ref="L2"/>, we learned <xref ref="direct-substitution"/>. It says that if <m>f</m> is a <q>nice</q> function (polynomial, algebraic, transcendental, trigonometric), and <m>a</m> is in the domain of <m>f</m>, then <m>\ds \lim_{x\to a} f(x) = f(a)</m>.
+                    In <xref ref="LT2"/>, we learned <xref ref="direct-substitution"/>. It says that if <m>f</m> is a <q>nice</q> function (polynomial, algebraic, transcendental, trigonometric), and <m>a</m> is in the domain of <m>f</m>, then <m>\ds \lim_{x\to a} f(x) = f(a)</m>.
                 </p>
                 <p>
                     Below, consider the function <m>f(x) = \dfrac{x^2-4}{x-2}</m>.

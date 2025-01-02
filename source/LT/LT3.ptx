@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="L3" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>L3: Asymptotes</title>
+<section xml:id="LT3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>LT3: Limits of Functions with Unbounded Inputs/Outputs</title>
     <objectives>
         <dl>
             <li>
-                <title>L3</title>
+                <title>LT3</title>
             <p>
-                I can determine when and if a function will have a vertical or horizontal asymptote.
+                I can compute limits of functions as the input becomes unbounded, and also as the output becomes unbounded.
             </p>
             </li>
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/L3-prep.ptx" />
+    <xi:include href="./preparation/LT3-prep.ptx" />
 
-    <subsection xml:id="L3-activities">
+    <subsection xml:id="LT3-activities">
         <title>In-Class Activities</title>
 
         <activity xml:id="LT5-infinity-intuition1">

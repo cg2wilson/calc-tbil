@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="D3" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>D3: Interpreting the Derivative</title>
+<section xml:id="DE3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DE3: Interpreting the Derivative</title>
     <objectives>
         <dl>
             <li>
-                <title>D3</title>
+                <title>DE3</title>
                 <p>
                     I can interpret the meaning of a derivative in context (with appropriate units).
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/D3-prep.ptx" />
+    <xi:include href="./preparation/DE3-prep.ptx" />
 
-    <subsection xml:id="D3-activities">
+    <subsection xml:id="DE3-activities">
         <title>In-Class Activities</title>
 
         <activity xml:id="d-activity-derivative-units1">

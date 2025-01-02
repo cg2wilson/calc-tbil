@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="D8" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>D8: Chain Rule</title>
+<section xml:id="DE8" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DE8: Chain Rule</title>
     <objectives>
         <dl>
             <li>
-                <title>D8</title>
+                <title>DE8</title>
                 <p>
                     I can compute derivatives using the chain rule by itself and with other rules.
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/D8-prep.ptx" />
+    <xi:include href="./preparation/DE8-prep.ptx" />
 
-    <subsection xml:id="D8-activities">
+    <subsection xml:id="DE8-activities">
         <title>In-Class Activities</title>
             <note>
                 <title>Notation</title>

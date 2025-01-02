@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="L2" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>L2: Limits Analytically</title>
+<section xml:id="LT2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>LT2: Limits Analytically</title>
   <objectives>
     <dl>
       <li>
-        <title>L2</title>
+        <title>LT2</title>
         <p>I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.</p>
       </li>
     </dl>
   </objectives>
   
-  <xi:include href="./preparation/L2-prep.ptx" />
+  <xi:include href="./preparation/LT2-prep.ptx" />
 
-  <subsection xml:id="L2-activities">
+  <subsection xml:id="LT2-activities">
     <title>In-Class Activities</title>
 
     <remark>

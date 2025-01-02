@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-L" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Limits (L)</title>
+<chapter xml:id="ch-LT" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Limits (LT)</title>
 
   <objectives>
     <introduction>
@@ -12,25 +12,25 @@
     </introduction>
       <dl>
         <li>
-          <title>L1</title>
+          <title>LT1</title>
           <p>
             I can use a graph or table to determine the limit (one-sided or two-sided) of a function.
           </p>
         </li>
         <li>
-          <title>L2</title>
+          <title>LT2</title>
           <p>
             I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.
           </p>
         </li>
         <li>
-          <title>L3</title>
+          <title>LT3</title>
           <p>
-            I can determine when and if a function will have a vertical or horizontal asymptote.
+            I can compute limits of functions as the input becomes unbounded, and also as the output becomes unbounded.
           </p>
         </li>
         <li>
-          <title>L4</title>
+          <title>LT4</title>
           <p>
             I can identify where a function is contininuous (on an interval or at a point), and describe the type of discontinuity.
           </p>
@@ -42,9 +42,9 @@
 
   <!-- include sections -->
   <xi:include href="./readiness.ptx" />
-  <xi:include href="./L1.ptx" />
-  <xi:include href="./L2.ptx" />
-  <xi:include href="./L3.ptx" />
-  <xi:include href="./L4.ptx" />
+  <xi:include href="./LT1.ptx" />
+  <xi:include href="./LT2.ptx" />
+  <xi:include href="./LT3.ptx" />
+  <xi:include href="./LT4.ptx" />
 
 </chapter>

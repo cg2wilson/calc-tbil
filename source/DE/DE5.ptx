@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="D5" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>D5: Differentiability</title>
+<section xml:id="DE5" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DE5: Differentiability</title>
     <objectives>
         <dl>
             <li>
-                <title>D5</title>
+                <title>DE5</title>
                 <p>
                     I can graphically, numerically, or algebraically determine where a function is differentiable
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/D5-prep.ptx" />
+    <xi:include href="./preparation/DE5-prep.ptx" />
 
-    <subsection xml:id="D5-activities">
+    <subsection xml:id="DE5-activities">
         <title>In-Class Activities</title>
 
         <activity>
