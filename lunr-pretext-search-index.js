@@ -1,13 +1,13 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "frontmatter-2",
+  "id": "front-colophon",
   "level": "1",
-  "url": "frontmatter-2.html",
+  "url": "front-colophon.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": "  copyright  "
+  "body": ""
 },
 {
   "id": "review-functions",
@@ -577,27 +577,27 @@ var ptx_lunr_docs = [
   "body": "restricting the domain "
 },
 {
-  "id": "L1",
+  "id": "LT1",
   "level": "1",
-  "url": "L1.html",
+  "url": "LT1.html",
   "type": "Section",
   "number": "1.1",
-  "title": "L1: Limits Graphically\/Numerically",
-  "body": " L1: Limits Graphically\/Numerically     L1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: The Limit of a Function        In-Class Activities    In the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of .    A graph of a function that has not been rendered properly.    Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What -value are you approaching?    0.5    1    1.5    2    2.5     Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What -value are you approaching?    0.5    1    1.5    2    2.5        In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?    0.5    1    1.5    2    2.5     What is the -value that is approached as we move toward from the right?    0.5    1    1.5    2    2.5       When studying functions in algebra, we often focused on the value of a function given a specific -value. For instance, finding for some function . In and , we have instead been exploring what is happening as we approach a certain value on a graph. This concept in mathematics (especially important in calculus) is known as finding a limit .    Refer back to and . Write your first draft of the definition of a limit. What is important to include? (You can use concepts of limits from your daily life to motivate or define what a limit is.)    Limit   Given a function , a fixed input , and a real number , we say that has limit as approaches , limit definition and write provided that we can make as close to as we like by taking sufficiently close (but not equal) to .  If we cannot make as close to a single value as we would like as approaches , then we say that does not have a limit as approaches .      Conjecture why and illustrate the need for \"approaching\" an input value, and connect this to          A piecewise-defined function    What is the limit as approaches in ?    The limit is 1    The limit is -1    The limit is 0    The limit is not defined       Left- and Right-Hand Limits   We say that has limit as approaches from the left and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having . We call the left-hand limit of as approaches .  Similarly, we say is the right-hand limit of as approaches and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having .     Facts About Limits      A function has a limit at if and only if     For a function , it may have a limit at , even if does not exist.         Refer again to from .   Which of the following best matches the definition of right and left limits? (Note that DNE is short for \"does not exist.\")   The left limit is -1. The right limit is 1.  The left limit is 1. The right limit is -1.  The left limit DNE. The right limit is 1.  The left limit is -1. The right limit DNE.  The left limit DNE. The right limit DNE.    What do you think the overall limit equals?   The limit is 1  The limit is -1  The limit is 0  The limit is not defined       Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.          Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.      is finite, but is infinite.     , but .     but .                                                                Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999      Notice that the value we obtained in is only an approximation, based on the trends that we have seen within the table.                                                               In 's we found an approximation to the limit of the function as tends to 2.  Now let us say you are also given a table of numerical values ( ) for the function. Given this new information which of the choices below best describes the limit of the function as tends to 2?     There is not enough information because we do not know the value of the function at .    The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as goes to 2.    The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.    The limit cannot be approximated because the function might not exist at .                                        Based on , what information can be inferred about , , and ?      , and      , and does not exist.     , and does not exist.     , and         Consider the following function    Of the following options, at which values given would you evaluate to best determine numerically?   1.9, 1.99, 2.0, 2.01, 2.1  1.98, 1.99, 2.0, 2.01, 2.02  1.8, 1.9, 2.0, 2.1, 2.2  1.0, 1.5, 2.0, 2.5, 3.0    Use the values that you chose in part (a) to calculate an approximation for .  Which value best describes the limit that you obtained in part (b)?   The approximate value is 41.25  The approximate value is 41.5  The approximate value is 41.75  The approximate value is 42       In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                                              Based on the graph and table what is the best explanation for the limit as tends to zero?    The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for      Would your conclusion that resulted from change if the function was or ? Explain why or why not.      Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit      "
+  "title": "LT1: Limits Graphically\/Numerically",
+  "body": " LT1: Limits Graphically\/Numerically     LT1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: The Limit of a Function        In-Class Activities    In the graph of a function is given, but something is wrong. The graphic card failed and one portion did not render properly. We can’t see what is happening in the neighborhood of .    A graph of a function that has not been rendered properly.    Imagine moving along the graph toward the missing portion from the left, so that you are climbing up and to the right toward the obscured area of the graph. What -value are you approaching?    0.5    1    1.5    2    2.5     Think of the same process, but this time from the right. You're falling down and to the left this time as you come close to the missing portion. What -value are you approaching?    0.5    1    1.5    2    2.5        In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?    0.5    1    1.5    2    2.5     What is the -value that is approached as we move toward from the right?    0.5    1    1.5    2    2.5       When studying functions in algebra, we often focused on the value of a function given a specific -value. For instance, finding for some function . In and , we have instead been exploring what is happening as we approach a certain value on a graph. This concept in mathematics (especially important in calculus) is known as finding a limit .    Refer back to and . Write your first draft of the definition of a limit. What is important to include? (You can use concepts of limits from your daily life to motivate or define what a limit is.)    Limit   Given a function , a fixed input , and a real number , we say that has limit as approaches , limit definition and write provided that we can make as close to as we like by taking sufficiently close (but not equal) to .  If we cannot make as close to a single value as we would like as approaches , then we say that does not have a limit as approaches .      Conjecture why and illustrate the need for \"approaching\" an input value, and connect this to          A piecewise-defined function    What is the limit as approaches in ?    The limit is 1    The limit is -1    The limit is 0    The limit is not defined       Left- and Right-Hand Limits   We say that has limit as approaches from the left and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having . We call the left-hand limit of as approaches .  Similarly, we say is the right-hand limit of as approaches and write provided that we can make the value of as close to as we like by taking sufficiently close to while always having .     Facts About Limits      A function has a limit at if and only if     For a function , it may have a limit at , even if does not exist.         Refer again to from .   Which of the following best matches the definition of right and left limits? (Note that DNE is short for \"does not exist.\")   The left limit is -1. The right limit is 1.  The left limit is 1. The right limit is -1.  The left limit DNE. The right limit is 1.  The left limit is -1. The right limit DNE.  The left limit DNE. The right limit DNE.    What do you think the overall limit equals?   The limit is 1  The limit is -1  The limit is 0  The limit is not defined       Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.          Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.      is finite, but is infinite.     , but .     but .                                                                Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999      Notice that the value we obtained in is only an approximation, based on the trends that we have seen within the table.                                                               In 's we found an approximation to the limit of the function as tends to 2.  Now let us say you are also given a table of numerical values ( ) for the function. Given this new information which of the choices below best describes the limit of the function as tends to 2?     There is not enough information because we do not know the value of the function at .    The limit can be approximated to be 1 because the data in the table and the graph show that from the left and the right the function approaches 1 as goes to 2.    The limit can be approximated to be 1 because the values appear to approach 1 and the graph appears to approach 1, but we should zoom in on the graph to be sure.    The limit cannot be approximated because the function might not exist at .                                        Based on , what information can be inferred about , , and ?      , and      , and does not exist.     , and does not exist.     , and         Consider the following function    Of the following options, at which values given would you evaluate to best determine numerically?   1.9, 1.99, 2.0, 2.01, 2.1  1.98, 1.99, 2.0, 2.01, 2.02  1.8, 1.9, 2.0, 2.1, 2.2  1.0, 1.5, 2.0, 2.5, 3.0    Use the values that you chose in part (a) to calculate an approximation for .  Which value best describes the limit that you obtained in part (b)?   The approximate value is 41.25  The approximate value is 41.5  The approximate value is 41.75  The approximate value is 42       In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                                              Based on the graph and table what is the best explanation for the limit as tends to zero?    The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for      Would your conclusion that resulted from change if the function was or ? Explain why or why not.      Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit      "
 },
 {
-  "id": "L1-2",
+  "id": "LT1-2",
   "level": "2",
-  "url": "L1.html#L1-2",
+  "url": "LT1.html#LT1-2",
   "type": "Objectives",
   "number": "1.1",
   "title": "",
-  "body": "   L1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.    "
+  "body": "   LT1  I can use a graph or a table to determine the limit (one-sided or two-sided) of a function.    "
 },
 {
   "id": "activity-limits-graphically1",
   "level": "2",
-  "url": "L1.html#activity-limits-graphically1",
+  "url": "LT1.html#activity-limits-graphically1",
   "type": "Activity",
   "number": "1.1.1",
   "title": "",
@@ -606,25 +606,25 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-graphically2",
   "level": "2",
-  "url": "L1.html#activity-limits-graphically2",
+  "url": "LT1.html#activity-limits-graphically2",
   "type": "Activity",
   "number": "1.1.2",
   "title": "",
   "body": "  In the graphic card is working again and we can see more clearly what is happening in the neighborhood of .    A graph of a function that has rendered properly    What is the value of ?  What is the -value that is approached as we move toward from the left?    0.5    1    1.5    2    2.5     What is the -value that is approached as we move toward from the right?    0.5    1    1.5    2    2.5     "
 },
 {
-  "id": "L1-activities-4",
+  "id": "LT1-activities-4",
   "level": "2",
-  "url": "L1.html#L1-activities-4",
+  "url": "LT1.html#LT1-activities-4",
   "type": "Remark",
   "number": "1.1.3",
   "title": "",
   "body": " When studying functions in algebra, we often focused on the value of a function given a specific -value. For instance, finding for some function . In and , we have instead been exploring what is happening as we approach a certain value on a graph. This concept in mathematics (especially important in calculus) is known as finding a limit .  "
 },
 {
-  "id": "L1-activities-5",
+  "id": "LT1-activities-5",
   "level": "2",
-  "url": "L1.html#L1-activities-5",
+  "url": "LT1.html#LT1-activities-5",
   "type": "Question",
   "number": "1.1.4",
   "title": "",
@@ -633,16 +633,16 @@ var ptx_lunr_docs = [
 {
   "id": "def-limit",
   "level": "2",
-  "url": "L1.html#def-limit",
+  "url": "LT1.html#def-limit",
   "type": "Definition",
   "number": "1.1.5",
   "title": "Limit.",
   "body": " Limit   Given a function , a fixed input , and a real number , we say that has limit as approaches , limit definition and write provided that we can make as close to as we like by taking sufficiently close (but not equal) to .  If we cannot make as close to a single value as we would like as approaches , then we say that does not have a limit as approaches .    "
 },
 {
-  "id": "L1-activities-7",
+  "id": "LT1-activities-7",
   "level": "2",
-  "url": "L1.html#L1-activities-7",
+  "url": "LT1.html#LT1-activities-7",
   "type": "Question",
   "number": "1.1.6",
   "title": "",
@@ -651,7 +651,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-graphically-one-sided",
   "level": "2",
-  "url": "L1.html#activity-limits-graphically-one-sided",
+  "url": "LT1.html#activity-limits-graphically-one-sided",
   "type": "Activity",
   "number": "1.1.3",
   "title": "",
@@ -660,7 +660,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-limit-left-right",
   "level": "2",
-  "url": "L1.html#def-limit-left-right",
+  "url": "LT1.html#def-limit-left-right",
   "type": "Definition",
   "number": "1.1.8",
   "title": "Left- and Right-Hand Limits.",
@@ -669,7 +669,7 @@ var ptx_lunr_docs = [
 {
   "id": "fact-limits-existence",
   "level": "2",
-  "url": "L1.html#fact-limits-existence",
+  "url": "LT1.html#fact-limits-existence",
   "type": "Fact",
   "number": "1.1.9",
   "title": "Facts About Limits.",
@@ -678,7 +678,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-graphically-one-sided2",
   "level": "2",
-  "url": "L1.html#activity-limits-graphically-one-sided2",
+  "url": "LT1.html#activity-limits-graphically-one-sided2",
   "type": "Activity",
   "number": "1.1.4",
   "title": "",
@@ -687,16 +687,16 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-graphically-fluency1",
   "level": "2",
-  "url": "L1.html#activity-limits-graphically-fluency1",
+  "url": "LT1.html#activity-limits-graphically-fluency1",
   "type": "Activity",
   "number": "1.1.5",
   "title": "",
   "body": "  Consider the following graph:    Another piecewise-defined function    Find and .  Find and .  Find and .  Find and .  For which -values does the overall limit exist? Select all. If the limit exists, find it. If it does not, explain why.       "
 },
 {
-  "id": "L1-activities-13",
+  "id": "LT1-activities-13",
   "level": "2",
-  "url": "L1.html#L1-activities-13",
+  "url": "LT1.html#LT1-activities-13",
   "type": "Activity",
   "number": "1.1.6",
   "title": "",
@@ -705,16 +705,16 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-numerically1",
   "level": "2",
-  "url": "L1.html#activity-limits-numerically1",
+  "url": "LT1.html#activity-limits-numerically1",
   "type": "Activity",
   "number": "1.1.7",
   "title": "",
   "body": "                                                         Based on the values of , what is the best approximation for ?  the limit is approximately 7  the limit is approximately 0.17  the limit is approximately 0.16  the limit is approximately 0.1667  the limit is approximately 6.9999    "
 },
 {
-  "id": "L1-activities-15",
+  "id": "LT1-activities-15",
   "level": "2",
-  "url": "L1.html#L1-activities-15",
+  "url": "LT1.html#LT1-activities-15",
   "type": "Remark",
   "number": "1.1.12",
   "title": "",
@@ -723,7 +723,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-numerically2",
   "level": "2",
-  "url": "L1.html#activity-limits-numerically2",
+  "url": "LT1.html#activity-limits-numerically2",
   "type": "Activity",
   "number": "1.1.8",
   "title": "",
@@ -732,7 +732,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-numerically3",
   "level": "2",
-  "url": "L1.html#activity-limits-numerically3",
+  "url": "LT1.html#activity-limits-numerically3",
   "type": "Activity",
   "number": "1.1.9",
   "title": "",
@@ -741,7 +741,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-numerically4",
   "level": "2",
-  "url": "L1.html#activity-limits-numerically4",
+  "url": "LT1.html#activity-limits-numerically4",
   "type": "Activity",
   "number": "1.1.10",
   "title": "",
@@ -750,43 +750,43 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-numerically5",
   "level": "2",
-  "url": "L1.html#activity-limits-numerically5",
+  "url": "LT1.html#activity-limits-numerically5",
   "type": "Activity",
   "number": "1.1.11",
   "title": "",
   "body": "  In is the graph for . Several values for in the neighborhood of are approximated in .    Graph of .                                                              Based on the graph and table what is the best explanation for the limit as tends to zero?    The limit does not exist because the left and right limits have opposite values.  The limit does not exist because we do not have enough information to answer the question.  The limit does not exist because the function is oscillating between -1 and 1.  The limit does not exist because you are dividing by zero when for      Would your conclusion that resulted from change if the function was or ? Explain why or why not.   "
 },
 {
-  "id": "L1-activities-20",
+  "id": "LT1-activities-20",
   "level": "2",
-  "url": "L1.html#L1-activities-20",
+  "url": "LT1.html#LT1-activities-20",
   "type": "Activity",
   "number": "1.1.12",
   "title": "",
   "body": "  Use technology to complete the following table of values.    Then explain how to use it to make an educated guess as to the value of the limit    "
 },
 {
-  "id": "L2",
+  "id": "LT2",
   "level": "1",
-  "url": "L2.html",
+  "url": "LT2.html",
   "type": "Section",
   "number": "1.2",
-  "title": "L2: Limits Analytically",
-  "body": " L2: Limits Analytically     L2  I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.      Pre-Class Preparation  Read the following sections of the text:    Section 2.3: The Limit Laws    Do not read \"The Squeeze Theorem\"        In-Class Activities   Recall that in we used numerical methods and table of values to find the limit of a relatively simple degree three polynomial at a point. This was inefficient, “there’s gotta be a better way!”    Given , evaluate and approximate numerically (or graphically). What do you think is more likely?           The table below gives values of a few different functions.                                                                                                             Using the table above, which of the following is least likely to be true?     and                Limit Laws, I   Let and be functions defined on an open interval containing the real number satisfying for and some real numbers. Then we have the following limits.  Constant Law: , for any constant real number  Identity Law:   Sum\/Difference Law:   Scalar Multiple Law: , for any constant real number  Product Law:   Quotient Law: if , then .       If and , which of the following statements are true? Select all that apply!                    Limit Laws, II   Let and be functions defined on an open interval containing satisfying Then we have the following limits as well.  Power Law: , for a positive integer  Root Law: , for a positive integer  Composition Law:         Use the limit laws to determine the following limits, if they exist. The function is graphed as the solid line, and is graphed as the dashed line.   The function is graphed as the solid line, and is graphed as the dashed line.                                 (Challenge) . Take a careful look at !      Given , which of the following limit laws would use to determine ? Choose all that apply.    Sum\/Difference Rule  Constant Multiple Law  Multiplication Law  Constant Law  Exponent Law  Constant Law   Division Law        Direct Substitution Property   If is a function with in the domain of , then provided that is not a piecewise function .     Given and , which of the following describes the most efficient way to determine ?    Sum\/difference, Constant Multiple, and Multiplication Laws   and the Division Law  Exponent, Sum\/difference, Constant Multiple, and Constant Laws  Division and Root Laws      Consider taking the limit of a rational function as . If , is it possible for to equal a number?    No, because is not defined at since   Yes, because if you graph , the value is not defined, but the graph shows that the limit of does exist as   No, because if you graph , the value is not defined and the graph shows that the limit of does not exist  Yes, because we can use       Let and , which of the following statements is true?           cannot be determined   does not exist      When we compute the limit of a ratio where both the numerator and denominator have limit equal to zero, we have to compute the value of a  indeterminate form . The value of an indeteminate form can be any real number or even infinity or not existent, we just do not know yet! We can usually determine the value of an indeterminate form using some algebraic manipulations of the expression given.     A function has a hole hole at if does not exist but does exist and is equal to a real number.      Consider the function     Which of the following are locations of holes for ? Select all that apply                              There are no holes       Are there any holes that you didn't find in part (a)? What are they?     says that we should be able to find the limit of a function at a hole, but that the function is not defined at that input. For each hole you identified in part (a), determine the limit of as approaches the hole.      Determine the following limits and explain your reasoning. Use to determine if (and where) the function has a hole.                    "
+  "title": "LT2: Limits Analytically",
+  "body": " LT2: Limits Analytically     LT2  I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.      Pre-Class Preparation  Read the following sections of the text:    Section 2.3: The Limit Laws    Do not read \"The Squeeze Theorem\"        In-Class Activities   Recall that in we used numerical methods and table of values to find the limit of a relatively simple degree three polynomial at a point. This was inefficient, “there’s gotta be a better way!”    Given , evaluate and approximate numerically (or graphically). What do you think is more likely?           The table below gives values of a few different functions.                                                                                                             Using the table above, which of the following is least likely to be true?     and                Limit Laws, I   Let and be functions defined on an open interval containing the real number satisfying for and some real numbers. Then we have the following limits.  Constant Law: , for any constant real number  Identity Law:   Sum\/Difference Law:   Scalar Multiple Law: , for any constant real number  Product Law:   Quotient Law: if , then .       If and , which of the following statements are true? Select all that apply!                    Limit Laws, II   Let and be functions defined on an open interval containing satisfying Then we have the following limits as well.  Power Law: , for a positive integer  Root Law: , for a positive integer  Composition Law:         Use the limit laws to determine the following limits, if they exist. The function is graphed as the solid line, and is graphed as the dashed line.   The function is graphed as the solid line, and is graphed as the dashed line.                                 (Challenge) . Take a careful look at !      Given , which of the following limit laws would use to determine ? Choose all that apply.    Sum\/Difference Rule  Constant Multiple Law  Multiplication Law  Constant Law  Exponent Law  Constant Law   Division Law        Direct Substitution Property   If is a function with in the domain of , then provided that is not a piecewise function .     Given and , which of the following describes the most efficient way to determine ?    Sum\/difference, Constant Multiple, and Multiplication Laws   and the Division Law  Exponent, Sum\/difference, Constant Multiple, and Constant Laws  Division and Root Laws      Consider taking the limit of a rational function as . If , is it possible for to equal a number?    No, because is not defined at since   Yes, because if you graph , the value is not defined, but the graph shows that the limit of does exist as   No, because if you graph , the value is not defined and the graph shows that the limit of does not exist  Yes, because we can use       Let and , which of the following statements is true?           cannot be determined   does not exist      When we compute the limit of a ratio where both the numerator and denominator have limit equal to zero, we have to compute the value of a  indeterminate form . The value of an indeteminate form can be any real number or even infinity or not existent, we just do not know yet! We can usually determine the value of an indeterminate form using some algebraic manipulations of the expression given.     A function has a hole hole at if does not exist but does exist and is equal to a real number.      Consider the function     Which of the following are locations of holes for ? Select all that apply                              There are no holes       Are there any holes that you didn't find in part (a)? What are they?     says that we should be able to find the limit of a function at a hole, but that the function is not defined at that input. For each hole you identified in part (a), determine the limit of as approaches the hole.      Determine the following limits and explain your reasoning. Use to determine if (and where) the function has a hole.                    "
 },
 {
-  "id": "L2-2",
+  "id": "LT2-2",
   "level": "2",
-  "url": "L2.html#L2-2",
+  "url": "LT2.html#LT2-2",
   "type": "Objectives",
   "number": "1.2",
   "title": "",
-  "body": "   L2  I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.    "
+  "body": "   LT2  I can use limit laws and algebraic techniques to compute the one-sided or two-sided limit of a function.    "
 },
 {
-  "id": "L2-activities-2",
+  "id": "LT2-activities-2",
   "level": "2",
-  "url": "L2.html#L2-activities-2",
+  "url": "LT2.html#LT2-activities-2",
   "type": "Remark",
   "number": "1.2.1",
   "title": "",
@@ -795,7 +795,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-analytically1",
   "level": "2",
-  "url": "L2.html#activity-limits-analytically1",
+  "url": "LT2.html#activity-limits-analytically1",
   "type": "Activity",
   "number": "1.2.1",
   "title": "",
@@ -804,7 +804,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-analytically2",
   "level": "2",
-  "url": "L2.html#activity-limits-analytically2",
+  "url": "LT2.html#activity-limits-analytically2",
   "type": "Activity",
   "number": "1.2.2",
   "title": "",
@@ -813,7 +813,7 @@ var ptx_lunr_docs = [
 {
   "id": "theorem-limit-laws-1",
   "level": "2",
-  "url": "L2.html#theorem-limit-laws-1",
+  "url": "LT2.html#theorem-limit-laws-1",
   "type": "Theorem",
   "number": "1.2.3",
   "title": "Limit Laws, I.",
@@ -822,7 +822,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-analytically3",
   "level": "2",
-  "url": "L2.html#activity-limits-analytically3",
+  "url": "LT2.html#activity-limits-analytically3",
   "type": "Activity",
   "number": "1.2.3",
   "title": "",
@@ -831,7 +831,7 @@ var ptx_lunr_docs = [
 {
   "id": "theorem-limit-laws-2",
   "level": "2",
-  "url": "L2.html#theorem-limit-laws-2",
+  "url": "LT2.html#theorem-limit-laws-2",
   "type": "Theorem",
   "number": "1.2.4",
   "title": "Limit Laws, II.",
@@ -840,7 +840,7 @@ var ptx_lunr_docs = [
 {
   "id": "limit-laws-graphically",
   "level": "2",
-  "url": "L2.html#limit-laws-graphically",
+  "url": "LT2.html#limit-laws-graphically",
   "type": "Activity",
   "number": "1.2.4",
   "title": "",
@@ -849,7 +849,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-analytically4",
   "level": "2",
-  "url": "L2.html#activity-limits-analytically4",
+  "url": "LT2.html#activity-limits-analytically4",
   "type": "Activity",
   "number": "1.2.5",
   "title": "",
@@ -858,7 +858,7 @@ var ptx_lunr_docs = [
 {
   "id": "direct-substitution",
   "level": "2",
-  "url": "L2.html#direct-substitution",
+  "url": "LT2.html#direct-substitution",
   "type": "Theorem",
   "number": "1.2.6",
   "title": "Direct Substitution Property.",
@@ -867,7 +867,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-rationals1",
   "level": "2",
-  "url": "L2.html#activity-limits-rationals1",
+  "url": "LT2.html#activity-limits-rationals1",
   "type": "Activity",
   "number": "1.2.6",
   "title": "",
@@ -876,7 +876,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-rationals2",
   "level": "2",
-  "url": "L2.html#activity-limits-rationals2",
+  "url": "LT2.html#activity-limits-rationals2",
   "type": "Activity",
   "number": "1.2.7",
   "title": "",
@@ -885,7 +885,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-limits-zero",
   "level": "2",
-  "url": "L2.html#activity-limits-zero",
+  "url": "LT2.html#activity-limits-zero",
   "type": "Activity",
   "number": "1.2.8",
   "title": "",
@@ -894,7 +894,7 @@ var ptx_lunr_docs = [
 {
   "id": "zero-over-zero",
   "level": "2",
-  "url": "L2.html#zero-over-zero",
+  "url": "LT2.html#zero-over-zero",
   "type": "Remark",
   "number": "1.2.7",
   "title": "",
@@ -903,7 +903,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-hole",
   "level": "2",
-  "url": "L2.html#def-hole",
+  "url": "LT2.html#def-hole",
   "type": "Definition",
   "number": "1.2.8",
   "title": "",
@@ -912,7 +912,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-hole-limits",
   "level": "2",
-  "url": "L2.html#activity-hole-limits",
+  "url": "LT2.html#activity-hole-limits",
   "type": "Activity",
   "number": "1.2.9",
   "title": "",
@@ -921,43 +921,43 @@ var ptx_lunr_docs = [
 {
   "id": "limits-alg-checkit",
   "level": "2",
-  "url": "L2.html#limits-alg-checkit",
+  "url": "LT2.html#limits-alg-checkit",
   "type": "Activity",
   "number": "1.2.10",
   "title": "",
   "body": "  Determine the following limits and explain your reasoning. Use to determine if (and where) the function has a hole.                  "
 },
 {
-  "id": "L3",
+  "id": "LT3",
   "level": "1",
-  "url": "L3.html",
+  "url": "LT3.html",
   "type": "Section",
   "number": "1.3",
-  "title": "L3: Asymptotes",
-  "body": " L3: Asymptotes     L3  I can determine when and if a function will have a vertical or horizontal asymptote.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: The Limit of a Function    You only need to focus on the section about vertical asymptotes      Section 4.6: Limits at Infinity and Asymptotes    Do not read \"Guidelines for Drawing the Graph of a Function\"        In-Class Activities   Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.      We say that the limit as tends to negative infinity of is negative infinity and that the limit as tends to positive infinity of is positive infinity. In symbols, we write     Consider the graph of the rational function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of .         As tends to positive infinity, the function tends to positive infinity    As tends to negative infinity, the function tends to 0    As tends to positive infinity, the function tends to negative infinity    As tends to 0, the function tends to 0        A function has a horizontal asymptote horizontal asymptote at when or   This means that we can make the output of as close as we want to , as long as we take to be a large enough positive number ( ) or a large enough negative number ( ).      Think again about the graph of , given in .    Which of the following statements accurately describes the graph of ?     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at        Select all of the mathematical statements that agree with your answer from part (a)                                       Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as or ?     The only possible limit is     The only possible limits are or     The only possible limits are , or     The only possible limits are any constant number (including 0 and 1) or         In this activity we will examine functions whose limit as approaches positive and negative infinity is a nonzero constant.   Graph the following functions and consider their limits as approaches positive and negative infinity. Use the graph to determine the limits and equations of horizontal asymptotes (if any)                                        Take another look at part (a); what relationship do you see between the degree of the numerator and degree of the denominator? Use your answers to complete the rules for horizontal asymptotes below in      Let be a rational function. Assume that has degree and leading coefficient ; assume also that has degree and leading coefficient . Then,   If , then has horizontal asymptote(s).    If , then has horizontal asymptote(s). The equation(s) is\/are .    If , then has horizontal asymptote(s). The equation(s) is\/are .        What is your best guess for the limit as goes to of the function graphed below?   A mysterious periodic function.         The limit is     The limit is     The limit is     The limit is     The limit DNE        Again, think about the graph of in     Which of the following best describes the limit as approaches zero (from the left) in the graph?     The limit is 0    The limit is positive infinity    The limit does not exist    This limit is negative infinity       Will your answer change or stay the same if we approached zero from the right instead of the left? If it does, indicate your answer.    Which of the following best describes the relationship between the line and the graph of the function?     The line is a horizontal asymptote for the function    The function is not continuous at the point     The function is moving away from the line     The function is getting closer and closer to the line     The function has a jump in outputs around          A function has a vertical asymptote vertical asymptote at when or   The statement means that we can make the output of as large a positive number as we want as long as we are sufficiently close to .  Similarly, the statement means that we can make the output of as large a negative number as we want as long as we are sufficiently close to .     Compare the definition of a hole of a function ( ) and the definition a vertical asymptote of a function ( ). Is it possible for a function to have both? If it is, give an example; if not, explain why.    Notice that as goes to 0, the value of goes to 0 but the value of goes to infinity. What is the best explanation for this behavior?     When dividing by an increasingly small number we get an increasing big number    When dividing by an increasingly large number we get an increasing small number    A rational function always has a vertical asymptote    A rational function always has a horizontal asymptote       Informally, we say that the limit of \" \" is infinite. Notice that this could be either positive or negative infinity, depending on how whether the outputs are becoming more and more positive or more and more negative as we approach zero.    Consider the rational function . Which of the following options best describes the limits as x approaches from the right and from the left?     As , the limit DNE, but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit DNE and as the limit DNE.       When considering a ratio of functions , the inputs where are not in the domain of the ratio. If but is not equal to 0, then is a vertical asymptote.    Consider the function . The line is NOT a vertical asymptote for . Why?     When is not equal to , we can simplify the fraction to , so the limit is .    When is not equal to , we can simplify the fraction to , so the limit is .    The function is always equal to .    The function is always equal to .       For each of the following functions, identify the equations of any asymptotes and the location of any holes.                         Challenge! For this problem, remember two things: and .          "
+  "title": "LT3: Limits of Functions with Unbounded Inputs\/Outputs",
+  "body": " LT3: Limits of Functions with Unbounded Inputs\/Outputs     LT3  I can compute limits of functions as the input becomes unbounded, and also as the output becomes unbounded.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: The Limit of a Function    You only need to focus on the section about vertical asymptotes      Section 4.6: Limits at Infinity and Asymptotes    Do not read \"Guidelines for Drawing the Graph of a Function\"        In-Class Activities   Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.      We say that the limit as tends to negative infinity of is negative infinity and that the limit as tends to positive infinity of is positive infinity. In symbols, we write     Consider the graph of the rational function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of .         As tends to positive infinity, the function tends to positive infinity    As tends to negative infinity, the function tends to 0    As tends to positive infinity, the function tends to negative infinity    As tends to 0, the function tends to 0        A function has a horizontal asymptote horizontal asymptote at when or   This means that we can make the output of as close as we want to , as long as we take to be a large enough positive number ( ) or a large enough negative number ( ).      Think again about the graph of , given in .    Which of the following statements accurately describes the graph of ?     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at     The graph has a horizontal asymptote at        Select all of the mathematical statements that agree with your answer from part (a)                                       Recall that a rational function is a ratio of two polynomials. For any given rational function, what are all the possible behaviors as or ?     The only possible limit is     The only possible limits are or     The only possible limits are , or     The only possible limits are any constant number (including 0 and 1) or         In this activity we will examine functions whose limit as approaches positive and negative infinity is a nonzero constant.   Graph the following functions and consider their limits as approaches positive and negative infinity. Use the graph to determine the limits and equations of horizontal asymptotes (if any)                                        Take another look at part (a); what relationship do you see between the degree of the numerator and degree of the denominator? Use your answers to complete the rules for horizontal asymptotes below in      Let be a rational function. Assume that has degree and leading coefficient ; assume also that has degree and leading coefficient . Then,   If , then has horizontal asymptote(s).    If , then has horizontal asymptote(s). The equation(s) is\/are .    If , then has horizontal asymptote(s). The equation(s) is\/are .        What is your best guess for the limit as goes to of the function graphed below?   A mysterious periodic function.         The limit is     The limit is     The limit is     The limit is     The limit DNE        Again, think about the graph of in     Which of the following best describes the limit as approaches zero (from the left) in the graph?     The limit is 0    The limit is positive infinity    The limit does not exist    This limit is negative infinity       Will your answer change or stay the same if we approached zero from the right instead of the left? If it does, indicate your answer.    Which of the following best describes the relationship between the line and the graph of the function?     The line is a horizontal asymptote for the function    The function is not continuous at the point     The function is moving away from the line     The function is getting closer and closer to the line     The function has a jump in outputs around          A function has a vertical asymptote vertical asymptote at when or   The statement means that we can make the output of as large a positive number as we want as long as we are sufficiently close to .  Similarly, the statement means that we can make the output of as large a negative number as we want as long as we are sufficiently close to .     Compare the definition of a hole of a function ( ) and the definition a vertical asymptote of a function ( ). Is it possible for a function to have both? If it is, give an example; if not, explain why.    Notice that as goes to 0, the value of goes to 0 but the value of goes to infinity. What is the best explanation for this behavior?     When dividing by an increasingly small number we get an increasing big number    When dividing by an increasingly large number we get an increasing small number    A rational function always has a vertical asymptote    A rational function always has a horizontal asymptote       Informally, we say that the limit of \" \" is infinite. Notice that this could be either positive or negative infinity, depending on how whether the outputs are becoming more and more positive or more and more negative as we approach zero.    Consider the rational function . Which of the following options best describes the limits as x approaches from the right and from the left?     As , the limit DNE, but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit is , but as the limit is .    As , the limit DNE and as the limit DNE.       When considering a ratio of functions , the inputs where are not in the domain of the ratio. If but is not equal to 0, then is a vertical asymptote.    Consider the function . The line is NOT a vertical asymptote for . Why?     When is not equal to , we can simplify the fraction to , so the limit is .    When is not equal to , we can simplify the fraction to , so the limit is .    The function is always equal to .    The function is always equal to .       For each of the following functions, identify the equations of any asymptotes and the location of any holes.                         Challenge! For this problem, remember two things: and .          "
 },
 {
-  "id": "L3-2",
+  "id": "LT3-2",
   "level": "2",
-  "url": "L3.html#L3-2",
+  "url": "LT3.html#LT3-2",
   "type": "Objectives",
   "number": "1.3",
   "title": "",
-  "body": "   L3  I can determine when and if a function will have a vertical or horizontal asymptote.    "
+  "body": "   LT3  I can compute limits of functions as the input becomes unbounded, and also as the output becomes unbounded.    "
 },
 {
   "id": "LT5-infinity-intuition1",
   "level": "2",
-  "url": "L3.html#LT5-infinity-intuition1",
+  "url": "LT3.html#LT5-infinity-intuition1",
   "type": "Activity",
   "number": "1.3.1",
   "title": "",
   "body": " Consider the graph of the polynomial function . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?   The graph of         As gets larger, the function gets smaller and smaller.  As gets more and more negative, the function gets more and more negative.  As gets more and more positive, the function gets more and more negative.  As gets smaller, the function gets smaller and smaller.    "
 },
 {
-  "id": "L3-activities-3",
+  "id": "LT3-activities-3",
   "level": "2",
-  "url": "L3.html#L3-activities-3",
+  "url": "LT3.html#LT3-activities-3",
   "type": "Remark",
   "number": "1.3.2",
   "title": "",
@@ -966,7 +966,7 @@ var ptx_lunr_docs = [
 {
   "id": "LT5-infinity-intuition2",
   "level": "2",
-  "url": "L3.html#LT5-infinity-intuition2",
+  "url": "LT3.html#LT5-infinity-intuition2",
   "type": "Activity",
   "number": "1.3.2",
   "title": "",
@@ -975,7 +975,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-horizontal-asymptote",
   "level": "2",
-  "url": "L3.html#def-horizontal-asymptote",
+  "url": "LT3.html#def-horizontal-asymptote",
   "type": "Definition",
   "number": "1.3.4",
   "title": "",
@@ -984,7 +984,7 @@ var ptx_lunr_docs = [
 {
   "id": "L-activity-horizontal-asymptote-1",
   "level": "2",
-  "url": "L3.html#L-activity-horizontal-asymptote-1",
+  "url": "LT3.html#L-activity-horizontal-asymptote-1",
   "type": "Activity",
   "number": "1.3.3",
   "title": "",
@@ -993,7 +993,7 @@ var ptx_lunr_docs = [
 {
   "id": "infinity-rational1",
   "level": "2",
-  "url": "L3.html#infinity-rational1",
+  "url": "LT3.html#infinity-rational1",
   "type": "Activity",
   "number": "1.3.4",
   "title": "",
@@ -1002,7 +1002,7 @@ var ptx_lunr_docs = [
 {
   "id": "infinity-rational2",
   "level": "2",
-  "url": "L3.html#infinity-rational2",
+  "url": "LT3.html#infinity-rational2",
   "type": "Activity",
   "number": "1.3.5",
   "title": "",
@@ -1011,7 +1011,7 @@ var ptx_lunr_docs = [
 {
   "id": "L-thm-horizontal-asymptote-rules",
   "level": "2",
-  "url": "L3.html#L-thm-horizontal-asymptote-rules",
+  "url": "LT3.html#L-thm-horizontal-asymptote-rules",
   "type": "Theorem",
   "number": "1.3.5",
   "title": "",
@@ -1020,7 +1020,7 @@ var ptx_lunr_docs = [
 {
   "id": "infinity-dne",
   "level": "2",
-  "url": "L3.html#infinity-dne",
+  "url": "LT3.html#infinity-dne",
   "type": "Activity",
   "number": "1.3.6",
   "title": "",
@@ -1029,7 +1029,7 @@ var ptx_lunr_docs = [
 {
   "id": "L-vertical-asymptote-intuition1",
   "level": "2",
-  "url": "L3.html#L-vertical-asymptote-intuition1",
+  "url": "LT3.html#L-vertical-asymptote-intuition1",
   "type": "Activity",
   "number": "1.3.7",
   "title": "",
@@ -1038,16 +1038,16 @@ var ptx_lunr_docs = [
 {
   "id": "def-vertical-asymptote",
   "level": "2",
-  "url": "L3.html#def-vertical-asymptote",
+  "url": "LT3.html#def-vertical-asymptote",
   "type": "Definition",
   "number": "1.3.7",
   "title": "",
   "body": "  A function has a vertical asymptote vertical asymptote at when or   The statement means that we can make the output of as large a positive number as we want as long as we are sufficiently close to .  Similarly, the statement means that we can make the output of as large a negative number as we want as long as we are sufficiently close to .   "
 },
 {
-  "id": "L3-activities-13",
+  "id": "LT3-activities-13",
   "level": "2",
-  "url": "L3.html#L3-activities-13",
+  "url": "LT3.html#LT3-activities-13",
   "type": "Question",
   "number": "1.3.8",
   "title": "",
@@ -1056,16 +1056,16 @@ var ptx_lunr_docs = [
 {
   "id": "infinity-divide-zero",
   "level": "2",
-  "url": "L3.html#infinity-divide-zero",
+  "url": "LT3.html#infinity-divide-zero",
   "type": "Activity",
   "number": "1.3.8",
   "title": "",
   "body": " Notice that as goes to 0, the value of goes to 0 but the value of goes to infinity. What is the best explanation for this behavior?     When dividing by an increasingly small number we get an increasing big number    When dividing by an increasingly large number we get an increasing small number    A rational function always has a vertical asymptote    A rational function always has a horizontal asymptote     "
 },
 {
-  "id": "L3-activities-15",
+  "id": "LT3-activities-15",
   "level": "2",
-  "url": "L3.html#L3-activities-15",
+  "url": "LT3.html#LT3-activities-15",
   "type": "Remark",
   "number": "1.3.9",
   "title": "",
@@ -1074,7 +1074,7 @@ var ptx_lunr_docs = [
 {
   "id": "limits-vert-asymptote",
   "level": "2",
-  "url": "L3.html#limits-vert-asymptote",
+  "url": "LT3.html#limits-vert-asymptote",
   "type": "Activity",
   "number": "1.3.9",
   "title": "",
@@ -1083,7 +1083,7 @@ var ptx_lunr_docs = [
 {
   "id": "vert-asymptote-den",
   "level": "2",
-  "url": "L3.html#vert-asymptote-den",
+  "url": "LT3.html#vert-asymptote-den",
   "type": "Remark",
   "number": "1.3.10",
   "title": "",
@@ -1092,43 +1092,43 @@ var ptx_lunr_docs = [
 {
   "id": "limits-intuition-hole",
   "level": "2",
-  "url": "L3.html#limits-intuition-hole",
+  "url": "LT3.html#limits-intuition-hole",
   "type": "Activity",
   "number": "1.3.10",
   "title": "",
   "body": " Consider the function . The line is NOT a vertical asymptote for . Why?     When is not equal to , we can simplify the fraction to , so the limit is .    When is not equal to , we can simplify the fraction to , so the limit is .    The function is always equal to .    The function is always equal to .     "
 },
 {
-  "id": "L3-activities-19",
+  "id": "LT3-activities-19",
   "level": "2",
-  "url": "L3.html#L3-activities-19",
+  "url": "LT3.html#LT3-activities-19",
   "type": "Activity",
   "number": "1.3.11",
   "title": "",
   "body": " For each of the following functions, identify the equations of any asymptotes and the location of any holes.                         Challenge! For this problem, remember two things: and .        "
 },
 {
-  "id": "L4",
+  "id": "LT4",
   "level": "1",
-  "url": "L4.html",
+  "url": "LT4.html",
   "type": "Section",
   "number": "1.4",
-  "title": "L4: Continuity",
-  "body": " L4: Continuity     L4  I can identify where a function is continuous (on an interval or at a point), and describe the type of discontinuity.      Pre-Class Preparation  Read the following sections of the text:    Section 2.4: Continuity    Do not read \"The Intermediate Value Theorem\"        In-Class Activities   A continuous function is one whose values change smoothly, with no jumps or gaps in the graph. We'll explore the idea first, and arrive at a mathematical definition soon.     Which of the following scenarios best describes a continuous function?     The age of a person reported in years    The price of postage for a parcel depending on its weight    The volume of water in a tank that is gradually filled over time    The number of likes on my latest TikTok depending on the time since I posted it         Use and to answer the following tasks.   A graph with several points of interest         is not continuous at . Why? Select all that apply.      does not exist     but      but      has two outputs at         is not continuous at . Why? Select all that apply.      and are not the same               does not exist        is not continuous at . Why? Select all that apply.      does not exist     and are not the same     has two outputs at               Based on , what conditions do you think need to be true in order for a function to be continuous at the input ?     Continuity   A function is continuous continuous function at provided that    has a limit as      is defined at (equivalently, is in the domain of ), and     .   A function is continuous on the interval if it is continuous at all inputs in .  If a function is not continuous at or on , it is called discontinuous at that input or on .      Suppose that some function is continuous at . Use to decide which of the following quantities are equal to each other.                              In , you saw several ways that a function could be discontinuous. In fact, these have names: removable discontinuity , infinite discontinuity , and jump discontinuity .    Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite         If and are continuous at and is a real number, then the functions , , , and are also continuous at . Moreover, is continuous at provided that .      All functions we deal with (except possibly piecewise functions) are continuous on their domain      Answer the questions below about piecewise functions. It may be helpful to look at some graphs.   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?      For each function, determine the appropriate interval of continuity. If the interval is not , identify specific reasons (like specific problem inputs) why not. It may be helpful to identify the domain of the function, thanks to .                                                                                                                                                       Suppose and are continuous functions such that and . What must be the value of ?     "
+  "title": "LT4: Continuity",
+  "body": " LT4: Continuity     LT4  I can identify where a function is continuous (on an interval or at a point), and describe the type of discontinuity.      Pre-Class Preparation  Read the following sections of the text:    Section 2.4: Continuity    Do not read \"The Intermediate Value Theorem\"        In-Class Activities   A continuous function is one whose values change smoothly, with no jumps or gaps in the graph. We'll explore the idea first, and arrive at a mathematical definition soon.     Which of the following scenarios best describes a continuous function?     The age of a person reported in years    The price of postage for a parcel depending on its weight    The volume of water in a tank that is gradually filled over time    The number of likes on my latest TikTok depending on the time since I posted it         Use and to answer the following tasks.   A graph with several points of interest         is not continuous at . Why? Select all that apply.      does not exist     but      but      has two outputs at         is not continuous at . Why? Select all that apply.      and are not the same               does not exist        is not continuous at . Why? Select all that apply.      does not exist     and are not the same     has two outputs at               Based on , what conditions do you think need to be true in order for a function to be continuous at the input ?     Continuity   A function is continuous continuous function at provided that    has a limit as      is defined at (equivalently, is in the domain of ), and     .   A function is continuous on the interval if it is continuous at all inputs in .  If a function is not continuous at or on , it is called discontinuous at that input or on .      Suppose that some function is continuous at . Use to decide which of the following quantities are equal to each other.                              In , you saw several ways that a function could be discontinuous. In fact, these have names: removable discontinuity , infinite discontinuity , and jump discontinuity .    Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite       Which kind of discontinuity makes sense to be at ?     Removable    Infinite    Jump     Which statement most accurately describes why is discontinuous at in , in terms of ?           , so does not exist     does not exist    One or both of and is infinite         If and are continuous at and is a real number, then the functions , , , and are also continuous at . Moreover, is continuous at provided that .      All functions we deal with (except possibly piecewise functions) are continuous on their domain      Answer the questions below about piecewise functions. It may be helpful to look at some graphs.   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?   Which values of , if any, could make the following function continuous on the real line?      For each function, determine the appropriate interval of continuity. If the interval is not , identify specific reasons (like specific problem inputs) why not. It may be helpful to identify the domain of the function, thanks to .                                                                                                                                                       Suppose and are continuous functions such that and . What must be the value of ?     "
 },
 {
-  "id": "L4-2",
+  "id": "LT4-2",
   "level": "2",
-  "url": "L4.html#L4-2",
+  "url": "LT4.html#LT4-2",
   "type": "Objectives",
   "number": "1.4",
   "title": "",
-  "body": "   L4  I can identify where a function is continuous (on an interval or at a point), and describe the type of discontinuity.    "
+  "body": "   LT4  I can identify where a function is continuous (on an interval or at a point), and describe the type of discontinuity.    "
 },
 {
   "id": "L-continuity-intuition",
   "level": "2",
-  "url": "L4.html#L-continuity-intuition",
+  "url": "LT4.html#L-continuity-intuition",
   "type": "Remark",
   "number": "1.4.1",
   "title": "",
@@ -1137,7 +1137,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-continuous-scenarios",
   "level": "2",
-  "url": "L4.html#activity-continuous-scenarios",
+  "url": "LT4.html#activity-continuous-scenarios",
   "type": "Activity",
   "number": "1.4.1",
   "title": "",
@@ -1146,16 +1146,16 @@ var ptx_lunr_docs = [
 {
   "id": "L-continuity-activity-def",
   "level": "2",
-  "url": "L4.html#L-continuity-activity-def",
+  "url": "LT4.html#L-continuity-activity-def",
   "type": "Activity",
   "number": "1.4.2",
   "title": "",
   "body": "  Use and to answer the following tasks.   A graph with several points of interest         is not continuous at . Why? Select all that apply.      does not exist     but      but      has two outputs at         is not continuous at . Why? Select all that apply.      and are not the same               does not exist        is not continuous at . Why? Select all that apply.      does not exist     and are not the same     has two outputs at            "
 },
 {
-  "id": "L4-activities-5",
+  "id": "LT4-activities-5",
   "level": "2",
-  "url": "L4.html#L4-activities-5",
+  "url": "LT4.html#LT4-activities-5",
   "type": "Question",
   "number": "1.4.3",
   "title": "",
@@ -1164,7 +1164,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-continuity",
   "level": "2",
-  "url": "L4.html#def-continuity",
+  "url": "LT4.html#def-continuity",
   "type": "Definition",
   "number": "1.4.4",
   "title": "Continuity.",
@@ -1173,16 +1173,16 @@ var ptx_lunr_docs = [
 {
   "id": "activity-continuity-which-are-equal",
   "level": "2",
-  "url": "L4.html#activity-continuity-which-are-equal",
+  "url": "LT4.html#activity-continuity-which-are-equal",
   "type": "Activity",
   "number": "1.4.3",
   "title": "",
   "body": "  Suppose that some function is continuous at . Use to decide which of the following quantities are equal to each other.                           "
 },
 {
-  "id": "L4-activities-8",
+  "id": "LT4-activities-8",
   "level": "2",
-  "url": "L4.html#L4-activities-8",
+  "url": "LT4.html#LT4-activities-8",
   "type": "Activity",
   "number": "1.4.4",
   "title": "",
@@ -1191,7 +1191,7 @@ var ptx_lunr_docs = [
 {
   "id": "theorem-continuity-combining-functions",
   "level": "2",
-  "url": "L4.html#theorem-continuity-combining-functions",
+  "url": "LT4.html#theorem-continuity-combining-functions",
   "type": "Theorem",
   "number": "1.4.5",
   "title": "",
@@ -1200,7 +1200,7 @@ var ptx_lunr_docs = [
 {
   "id": "fact-continuity-domain",
   "level": "2",
-  "url": "L4.html#fact-continuity-domain",
+  "url": "LT4.html#fact-continuity-domain",
   "type": "Fact",
   "number": "1.4.6",
   "title": "",
@@ -1209,7 +1209,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-continuity-piecewise",
   "level": "2",
-  "url": "L4.html#activity-continuity-piecewise",
+  "url": "LT4.html#activity-continuity-piecewise",
   "type": "Activity",
   "number": "1.4.5",
   "title": "",
@@ -1218,7 +1218,7 @@ var ptx_lunr_docs = [
 {
   "id": "L-continuity-identify-intervals",
   "level": "2",
-  "url": "L4.html#L-continuity-identify-intervals",
+  "url": "LT4.html#L-continuity-identify-intervals",
   "type": "Activity",
   "number": "1.4.6",
   "title": "",
@@ -1227,34 +1227,34 @@ var ptx_lunr_docs = [
 {
   "id": "L-continuity-activity-limits-and-continuity",
   "level": "2",
-  "url": "L4.html#L-continuity-activity-limits-and-continuity",
+  "url": "LT4.html#L-continuity-activity-limits-and-continuity",
   "type": "Activity",
   "number": "1.4.7",
   "title": "",
   "body": "  Suppose and are continuous functions such that and . What must be the value of ?   "
 },
 {
-  "id": "D1",
+  "id": "DE1",
   "level": "1",
-  "url": "D1.html",
+  "url": "DE1.html",
   "type": "Section",
   "number": "2.1",
-  "title": "D1: Average\/Instantaneous Rate of Change",
-  "body": " D1: Average\/Instantaneous Rate of Change     D1  I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Defining the Derivative    Only read the \"Tangent Lines\" section        In-Class Activities     A line goes through the points and     What is the slope of the line?        Undefined slope                 Which of the following statements best describes what the slope tells you?   For every increase of one in the output values, the input values increase by two.    For every increase of one in the input values, the output values increase by two.    For every increase of one in the input values, the output values stay the same.    The slope does not tell you a relationship between the input values and the output values.       If outputs the profit of a company (in hundred dollars) when the store is open hours, write an interpretation for the slope using part (b).      Now consider the function .    True or false: slope for means the same thing as it does for in . Be prepared to explain your response.   True    False       True or false: We can find the slope of the line between two points on the same way as we could find the slope of the line between two points on in .   True    False       Find the slope of the line between and . What does the slope of the line you found in part (c) mean for the function?    Assume that gives the distance (in miles) a capybara is from its home tree, hours after a scrumptious nap.   What does mean?   The distance the capybara is from its home tree after hour    The total distance the capybara has traveled after hour    The capybara's velocity (in miles per hour) after hour    Cannot be determined with this information       Use your answer to part (a) to identify what means in context.    In part (c), you found the value of the slope between and . What units should be attached to the slope now?   miles    hours    hours per mile    miles per hour           Average Rate of Change   Let be a continuous function on some interval . For two inputs and in , the average rate of change average rate of change rate of change (average) of between and is given by   In the context of motion, the average rate of change of position is called average velocity .      In this activity you will study the velocity of a ball falling under gravity. The height of the ball (in feet) is given by the formula , where is measured in seconds. For your convenience, below you will find a table of values for .        1  1.5  1.75  2  2.25  2.5  3       64  60  55  48  39  28  0       To start we will look at an interval of length one before and after , so we consider the intervals and . What was the average velocity on the interval ? What about on the interval ?    Now let's consider smaller intervals of length . What was the average velocity on the interval ? What about on the interval ?    What was the average velocity on the interval ? What about on the interval ?    If we wanted to approximate the velocity at the instant , what would be your best estimate for this velocity? We call a rate of change at a single instant (rather than over an interval) the instantaneous rate of change , or instantaneous velocity in this context.      Think again about the ball falling in .    Why are we unable to use the average rate of change formula to answer part (d) of ?   We are actually able to use the average rate of change formula, we just didn't use it there.    If we computed it using , we would end up with for the average rate of change.    We don't have specific numbers to put into the formula.    If we computed it using , only the denominator would be , and that makes the fraction undefined.       In and , we talked about limits as a way to approach an input without actually reaching it. Use the ideas from these sections to argue why the expression below solves problem identified in part (a):     True or false: the expressions and compute two different values   True    False   Be prepared to defend your response!     Instantaneous Rate of Change   The instantaneous rate of change instantaneous rate of change rate of change (instantaneous) of a function at the input is given by       There is a way to make the definition of instantaneous rate of change match with the expression given in Task (b) of . What is the connection between the two expressions?     Secant Line   Let be a continuous function on , and let and be inputs in . Then, the secant line secant line between and is the line which goes through the points and      Tangent Line   Let be a continuous function in a neighborhood of the input . The tangent line tangent line to and is the line which only intercepts  intentionally at .      Refer to and for this activity.    We have already have a name for the slope of the secant line between two points; what is it? Rewrite the formula.    What would be the slope of the tangent line , based on your response in part (a)?     "
+  "title": "DE1: Average\/Instantaneous Rate of Change",
+  "body": " DE1: Average\/Instantaneous Rate of Change     DE1  I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Defining the Derivative    Only read the \"Tangent Lines\" section        In-Class Activities     A line goes through the points and     What is the slope of the line?        Undefined slope                 Which of the following statements best describes what the slope tells you?   For every increase of one in the output values, the input values increase by two.    For every increase of one in the input values, the output values increase by two.    For every increase of one in the input values, the output values stay the same.    The slope does not tell you a relationship between the input values and the output values.       If outputs the profit of a company (in hundred dollars) when the store is open hours, write an interpretation for the slope using part (b).      Now consider the function .    True or false: slope for means the same thing as it does for in . Be prepared to explain your response.   True    False       True or false: We can find the slope of the line between two points on the same way as we could find the slope of the line between two points on in .   True    False       Find the slope of the line between and . What does the slope of the line you found in part (c) mean for the function?    Assume that gives the distance (in miles) a capybara is from its home tree, hours after a scrumptious nap.   What does mean?   The distance the capybara is from its home tree after hour    The total distance the capybara has traveled after hour    The capybara's velocity (in miles per hour) after hour    Cannot be determined with this information       Use your answer to part (a) to identify what means in context.    In part (c), you found the value of the slope between and . What units should be attached to the slope now?   miles    hours    hours per mile    miles per hour           Average Rate of Change   Let be a continuous function on some interval . For two inputs and in , the average rate of change average rate of change rate of change (average) of between and is given by   In the context of motion, the average rate of change of position is called average velocity .      In this activity you will study the velocity of a ball falling under gravity. The height of the ball (in feet) is given by the formula , where is measured in seconds. For your convenience, below you will find a table of values for .        1  1.5  1.75  2  2.25  2.5  3       64  60  55  48  39  28  0       To start we will look at an interval of length one before and after , so we consider the intervals and . What was the average velocity on the interval ? What about on the interval ?    Now let's consider smaller intervals of length . What was the average velocity on the interval ? What about on the interval ?    What was the average velocity on the interval ? What about on the interval ?    If we wanted to approximate the velocity at the instant , what would be your best estimate for this velocity? We call a rate of change at a single instant (rather than over an interval) the instantaneous rate of change , or instantaneous velocity in this context.      Think again about the ball falling in .    Why are we unable to use the average rate of change formula to answer part (d) of ?   We are actually able to use the average rate of change formula, we just didn't use it there.    If we computed it using , we would end up with for the average rate of change.    We don't have specific numbers to put into the formula.    If we computed it using , only the denominator would be , and that makes the fraction undefined.       In and , we talked about limits as a way to approach an input without actually reaching it. Use the ideas from these sections to argue why the expression below solves problem identified in part (a):     True or false: the expressions and compute two different values   True    False   Be prepared to defend your response!     Instantaneous Rate of Change   The instantaneous rate of change instantaneous rate of change rate of change (instantaneous) of a function at the input is given by       There is a way to make the definition of instantaneous rate of change match with the expression given in Task (b) of . What is the connection between the two expressions?     Secant Line   Let be a continuous function on , and let and be inputs in . Then, the secant line secant line between and is the line which goes through the points and      Tangent Line   Let be a continuous function in a neighborhood of the input . The tangent line tangent line to and is the line which only intercepts  intentionally at .      Refer to and for this activity.    We have already have a name for the slope of the secant line between two points; what is it? Rewrite the formula.    What would be the slope of the tangent line , based on your response in part (a)?     "
 },
 {
-  "id": "D1-2",
+  "id": "DE1-2",
   "level": "2",
-  "url": "D1.html#D1-2",
+  "url": "DE1.html#DE1-2",
   "type": "Objectives",
   "number": "2.1",
   "title": "",
-  "body": "   D1  I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.    "
+  "body": "   DE1  I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.    "
 },
 {
   "id": "D-aroc-activity-slope1",
   "level": "2",
-  "url": "D1.html#D-aroc-activity-slope1",
+  "url": "DE1.html#D-aroc-activity-slope1",
   "type": "Activity",
   "number": "2.1.1",
   "title": "",
@@ -1263,7 +1263,7 @@ var ptx_lunr_docs = [
 {
   "id": "D-aroc-activity-slope2",
   "level": "2",
-  "url": "D1.html#D-aroc-activity-slope2",
+  "url": "DE1.html#D-aroc-activity-slope2",
   "type": "Activity",
   "number": "2.1.2",
   "title": "",
@@ -1272,7 +1272,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-aroc",
   "level": "2",
-  "url": "D1.html#def-aroc",
+  "url": "DE1.html#def-aroc",
   "type": "Definition",
   "number": "2.1.1",
   "title": "Average Rate of Change.",
@@ -1281,7 +1281,7 @@ var ptx_lunr_docs = [
 {
   "id": "D-aroc-activity-ball",
   "level": "2",
-  "url": "D1.html#D-aroc-activity-ball",
+  "url": "DE1.html#D-aroc-activity-ball",
   "type": "Activity",
   "number": "2.1.3",
   "title": "",
@@ -1290,7 +1290,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-aroc-activity-iroc",
   "level": "2",
-  "url": "D1.html#d-aroc-activity-iroc",
+  "url": "DE1.html#d-aroc-activity-iroc",
   "type": "Activity",
   "number": "2.1.4",
   "title": "",
@@ -1299,16 +1299,16 @@ var ptx_lunr_docs = [
 {
   "id": "def-iroc",
   "level": "2",
-  "url": "D1.html#def-iroc",
+  "url": "DE1.html#def-iroc",
   "type": "Definition",
   "number": "2.1.3",
   "title": "Instantaneous Rate of Change.",
   "body": " Instantaneous Rate of Change   The instantaneous rate of change instantaneous rate of change rate of change (instantaneous) of a function at the input is given by    "
 },
 {
-  "id": "D1-activities-8",
+  "id": "DE1-activities-8",
   "level": "2",
-  "url": "D1.html#D1-activities-8",
+  "url": "DE1.html#DE1-activities-8",
   "type": "Activity",
   "number": "2.1.5",
   "title": "",
@@ -1317,7 +1317,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-secant-line",
   "level": "2",
-  "url": "D1.html#def-secant-line",
+  "url": "DE1.html#def-secant-line",
   "type": "Definition",
   "number": "2.1.4",
   "title": "Secant Line.",
@@ -1326,7 +1326,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-tangent-line",
   "level": "2",
-  "url": "D1.html#def-tangent-line",
+  "url": "DE1.html#def-tangent-line",
   "type": "Definition",
   "number": "2.1.5",
   "title": "Tangent Line.",
@@ -1335,34 +1335,34 @@ var ptx_lunr_docs = [
 {
   "id": "d-aroc-secant-tangent",
   "level": "2",
-  "url": "D1.html#d-aroc-secant-tangent",
+  "url": "DE1.html#d-aroc-secant-tangent",
   "type": "Activity",
   "number": "2.1.6",
   "title": "",
   "body": "  Refer to and for this activity.    We have already have a name for the slope of the secant line between two points; what is it? Rewrite the formula.    What would be the slope of the tangent line , based on your response in part (a)?   "
 },
 {
-  "id": "D2",
+  "id": "DE2",
   "level": "1",
-  "url": "D2.html",
+  "url": "DE2.html",
   "type": "Section",
   "number": "2.2",
-  "title": "D2: The Derivative (Definition)",
-  "body": " D2: The Derivative (Definition)     D2  I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Defining the Derivative    Read the \"The Derivative of a Function at a Point\" section and the \"Velocities and Rates of Change\" section      Section 3.2: The Derivative as a Function    Read the \"Derivative Functions\" and \"Higher Order Derivatives\" sections        In-Class Activities   Recall that we defined the slope of a tangent line in       Let     Which of the following is a correct first step in computing the slope of the tangent line to at ?                           Consider the function . Which of the following best summarizes the average rates of changes of on on the intervals , , and ?     The average rate of change on the intervals and are equal to the slope of , but the average rate of change of cannot be determined on without a specific value of .    The average rate of change on the intervals , , and are all different values.    The average rate of change on the intervals , , and are all equal to .       Is it possible to find the instantaneous rate of change of at without doing any computations?     No, because we cannot compute the value .    No, because we cannot compute the average rate of change on the interval .    Yes, because the intercept of the tangent line at any point is equal to the constant intercept of .    Yes, because the slope of the tangent line at any point is equal to the constant slope of .       Derivative (at a point)   The derivative of at the input derivative (at a point) is given by the expression or assuming this limit exists.     The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .     Let .    Compute using the first expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative. What does this number represent?    If we wanted to compute , what change(s) would you need to make to your work in (b) and (c)?     Derivative (as a function)  Derivative (as a function)   The derivative of is given by the expression assuming this limit exists.     The derivative of a function can be written as If we change the label of the function to and the independent variable to , then the derivative would be written as      In this activity you will consider and compute its derivative function using the limit definition of the derivative function .    What expression do you get when you simplify the difference quotient                           After taking the limit as , which of the following is your result for the derivative function ?                            Using the limit definition of the derivative, you want to find for . We will do this by first simplifying the difference quotient and then taking the limit as .    What expression do you get when you simplify the difference quotient                                After taking the limit as , which of the following is your result for the derivative function ?                                Second Derivative   The second derivative of a function derivative (second order) is the derivative of the first derivative. Mathematically, we write      Higher-Order Derivatives   For a function , the derivative of order derivative (higher order) is the result of taking derivatives of .     The second derivative of a function is written as For higher-order derivatives, we write There is no equivalent flyspeck notation for higher-order derivatives.     Recall that in , we analyzed the behavior of the function which modeled the height of a ball falling under gravity.    Use the definition of the derivative ( ) to compute .    The first derivative of a position function gives the velocity function, usually denoted . What is ?    The second derivative of a position function (which is the first derivative of velocity) gives the acceleration function, usually denoted . Compute the acceleration of the ball at , , and .    What do you notice about the acceleration at different points in time for the ball? What can you conjecture about the acceleration of other objects experiencing free-fall?      This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the facts that and .                          Using the same idea, and the facts that and , which is the appropriate derivative of cosine?                                "
+  "title": "DE2: The Derivative (Definition)",
+  "body": " DE2: The Derivative (Definition)     DE2  I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Defining the Derivative    Read the \"The Derivative of a Function at a Point\" section and the \"Velocities and Rates of Change\" section      Section 3.2: The Derivative as a Function    Read the \"Derivative Functions\" and \"Higher Order Derivatives\" sections        In-Class Activities   Recall that we defined the slope of a tangent line in       Let     Which of the following is a correct first step in computing the slope of the tangent line to at ?                           Consider the function . Which of the following best summarizes the average rates of changes of on on the intervals , , and ?     The average rate of change on the intervals and are equal to the slope of , but the average rate of change of cannot be determined on without a specific value of .    The average rate of change on the intervals , , and are all different values.    The average rate of change on the intervals , , and are all equal to .       Is it possible to find the instantaneous rate of change of at without doing any computations?     No, because we cannot compute the value .    No, because we cannot compute the average rate of change on the interval .    Yes, because the intercept of the tangent line at any point is equal to the constant intercept of .    Yes, because the slope of the tangent line at any point is equal to the constant slope of .       Derivative (at a point)   The derivative of at the input derivative (at a point) is given by the expression or assuming this limit exists.     The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .     Let .    Compute using the first expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative. What does this number represent?    If we wanted to compute , what change(s) would you need to make to your work in (b) and (c)?     Derivative (as a function)  Derivative (as a function)   The derivative of is given by the expression assuming this limit exists.     The derivative of a function can be written as If we change the label of the function to and the independent variable to , then the derivative would be written as      In this activity you will consider and compute its derivative function using the limit definition of the derivative function .    What expression do you get when you simplify the difference quotient                           After taking the limit as , which of the following is your result for the derivative function ?                            Using the limit definition of the derivative, you want to find for . We will do this by first simplifying the difference quotient and then taking the limit as .    What expression do you get when you simplify the difference quotient                                After taking the limit as , which of the following is your result for the derivative function ?                                Second Derivative   The second derivative of a function derivative (second order) is the derivative of the first derivative. Mathematically, we write      Higher-Order Derivatives   For a function , the derivative of order derivative (higher order) is the result of taking derivatives of .     The second derivative of a function is written as For higher-order derivatives, we write There is no equivalent flyspeck notation for higher-order derivatives.     Recall that in , we analyzed the behavior of the function which modeled the height of a ball falling under gravity.    Use the definition of the derivative ( ) to compute .    The first derivative of a position function gives the velocity function, usually denoted . What is ?    The second derivative of a position function (which is the first derivative of velocity) gives the acceleration function, usually denoted . Compute the acceleration of the ball at , , and .    What do you notice about the acceleration at different points in time for the ball? What can you conjecture about the acceleration of other objects experiencing free-fall?      This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the facts that and .                          Using the same idea, and the facts that and , which is the appropriate derivative of cosine?                                "
 },
 {
-  "id": "D2-2",
+  "id": "DE2-2",
   "level": "2",
-  "url": "D2.html#D2-2",
+  "url": "DE2.html#DE2-2",
   "type": "Objectives",
   "number": "2.2",
   "title": "",
-  "body": "   D2  I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function.    "
+  "body": "   DE2  I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function.    "
 },
 {
-  "id": "D2-activities-2",
+  "id": "DE2-activities-2",
   "level": "2",
-  "url": "D2.html#D2-activities-2",
+  "url": "DE2.html#DE2-activities-2",
   "type": "Remark",
   "number": "2.2.1",
   "title": "",
@@ -1371,7 +1371,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivdef-point1",
   "level": "2",
-  "url": "D2.html#d-activity-derivdef-point1",
+  "url": "DE2.html#d-activity-derivdef-point1",
   "type": "Activity",
   "number": "2.2.1",
   "title": "",
@@ -1380,7 +1380,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivdef-linear",
   "level": "2",
-  "url": "D2.html#d-activity-derivdef-linear",
+  "url": "DE2.html#d-activity-derivdef-linear",
   "type": "Activity",
   "number": "2.2.2",
   "title": "",
@@ -1389,7 +1389,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivdef-linear2",
   "level": "2",
-  "url": "D2.html#d-activity-derivdef-linear2",
+  "url": "DE2.html#d-activity-derivdef-linear2",
   "type": "Activity",
   "number": "2.2.3",
   "title": "",
@@ -1398,7 +1398,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-derivative-point",
   "level": "2",
-  "url": "D2.html#def-derivative-point",
+  "url": "DE2.html#def-derivative-point",
   "type": "Definition",
   "number": "2.2.2",
   "title": "Derivative (at a point).",
@@ -1407,16 +1407,16 @@ var ptx_lunr_docs = [
 {
   "id": "derivative-notation-point",
   "level": "2",
-  "url": "D2.html#derivative-notation-point",
+  "url": "DE2.html#derivative-notation-point",
   "type": "Remark",
   "number": "2.2.3",
   "title": "",
   "body": " The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .  "
 },
 {
-  "id": "D2-activities-8",
+  "id": "DE2-activities-8",
   "level": "2",
-  "url": "D2.html#D2-activities-8",
+  "url": "DE2.html#DE2-activities-8",
   "type": "Activity",
   "number": "2.2.4",
   "title": "",
@@ -1425,7 +1425,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-derivative-function",
   "level": "2",
-  "url": "D2.html#def-derivative-function",
+  "url": "DE2.html#def-derivative-function",
   "type": "Definition",
   "number": "2.2.4",
   "title": "Derivative (as a function).",
@@ -1434,16 +1434,16 @@ var ptx_lunr_docs = [
 {
   "id": "derivative-notation-function1",
   "level": "2",
-  "url": "D2.html#derivative-notation-function1",
+  "url": "DE2.html#derivative-notation-function1",
   "type": "Remark",
   "number": "2.2.5",
   "title": "",
   "body": " The derivative of a function can be written as If we change the label of the function to and the independent variable to , then the derivative would be written as   "
 },
 {
-  "id": "D2-activities-11",
+  "id": "DE2-activities-11",
   "level": "2",
-  "url": "D2.html#D2-activities-11",
+  "url": "DE2.html#DE2-activities-11",
   "type": "Activity",
   "number": "2.2.5",
   "title": "",
@@ -1452,7 +1452,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivdef-fraction",
   "level": "2",
-  "url": "D2.html#d-activity-derivdef-fraction",
+  "url": "DE2.html#d-activity-derivdef-fraction",
   "type": "Activity",
   "number": "2.2.6",
   "title": "",
@@ -1461,7 +1461,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-derivative-second",
   "level": "2",
-  "url": "D2.html#def-derivative-second",
+  "url": "DE2.html#def-derivative-second",
   "type": "Definition",
   "number": "2.2.6",
   "title": "Second Derivative.",
@@ -1470,7 +1470,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-derivative-higher",
   "level": "2",
-  "url": "D2.html#def-derivative-higher",
+  "url": "DE2.html#def-derivative-higher",
   "type": "Definition",
   "number": "2.2.7",
   "title": "Higher-Order Derivatives.",
@@ -1479,52 +1479,52 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-notation-higher",
   "level": "2",
-  "url": "D2.html#d-deriv-notation-higher",
+  "url": "DE2.html#d-deriv-notation-higher",
   "type": "Remark",
   "number": "2.2.8",
   "title": "",
   "body": " The second derivative of a function is written as For higher-order derivatives, we write There is no equivalent flyspeck notation for higher-order derivatives.  "
 },
 {
-  "id": "D2-activities-16",
+  "id": "DE2-activities-16",
   "level": "2",
-  "url": "D2.html#D2-activities-16",
+  "url": "DE2.html#DE2-activities-16",
   "type": "Activity",
   "number": "2.2.7",
   "title": "",
   "body": "  Recall that in , we analyzed the behavior of the function which modeled the height of a ball falling under gravity.    Use the definition of the derivative ( ) to compute .    The first derivative of a position function gives the velocity function, usually denoted . What is ?    The second derivative of a position function (which is the first derivative of velocity) gives the acceleration function, usually denoted . Compute the acceleration of the ball at , , and .    What do you notice about the acceleration at different points in time for the ball? What can you conjecture about the acceleration of other objects experiencing free-fall?   "
 },
 {
-  "id": "D2-activities-17",
+  "id": "DE2-activities-17",
   "level": "2",
-  "url": "D2.html#D2-activities-17",
+  "url": "DE2.html#DE2-activities-17",
   "type": "Activity",
   "number": "2.2.8",
   "title": "",
   "body": "  This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the facts that and .                          Using the same idea, and the facts that and , which is the appropriate derivative of cosine?                              "
 },
 {
-  "id": "D3",
+  "id": "DE3",
   "level": "1",
-  "url": "D3.html",
+  "url": "DE3.html",
   "type": "Section",
   "number": "2.3",
-  "title": "D3: Interpreting the Derivative",
-  "body": " D3: Interpreting the Derivative     D3  I can interpret the meaning of a derivative in context (with appropriate units).      Pre-Class Preparation  Read the following sections of the text:    Section 3.4: Derivatives as Rates of Change    Read all sections        In-Class Activities    Recall the definition of the derivative, given in . Consider the generic function for the tasks below.    Which of the following best describes the numerator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        Which of the following best describes the denominator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        If inputs time (in hours) and outputs distance (in miles), which of the following best describes the average rate of change expression ?   The distance traveled in miles between the inputs and     The time between the inputs and     The ratio of the change in the output of to the change in the input of on the interval     The ratio of the change in the input of to the change in the output of on the interval          The function gives the distance (in feet) an experimental vehicle has gone, seconds after starting its motion.    Compute the derivative, .    What are the units for ?   feet per second    feet per seconds    seconds per foot    second per feet       The units suggest that the first derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special       Compute the second derivative of , . What are the appropriate units here? Refer back to if you need.   feet per second per foot    feet per second per second    feet per second    feet per feet per second       The units suggest that the second derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special         Recall that the derivative at an input gives the slope of the tangent line to at .    Assume that for some function , . What does this mean about the function, , at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about        Now assume that . What does this mean about the function at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about          Suppose that gives the profit of a multinational corporation (in billion dollars), years after development of a new product.    Write the units for the first derivative, .    Write the units for the second derivative, .    Suppose that it is known . Which description is most accurate?   Three years after the product was developed, the profit was increasing by two billion dollars per year    Two years after the product was developed, the profit was increasing by three billion dollars per year    Three years after the product was developed, the profit was increasing by two billion dollars    Two years after the product was developed, the profit was decreasing by three billion dollars per year       Which statement best translates the statement Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year ?                           When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change is happening at this moment in time , as opposed to an averate rate of change, which occurs over a period of time .     Suppose that gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, minutes after leaving the International Space Station (ISS), and that gives the amount of fuel (in pounds) consumed by the capsule minutes after leaving its launchpad.    Data collected suggests that, when returning to Earth from the ISS, was positive but smaller than , when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?    Which would you expect to be larger: or ? Why?     "
+  "title": "DE3: Interpreting the Derivative",
+  "body": " DE3: Interpreting the Derivative     DE3  I can interpret the meaning of a derivative in context (with appropriate units).      Pre-Class Preparation  Read the following sections of the text:    Section 3.4: Derivatives as Rates of Change    Read all sections        In-Class Activities    Recall the definition of the derivative, given in . Consider the generic function for the tasks below.    Which of the following best describes the numerator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        Which of the following best describes the denominator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        If inputs time (in hours) and outputs distance (in miles), which of the following best describes the average rate of change expression ?   The distance traveled in miles between the inputs and     The time between the inputs and     The ratio of the change in the output of to the change in the input of on the interval     The ratio of the change in the input of to the change in the output of on the interval          The function gives the distance (in feet) an experimental vehicle has gone, seconds after starting its motion.    Compute the derivative, .    What are the units for ?   feet per second    feet per seconds    seconds per foot    second per feet       The units suggest that the first derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special       Compute the second derivative of , . What are the appropriate units here? Refer back to if you need.   feet per second per foot    feet per second per second    feet per second    feet per feet per second       The units suggest that the second derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special         Recall that the derivative at an input gives the slope of the tangent line to at .    Assume that for some function , . What does this mean about the function, , at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about        Now assume that . What does this mean about the function at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about          Suppose that gives the profit of a multinational corporation (in billion dollars), years after development of a new product.    Write the units for the first derivative, .    Write the units for the second derivative, .    Suppose that it is known . Which description is most accurate?   Three years after the product was developed, the profit was increasing by two billion dollars per year    Two years after the product was developed, the profit was increasing by three billion dollars per year    Three years after the product was developed, the profit was increasing by two billion dollars    Two years after the product was developed, the profit was decreasing by three billion dollars per year       Which statement best translates the statement Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year ?                           When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change is happening at this moment in time , as opposed to an averate rate of change, which occurs over a period of time .     Suppose that gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, minutes after leaving the International Space Station (ISS), and that gives the amount of fuel (in pounds) consumed by the capsule minutes after leaving its launchpad.    Data collected suggests that, when returning to Earth from the ISS, was positive but smaller than , when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?    Which would you expect to be larger: or ? Why?     "
 },
 {
-  "id": "D3-2",
+  "id": "DE3-2",
   "level": "2",
-  "url": "D3.html#D3-2",
+  "url": "DE3.html#DE3-2",
   "type": "Objectives",
   "number": "2.3",
   "title": "",
-  "body": "   D3  I can interpret the meaning of a derivative in context (with appropriate units).    "
+  "body": "   DE3  I can interpret the meaning of a derivative in context (with appropriate units).    "
 },
 {
   "id": "d-activity-derivative-units1",
   "level": "2",
-  "url": "D3.html#d-activity-derivative-units1",
+  "url": "DE3.html#d-activity-derivative-units1",
   "type": "Activity",
   "number": "2.3.1",
   "title": "",
@@ -1533,7 +1533,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivative-units2",
   "level": "2",
-  "url": "D3.html#d-activity-derivative-units2",
+  "url": "DE3.html#d-activity-derivative-units2",
   "type": "Activity",
   "number": "2.3.2",
   "title": "",
@@ -1542,7 +1542,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivative-incdec",
   "level": "2",
-  "url": "D3.html#d-activity-derivative-incdec",
+  "url": "DE3.html#d-activity-derivative-incdec",
   "type": "Activity",
   "number": "2.3.3",
   "title": "",
@@ -1551,52 +1551,52 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivative-incdec-app",
   "level": "2",
-  "url": "D3.html#d-activity-derivative-incdec-app",
+  "url": "DE3.html#d-activity-derivative-incdec-app",
   "type": "Activity",
   "number": "2.3.4",
   "title": "",
   "body": "  Suppose that gives the profit of a multinational corporation (in billion dollars), years after development of a new product.    Write the units for the first derivative, .    Write the units for the second derivative, .    Suppose that it is known . Which description is most accurate?   Three years after the product was developed, the profit was increasing by two billion dollars per year    Two years after the product was developed, the profit was increasing by three billion dollars per year    Three years after the product was developed, the profit was increasing by two billion dollars    Two years after the product was developed, the profit was decreasing by three billion dollars per year       Which statement best translates the statement Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year ?                         "
 },
 {
-  "id": "D3-activities-6",
+  "id": "DE3-activities-6",
   "level": "2",
-  "url": "D3.html#D3-activities-6",
+  "url": "DE3.html#DE3-activities-6",
   "type": "Remark",
   "number": "2.3.1",
   "title": "",
   "body": " When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change is happening at this moment in time , as opposed to an averate rate of change, which occurs over a period of time .  "
 },
 {
-  "id": "D3-activities-7",
+  "id": "DE3-activities-7",
   "level": "2",
-  "url": "D3.html#D3-activities-7",
+  "url": "DE3.html#DE3-activities-7",
   "type": "Activity",
   "number": "2.3.5",
   "title": "",
   "body": "  Suppose that gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, minutes after leaving the International Space Station (ISS), and that gives the amount of fuel (in pounds) consumed by the capsule minutes after leaving its launchpad.    Data collected suggests that, when returning to Earth from the ISS, was positive but smaller than , when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?    Which would you expect to be larger: or ? Why?   "
 },
 {
-  "id": "D4",
+  "id": "DE4",
   "level": "1",
-  "url": "D4.html",
+  "url": "DE4.html",
   "type": "Section",
   "number": "2.4",
-  "title": "D4: Sketching the Derivative",
-  "body": " D4: Sketching the Derivative     D4  Given a graph, I can sketch its derivative.      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: The Derivative as a Function    Read the \"Graphing a Derivative\"section        In-Class Activities    Let .    Compute     Use the Calc tool at the top of the page to graph and . Which relationship(s) do you observe to be true?   When the function is increasing, the derivative graph is positive    When the function is decreasing, the derivative graph is negative    When the function is not changing, the derivative graph is zero    There is no connection between the graph of and         Use the graph given below to sketch the graph of the derivative.   The graph of a function        Match each graph below with the graph of its derivative.    Graph A       Graph B       Graph C         Graph I       Graph II       Graph III          The image below shows the graphs of a position function ( ), a velocity function ( ), and an acceleration function ( ).   Three graphs: Position, velocity, acceleration        Which order represents the position function, the velocity function, and the acceleration function?   Red, Blue, Black    Blue, Red, Black    Blue, Black, Red    Red, Black, Blue    Black, Red, Blue    Black, Blue, Red       Try to sketch the fourth derivative of position (called jerk ) based on your answer above     "
+  "title": "DE4: Sketching the Derivative",
+  "body": " DE4: Sketching the Derivative     DE4  Given a graph, I can sketch its derivative.      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: The Derivative as a Function    Read the \"Graphing a Derivative\"section        In-Class Activities    Let .    Compute     Use the Calc tool at the top of the page to graph and . Which relationship(s) do you observe to be true?   When the function is increasing, the derivative graph is positive    When the function is decreasing, the derivative graph is negative    When the function is not changing, the derivative graph is zero    There is no connection between the graph of and         Use the graph given below to sketch the graph of the derivative.   The graph of a function        Match each graph below with the graph of its derivative.    Graph A       Graph B       Graph C         Graph I       Graph II       Graph III          The image below shows the graphs of a position function ( ), a velocity function ( ), and an acceleration function ( ).   Three graphs: Position, velocity, acceleration        Which order represents the position function, the velocity function, and the acceleration function?   Red, Blue, Black    Blue, Red, Black    Blue, Black, Red    Red, Black, Blue    Black, Red, Blue    Black, Blue, Red       Try to sketch the fourth derivative of position (called jerk ) based on your answer above     "
 },
 {
-  "id": "D4-2",
+  "id": "DE4-2",
   "level": "2",
-  "url": "D4.html#D4-2",
+  "url": "DE4.html#DE4-2",
   "type": "Objectives",
   "number": "2.4",
   "title": "",
-  "body": "   D4  Given a graph, I can sketch its derivative.    "
+  "body": "   DE4  Given a graph, I can sketch its derivative.    "
 },
 {
   "id": "d-activity-sketch-1",
   "level": "2",
-  "url": "D4.html#d-activity-sketch-1",
+  "url": "DE4.html#d-activity-sketch-1",
   "type": "Activity",
   "number": "2.4.1",
   "title": "",
@@ -1605,61 +1605,61 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-sketch-2",
   "level": "2",
-  "url": "D4.html#d-activity-sketch-2",
+  "url": "DE4.html#d-activity-sketch-2",
   "type": "Activity",
   "number": "2.4.2",
   "title": "",
   "body": " Use the graph given below to sketch the graph of the derivative.   The graph of a function      "
 },
 {
-  "id": "D4-activities-4",
+  "id": "DE4-activities-4",
   "level": "2",
-  "url": "D4.html#D4-activities-4",
+  "url": "DE4.html#DE4-activities-4",
   "type": "Activity",
   "number": "2.4.3",
   "title": "",
   "body": " Match each graph below with the graph of its derivative.    Graph A       Graph B       Graph C         Graph I       Graph II       Graph III       "
 },
 {
-  "id": "D4-activities-5",
+  "id": "DE4-activities-5",
   "level": "2",
-  "url": "D4.html#D4-activities-5",
+  "url": "DE4.html#DE4-activities-5",
   "type": "Activity",
   "number": "2.4.4",
   "title": "",
   "body": "  The image below shows the graphs of a position function ( ), a velocity function ( ), and an acceleration function ( ).   Three graphs: Position, velocity, acceleration        Which order represents the position function, the velocity function, and the acceleration function?   Red, Blue, Black    Blue, Red, Black    Blue, Black, Red    Red, Black, Blue    Black, Red, Blue    Black, Blue, Red       Try to sketch the fourth derivative of position (called jerk ) based on your answer above   "
 },
 {
-  "id": "D5",
+  "id": "DE5",
   "level": "1",
-  "url": "D5.html",
+  "url": "DE5.html",
   "type": "Section",
   "number": "2.5",
-  "title": "D5: Differentiability",
-  "body": " D5: Differentiability     D5  I can graphically, numerically, or algebraically determine where a function is differentiable      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: The Derivative as a Function    Read the \"Derivatives and Continuity\" section        In-Class Activities    Consider the function .    Remember that . Use this fact to compute .    Now compute     True or false: exists. Be prepared to defend your answer with a reason why if it exists, and why not if it doesn't.   True    False         Now consider the function . Define the left-hand derivative to be the expression and the right-hand derivative to be the expression     Which is the appropriate value of ?                   DNE       Which is the appropriate value of ?                   DNE       Your answers to (a) and (b) should lead to you conclude what about the value of    The limit exists and therefore     The limit exists and therefore     The limit exists and therefore     The limit does not exist and therefore does not exist       Recall that the expression computes the slope of a function between the points and . Based on this, complete the statement: If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...       A function is said to be differentiable differentiable at the point if the limit exists     Using , write an explicit, mathematical statement for why is not differentiable at .     The figures below show three common cases for non-differentiability.    The graph of around       The graph of a piecewise function       The graph of around         Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at         "
+  "title": "DE5: Differentiability",
+  "body": " DE5: Differentiability     DE5  I can graphically, numerically, or algebraically determine where a function is differentiable      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: The Derivative as a Function    Read the \"Derivatives and Continuity\" section        In-Class Activities    Consider the function .    Remember that . Use this fact to compute .    Now compute     True or false: exists. Be prepared to defend your answer with a reason why if it exists, and why not if it doesn't.   True    False         Now consider the function . Define the left-hand derivative to be the expression and the right-hand derivative to be the expression     Which is the appropriate value of ?                   DNE       Which is the appropriate value of ?                   DNE       Your answers to (a) and (b) should lead to you conclude what about the value of    The limit exists and therefore     The limit exists and therefore     The limit exists and therefore     The limit does not exist and therefore does not exist       Recall that the expression computes the slope of a function between the points and . Based on this, complete the statement: If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...       A function is said to be differentiable differentiable at the point if the limit exists     Using , write an explicit, mathematical statement for why is not differentiable at .     The figures below show three common cases for non-differentiability.    The graph of around       The graph of a piecewise function       The graph of around         Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at         "
 },
 {
-  "id": "D5-2",
+  "id": "DE5-2",
   "level": "2",
-  "url": "D5.html#D5-2",
+  "url": "DE5.html#DE5-2",
   "type": "Objectives",
   "number": "2.5",
   "title": "",
-  "body": "   D5  I can graphically, numerically, or algebraically determine where a function is differentiable    "
+  "body": "   DE5  I can graphically, numerically, or algebraically determine where a function is differentiable    "
 },
 {
-  "id": "D5-activities-2",
+  "id": "DE5-activities-2",
   "level": "2",
-  "url": "D5.html#D5-activities-2",
+  "url": "DE5.html#DE5-activities-2",
   "type": "Activity",
   "number": "2.5.1",
   "title": "",
   "body": "  Consider the function .    Remember that . Use this fact to compute .    Now compute     True or false: exists. Be prepared to defend your answer with a reason why if it exists, and why not if it doesn't.   True    False      "
 },
 {
-  "id": "D5-activities-3",
+  "id": "DE5-activities-3",
   "level": "2",
-  "url": "D5.html#D5-activities-3",
+  "url": "DE5.html#DE5-activities-3",
   "type": "Activity",
   "number": "2.5.2",
   "title": "",
@@ -1668,52 +1668,52 @@ var ptx_lunr_docs = [
 {
   "id": "def-differentiability",
   "level": "2",
-  "url": "D5.html#def-differentiability",
+  "url": "DE5.html#def-differentiability",
   "type": "Definition",
   "number": "2.5.1",
   "title": "",
   "body": "  A function is said to be differentiable differentiable at the point if the limit exists   "
 },
 {
-  "id": "D5-activities-5",
+  "id": "DE5-activities-5",
   "level": "2",
-  "url": "D5.html#D5-activities-5",
+  "url": "DE5.html#DE5-activities-5",
   "type": "Activity",
   "number": "2.5.3",
   "title": "",
   "body": " Using , write an explicit, mathematical statement for why is not differentiable at .  "
 },
 {
-  "id": "D5-activities-6",
+  "id": "DE5-activities-6",
   "level": "2",
-  "url": "D5.html#D5-activities-6",
+  "url": "DE5.html#DE5-activities-6",
   "type": "Activity",
   "number": "2.5.4",
   "title": "",
   "body": "  The figures below show three common cases for non-differentiability.    The graph of around       The graph of a piecewise function       The graph of around         Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at       "
 },
 {
-  "id": "D6",
+  "id": "DE6",
   "level": "1",
-  "url": "D6.html",
+  "url": "DE6.html",
   "type": "Section",
   "number": "2.6",
-  "title": "D6: Derivative Shortcuts",
-  "body": " D6: Derivative Shortcuts     D6  I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Basic Rules\", \"The Power Rule\", and \"The Sum, Difference, and Constant Multiple Rules\" sections      Section 3.5: Derivatives of Trigonometric Functions    Read the \"Derivatives of the Sine and Cosine Functions\" and \"Higher-Order Derivatives\" sections      Section 3.9: Derivatives of Exponential and Logarithmic Functions    Read \"Derivative of the Exponential Function\" and \"Derivative of the Logarithmic Function\" sections        In-Class Activities    Recall the definition of the derivative of a function, . This activity will develop the constant rule .    Let be a constant function. Which of the following is the correct expression for ?                          Which of the following characterizations is true of , the derivative of a function at a point?   It represents the slope of the secant line at that point    It represents the slope of the secant line for the entire function    It represents the slope of the tangent line at that point    It represents the slope of the tangent line for the entire function       Think about the graph of . Why does your answer from part (a) make sense in light of part (b)?      In each task below, we define , where changes from to . This will help us develop the power rule .    Using the limit definition of the derivative, what is for the power function ?                   does not exist       Using the limit definition of the derivative, what is for the power function ? Use the fact that .                          Using the limit definition of the derivative, what is for the power function ? Use the fact that .                           Without using the limit definition of the derivative, which option below is the most reasonable guess for when ? Use parts (a)-(c) to develop a pattern.                           Derivative Rules, Part 1   Let be any real number, be any real constant, and and be differentiable functions. Then,    Constant Rule: If , then      Power Rule: If , then      Sum\/Difference Rule: The derivative of a sum or difference of functions is the sum or difference of the derivatives:      Constant Multiple Rule: The derivative of a constant times a function is the constant times the derivative of the function:          Let , , and . Which of the following are true statements? For those statements that are wrong, give the correct derivative.   The derivative of is     The derivative of is     The derivative of is     The derivative of is          Let .    Which is the correct expression for ?                          Which is the correct expression for ?                           Derivative Rules, Part 2   The following are base functions and their derivatives.    Function  Derivative                                                                                                                                        Use to answer the questions below.    The first derivative of the function is given by . What is the second derivative of ?          The derivative of is:           Which of the following statements is NOT true?  The derivative of is  The derivative of is  The derivative of is  The derivative of is .       Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, minutes after forgetting it on a bench outside, is given by the function Find and and try to interpret your result in the context of this problem.     In this activity you will use our first derivative rules to study the slope of tangent lines.    The graph of has a slope of 5 at two points. Find the coordinates of these points.    Find the equations of the two lines tangent to the parabola which pass through the origin.   Hint: You will want to think about slope in two ways: as the derivative at and the rise over the run in a linear function through the origin and the point . Use a graph to check your work and sketch the tangent lines on your graph.      Compute the following derivatives:                         "
+  "title": "DE6: Derivative Shortcuts",
+  "body": " DE6: Derivative Shortcuts     DE6  I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Basic Rules\", \"The Power Rule\", and \"The Sum, Difference, and Constant Multiple Rules\" sections      Section 3.5: Derivatives of Trigonometric Functions    Read the \"Derivatives of the Sine and Cosine Functions\" and \"Higher-Order Derivatives\" sections      Section 3.9: Derivatives of Exponential and Logarithmic Functions    Read \"Derivative of the Exponential Function\" and \"Derivative of the Logarithmic Function\" sections        In-Class Activities    Recall the definition of the derivative of a function, . This activity will develop the constant rule .    Let be a constant function. Which of the following is the correct expression for ?                          Which of the following characterizations is true of , the derivative of a function at a point?   It represents the slope of the secant line at that point    It represents the slope of the secant line for the entire function    It represents the slope of the tangent line at that point    It represents the slope of the tangent line for the entire function       Think about the graph of . Why does your answer from part (a) make sense in light of part (b)?      In each task below, we define , where changes from to . This will help us develop the power rule .    Using the limit definition of the derivative, what is for the power function ?                   does not exist       Using the limit definition of the derivative, what is for the power function ? Use the fact that .                          Using the limit definition of the derivative, what is for the power function ? Use the fact that .                           Without using the limit definition of the derivative, which option below is the most reasonable guess for when ? Use parts (a)-(c) to develop a pattern.                           Derivative Rules, Part 1   Let be any real number, be any real constant, and and be differentiable functions. Then,    Constant Rule: If , then      Power Rule: If , then      Sum\/Difference Rule: The derivative of a sum or difference of functions is the sum or difference of the derivatives:      Constant Multiple Rule: The derivative of a constant times a function is the constant times the derivative of the function:          Let , , and . Which of the following are true statements? For those statements that are wrong, give the correct derivative.   The derivative of is     The derivative of is     The derivative of is     The derivative of is          Let .    Which is the correct expression for ?                          Which is the correct expression for ?                           Derivative Rules, Part 2   The following are base functions and their derivatives.    Function  Derivative                                                                                                                                        Use to answer the questions below.    The first derivative of the function is given by . What is the second derivative of ?          The derivative of is:           Which of the following statements is NOT true?  The derivative of is  The derivative of is  The derivative of is  The derivative of is .       Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, minutes after forgetting it on a bench outside, is given by the function Find and and try to interpret your result in the context of this problem.     In this activity you will use our first derivative rules to study the slope of tangent lines.    The graph of has a slope of 5 at two points. Find the coordinates of these points.    Find the equations of the two lines tangent to the parabola which pass through the origin.   Hint: You will want to think about slope in two ways: as the derivative at and the rise over the run in a linear function through the origin and the point . Use a graph to check your work and sketch the tangent lines on your graph.      Compute the following derivatives:                         "
 },
 {
-  "id": "D6-2",
+  "id": "DE6-2",
   "level": "2",
-  "url": "D6.html#D6-2",
+  "url": "DE6.html#DE6-2",
   "type": "Objectives",
   "number": "2.6",
   "title": "",
-  "body": "   D6  I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.    "
+  "body": "   DE6  I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.    "
 },
 {
   "id": "d-activity-derivativerules-develop1",
   "level": "2",
-  "url": "D6.html#d-activity-derivativerules-develop1",
+  "url": "DE6.html#d-activity-derivativerules-develop1",
   "type": "Activity",
   "number": "2.6.1",
   "title": "",
@@ -1722,7 +1722,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivativerules-develop2",
   "level": "2",
-  "url": "D6.html#d-activity-derivativerules-develop2",
+  "url": "DE6.html#d-activity-derivativerules-develop2",
   "type": "Activity",
   "number": "2.6.2",
   "title": "",
@@ -1731,7 +1731,7 @@ var ptx_lunr_docs = [
 {
   "id": "thm-derivative-rules-basic",
   "level": "2",
-  "url": "D6.html#thm-derivative-rules-basic",
+  "url": "DE6.html#thm-derivative-rules-basic",
   "type": "Theorem",
   "number": "2.6.1",
   "title": "Derivative Rules, Part 1.",
@@ -1740,7 +1740,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivativerules-practice1",
   "level": "2",
-  "url": "D6.html#d-activity-derivativerules-practice1",
+  "url": "DE6.html#d-activity-derivativerules-practice1",
   "type": "Activity",
   "number": "2.6.3",
   "title": "",
@@ -1749,7 +1749,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivativerules-diffind",
   "level": "2",
-  "url": "D6.html#d-activity-derivativerules-diffind",
+  "url": "DE6.html#d-activity-derivativerules-diffind",
   "type": "Activity",
   "number": "2.6.4",
   "title": "",
@@ -1758,7 +1758,7 @@ var ptx_lunr_docs = [
 {
   "id": "thm-derivative-rules-functions",
   "level": "2",
-  "url": "D6.html#thm-derivative-rules-functions",
+  "url": "DE6.html#thm-derivative-rules-functions",
   "type": "Theorem",
   "number": "2.6.2",
   "title": "Derivative Rules, Part 2.",
@@ -1767,7 +1767,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivativerules-practice2",
   "level": "2",
-  "url": "D6.html#d-activity-derivativerules-practice2",
+  "url": "DE6.html#d-activity-derivativerules-practice2",
   "type": "Activity",
   "number": "2.6.5",
   "title": "",
@@ -1776,7 +1776,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivativerules-practice3",
   "level": "2",
-  "url": "D6.html#d-activity-derivativerules-practice3",
+  "url": "DE6.html#d-activity-derivativerules-practice3",
   "type": "Activity",
   "number": "2.6.6",
   "title": "",
@@ -1785,7 +1785,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivativerules-tangentlines",
   "level": "2",
-  "url": "D6.html#d-activity-derivativerules-tangentlines",
+  "url": "DE6.html#d-activity-derivativerules-tangentlines",
   "type": "Activity",
   "number": "2.6.7",
   "title": "",
@@ -1794,34 +1794,34 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-derivativerules-compute",
   "level": "2",
-  "url": "D6.html#d-activity-derivativerules-compute",
+  "url": "DE6.html#d-activity-derivativerules-compute",
   "type": "Activity",
   "number": "2.6.8",
   "title": "",
   "body": "  Compute the following derivatives:                       "
 },
 {
-  "id": "D7",
+  "id": "DE7",
   "level": "1",
-  "url": "D7.html",
+  "url": "DE7.html",
   "type": "Section",
   "number": "2.7",
-  "title": "D7: Derivative Rules",
-  "body": " D7: Derivative Rules     D7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Product Rule\", \"The Quotient Rule\", and \"Combining Differentiation Rules\" sections      Section 3.7: Derivatives of Inverse Functions    Read all sections    It will also likely be helpful to review the section on inverses:     In-Class Activities    Let and .    Compute and      Find the product function, .    Compute     True or false:       Find the quotient function, .    Compute     True or false:       The Product Rule   Let and be differentiable functions. Then,      The Quotient Rule   Let and be differentiable functions. Then, provided .     The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.                   Use the product rule to find the derivative of the following functions.                    Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.                   Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).                     Use the quotient rule and appropriate trigonometric identities to prove the following:                         Derivative of Inverse Functions (at a Point)   Let be one-to-one and differentiable at , with inverse function and . Then, the inverse function is differentiable at and       Let . In order to find , we need to verify that we can use the formula in .    One way to check if a function is one-to-one is by taking its derivative and determining if it is always positive or always negative.    , and it is always negative     , and switches sign     , and switches sign     , and is always positive       Instead of finding the inverse function, , we can take advantage of the fact that What value (or values) makes this statement true?              and             Now we can compute . What is its value?    Now finish the formula. What is the value of ?     Suppose that is the inverse function of a differentiable function with and . Find     "
+  "title": "DE7: Derivative Rules",
+  "body": " DE7: Derivative Rules     DE7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Product Rule\", \"The Quotient Rule\", and \"Combining Differentiation Rules\" sections      Section 3.7: Derivatives of Inverse Functions    Read all sections    It will also likely be helpful to review the section on inverses:     In-Class Activities    Let and .    Compute and      Find the product function, .    Compute     True or false:       Find the quotient function, .    Compute     True or false:       The Product Rule   Let and be differentiable functions. Then,      The Quotient Rule   Let and be differentiable functions. Then, provided .     The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.                   Use the product rule to find the derivative of the following functions.                    Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.                   Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).                     Use the quotient rule and appropriate trigonometric identities to prove the following:                         Derivative of Inverse Functions (at a Point)   Let be one-to-one and differentiable at , with inverse function and . Then, the inverse function is differentiable at and       Let . In order to find , we need to verify that we can use the formula in .    One way to check if a function is one-to-one is by taking its derivative and determining if it is always positive or always negative.    , and it is always negative     , and switches sign     , and switches sign     , and is always positive       Instead of finding the inverse function, , we can take advantage of the fact that What value (or values) makes this statement true?              and             Now we can compute . What is its value?    Now finish the formula. What is the value of ?     Suppose that is the inverse function of a differentiable function with and . Find     "
 },
 {
-  "id": "D7-2",
+  "id": "DE7-2",
   "level": "2",
-  "url": "D7.html#D7-2",
+  "url": "DE7.html#DE7-2",
   "type": "Objectives",
   "number": "2.7",
   "title": "",
-  "body": "   D7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.    "
+  "body": "   DE7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.    "
 },
 {
   "id": "d-prodquotrule-idea",
   "level": "2",
-  "url": "D7.html#d-prodquotrule-idea",
+  "url": "DE7.html#d-prodquotrule-idea",
   "type": "Activity",
   "number": "2.7.1",
   "title": "",
@@ -1830,7 +1830,7 @@ var ptx_lunr_docs = [
 {
   "id": "thm-deriv-product",
   "level": "2",
-  "url": "D7.html#thm-deriv-product",
+  "url": "DE7.html#thm-deriv-product",
   "type": "Theorem",
   "number": "2.7.1",
   "title": "The Product Rule.",
@@ -1839,7 +1839,7 @@ var ptx_lunr_docs = [
 {
   "id": "thm-deriv-quotient",
   "level": "2",
-  "url": "D7.html#thm-deriv-quotient",
+  "url": "DE7.html#thm-deriv-quotient",
   "type": "Theorem",
   "number": "2.7.2",
   "title": "The Quotient Rule.",
@@ -1848,7 +1848,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-which-productrule",
   "level": "2",
-  "url": "D7.html#d-activity-which-productrule",
+  "url": "DE7.html#d-activity-which-productrule",
   "type": "Activity",
   "number": "2.7.2",
   "title": "",
@@ -1857,7 +1857,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-fluency-productrule",
   "level": "2",
-  "url": "D7.html#d-activity-fluency-productrule",
+  "url": "DE7.html#d-activity-fluency-productrule",
   "type": "Activity",
   "number": "2.7.3",
   "title": "",
@@ -1866,7 +1866,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-which-quotientrule",
   "level": "2",
-  "url": "D7.html#d-activity-which-quotientrule",
+  "url": "DE7.html#d-activity-which-quotientrule",
   "type": "Activity",
   "number": "2.7.4",
   "title": "",
@@ -1875,7 +1875,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-fluency-quotientrule",
   "level": "2",
-  "url": "D7.html#d-activity-fluency-quotientrule",
+  "url": "DE7.html#d-activity-fluency-quotientrule",
   "type": "Activity",
   "number": "2.7.5",
   "title": "",
@@ -1884,7 +1884,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-show-trig",
   "level": "2",
-  "url": "D7.html#d-activity-show-trig",
+  "url": "DE7.html#d-activity-show-trig",
   "type": "Activity",
   "number": "2.7.6",
   "title": "",
@@ -1893,7 +1893,7 @@ var ptx_lunr_docs = [
 {
   "id": "thm-deriv-inverse",
   "level": "2",
-  "url": "D7.html#thm-deriv-inverse",
+  "url": "DE7.html#thm-deriv-inverse",
   "type": "Theorem",
   "number": "2.7.3",
   "title": "Derivative of Inverse Functions (at a Point).",
@@ -1902,7 +1902,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-fluency-inv-deriv-1",
   "level": "2",
-  "url": "D7.html#d-activity-fluency-inv-deriv-1",
+  "url": "DE7.html#d-activity-fluency-inv-deriv-1",
   "type": "Activity",
   "number": "2.7.7",
   "title": "",
@@ -1911,34 +1911,34 @@ var ptx_lunr_docs = [
 {
   "id": "d-activity-fluency-inv-deriv-2",
   "level": "2",
-  "url": "D7.html#d-activity-fluency-inv-deriv-2",
+  "url": "DE7.html#d-activity-fluency-inv-deriv-2",
   "type": "Activity",
   "number": "2.7.8",
   "title": "",
   "body": " Suppose that is the inverse function of a differentiable function with and . Find   "
 },
 {
-  "id": "D8",
+  "id": "DE8",
   "level": "1",
-  "url": "D8.html",
+  "url": "DE8.html",
   "type": "Section",
   "number": "2.8",
-  "title": "D8: Chain Rule",
-  "body": " D8: Chain Rule     D8  I can compute derivatives using the chain rule by itself and with other rules.      Pre-Class Preparation  Read the following sections of the text:    Section 3.6: The Chain Rule    Read all sections     Read the material about function composition in        In-Class Activities   Notation  When a function inputs a number as its argument (also known as input), we write an expression like or .  We can extend this idea. If takes a function  as its input, we write either      Let and .    Which of the following is a formula for ?                          One of the options above is a formula for . Which one?      Consider the composite function .    Which function is the outside function and which one is the inside function ?                          Using properties of exponents, we can rewrite the original function as . Using this new expression, what is your new inside function and your new outside function?    Consider the function . In this case, what are the inside and outside functions?      In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.  My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns. Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?    The scenario gives you information regarding the rate of growth of , the squirrel population as a function of acorn availability (measured in bushels). What is the current value of ?   2    100    200    50       The scenario gives you information regarding the rate of growth of , the acorn availability as a function of time (measured in weeks). What is the current value of ?   2    100    200    50       Given all the information provided, what is your best guess for the value of , the rate at which the squirrel population is growing per week?   2    100    200    50       Given your answers above, what is the relationship between ?     Chain Rule   For the composite function ,   In Leibniz notation, if we consider the composite function , where and , then       Consider the function and . Notice that .    Which of the following is the derivative function of the composite function ?                          One of the options above is a formula for . Which one? Notice that this is not the same as the derivative of !      Consider the composite function . For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to ? Select all!                                      Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.      Which of the following values is the derivative of at ?                             The derivative does not exist at this point.      Which of the following values is the derivative of (different order!) at ?                             The derivative does not exist at this point.         In this activity you will study the derivative of for different powers .    Consider the function . Combining power and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider , for arbitary . Find the general formula for its derivative.      In this activity you will study the derivative of for different bases .    Consider the function . Combining exponential and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider the function for . Find the general formula for its derivative.      Find the derivative of the following functions.                               Now that we've learned the chain rule, we can tackle some derivatives using generic functions rather than specific ones.    Let . Which of the following is the correct expression for ?                          If , , and , what must be the value of ?      Use the table below to find the derivatives                                                                                                             if      if      if      if      "
+  "title": "DE8: Chain Rule",
+  "body": " DE8: Chain Rule     DE8  I can compute derivatives using the chain rule by itself and with other rules.      Pre-Class Preparation  Read the following sections of the text:    Section 3.6: The Chain Rule    Read all sections     Read the material about function composition in        In-Class Activities   Notation  When a function inputs a number as its argument (also known as input), we write an expression like or .  We can extend this idea. If takes a function  as its input, we write either      Let and .    Which of the following is a formula for ?                          One of the options above is a formula for . Which one?      Consider the composite function .    Which function is the outside function and which one is the inside function ?                          Using properties of exponents, we can rewrite the original function as . Using this new expression, what is your new inside function and your new outside function?    Consider the function . In this case, what are the inside and outside functions?      In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.  My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns. Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?    The scenario gives you information regarding the rate of growth of , the squirrel population as a function of acorn availability (measured in bushels). What is the current value of ?   2    100    200    50       The scenario gives you information regarding the rate of growth of , the acorn availability as a function of time (measured in weeks). What is the current value of ?   2    100    200    50       Given all the information provided, what is your best guess for the value of , the rate at which the squirrel population is growing per week?   2    100    200    50       Given your answers above, what is the relationship between ?     Chain Rule   For the composite function ,   In Leibniz notation, if we consider the composite function , where and , then       Consider the function and . Notice that .    Which of the following is the derivative function of the composite function ?                          One of the options above is a formula for . Which one? Notice that this is not the same as the derivative of !      Consider the composite function . For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to ? Select all!                                      Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.      Which of the following values is the derivative of at ?                             The derivative does not exist at this point.      Which of the following values is the derivative of (different order!) at ?                             The derivative does not exist at this point.         In this activity you will study the derivative of for different powers .    Consider the function . Combining power and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider , for arbitary . Find the general formula for its derivative.      In this activity you will study the derivative of for different bases .    Consider the function . Combining exponential and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider the function for . Find the general formula for its derivative.      Find the derivative of the following functions.                               Now that we've learned the chain rule, we can tackle some derivatives using generic functions rather than specific ones.    Let . Which of the following is the correct expression for ?                          If , , and , what must be the value of ?      Use the table below to find the derivatives                                                                                                             if      if      if      if      "
 },
 {
-  "id": "D8-2",
+  "id": "DE8-2",
   "level": "2",
-  "url": "D8.html#D8-2",
+  "url": "DE8.html#DE8-2",
   "type": "Objectives",
   "number": "2.8",
   "title": "",
-  "body": "   D8  I can compute derivatives using the chain rule by itself and with other rules.    "
+  "body": "   DE8  I can compute derivatives using the chain rule by itself and with other rules.    "
 },
 {
-  "id": "D8-activities-2",
+  "id": "DE8-activities-2",
   "level": "2",
-  "url": "D8.html#D8-activities-2",
+  "url": "DE8.html#DE8-activities-2",
   "type": "Note",
   "number": "2.8.1",
   "title": "Notation.",
@@ -1947,7 +1947,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-intuition1",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-intuition1",
+  "url": "DE8.html#d-deriv-chainrule-intuition1",
   "type": "Activity",
   "number": "2.8.1",
   "title": "",
@@ -1956,7 +1956,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-decomposition",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-decomposition",
+  "url": "DE8.html#d-deriv-chainrule-decomposition",
   "type": "Activity",
   "number": "2.8.2",
   "title": "",
@@ -1965,7 +1965,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-intuition2",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-intuition2",
+  "url": "DE8.html#d-deriv-chainrule-intuition2",
   "type": "Activity",
   "number": "2.8.3",
   "title": "",
@@ -1974,7 +1974,7 @@ var ptx_lunr_docs = [
 {
   "id": "thm-chainrule",
   "level": "2",
-  "url": "D8.html#thm-chainrule",
+  "url": "DE8.html#thm-chainrule",
   "type": "Theorem",
   "number": "2.8.2",
   "title": "Chain Rule.",
@@ -1983,7 +1983,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-warning",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-warning",
+  "url": "DE8.html#d-deriv-chainrule-warning",
   "type": "Activity",
   "number": "2.8.4",
   "title": "",
@@ -1992,7 +1992,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-practice1",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-practice1",
+  "url": "DE8.html#d-deriv-chainrule-practice1",
   "type": "Activity",
   "number": "2.8.5",
   "title": "",
@@ -2001,7 +2001,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-practice2",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-practice2",
+  "url": "DE8.html#d-deriv-chainrule-practice2",
   "type": "Activity",
   "number": "2.8.6",
   "title": "",
@@ -2010,7 +2010,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-chainpower",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-chainpower",
+  "url": "DE8.html#d-deriv-chainrule-chainpower",
   "type": "Activity",
   "number": "2.8.7",
   "title": "",
@@ -2019,7 +2019,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-chainexp",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-chainexp",
+  "url": "DE8.html#d-deriv-chainrule-chainexp",
   "type": "Activity",
   "number": "2.8.8",
   "title": "",
@@ -2028,7 +2028,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-practice3",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-practice3",
+  "url": "DE8.html#d-deriv-chainrule-practice3",
   "type": "Activity",
   "number": "2.8.9",
   "title": "",
@@ -2037,7 +2037,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-practice4",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-practice4",
+  "url": "DE8.html#d-deriv-chainrule-practice4",
   "type": "Activity",
   "number": "2.8.10",
   "title": "",
@@ -2046,34 +2046,34 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-chainrule-practice5",
   "level": "2",
-  "url": "D8.html#d-deriv-chainrule-practice5",
+  "url": "DE8.html#d-deriv-chainrule-practice5",
   "type": "Activity",
   "number": "2.8.11",
   "title": "",
   "body": "  Use the table below to find the derivatives                                                                                                             if      if      if      if    "
 },
 {
-  "id": "D9",
+  "id": "DE9",
   "level": "1",
-  "url": "D9.html",
+  "url": "DE9.html",
   "type": "Section",
   "number": "2.9",
-  "title": "D9: Implicit Differentiation",
-  "body": " D9: Implicit Differentiation     D9  I can use implicit differentiation to find the derivative of an equation.      Pre-Class Preparation  Read the following sections of the text:    Section 3.8: Implicit Differentiation    Read all sections        In-Class Activities  Many of the equations that has been discussed so far fall under the category of an explicit equation. An explicit equation is one in which the relationship between and is given explicitly, such as . In this section we will examine when the relationship between and is given implicity. An implicit equation looks like where both sides of the equation may depend on both and .     Consider a circle of radius 4, centered at the origin, given by the implicit equation     Rewrite the equation using the fact that (that is, is a function of ).    Why would we need to use the chain rule in order to take this derivative?    Take the derivative of both sides of the equation, and solve for .      For this activity we want to find the equation of a tangent line for a circle with radius 5 centered at the origin, at the point     Which expression gives the derivative with respect to for the equation of the circle?                          Solving for gives which expression?                          Plug the point into the expression found above for the derivative to get the slope of the tangent line.    Use the value for the slope of the tangent line to obtain the equation of the tangent line.      Find all points where the tangent line to the curve is horizontal.      Find for each of the following equations                   "
+  "title": "DE9: Implicit Differentiation",
+  "body": " DE9: Implicit Differentiation     DE9  I can use implicit differentiation to find the derivative of an equation.      Pre-Class Preparation  Read the following sections of the text:    Section 3.8: Implicit Differentiation    Read all sections        In-Class Activities  Many of the equations that has been discussed so far fall under the category of an explicit equation. An explicit equation is one in which the relationship between and is given explicitly, such as . In this section we will examine when the relationship between and is given implicity. An implicit equation looks like where both sides of the equation may depend on both and .     Consider a circle of radius 4, centered at the origin, given by the implicit equation     Rewrite the equation using the fact that (that is, is a function of ).    Why would we need to use the chain rule in order to take this derivative?    Take the derivative of both sides of the equation, and solve for .      For this activity we want to find the equation of a tangent line for a circle with radius 5 centered at the origin, at the point     Which expression gives the derivative with respect to for the equation of the circle?                          Solving for gives which expression?                          Plug the point into the expression found above for the derivative to get the slope of the tangent line.    Use the value for the slope of the tangent line to obtain the equation of the tangent line.      Find all points where the tangent line to the curve is horizontal.      Find for each of the following equations                   "
 },
 {
-  "id": "D9-2",
+  "id": "DE9-2",
   "level": "2",
-  "url": "D9.html#D9-2",
+  "url": "DE9.html#DE9-2",
   "type": "Objectives",
   "number": "2.9",
   "title": "",
-  "body": "   D9  I can use implicit differentiation to find the derivative of an equation.    "
+  "body": "   DE9  I can use implicit differentiation to find the derivative of an equation.    "
 },
 {
-  "id": "D9-activities-2",
+  "id": "DE9-activities-2",
   "level": "2",
-  "url": "D9.html#D9-activities-2",
+  "url": "DE9.html#DE9-activities-2",
   "type": "Note",
   "number": "2.9.1",
   "title": "",
@@ -2082,7 +2082,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-implicit-intuition",
   "level": "2",
-  "url": "D9.html#d-deriv-implicit-intuition",
+  "url": "DE9.html#d-deriv-implicit-intuition",
   "type": "Activity",
   "number": "2.9.1",
   "title": "",
@@ -2091,7 +2091,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-implicit-practice1",
   "level": "2",
-  "url": "D9.html#d-deriv-implicit-practice1",
+  "url": "DE9.html#d-deriv-implicit-practice1",
   "type": "Activity",
   "number": "2.9.2",
   "title": "",
@@ -2100,7 +2100,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-implicit-practice2",
   "level": "2",
-  "url": "D9.html#d-deriv-implicit-practice2",
+  "url": "DE9.html#d-deriv-implicit-practice2",
   "type": "Activity",
   "number": "2.9.3",
   "title": "",
@@ -2109,7 +2109,7 @@ var ptx_lunr_docs = [
 {
   "id": "d-deriv-implicit-practice3",
   "level": "2",
-  "url": "D9.html#d-deriv-implicit-practice3",
+  "url": "DE9.html#d-deriv-implicit-practice3",
   "type": "Activity",
   "number": "2.9.4",
   "title": "",
