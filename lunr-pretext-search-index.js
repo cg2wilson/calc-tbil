@@ -2562,8 +2562,8 @@ var ptx_lunr_docs = [
   "url": "AD5.html",
   "type": "Section",
   "number": "3.5",
-  "title": "AD4: L’Hôpital’s Rule",
-  "body": " AD4: L'Hôpital's Rule     AD5  I can identify and classify indeterminate forms, and compute them using L’Hopital’s Rule or another applicable technique.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: L'Hopital's Rule    Read all sections        In-Class Activities    In , we learned . It says that if is a nice function (polynomial, algebraic, transcendental, trigonometric), and is in the domain of , then .  Below, consider the function .    Which option gives the best reason why we can't use Direct Substitution?   The function is not nice     Direct substitution yields a 0 in the denominator    Direct substutition yields a 0 in the numerator    Direct substitution yields a 0 in the numerator and the denominator       Rewrite the function so that you can use Direct Substitution, and then find the limit.     Indeterminate Form (0\/0 and )  indeterminate form (0\/0)  indeterminate form ( )   An indeterminate form of the type 0\/0 is a limit of the form where and , or and       Each limit below is an indeterminate form. Classify it as one of                                 Consider the limits and Notice that these limits give indeterminate forms of the type . However, these limits are equal to , the derivative of at . If you can compute , then you have computed the value of the limit!     L'Hôpital's Rule   If the functions are both differentiable around and for the limit of as (or ) we have one of the indeterminate forms or , then provided that the limit exists.      For each of the limits below, 1) verify that we can use L'Hôpital's Rule, and 2) compute the limit.                                   "
+  "title": "AD5: L’Hôpital’s Rule",
+  "body": " AD5: L'Hôpital's Rule     AD5  I can identify and classify indeterminate forms, and compute them using L’Hopital’s Rule or another applicable technique.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: L'Hopital's Rule    Read all sections        In-Class Activities    In , we learned . It says that if is a nice function (polynomial, algebraic, transcendental, trigonometric), and is in the domain of , then .  Below, consider the function .    Which option gives the best reason why we can't use Direct Substitution?   The function is not nice     Direct substitution yields a 0 in the denominator    Direct substutition yields a 0 in the numerator    Direct substitution yields a 0 in the numerator and the denominator       Rewrite the function so that you can use Direct Substitution, and then find the limit.     Indeterminate Form (0\/0 and )  indeterminate form (0\/0)  indeterminate form ( )   An indeterminate form of the type 0\/0 is a limit of the form where and , or and       Each limit below is an indeterminate form. Classify it as one of                                 Consider the limits and Notice that these limits give indeterminate forms of the type . However, these limits are equal to , the derivative of at . If you can compute , then you have computed the value of the limit!     L'Hôpital's Rule   If the functions are both differentiable around and for the limit of as (or ) we have one of the indeterminate forms or , then provided that the limit exists.      For each of the limits below, 1) verify that we can use L'Hôpital's Rule, and 2) compute the limit.                                   "
 },
 {
   "id": "AD5-2",
@@ -3111,8 +3111,8 @@ var ptx_lunr_docs = [
   "url": "IN5.html",
   "type": "Section",
   "number": "4.5",
-  "title": "IN5: Computing Definite Integrals",
-  "body": " IN5: Computing Definite Integrals     IN5  I can determine the area between two curves.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Area between Curves    Read all sections        In-Class Activities   "
+  "title": "IN5: Area Between Curves",
+  "body": " IN5: Area Between Curves     IN5  I can determine the area between two curves.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Area between Curves    Read all sections        In-Class Activities    The functions and are graphed below; use the image to answer the questions given.       Which expression will find the intersection of the curves?                          What is the area between and the axis on the interval from part (a)?                          Write and evaluate an expression to find the area between and the axis on the interval from part (a).    Use the image to describe how to find the area between and , then find the area.     Area Between Curves   Let be continuous functions, and let for all in . The area of the region bounded by the curves and the lines is given by       Consider the curves and     Which integral below will find the area between the curves on the interval ?                          Compute the integral from part (a).      Find the area of the region enclosed by the parabolas and       Consider the line and the parabola     Use a graphing utility to visualize the two functions.    What are the coordinates of the intersections of the curves?    We aren't able to integrate with respect to in order to find the area between the curves. Why?   Because one is a parabola and one is a line.    Because is not a function of     Because is a function of     Because we can't split into two pieces       Rewrite each as a function of by setting .    Use your answer above to write an expression for the area between the curves, then evaluate it.     "
 },
 {
   "id": "IN5-2",
@@ -3122,6 +3122,51 @@ var ptx_lunr_docs = [
   "number": "4.5",
   "title": "",
   "body": "   IN5  I can determine the area between two curves.    "
+},
+{
+  "id": "in-areabetween-intuition",
+  "level": "2",
+  "url": "IN5.html#in-areabetween-intuition",
+  "type": "Activity",
+  "number": "4.5.1",
+  "title": "",
+  "body": "  The functions and are graphed below; use the image to answer the questions given.       Which expression will find the intersection of the curves?                          What is the area between and the axis on the interval from part (a)?                          Write and evaluate an expression to find the area between and the axis on the interval from part (a).    Use the image to describe how to find the area between and , then find the area.   "
+},
+{
+  "id": "thm-area-between-curves",
+  "level": "2",
+  "url": "IN5.html#thm-area-between-curves",
+  "type": "Theorem",
+  "number": "4.5.1",
+  "title": "Area Between Curves.",
+  "body": " Area Between Curves   Let be continuous functions, and let for all in . The area of the region bounded by the curves and the lines is given by    "
+},
+{
+  "id": "in-activity-areabetween1",
+  "level": "2",
+  "url": "IN5.html#in-activity-areabetween1",
+  "type": "Activity",
+  "number": "4.5.2",
+  "title": "",
+  "body": "  Consider the curves and     Which integral below will find the area between the curves on the interval ?                          Compute the integral from part (a).   "
+},
+{
+  "id": "in-activity-areabetween2",
+  "level": "2",
+  "url": "IN5.html#in-activity-areabetween2",
+  "type": "Activity",
+  "number": "4.5.3",
+  "title": "",
+  "body": "  Find the area of the region enclosed by the parabolas and    "
+},
+{
+  "id": "in-activity-areabetween3",
+  "level": "2",
+  "url": "IN5.html#in-activity-areabetween3",
+  "type": "Activity",
+  "number": "4.5.4",
+  "title": "",
+  "body": "  Consider the line and the parabola     Use a graphing utility to visualize the two functions.    What are the coordinates of the intersections of the curves?    We aren't able to integrate with respect to in order to find the area between the curves. Why?   Because one is a parabola and one is a line.    Because is not a function of     Because is a function of     Because we can't split into two pieces       Rewrite each as a function of by setting .    Use your answer above to write an expression for the area between the curves, then evaluate it.   "
 },
 {
   "id": "VE1",

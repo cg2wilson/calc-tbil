@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>IN5: Computing Definite Integrals</title>
+<title>IN5: Area Between Curves</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -764,6 +764,18 @@ eBookConfig.enable_chatcodes =  false;
 #in-activity-substitution-bounds-3-1-2 { counter-set: in-activity-substitution-bounds-3-1-2 0; }
 #in-activity-substitution-bounds-3-1-2 > li::marker { content: ""counter(in-activity-substitution-bounds-3-1-2,upper-alpha)"."; }
 #in-activity-substitution-bounds-3-1-2 > li { counter-increment: in-activity-substitution-bounds-3-1-2; }
+#in-areabetween-intuition-2-1-1-1 { counter-set: in-areabetween-intuition-2-1-1-1 0; }
+#in-areabetween-intuition-2-1-1-1 > li::marker { content: ""counter(in-areabetween-intuition-2-1-1-1,upper-alpha)"."; }
+#in-areabetween-intuition-2-1-1-1 > li { counter-increment: in-areabetween-intuition-2-1-1-1; }
+#in-areabetween-intuition-3-1-1-3 { counter-set: in-areabetween-intuition-3-1-1-3 0; }
+#in-areabetween-intuition-3-1-1-3 > li::marker { content: ""counter(in-areabetween-intuition-3-1-1-3,upper-alpha)"."; }
+#in-areabetween-intuition-3-1-1-3 > li { counter-increment: in-areabetween-intuition-3-1-1-3; }
+#in-activity-areabetween1-2-1-1-2 { counter-set: in-activity-areabetween1-2-1-1-2 0; }
+#in-activity-areabetween1-2-1-1-2 > li::marker { content: ""counter(in-activity-areabetween1-2-1-1-2,upper-alpha)"."; }
+#in-activity-areabetween1-2-1-1-2 > li { counter-increment: in-activity-areabetween1-2-1-1-2; }
+#in-activity-areabetween3-4-1-1-2 { counter-set: in-activity-areabetween3-4-1-1-2 0; }
+#in-activity-areabetween3-4-1-1-2 > li::marker { content: ""counter(in-activity-areabetween3-4-1-1-2,upper-alpha)"."; }
+#in-activity-areabetween3-4-1-1-2 > li { counter-increment: in-activity-areabetween3-4-1-1-2; }
 #VE-readiness-3-1 { counter-set: VE-readiness-3-1 0; }
 #VE-readiness-3-1 > li::marker { content: ""counter(VE-readiness-3-1,lower-alpha)"."; }
 #VE-readiness-3-1 > li { counter-increment: VE-readiness-3-1; }
@@ -1116,7 +1128,7 @@ true);
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AD4.html#AD4-activities" class="internal"><span class="codenumber">3.4.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="AD5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">AD4: L’Hôpital’s Rule</span></a></div>
+<div class="toc-title-box"><a href="AD5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">AD5: L’Hôpital’s Rule</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="AD5.html#AD5-activities" class="internal"><span class="codenumber">3.5.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
 </li>
 </ul>
@@ -1141,7 +1153,7 @@ true);
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="IN4.html#IN4-activities" class="internal"><span class="codenumber">4.4.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section contains-active">
-<div class="toc-title-box"><a href="IN5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">IN5: Computing Definite Integrals</span></a></div>
+<div class="toc-title-box"><a href="IN5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">IN5: Area Between Curves</span></a></div>
 <ul class="structural toc-item-list active"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="IN5.html#IN5-activities" class="internal"><span class="codenumber">4.5.1</span> <span class="title">In-Class Activities</span></a></div></li></ul>
 </li>
 </ul>
@@ -1364,7 +1376,7 @@ true);
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="IN5"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.5</span><span class="space"> </span><span class="title">IN5: Computing Definite Integrals</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.5</span><span class="space"> </span><span class="title">IN5: Area Between Curves</span>
 </h2>
 <article class="objectives goal-like" id="IN5-2"><h3 class="heading"><span class="type">Objectives</span></h3>
 <dl class="description-list">
@@ -1379,7 +1391,79 @@ true);
 </li></ul>
 </div></article><section class="subsection" id="IN5-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.5.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
-</h3></section></section></div>
+</h3>
+<article class="activity project-like" id="in-areabetween-intuition"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.1</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="in-areabetween-intuition-1">
+<div class="para" id="in-areabetween-intuition-1-1">The functions <span class="process-math">\(f(x) = -(x-1)^2 + 3\)</span> and <span class="process-math">\(g(x) = 2\)</span> are graphed below; use the image to answer the questions given.</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/in-areabetween-intuition-1-2.svg" role="img" class="contained"></div>
+</div>
+<article class="task exercise-like" id="in-areabetween-intuition-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="in-areabetween-intuition-2-1-1">
+<div class="para">Which expression will find the intersection of the curves?</div>
+<ol class="upper-alpha cols2" id="in-areabetween-intuition-2-1-1-1">
+<li id="in-areabetween-intuition-2-1-1-1-1"><div class="para" id="in-areabetween-intuition-2-1-1-1-1-1"><span class="process-math">\(\displaystyle f(x) = 2\)</span></div></li>
+<li id="in-areabetween-intuition-2-1-1-1-2"><div class="para" id="in-areabetween-intuition-2-1-1-1-2-1"><span class="process-math">\(\displaystyle f(x) = g(x)\)</span></div></li>
+<li id="in-areabetween-intuition-2-1-1-1-3"><div class="para" id="in-areabetween-intuition-2-1-1-1-3-1"><span class="process-math">\(\displaystyle g(x) = 0\)</span></div></li>
+<li id="in-areabetween-intuition-2-1-1-1-4"><div class="para" id="in-areabetween-intuition-2-1-1-1-4-1"><span class="process-math">\(\displaystyle f(x) = -g(x)\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="in-areabetween-intuition-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="in-areabetween-intuition-3-1-1">
+<div class="para">What is the area between <span class="process-math">\(f(x)\)</span> and the <span class="process-math">\(x-\)</span>axis on the interval from part (a)?</div>
+<ol class="upper-alpha" id="in-areabetween-intuition-3-1-1-3">
+<li id="in-areabetween-intuition-3-1-1-3-1"><div class="para" id="in-areabetween-intuition-3-1-1-3-1-1"><span class="process-math">\(\displaystyle 6\)</span></div></li>
+<li id="in-areabetween-intuition-3-1-1-3-2"><div class="para" id="in-areabetween-intuition-3-1-1-3-2-1"><span class="process-math">\(\displaystyle \dfrac{16}{3}\)</span></div></li>
+<li id="in-areabetween-intuition-3-1-1-3-3"><div class="para" id="in-areabetween-intuition-3-1-1-3-3-1"><span class="process-math">\(\displaystyle -\dfrac{16}{3}\)</span></div></li>
+<li id="in-areabetween-intuition-3-1-1-3-4"><div class="para" id="in-areabetween-intuition-3-1-1-3-4-1"><span class="process-math">\(\displaystyle -16\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="in-areabetween-intuition-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="in-areabetween-intuition-4-1-1">Write and evaluate an expression to find the area between <span class="process-math">\(g(x)\)</span> and the <span class="process-math">\(x-\)</span>axis on the interval from part (a).</div></article><article class="task exercise-like" id="in-areabetween-intuition-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="in-areabetween-intuition-5-1-1">Use the image to describe how to find the area between <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(g(x)\text{,}\)</span> then find the area.</div></article></article><article class="theorem theorem-like" id="thm-area-between-curves"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Area Between Curves.</span>
+</h4>
+<div class="para" id="thm-area-between-curves-2-1">Let <span class="process-math">\(f,g\)</span> be continuous functions, and let <span class="process-math">\(f(x)\geq g(x)\)</span> for all <span class="process-math">\(x\)</span> in <span class="process-math">\([a,b]\text{.}\)</span>  The area <span class="process-math">\(A\)</span> of the region bounded by the curves <span class="process-math">\(y=f(x),y=g(x)\)</span> and the lines <span class="process-math">\(x=a,x=b\)</span> is given by <span class="process-math">\(A = \ds \int_a^b (f(x)-g(x))\, dx\)</span>
+</div></article><article class="activity project-like" id="in-activity-areabetween1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.2</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="in-activity-areabetween1-1"><div class="para" id="in-activity-areabetween1-1-1">Consider the curves <span class="process-math">\(y = x^2 + 1\)</span> and <span class="process-math">\(y = x\)</span>
+</div></div>
+<article class="task exercise-like" id="in-activity-areabetween1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="in-activity-areabetween1-2-1-1">
+<div class="para">Which integral below will find the area between the curves on the interval <span class="process-math">\([0,1]\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2" id="in-activity-areabetween1-2-1-1-2">
+<li id="in-activity-areabetween1-2-1-1-2-1"><div class="para" id="in-activity-areabetween1-2-1-1-2-1-1"><span class="process-math">\(\displaystyle \ds \int_1^0 (x^2+1)-(x)\, dx\)</span></div></li>
+<li id="in-activity-areabetween1-2-1-1-2-2"><div class="para" id="in-activity-areabetween1-2-1-1-2-2-1"><span class="process-math">\(\displaystyle \ds \int_0^1 (x^2+1)-(x)\, dy\)</span></div></li>
+<li id="in-activity-areabetween1-2-1-1-2-3"><div class="para" id="in-activity-areabetween1-2-1-1-2-3-1"><span class="process-math">\(\displaystyle \ds \int_0^1 (x^2+1)-(x)\, dx\)</span></div></li>
+<li id="in-activity-areabetween1-2-1-1-2-4"><div class="para" id="in-activity-areabetween1-2-1-1-2-4-1"><span class="process-math">\(\displaystyle \ds \int_0^1 (x)-(x^2+1)\, dx\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="in-activity-areabetween1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="in-activity-areabetween1-3-1-1">Compute the integral from part (a).</div></article></article><article class="activity project-like" id="in-activity-areabetween2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="in-activity-areabetween2-1-1">Find the area of the region enclosed by the parabolas <span class="process-math">\(y = x^2\)</span> and <span class="process-math">\(y = 2x-x^2\)</span>
+</div></article><article class="activity project-like" id="in-activity-areabetween3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.5.4</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="in-activity-areabetween3-1"><div class="para" id="in-activity-areabetween3-1-1">Consider the line <span class="process-math">\(y = x-1\)</span> and the parabola <span class="process-math">\(y^2 = 2x+6\)</span>
+</div></div>
+<article class="task exercise-like" id="in-activity-areabetween3-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="in-activity-areabetween3-2-1-1">Use a graphing utility to visualize the two functions.</div></article><article class="task exercise-like" id="in-activity-areabetween3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="in-activity-areabetween3-3-1-1">What are the coordinates of the intersections of the curves?</div></article><article class="task exercise-like" id="in-activity-areabetween3-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="in-activity-areabetween3-4-1-1">
+<div class="para">We aren’t able to integrate with respect to <span class="process-math">\(x\)</span> in order to find the area between the curves. Why?</div>
+<ol class="upper-alpha cols2" id="in-activity-areabetween3-4-1-1-2">
+<li id="in-activity-areabetween3-4-1-1-2-1"><div class="para" id="in-activity-areabetween3-4-1-1-2-1-1">Because one is a parabola and one is a line.</div></li>
+<li id="in-activity-areabetween3-4-1-1-2-2"><div class="para" id="in-activity-areabetween3-4-1-1-2-2-1">Because <span class="process-math">\(f(x)-g(x)\)</span> is not a function of <span class="process-math">\(x\)</span>
+</div></li>
+<li id="in-activity-areabetween3-4-1-1-2-3"><div class="para" id="in-activity-areabetween3-4-1-1-2-3-1">Because <span class="process-math">\(f(x) + g(x)\)</span> is a function of <span class="process-math">\(x\)</span>
+</div></li>
+<li id="in-activity-areabetween3-4-1-1-2-4"><div class="para" id="in-activity-areabetween3-4-1-1-2-4-1">Because we can’t split <span class="process-math">\(y^2 = 2x + 6\)</span> into two pieces</div></li>
+</ol>
+</div></article><article class="task exercise-like" id="in-activity-areabetween3-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="in-activity-areabetween3-5-1-1">Rewrite each as a function of <span class="process-math">\(y\)</span> by setting <span class="process-math">\(x = \)</span><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>.</div></article><article class="task exercise-like" id="in-activity-areabetween3-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="in-activity-areabetween3-6-1-1">Use your answer above to write an expression for the area between the curves, then evaluate it.</div></article></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="IN4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
 </div></main>
