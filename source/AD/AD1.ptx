@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="A1" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>A1: Related Rates</title>
+<section xml:id="AD1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>AD1: Related Rates</title>
     <objectives>
         <dl>
             <li>
-                <title>A1</title>
+                <title>AD1</title>
                 <p>
                     I can set up and solve related rates problems.
                 </p>
@@ -13,12 +13,12 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/A1-prep.ptx" />
+    <xi:include href="./preparation/AD1-prep.ptx" />
 
-    <subsection xml:id="A1-activities">
+    <subsection xml:id="AD1-activities">
         <title>In-Class Activities</title>
 
-        <assemblage xml:id="a-related-rates-formulastoknow">
+        <assemblage xml:id="ad-related-rates-formulastoknow">
             <title>Formulas to Know</title>
             <p>
                 <ul>
@@ -74,7 +74,7 @@
             </p>
         </assemblage>
 
-        <activity xml:id="a-rates-intro1">
+        <activity xml:id="ad-rates-intro1">
             <introduction>
                 <p>
                     Consider the equation <m>x^2+y^2 = 64</m>. 
@@ -174,7 +174,7 @@
             </task>
         </activity>
 
-        <activity xml:id="a-rates-implicitfluency1">
+        <activity xml:id="ad-rates-implicitfluency1">
             <introduction>
                 <p>
                     Recall that the perimeter of a quadrilateral is given by <m>P = x + y</m>, and the area by <m>A = xy</m>
@@ -226,7 +226,7 @@
             </task>
         </activity>
         
-        <activity xml:id="a-rates-practice-walkthrough">
+        <activity xml:id="ad-rates-practice-walkthrough">
             <introduction>
                 <p>
                     This problem will introduce related rates problems. Air is being pumped into a spherical balloon so that its volume is increasing at a rate of 100 cm<m>^3</m>/s. How fast is the radius of the balloon increasing when the diameter is 50cm?
@@ -361,7 +361,7 @@
             </task>
         </activity>
 
-        <remark xml:id="a-rates-strategy">
+        <remark xml:id="ad-rates-strategy">
             <title>Strategy for Solving Related Rates Problems</title>
             <p>
                 <ol>
@@ -394,7 +394,7 @@
             </p>            
         </remark>
 
-        <activity xml:id="a-rates-practice1">
+        <activity xml:id="ad-rates-practice1">
             <introduction>
                 <p>
                     A 10-foot ladder rests along a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 1 ft/s, how fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 ft from the wall?
@@ -487,7 +487,7 @@
             </task>
         </activity>
 
-        <activity xml:id="a-rates-practice2">
+        <activity xml:id="ad-rates-practice2">
             <p>
                 A 10-foot ladder rests along a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 1 ft/s, how fast is the angle between the wall and the ladder changing at the moment when the bottom of the ladder is 5ft from the wall?
             </p>
@@ -496,7 +496,7 @@
             </p>
         </activity>
 
-        <activity xml:id="a-rates-practice3">
+        <activity xml:id="ad-rates-practice3">
             <p>
                 A conical water tank has a base radius of 3 m and height 6 m. If water is being pumped into the tank at a rate of 2 m<m>3</m>/min, find the rate at which the water level is rising when the water is 3 m deep.
             </p>
@@ -505,7 +505,7 @@
             </p>
         </activity>
         
-        <activity xml:id="a-rates-practice4">
+        <activity xml:id="ad-rates-practice4">
             <p>
                 A Toyota Camry is traveling west at 50 mi/h and a Ford Focus is traveling north at 65 mi/h. Both cars are heading for the intersection of the two roads. At what rate are the cars approaching each other when the Camry is 0.4 mi and the Focus is 0.3 mi from the intersection?
             </p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-A" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Applications of Derivatives (A)</title>
+<chapter xml:id="ch-AD" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Applications of Derivatives (AD)</title>
 
   <objectives>
     <introduction>
@@ -11,25 +11,31 @@
     </introduction>
       <dl>
         <li>
-          <title>A1</title>
+          <title>AD1</title>
           <p>
             I can set up and solve related rates problems.
           </p>
         </li>
         <li>
-          <title>A2</title>
+          <title>AD2</title>
           <p>
-            I can define absolute extrema, local extrema, critical points, inflection points, and use them to determine the qualitative behavior of a function (increasing/decreasing, concavity, classification of local extrema, classification of absolute extrema on a closed interval).
+           I can find absolute extrema of functions on closed intervals, and find the critical inputs of functions on those intervals
           </p>
         </li>
         <li>
-          <title>A3</title>
+          <title>AD3</title>
+          <p>
+            I can determine the qualitative behavior of a function (increasing/decreasing, concavity, classification of local extrema) using derivative tests.
+          </p>
+        </li>
+        <li>
+          <title>AD4</title>
           <p>
             I can set up and solve applied optimization problems.
           </p>
         </li>
         <li>
-          <title>A4</title>
+          <title>AD5</title>
           <p>
             I can identify and classify indeterminate forms, and compute them using L’Hospital’s Rule or another applicable technique. 
           </p>
@@ -41,10 +47,11 @@
 
   <!-- include sections -->
   <xi:include href="./readiness.ptx" />
-  <xi:include href="./A1.ptx" />
-  <xi:include href="./A2.ptx" />
-  <xi:include href="./A3.ptx" />
-  <xi:include href="./A4.ptx" />
+  <xi:include href="./AD1.ptx" />
+  <xi:include href="./AD2.ptx" />
+  <xi:include href="./AD3.ptx" />
+  <xi:include href="./AD4.ptx" />
+  <xi:include href="./AD5.ptx" />
 
 
 </chapter>

@@ -1,338 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="A2" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>A2: Derivatives and Qualitative Behavior of Graphs</title>
+<section xml:id="AD3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>AD3: Qualitative Behavior of Graphs</title>
     <objectives>
         <dl>
             <li>
-                <title>A2</title>
+                <title>AD3</title>
                 <p>
-                    I can define absolute extrema, local extrema, critical points, inflection points, and use them to determine the qualitative behavior of a function (increasing/decreasing, concavity, classification of local extrema, classification of absolute extrema on a closed interval).
+                    I can determine the qualitative behavior of a function (increasing/decreasing, concavity, classification of local extrema) using derivative tests.
                 </p>
             </li>
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/A2-prep.ptx" />
+    <xi:include href="./preparation/AD3-prep.ptx" />
 
-    <subsection xml:id="A2-activities">
+    <subsection xml:id="AD3-activities">
         <title>In-Class Activities</title>
-
-        <definition xml:id="def-global-extrema">
-            <title>
-                Global Maximum/Minimum (Extrema)
-            </title>
-            <idx><h>global maximum</h></idx>
-            <idx><h>global minimum</h></idx>
-            <idx><h>global maximum value</h></idx>
-            <idx><h>global minimum value</h></idx>
-            <idx><h>global extrema</h></idx>
-            <idx><h>global extremum</h></idx>
-            <idx><h>absolute maximum</h></idx>
-            <idx><h>absolute minimum</h></idx>
-            <statement>
-                <p>
-                    We say that <m>f(x)</m> has a <term>global maximum</term> at <m>x=c</m> provided that <m>f(c)\geq f(x)</m> for all <m>x</m> in the domain of the function.
-                    We also say that <m>f(c)</m> is a global maximum <em>value</em> for the function.
-                </p>
-                <p>
-                    On the other hand, we say that <m>f(x)</m> has a <term>global minimum</term> at <m>x=c</m> provided that <m>f(c)\leq f(x)</m> for all <m>x</m> in the domain of the function. We also say that <m>f(c)</m> is a global minimum <em>value</em> for the function.
-                </p>
-                <p>
-                    The global maxima and minima are also known as the <term>global extrema</term> (or extreme values or absolute extrema) of the function. A single maximum or minimum is also referred to as an <em>extremum</em>.
-                </p>
-                <p>
-                    You may also see the terms <term>absolute maximum</term> or <term>absolute minimum</term> used instead of global maximum or global minimum.
-                </p>
-            </statement>
-        </definition>
-
-        <activity xml:id="a-activity-extrema1">
-            <statement>
-                <p>
-                    Use <xref ref="def-global-extrema"/> to determine which of the following statements best describes the global extrema of the function shown below.
-                </p>
-                <figure xml:id="a-height-function">
-                    <caption>A function describing the height of an object.</caption>
-                    <image>
-                        <latex-image>
-                            <xi:include href="./tikz/height-function.tex" parse="text"/>
-                        </latex-image>
-                    </image>
-                </figure>
-                <ol marker="A." cols="2">
-                    <li>
-                        <p>
-                            The global maximum is <m>t = 1</m>, because this is where the function goes from increasing to decreasing.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The global maximum is <m>s(1) = 64</m>, because <m>s(t)\leq 64</m> for every other input <m>t</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The graph has two global minima at the endpoints because the endpoints must be global extrema.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The graph has no global minimum.
-                        </p>
-                    </li>
-                </ol>
-            </statement>
-        </activity>
-
-        <observation>
-            <p>
-                There can be some issues when trying to determine the global mimimum and maximum values of a function only using its graph. The Extreme Value Theorem will guarantee the existence of global extrema on a closed interval. Then we will see how to use derivatives to find algebraically the extrema of a function.
-            </p>
-        </observation>
-
-        <theorem xml:id = "thm-extreme-value-theorem">
-            <title>Extreme Value Theorem</title>
-            <statement>
-                <p>If <m>f</m> is continuous on a closed interval <m>[a,b]</m>, then <m>f</m> has both a global maximum and a global minimum on the interval.</p>
-            </statement>
-        </theorem>
-
-        <activity xml:id="a-activity-extrema2">
-            <introduction>
-                <p>
-                    Use the image below to answer the following questions.
-                </p>
-                <figure xml:id="img-extrema2">
-                    <image>
-                        <latex-image>
-                            <xi:include href="./tikz/img-extrema2.tex" parse="text"/>
-                        </latex-image>                        
-                    </image>       
-                    <caption>
-                        A function <m>y = f(x)</m> defined on the interval <m>[0,5]</m>
-                    </caption>             
-                </figure>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        True or false: The Extreme Value Theorem guarantees that we have a global maximum and a global minimum.
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    True
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    False
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What is the <m>x</m> value of the global maximum?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    0
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    2
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    3
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    5
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What is the <m>x</m> value of the global minimum?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    0
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    2
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    3
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    5
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-        </activity>
-
-        <definition xml:id="def-critical-point">
-            <title>Critical Input/Value/Point</title>
-            <idx><h>critical number</h></idx>
-            <idx><h>critical input</h></idx>
-            <idx><h>critical value</h></idx>
-            <idx><h>critical point</h></idx>
-            <statement>
-                <p>
-                    We say that <m>x=c</m> is a <term>critical input</term> (or critical number) of <m>f(x)</m> if <m>x=c</m> is in the domain of <m>f(x)</m> and either <m>f'(c) = 0</m> or <m>f'(c)</m> does not exist.
-                </p>
-                <p>
-                    The output <m>f(c)</m> is called the <term>critical value</term> and the pair <m>(c,f(c))</m> is the <term>critical point</term>.
-                </p>
-            </statement>
-        </definition>
-
-        <activity xml:id = "a-activity-critical1">
-            <statement>
-                <p>Which of the following are critical numbers for <m>f(x) = \dfrac{1}{3}x^3 - 2x + 2</m>?</p>
-                <ol marker="A." cols="2">
-                            <li>
-                                <m>
-                                    x = \sqrt{2}
-                                </m> 
-                                and 
-                                <m>
-                                    x = -\sqrt{2}
-                                </m> 
-                            </li>
-                            <li>
-                                <m>
-                                    x = \sqrt{2}
-                                </m> 
-                            </li>
-                            <li>
-                                <m>
-                                    x = 2
-                                </m> 
-                                and 
-                                <m>
-                                    x = 0
-                                </m>
-                            </li>
-                            <li>
-                                <m>
-                                    x = 2
-                                </m>
-                            </li>
-                        </ol>
-                </statement>
-            </activity>
-
-        <remark xml:id = "CIM"><title>The Closed Interval Method</title>
-            <p>
-                The following is a way of finding the global extrema of a continuous  function <m>f</m> on a closed interval <m>[a,b]</m>.
-            </p>
-            <ol>
-                <li>
-                    Make a list of all critical points of <m>f</m> in <m>(a,b)</m>. (Do not include any critical points outside of the interval). 
-                </li>
-                <li>
-                    Add the endpoints <m>a</m> and <m>b</m> to the list. 
-                </li>
-                <li>
-                    Evaluate <m>f</m> at all points on your list. 
-                </li>
-                <li>
-                    The smallest output occurs at the global minimum. The largest output occurs at the global maximum.
-                </li>
-            </ol>
-        </remark>
-
-        <activity xml:id="a-activity-critical2">
-            <introduction>
-                <p>
-                    Identify the global extrema for the functions below.
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        <m>
-                            f(x) = 3x^4-4x^3
-                        </m>
-                        on <m>[-1,2]</m>
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    Global maximum is when <m>x = 0</m> and global minimum when <m>x = 1</m>.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Global maximum is when <m>x = 2</m> and global minimum when <m>x = -1</m>.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Global maximum is when <m>x = 2</m> and global minimum when <m>x = 1</m>.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Global maximum is when <m>x = 0</m> and global minimum when <m>x = -1</m>.
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        <m>f(x) = x\sqrt{4-x}</m> on <m>[-2,4]</m>.
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    Global maximum is when <m>x = -2</m> and global minimum when <m>x = \dfrac{8}{3}</m>.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Global maximum is when <m>x = 4</m> and global minimum when <m>x = \dfrac{8}{3}</m>.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Global maximum is when <m>x = \dfrac{8}{3}</m> and global minimum when <m>x = -2</m>.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Global maximum is when <m>x = 4</m> and global minimum when <m>x = -2</m>.
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-        </activity>
 
         <definition xml:id="def-local-extrema">
             <title>Local Maximum/Minimum</title>
@@ -353,7 +37,7 @@
             </p>
         </observation>
 
-        <activity xml:id="a-activity-extrema-terminology">
+        <activity xml:id="ad-activity-extrema-terminology">
             <p>
                 We have encountered several terms recently, so we should make sure that we understand how they are related. Which of the following statements are true?
                 <ol marker="A.">
@@ -402,7 +86,7 @@
             </statement>
         </definition>
 
-        <activity xml:id="a-activity-fdt-intuition">
+        <activity xml:id="ad-activity-fdt-intuition">
             <introduction>
                 <p>
                     This activity will develop the intuition for the <em>First Derivative Test</em>, a method of classifying local extrema. The questions below refer to this prompt:
@@ -551,7 +235,7 @@
             </statement>
         </theorem>
 
-        <activity xml:id="a-activity-fdt1">
+        <activity xml:id="ad-activity-fdt1">
             <introduction>
                 <p>
                     This activity will walk you through how to use <xref ref="thm-first-derivative-test"/> to classify local extrema.
@@ -707,7 +391,7 @@
             </statement>
         </theorem>
         
-        <activity xml:id="a-activity-sdt1">
+        <activity xml:id="ad-activity-sdt1">
             <introduction>
                 <p>
                     Consider <m>f(x) = -x^3+3x+4</m>
@@ -751,7 +435,7 @@
             </task>
         </activity>
 
-        <activity xml:id="a-activity-fdtsdt1">
+        <activity xml:id="ad-activity-fdtsdt1">
             <introduction>
                 <p>
                     For each of the following functions, find the intervals on which <m>f(x)</m> is increasing or decreasing. Then identify any local extrema using either the First or Second Derivative Test.
@@ -809,7 +493,7 @@
             </statement>
         </definition>
 
-        <activity xml:id="a-activity-concavity1">
+        <activity xml:id="ad-activity-concavity1">
             <introduction>
                 <p>
                     Let <m>f(x) = x^2</m> and <m>g(x) = -x^2+5</m>
@@ -884,7 +568,7 @@
             </statement>
         </definition>
 
-        <activity xml:id="a-activity-classifypoints1">
+        <activity xml:id="ad-activity-classifypoints1">
             <introduction>
                 <p>
                     Let <m>f(x) = x^4-54x^2</m>.
@@ -920,7 +604,7 @@
             </task>
         </activity>
 
-        <activity xml:id="a-activity-classifypoints2">
+        <activity xml:id="ad-activity-classifypoints2">
             <introduction>
                 <p>
                     For each function: 1) identify the intervals where it is increasing/decreasing; 2) classify any extrema for the function; 3) identify the intervals where it is concave up/concave down; 4) identify the inflection points, if any; 5) use the information to give a rough sketch of the graph.
@@ -954,18 +638,6 @@
                 </statement>
             </task>
         </activity>
-
-        
-        <!-- 
-            things to add:
-            1) activity working through FDT, including diagram
-            2) use FDT 
-            3) introduce SDT
-            4) use SDT
-            5) introduce concavity
-            6) use FDT and concavity to find extrema/inflection points (two examples)
-            7) sketch graph of a function
-        -->
     </subsection>
 
 </section>

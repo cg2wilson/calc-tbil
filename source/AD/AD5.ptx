@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="A4" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>A4: L'H&#xF4;pital's Rule</title>
+<section xml:id="AD5" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>AD4: L'H&#xF4;pital's Rule</title>
     <objectives>
         <dl>
             <li>
-                <title>A4</title>
+                <title>AD5</title>
                 <p>
                     I can identify and classify indeterminate forms, and compute them using L’Hopital’s Rule or another applicable technique. 
                 </p>
@@ -13,12 +13,12 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/A4-prep.ptx" />
+    <xi:include href="./preparation/AD5-prep.ptx" />
 
-    <subsection xml:id="A4-activities">
+    <subsection xml:id="AD5-activities">
         <title>In-Class Activities</title>
 
-        <activity xml:id="a-activity-lhopital-background1">
+        <activity xml:id="ad-activity-lhopital-background1">
             <introduction>
                 <p>
                     In <xref ref="LT2"/>, we learned <xref ref="direct-substitution"/>. It says that if <m>f</m> is a <q>nice</q> function (polynomial, algebraic, transcendental, trigonometric), and <m>a</m> is in the domain of <m>f</m>, then <m>\ds \lim_{x\to a} f(x) = f(a)</m>.
@@ -80,7 +80,7 @@
             </statement>
         </definition>
 
-        <activity xml:id="a-activity-lhopital-identify1">
+        <activity xml:id="ad-activity-lhopital-identify1">
             <introduction>
                 <p>
                     Each limit below is an indeterminate form. Classify it as one of
@@ -156,7 +156,7 @@
             </statement>
         </theorem>
         
-        <activity xml:id="a-activity-lhopital-compute1">
+        <activity xml:id="ad-activity-lhopital-compute1">
             <statement>
                 <p>
                     For each of the limits below, 1) verify that we can use L'H&#xF4;pital's Rule, and 2) compute the limit.

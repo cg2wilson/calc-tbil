@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="A3" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>A3: Optimization</title>
+<section xml:id="AD4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>AD4: Optimization</title>
     <objectives>
         <dl>
             <li>
-                <title>A3</title>
+                <title>AD4</title>
                 <p>
                     I can set up and solve applied optimization problems.
                 </p>
@@ -13,12 +13,12 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/A3-prep.ptx" />
+    <xi:include href="./preparation/AD4-prep.ptx" />
 
-    <subsection xml:id="A3-activities">
+    <subsection xml:id="AD4-activities">
         <title>In-Class Activities</title>
         
-        <activity xml:id="a-activity-optimization-intuition">
+        <activity xml:id="ad-activity-optimization-intuition">
             <introduction>
                 <p>
                     Rather than go straight into optimization, we'll give some motivation for the process first, as well as connect it to material we have already learned.
@@ -75,11 +75,11 @@
 
         <note>
             <p>
-                In <xref ref="a-activity-optimization-intuition"/>, you were given the function for profit. More often than not, however, you will need to develop the appropriate formula(s) for yourself.
+                In <xref ref="ad-activity-optimization-intuition"/>, you were given the function for profit. More often than not, however, you will need to develop the appropriate formula(s) for yourself.
             </p>
         </note>
 
-        <activity xml:id="a-activity-optimization1">
+        <activity xml:id="ad-activity-optimization1">
             <introduction>
                 <p>
                     A farmer has 2400 ft of fencing and wants to fence off a rectangular field that borders a straight river.  He needs no fence along the river.  What are the dimensions of the field with the largest area?
@@ -150,7 +150,7 @@
             <task>
                 <statement>
                     <p>
-                        Use the techniques of <xref ref="A2"/> to locate the local extremum of the function.
+                        Use the techniques of <xref ref="AD2"/> to locate the local extremum of the function.
                     </p>
                 </statement>
             </task>
@@ -163,7 +163,7 @@
             </task>
         </activity>
 
-        <assemblage xml:id="a-strategy-for-optimization1">
+        <assemblage xml:id="ad-strategy-for-optimization1">
             <title>Strategy for Optimization</title>
             <p>
                 <ol>
@@ -201,7 +201,7 @@
             </p>
         </assemblage>
 
-        <activity xml:id="a-activity-optimization2">
+        <activity xml:id="ad-activity-optimization2">
             <p>
                 A cylindrical can is to hold 1 L of oil.  Find the dimensions that will minimize the cost of the metal to manufacture the can.
             </p>
@@ -210,7 +210,7 @@
             </p>
         </activity>
 
-        <activity xml:id="a-activity-optimization3">
+        <activity xml:id="ad-activity-optimization3">
             <p>
                 Find the point on the parabola <m>y^2 = 2x</m> that is closest to the point <m>(1,4)</m>.
                 <ol marker="A." cols="2">
@@ -246,19 +246,19 @@
             </p>
         </activity>
 
-        <activity xml:id="a-activity-optimization4">
+        <activity xml:id="ad-activity-optimization4">
             <p>
                 The sum of two positive numbers is 20.  What is the smallest possible value of the sum of their squares?
             </p>
         </activity>
 
-        <activity xml:id="a-activity-optimization5">
+        <activity xml:id="ad-activity-optimization5">
             <p>
                 A box with a square base and open top must have a volume of 32,000 cm<m>^3</m>.  Find the dimensions of the box that minimize the amount of material used.
             </p>
         </activity>
 
-        <activity xml:id="a-activity-optimization6">
+        <activity xml:id="ad-activity-optimization6">
             <p>
                 A poster is to have an area of 180 in<m>^2</m> with 1-inch margins at the bottom and sides, and a 2-inch margin at the top.  What dimensions will give the largest printed area?
             </p>
