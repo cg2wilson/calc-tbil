@@ -1,13 +1,13 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "front-colophon",
+  "id": "frontmatter-3",
   "level": "1",
-  "url": "front-colophon.html",
+  "url": "frontmatter-3.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "review-functions",
@@ -946,9 +946,9 @@ var ptx_lunr_docs = [
   "body": "   LT3  I can compute limits of functions as the input becomes unbounded, and also as the output becomes unbounded.    "
 },
 {
-  "id": "LT5-infinity-intuition1",
+  "id": "LT3-infinity-intuition1",
   "level": "2",
-  "url": "LT3.html#LT5-infinity-intuition1",
+  "url": "LT3.html#LT3-infinity-intuition1",
   "type": "Activity",
   "number": "1.3.1",
   "title": "",
@@ -964,9 +964,9 @@ var ptx_lunr_docs = [
   "body": " We say that the limit as tends to negative infinity of is negative infinity and that the limit as tends to positive infinity of is positive infinity. In symbols, we write   "
 },
 {
-  "id": "LT5-infinity-intuition2",
+  "id": "LT3-infinity-intuition2",
   "level": "2",
-  "url": "LT3.html#LT5-infinity-intuition2",
+  "url": "LT3.html#LT3-infinity-intuition2",
   "type": "Activity",
   "number": "1.3.2",
   "title": "",
@@ -1239,8 +1239,8 @@ var ptx_lunr_docs = [
   "url": "DE1.html",
   "type": "Section",
   "number": "2.1",
-  "title": "DE1: Average\/Instantaneous Rate of Change",
-  "body": " DE1: Average\/Instantaneous Rate of Change     DE1  I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Defining the Derivative    Only read the \"Tangent Lines\" section        In-Class Activities     A line goes through the points and     What is the slope of the line?        Undefined slope                 Which of the following statements best describes what the slope tells you?   For every increase of one in the output values, the input values increase by two.    For every increase of one in the input values, the output values increase by two.    For every increase of one in the input values, the output values stay the same.    The slope does not tell you a relationship between the input values and the output values.       If outputs the profit of a company (in hundred dollars) when the store is open hours, write an interpretation for the slope using part (b).      Now consider the function .    True or false: slope for means the same thing as it does for in . Be prepared to explain your response.   True    False       True or false: We can find the slope of the line between two points on the same way as we could find the slope of the line between two points on in .   True    False       Find the slope of the line between and . What does the slope of the line you found in part (c) mean for the function?    Assume that gives the distance (in miles) a capybara is from its home tree, hours after a scrumptious nap.   What does mean?   The distance the capybara is from its home tree after hour    The total distance the capybara has traveled after hour    The capybara's velocity (in miles per hour) after hour    Cannot be determined with this information       Use your answer to part (a) to identify what means in context.    In part (c), you found the value of the slope between and . What units should be attached to the slope now?   miles    hours    hours per mile    miles per hour           Average Rate of Change   Let be a continuous function on some interval . For two inputs and in , the average rate of change average rate of change rate of change (average) of between and is given by   In the context of motion, the average rate of change of position is called average velocity .      In this activity you will study the velocity of a ball falling under gravity. The height of the ball (in feet) is given by the formula , where is measured in seconds. For your convenience, below you will find a table of values for .        1  1.5  1.75  2  2.25  2.5  3       64  60  55  48  39  28  0       To start we will look at an interval of length one before and after , so we consider the intervals and . What was the average velocity on the interval ? What about on the interval ?    Now let's consider smaller intervals of length . What was the average velocity on the interval ? What about on the interval ?    What was the average velocity on the interval ? What about on the interval ?    If we wanted to approximate the velocity at the instant , what would be your best estimate for this velocity? We call a rate of change at a single instant (rather than over an interval) the instantaneous rate of change , or instantaneous velocity in this context.      Think again about the ball falling in .    Why are we unable to use the average rate of change formula to answer part (d) of ?   We are actually able to use the average rate of change formula, we just didn't use it there.    If we computed it using , we would end up with for the average rate of change.    We don't have specific numbers to put into the formula.    If we computed it using , only the denominator would be , and that makes the fraction undefined.       In and , we talked about limits as a way to approach an input without actually reaching it. Use the ideas from these sections to argue why the expression below solves problem identified in part (a):     True or false: the expressions and compute two different values   True    False   Be prepared to defend your response!     Instantaneous Rate of Change   The instantaneous rate of change instantaneous rate of change rate of change (instantaneous) of a function at the input is given by       There is a way to make the definition of instantaneous rate of change match with the expression given in Task (b) of . What is the connection between the two expressions?     Secant Line   Let be a continuous function on , and let and be inputs in . Then, the secant line secant line between and is the line which goes through the points and      Tangent Line   Let be a continuous function in a neighborhood of the input . The tangent line tangent line to and is the line which only intercepts  intentionally at .      Refer to and for this activity.    We have already have a name for the slope of the secant line between two points; what is it? Rewrite the formula.    What would be the slope of the tangent line , based on your response in part (a)?     "
+  "title": "DE1: Average\/Instantaneous Rates of Change",
+  "body": " DE1: Average\/Instantaneous Rates of Change     DE1  I can use a limit definition to compute derivatives at a point, explain how average rates of change are used in the process, and interpret the meaning of the derivative in context.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Defining the Derivative    Read all sections        In-Class Activities    A line goes through the points and     What is the slope of the line?        Undefined slope                 Which of the following statements best describes what the slope tells you?   For every increase of one in the output values, the input values increase by two.    For every increase of one in the input values, the output values increase by two.    For every increase of one in the input values, the output values stay the same.    The slope does not tell you a relationship between the input values and the output values.       If outputs the profit of a company (in hundred dollars) when the store is open hours, write an interpretation for the slope using part (b).      Now consider the function .    True or false: slope for means the same thing as it does for in . Be prepared to explain your response.   True    False       True or false: We can find the slope of the line between two points on the same way as we could find the slope of the line between two points on in .   True    False       Find the slope of the line between and . What does the slope of the line you found in part (c) mean for the function?    Assume that gives the distance (in miles) a capybara is from its home tree, hours after a scrumptious nap.   What does mean?   The distance the capybara is from its home tree after hour    The total distance the capybara has traveled after hour    The capybara's velocity (in miles per hour) after hour    Cannot be determined with this information       Use your answer to part (a) to identify what means in context.    In part (c), you found the value of the slope between and . What units should be attached to the slope now?   miles    hours    hours per mile    miles per hour           Average Rate of Change   Let be a continuous function on some interval . For two inputs and in , the average rate of change average rate of change rate of change (average) of between and is given by   In the context of motion, the average rate of change of position is called average velocity .      In this activity you will study the velocity of a ball falling under gravity. The height of the ball (in feet) is given by the formula , where is measured in seconds. For your convenience, below you will find a table of values for .        1  1.5  1.75  2  2.25  2.5  3       64  60  55  48  39  28  0       To start we will look at an interval of length one before and after , so we consider the intervals and . What was the average velocity on the interval ? What about on the interval ?    Now let's consider smaller intervals of length . What was the average velocity on the interval ? What about on the interval ?    What was the average velocity on the interval ? What about on the interval ?    If we wanted to approximate the velocity at the instant , what would be your best estimate for this velocity? We call a rate of change at a single instant (rather than over an interval) the instantaneous rate of change , or instantaneous velocity in this context.      Think again about the ball falling in .    Why are we unable to use the average rate of change formula to answer part (d) of ?   We are actually able to use the average rate of change formula, we just didn't use it there.    If we computed it using , we would end up with for the average rate of change.    We don't have specific numbers to put into the formula.    If we computed it using , only the denominator would be , and that makes the fraction undefined.       In and , we talked about limits as a way to approach an input without actually reaching it. Use the ideas from these sections to argue why the expression below solves problem identified in part (a):     True or false: the expressions and compute two different values   True    False   Be prepared to defend your response!     Instantaneous Rate of Change   The instantaneous rate of change instantaneous rate of change rate of change (instantaneous) of a function at the input is given by       There is a way to make the definition of instantaneous rate of change match with the expression given in Task (b) of . What is the connection between the two expressions?     Secant Line   Let be a continuous function on , and let and be inputs in . Then, the secant line secant line between and is the line which goes through the points and      Tangent Line   Let be a continuous function in a neighborhood of the input . The tangent line tangent line to and is the line which only intercepts  intentionally at .      Refer to and for this activity.    We have already have a name for the slope of the secant line between two points; what is it? Rewrite the formula.    What would be the slope of the tangent line , based on your response in part (a)?      Let     Which of the following is a correct first step in computing the slope of the tangent line to at ?                           Consider the function . Which of the following best summarizes the average rates of changes of on on the intervals , , and ?     The average rate of change on the intervals and are equal to the slope of , but the average rate of change of cannot be determined on without a specific value of .    The average rate of change on the intervals , , and are all different values.    The average rate of change on the intervals , , and are all equal to .       Is it possible to find the instantaneous rate of change of at without doing any computations?     No, because we cannot compute the value .    No, because we cannot compute the average rate of change on the interval .    Yes, because the intercept of the tangent line at any point is equal to the constant intercept of .    Yes, because the slope of the tangent line at any point is equal to the constant slope of .       Derivative (at a point)   The derivative of at the input derivative (at a point) is given by the expression or assuming this limit exists.     The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .     Let .    Compute using the first expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative. What does this number represent?    If we wanted to compute , what change(s) would you need to make to your work in (b) and (c)?      Recall the definition of the derivative, given in . For the tasks below, consider the function at the input .    Which of the following best describes the numerator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        Which of the following best describes the denominator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        If inputs time (in hours) and outputs distance (in miles), which of the following best describes the average rate of change expression ?   The distance traveled in miles between the inputs and     The time between the inputs and     The ratio of the change in the output of to the change in the input of on the interval     The ratio of the change in the input of to the change in the output of on the interval          The function gives the distance (in feet) an experimental vehicle has gone, seconds after starting its motion.    Compute the derivative, .    What are the units for ?   feet per second    feet per seconds    seconds per foot    second per feet       The units suggest that the first derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special       Compute the second derivative of , at the input . What are the appropriate units here? Refer back to if you need.   feet per second per foot    feet per second per second    feet per second    feet per feet per second       The units suggest that the second derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special         Recall that the derivative at an input gives the slope of the tangent line to at .    Assume that for some function , . What does this mean about the function, , at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about        Now assume that . What does this mean about the function at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about          Suppose that gives the profit of a multinational corporation (in billion dollars), years after development of a new product.    Write the units for the first derivative, .    Write the units for the second derivative, .    Suppose that it is known . Which description is most accurate?   Three years after the product was developed, the profit was increasing by two billion dollars per year    Two years after the product was developed, the profit was increasing by three billion dollars per year    Three years after the product was developed, the profit was increasing by two billion dollars    Two years after the product was developed, the profit was decreasing by three billion dollars per year       Which statement best translates the statement Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year ?                           When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change is happening at this moment in time , as opposed to an averate rate of change, which occurs over a period of time .     Suppose that gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, minutes after leaving the International Space Station (ISS), and that gives the amount of fuel (in pounds) consumed by the capsule minutes after leaving its launchpad.    Data collected suggests that, when returning to Earth from the ISS, was positive but smaller than , when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?    Which would you expect to be larger: or ? Why?     "
 },
 {
   "id": "DE1-2",
@@ -1249,21 +1249,21 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "2.1",
   "title": "",
-  "body": "   DE1  I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.    "
+  "body": "   DE1  I can use a limit definition to compute derivatives at a point, explain how average rates of change are used in the process, and interpret the meaning of the derivative in context.    "
 },
 {
-  "id": "D-aroc-activity-slope1",
+  "id": "de-aroc-activity-slope1",
   "level": "2",
-  "url": "DE1.html#D-aroc-activity-slope1",
+  "url": "DE1.html#de-aroc-activity-slope1",
   "type": "Activity",
   "number": "2.1.1",
   "title": "",
   "body": "  A line goes through the points and     What is the slope of the line?        Undefined slope                 Which of the following statements best describes what the slope tells you?   For every increase of one in the output values, the input values increase by two.    For every increase of one in the input values, the output values increase by two.    For every increase of one in the input values, the output values stay the same.    The slope does not tell you a relationship between the input values and the output values.       If outputs the profit of a company (in hundred dollars) when the store is open hours, write an interpretation for the slope using part (b).   "
 },
 {
-  "id": "D-aroc-activity-slope2",
+  "id": "de-aroc-activity-slope2",
   "level": "2",
-  "url": "DE1.html#D-aroc-activity-slope2",
+  "url": "DE1.html#de-aroc-activity-slope2",
   "type": "Activity",
   "number": "2.1.2",
   "title": "",
@@ -1279,18 +1279,18 @@ var ptx_lunr_docs = [
   "body": " Average Rate of Change   Let be a continuous function on some interval . For two inputs and in , the average rate of change average rate of change rate of change (average) of between and is given by   In the context of motion, the average rate of change of position is called average velocity .   "
 },
 {
-  "id": "D-aroc-activity-ball",
+  "id": "de-aroc-activity-ball",
   "level": "2",
-  "url": "DE1.html#D-aroc-activity-ball",
+  "url": "DE1.html#de-aroc-activity-ball",
   "type": "Activity",
   "number": "2.1.3",
   "title": "",
   "body": "  In this activity you will study the velocity of a ball falling under gravity. The height of the ball (in feet) is given by the formula , where is measured in seconds. For your convenience, below you will find a table of values for .        1  1.5  1.75  2  2.25  2.5  3       64  60  55  48  39  28  0       To start we will look at an interval of length one before and after , so we consider the intervals and . What was the average velocity on the interval ? What about on the interval ?    Now let's consider smaller intervals of length . What was the average velocity on the interval ? What about on the interval ?    What was the average velocity on the interval ? What about on the interval ?    If we wanted to approximate the velocity at the instant , what would be your best estimate for this velocity? We call a rate of change at a single instant (rather than over an interval) the instantaneous rate of change , or instantaneous velocity in this context.   "
 },
 {
-  "id": "d-aroc-activity-iroc",
+  "id": "de-aroc-activity-iroc",
   "level": "2",
-  "url": "DE1.html#d-aroc-activity-iroc",
+  "url": "DE1.html#de-aroc-activity-iroc",
   "type": "Activity",
   "number": "2.1.4",
   "title": "",
@@ -1333,13 +1333,121 @@ var ptx_lunr_docs = [
   "body": " Tangent Line   Let be a continuous function in a neighborhood of the input . The tangent line tangent line to and is the line which only intercepts  intentionally at .   "
 },
 {
-  "id": "d-aroc-secant-tangent",
+  "id": "de-aroc-secant-tangent",
   "level": "2",
-  "url": "DE1.html#d-aroc-secant-tangent",
+  "url": "DE1.html#de-aroc-secant-tangent",
   "type": "Activity",
   "number": "2.1.6",
   "title": "",
   "body": "  Refer to and for this activity.    We have already have a name for the slope of the secant line between two points; what is it? Rewrite the formula.    What would be the slope of the tangent line , based on your response in part (a)?   "
+},
+{
+  "id": "de-activity-derivdef-point1",
+  "level": "2",
+  "url": "DE1.html#de-activity-derivdef-point1",
+  "type": "Activity",
+  "number": "2.1.7",
+  "title": "",
+  "body": "  Let     Which of the following is a correct first step in computing the slope of the tangent line to at ?                         "
+},
+{
+  "id": "de-activity-derivdef-linear",
+  "level": "2",
+  "url": "DE1.html#de-activity-derivdef-linear",
+  "type": "Activity",
+  "number": "2.1.8",
+  "title": "",
+  "body": " Consider the function . Which of the following best summarizes the average rates of changes of on on the intervals , , and ?     The average rate of change on the intervals and are equal to the slope of , but the average rate of change of cannot be determined on without a specific value of .    The average rate of change on the intervals , , and are all different values.    The average rate of change on the intervals , , and are all equal to .     "
+},
+{
+  "id": "de-activity-derivdef-linear2",
+  "level": "2",
+  "url": "DE1.html#de-activity-derivdef-linear2",
+  "type": "Activity",
+  "number": "2.1.9",
+  "title": "",
+  "body": " Is it possible to find the instantaneous rate of change of at without doing any computations?     No, because we cannot compute the value .    No, because we cannot compute the average rate of change on the interval .    Yes, because the intercept of the tangent line at any point is equal to the constant intercept of .    Yes, because the slope of the tangent line at any point is equal to the constant slope of .     "
+},
+{
+  "id": "def-derivative-point",
+  "level": "2",
+  "url": "DE1.html#def-derivative-point",
+  "type": "Definition",
+  "number": "2.1.6",
+  "title": "Derivative (at a point).",
+  "body": " Derivative (at a point)   The derivative of at the input derivative (at a point) is given by the expression or assuming this limit exists.   "
+},
+{
+  "id": "derivative-notation-point",
+  "level": "2",
+  "url": "DE1.html#derivative-notation-point",
+  "type": "Remark",
+  "number": "2.1.7",
+  "title": "",
+  "body": " The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .  "
+},
+{
+  "id": "de-activity-derivdef-quadratic",
+  "level": "2",
+  "url": "DE1.html#de-activity-derivdef-quadratic",
+  "type": "Activity",
+  "number": "2.1.10",
+  "title": "",
+  "body": "  Let .    Compute using the first expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative. What does this number represent?    If we wanted to compute , what change(s) would you need to make to your work in (b) and (c)?   "
+},
+{
+  "id": "de-activity-derivative-units1",
+  "level": "2",
+  "url": "DE1.html#de-activity-derivative-units1",
+  "type": "Activity",
+  "number": "2.1.11",
+  "title": "",
+  "body": "  Recall the definition of the derivative, given in . For the tasks below, consider the function at the input .    Which of the following best describes the numerator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        Which of the following best describes the denominator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        If inputs time (in hours) and outputs distance (in miles), which of the following best describes the average rate of change expression ?   The distance traveled in miles between the inputs and     The time between the inputs and     The ratio of the change in the output of to the change in the input of on the interval     The ratio of the change in the input of to the change in the output of on the interval       "
+},
+{
+  "id": "de-activity-derivative-units2",
+  "level": "2",
+  "url": "DE1.html#de-activity-derivative-units2",
+  "type": "Activity",
+  "number": "2.1.12",
+  "title": "",
+  "body": "  The function gives the distance (in feet) an experimental vehicle has gone, seconds after starting its motion.    Compute the derivative, .    What are the units for ?   feet per second    feet per seconds    seconds per foot    second per feet       The units suggest that the first derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special       Compute the second derivative of , at the input . What are the appropriate units here? Refer back to if you need.   feet per second per foot    feet per second per second    feet per second    feet per feet per second       The units suggest that the second derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special      "
+},
+{
+  "id": "de-activity-derivative-incdec",
+  "level": "2",
+  "url": "DE1.html#de-activity-derivative-incdec",
+  "type": "Activity",
+  "number": "2.1.13",
+  "title": "",
+  "body": "  Recall that the derivative at an input gives the slope of the tangent line to at .    Assume that for some function , . What does this mean about the function, , at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about        Now assume that . What does this mean about the function at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about       "
+},
+{
+  "id": "de-activity-derivative-incdec-app",
+  "level": "2",
+  "url": "DE1.html#de-activity-derivative-incdec-app",
+  "type": "Activity",
+  "number": "2.1.14",
+  "title": "",
+  "body": "  Suppose that gives the profit of a multinational corporation (in billion dollars), years after development of a new product.    Write the units for the first derivative, .    Write the units for the second derivative, .    Suppose that it is known . Which description is most accurate?   Three years after the product was developed, the profit was increasing by two billion dollars per year    Two years after the product was developed, the profit was increasing by three billion dollars per year    Three years after the product was developed, the profit was increasing by two billion dollars    Two years after the product was developed, the profit was decreasing by three billion dollars per year       Which statement best translates the statement Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year ?                         "
+},
+{
+  "id": "DE1-activities-22",
+  "level": "2",
+  "url": "DE1.html#DE1-activities-22",
+  "type": "Remark",
+  "number": "2.1.8",
+  "title": "",
+  "body": " When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change is happening at this moment in time , as opposed to an averate rate of change, which occurs over a period of time .  "
+},
+{
+  "id": "de-activity-derivative-units3",
+  "level": "2",
+  "url": "DE1.html#de-activity-derivative-units3",
+  "type": "Activity",
+  "number": "2.1.15",
+  "title": "",
+  "body": "  Suppose that gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, minutes after leaving the International Space Station (ISS), and that gives the amount of fuel (in pounds) consumed by the capsule minutes after leaving its launchpad.    Data collected suggests that, when returning to Earth from the ISS, was positive but smaller than , when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?    Which would you expect to be larger: or ? Why?   "
 },
 {
   "id": "DE2",
@@ -1348,7 +1456,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "DE2: The Derivative (Definition)",
-  "body": " DE2: The Derivative (Definition)     DE2  I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Defining the Derivative    Read the \"The Derivative of a Function at a Point\" section and the \"Velocities and Rates of Change\" section      Section 3.2: The Derivative as a Function    Read the \"Derivative Functions\" and \"Higher Order Derivatives\" sections        In-Class Activities   Recall that we defined the slope of a tangent line in       Let     Which of the following is a correct first step in computing the slope of the tangent line to at ?                           Consider the function . Which of the following best summarizes the average rates of changes of on on the intervals , , and ?     The average rate of change on the intervals and are equal to the slope of , but the average rate of change of cannot be determined on without a specific value of .    The average rate of change on the intervals , , and are all different values.    The average rate of change on the intervals , , and are all equal to .       Is it possible to find the instantaneous rate of change of at without doing any computations?     No, because we cannot compute the value .    No, because we cannot compute the average rate of change on the interval .    Yes, because the intercept of the tangent line at any point is equal to the constant intercept of .    Yes, because the slope of the tangent line at any point is equal to the constant slope of .       Derivative (at a point)   The derivative of at the input derivative (at a point) is given by the expression or assuming this limit exists.     The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .     Let .    Compute using the first expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative. What does this number represent?    If we wanted to compute , what change(s) would you need to make to your work in (b) and (c)?     Derivative (as a function)  Derivative (as a function)   The derivative of is given by the expression assuming this limit exists.     The derivative of a function can be written as If we change the label of the function to and the independent variable to , then the derivative would be written as      In this activity you will consider and compute its derivative function using the limit definition of the derivative function .    What expression do you get when you simplify the difference quotient                           After taking the limit as , which of the following is your result for the derivative function ?                            Using the limit definition of the derivative, you want to find for . We will do this by first simplifying the difference quotient and then taking the limit as .    What expression do you get when you simplify the difference quotient                                After taking the limit as , which of the following is your result for the derivative function ?                                Second Derivative   The second derivative of a function derivative (second order) is the derivative of the first derivative. Mathematically, we write      Higher-Order Derivatives   For a function , the derivative of order derivative (higher order) is the result of taking derivatives of .     The second derivative of a function is written as For higher-order derivatives, we write There is no equivalent flyspeck notation for higher-order derivatives.     Recall that in , we analyzed the behavior of the function which modeled the height of a ball falling under gravity.    Use the definition of the derivative ( ) to compute .    The first derivative of a position function gives the velocity function, usually denoted . What is ?    The second derivative of a position function (which is the first derivative of velocity) gives the acceleration function, usually denoted . Compute the acceleration of the ball at , , and .    What do you notice about the acceleration at different points in time for the ball? What can you conjecture about the acceleration of other objects experiencing free-fall?      This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the facts that and .                          Using the same idea, and the facts that and , which is the appropriate derivative of cosine?                                "
+  "body": " DE2: The Derivative (Definition)     DE2  I can use the limit definition to compute the derivative function.      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: The Derivative as a Function    Read the \"Derivative Functions\" and \"Higher Order Derivatives\" sections        In-Class Activities   Derivative (as a function)  Derivative (as a function)   The derivative of is given by the expression assuming this limit exists.     The derivative of a function can be written as If we change the label of the function to and the independent variable to , then the derivative would be written as      In this activity you will consider and compute its derivative function using the limit definition of the derivative function .    What expression do you get when you simplify the difference quotient                           After taking the limit as , which of the following is your result for the derivative function ?                            Using the limit definition of the derivative, you want to find for . We will do this by first simplifying the difference quotient and then taking the limit as .    What expression do you get when you simplify the difference quotient                                After taking the limit as , which of the following is your result for the derivative function ?                                Second Derivative   The second derivative of a function derivative (second order) is the derivative of the first derivative. Mathematically, we write      Higher-Order Derivatives   For a function , the derivative of order derivative (higher order) is the result of taking derivatives of .     The second derivative of a function is written as For higher-order derivatives, we write There is no equivalent flyspeck notation for higher-order derivatives.     Recall that in , we analyzed the behavior of the function which modeled the height of a ball falling under gravity.    Use the definition of the derivative ( ) to compute .    The first derivative of a position function gives the velocity function, usually denoted . What is ?    The second derivative of a position function (which is the first derivative of velocity) gives the acceleration function, usually denoted . Compute the acceleration of the ball at , , and .    What do you notice about the acceleration at different points in time for the ball? What can you conjecture about the acceleration of other objects experiencing free-fall?      This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the facts that and .                          Using the same idea, and the facts that and , which is the appropriate derivative of cosine?                                "
 },
 {
   "id": "DE2-2",
@@ -1357,77 +1465,14 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "2.2",
   "title": "",
-  "body": "   DE2  I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function.    "
-},
-{
-  "id": "DE2-activities-2",
-  "level": "2",
-  "url": "DE2.html#DE2-activities-2",
-  "type": "Remark",
-  "number": "2.2.1",
-  "title": "",
-  "body": " Recall that we defined the slope of a tangent line in   "
-},
-{
-  "id": "d-activity-derivdef-point1",
-  "level": "2",
-  "url": "DE2.html#d-activity-derivdef-point1",
-  "type": "Activity",
-  "number": "2.2.1",
-  "title": "",
-  "body": "  Let     Which of the following is a correct first step in computing the slope of the tangent line to at ?                         "
-},
-{
-  "id": "d-activity-derivdef-linear",
-  "level": "2",
-  "url": "DE2.html#d-activity-derivdef-linear",
-  "type": "Activity",
-  "number": "2.2.2",
-  "title": "",
-  "body": " Consider the function . Which of the following best summarizes the average rates of changes of on on the intervals , , and ?     The average rate of change on the intervals and are equal to the slope of , but the average rate of change of cannot be determined on without a specific value of .    The average rate of change on the intervals , , and are all different values.    The average rate of change on the intervals , , and are all equal to .     "
-},
-{
-  "id": "d-activity-derivdef-linear2",
-  "level": "2",
-  "url": "DE2.html#d-activity-derivdef-linear2",
-  "type": "Activity",
-  "number": "2.2.3",
-  "title": "",
-  "body": " Is it possible to find the instantaneous rate of change of at without doing any computations?     No, because we cannot compute the value .    No, because we cannot compute the average rate of change on the interval .    Yes, because the intercept of the tangent line at any point is equal to the constant intercept of .    Yes, because the slope of the tangent line at any point is equal to the constant slope of .     "
-},
-{
-  "id": "def-derivative-point",
-  "level": "2",
-  "url": "DE2.html#def-derivative-point",
-  "type": "Definition",
-  "number": "2.2.2",
-  "title": "Derivative (at a point).",
-  "body": " Derivative (at a point)   The derivative of at the input derivative (at a point) is given by the expression or assuming this limit exists.   "
-},
-{
-  "id": "derivative-notation-point",
-  "level": "2",
-  "url": "DE2.html#derivative-notation-point",
-  "type": "Remark",
-  "number": "2.2.3",
-  "title": "",
-  "body": " The derivative of a function at the input can be written as The first notation is called prime notation , the second is called Leibniz notation , and the third is called flyspeck notation .  "
-},
-{
-  "id": "DE2-activities-8",
-  "level": "2",
-  "url": "DE2.html#DE2-activities-8",
-  "type": "Activity",
-  "number": "2.2.4",
-  "title": "",
-  "body": "  Let .    Compute using the first expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative in . What does this number represent?    Compute using the second expression for the derivative. What does this number represent?    If we wanted to compute , what change(s) would you need to make to your work in (b) and (c)?   "
+  "body": "   DE2  I can use the limit definition to compute the derivative function.    "
 },
 {
   "id": "def-derivative-function",
   "level": "2",
   "url": "DE2.html#def-derivative-function",
   "type": "Definition",
-  "number": "2.2.4",
+  "number": "2.2.1",
   "title": "Derivative (as a function).",
   "body": " Derivative (as a function)  Derivative (as a function)   The derivative of is given by the expression assuming this limit exists.   "
 },
@@ -1436,25 +1481,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "DE2.html#derivative-notation-function1",
   "type": "Remark",
-  "number": "2.2.5",
+  "number": "2.2.2",
   "title": "",
   "body": " The derivative of a function can be written as If we change the label of the function to and the independent variable to , then the derivative would be written as   "
 },
 {
-  "id": "DE2-activities-11",
+  "id": "DE2-activities-4",
   "level": "2",
-  "url": "DE2.html#DE2-activities-11",
+  "url": "DE2.html#DE2-activities-4",
   "type": "Activity",
-  "number": "2.2.5",
+  "number": "2.2.1",
   "title": "",
   "body": "  In this activity you will consider and compute its derivative function using the limit definition of the derivative function .    What expression do you get when you simplify the difference quotient                           After taking the limit as , which of the following is your result for the derivative function ?                         "
 },
 {
-  "id": "d-activity-derivdef-fraction",
+  "id": "de-activity-derivdef-fraction",
   "level": "2",
-  "url": "DE2.html#d-activity-derivdef-fraction",
+  "url": "DE2.html#de-activity-derivdef-fraction",
   "type": "Activity",
-  "number": "2.2.6",
+  "number": "2.2.2",
   "title": "",
   "body": "  Using the limit definition of the derivative, you want to find for . We will do this by first simplifying the difference quotient and then taking the limit as .    What expression do you get when you simplify the difference quotient                                After taking the limit as , which of the following is your result for the derivative function ?                              "
 },
@@ -1463,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "DE2.html#def-derivative-second",
   "type": "Definition",
-  "number": "2.2.6",
+  "number": "2.2.3",
   "title": "Second Derivative.",
   "body": " Second Derivative   The second derivative of a function derivative (second order) is the derivative of the first derivative. Mathematically, we write    "
 },
@@ -1472,34 +1517,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "DE2.html#def-derivative-higher",
   "type": "Definition",
-  "number": "2.2.7",
+  "number": "2.2.4",
   "title": "Higher-Order Derivatives.",
   "body": " Higher-Order Derivatives   For a function , the derivative of order derivative (higher order) is the result of taking derivatives of .   "
 },
 {
-  "id": "d-deriv-notation-higher",
+  "id": "de-deriv-notation-higher",
   "level": "2",
-  "url": "DE2.html#d-deriv-notation-higher",
+  "url": "DE2.html#de-deriv-notation-higher",
   "type": "Remark",
-  "number": "2.2.8",
+  "number": "2.2.5",
   "title": "",
   "body": " The second derivative of a function is written as For higher-order derivatives, we write There is no equivalent flyspeck notation for higher-order derivatives.  "
 },
 {
-  "id": "DE2-activities-16",
+  "id": "DE2-activities-9",
   "level": "2",
-  "url": "DE2.html#DE2-activities-16",
+  "url": "DE2.html#DE2-activities-9",
   "type": "Activity",
-  "number": "2.2.7",
+  "number": "2.2.3",
   "title": "",
   "body": "  Recall that in , we analyzed the behavior of the function which modeled the height of a ball falling under gravity.    Use the definition of the derivative ( ) to compute .    The first derivative of a position function gives the velocity function, usually denoted . What is ?    The second derivative of a position function (which is the first derivative of velocity) gives the acceleration function, usually denoted . Compute the acceleration of the ball at , , and .    What do you notice about the acceleration at different points in time for the ball? What can you conjecture about the acceleration of other objects experiencing free-fall?   "
 },
 {
-  "id": "DE2-activities-17",
+  "id": "DE2-activities-10",
   "level": "2",
-  "url": "DE2.html#DE2-activities-17",
+  "url": "DE2.html#DE2-activities-10",
   "type": "Activity",
-  "number": "2.2.8",
+  "number": "2.2.4",
   "title": "",
   "body": "  This activity will develop the derivatives for and .    Let's start with finding the derivative for sine. Which expression shows the correct way to begin the computation?                          Which answer below shows the correct derivative of , given part (a)? Use the facts that and .                          Using the same idea, and the facts that and , which is the appropriate derivative of cosine?                              "
 },
@@ -1509,8 +1554,8 @@ var ptx_lunr_docs = [
   "url": "DE3.html",
   "type": "Section",
   "number": "2.3",
-  "title": "DE3: Interpreting the Derivative",
-  "body": " DE3: Interpreting the Derivative     DE3  I can interpret the meaning of a derivative in context (with appropriate units).      Pre-Class Preparation  Read the following sections of the text:    Section 3.4: Derivatives as Rates of Change    Read all sections        In-Class Activities    Recall the definition of the derivative, given in . Consider the generic function for the tasks below.    Which of the following best describes the numerator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        Which of the following best describes the denominator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        If inputs time (in hours) and outputs distance (in miles), which of the following best describes the average rate of change expression ?   The distance traveled in miles between the inputs and     The time between the inputs and     The ratio of the change in the output of to the change in the input of on the interval     The ratio of the change in the input of to the change in the output of on the interval          The function gives the distance (in feet) an experimental vehicle has gone, seconds after starting its motion.    Compute the derivative, .    What are the units for ?   feet per second    feet per seconds    seconds per foot    second per feet       The units suggest that the first derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special       Compute the second derivative of , . What are the appropriate units here? Refer back to if you need.   feet per second per foot    feet per second per second    feet per second    feet per feet per second       The units suggest that the second derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special         Recall that the derivative at an input gives the slope of the tangent line to at .    Assume that for some function , . What does this mean about the function, , at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about        Now assume that . What does this mean about the function at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about          Suppose that gives the profit of a multinational corporation (in billion dollars), years after development of a new product.    Write the units for the first derivative, .    Write the units for the second derivative, .    Suppose that it is known . Which description is most accurate?   Three years after the product was developed, the profit was increasing by two billion dollars per year    Two years after the product was developed, the profit was increasing by three billion dollars per year    Three years after the product was developed, the profit was increasing by two billion dollars    Two years after the product was developed, the profit was decreasing by three billion dollars per year       Which statement best translates the statement Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year ?                           When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change is happening at this moment in time , as opposed to an averate rate of change, which occurs over a period of time .     Suppose that gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, minutes after leaving the International Space Station (ISS), and that gives the amount of fuel (in pounds) consumed by the capsule minutes after leaving its launchpad.    Data collected suggests that, when returning to Earth from the ISS, was positive but smaller than , when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?    Which would you expect to be larger: or ? Why?     "
+  "title": "DE3: Slope Graphs &amp; Differentiability",
+  "body": " DE3: Slope Graphs & Differentiability     DE3  I can sketch the derivative graph of a function and determine where it is differentiable (and classify the non-differentiability type) using numerical, algebraic, or graphical representations.      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: The Derivative as a Function    Read the \"Graphing a Derivative\" and \"Derivatives and Continuity\" sections      Section 3.4: Derivatives as Rates of Change    Read all sections        In-Class Activities    Let .    Compute     Use the Calc tool at the top of the page to graph and . Which relationship(s) do you observe to be true?   When the function is increasing, the derivative graph is positive    When the function is decreasing, the derivative graph is negative    When the function is not changing, the derivative graph is zero    There is no connection between the graph of and         Use the graph given below to sketch the graph of the derivative.   The graph of a function        Match each graph below with the graph of its derivative.    Graph A       Graph B       Graph C         Graph I       Graph II       Graph III          The image below shows the graphs of a position function ( ), a velocity function ( ), and an acceleration function ( ).   Three graphs: Position, velocity, acceleration        Which order represents the position function, the velocity function, and the acceleration function?   Red, Blue, Black    Blue, Red, Black    Blue, Black, Red    Red, Black, Blue    Black, Red, Blue    Black, Blue, Red       Try to sketch the fourth derivative of position (called jerk ) based on your answer above      Consider the function .    Remember that . Use this fact to compute .    Now compute     True or false: exists. Be prepared to defend your answer with a reason why if it exists, and why not if it doesn't.   True    False         Now consider the function . Define the left-hand derivative to be the expression and the right-hand derivative to be the expression     Which is the appropriate value of ?                   DNE       Which is the appropriate value of ?                   DNE       Your answers to (a) and (b) should lead to you conclude what about the value of    The limit exists and therefore     The limit exists and therefore     The limit exists and therefore     The limit does not exist and therefore does not exist       Recall that the expression computes the slope of a function between the points and . Based on this, complete the statement: If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...       A function is said to be differentiable differentiable at the point if the limit exists     Using , write an explicit, mathematical statement for why is not differentiable at .     The figures below show three common cases for non-differentiability.    The graph of around       The graph of a piecewise function       The graph of around         Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at         "
 },
 {
   "id": "DE3-2",
@@ -1519,61 +1564,88 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "2.3",
   "title": "",
-  "body": "   DE3  I can interpret the meaning of a derivative in context (with appropriate units).    "
+  "body": "   DE3  I can sketch the derivative graph of a function and determine where it is differentiable (and classify the non-differentiability type) using numerical, algebraic, or graphical representations.    "
 },
 {
-  "id": "d-activity-derivative-units1",
+  "id": "de-activity-sketch-1",
   "level": "2",
-  "url": "DE3.html#d-activity-derivative-units1",
+  "url": "DE3.html#de-activity-sketch-1",
   "type": "Activity",
   "number": "2.3.1",
   "title": "",
-  "body": "  Recall the definition of the derivative, given in . Consider the generic function for the tasks below.    Which of the following best describes the numerator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        Which of the following best describes the denominator, ?   The value of the output of at the point     The value of the change in the inputs of between the points and     The value of the change in the outputs of between the points and     The value of the input of of at the point        If inputs time (in hours) and outputs distance (in miles), which of the following best describes the average rate of change expression ?   The distance traveled in miles between the inputs and     The time between the inputs and     The ratio of the change in the output of to the change in the input of on the interval     The ratio of the change in the input of to the change in the output of on the interval       "
+  "body": "  Let .    Compute     Use the Calc tool at the top of the page to graph and . Which relationship(s) do you observe to be true?   When the function is increasing, the derivative graph is positive    When the function is decreasing, the derivative graph is negative    When the function is not changing, the derivative graph is zero    There is no connection between the graph of and       "
 },
 {
-  "id": "d-activity-derivative-units2",
+  "id": "de-activity-sketch-2",
   "level": "2",
-  "url": "DE3.html#d-activity-derivative-units2",
+  "url": "DE3.html#de-activity-sketch-2",
   "type": "Activity",
   "number": "2.3.2",
   "title": "",
-  "body": "  The function gives the distance (in feet) an experimental vehicle has gone, seconds after starting its motion.    Compute the derivative, .    What are the units for ?   feet per second    feet per seconds    seconds per foot    second per feet       The units suggest that the first derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special       Compute the second derivative of , . What are the appropriate units here? Refer back to if you need.   feet per second per foot    feet per second per second    feet per second    feet per feet per second       The units suggest that the second derivative of is better known as which of the following?   Acceleration    Distance    Velocity    Nothing special      "
+  "body": " Use the graph given below to sketch the graph of the derivative.   The graph of a function      "
 },
 {
-  "id": "d-activity-derivative-incdec",
+  "id": "de-activity-sketch-3",
   "level": "2",
-  "url": "DE3.html#d-activity-derivative-incdec",
+  "url": "DE3.html#de-activity-sketch-3",
   "type": "Activity",
   "number": "2.3.3",
   "title": "",
-  "body": "  Recall that the derivative at an input gives the slope of the tangent line to at .    Assume that for some function , . What does this mean about the function, , at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about        Now assume that . What does this mean about the function at ?   The function must be going up (increasing)    The function must be going down (decreasing)    The function must not be changing (constant)    We do not have enough information to talk about       "
+  "body": " Match each graph below with the graph of its derivative.    Graph A       Graph B       Graph C         Graph I       Graph II       Graph III       "
 },
 {
-  "id": "d-activity-derivative-incdec-app",
+  "id": "de-activity-sketch-pos-vel-acc",
   "level": "2",
-  "url": "DE3.html#d-activity-derivative-incdec-app",
+  "url": "DE3.html#de-activity-sketch-pos-vel-acc",
   "type": "Activity",
   "number": "2.3.4",
   "title": "",
-  "body": "  Suppose that gives the profit of a multinational corporation (in billion dollars), years after development of a new product.    Write the units for the first derivative, .    Write the units for the second derivative, .    Suppose that it is known . Which description is most accurate?   Three years after the product was developed, the profit was increasing by two billion dollars per year    Two years after the product was developed, the profit was increasing by three billion dollars per year    Three years after the product was developed, the profit was increasing by two billion dollars    Two years after the product was developed, the profit was decreasing by three billion dollars per year       Which statement best translates the statement Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year ?                         "
+  "body": "  The image below shows the graphs of a position function ( ), a velocity function ( ), and an acceleration function ( ).   Three graphs: Position, velocity, acceleration        Which order represents the position function, the velocity function, and the acceleration function?   Red, Blue, Black    Blue, Red, Black    Blue, Black, Red    Red, Black, Blue    Black, Red, Blue    Black, Blue, Red       Try to sketch the fourth derivative of position (called jerk ) based on your answer above   "
 },
 {
-  "id": "DE3-activities-6",
+  "id": "de-activity-differentiability1",
   "level": "2",
-  "url": "DE3.html#DE3-activities-6",
-  "type": "Remark",
-  "number": "2.3.1",
-  "title": "",
-  "body": " When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change is happening at this moment in time , as opposed to an averate rate of change, which occurs over a period of time .  "
-},
-{
-  "id": "DE3-activities-7",
-  "level": "2",
-  "url": "DE3.html#DE3-activities-7",
+  "url": "DE3.html#de-activity-differentiability1",
   "type": "Activity",
   "number": "2.3.5",
   "title": "",
-  "body": "  Suppose that gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, minutes after leaving the International Space Station (ISS), and that gives the amount of fuel (in pounds) consumed by the capsule minutes after leaving its launchpad.    Data collected suggests that, when returning to Earth from the ISS, was positive but smaller than , when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?    Which would you expect to be larger: or ? Why?   "
+  "body": "  Consider the function .    Remember that . Use this fact to compute .    Now compute     True or false: exists. Be prepared to defend your answer with a reason why if it exists, and why not if it doesn't.   True    False      "
+},
+{
+  "id": "de-activity-differentiability-left-right",
+  "level": "2",
+  "url": "DE3.html#de-activity-differentiability-left-right",
+  "type": "Activity",
+  "number": "2.3.6",
+  "title": "",
+  "body": "  Now consider the function . Define the left-hand derivative to be the expression and the right-hand derivative to be the expression     Which is the appropriate value of ?                   DNE       Which is the appropriate value of ?                   DNE       Your answers to (a) and (b) should lead to you conclude what about the value of    The limit exists and therefore     The limit exists and therefore     The limit exists and therefore     The limit does not exist and therefore does not exist       Recall that the expression computes the slope of a function between the points and . Based on this, complete the statement: If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...    "
+},
+{
+  "id": "def-differentiability",
+  "level": "2",
+  "url": "DE3.html#def-differentiability",
+  "type": "Definition",
+  "number": "2.3.9",
+  "title": "",
+  "body": "  A function is said to be differentiable differentiable at the point if the limit exists   "
+},
+{
+  "id": "de-activity-differentiability2",
+  "level": "2",
+  "url": "DE3.html#de-activity-differentiability2",
+  "type": "Activity",
+  "number": "2.3.7",
+  "title": "",
+  "body": " Using , write an explicit, mathematical statement for why is not differentiable at .  "
+},
+{
+  "id": "de-activity-nondifferentiability",
+  "level": "2",
+  "url": "DE3.html#de-activity-nondifferentiability",
+  "type": "Activity",
+  "number": "2.3.8",
+  "title": "",
+  "body": "  The figures below show three common cases for non-differentiability.    The graph of around       The graph of a piecewise function       The graph of around         Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at       "
 },
 {
   "id": "DE4",
@@ -1581,8 +1653,8 @@ var ptx_lunr_docs = [
   "url": "DE4.html",
   "type": "Section",
   "number": "2.4",
-  "title": "DE4: Sketching the Derivative",
-  "body": " DE4: Sketching the Derivative     DE4  Given a graph, I can sketch its derivative.      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: The Derivative as a Function    Read the \"Graphing a Derivative\"section        In-Class Activities    Let .    Compute     Use the Calc tool at the top of the page to graph and . Which relationship(s) do you observe to be true?   When the function is increasing, the derivative graph is positive    When the function is decreasing, the derivative graph is negative    When the function is not changing, the derivative graph is zero    There is no connection between the graph of and         Use the graph given below to sketch the graph of the derivative.   The graph of a function        Match each graph below with the graph of its derivative.    Graph A       Graph B       Graph C         Graph I       Graph II       Graph III          The image below shows the graphs of a position function ( ), a velocity function ( ), and an acceleration function ( ).   Three graphs: Position, velocity, acceleration        Which order represents the position function, the velocity function, and the acceleration function?   Red, Blue, Black    Blue, Red, Black    Blue, Black, Red    Red, Black, Blue    Black, Red, Blue    Black, Blue, Red       Try to sketch the fourth derivative of position (called jerk ) based on your answer above     "
+  "title": "DE4: Derivative Shortcuts",
+  "body": " DE4: Derivative Shortcuts     DE4  I can apply derivative shortcuts to compute derivatives of the following kinds of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometric functions.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Basic Rules\", \"The Power Rule\", and \"The Sum, Difference, and Constant Multiple Rules\" sections      Section 3.5: Derivatives of Trigonometric Functions    Read the \"Derivatives of the Sine and Cosine Functions\" and \"Higher-Order Derivatives\" sections      Section 3.9: Derivatives of Exponential and Logarithmic Functions    Read \"Derivative of the Exponential Function\" and \"Derivative of the Logarithmic Function\" sections        In-Class Activities    Recall the definition of the derivative of a function, . This activity will develop the constant rule .    Let be a constant function. Which of the following is the correct expression for ?                          Which of the following characterizations is true of , the derivative of a function at a point?   It represents the slope of the secant line at that point    It represents the slope of the secant line for the entire function    It represents the slope of the tangent line at that point    It represents the slope of the tangent line for the entire function       Think about the graph of . Why does your answer from part (a) make sense in light of part (b)?      In each task below, we define , where changes from to . This will help us develop the power rule .    Using the limit definition of the derivative, what is for the power function ?                   does not exist       Using the limit definition of the derivative, what is for the power function ? Use the fact that .                          Using the limit definition of the derivative, what is for the power function ? Use the fact that .                           Without using the limit definition of the derivative, which option below is the most reasonable guess for when ? Use parts (a)-(c) to develop a pattern.                           Derivative Rules, Part 1   Let be any real number, be any real constant, and and be differentiable functions. Then,    Constant Rule: If , then      Power Rule: If , then      Sum\/Difference Rule: The derivative of a sum or difference of functions is the sum or difference of the derivatives:      Constant Multiple Rule: The derivative of a constant times a function is the constant times the derivative of the function:          Let , , and . Which of the following are true statements? For those statements that are wrong, give the correct derivative.   The derivative of is     The derivative of is     The derivative of is     The derivative of is          Let .    Which is the correct expression for ?                          Which is the correct expression for ?                           Derivative Rules, Part 2   The following are base functions and their derivatives.    Function  Derivative                                                                                        Use to answer the questions below.    The first derivative of the function is given by . What is the second derivative of ?          The derivative of is:           Which of the following statements is NOT true?  The derivative of is  The derivative of is  The derivative of is  The derivative of is .       Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, minutes after forgetting it on a bench outside, is given by the function Find and and try to interpret your result in the context of this problem.     In this activity you will use our first derivative rules to study the slope of tangent lines.    The graph of has a slope of 5 at two points. Find the coordinates of these points.    Find the equations of the two lines tangent to the parabola which pass through the origin.   Hint: You will want to think about slope in two ways: as the derivative at and the rise over the run in a linear function through the origin and the point . Use a graph to check your work and sketch the tangent lines on your graph.      Compute the following derivatives:                         "
 },
 {
   "id": "DE4-2",
@@ -1591,43 +1663,97 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "2.4",
   "title": "",
-  "body": "   DE4  Given a graph, I can sketch its derivative.    "
+  "body": "   DE4  I can apply derivative shortcuts to compute derivatives of the following kinds of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometric functions.    "
 },
 {
-  "id": "d-activity-sketch-1",
+  "id": "de-activity-derivativerules-develop1",
   "level": "2",
-  "url": "DE4.html#d-activity-sketch-1",
+  "url": "DE4.html#de-activity-derivativerules-develop1",
   "type": "Activity",
   "number": "2.4.1",
   "title": "",
-  "body": "  Let .    Compute     Use the Calc tool at the top of the page to graph and . Which relationship(s) do you observe to be true?   When the function is increasing, the derivative graph is positive    When the function is decreasing, the derivative graph is negative    When the function is not changing, the derivative graph is zero    There is no connection between the graph of and       "
+  "body": "  Recall the definition of the derivative of a function, . This activity will develop the constant rule .    Let be a constant function. Which of the following is the correct expression for ?                          Which of the following characterizations is true of , the derivative of a function at a point?   It represents the slope of the secant line at that point    It represents the slope of the secant line for the entire function    It represents the slope of the tangent line at that point    It represents the slope of the tangent line for the entire function       Think about the graph of . Why does your answer from part (a) make sense in light of part (b)?   "
 },
 {
-  "id": "d-activity-sketch-2",
+  "id": "de-activity-derivativerules-develop2",
   "level": "2",
-  "url": "DE4.html#d-activity-sketch-2",
+  "url": "DE4.html#de-activity-derivativerules-develop2",
   "type": "Activity",
   "number": "2.4.2",
   "title": "",
-  "body": " Use the graph given below to sketch the graph of the derivative.   The graph of a function      "
+  "body": "  In each task below, we define , where changes from to . This will help us develop the power rule .    Using the limit definition of the derivative, what is for the power function ?                   does not exist       Using the limit definition of the derivative, what is for the power function ? Use the fact that .                          Using the limit definition of the derivative, what is for the power function ? Use the fact that .                           Without using the limit definition of the derivative, which option below is the most reasonable guess for when ? Use parts (a)-(c) to develop a pattern.                         "
 },
 {
-  "id": "DE4-activities-4",
+  "id": "thm-derivative-rules-basic",
   "level": "2",
-  "url": "DE4.html#DE4-activities-4",
+  "url": "DE4.html#thm-derivative-rules-basic",
+  "type": "Theorem",
+  "number": "2.4.1",
+  "title": "Derivative Rules, Part 1.",
+  "body": " Derivative Rules, Part 1   Let be any real number, be any real constant, and and be differentiable functions. Then,    Constant Rule: If , then      Power Rule: If , then      Sum\/Difference Rule: The derivative of a sum or difference of functions is the sum or difference of the derivatives:      Constant Multiple Rule: The derivative of a constant times a function is the constant times the derivative of the function:       "
+},
+{
+  "id": "de-activity-derivativerules-practice1",
+  "level": "2",
+  "url": "DE4.html#de-activity-derivativerules-practice1",
   "type": "Activity",
   "number": "2.4.3",
   "title": "",
-  "body": " Match each graph below with the graph of its derivative.    Graph A       Graph B       Graph C         Graph I       Graph II       Graph III       "
+  "body": "  Let , , and . Which of the following are true statements? For those statements that are wrong, give the correct derivative.   The derivative of is     The derivative of is     The derivative of is     The derivative of is       "
 },
 {
-  "id": "DE4-activities-5",
+  "id": "de-activity-derivativerules-diffind",
   "level": "2",
-  "url": "DE4.html#DE4-activities-5",
+  "url": "DE4.html#de-activity-derivativerules-diffind",
   "type": "Activity",
   "number": "2.4.4",
   "title": "",
-  "body": "  The image below shows the graphs of a position function ( ), a velocity function ( ), and an acceleration function ( ).   Three graphs: Position, velocity, acceleration        Which order represents the position function, the velocity function, and the acceleration function?   Red, Blue, Black    Blue, Red, Black    Blue, Black, Red    Red, Black, Blue    Black, Red, Blue    Black, Blue, Red       Try to sketch the fourth derivative of position (called jerk ) based on your answer above   "
+  "body": "  Let .    Which is the correct expression for ?                          Which is the correct expression for ?                         "
+},
+{
+  "id": "thm-derivative-rules-functions",
+  "level": "2",
+  "url": "DE4.html#thm-derivative-rules-functions",
+  "type": "Theorem",
+  "number": "2.4.2",
+  "title": "Derivative Rules, Part 2.",
+  "body": " Derivative Rules, Part 2   The following are base functions and their derivatives.    Function  Derivative                                                                                     "
+},
+{
+  "id": "de-activity-derivativerules-practice2",
+  "level": "2",
+  "url": "DE4.html#de-activity-derivativerules-practice2",
+  "type": "Activity",
+  "number": "2.4.5",
+  "title": "",
+  "body": "  Use to answer the questions below.    The first derivative of the function is given by . What is the second derivative of ?          The derivative of is:           Which of the following statements is NOT true?  The derivative of is  The derivative of is  The derivative of is  The derivative of is .     "
+},
+{
+  "id": "de-activity-derivativerules-practice3",
+  "level": "2",
+  "url": "DE4.html#de-activity-derivativerules-practice3",
+  "type": "Activity",
+  "number": "2.4.6",
+  "title": "",
+  "body": " Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, minutes after forgetting it on a bench outside, is given by the function Find and and try to interpret your result in the context of this problem.  "
+},
+{
+  "id": "de-activity-derivativerules-tangentlines",
+  "level": "2",
+  "url": "DE4.html#de-activity-derivativerules-tangentlines",
+  "type": "Activity",
+  "number": "2.4.7",
+  "title": "",
+  "body": "  In this activity you will use our first derivative rules to study the slope of tangent lines.    The graph of has a slope of 5 at two points. Find the coordinates of these points.    Find the equations of the two lines tangent to the parabola which pass through the origin.   Hint: You will want to think about slope in two ways: as the derivative at and the rise over the run in a linear function through the origin and the point . Use a graph to check your work and sketch the tangent lines on your graph.   "
+},
+{
+  "id": "de-activity-derivativerules-compute",
+  "level": "2",
+  "url": "DE4.html#de-activity-derivativerules-compute",
+  "type": "Activity",
+  "number": "2.4.8",
+  "title": "",
+  "body": "  Compute the following derivatives:                       "
 },
 {
   "id": "DE5",
@@ -1635,8 +1761,8 @@ var ptx_lunr_docs = [
   "url": "DE5.html",
   "type": "Section",
   "number": "2.5",
-  "title": "DE5: Differentiability",
-  "body": " DE5: Differentiability     DE5  I can graphically, numerically, or algebraically determine where a function is differentiable      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: The Derivative as a Function    Read the \"Derivatives and Continuity\" section        In-Class Activities    Consider the function .    Remember that . Use this fact to compute .    Now compute     True or false: exists. Be prepared to defend your answer with a reason why if it exists, and why not if it doesn't.   True    False         Now consider the function . Define the left-hand derivative to be the expression and the right-hand derivative to be the expression     Which is the appropriate value of ?                   DNE       Which is the appropriate value of ?                   DNE       Your answers to (a) and (b) should lead to you conclude what about the value of    The limit exists and therefore     The limit exists and therefore     The limit exists and therefore     The limit does not exist and therefore does not exist       Recall that the expression computes the slope of a function between the points and . Based on this, complete the statement: If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...       A function is said to be differentiable differentiable at the point if the limit exists     Using , write an explicit, mathematical statement for why is not differentiable at .     The figures below show three common cases for non-differentiability.    The graph of around       The graph of a piecewise function       The graph of around         Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at         "
+  "title": "DE5: The Product and Quotient Rules",
+  "body": " DE5: The Product and Quotient Rules     DE5  I can use the product rule and the quotient rule to compute the derivative of products or quotients of functions.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Product Rule\", \"The Quotient Rule\", and \"Combining Differentiation Rules\" sections        In-Class Activities    Let and .    Compute and      Find the product function, .    Compute     True or false:       Find the quotient function, .    Compute     True or false:       The Product Rule   Let and be differentiable functions. Then,      The Quotient Rule   Let and be differentiable functions. Then, provided .     The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.                   Use the product rule to find the derivative of the following functions.                    Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.                   Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).                     Use the quotient rule and appropriate trigonometric identities to prove the following:                         "
 },
 {
   "id": "DE5-2",
@@ -1645,52 +1771,79 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "2.5",
   "title": "",
-  "body": "   DE5  I can graphically, numerically, or algebraically determine where a function is differentiable    "
+  "body": "   DE5  I can use the product rule and the quotient rule to compute the derivative of products or quotients of functions.    "
 },
 {
-  "id": "DE5-activities-2",
+  "id": "de-prodquotrule-idea",
   "level": "2",
-  "url": "DE5.html#DE5-activities-2",
+  "url": "DE5.html#de-prodquotrule-idea",
   "type": "Activity",
   "number": "2.5.1",
   "title": "",
-  "body": "  Consider the function .    Remember that . Use this fact to compute .    Now compute     True or false: exists. Be prepared to defend your answer with a reason why if it exists, and why not if it doesn't.   True    False      "
+  "body": "  Let and .    Compute and      Find the product function, .    Compute     True or false:       Find the quotient function, .    Compute     True or false:     "
 },
 {
-  "id": "DE5-activities-3",
+  "id": "thm-deriv-product",
   "level": "2",
-  "url": "DE5.html#DE5-activities-3",
+  "url": "DE5.html#thm-deriv-product",
+  "type": "Theorem",
+  "number": "2.5.1",
+  "title": "The Product Rule.",
+  "body": " The Product Rule   Let and be differentiable functions. Then,    "
+},
+{
+  "id": "thm-deriv-quotient",
+  "level": "2",
+  "url": "DE5.html#thm-deriv-quotient",
+  "type": "Theorem",
+  "number": "2.5.2",
+  "title": "The Quotient Rule.",
+  "body": " The Quotient Rule   Let and be differentiable functions. Then, provided .   "
+},
+{
+  "id": "de-activity-which-productrule",
+  "level": "2",
+  "url": "DE5.html#de-activity-which-productrule",
   "type": "Activity",
   "number": "2.5.2",
   "title": "",
-  "body": "  Now consider the function . Define the left-hand derivative to be the expression and the right-hand derivative to be the expression     Which is the appropriate value of ?                   DNE       Which is the appropriate value of ?                   DNE       Your answers to (a) and (b) should lead to you conclude what about the value of    The limit exists and therefore     The limit exists and therefore     The limit exists and therefore     The limit does not exist and therefore does not exist       Recall that the expression computes the slope of a function between the points and . Based on this, complete the statement: If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...    "
+  "body": " The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.                "
 },
 {
-  "id": "def-differentiability",
+  "id": "de-activity-fluency-productrule",
   "level": "2",
-  "url": "DE5.html#def-differentiability",
-  "type": "Definition",
-  "number": "2.5.1",
-  "title": "",
-  "body": "  A function is said to be differentiable differentiable at the point if the limit exists   "
-},
-{
-  "id": "DE5-activities-5",
-  "level": "2",
-  "url": "DE5.html#DE5-activities-5",
+  "url": "DE5.html#de-activity-fluency-productrule",
   "type": "Activity",
   "number": "2.5.3",
   "title": "",
-  "body": " Using , write an explicit, mathematical statement for why is not differentiable at .  "
+  "body": "  Use the product rule to find the derivative of the following functions.                  "
 },
 {
-  "id": "DE5-activities-6",
+  "id": "de-activity-which-quotientrule",
   "level": "2",
-  "url": "DE5.html#DE5-activities-6",
+  "url": "DE5.html#de-activity-which-quotientrule",
   "type": "Activity",
   "number": "2.5.4",
   "title": "",
-  "body": "  The figures below show three common cases for non-differentiability.    The graph of around       The graph of a piecewise function       The graph of around         Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at        Which of the following reasons seem most appropriate for why is not differentiable at ?   There is a discontinuity at     There is a sharp change in direction\/slope at     The tangent line appears to become vertical at       "
+  "body": " Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.                "
+},
+{
+  "id": "de-activity-fluency-quotientrule",
+  "level": "2",
+  "url": "DE5.html#de-activity-fluency-quotientrule",
+  "type": "Activity",
+  "number": "2.5.5",
+  "title": "",
+  "body": "  Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).                  "
+},
+{
+  "id": "de-activity-show-trig",
+  "level": "2",
+  "url": "DE5.html#de-activity-show-trig",
+  "type": "Activity",
+  "number": "2.5.6",
+  "title": "",
+  "body": "  Use the quotient rule and appropriate trigonometric identities to prove the following:                       "
 },
 {
   "id": "DE6",
@@ -1698,8 +1851,8 @@ var ptx_lunr_docs = [
   "url": "DE6.html",
   "type": "Section",
   "number": "2.6",
-  "title": "DE6: Derivative Shortcuts",
-  "body": " DE6: Derivative Shortcuts     DE6  I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Basic Rules\", \"The Power Rule\", and \"The Sum, Difference, and Constant Multiple Rules\" sections      Section 3.5: Derivatives of Trigonometric Functions    Read the \"Derivatives of the Sine and Cosine Functions\" and \"Higher-Order Derivatives\" sections      Section 3.9: Derivatives of Exponential and Logarithmic Functions    Read \"Derivative of the Exponential Function\" and \"Derivative of the Logarithmic Function\" sections        In-Class Activities    Recall the definition of the derivative of a function, . This activity will develop the constant rule .    Let be a constant function. Which of the following is the correct expression for ?                          Which of the following characterizations is true of , the derivative of a function at a point?   It represents the slope of the secant line at that point    It represents the slope of the secant line for the entire function    It represents the slope of the tangent line at that point    It represents the slope of the tangent line for the entire function       Think about the graph of . Why does your answer from part (a) make sense in light of part (b)?      In each task below, we define , where changes from to . This will help us develop the power rule .    Using the limit definition of the derivative, what is for the power function ?                   does not exist       Using the limit definition of the derivative, what is for the power function ? Use the fact that .                          Using the limit definition of the derivative, what is for the power function ? Use the fact that .                           Without using the limit definition of the derivative, which option below is the most reasonable guess for when ? Use parts (a)-(c) to develop a pattern.                           Derivative Rules, Part 1   Let be any real number, be any real constant, and and be differentiable functions. Then,    Constant Rule: If , then      Power Rule: If , then      Sum\/Difference Rule: The derivative of a sum or difference of functions is the sum or difference of the derivatives:      Constant Multiple Rule: The derivative of a constant times a function is the constant times the derivative of the function:          Let , , and . Which of the following are true statements? For those statements that are wrong, give the correct derivative.   The derivative of is     The derivative of is     The derivative of is     The derivative of is          Let .    Which is the correct expression for ?                          Which is the correct expression for ?                           Derivative Rules, Part 2   The following are base functions and their derivatives.    Function  Derivative                                                                                                                                        Use to answer the questions below.    The first derivative of the function is given by . What is the second derivative of ?          The derivative of is:           Which of the following statements is NOT true?  The derivative of is  The derivative of is  The derivative of is  The derivative of is .       Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, minutes after forgetting it on a bench outside, is given by the function Find and and try to interpret your result in the context of this problem.     In this activity you will use our first derivative rules to study the slope of tangent lines.    The graph of has a slope of 5 at two points. Find the coordinates of these points.    Find the equations of the two lines tangent to the parabola which pass through the origin.   Hint: You will want to think about slope in two ways: as the derivative at and the rise over the run in a linear function through the origin and the point . Use a graph to check your work and sketch the tangent lines on your graph.      Compute the following derivatives:                         "
+  "title": "DE6: The Chain Rule",
+  "body": " DE6: The Chain Rule     DE6  I can use the chain rule to compute the derivative of composite functions, as well as in conjunction with other rules      Pre-Class Preparation  Read the following sections of the text:    Section 3.6: The Chain Rule    Read all sections     Read the material about function composition in        In-Class Activities   Notation  When a function inputs a number as its argument (also known as input), we write an expression like or .  We can extend this idea. If takes a function  as its input, we write either      Let and .    Which of the following is a formula for ?                          One of the options above is a formula for . Which one?      Consider the composite function .    Which function is the outside function and which one is the inside function ?                          Using properties of exponents, we can rewrite the original function as . Using this new expression, what is your new inside function and your new outside function?    Consider the function . In this case, what are the inside and outside functions?      In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.  My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns. Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?    The scenario gives you information regarding the rate of growth of , the squirrel population as a function of acorn availability (measured in bushels). What is the current value of ?   2    100    200    50       The scenario gives you information regarding the rate of growth of , the acorn availability as a function of time (measured in weeks). What is the current value of ?   2    100    200    50       Given all the information provided, what is your best guess for the value of , the rate at which the squirrel population is growing per week?   2    100    200    50       Given your answers above, what is the relationship between ?     Chain Rule   For the composite function ,   In Leibniz notation, if we consider the composite function , where and , then       Consider the function and . Notice that .    Which of the following is the derivative function of the composite function ?                          One of the options above is a formula for . Which one? Notice that this is not the same as the derivative of !      Consider the composite function . For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to ? Select all!                                      Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.      Which of the following values is the derivative of at ?                             The derivative does not exist at this point.      Which of the following values is the derivative of (different order!) at ?                             The derivative does not exist at this point.         In this activity you will study the derivative of for different powers .    Consider the function . Combining power and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider , for arbitary . Find the general formula for its derivative.      In this activity you will study the derivative of for different bases .    Consider the function . Combining exponential and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider the function for . Find the general formula for its derivative.      Find the derivative of the following functions.                               Now that we've learned the chain rule, we can tackle some derivatives using generic functions rather than specific ones.    Let . Which of the following is the correct expression for ?                          If , , and , what must be the value of ?      Use the table below to find the derivatives                                                                                                             if      if      if      "
 },
 {
   "id": "DE6-2",
@@ -1708,97 +1861,124 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "2.6",
   "title": "",
-  "body": "   DE6  I can apply shortcuts to determine derivatives of any order of the following types of functions and their linear combinations: polynomials, exponentials, logarithms, trigonometrics, inverse trigonometrics.    "
+  "body": "   DE6  I can use the chain rule to compute the derivative of composite functions, as well as in conjunction with other rules    "
 },
 {
-  "id": "d-activity-derivativerules-develop1",
+  "id": "DE6-activities-2",
   "level": "2",
-  "url": "DE6.html#d-activity-derivativerules-develop1",
+  "url": "DE6.html#DE6-activities-2",
+  "type": "Note",
+  "number": "2.6.1",
+  "title": "Notation.",
+  "body": " Notation  When a function inputs a number as its argument (also known as input), we write an expression like or .  We can extend this idea. If takes a function  as its input, we write either   "
+},
+{
+  "id": "de-deriv-chainrule-intuition1",
+  "level": "2",
+  "url": "DE6.html#de-deriv-chainrule-intuition1",
   "type": "Activity",
   "number": "2.6.1",
   "title": "",
-  "body": "  Recall the definition of the derivative of a function, . This activity will develop the constant rule .    Let be a constant function. Which of the following is the correct expression for ?                          Which of the following characterizations is true of , the derivative of a function at a point?   It represents the slope of the secant line at that point    It represents the slope of the secant line for the entire function    It represents the slope of the tangent line at that point    It represents the slope of the tangent line for the entire function       Think about the graph of . Why does your answer from part (a) make sense in light of part (b)?   "
+  "body": "  Let and .    Which of the following is a formula for ?                          One of the options above is a formula for . Which one?   "
 },
 {
-  "id": "d-activity-derivativerules-develop2",
+  "id": "de-deriv-chainrule-decomposition",
   "level": "2",
-  "url": "DE6.html#d-activity-derivativerules-develop2",
+  "url": "DE6.html#de-deriv-chainrule-decomposition",
   "type": "Activity",
   "number": "2.6.2",
   "title": "",
-  "body": "  In each task below, we define , where changes from to . This will help us develop the power rule .    Using the limit definition of the derivative, what is for the power function ?                   does not exist       Using the limit definition of the derivative, what is for the power function ? Use the fact that .                          Using the limit definition of the derivative, what is for the power function ? Use the fact that .                           Without using the limit definition of the derivative, which option below is the most reasonable guess for when ? Use parts (a)-(c) to develop a pattern.                         "
+  "body": "  Consider the composite function .    Which function is the outside function and which one is the inside function ?                          Using properties of exponents, we can rewrite the original function as . Using this new expression, what is your new inside function and your new outside function?    Consider the function . In this case, what are the inside and outside functions?   "
 },
 {
-  "id": "thm-derivative-rules-basic",
+  "id": "de-deriv-chainrule-intuition2",
   "level": "2",
-  "url": "DE6.html#thm-derivative-rules-basic",
-  "type": "Theorem",
-  "number": "2.6.1",
-  "title": "Derivative Rules, Part 1.",
-  "body": " Derivative Rules, Part 1   Let be any real number, be any real constant, and and be differentiable functions. Then,    Constant Rule: If , then      Power Rule: If , then      Sum\/Difference Rule: The derivative of a sum or difference of functions is the sum or difference of the derivatives:      Constant Multiple Rule: The derivative of a constant times a function is the constant times the derivative of the function:       "
-},
-{
-  "id": "d-activity-derivativerules-practice1",
-  "level": "2",
-  "url": "DE6.html#d-activity-derivativerules-practice1",
+  "url": "DE6.html#de-deriv-chainrule-intuition2",
   "type": "Activity",
   "number": "2.6.3",
   "title": "",
-  "body": "  Let , , and . Which of the following are true statements? For those statements that are wrong, give the correct derivative.   The derivative of is     The derivative of is     The derivative of is     The derivative of is       "
+  "body": "  In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.  My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns. Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?    The scenario gives you information regarding the rate of growth of , the squirrel population as a function of acorn availability (measured in bushels). What is the current value of ?   2    100    200    50       The scenario gives you information regarding the rate of growth of , the acorn availability as a function of time (measured in weeks). What is the current value of ?   2    100    200    50       Given all the information provided, what is your best guess for the value of , the rate at which the squirrel population is growing per week?   2    100    200    50       Given your answers above, what is the relationship between ?   "
 },
 {
-  "id": "d-activity-derivativerules-diffind",
+  "id": "thm-chainrule",
   "level": "2",
-  "url": "DE6.html#d-activity-derivativerules-diffind",
+  "url": "DE6.html#thm-chainrule",
+  "type": "Theorem",
+  "number": "2.6.2",
+  "title": "Chain Rule.",
+  "body": " Chain Rule   For the composite function ,   In Leibniz notation, if we consider the composite function , where and , then    "
+},
+{
+  "id": "de-deriv-chainrule-warning",
+  "level": "2",
+  "url": "DE6.html#de-deriv-chainrule-warning",
   "type": "Activity",
   "number": "2.6.4",
   "title": "",
-  "body": "  Let .    Which is the correct expression for ?                          Which is the correct expression for ?                         "
+  "body": "  Consider the function and . Notice that .    Which of the following is the derivative function of the composite function ?                          One of the options above is a formula for . Which one? Notice that this is not the same as the derivative of !   "
 },
 {
-  "id": "thm-derivative-rules-functions",
+  "id": "de-deriv-chainrule-practice1",
   "level": "2",
-  "url": "DE6.html#thm-derivative-rules-functions",
-  "type": "Theorem",
-  "number": "2.6.2",
-  "title": "Derivative Rules, Part 2.",
-  "body": " Derivative Rules, Part 2   The following are base functions and their derivatives.    Function  Derivative                                                                                                                                     "
-},
-{
-  "id": "d-activity-derivativerules-practice2",
-  "level": "2",
-  "url": "DE6.html#d-activity-derivativerules-practice2",
+  "url": "DE6.html#de-deriv-chainrule-practice1",
   "type": "Activity",
   "number": "2.6.5",
   "title": "",
-  "body": "  Use to answer the questions below.    The first derivative of the function is given by . What is the second derivative of ?          The derivative of is:           Which of the following statements is NOT true?  The derivative of is  The derivative of is  The derivative of is  The derivative of is .     "
+  "body": "  Consider the composite function . For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to ? Select all!                                   "
 },
 {
-  "id": "d-activity-derivativerules-practice3",
+  "id": "de-deriv-chainrule-practice2",
   "level": "2",
-  "url": "DE6.html#d-activity-derivativerules-practice3",
+  "url": "DE6.html#de-deriv-chainrule-practice2",
   "type": "Activity",
   "number": "2.6.6",
   "title": "",
-  "body": " Suppose that the temperature (in degrees Fahrenheit) of a cup of coffee, minutes after forgetting it on a bench outside, is given by the function Find and and try to interpret your result in the context of this problem.  "
+  "body": "  Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.      Which of the following values is the derivative of at ?                             The derivative does not exist at this point.      Which of the following values is the derivative of (different order!) at ?                             The derivative does not exist at this point.      "
 },
 {
-  "id": "d-activity-derivativerules-tangentlines",
+  "id": "de-deriv-chainrule-chainpower",
   "level": "2",
-  "url": "DE6.html#d-activity-derivativerules-tangentlines",
+  "url": "DE6.html#de-deriv-chainrule-chainpower",
   "type": "Activity",
   "number": "2.6.7",
   "title": "",
-  "body": "  In this activity you will use our first derivative rules to study the slope of tangent lines.    The graph of has a slope of 5 at two points. Find the coordinates of these points.    Find the equations of the two lines tangent to the parabola which pass through the origin.   Hint: You will want to think about slope in two ways: as the derivative at and the rise over the run in a linear function through the origin and the point . Use a graph to check your work and sketch the tangent lines on your graph.   "
+  "body": "  In this activity you will study the derivative of for different powers .    Consider the function . Combining power and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider , for arbitary . Find the general formula for its derivative.   "
 },
 {
-  "id": "d-activity-derivativerules-compute",
+  "id": "de-deriv-chainrule-chainexp",
   "level": "2",
-  "url": "DE6.html#d-activity-derivativerules-compute",
+  "url": "DE6.html#de-deriv-chainrule-chainexp",
   "type": "Activity",
   "number": "2.6.8",
   "title": "",
-  "body": "  Compute the following derivatives:                       "
+  "body": "  In this activity you will study the derivative of for different bases .    Consider the function . Combining exponential and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider the function for . Find the general formula for its derivative.   "
+},
+{
+  "id": "de-deriv-chainrule-practice3",
+  "level": "2",
+  "url": "DE6.html#de-deriv-chainrule-practice3",
+  "type": "Activity",
+  "number": "2.6.9",
+  "title": "",
+  "body": "  Find the derivative of the following functions.                            "
+},
+{
+  "id": "de-deriv-chainrule-practice4",
+  "level": "2",
+  "url": "DE6.html#de-deriv-chainrule-practice4",
+  "type": "Activity",
+  "number": "2.6.10",
+  "title": "",
+  "body": "  Now that we've learned the chain rule, we can tackle some derivatives using generic functions rather than specific ones.    Let . Which of the following is the correct expression for ?                          If , , and , what must be the value of ?   "
+},
+{
+  "id": "de-deriv-chainrule-practice5",
+  "level": "2",
+  "url": "DE6.html#de-deriv-chainrule-practice5",
+  "type": "Activity",
+  "number": "2.6.11",
+  "title": "",
+  "body": "  Use the table below to find the derivatives                                                                                                             if      if      if    "
 },
 {
   "id": "DE7",
@@ -1806,8 +1986,8 @@ var ptx_lunr_docs = [
   "url": "DE7.html",
   "type": "Section",
   "number": "2.7",
-  "title": "DE7: Derivative Rules",
-  "body": " DE7: Derivative Rules     DE7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Differentiation Rules    Read the \"The Product Rule\", \"The Quotient Rule\", and \"Combining Differentiation Rules\" sections      Section 3.7: Derivatives of Inverse Functions    Read all sections    It will also likely be helpful to review the section on inverses:     In-Class Activities    Let and .    Compute and      Find the product function, .    Compute     True or false:       Find the quotient function, .    Compute     True or false:       The Product Rule   Let and be differentiable functions. Then,      The Quotient Rule   Let and be differentiable functions. Then, provided .     The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.                   Use the product rule to find the derivative of the following functions.                    Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.                   Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).                     Use the quotient rule and appropriate trigonometric identities to prove the following:                         Derivative of Inverse Functions (at a Point)   Let be one-to-one and differentiable at , with inverse function and . Then, the inverse function is differentiable at and       Let . In order to find , we need to verify that we can use the formula in .    One way to check if a function is one-to-one is by taking its derivative and determining if it is always positive or always negative.    , and it is always negative     , and switches sign     , and switches sign     , and is always positive       Instead of finding the inverse function, , we can take advantage of the fact that What value (or values) makes this statement true?              and             Now we can compute . What is its value?    Now finish the formula. What is the value of ?     Suppose that is the inverse function of a differentiable function with and . Find     "
+  "title": "DE7: Implicit Differentiation",
+  "body": " DE7: Implicit Differentiation     DE7  I can use implicit differentiation to take derivatives of implicit equations.      Pre-Class Preparation  Read the following sections of the text:    Section 3.8: Implicit Differentiation    Read all sections        In-Class Activities   Many of the equations that has been discussed so far fall under the category of an explicit equation. An explicit equation is one in which the relationship between and is given explicitly, such as . In this section we will examine when the relationship between and is given implicity. An implicit equation looks like where both sides of the equation may depend on both and .     Consider a circle of radius 4, centered at the origin, given by the implicit equation     Rewrite the equation using the fact that (that is, is a function of ).    Why would we need to use the chain rule in order to take this derivative?    Take the derivative of both sides of the equation, and solve for .      For this activity we want to find the equation of a tangent line for a circle with radius 5 centered at the origin, at the point     Which expression gives the derivative with respect to for the equation of the circle?                          Solving for gives which expression?                          Plug the point into the expression found above for the derivative to get the slope of the tangent line.    Use the value for the slope of the tangent line to obtain the equation of the tangent line.      Find all points where the tangent line to the curve is horizontal.      Find for each of the following equations                     This activity will develop the derivative of .    Let . Then, . Draw a triangle representing this trigonometric expression; remember that     Which expression gives the correct implicit derivative of ?                          Use your answer in part (b) to find , the derivative of .     "
 },
 {
   "id": "DE7-2",
@@ -1816,106 +1996,61 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "2.7",
   "title": "",
-  "body": "   DE7  I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse.    "
+  "body": "   DE7  I can use implicit differentiation to take derivatives of implicit equations.    "
 },
 {
-  "id": "d-prodquotrule-idea",
+  "id": "DE7-activities-2",
   "level": "2",
-  "url": "DE7.html#d-prodquotrule-idea",
+  "url": "DE7.html#DE7-activities-2",
+  "type": "Note",
+  "number": "2.7.1",
+  "title": "",
+  "body": " Many of the equations that has been discussed so far fall under the category of an explicit equation. An explicit equation is one in which the relationship between and is given explicitly, such as . In this section we will examine when the relationship between and is given implicity. An implicit equation looks like where both sides of the equation may depend on both and .  "
+},
+{
+  "id": "de-deriv-implicit-intuition",
+  "level": "2",
+  "url": "DE7.html#de-deriv-implicit-intuition",
   "type": "Activity",
   "number": "2.7.1",
   "title": "",
-  "body": "  Let and .    Compute and      Find the product function, .    Compute     True or false:       Find the quotient function, .    Compute     True or false:     "
+  "body": "  Consider a circle of radius 4, centered at the origin, given by the implicit equation     Rewrite the equation using the fact that (that is, is a function of ).    Why would we need to use the chain rule in order to take this derivative?    Take the derivative of both sides of the equation, and solve for .   "
 },
 {
-  "id": "thm-deriv-product",
+  "id": "de-deriv-implicit-practice1",
   "level": "2",
-  "url": "DE7.html#thm-deriv-product",
-  "type": "Theorem",
-  "number": "2.7.1",
-  "title": "The Product Rule.",
-  "body": " The Product Rule   Let and be differentiable functions. Then,    "
-},
-{
-  "id": "thm-deriv-quotient",
-  "level": "2",
-  "url": "DE7.html#thm-deriv-quotient",
-  "type": "Theorem",
-  "number": "2.7.2",
-  "title": "The Quotient Rule.",
-  "body": " The Quotient Rule   Let and be differentiable functions. Then, provided .   "
-},
-{
-  "id": "d-activity-which-productrule",
-  "level": "2",
-  "url": "DE7.html#d-activity-which-productrule",
+  "url": "DE7.html#de-deriv-implicit-practice1",
   "type": "Activity",
   "number": "2.7.2",
   "title": "",
-  "body": " The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.                "
+  "body": "  For this activity we want to find the equation of a tangent line for a circle with radius 5 centered at the origin, at the point     Which expression gives the derivative with respect to for the equation of the circle?                          Solving for gives which expression?                          Plug the point into the expression found above for the derivative to get the slope of the tangent line.    Use the value for the slope of the tangent line to obtain the equation of the tangent line.   "
 },
 {
-  "id": "d-activity-fluency-productrule",
+  "id": "de-deriv-implicit-practice2",
   "level": "2",
-  "url": "DE7.html#d-activity-fluency-productrule",
+  "url": "DE7.html#de-deriv-implicit-practice2",
   "type": "Activity",
   "number": "2.7.3",
   "title": "",
-  "body": "  Use the product rule to find the derivative of the following functions.                  "
+  "body": "  Find all points where the tangent line to the curve is horizontal.   "
 },
 {
-  "id": "d-activity-which-quotientrule",
+  "id": "de-deriv-implicit-practice3",
   "level": "2",
-  "url": "DE7.html#d-activity-which-quotientrule",
+  "url": "DE7.html#de-deriv-implicit-practice3",
   "type": "Activity",
   "number": "2.7.4",
   "title": "",
-  "body": " Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.                "
+  "body": "  Find for each of the following equations                  "
 },
 {
-  "id": "d-activity-fluency-quotientrule",
+  "id": "de-activity-invsin",
   "level": "2",
-  "url": "DE7.html#d-activity-fluency-quotientrule",
+  "url": "DE7.html#de-activity-invsin",
   "type": "Activity",
   "number": "2.7.5",
   "title": "",
-  "body": "  Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).                  "
-},
-{
-  "id": "d-activity-show-trig",
-  "level": "2",
-  "url": "DE7.html#d-activity-show-trig",
-  "type": "Activity",
-  "number": "2.7.6",
-  "title": "",
-  "body": "  Use the quotient rule and appropriate trigonometric identities to prove the following:                       "
-},
-{
-  "id": "thm-deriv-inverse",
-  "level": "2",
-  "url": "DE7.html#thm-deriv-inverse",
-  "type": "Theorem",
-  "number": "2.7.3",
-  "title": "Derivative of Inverse Functions (at a Point).",
-  "body": " Derivative of Inverse Functions (at a Point)   Let be one-to-one and differentiable at , with inverse function and . Then, the inverse function is differentiable at and    "
-},
-{
-  "id": "d-activity-fluency-inv-deriv-1",
-  "level": "2",
-  "url": "DE7.html#d-activity-fluency-inv-deriv-1",
-  "type": "Activity",
-  "number": "2.7.7",
-  "title": "",
-  "body": "  Let . In order to find , we need to verify that we can use the formula in .    One way to check if a function is one-to-one is by taking its derivative and determining if it is always positive or always negative.    , and it is always negative     , and switches sign     , and switches sign     , and is always positive       Instead of finding the inverse function, , we can take advantage of the fact that What value (or values) makes this statement true?              and             Now we can compute . What is its value?    Now finish the formula. What is the value of ?   "
-},
-{
-  "id": "d-activity-fluency-inv-deriv-2",
-  "level": "2",
-  "url": "DE7.html#d-activity-fluency-inv-deriv-2",
-  "type": "Activity",
-  "number": "2.7.8",
-  "title": "",
-  "body": " Suppose that is the inverse function of a differentiable function with and . Find   "
+  "body": "  This activity will develop the derivative of .    Let . Then, . Draw a triangle representing this trigonometric expression; remember that     Which expression gives the correct implicit derivative of ?                          Use your answer in part (b) to find , the derivative of .   "
 },
 {
   "id": "DE8",
@@ -1923,8 +2058,8 @@ var ptx_lunr_docs = [
   "url": "DE8.html",
   "type": "Section",
   "number": "2.8",
-  "title": "DE8: Chain Rule",
-  "body": " DE8: Chain Rule     DE8  I can compute derivatives using the chain rule by itself and with other rules.      Pre-Class Preparation  Read the following sections of the text:    Section 3.6: The Chain Rule    Read all sections     Read the material about function composition in        In-Class Activities   Notation  When a function inputs a number as its argument (also known as input), we write an expression like or .  We can extend this idea. If takes a function  as its input, we write either      Let and .    Which of the following is a formula for ?                          One of the options above is a formula for . Which one?      Consider the composite function .    Which function is the outside function and which one is the inside function ?                          Using properties of exponents, we can rewrite the original function as . Using this new expression, what is your new inside function and your new outside function?    Consider the function . In this case, what are the inside and outside functions?      In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.  My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns. Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?    The scenario gives you information regarding the rate of growth of , the squirrel population as a function of acorn availability (measured in bushels). What is the current value of ?   2    100    200    50       The scenario gives you information regarding the rate of growth of , the acorn availability as a function of time (measured in weeks). What is the current value of ?   2    100    200    50       Given all the information provided, what is your best guess for the value of , the rate at which the squirrel population is growing per week?   2    100    200    50       Given your answers above, what is the relationship between ?     Chain Rule   For the composite function ,   In Leibniz notation, if we consider the composite function , where and , then       Consider the function and . Notice that .    Which of the following is the derivative function of the composite function ?                          One of the options above is a formula for . Which one? Notice that this is not the same as the derivative of !      Consider the composite function . For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to ? Select all!                                      Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.      Which of the following values is the derivative of at ?                             The derivative does not exist at this point.      Which of the following values is the derivative of (different order!) at ?                             The derivative does not exist at this point.         In this activity you will study the derivative of for different powers .    Consider the function . Combining power and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider , for arbitary . Find the general formula for its derivative.      In this activity you will study the derivative of for different bases .    Consider the function . Combining exponential and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider the function for . Find the general formula for its derivative.      Find the derivative of the following functions.                               Now that we've learned the chain rule, we can tackle some derivatives using generic functions rather than specific ones.    Let . Which of the following is the correct expression for ?                          If , , and , what must be the value of ?      Use the table below to find the derivatives                                                                                                             if      if      if      if      "
+  "title": "DE8: Calculus of Inverse Functions",
+  "body": " DE8: Calculus of Inverse Functions     DE8  I can compute the derivatives of inverse trigonometric functions and compute the derivative of the inverse of a one-to-one function.      Pre-Class Preparation  Read the following sections of the text:    Section 3.7: Derivatives of Inverse Functions    Read all sections     It will also likely be helpful to review the section on inverses:        In-Class Activities   Derivative of Inverse Functions (at a Point)   Let be one-to-one and differentiable at , with inverse function and . Then, the inverse function is differentiable at and       Let . In order to find , we need to verify that we can use the formula in .    One way to check if a function is one-to-one is by taking its derivative and determining if it is always positive or always negative.    , and it is always negative     , and switches sign     , and switches sign     , and is always positive       Instead of finding the inverse function, , we can take advantage of the fact that What value (or values) makes this statement true?              and             Now we can compute . What is its value?    Now finish the formula. What is the value of ?     Suppose that is the inverse function of a differentiable function with and . Find     Derivative Rules, Part 3   The following are derivatives of the six inverse trigonometric functions.    Function  Derivative                                Which of the following represents the derivative of the function ?                           "
 },
 {
   "id": "DE8-2",
@@ -1933,187 +2068,52 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "2.8",
   "title": "",
-  "body": "   DE8  I can compute derivatives using the chain rule by itself and with other rules.    "
+  "body": "   DE8  I can compute the derivatives of inverse trigonometric functions and compute the derivative of the inverse of a one-to-one function.    "
 },
 {
-  "id": "DE8-activities-2",
+  "id": "thm-deriv-inverse",
   "level": "2",
-  "url": "DE8.html#DE8-activities-2",
-  "type": "Note",
+  "url": "DE8.html#thm-deriv-inverse",
+  "type": "Theorem",
   "number": "2.8.1",
-  "title": "Notation.",
-  "body": " Notation  When a function inputs a number as its argument (also known as input), we write an expression like or .  We can extend this idea. If takes a function  as its input, we write either   "
+  "title": "Derivative of Inverse Functions (at a Point).",
+  "body": " Derivative of Inverse Functions (at a Point)   Let be one-to-one and differentiable at , with inverse function and . Then, the inverse function is differentiable at and    "
 },
 {
-  "id": "d-deriv-chainrule-intuition1",
+  "id": "de-activity-fluency-inv-deriv-1",
   "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-intuition1",
+  "url": "DE8.html#de-activity-fluency-inv-deriv-1",
   "type": "Activity",
   "number": "2.8.1",
   "title": "",
-  "body": "  Let and .    Which of the following is a formula for ?                          One of the options above is a formula for . Which one?   "
+  "body": "  Let . In order to find , we need to verify that we can use the formula in .    One way to check if a function is one-to-one is by taking its derivative and determining if it is always positive or always negative.    , and it is always negative     , and switches sign     , and switches sign     , and is always positive       Instead of finding the inverse function, , we can take advantage of the fact that What value (or values) makes this statement true?              and             Now we can compute . What is its value?    Now finish the formula. What is the value of ?   "
 },
 {
-  "id": "d-deriv-chainrule-decomposition",
+  "id": "de-activity-fluency-inv-deriv-2",
   "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-decomposition",
+  "url": "DE8.html#de-activity-fluency-inv-deriv-2",
   "type": "Activity",
   "number": "2.8.2",
   "title": "",
-  "body": "  Consider the composite function .    Which function is the outside function and which one is the inside function ?                          Using properties of exponents, we can rewrite the original function as . Using this new expression, what is your new inside function and your new outside function?    Consider the function . In this case, what are the inside and outside functions?   "
+  "body": " Suppose that is the inverse function of a differentiable function with and . Find   "
 },
 {
-  "id": "d-deriv-chainrule-intuition2",
+  "id": "thm-deriv-rules-3",
   "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-intuition2",
+  "url": "DE8.html#thm-deriv-rules-3",
+  "type": "Theorem",
+  "number": "2.8.2",
+  "title": "Derivative Rules, Part 3.",
+  "body": " Derivative Rules, Part 3   The following are derivatives of the six inverse trigonometric functions.    Function  Derivative                             "
+},
+{
+  "id": "de-activity-invtrig1",
+  "level": "2",
+  "url": "DE8.html#de-activity-invtrig1",
   "type": "Activity",
   "number": "2.8.3",
   "title": "",
-  "body": "  In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.  My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns. Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?    The scenario gives you information regarding the rate of growth of , the squirrel population as a function of acorn availability (measured in bushels). What is the current value of ?   2    100    200    50       The scenario gives you information regarding the rate of growth of , the acorn availability as a function of time (measured in weeks). What is the current value of ?   2    100    200    50       Given all the information provided, what is your best guess for the value of , the rate at which the squirrel population is growing per week?   2    100    200    50       Given your answers above, what is the relationship between ?   "
-},
-{
-  "id": "thm-chainrule",
-  "level": "2",
-  "url": "DE8.html#thm-chainrule",
-  "type": "Theorem",
-  "number": "2.8.2",
-  "title": "Chain Rule.",
-  "body": " Chain Rule   For the composite function ,   In Leibniz notation, if we consider the composite function , where and , then    "
-},
-{
-  "id": "d-deriv-chainrule-warning",
-  "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-warning",
-  "type": "Activity",
-  "number": "2.8.4",
-  "title": "",
-  "body": "  Consider the function and . Notice that .    Which of the following is the derivative function of the composite function ?                          One of the options above is a formula for . Which one? Notice that this is not the same as the derivative of !   "
-},
-{
-  "id": "d-deriv-chainrule-practice1",
-  "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-practice1",
-  "type": "Activity",
-  "number": "2.8.5",
-  "title": "",
-  "body": "  Consider the composite function . For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to ? Select all!                                   "
-},
-{
-  "id": "d-deriv-chainrule-practice2",
-  "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-practice2",
-  "type": "Activity",
-  "number": "2.8.6",
-  "title": "",
-  "body": "  Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.      Which of the following values is the derivative of at ?                             The derivative does not exist at this point.      Which of the following values is the derivative of (different order!) at ?                             The derivative does not exist at this point.      "
-},
-{
-  "id": "d-deriv-chainrule-chainpower",
-  "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-chainpower",
-  "type": "Activity",
-  "number": "2.8.7",
-  "title": "",
-  "body": "  In this activity you will study the derivative of for different powers .    Consider the function . Combining power and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider , for arbitary . Find the general formula for its derivative.   "
-},
-{
-  "id": "d-deriv-chainrule-chainexp",
-  "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-chainexp",
-  "type": "Activity",
-  "number": "2.8.8",
-  "title": "",
-  "body": "  In this activity you will study the derivative of for different bases .    Consider the function . Combining exponential and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider the function for . Find the general formula for its derivative.   "
-},
-{
-  "id": "d-deriv-chainrule-practice3",
-  "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-practice3",
-  "type": "Activity",
-  "number": "2.8.9",
-  "title": "",
-  "body": "  Find the derivative of the following functions.                            "
-},
-{
-  "id": "d-deriv-chainrule-practice4",
-  "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-practice4",
-  "type": "Activity",
-  "number": "2.8.10",
-  "title": "",
-  "body": "  Now that we've learned the chain rule, we can tackle some derivatives using generic functions rather than specific ones.    Let . Which of the following is the correct expression for ?                          If , , and , what must be the value of ?   "
-},
-{
-  "id": "d-deriv-chainrule-practice5",
-  "level": "2",
-  "url": "DE8.html#d-deriv-chainrule-practice5",
-  "type": "Activity",
-  "number": "2.8.11",
-  "title": "",
-  "body": "  Use the table below to find the derivatives                                                                                                             if      if      if      if    "
-},
-{
-  "id": "DE9",
-  "level": "1",
-  "url": "DE9.html",
-  "type": "Section",
-  "number": "2.9",
-  "title": "DE9: Implicit Differentiation",
-  "body": " DE9: Implicit Differentiation     DE9  I can use implicit differentiation to find the derivative of an equation.      Pre-Class Preparation  Read the following sections of the text:    Section 3.8: Implicit Differentiation    Read all sections        In-Class Activities  Many of the equations that has been discussed so far fall under the category of an explicit equation. An explicit equation is one in which the relationship between and is given explicitly, such as . In this section we will examine when the relationship between and is given implicity. An implicit equation looks like where both sides of the equation may depend on both and .     Consider a circle of radius 4, centered at the origin, given by the implicit equation     Rewrite the equation using the fact that (that is, is a function of ).    Why would we need to use the chain rule in order to take this derivative?    Take the derivative of both sides of the equation, and solve for .      For this activity we want to find the equation of a tangent line for a circle with radius 5 centered at the origin, at the point     Which expression gives the derivative with respect to for the equation of the circle?                          Solving for gives which expression?                          Plug the point into the expression found above for the derivative to get the slope of the tangent line.    Use the value for the slope of the tangent line to obtain the equation of the tangent line.      Find all points where the tangent line to the curve is horizontal.      Find for each of the following equations                   "
-},
-{
-  "id": "DE9-2",
-  "level": "2",
-  "url": "DE9.html#DE9-2",
-  "type": "Objectives",
-  "number": "2.9",
-  "title": "",
-  "body": "   DE9  I can use implicit differentiation to find the derivative of an equation.    "
-},
-{
-  "id": "DE9-activities-2",
-  "level": "2",
-  "url": "DE9.html#DE9-activities-2",
-  "type": "Note",
-  "number": "2.9.1",
-  "title": "",
-  "body": "Many of the equations that has been discussed so far fall under the category of an explicit equation. An explicit equation is one in which the relationship between and is given explicitly, such as . In this section we will examine when the relationship between and is given implicity. An implicit equation looks like where both sides of the equation may depend on both and . "
-},
-{
-  "id": "d-deriv-implicit-intuition",
-  "level": "2",
-  "url": "DE9.html#d-deriv-implicit-intuition",
-  "type": "Activity",
-  "number": "2.9.1",
-  "title": "",
-  "body": "  Consider a circle of radius 4, centered at the origin, given by the implicit equation     Rewrite the equation using the fact that (that is, is a function of ).    Why would we need to use the chain rule in order to take this derivative?    Take the derivative of both sides of the equation, and solve for .   "
-},
-{
-  "id": "d-deriv-implicit-practice1",
-  "level": "2",
-  "url": "DE9.html#d-deriv-implicit-practice1",
-  "type": "Activity",
-  "number": "2.9.2",
-  "title": "",
-  "body": "  For this activity we want to find the equation of a tangent line for a circle with radius 5 centered at the origin, at the point     Which expression gives the derivative with respect to for the equation of the circle?                          Solving for gives which expression?                          Plug the point into the expression found above for the derivative to get the slope of the tangent line.    Use the value for the slope of the tangent line to obtain the equation of the tangent line.   "
-},
-{
-  "id": "d-deriv-implicit-practice2",
-  "level": "2",
-  "url": "DE9.html#d-deriv-implicit-practice2",
-  "type": "Activity",
-  "number": "2.9.3",
-  "title": "",
-  "body": "  Find all points where the tangent line to the curve is horizontal.   "
-},
-{
-  "id": "d-deriv-implicit-practice3",
-  "level": "2",
-  "url": "DE9.html#d-deriv-implicit-practice3",
-  "type": "Activity",
-  "number": "2.9.4",
-  "title": "",
-  "body": "  Find for each of the following equations                  "
+  "body": "  Which of the following represents the derivative of the function ?                         "
 },
 {
   "id": "A1",
