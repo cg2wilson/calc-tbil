@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="DE7" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>DE7: Derivative Rules</title>
+    <title>DE7: Implicit Differentiation</title>
     <objectives>
         <dl>
             <li>
                 <title>DE7</title>
                 <p>
-                    I can compute derivatives using one or more of the following rules or techniques: product, quotient, inverse. 
+                    I can use implicit differentiation to take derivatives of implicit equations.
                 </p>
             </li>
         </dl>
@@ -18,292 +18,78 @@
     <subsection xml:id="DE7-activities">
         <title>In-Class Activities</title>
         
-        <activity xml:id="d-prodquotrule-idea">
-            <introduction>
-                <p>
-                    Let <m>f(t) = 8t^5 -6\sqrt{t}</m> and <m>g(t) = 2t</m>.
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Compute <m>f'(t)</m> and <m>g'(t)</m>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <task>
-                        <statement>
-                            <p>
-                                Find the product function, <m>P(t) = f(t)\cdot g(t)</m>.
-                            </p>
-                        </statement>
-                    </task>
-                    <task>
-                        <statement>
-                            <p>
-                                Compute <m>P'(t)</m>
-                            </p>
-                        </statement>
-                    </task>
-                    <task>
-                        <statement>
-                            <p>
-                                True or false: <m>P'(t) = f'(t)\cdot g'(t)</m>
-                            </p>
-                        </statement>
-                    </task>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <task>
-                        <statement>
-                            <p>
-                                Find the quotient function, <m>Q(t) = \dfrac{f(t)}{g(t)}</m>.
-                            </p>
-                        </statement>
-                    </task>
-                    <task>
-                        <statement>
-                            <p>
-                                Compute <m>Q'(t)</m>
-                            </p>
-                        </statement>
-                    </task>
-                    <task>
-                        <statement>
-                            <p>
-                                True or false: <m>Q'(t) = \dfrac{f'(t)}{g'(t)}</m>
-                            </p>
-                        </statement>
-                    </task>
-                </statement>
-            </task>
-        </activity>
-
-        <theorem xml:id="thm-deriv-product">
-            <title>The Product Rule</title>
-            <statement>
-                <p>
-                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions. Then,
-                    <me>
-                        \dfrac{d}{dx}[f(x)\cdot g(x)] = f'(x)g(x) + f(x)g'(x)
-                    </me>
-                </p>
-            </statement>
-        </theorem>
-
-        <theorem xml:id="thm-deriv-quotient">
-            <title>The Quotient Rule</title>
-            <statement>
-                <p>
-                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions. Then,
-                    <me>
-                        \dfrac{d}{dx}\left[\dfrac{f(x)}{g(x)}\right] = \dfrac{f'(x)g(x) - f(x)g'(x)}{(g(x))^2}
-                    </me>
-                    provided <m>g(x)\neq 0</m>.
-                </p>
-            </statement>
-        </theorem>
-
-        <activity xml:id="d-activity-which-productrule">
+        <note>
             <p>
-                The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.
-                <ol marker="A." cols="2">
-                    <li>
-                        <m>f(x)=e^x \sin(x)</m>
-                    </li>
-                    <li>
-                        <m>f(x)=\sqrt{x}(x^3+3x-3)</m>
-                    </li>
-                    <li>
-                        <m>f(x)=(4)(x^5)</m>
-                    </li>
-                    <li>
-                        <m>f(x)=x \ln(x)</m>
-                    </li>
-                </ol>
+                Many of the equations that has been discussed so far fall under the category of an explicit equation.  An explicit equation is one in which the relationship between <m>x</m> and <m>y</m> is given explicitly, such as <m>y = f(x)</m>.  In this section we will examine when the relationship between <m>x</m> and <m>y</m> is given implicity. An implicit equation looks like <m>f(x,y) = g(x,y)</m> where both sides of the equation may depend on both <m>x</m> and <m>y</m>.
             </p>
-        </activity>
+        </note>
 
-        <activity xml:id="d-activity-fluency-productrule">
+        <activity xml:id="de-deriv-implicit-intuition">
             <introduction>
                 <p>
-                    Use the product rule to find the derivative of the following functions.
+                    Consider a circle of radius 4, centered at the origin, given by the implicit equation <m>x^2 + y^2 = 16</m>
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        <m>
-                            f(x)=(x^2+3x)\tan(x)
-                        </m>
+                        Rewrite the equation using the fact that <m>y = y(x)</m> (that is, <m>y</m> is a function of <m>x</m>).
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        <m>
-                            f(x)=2^x \cos(x)
-                        </m> 
+                        Why would we need to use the chain rule in order to take this derivative?
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        <m>
-                            f(x) = x^2\inv{\sin}(x)
-                        </m>
+                        Take the derivative of both sides of the equation, and solve for <m>y'(x)</m>.
                     </p>
                 </statement>
             </task>
-            
         </activity>
 
-        <activity xml:id="d-activity-which-quotientrule">
-            <p>
-                Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.
-                <ol marker="A." cols="2">
-                    <li>
-                        <m>f(x) = \dfrac{6}{x^3}</m>
-                    </li>
-                    <li>
-                        <m>f(x) = \dfrac{-5}{\ln(x)}</m>
-                    </li>
-                    <li>
-                        <m>f(x) = \dfrac{e^x}{\csc(x)}</m>
-                    </li>
-                    <li>
-                        <m>f(x) = \dfrac{x^3+3x}{x}</m>
-                    </li>
-                </ol>
-            </p>
-        </activity>
-
-        <activity xml:id="d-activity-fluency-quotientrule">
+        <activity xml:id="de-deriv-implicit-practice1">
             <introduction>
                 <p>
-                    Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).
+                    For this activity we want to find the equation of a tangent line for a circle with radius 5 centered at the origin, <m>x^2+y^2 = 25,</m> at the point <m>(-3,-4).</m>
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        <m>
-                            f(x) = \dfrac{\inv{\tan}(x)}{x^3}
-                        </m>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        <m>
-                            g(x) = \dfrac{x^2 + x^{5/3}}{x^4}
-                        </m>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        <m>
-                            h(x) = \dfrac{5e^x - \cos(x)}{x}
-                        </m>
-                    </p>
-                </statement>
-            </task>
-        </activity>
-        
-        <activity xml:id="d-activity-show-trig">
-            <introduction>
-                <p>
-                    Use the quotient rule and appropriate trigonometric identities to prove the following:
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        <m>
-                            \dfrac{d}{dx}[\tan(x)] = \sec^2(x)
-                        </m>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        <m>
-                            \dfrac{d}{dx}[\cot(x)] = -\csc^2(x)
-                        </m>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        <m>
-                            \dfrac{d}{dx}[\sec(x)] = \sec(x)\tan(x)
-                        </m>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        <m>
-                            \dfrac{d}{dx}[\csc(x)] = -\csc(x)\cot(x)
-                        </m>
-                    </p>
-                </statement>
-            </task>
-        </activity>
-        
-        <theorem xml:id="thm-deriv-inverse">
-            <title>Derivative of Inverse Functions (at a Point)</title>
-            <statement>
-                <p>
-                    Let <m>f</m> be one-to-one and differentiable at <m>x=a</m>, with inverse function <m>\inv{f}</m> and <m>f'(\inv{f}(a)) \neq 0</m>. Then, the inverse function is differentiable at <m>x=a</m> and 
-                    <me>
-                        (\inv{f})'(a) = \dfrac{1}{f'(\inv{f}(a))}
-                    </me>
-                </p>
-            </statement>
-        </theorem>
-
-        <activity xml:id="d-activity-fluency-inv-deriv-1">
-            <introduction>
-                <p>
-                    Let <m>f(x) = 3x - \sin(x)</m>. In order to find <m>(\inv{f})'(0)</m>, we need to verify that we can use the formula in <xref ref="thm-deriv-inverse"/>.
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        One way to check if a function is one-to-one is by taking its derivative and determining if it is always positive or always negative. 
+                        Which expression gives the derivative with respect to <m>x</m> for the equation of the circle?
                         <ol marker="A." cols="2">
                             <li>
                                 <p>
-                                    <m>f'(x) = 3 + \cos(x)</m>, and it is always negative
+                                    <m>
+                                        2x + 2y\dfrac{dy}{dx} = 25
+                                    </m>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <m>f'(x) = 3x -\cos(x)</m>, and switches sign
+                                    <m>
+                                        x + y\dfrac{dy}{dx} = 0
+                                    </m>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <m>f'(x) = 3 -\cos(x)</m>, and switches sign
+                                    <m>
+                                        2x + 2y\dfrac{dy}{dx} = 0
+                                    </m>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <m>f'(x) = 3-\cos(x)</m>, and is always positive
+                                    <m>
+                                        2x + 2\dfrac{dy}{dx} = 25
+                                    </m>
                                 </p>
                             </li>
                         </ol>
@@ -313,30 +99,34 @@
             <task>
                 <statement>
                     <p>
-                        Instead of finding the inverse function, <m>\inv{f}(0)</m>, we can take advantage of the fact that
-                        <me>
-                            \inv{f}(0) = x \iff f(x) = 0
-                        </me>
-                        What value (or values) makes this statement true?
+                        Solving for <m>\dfrac{dy}{dx}</m> gives which expression?
                         <ol marker="A." cols="2">
                             <li>
                                 <p>
-                                    <m>x = 0</m>
+                                    <m>
+                                        \dfrac{dy}{dx} = \dfrac{25-2x}{2y}
+                                    </m>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <m>x = \pi</m>
+                                    <m>
+                                        \dfrac{dy}{dx} = -\dfrac{2x}{y}
+                                    </m>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <m>x = 0</m> and <m>x = \pi</m>
+                                    <m>
+                                        \dfrac{dy}{dx} = -\dfrac{x}{y}
+                                    </m>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <m>x = \dfrac{\pi}{2}</m>
+                                    <m>
+                                        \dfrac{dy}{dx} = \dfrac{25-2x}{2}
+                                    </m>
                                 </p>
                             </li>
                         </ol>
@@ -346,23 +136,105 @@
             <task>
                 <statement>
                     <p>
-                        Now we can compute <m>f'(\inv{f}(0))</m>. What is its value?
+                        Plug the point <m>(-3,-4)</m> into the expression found above for the derivative to get the slope of the tangent line.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Now finish the formula. What is the value of <m>(\inv{f})'(0)</m>?
+                        Use the value for the slope of the tangent line to obtain the equation of the tangent line.
                     </p>
                 </statement>
             </task>
         </activity>
 
-        <activity xml:id="d-activity-fluency-inv-deriv-2">
-            <p>
-                Suppose that <m>\inv{f}</m> is the inverse function of a differentiable function <m>f</m> with <m>f(4) = 5</m> and <m>f'(4) = \dfrac{2}{3}</m>. Find <m>(\inv{f})'(5)</m>
-            </p>
+        <activity xml:id="de-deriv-implicit-practice2">
+            <introduction>
+                <p>           
+                    Find all points where the tangent line to the curve <m>x^4+y^4 = 16</m> is horizontal.
+                </p>
+            </introduction>
+        </activity>
+
+        <activity xml:id="de-deriv-implicit-practice3">
+            <introduction>
+                <p>
+                    Find <m>\dfrac{dy}{dx}</m> for each of the following equations
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\sin(x-y) = y^2\cos(x)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\dfrac{x^2}{x+y}=y^2+1</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>e^{x/y} = x + y</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <activity xml:id="de-activity-invsin">
+            <introduction>
+                <p>
+                    This activity will develop the derivative of <m>f(x) = \inv{\sin}(x)</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Let <m>y=\inv{\sin}(x)</m>. Then, <m>x = \sin(y)</m>. Draw a triangle representing this trigonometric expression; remember that <m>\sin\theta = \dfrac{\text{opposite}}{\text{hypotenuse}}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which expression gives the correct implicit derivative of <m>x = \sin(y)</m>?
+                        <ol marker="A." cols="2"> 
+                            <li>
+                                <p>
+                                    <m>0 = \sin(y)\dfrac{dy}{dx}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>1 = \cos(y)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>1 = \cos(y)\dfrac{dy}{dx} </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>0 = \sin(y) </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use your answer in part (b) to find <m>\dfrac{dy}{dx}</m>, the derivative of <m>y = \inv{\sin}(x)</m>.
+                    </p>
+                </statement>
+            </task>
         </activity>
         
     </subsection>

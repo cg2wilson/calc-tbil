@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="DE3" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>DE3: Interpreting the Derivative</title>
+    <title>DE3: Slope Graphs &amp; Differentiability</title>
     <objectives>
         <dl>
             <li>
                 <title>DE3</title>
                 <p>
-                    I can interpret the meaning of a derivative in context (with appropriate units).
+                    I can sketch the derivative graph of a function and determine where it is differentiable (and classify the non-differentiability type) using numerical, algebraic, or graphical representations.
                 </p>
             </li>
         </dl>
@@ -18,93 +18,42 @@
     <subsection xml:id="DE3-activities">
         <title>In-Class Activities</title>
 
-        <activity xml:id="d-activity-derivative-units1">
+        <activity xml:id="de-activity-sketch-1">
             <introduction>
                 <p>
-                    Recall the definition of the derivative, given in <xref ref="def-derivative-function"/>. Consider the generic function <m>y = f(x)</m> for the tasks below.
+                    Let <m>f(x) = 2x-x^2</m>.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        Which of the following best describes the numerator, <m>f(x+h) - f(x)</m>?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    The value of the output of <m>f(x)</m> at the point <m>(x,f(x+h))</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The value of the change in the inputs of <m>f(x)</m> between the points <m>(x,f(x))</m> and <m>(x+h,f(x+h))</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The value of the change in the outputs of <m>f(x)</m> between the points <m>(x,f(x))</m> and <m>(x+h,f(x+h))</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The value of the input of of <m>f(x)</m> at the point <m>(x+h,f(x))</m>
-                                </p>
-                            </li>
-                        </ol>
+                        Compute <m>f'(x)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Which of the following best describes the denominator, <m>h</m>?
+                        Use the <c>Calc</c> tool at the top of the page to graph <m>f(x)</m> and <m>f'(x)</m>. Which relationship(s) do you observe to be true?
                         <ol marker="A." cols="2">
                             <li>
                                 <p>
-                                    The value of the output of <m>f(x)</m> at the point <m>(x,f(x+h))</m>
+                                    When the function is increasing, the derivative graph is positive
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    The value of the change in the inputs of <m>f(x)</m> between the points <m>(x,f(x))</m> and <m>(x+h,f(x+h))</m>
+                                    When the function is decreasing, the derivative graph is negative
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    The value of the change in the outputs of <m>f(x)</m> between the points <m>(x,f(x))</m> and <m>(x+h,f(x+h))</m>
+                                    When the function is not changing, the derivative graph is zero
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    The value of the input of of <m>f(x)</m> at the point <m>(x+h,f(x))</m>
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        If <m>f(x)</m> inputs time (in hours) and outputs distance (in miles), which of the following best describes the average rate of change expression <m>\dfrac{f(x+h)-f(x)}{h}</m>?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    The distance traveled in miles between the inputs <m>x</m> and <m>x+h</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The time between the inputs <m>x</m> and <m>x+h</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The ratio of the change in the output of <m>f(x)</m> to the change in the input of <m>f(x)</m> on the interval <m>[x,x+h]</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The ratio of the change in the input of <m>f(x)</m> to the change in the output of <m>f(x)</m> on the interval <m>[f(x),f(x+h)]</m>
+                                    There is no connection between the graph of <m>f(x)</m> and <m>f'(x)</m>
                                 </p>
                             </li>
                         </ol>
@@ -113,305 +62,415 @@
             </task>
         </activity>
 
-        <activity xml:id="d-activity-derivative-units2">
-            <introduction>
-                <p>
-                    The function <m>y = f(x) = 3x^3 + 1</m> gives the distance (in feet) an experimental vehicle has gone, <m>x</m> seconds after starting its motion.
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                       Compute the derivative, <m>\dfrac{dy}{dx}</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What are the units for <m>\dfrac{dy}{dx}</m>?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    feet per second
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    feet per seconds
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    seconds per foot
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    second per feet
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        The units suggest that the first derivative of <m>f(x)</m> is better known as which of the following?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    Acceleration
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Distance
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Velocity
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Nothing special
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Compute the second derivative of <m>f(x)</m>, <m>\dfrac{d^2y}{dx^2}</m>. What are the appropriate units here? Refer back to <xref ref="d-activity-derivative-units1"/> if you need.
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    feet per second per foot
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    feet per second per second
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    feet per second
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    feet per feet per second
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        The units suggest that the second derivative of <m>f(x)</m> is better known as which of the following?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    Acceleration
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Distance
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Velocity
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Nothing special
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-        </activity>
-
-        <activity xml:id="d-activity-derivative-incdec">
-            <introduction>
-                <p>
-                    Recall that the derivative at an input <m>x=a</m> gives the slope of the tangent line to <m>f(x)</m> at <m>x=a</m>.
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Assume that for some function <m>f(x)</m>, <m>f'(a) \gt 0</m>. What does this mean about the function, <m>f(x)</m>, at <m>x=a</m>?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    The function must be going up (increasing)
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The function must be going down (decreasing)
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The function must not be changing (constant)
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    We do not have enough information to talk about <m>f(x)</m>
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Now assume that <m>f'(a) \lt 0</m>. What does this mean about the function at <m>x=a</m>?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    The function must be going up (increasing)
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The function must be going down (decreasing)
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The function must not be changing (constant)
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    We do not have enough information to talk about <m>f(x)</m>
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-        </activity>
-
-        <activity xml:id="d-activity-derivative-incdec-app">
-            <introduction>
-                <p>
-                    Suppose that <m>P(t)</m> gives the profit of a multinational corporation (in billion dollars), <m>t</m> years after development of a new product. 
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Write the units for the first derivative, <m>P'(t)</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Write the units for the second derivative, <m>P''(t)</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Suppose that it is known <m>P'(2) = 3</m>. Which description is most accurate?
-                        <ol marker="A.">
-                            <li>
-                                <p>
-                                    Three years after the product was developed, the profit was increasing by two billion dollars per year
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Two years after the product was developed, the profit was increasing by three billion dollars per year
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Three years after the product was developed, the profit was increasing by two billion dollars
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Two years after the product was developed, the profit was decreasing by three billion dollars per year
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Which statement best translates the statement <q>Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year</q>?
-                        <ol marker="A.">
-                            <li>
-                                <p>
-                                    <m>P(0) = 1.2</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>P'(1.2) = 0</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>P''(0) = 1.2</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>P'(0) = 1.2</m>
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-        </activity>
-
-        <remark>
+        <activity xml:id="de-activity-sketch-2">
             <p>
-                When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change <em>is happening at this moment in time</em>, as opposed to an averate rate of change, which occurs <em>over a period of time</em>.
+                Use the graph given below to sketch the graph of the derivative.
             </p>
-        </remark>
-        <activity>
+            <figure xml:id="de-sketch-derivative-1-img">
+                <caption>The graph of a function</caption>
+                <image>
+                    <latex-image>
+                        <xi:include href="./tikz/d4-graph-1.tex" parse="text"/>
+                    </latex-image>
+                </image>
+            </figure>
+        </activity>
+
+        <activity xml:id="de-activity-sketch-3">
+            <p>
+                Match each graph below with the graph of its derivative.
+            </p>
+            <sidebyside widths = "30% 30% 30%">
+                <figure xml:id="de-sketch-derivative-2-img1">
+                    <caption>Graph A</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph1.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+                
+                <figure xml:id="de-sketch-derivative-2-img2">
+                    <caption>Graph B</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph2.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+                
+                <figure xml:id="de-sketch-derivative-2-img3">
+                    <caption>Graph C</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph3.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+                
+            </sidebyside>
+            <sidebyside widths = "30% 30% 30%">
+                <figure xml:id="de-sketch-derivative-2-img4">
+                    <caption>Graph I</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph4.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+                <figure xml:id="de-sketch-derivative-2-img5">
+                    <caption>Graph II</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph5.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+                <figure xml:id="de-sketch-derivative-2-img6">
+                    <caption>Graph III</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-choose-graph6.tex" parse="text"/>
+                        </latex-image>
+                    </image>
+                </figure>
+            </sidebyside>
+        </activity>
+
+        <activity xml:id="de-activity-sketch-pos-vel-acc">
             <introduction>
                 <p>
-                    Suppose that <m>S(t)</m> gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, <m>t</m> minutes after leaving the International Space Station (ISS), and that <m>E(t)</m> gives the amount of fuel (in pounds) consumed by the capsule <m>t</m> minutes after leaving its launchpad.
+                    The image below shows the graphs of a position function (<m>s(t)</m>), a velocity function (<m>v(t) = s'(t)</m>), and an acceleration function (<m>a(t) = v'(t) = s''(t)</m>). 
                 </p>
+                <figure xml:id="de-sketch-derivative-3-img7">
+                    <caption>Three graphs: Position, velocity, acceleration</caption>
+                    <image>
+                        <latex-image>
+                            <xi:include href="./tikz/d4-graph-2.tex" parse="text" />
+                        </latex-image>                        
+                    </image>
+                </figure>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        Data collected suggests that, when returning to Earth from the ISS, <m>S'(0)</m> was positive but smaller than <m>S'(15)</m>, when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?
+                        Which order represents the position function, the velocity function, and the acceleration function?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Red, Blue, Black
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Blue, Red, Black
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Blue, Black, Red
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Red, Black, Blue
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Black, Red, Blue
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Black, Blue, Red
+                                </p>
+                            </li>
+                        </ol>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Which would you expect to be larger: <m>E'(0)</m> or <m>S'(0)</m>? Why?
+                        Try to sketch the fourth derivative of position (called <em>jerk</em>) based on your answer above
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="de-activity-differentiability1">
+            <introduction>
+                <p>
+                    Consider the function <m>f(x) = \dfrac{x^2+11x+30}{|x+6|}</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Remember that <m>|x| = \begin{cases} -x &amp; x\lt 0 \\ x &amp; x\geq 0\end{cases}</m>. Use this fact to compute <m>\ds \lim_{x\to 6^+} f(x)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now compute <m>\ds \lim_{x\to 6^-} f(x)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        True or false: <m>\ds \lim_{x\to 6} f(x) </m> exists. Be prepared to defend your answer with a reason <em>why</em> if it exists, and <em>why not</em> if it doesn't.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    True
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    False
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="de-activity-differentiability-left-right">
+            <introduction>
+                <p>
+                    Now consider the function <m>g(x) = |x|</m>. Define the <em>left-hand derivative</em> to be the expression
+                    <me>
+                        g'_- (x) = \lim_{h\to 0^-} \dfrac{g(x+h) - g(x)}{h}
+                    </me>
+                    and the <em>right-hand derivative</em> to be the expression
+                    <me>
+                        g'_+ (x) = \lim_{h\to 0^+} \dfrac{g(x+h)-g(x)}{h}
+                    </me>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is the appropriate value of <m>g'_-(0)</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>g'_-(0) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_-(0) = 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_-(0) = -1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_-(0)</m> DNE
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which is the appropriate value of <m>g'_+(0)</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>g'_+(0) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_+(0) = 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_+(0) = -1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g'_+(0)</m> DNE
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Your answers to (a) and (b) should lead to you conclude what about the value of 
+                        <me>
+                            \lim_{h\to 0} \dfrac{g(x+h)-g(x)}{h}
+                        </me>
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    The limit exists and therefore <m>g'(0) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The limit exists and therefore <m>g'(0) = 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The limit exists and therefore <m>g'(0) = -1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The limit does not exist and therefore <m>g'(0)</m> does not exist
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Recall that the expression <m>\dfrac{f(x+h)-f(x)}{h}</m> computes the slope of a function <m>f(x)</m> between the points <m>(x,f(x))</m> and <m>(x+h,f(x+h))</m>. Based on this, complete the statement: <q>If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...</q>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-differentiability">
+            <statement>
+                <p>
+                    A function <m>f(x)</m> is said to be <term>differentiable</term><idx><h>differentiable</h></idx> at the point <m>x=a</m> if the limit
+                    <me>
+                        \lim_{h\to 0} \dfrac{f(a+h)-f(a)}{h}
+                    </me>
+                    exists
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="de-activity-differentiability2">
+            <p>
+                Using <xref ref="def-differentiability"/>, write an explicit, mathematical statement for why <m>f(x) = |x|</m> is <em>not</em> differentiable at <m>x=0</m>.
+            </p>
+        </activity>
+
+        <activity xml:id="de-activity-nondifferentiability">
+            <introduction>
+                <p>
+                    The figures below show three common cases for non-differentiability. 
+                </p>
+                <sidebyside widths="30% 30% 30%">
+                    <figure xml:id="d5-diff-img1">
+                        <caption>The graph of <m>f(x) = |x-1|</m> around <m>x=1</m></caption>
+                        <image>
+                            <latex-image>
+                                <xi:include href="./tikz/d5-diff-img1.tex" parse="text" />
+                            </latex-image>
+                        </image>
+                    </figure>
+                    <figure xml:id="d5-diff-img2">
+                        <caption>The graph of a piecewise function <m>g(x)</m></caption>
+                        <image>
+                            <latex-image>
+                                <xi:include href="./tikz/d5-diff-img2.tex" parse="text" />
+                            </latex-image>
+                        </image>
+                    </figure>
+                    <figure xml:id="d5-diff-img3">
+                        <caption>The graph of <m>h(x) = \sqrt[3]{x+1}</m> around <m>x=-1</m></caption>
+                        <image>
+                            <latex-image>
+                                <xi:include href="./tikz/d5-diff-img3.tex" parse="text" />
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following reasons seem most appropriate for why <m>f(x)</m> is not differentiable at <m>x=1</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    There is a discontinuity at <m>x=1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    There is a sharp change in direction/slope at <m>x=1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The tangent line appears to become vertical at <m>x=1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following reasons seem most appropriate for why <m>g(x)</m> is not differentiable at <m>x=2</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    There is a discontinuity at <m>x=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    There is a sharp change in direction/slope at <m>x=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The tangent line appears to become vertical at <m>x=0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following reasons seem most appropriate for why <m>h(x)</m> is not differentiable at <m>x=-1</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    There is a discontinuity at <m>x=-1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    There is a sharp change in direction/slope at <m>x=-1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The tangent line appears to become vertical at <m>x=-1</m>
+                                </p>
+                            </li>
+                        </ol>
                     </p>
                 </statement>
             </task>

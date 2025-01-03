@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="DE1" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>DE1: Average/Instantaneous Rate of Change</title>
+    <title>DE1: Average/Instantaneous Rates of Change</title>
     <objectives>
         <dl>
             <li>
                 <title>DE1</title>
                 <p>
-                    I can compute and interpret the average rate of change between two points, and describe its relationship to instantaneous rate of change.
+                    I can use a limit definition to compute derivatives at a point, explain how average rates of change are used in the process, and interpret the meaning of the derivative in context.
                 </p>
             </li>
         </dl>
@@ -18,20 +18,7 @@
     <subsection xml:id="DE1-activities">
         <title>In-Class Activities</title>
 
-        <!-- 
-        I think that the general structure goes like this:
-            1) Activity finding slope of a line
-            2) Activity finding slope of a polynomial with deg(P) > 1
-            3) Transition language from "slope" to "average rate of change"
-            4) Define AROC
-            5) Reword d-aroc-activity-ball1 so that average rate of change can be related to average velocity
-            6) Extract conjecture about what happens to AROC as interval decreases
-        7) Definition of instantaneous rate of change
-        8) Interpretations of instantaneous rate of change
-        9) Preview-type questions involving alternate expressions for the difference quotient
-        -->
-
-        <activity xml:id="D-aroc-activity-slope1">
+        <activity xml:id="de-aroc-activity-slope1">
             <introduction>
                 <p>
                     A line goes through the points <m>(1,1)</m> and <m>(4,7)</m>
@@ -110,7 +97,7 @@
             </task>
         </activity>
 
-        <activity xml:id="D-aroc-activity-slope2">
+        <activity xml:id="de-aroc-activity-slope2">
             <introduction>
                 <p>
                     Now consider the function <m>g(t) = 3t^2 - t^3</m>. 
@@ -119,7 +106,7 @@
             <task>
                 <statement>
                     <p>
-                        True or false: <q>slope</q> for <m>g(t)</m> means the same thing as it does for <m>f(x)</m> in <xref ref="D-aroc-activity-slope1"/>. Be prepared to explain your response.
+                        True or false: <q>slope</q> for <m>g(t)</m> means the same thing as it does for <m>f(x)</m> in <xref ref="de-aroc-activity-slope1"/>. Be prepared to explain your response.
                         <ol marker="A." cols="2">
                             <li>
                                 <p>
@@ -138,7 +125,7 @@
             <task>
                 <statement>
                     <p>
-                        True or false: We can find the slope of the line between two points on <m>g(t)</m> the same way as we could find the slope of the line between two points on <m>f(x)</m> in <xref ref="D-aroc-activity-slope1"/>.
+                        True or false: We can find the slope of the line between two points on <m>g(t)</m> the same way as we could find the slope of the line between two points on <m>f(x)</m> in <xref ref="de-aroc-activity-slope1"/>.
                         <ol marker="A." cols="2">
                             <li>
                                 <p>
@@ -246,7 +233,7 @@
             </statement>
         </definition>
 
-        <activity xml:id="D-aroc-activity-ball">
+        <activity xml:id="de-aroc-activity-ball">
             <introduction> 
                 <p>
                     In this activity you will study the velocity of a ball falling under gravity. The height of the ball (in feet) is given by the formula <m> f(t) = 64-16(t-1)^2</m>, where <m>t</m> is measured in seconds. For your convenience, below you will find a table of values for <m>f(t)</m>.
@@ -338,16 +325,16 @@
             </task> 
         </activity>
 
-        <activity xml:id="d-aroc-activity-iroc">
+        <activity xml:id="de-aroc-activity-iroc">
             <introduction>
                 <p>
-                    Think again about the ball falling in <xref ref="D-aroc-activity-ball"/>. 
+                    Think again about the ball falling in <xref ref="de-aroc-activity-ball"/>. 
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        Why are we unable to use the average rate of change formula to answer part (d) of <xref ref="D-aroc-activity-ball"/>?
+                        Why are we unable to use the average rate of change formula to answer part (d) of <xref ref="de-aroc-activity-ball"/>?
                         <ol marker="A.">
                             <li>
                                 <p>
@@ -428,7 +415,7 @@
         <activity>
             <statement>
                 <p>
-                    There is a way to make the definition of instantaneous rate of change match with the expression given in Task (b) of <xref ref="d-aroc-activity-iroc"/>. What is the connection between the two expressions?
+                    There is a way to make the definition of instantaneous rate of change match with the expression given in Task (b) of <xref ref="de-aroc-activity-iroc"/>. What is the connection between the two expressions?
                 </p>
             </statement>
         </activity>
@@ -451,7 +438,7 @@
             </statement>
         </definition>
 
-        <activity xml:id="d-aroc-secant-tangent">
+        <activity xml:id="de-aroc-secant-tangent">
             <introduction>
                 <p>
                     Refer to <xref ref="def-secant-line"/> and <xref ref="def-tangent-line"/> for this activity.
@@ -473,7 +460,560 @@
             </task>
         </activity>
 
+        <activity xml:id="de-activity-derivdef-point1">
+            <introduction>
+                <p>
+                    Let <m>f(x) = x^2 + 3x - 1</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following is a correct <em>first step</em> in computing the slope of the tangent line to <m>f(x)</m> at <m>x=3</m>?
+                        <ol marker="A." cols="2"> 
+                            <li>
+                                <p>
+                                    <m>f(x) - f(3) = 6x-2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(3+h) = 9h + h^2 </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x) - f(3) = x^2+3x-18</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(3+h) = 17+h^2 + 3h</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
 
+        <activity xml:id="de-activity-derivdef-linear">
+            <p>
+                Consider the function <m>f(x)=3-2x</m>. Which of the following best summarizes the average rates of changes of  on <m>f</m> on the intervals <m>[1,4]</m>, <m>[3,7]</m>, and <m>[5, 5+h]</m>?
+            </p>
+            <p>
+                <ol marker="A." cols="2">
+                    <li>
+                        <p>
+                            The average rate of change on the intervals <m>[1,4]</m> and <m>[3,7]</m> are equal to the slope of <m>f(x)</m>, but the average rate of change of <m>f</m> cannot be determined on <m>[5,5+h]</m> without a specific value of <m>h</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The average rate of change on the intervals <m>[1,4]</m>, <m>[3,7]</m>, and <m>[5, 5+h]</m> are all different values.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The average rate of change on the intervals <m>[1,4]</m>,  <m>[3,7]</m>, and <m>[5,5+h]</m> are all equal to <m>-2</m>. 
+                        </p>
+                    </li>
+                </ol>   
+            </p>
+        </activity>
+
+        <activity xml:id="de-activity-derivdef-linear2">
+            <p>
+                Is it possible to find the instantaneous rate of change of <m>f(x) = 3-2x</m> at <m>x=\pi</m> without doing any computations?
+            </p>
+            <p>
+                <ol marker="A." cols="2">
+                    <li>
+                        <p>
+                            No, because we cannot compute the value <m>f(\pi)</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            No, because we cannot compute the average rate of change on the interval <m>[\pi, \pi+h]</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Yes, because the intercept of the tangent line at any point is equal to the constant intercept of <m>f(x)</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Yes, because the slope of the tangent line at any point is equal to the constant slope of <m>f(x)</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <definition xml:id="def-derivative-point">
+            <title>Derivative (at a point)</title>
+            <statement>
+                <p>
+                    The <term>derivative of <m>f(x)</m> at the input <m>x=a</m></term><idx><h>derivative (at a point)</h></idx> is given by the expression
+                    <me>
+                        f'(a) = \lim_{x\to a} \dfrac{f(x) - f(a)}{x-a}
+                    </me>
+                    or
+                    <me>
+                        f'(a) = \lim_{h\to 0} \dfrac{f(a+h)-f(a)}{h}
+                    </me>
+                    assuming this limit exists.
+                </p>
+            </statement>
+        </definition>
+
+        <remark xml:id="derivative-notation-point">
+            <p>
+                The derivative of a function <m>f(x)</m> at the input <m>x=a</m> can be written as
+                <me>
+                    f'(a)\qquad \dfrac{df}{dx}\bigg\rvert_{x=a} \qquad \dot{f}(a)
+                </me>
+                The first notation is called <em>prime notation</em>, the second is called <em>Leibniz notation</em>, and the third is called <em>flyspeck notation</em>. 
+            </p>
+        </remark>
+
+        <activity xml:id="de-activity-derivdef-quadratic">
+            <introduction>
+                <p>
+                    Let <m>G(x) = x^2 - 3x + 5</m>. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>G'(2)</m> using the first expression for the derivative in <xref ref="def-derivative-point"/>. What does this number represent?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>G'(4)</m> using the second expression for the derivative in <xref ref="def-derivative-point"/>. What does this number represent?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>G'(10)</m> using the second expression for the derivative. What does this number represent?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If we wanted to compute <m>G'(-1)</m>, what change(s) would you need to make to your work in (b) and (c)?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="de-activity-derivative-units1">
+            <introduction>
+                <p>
+                    Recall the definition of the derivative, given in <xref ref="def-derivative-point"/>. For the tasks below, consider the function <m>f(x)</m> at the input <m>x=a</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following best describes the numerator, <m>f(a+h) - f(a)</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    The value of the output of <m>f(x)</m> at the point <m>(a,f(a+h))</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The value of the change in the inputs of <m>f(x)</m> between the points <m>(a,f(a))</m> and <m>(a+h,f(a+h))</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The value of the change in the outputs of <m>f(x)</m> between the points <m>(a,f(a))</m> and <m>(a+h,f(a+h))</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The value of the input of of <m>f(x)</m> at the point <m>(x+h,f(x))</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following best describes the denominator, <m>h</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    The value of the output of <m>f(x)</m> at the point <m>(a,f(a+h))</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The value of the change in the inputs of <m>f(x)</m> between the points <m>(a,f(a))</m> and <m>(a+h,f(a+h))</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The value of the change in the outputs of <m>f(x)</m> between the points <m>(a,f(a))</m> and <m>(a+h,f(a+h))</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The value of the input of of <m>f(x)</m> at the point <m>(a+h,f(a))</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>f(x)</m> inputs time (in hours) and outputs distance (in miles), which of the following best describes the average rate of change expression <m>\dfrac{f(a+h)-f(a)}{h}</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    The distance traveled in miles between the inputs <m>x</m> and <m>a+h</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The time between the inputs <m>x</m> and <m>a+h</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The ratio of the change in the output of <m>f(x)</m> to the change in the input of <m>f(x)</m> on the interval <m>[a,a+h]</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The ratio of the change in the input of <m>f(x)</m> to the change in the output of <m>f(x)</m> on the interval <m>[f(a),f(a+h)]</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="de-activity-derivative-units2">
+            <introduction>
+                <p>
+                    The function <m>y = f(x) = 3x^2 + 1</m> gives the distance (in feet) an experimental vehicle has gone, <m>x</m> seconds after starting its motion.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                       Compute the derivative, <m>\dfrac{dy}{dx}\bigg\rvert_{x = 1}</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What are the units for <m>\dfrac{dy}{dx}</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    feet per second
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    feet per seconds
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    seconds per foot
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    second per feet
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The units suggest that the first derivative of <m>f(x)</m> is better known as which of the following?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Acceleration
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Distance
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Velocity
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Nothing special
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute the second derivative of <m>f(x)</m>, <m>\dfrac{d^2y}{dx^2}</m> at the input <m>x=1</m>. What are the appropriate units here? Refer back to <xref ref="de-activity-derivative-units1"/> if you need.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    feet per second per foot
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    feet per second per second
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    feet per second
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    feet per feet per second
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The units suggest that the second derivative of <m>f(x)</m> is better known as which of the following?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Acceleration
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Distance
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Velocity
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Nothing special
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="de-activity-derivative-incdec">
+            <introduction>
+                <p>
+                    Recall that the derivative at an input <m>x=a</m> gives the slope of the tangent line to <m>f(x)</m> at <m>x=a</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Assume that for some function <m>f(x)</m>, <m>f'(a) \gt 0</m>. What does this mean about the function, <m>f(x)</m>, at <m>x=a</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    The function must be going up (increasing)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The function must be going down (decreasing)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The function must not be changing (constant)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    We do not have enough information to talk about <m>f(x)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now assume that <m>f'(a) \lt 0</m>. What does this mean about the function at <m>x=a</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    The function must be going up (increasing)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The function must be going down (decreasing)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The function must not be changing (constant)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    We do not have enough information to talk about <m>f(x)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="de-activity-derivative-incdec-app">
+            <introduction>
+                <p>
+                    Suppose that <m>P(t)</m> gives the profit of a multinational corporation (in billion dollars), <m>t</m> years after development of a new product. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Write the units for the first derivative, <m>P'(t)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Write the units for the second derivative, <m>P''(t)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Suppose that it is known <m>P'(2) = 3</m>. Which description is most accurate?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    Three years after the product was developed, the profit was increasing by two billion dollars per year
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Two years after the product was developed, the profit was increasing by three billion dollars per year
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Three years after the product was developed, the profit was increasing by two billion dollars
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Two years after the product was developed, the profit was decreasing by three billion dollars per year
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which statement best translates the statement <q>Zero years after the product was developed, profit was decreasing by 1.2 billion dollars per year</q>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>P(0) = 1.2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>P'(1.2) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>P''(0) = 1.2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>P'(0) = 1.2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <remark>
+            <p>
+                When talking about an instantaneous rate of change, present progessive verbs should be used (-ing words). This is because the change <em>is happening at this moment in time</em>, as opposed to an averate rate of change, which occurs <em>over a period of time</em>.
+            </p>
+        </remark>
+
+        <activity xml:id="de-activity-derivative-units3">
+            <introduction>
+                <p>
+                    Suppose that <m>S(t)</m> gives the amount of fuel (in pounds) consumed by a prototype space capsule being developed by an aerospace company, <m>t</m> minutes after leaving the International Space Station (ISS), and that <m>E(t)</m> gives the amount of fuel (in pounds) consumed by the capsule <m>t</m> minutes after leaving its launchpad.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Data collected suggests that, when returning to Earth from the ISS, <m>S'(0)</m> was positive but smaller than <m>S'(15)</m>, when the capsule began atmospheric reentry procedures. What conclusions can you draw from this information?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which would you expect to be larger: <m>E'(0)</m> or <m>S'(0)</m>? Why?
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>

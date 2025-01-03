@@ -4,7 +4,7 @@
 <!-- works. -->
 
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
-  <titlepage>
+  <bibinfo>
     <author>
       <personname>Cory Wilson</personname>
       <department>Department of Mathematics</department>
@@ -12,17 +12,8 @@
       <email>cory.g.wilson@occc.edu</email>
     </author>
     <date>
-      <today />
+      <today/>
     </date>
-  </titlepage>
-
-  <colophon>
-
-    <!--
-    <website>
-      <url href="https://pretextbook.org">My Website</url>
-    </website>
-  -->
 
     <copyright>
       <year>2024<ndash /></year>
@@ -32,7 +23,15 @@
       </shortlicense>
  
     </copyright>
-  
+  </bibinfo>
+
+  <titlepage>
+    <titlepage-items/>
+  </titlepage>
+
+
+  <colophon>
+    <colophon-items/>
   </colophon>
 </frontmatter>
 

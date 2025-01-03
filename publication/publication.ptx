@@ -64,7 +64,7 @@
   <!-- for printing; set @sides="two" if the printing woudl be two- -->
   <!-- sided.  @pageref="yes/no" controls whether page number are   -->
   <!-- included in cross-references                                 -->
-  <latex print="no" sides="one" font-size="10" draft="no">
+  <latex print="no" sides="two" font-size="11" draft="no" >
     <!-- Control text justification and bottom page behavior: -->
     <page right-alignment="flush" bottom-alignment="ragged" />
     <!-- Add content to \geometry{}: -->
@@ -109,16 +109,17 @@
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
     
     <css
-        style="default"
-        colors="blue_red"
-        knowls="default"
-        toc="default"
-        banner="default"
-        navbar="default"
+        theme = "default-modern"
     />
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->
     <search variant="default" />
+    <!-- Table of Contents: focused="yes" enables expand/collapse functionality. -->
+    <!-- @preexpanded-levels controls how deep to expend toc initially.          -->
+      <toc focused="yes" preexpanded-levels="0" />
+
+    <!-- Navigation options: linear or tree, and whether there is an "up" button -->
+      <navigation logic="tree" upbutton="no" />
     <!-- Embedded calculators.  For math, this could be geogebra-classic, geogebra-graphing,
     geogebra-geometry, and geogebra-3d.  For ActiveCode, you can specify a language (python,
     javascript, etc).  -->
@@ -126,13 +127,15 @@
     <!-- Set the base URL of where the online version is hosted to have links in other formats -->
     <!-- <baseurl href="changetomywebsite.org"/> -->
     <!-- Control behavior of online WeBWorK, per type: -->
+    <!--
     <webwork
       inline="dynamic"
       divisional="static"
       reading="static"
       worksheet="static"
       project="dynamic"
-    />
+    />-->
+
     <!-- Magic IDs identify HTML pages to analytics services   -->
     <!-- Presence implies relevant Javascript will be added    -->
     <!-- StatCounter requires both values to be set            -->

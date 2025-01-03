@@ -5,26 +5,15 @@
         <ul>
             <li>
                 <p>
-                    <url visual="" href="https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules">Section 3.3: Differentiation Rules</url>
+                    <url visual="" href="https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule">Section 3.6: The Chain Rule</url>
                 </p>
                 <p>
-                    <em>Read the "The Basic Rules", "The Power Rule", and "The Sum, Difference, and Constant Multiple Rules" sections</em>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <url visual="" href="https://openstax.org/books/calculus-volume-1/pages/3-5-derivatives-of-trigonometric-functions">Section 3.5: Derivatives of Trigonometric Functions</url>
-                </p>
-                <p>
-                    <em>Read the "Derivatives of the Sine and Cosine Functions" and "Higher-Order Derivatives" sections</em>
+                    <em>Read all sections</em>
                 </p>
             </li>
             <li>
                 <p>
-                    <url visual="" href="https://openstax.org/books/calculus-volume-1/pages/3-9-derivatives-of-exponential-and-logarithmic-functions">Section 3.9: Derivatives of Exponential and Logarithmic Functions</url>
-                </p>
-                <p>
-                    <em>Read "Derivative of the Exponential Function" and "Derivative of the Logarithmic Function" sections</em>
+                    Read the material about function composition in <xref ref="review-functions"/>
                 </p>
             </li>
         </ul>

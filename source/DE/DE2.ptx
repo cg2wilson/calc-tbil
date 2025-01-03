@@ -7,7 +7,7 @@
             <li>
                 <title>DE2</title>
                 <p>
-                    I can apply the definition of the derivative and use it to calculate, approximate, and interpret the derivative at a point or as a function. 
+                    I can use the limit definition to compute the derivative function.
                 </p>
             </li>
         </dl>
@@ -17,289 +17,6 @@
 
     <subsection xml:id="DE2-activities">
         <title>In-Class Activities</title>
-
-        <remark>
-            <p>
-                Recall that we defined the <em>slope of a tangent line</em> in <xref ref="def-tangent-line"/>
-            </p>
-        </remark>
-
-        <!-- 
-        <activity>
-            <introduction>
-                <p>
-                    The function <m>f(x) = 3x^4 - 4x^3-5</m> travels through the points <m>(0,0)</m>, <m>(1,-6)</m>, and <m>(2,7)</m>.
-                </p>
-            </introduction>
-            <task>
-                <task>
-                    <statement>
-                        <p>
-                            Identify the slope of the tangent line to <m>f(x)</m> at <m>x=0</m>. 
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            Find the slope of the tangent line to <m>f(x)</m> at <m>x=1</m>
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            Find the slope of the tangent line to <m>f(x)</m> at <m>x=2</m>
-                        </p>
-                    </statement>
-                </task>
-            </task>
-            <task>
-                <task>
-                    <statement>
-                        <p>
-                            Which option below shows the equation of the tangent line to <m>f(x)</m> at <m>x=0</m>?
-                            <ol marker="A." cols="2">
-                                <li>
-                                    <p>
-                                        option 1
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        option 2
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        option 3
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        option 4
-                                    </p>
-                                </li>
-                            </ol>
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            Which option below shows the equation of the tangent line to <m>f(x)</m> at <m>x=1</m>?
-                            <ol marker="A." cols="2">
-                                <li>
-                                    <p>
-                                        option 1
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        option 2
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        option 3
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        option 4
-                                    </p>
-                                </li>
-                            </ol>
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            Which option below shows the equation of the tangent line to <m>f(x)</m> at <m>x=2</m>?
-                            <ol marker="A." cols="2">
-                                <li>
-                                    <p>
-                                        option 1
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        option 2
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        option 3
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        option 4
-                                    </p>
-                                </li>
-                            </ol>
-                        </p>
-                    </statement>
-                </task>
-            </task>
-        </activity>
-        -->
-
-        <activity xml:id="d-activity-derivdef-point1">
-            <introduction>
-                <p>
-                    Let <m>f(x) = x^2 + 3x - 1</m>
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Which of the following is a correct <em>first step</em> in computing the slope of the tangent line to <m>f(x)</m> at <m>x=3</m>?
-                        <ol marker="A." cols="2"> 
-                            <li>
-                                <p>
-                                    <m>f(x) - f(3) = 6x-2</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>f(3+h) = 9h + h^2 </m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>f(x) - f(3) = x^2+3x-18</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>f(3+h) = 17+h^2 + 3h</m>
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-        </activity>
-
-        <activity xml:id="d-activity-derivdef-linear">
-            <p>
-                Consider the function <m>f(x)=3-2x</m>. Which of the following best summarizes the average rates of changes of  on <m>f</m> on the intervals <m>[1,4]</m>, <m>[3,7]</m>, and <m>[5, 5+h]</m>?
-            </p>
-            <p>
-                <ol marker="A." cols="2">
-                    <li>
-                        <p>
-                            The average rate of change on the intervals <m>[1,4]</m> and <m>[3,7]</m> are equal to the slope of <m>f(x)</m>, but the average rate of change of <m>f</m> cannot be determined on <m>[5,5+h]</m> without a specific value of <m>h</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The average rate of change on the intervals <m>[1,4]</m>, <m>[3,7]</m>, and <m>[5, 5+h]</m> are all different values.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The average rate of change on the intervals <m>[1,4]</m>,  <m>[3,7]</m>, and <m>[5,5+h]</m> are all equal to <m>-2</m>. 
-                        </p>
-                    </li>
-                </ol>   
-            </p>
-        </activity>
-
-        <activity xml:id="d-activity-derivdef-linear2">
-            <p>
-                Is it possible to find the instantaneous rate of change of <m>f(x) = 3-2x</m> at <m>x=\pi</m> without doing any computations?
-            </p>
-            <p>
-                <ol marker="A." cols="2">
-                    <li>
-                        <p>
-                            No, because we cannot compute the value <m>f(\pi)</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            No, because we cannot compute the average rate of change on the interval <m>[\pi, \pi+h]</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Yes, because the intercept of the tangent line at any point is equal to the constant intercept of <m>f(x)</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Yes, because the slope of the tangent line at any point is equal to the constant slope of <m>f(x)</m>.
-                        </p>
-                    </li>
-                </ol>
-            </p>
-        </activity>
-
-        <definition xml:id="def-derivative-point">
-            <title>Derivative (at a point)</title>
-            <statement>
-                <p>
-                    The <term>derivative of <m>f(x)</m> at the input <m>x=a</m></term><idx><h>derivative (at a point)</h></idx> is given by the expression
-                    <me>
-                        f'(a) = \lim_{x\to a} \dfrac{f(x) - f(a)}{x-a}
-                    </me>
-                    or
-                    <me>
-                        f'(a) = \lim_{h\to 0} \dfrac{f(a+h)-f(a)}{h}
-                    </me>
-                    assuming this limit exists.
-                </p>
-            </statement>
-        </definition>
-
-        <remark xml:id="derivative-notation-point">
-            <p>
-                The derivative of a function <m>f(x)</m> at the input <m>x=a</m> can be written as
-                <me>
-                    f'(a)\qquad \dfrac{df}{dx}\bigg\rvert_{x=a} \qquad \dot{f}(a)
-                </me>
-                The first notation is called <em>prime notation</em>, the second is called <em>Leibniz notation</em>, and the third is called <em>flyspeck notation</em>. 
-            </p>
-        </remark>
-
-        <activity>
-            <introduction>
-                <p>
-                    Let <m>G(x) = x^2 - 3x + 5</m>. 
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Compute <m>G'(2)</m> using the first expression for the derivative in <xref ref="def-derivative-point"/>. What does this number represent?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Compute <m>G'(4)</m> using the second expression for the derivative in <xref ref="def-derivative-point"/>. What does this number represent?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Compute <m>G'(10)</m> using the second expression for the derivative. What does this number represent?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        If we wanted to compute <m>G'(-1)</m>, what change(s) would you need to make to your work in (b) and (c)?
-                    </p>
-                </statement>
-            </task>
-        </activity>
 
         <definition xml:id="def-derivative-function">
             <title>Derivative (as a function)</title>
@@ -405,7 +122,7 @@
             </task>
         </activity>
 
-        <activity xml:id="d-activity-derivdef-fraction">
+        <activity xml:id="de-activity-derivdef-fraction">
             <introduction>
                 <p>
                     Using the limit definition of the derivative, you want to find <m>f'(x)</m> for <m>f(x)=\dfrac{1}{x}</m>. We will do this by first simplifying the difference quotient and then taking the limit as <m>h\to 0</m>.
@@ -515,7 +232,7 @@
             </statement>
         </definition>
 
-        <remark xml:id="d-deriv-notation-higher">
+        <remark xml:id="de-deriv-notation-higher">
             <p>
                 The second derivative of a function <m>y=f(x)</m> is written as 
                 <me>
@@ -532,7 +249,7 @@
         <activity>
             <introduction>
                 <p>
-                    Recall that in <xref ref="D-aroc-activity-ball"/>, we analyzed the behavior of the function 
+                    Recall that in <xref ref="de-aroc-activity-ball"/>, we analyzed the behavior of the function 
                     <me>
                         f(t) = 64-16(t-1)^2
                     </me>

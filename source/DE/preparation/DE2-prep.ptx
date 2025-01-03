@@ -1,16 +1,9 @@
-<assemblage xml:id="D2-prep">
+<assemblage xml:id="DE2-prep">
     <title>Pre-Class Preparation</title>
     <p>
         Read the following sections of the text:
         <ul>
-            <li>
-                <p>
-                    <url visual="" href="https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative">Section 3.1: Defining the Derivative</url>
-                </p>
-                <p>
-                    <em>Read the "The Derivative of a Function at a Point" section and the "Velocities and Rates of Change" section</em>
-                </p>
-            </li>
+
             <li>
                 <p>
                     <url visual="" href="https://openstax.org/books/calculus-volume-1/pages/3-2-the-derivative-as-a-function">Section 3.2: The Derivative as a Function</url>

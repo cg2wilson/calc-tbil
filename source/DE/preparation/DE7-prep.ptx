@@ -5,21 +5,12 @@
         <ul>
             <li>
                 <p>
-                    <url visual="" href="https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules">Section 3.3: Differentiation Rules</url>
-                </p>
-                <p>
-                    <em>Read the "The Product Rule", "The Quotient Rule", and "Combining Differentiation Rules" sections</em>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <url visual="" href="https://openstax.org/books/calculus-volume-1/pages/3-7-derivatives-of-inverse-functions">Section 3.7: Derivatives of Inverse Functions</url>
+                    <url visual="" href="https://openstax.org/books/calculus-volume-1/pages/3-8-implicit-differentiation">Section 3.8: Implicit Differentiation</url>
                 </p>
                 <p>
                     <em>Read all sections</em>
                 </p>
             </li>
-        </ul>
-        It will also likely be helpful to review the section on inverses: <xref ref="review-inverse"/>
+        </ul> 
     </p>
 </assemblage>

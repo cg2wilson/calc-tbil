@@ -248,7 +248,7 @@
                         Which kind of discontinuity <q>makes sense</q> to be at <m>x=0</m>?
                     </p>
                     <p>
-                        <ol marker="A.">
+                        <ol marker="A." cols="2">
                             <li>
                                 <p>
                                     Removable
@@ -301,7 +301,7 @@
                         Which kind of discontinuity <q>makes sense</q> to be at <m>x=1</m>?
                     </p>
                     <p>
-                        <ol marker="A.">
+                        <ol marker="A." cols="2">
                             <li>
                                 <p>
                                     Removable
@@ -354,7 +354,7 @@
                         Which kind of discontinuity <q>makes sense</q> to be at <m>x=3</m>?
                     </p>
                     <p>
-                        <ol marker="A.">
+                        <ol marker="A." cols="2">
                             <li>
                                 <p>
                                     Removable

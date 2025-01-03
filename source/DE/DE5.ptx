@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="DE5" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>DE5: Differentiability</title>
+    <title>DE5: The Product and Quotient Rules</title>
     <objectives>
         <dl>
             <li>
                 <title>DE5</title>
                 <p>
-                    I can graphically, numerically, or algebraically determine where a function is differentiable
+                    I can use the product rule and the quotient rule to compute the derivative of products or quotients of functions.
                 </p>
             </li>
         </dl>
@@ -18,278 +18,246 @@
     <subsection xml:id="DE5-activities">
         <title>In-Class Activities</title>
 
-        <activity>
+        <activity xml:id="de-prodquotrule-idea">
             <introduction>
                 <p>
-                    Consider the function <m>f(x) = \dfrac{x^2+11x+30}{|x+6|}</m>.
+                    Let <m>f(t) = 8t^5 -6\sqrt{t}</m> and <m>g(t) = 2t</m>.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        Remember that <m>|x| = \begin{cases} -x &amp; x\lt 0 \\ x &amp; x\geq 0\end{cases}</m>. Use this fact to compute <m>\ds \lim_{x\to 6^+} f(x)</m>.
+                        Compute <m>f'(t)</m> and <m>g'(t)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
-                    <p>
-                        Now compute <m>\ds \lim_{x\to 6^-} f(x)</m>
-                    </p>
+                    <task>
+                        <statement>
+                            <p>
+                                Find the product function, <m>P(t) = f(t)\cdot g(t)</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Compute <m>P'(t)</m>
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                True or false: <m>P'(t) = f'(t)\cdot g'(t)</m>
+                            </p>
+                        </statement>
+                    </task>
                 </statement>
             </task>
             <task>
                 <statement>
-                    <p>
-                        True or false: <m>\ds \lim_{x\to 6} f(x) </m> exists. Be prepared to defend your answer with a reason <em>why</em> if it exists, and <em>why not</em> if it doesn't.
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    True
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    False
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
+                    <task>
+                        <statement>
+                            <p>
+                                Find the quotient function, <m>Q(t) = \dfrac{f(t)}{g(t)}</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Compute <m>Q'(t)</m>
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                True or false: <m>Q'(t) = \dfrac{f'(t)}{g'(t)}</m>
+                            </p>
+                        </statement>
+                    </task>
                 </statement>
             </task>
         </activity>
 
-        <activity>
-            <introduction>
-                <p>
-                    Now consider the function <m>g(x) = |x|</m>. Define the <em>left-hand derivative</em> to be the expression
-                    <me>
-                        g'_- (x) = \lim_{h\to 0^-} \dfrac{g(x+h) - g(x)}{h}
-                    </me>
-                    and the <em>right-hand derivative</em> to be the expression
-                    <me>
-                        g'_+ (x) = \lim_{h\to 0^+} \dfrac{g(x+h)-g(x)}{h}
-                    </me>
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Which is the appropriate value of <m>g'_-(0)</m>?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    <m>g'_-(0) = 0</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>g'_-(0) = 1</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>g'_-(0) = -1</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>g'_-(0)</m> DNE
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Which is the appropriate value of <m>g'_+(0)</m>?
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    <m>g'_+(0) = 0</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>g'_+(0) = 1</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>g'_+(0) = -1</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>g'_+(0)</m> DNE
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Your answers to (a) and (b) should lead to you conclude what about the value of 
-                        <me>
-                            \lim_{h\to 0} \dfrac{g(x+h)-g(x)}{h}
-                        </me>
-                        <ol marker="A." cols="2">
-                            <li>
-                                <p>
-                                    The limit exists and therefore <m>g'(0) = 0</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The limit exists and therefore <m>g'(0) = 1</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The limit exists and therefore <m>g'(0) = -1</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The limit does not exist and therefore <m>g'(0)</m> does not exist
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Recall that the expression <m>\dfrac{f(x+h)-f(x)}{h}</m> computes the slope of a function <m>f(x)</m> between the points <m>(x,f(x))</m> and <m>(x+h,f(x+h))</m>. Based on this, complete the statement: <q>If the slopes of the tangent lines to a function at a point are not the same from the left and from the right, then...</q>
-                    </p>
-                </statement>
-            </task>
-        </activity>
-
-        <definition xml:id="def-differentiability">
+        <theorem xml:id="thm-deriv-product">
+            <title>The Product Rule</title>
             <statement>
                 <p>
-                    A function <m>f(x)</m> is said to be <term>differentiable</term><idx><h>differentiable</h></idx> at the point <m>x=a</m> if the limit
+                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions. Then,
                     <me>
-                        \lim_{h\to 0} \dfrac{f(a+h)-f(a)}{h}
+                        \dfrac{d}{dx}[f(x)\cdot g(x)] = f'(x)g(x) + f(x)g'(x)
                     </me>
-                    exists
                 </p>
             </statement>
-        </definition>
+        </theorem>
 
-        <activity>
+        <theorem xml:id="thm-deriv-quotient">
+            <title>The Quotient Rule</title>
+            <statement>
+                <p>
+                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions. Then,
+                    <me>
+                        \dfrac{d}{dx}\left[\dfrac{f(x)}{g(x)}\right] = \dfrac{f'(x)g(x) - f(x)g'(x)}{(g(x))^2}
+                    </me>
+                    provided <m>g(x)\neq 0</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="de-activity-which-productrule">
             <p>
-                Using <xref ref="def-differentiability"/>, write an explicit, mathematical statement for why <m>f(x) = |x|</m> is <em>not</em> differentiable at <m>x=0</m>.
+                The product rule is a powerful tool, but sometimes it isn’t necessary; a more elementary rule may suffice. For which of the following functions can you find the derivative without using the product rule? Select all that apply and find the derivative.
+                <ol marker="A." cols="2">
+                    <li>
+                        <m>f(x)=e^x \sin(x)</m>
+                    </li>
+                    <li>
+                        <m>f(x)=\sqrt{x}(x^3+3x-3)</m>
+                    </li>
+                    <li>
+                        <m>f(x)=(4)(x^5)</m>
+                    </li>
+                    <li>
+                        <m>f(x)=x \ln(x)</m>
+                    </li>
+                </ol>
             </p>
         </activity>
 
-        <activity>
+        <activity xml:id="de-activity-fluency-productrule">
             <introduction>
                 <p>
-                    The figures below show three common cases for non-differentiability. 
+                    Use the product rule to find the derivative of the following functions.
                 </p>
-                <sidebyside widths="30% 30% 30%">
-                    <figure xml:id="d5-diff-img1">
-                        <caption>The graph of <m>f(x) = |x-1|</m> around <m>x=1</m></caption>
-                        <image>
-                            <latex-image>
-                                <xi:include href="./tikz/d5-diff-img1.tex" parse="text" />
-                            </latex-image>
-                        </image>
-                    </figure>
-                    <figure xml:id="d5-diff-img2">
-                        <caption>The graph of a piecewise function <m>g(x)</m></caption>
-                        <image>
-                            <latex-image>
-                                <xi:include href="./tikz/d5-diff-img2.tex" parse="text" />
-                            </latex-image>
-                        </image>
-                    </figure>
-                    <figure xml:id="d5-diff-img3">
-                        <caption>The graph of <m>h(x) = \sqrt[3]{x+1}</m> around <m>x=-1</m></caption>
-                        <image>
-                            <latex-image>
-                                <xi:include href="./tikz/d5-diff-img3.tex" parse="text" />
-                            </latex-image>
-                        </image>
-                    </figure>
-                </sidebyside>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        Which of the following reasons seem most appropriate for why <m>f(x)</m> is not differentiable at <m>x=1</m>?
-                        <ol marker="A.">
-                            <li>
-                                <p>
-                                    There is a discontinuity at <m>x=1</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    There is a sharp change in direction/slope at <m>x=1</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The tangent line appears to become vertical at <m>x=1</m>
-                                </p>
-                            </li>
-                        </ol>
+                        <m>
+                            f(x)=(x^2+3x)\tan(x)
+                        </m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Which of the following reasons seem most appropriate for why <m>g(x)</m> is not differentiable at <m>x=2</m>?
-                        <ol marker="A.">
-                            <li>
-                                <p>
-                                    There is a discontinuity at <m>x=0</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    There is a sharp change in direction/slope at <m>x=0</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The tangent line appears to become vertical at <m>x=0</m>
-                                </p>
-                            </li>
-                        </ol>
+                        <m>
+                            f(x)=2^x \cos(x)
+                        </m> 
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Which of the following reasons seem most appropriate for why <m>h(x)</m> is not differentiable at <m>x=-1</m>?
-                        <ol marker="A.">
-                            <li>
-                                <p>
-                                    There is a discontinuity at <m>x=-1</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    There is a sharp change in direction/slope at <m>x=-1</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The tangent line appears to become vertical at <m>x=-1</m>
-                                </p>
-                            </li>
-                        </ol>
+                        <m>
+                            f(x) = x^2e^x
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            
+        </activity>
+
+        <activity xml:id="de-activity-which-quotientrule">
+            <p>
+                Just like with the product rule, there are times when we can find the derivative of a quotient using elementary rules rather than the quotient rule. For which of the following functions can you find the derivative without using the quotient rule? Select all that apply and find the derivative.
+                <ol marker="A." cols="2">
+                    <li>
+                        <m>f(x) = \dfrac{6}{x^3}</m>
+                    </li>
+                    <li>
+                        <m>f(x) = \dfrac{-5}{\ln(x)}</m>
+                    </li>
+                    <li>
+                        <m>f(x) = \dfrac{e^x}{\csc(x)}</m>
+                    </li>
+                    <li>
+                        <m>f(x) = \dfrac{x^3+3x}{x}</m>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <activity xml:id="de-activity-fluency-quotientrule">
+            <introduction>
+                <p>
+                    Find the derivative of the following functions using the quotient rule (or, if applicable, an elementary rule).
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            f(x) = \dfrac{\csc(x)}{x^3}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            g(x) = \dfrac{x^2 + x^{5/3}}{x^4}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            h(x) = \dfrac{5e^x - \cos(x)}{x}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <activity xml:id="de-activity-show-trig">
+            <introduction>
+                <p>
+                    Use the quotient rule and appropriate trigonometric identities to prove the following:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \dfrac{d}{dx}[\tan(x)] = \sec^2(x)
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \dfrac{d}{dx}[\cot(x)] = -\csc^2(x)
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \dfrac{d}{dx}[\sec(x)] = \sec(x)\tan(x)
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \dfrac{d}{dx}[\csc(x)] = -\csc(x)\cot(x)
+                        </m>
                     </p>
                 </statement>
             </task>

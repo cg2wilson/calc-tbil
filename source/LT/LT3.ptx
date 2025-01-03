@@ -18,7 +18,7 @@
     <subsection xml:id="LT3-activities">
         <title>In-Class Activities</title>
 
-        <activity xml:id="LT5-infinity-intuition1">
+        <activity xml:id="LT3-infinity-intuition1">
             <p>
                 Consider the graph of the polynomial function <m>f(x) = x^3</m> . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?
             </p>
@@ -26,9 +26,9 @@
                 <caption>
                     The graph of <m>x^3</m>
                 </caption>
-                <image width="50%" xml:id="LT5-infinity-intuition1-img">
+                <image width="50%" xml:id="LT3-infinity-intuition1-img">
                     <latex-image>
-                        <xi:include href="./tikz/LT5-infinity-intuition1.tex" parse="text"/>
+                        <xi:include href="./tikz/LT3-infinity-intuition1.tex" parse="text"/>
                     </latex-image>
                 </image> 
             </figure>
@@ -51,15 +51,15 @@
             </p>
         </remark>
 
-        <activity xml:id="LT5-infinity-intuition2">
+        <activity xml:id="LT3-infinity-intuition2">
             <p>
                 Consider the graph of the rational function <m>f(x) = 1/ x^3</m> . We want to think about what the long term behavior of this function might be. Which of the following best describes its behavior?
             </p>
-            <figure xml:id="LT5-infinity-intuition2-img">
+            <figure xml:id="LT3-infinity-intuition2-img">
                 <caption> The graph of <m>1/x^3</m>.</caption>
                 <image width="50%">
                     <latex-image>
-                        <xi:include href="./tikz/LT5-infinity-intuition2.tex" parse="text"/>
+                        <xi:include href="./tikz/LT3-infinity-intuition2.tex" parse="text"/>
                     </latex-image>
                 </image>
             </figure>
@@ -109,7 +109,7 @@
         <activity xml:id="L-activity-horizontal-asymptote-1">
             <introduction>
                 <p>
-                    Think again about the graph of <m>f(x) = 1/x^3</m>, given in <xref ref="LT5-infinity-intuition2-img"/>.
+                    Think again about the graph of <m>f(x) = 1/x^3</m>, given in <xref ref="LT3-infinity-intuition2-img"/>.
                 </p>
             </introduction>
             <task>
@@ -354,7 +354,7 @@
         <activity xml:id="L-vertical-asymptote-intuition1">
             <introduction>
                 <p>
-                    Again, think about the graph of <m>f(x) = 1/x^3</m> in <xref ref="LT5-infinity-intuition2-img"/>
+                    Again, think about the graph of <m>f(x) = 1/x^3</m> in <xref ref="LT3-infinity-intuition2-img"/>
                 </p>
             </introduction>
             <task>
