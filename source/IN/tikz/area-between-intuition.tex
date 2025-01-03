@@ -1,0 +1,20 @@
+\begin{tikzpicture}
+    \begin{axis}[
+        every tick label/.append style={font=\small},
+        axis x line = middle,
+        axis y line = middle,
+            every axis y label/.style={at={(ticklabel cs:1.15)}},
+            %ytick = {-4, -2, -3, -1, 1, 2, 3, 4},
+        y label style={at={(axis description cs:.25,1.15)},anchor=north},
+            ylabel = {$f(x)$},
+            ymin = -1.5, ymax = 4.5,
+            every axis x label/.style= {at ={(ticklabel cs:1)}},
+            %xtick = {-4,-3,-2,-1,1,2,3,4},
+            x label style={at={(axis description cs:1.1,.25)},anchor=east},
+            xlabel = {$x$},
+            xmax = 3.5
+    ]
+        \addplot[thick, domain = -1:3.5] {-1*(x-1)^2+3} node[midway, yshift = 18pt, xshift = -2pt] {$f(x)$};
+        \addplot[thick, domain = -1:3.5] {2} node[midway, yshift = -10pt] {$g(x)$};
+    \end{axis}
+\end{tikzpicture}

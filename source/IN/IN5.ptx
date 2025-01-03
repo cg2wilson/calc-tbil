@@ -18,8 +18,216 @@
     <subsection xml:id="IN5-activities">
         <title>In-Class Activities</title>
 
-        
+        <activity xml:id="in-areabetween-intuition">
+            <introduction>
+                <p>
+                    The functions <m>f(x) = -(x-1)^2 + 3</m> and <m>g(x) = 2</m> are graphed below; use the image to answer the questions given.
+                </p>
+                <image>
+                    <latex-image>
+                        <xi:include href="./tikz/area-between-intuition.tex" parse="text" />
+                    </latex-image>
+                </image>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which expression will find the intersection of the curves?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>f(x) = 2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x) = g(x)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g(x) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x) = -g(x)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the area between <m>f(x)</m> and the <m>x-</m>axis on the interval from part (a)?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>6</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{16}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-\dfrac{16}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-16</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Write and evaluate an expression to find the area between <m>g(x)</m> and the <m>x-</m>axis on the interval from part (a).
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the image to describe how to find the area between <m>f(x)</m> and <m>g(x)</m>, then find the area.
+                    </p>
+                </statement>
+            </task>
+        </activity>
 
+        <theorem xml:id="thm-area-between-curves">
+            <title>Area Between Curves</title>
+            <statement>
+                <p>
+                    Let <m>f,g</m> be continuous functions, and let <m>f(x)\geq g(x)</m> for all <m>x</m> in <m>[a,b]</m>.  The area <m>A</m> of the region bounded by the curves <m>y=f(x),y=g(x)</m> and the lines <m>x=a,x=b</m> is given by <m>A = \ds \int_a^b (f(x)-g(x))\, dx</m>
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="in-activity-areabetween1">
+            <introduction>
+                <p>
+                    Consider the curves <m>y = x^2 + 1</m> and <m>y = x</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which integral below will find the area between the curves on the interval <m>[0,1]</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\ds \int_1^0 (x^2+1)-(x)\, dx</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \int_0^1 (x^2+1)-(x)\, dy</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \int_0^1 (x^2+1)-(x)\, dx</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \int_0^1 (x)-(x^2+1)\, dx</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute the integral from part (a).
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="in-activity-areabetween2">
+            <statement>
+                <p>
+                    Find the area of the region enclosed by the parabolas <m>y = x^2</m> and <m>y = 2x-x^2</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="in-activity-areabetween3">
+            <introduction>
+                <p>
+                    Consider the line <m>y = x-1</m> and the parabola <m>y^2 = 2x+6</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Use a graphing utility to visualize the two functions.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What are the coordinates of the intersections of the curves?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        We aren't able to integrate with respect to <m>x</m> in order to find the area between the curves. Why?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Because one is a parabola and one is a line.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Because <m>f(x)-g(x)</m> is not a function of <m>x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Because <m>f(x) + g(x)</m> is a function of <m>x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Because we can't split <m>y^2 = 2x + 6</m> into two pieces
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Rewrite each as a function of <m>y</m> by setting <m>x = </m><fillin characters="5" />.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use your answer above to write an expression for the area between the curves, then evaluate it.
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>
