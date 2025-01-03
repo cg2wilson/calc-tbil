@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-I" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-IN" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Integrals (IN)</title>
 
   <objectives>
@@ -19,25 +19,25 @@
         <li>
           <title>IN2</title>
           <p>
-            I can use Riemann sums to approximate the area under curves and use appropriate notation to do so
+           I can compute exact or approximate values for integrals using Riemann sums, properties of definite integrals, the definition of the definite integral, and geometry.
           </p>
         </li>
         <li>
           <title>IN3</title>
           <p>
-            I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer
+            I can use and apply the First and Second Fundamental Theorems of Calculus to compute definite integrals or their derivatives.
           </p>
         </li>
         <li>
           <title>IN4</title>
           <p>
-            I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus
+            I can use substitution to compute definite or indefinite integrals.
           </p>
         </li>
         <li>
           <title>IN5</title>
           <p>
-            I can use the Second Fundamental Theorem of Calculus to compute definite integrals 
+            I can determine the area between two curves.
           </p>
         </li>
       </dl>
