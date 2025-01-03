@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="I2" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>I2: Approximating Areas</title>
+<section xml:id="IN2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>IN2: Approximating Areas and the Definite Integral</title>
     <objectives>
         <dl>
             <li>
-                <title>I2</title>
+                <title>IN2</title>
                 <p>
-                    I can use Riemann sums to approximate the area under curves and use appropriate notation to do so. 
+                    I can compute exact or approximate values for integrals using Riemann sums, properties of definite integrals, the definition of the definite integral, and geometry 
                 </p>
             </li>
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/I2-prep.ptx" />
+    <xi:include href="./preparation/IN2-prep.ptx" />
 
-    <subsection xml:id="I2-activities">
+    <subsection xml:id="IN2-activities">
         <title>In-Class Activities</title>
 
         <definition xml:id="def-definite-integral-intuitive">
@@ -34,7 +34,7 @@
             </statement>
         </definition>
 
-        <activity xml:id="i-activity-definite-integral-geometry1">
+        <activity xml:id="in-activity-definite-integral-geometry1">
             <introduction>
                 <p>
                     Determine the exact value of the definite integrals below; some potentially helpful geometric formulas are:
@@ -84,12 +84,12 @@
             </task>
         </activity>
 
-        <activity xml:id="i-activity-definite-integral-geometry2">
+        <activity xml:id="in-activity-definite-integral-geometry2">
             <introduction>
                 <p>
                     Use the image below to find the value of the definite integrals below.
                 </p>
-                <figure xml:id="i-activity-definite-integral-geometry2-img">
+                <figure xml:id="in-activity-definite-integral-geometry2-img">
                     <image source="def-integral-geometry1.png"/>
                     <caption>An image of a piecewise function</caption>
                 </figure>
@@ -244,10 +244,10 @@
             </task>
         </activity>
 
-        <activity xml:id="i-activity-riemannsum-intro1">
+        <activity xml:id="in-activity-riemannsum-intro1">
             <introduction>
                 <p>
-                    In <xref ref="i-activity-definite-integral-geometry1"/> and <xref ref="i-activity-definite-integral-geometry2"/>, we were able to use known geometric formulas to find the areas under the curve. However, this is an extreme exception to the usual rule.
+                    In <xref ref="in-activity-definite-integral-geometry1"/> and <xref ref="in-activity-definite-integral-geometry2"/>, we were able to use known geometric formulas to find the areas under the curve. However, this is an extreme exception to the usual rule.
                 </p>
             </introduction>
             <task>
@@ -255,7 +255,7 @@
                     <p>
                         Below is the graph of <m>f(x) = x^2</m> on a grid. Which value does your group feel is the best approximation of <m>\ds \int_0^2 x^2\, dx</m>? Be prepared to defend your group's answer.
                     </p>
-                    <figure xml:id="i-activity-riemannsum-intro1-img1">
+                    <figure xml:id="in-activity-riemannsum-intro1-img1">
                         <caption>A graph of <m>f(x) = x^2</m> on <m>[0,2]</m></caption>
                         <image>
                             <latex-image>
@@ -304,7 +304,7 @@
                     <p>
                         The grid from part (a) has been made finer; which answer does your group feel is closest to the true answer to <m>\ds \int_0^2 x^2\, dx</m>?
                     </p>
-                    <figure xml:id="i-activity-riemannsum-intro1-img2">
+                    <figure xml:id="in-activity-riemannsum-intro1-img2">
                         <caption>A graph of <m>f(x) = x^2</m> on <m>[0,2]</m></caption>
                         <image>
                             <latex-image>
@@ -402,7 +402,7 @@
             </p>
         </remark>
 
-        <activity xml:id="i-activity-riemannsum-1">
+        <activity xml:id="in-activity-riemannsum-1">
             <introduction>
                 <p>
                     Again, consider <m>f(x) = x^2</m> on the interval <m>[0,2]</m>. We will compute <m>L_8</m> and <m>R_8</m>.
@@ -566,7 +566,7 @@
 
         </activity>
 
-        <activity xml:id="i-activity-riemannsum2">
+        <activity xml:id="in-activity-riemannsum2">
             <introduction>
                 <p>
                     Consider a moving car, with increasing velocity.  The velocity was measured every two seconds, and the results collected in the table below.
@@ -634,6 +634,359 @@
                     </p>
                 </statement>
             </task>
+        </activity>
+
+        <remark>
+            <p>
+                Recall that in <xref ref="in-activity-riemannsum-1"/> we approximated the area between the curve <m>f(x) =x^2</m> and the <m>x-</m>axis on the interval <m>[0,2]</m> by approximating <m>\ds \int_0^2 x^2\, dx</m> with left and right rectangles. Part (e) asks: if we want a better approximation (than <m>R_8</m> or <m>L_8</m>), what must be done to the subintervals? What was your group's response?
+            </p>
+        </remark>
+
+        <definition xml:id="def-definite-integral-limit">
+            <title>The Definite Integral (Limit Definition)</title>
+            <idx><h>definite integral (limit definition)</h></idx>            
+            <statement>
+                <p>
+                    Let <m>f(x)</m> be a function with a finite number of discontinuities on the interval <m>[a,b]</m>, none of which are infinite. Then, the <term>definite integral</term> of <m>f(x)</m> on <m>[a,b]</m> is given by
+                    <me>
+                        \ds \int_a^b f(x)\, dx = \lim_{n\to\infty} R_n = \lim_{n\to\infty} \sum_{i=1}^n f(x_i)\Delta x
+                    </me>
+                    A function for which the definite integral exists is said to be <term>integrable</term>.
+                </p>
+            </statement>
+        </definition>
+
+        <theorem xml:id="thm-properties-definite-integral">
+            <title>Properties of the Definite Integral</title>
+            <idx><h>definite integral (properties of)</h></idx>
+            <statement>
+                <p>
+                    Let <m>a,b</m> be real numbers with <m>a \lt b</m>, and let <m>k</m> be a constant. Let <m>f(x)</m> and <m>g(x)</m> be integrable functions on <m>[a,b]</m>. Then,
+                    <ol>
+                        <li>
+                            <p>
+                                <m>
+                                    \ds \int_a^a f(x)\, dx = 0
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    \ds \int_a^b f(x)\, dx = -\int_b^a f(x)\, dx
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    \ds \int_a^b [f(x)\pm g(x)]\, dx = \int_a^b f(x)\, dx \pm \int_a^b g(x)\, dx
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    \ds \int_a^b k\cdot f(x)\, dx = k\cdot \int_a^b f(x)\, dx
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    \ds \int_a^b f(x)\, dx = \int_a^c f(x)\, dx + \int_c^b f(x)\, dx
+                                </m>, for some <m>c</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="in-activity-definite-properties1">
+            <statement>
+                <p>
+                    If <m>\ds \int_0^5 f(x) = 12</m> and <m>\ds \int_0^8 f(x)\, dx = -3</m>, what is <m>\ds \int_5^8 f(x)\, dx</m>?
+                </p>
+            </statement>
+        </activity>
+        
+        <activity xml:id="in-activity-definite-compute1">
+            <introduction>
+                <p>
+                    We will find the exact value of <m>\ds \int_0^2 x^2\, dx </m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is the correct value of <m>\Delta x</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        2
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{2}{4}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{2}{8}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{2}{n}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        In order to compute the height of a rectangle, <m>f(x_i)</m>, first we need to determine the generic expression for an input in the interval, <m>x_i</m>. This formula is given by <m>x_i = a + i\Delta x</m>. Use this fact to determine the correct value of <m>f(x_i)</m>:
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{4i}{n}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{2i^2}{n^2}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{4i^2}{n}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{4i^2}{n^2}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use parts (a) and (b) to write a simplified expression for <m>f(x_i)\Delta x</m>, the area of the <m>i</m>-th rectangle in the subinterval.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The next part of the definition of the definite integral finds the approximation of the area under the curve on the entire interval, <m>R_n</m>. In order to compute it, we need to know two facts:
+                        <ul>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \sum_{i=1}^n c\cdot a_i = c\cdot \sum_{i=1}^n a_i
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \sum_{i=1}^n i^2 = \dfrac{n(n+1)(2n+1)}{6}
+                                    </m>
+                                </p>
+                            </li>
+                        </ul>
+                        Use these facts to show that 
+                        <me>
+                            R_n = \dfrac{8}{n^3}\cdot \dfrac{n(n+1)(2n+1)}{6}
+                        </me>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        We can now complete the definition of the integral by computing <m>\ds \lim_{n\to\infty} R_n</m>. Which is the correct value of the limit?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{8}{6}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{8}{3}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{1}{3}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \infty
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="in-activity-definite-compute2">
+            <statement>
+                <p>
+                    Use the following facts and <xref ref="thm-properties-definite-integral"/> to show that <m>\ds \int_1^3 x + 3\, dx = 10</m>
+                    <ul>
+                        <li>
+                            <p>
+                                <m>\ds \sum_{i=1}^n i = \dfrac{n(n+1)}{2}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\ds \sum_{i=1}^n i^2 = \dfrac{n(n+1)(2n+1)}{6}</m>
+                            </p>
+                        </li>
+                    </ul>  
+                </p>
+            </statement>
+            
+        </activity>
+
+        <activity xml:id="in-activity-definite-interp1">
+            
+            <introduction>
+                <p>
+                    An object falls under constant acceleration in free-fall; on Earth, acceleration due to gravity is <m>-9.8</m> m/s<m>^2</m>. So, let <m>a(t) = -9.8</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which option gives <m>v(t)</m>, the antiderivative of <m>a(t)</m>, and its proper units?
+                    </p>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>9.8t</m> m/s
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>9.8</m> m/s<m>^2</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>9.8t</m> m/s<m>^2</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>9.8</m> m/s
+                            </p>
+                        </li>
+                    </ol>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\ds \int_0^1 v(t)\, dt</m>. What are the units of the integral?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Your answer in (b) has a physical meaning; which is it?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    The change in velocity between <m>t=0</m> and <m>t=1</m> seconds
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The change in position between <m>t=0</m> and <m>t=1</m> seconds
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The position after 1 second
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The velocity after 1 second
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="in-activity-definite-interp2">
+            <statement>
+                <p>
+                    The function <m>P(x)</m> represents the rate of change of population (in people per year) in a quiet mountain town. At <m>x=0</m> years after 2000, the town's population was 15000; suppose that <m>\ds \int_0^{10} P(x)\, dx = -1210</m>. Which interpretation is most correct?
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                In 2010, the population was decreasing by 1210 people per year
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                In 2010, there were -1210 people
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Between 2000 and 2010, the population decreased by 1210 people per year
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Between 2000 and 2010, the population decreased by 1210 people
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
         </activity>
     </subsection>
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-I" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Integrals (I)</title>
+  <title>Integrals (IN)</title>
 
   <objectives>
     <introduction>
@@ -11,48 +11,35 @@
     </introduction>
       <dl>
         <li>
-          <title>I1</title>
+          <title>IN1</title>
           <p>
             I can compute the indefinite integral/antiderivative of a function using rules and appropriate notation
           </p>
         </li>
         <li>
-          <title>I2</title>
+          <title>IN2</title>
           <p>
             I can use Riemann sums to approximate the area under curves and use appropriate notation to do so
           </p>
         </li>
         <li>
-          <title>I3</title>
+          <title>IN3</title>
           <p>
             I can compute definite integrals using the definition of the definite integral, geometry, or properties and contextually interpret my answer
           </p>
         </li>
         <li>
-          <title>I4</title>
+          <title>IN4</title>
           <p>
             I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus
           </p>
         </li>
         <li>
-          <title>I5</title>
+          <title>IN5</title>
           <p>
             I can use the Second Fundamental Theorem of Calculus to compute definite integrals 
           </p>
         </li>
-        <li>
-          <title>I6</title>
-          <p>
-            I can use substitution to compute definite or indefinite integrals
-          </p>
-        </li>
-        <li>
-          <title>I7</title>
-          <p>
-            I can determine the area between two curves
-          </p>
-        </li>
-
       </dl>
   </objectives>
   
@@ -60,12 +47,10 @@
 
   <!-- include sections -->
   <xi:include href="./readiness.ptx" />
-  <xi:include href="./I1.ptx" />
-  <xi:include href="./I2.ptx" />
-  <xi:include href="./I3.ptx" />
-  <xi:include href="./I4.ptx" />
-  <xi:include href="./I5.ptx" />
-  <xi:include href="./I6.ptx" />
-  <xi:include href="./I7.ptx" />
+  <xi:include href="./IN1.ptx" />
+  <xi:include href="./IN2.ptx" />
+  <xi:include href="./IN3.ptx" />
+  <xi:include href="./IN4.ptx" />
+  <xi:include href="./IN5.ptx" />
 
 </chapter>

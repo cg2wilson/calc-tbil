@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="I1" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>I1: Antiderivatives</title>
+<section xml:id="IN1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>IN1: Antiderivatives</title>
     <objectives>
         <dl>
             <li>
-                <title>I1</title>
+                <title>IN1</title>
                 <p>
                     I can compute the indefinite integral/antiderivative of a function using rules and appropriate notation.
                 </p>
@@ -13,9 +13,9 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/I1-prep.ptx" />
+    <xi:include href="./preparation/IN1-prep.ptx" />
 
-    <subsection xml:id="I1-activities">
+    <subsection xml:id="IN1-activities">
         <title>In-Class Activities</title>
 
         <definition xml:id="def-antiderivative">
@@ -33,7 +33,7 @@
             </statement>
         </definition>
 
-        <activity xml:id="i-activity-antiderivative1">
+        <activity xml:id="in-activity-antiderivative1">
             <statement>
                 <p>
                     Which of the following could be antiderivatives for the function <m>f(x) = \cos (x)</m>? In other words, which option or options could be a solution to 
@@ -103,7 +103,7 @@
             </statement>
         </activity>
 
-        <activity>
+        <activity xml:id="in-activity-powerrule">
             <introduction>
                 <p>
                     This activity will develop the power rule for indefinite integrals.
@@ -238,10 +238,11 @@
 
         <remark>
             <p>
-                We now note that whenever we know the derivative of a function, we have a <em>function-derivative pair</em>, so we also know the antiderivative of a function. For instance, we determined a derivative pair in <xref ref="i-activity-antiderivative1"/>. Every elementary derivative rule leads us to a function-derivative pair, and thus to a known antiderivative/indefinite integral.
+                We now note that whenever we know the derivative of a function, we have a <em>function-derivative pair</em>, so we also know the antiderivative of a function. For instance, we determined a derivative pair in <xref ref="in-activity-antiderivative1"/>. Every elementary derivative rule leads us to a function-derivative pair, and thus to a known antiderivative/indefinite integral.
             </p>
         </remark>
-        <activity>
+
+        <activity xml:id="in-activity-antiderivative2">
             <statement>
                 <p>
                     In the following activity, we work to build a list of basic functions whose antiderivatives we may already know.
@@ -441,7 +442,7 @@
             </tabular>
         </table>
 
-        <activity xml:id="i-activity-antiderivatives3">
+        <activity xml:id="in-activity-antiderivatives3">
             <introduction>
                 <p>
                     The Sum/Difference and Constant Multiple rules for derivatives also apply to indefinite integrals:
@@ -496,7 +497,7 @@
             </task>
         </activity>
 
-        <activity xml:id="i-activity-ivp1">
+        <activity xml:id="in-activity-ivp1">
             <introduction>
                 <p>
                     When integrating, we must include the <m>+C</m> term because, without extra information, we can't know the antiderivative for certain. However, we <em>can</em> do this once we know information about the antiderivative. These kinds of problems, called <em>initial value problems</em>, are a type of <em>ordinary differential equation</em>.
@@ -612,7 +613,7 @@
             </task>
         </activity>
 
-        <activity xml:id="i-activity-ivp2">
+        <activity xml:id="in-activity-ivp2">
             <introduction>
                 <p>
                     One of the applications of initial value problems is calculating the distance traveled from a point based on the velocity of the object, or computing velocity given acceleration.  
@@ -707,7 +708,7 @@
             </task>
         </activity>
 
-        <activity xml:id="i-activity-kinematic">
+        <activity xml:id="in-activity-kinematic">
             <introduction>
                 <p>
                     Knowing that acceleration due to gravity is given by <m>a(t) = -9.8</m> m/s<m>^2</m>, for an object with initial velocity <m>v_0</m> and initial position <m>s_0</m>, write an expression which gives the object's position at time <m>t</m>.

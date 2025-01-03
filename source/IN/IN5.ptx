@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="I7" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>I7: Area Between Curves</title>
+<section xml:id="IN5" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>IN5: Computing Definite Integrals</title>
     <objectives>
         <dl>
             <li>
-                <title>I7</title>
+                <title>IN5</title>
                 <p>
                     I can determine the area between two curves.
                 </p>
@@ -13,10 +13,12 @@
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/I7-prep.ptx" />
+    <xi:include href="./preparation/IN5-prep.ptx" />
 
-    <subsection xml:id="I7-activities">
+    <subsection xml:id="IN5-activities">
         <title>In-Class Activities</title>
+
+        
 
     </subsection>
 

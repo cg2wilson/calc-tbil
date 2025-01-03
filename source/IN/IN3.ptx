@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="I4" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>I4: Derivatives of Integrals</title>
+<section xml:id="IN3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>IN3: The Fundamental Theorem of Calculus</title>
     <objectives>
         <dl>
             <li>
-                <title>I4</title>
+                <title>IN3</title>
                 <p>
-                    I can compute the derivative of an integral-valued function using the First Fundamental Theorem of Calculus
+                    I can use and apply the First and Second Fundamental Theorems of Calculus to compute definite integrals or their derivatives.
                 </p>
             </li>
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/I4-prep.ptx" />
-    
-    <subsection xml:id="I4-activities">
+    <xi:include href="./preparation/IN3-prep.ptx" />
+
+    <subsection xml:id="IN3-activities">
         <title>In-Class Activities</title>
 
         <remark>
             <p>
-                In <xref ref="I2"/> and <xref ref="I3"/>, we established a connection between the definite integral and accumulation of change. The theorem below, the <term>First Fundamental Theorem of Calculus</term>, establishes a link between rates of change (derivatives) and accumulations of change (definite integrals).
+                In <xref ref="IN2"/> , we established a connection between the definite integral and accumulation of change. The theorem below, the <term>First Fundamental Theorem of Calculus</term>, establishes a link between rates of change (derivatives) and accumulations of change (definite integrals).
             </p>
         </remark>
 
@@ -35,7 +35,7 @@
         </theorem>
         
 
-        <activity xml:id="i-activity-ftc1-intuition1">
+        <activity xml:id="in-activity-ftc1-intuition1">
             <introduction>
                 <p>
                     This activity will bring some intuition to <xref ref="thm-ftc1"/>
@@ -43,7 +43,7 @@
                 <p>
                     The function <m>f</m> is given in the graph below.  Define the function <m>g(x) = \ds \int_0^x f(t)\, dt</m>.
                 </p>
-                <figure xml:id="i-activity-ftc1-intuition1-img">
+                <figure xml:id="in-activity-ftc1-intuition1-img">
                     <caption>The piecewise function <m>f(x)</m></caption>
                     <image>
                         <latex-image>
@@ -140,7 +140,7 @@
             </p>
         </remark>
 
-        <activity xml:id="i-activity-ftc1-compute-normal">
+        <activity xml:id="in-activity-ftc1-compute-normal">
             <introduction>
                 <p>
                     Compute the derivatives of the following integrals.
@@ -175,7 +175,7 @@
             </task>
         </activity>
 
-        <activity xml:id="i-activity-ftc1-compute-chain">
+        <activity xml:id="in-activity-ftc1-compute-chain">
             <introduction>
                 <p>
                     This activity will generalize <xref ref="thm-ftc1"/> to allow for <em>functions</em> in the upper bound of the integral. Consider the function <m>g(x) = \ds \int_a^x f(t)\, dt</m>.
@@ -301,7 +301,7 @@
             </task>
         </activity>
         
-        <activity xml:id="i-activity-ftc1-compute1">
+        <activity xml:id="in-activity-ftc1-compute1">
             <introduction>
                 <p>
                     Find the derivative of the following.
@@ -336,12 +336,12 @@
             </task>
         </activity>
 
-        <activity xml:id="i-activity-ftc1-compute2">
+        <activity xml:id="in-activity-ftc1-compute2">
             <introduction>
                 <p>
                     Use the image below to answer the following questions, knowing that <m>g(x) = \ds \int_0^x f(t)\, dt</m>
                 </p>
-                <figure xml:id="i-activity-ftc1-compute2-fig">
+                <figure xml:id="in-activity-ftc1-compute2-fig">
                     <caption>An accumulation function</caption>
                     <image>
                         <latex-image>
@@ -379,6 +379,119 @@
                     </p>
                 </statement>
             </task>
+        </activity>
+        
+        <remark>
+            <p>
+                <xref ref="IN2"/> has us compute integrals by hand; this process is tedious, and can be avoided by using <xref ref="thm-ftc2"/>.
+            </p>
+        </remark>
+
+        <theorem xml:id="thm-ftc2">
+            <title>Fundamental Theorem of Calculus (Part 2)</title>
+            <idx><h>fundamental theorem of calculus (part 2)</h></idx>
+            <statement>
+                <p>
+                    If <m>f(x)</m> is continuous on <m>[a,b]</m> with antiderivative <m>F(x)</m> on <m>[a,b]</m>, then
+                    <me>
+                        \ds \int_a^b f(x)\, dx = F(b) - F(a)
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="in-activity-ftc2-1">
+            <introduction>
+                <p>
+                    Compute the value of each definite integral below.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_{-2}^1 x^3\,dx
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_0^{1} \dfrac{1}{1+x^2}\, dx
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_1^3 (x^2+2x-4)\, dx
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_1^e \dfrac{1}{x} + e^x\, dx
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_1^9 \sqrt{x}\,dx
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_{\pi/4}^{\pi/3} \csc^2\theta\, d\theta
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_{\pi/6}^{\pi/2}\csc t\cot t\, dt
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Determine <m>\ds \int_{-\pi/4}^{\pi/2} \cos x - \sin x\, dx</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="in-activity-ftc2-continuity">
+            <statement>
+                <p>
+                    Is the statement <m>\ds \int_{-1}^1 \dfrac{1}{x^3}\, dx = 0</m> correct?  Why or why not?
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="in-activity-ftc2-3">
+            <statement>
+                <p>
+                    Find the area bounded by the curves <m>y = e^x-2</m>, <m>x=0</m> and <m>x=1</m>.
+                </p>
+            </statement>
         </activity>
     </subsection>
 

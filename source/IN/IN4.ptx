@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="I6" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>I6: Substitution</title>
+<section xml:id="IN4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>IN4: Substitution</title>
     <objectives>
         <dl>
             <li>
-                <title>I6</title>
+                <title>IN4</title>
                 <p>
-                    I can use substitution to compute definite or indefinite integrals
+                    I can use substitution to compute definite or indefinite integrals.
                 </p>
             </li>
         </dl>
     </objectives>
 
-    <xi:include href="./preparation/I6-prep.ptx" />
-
-    <subsection xml:id="I6-activities">
+    <xi:include href="./preparation/IN4-prep.ptx" />
+    
+    <subsection xml:id="IN4-activities">
         <title>In-Class Activities</title>
 
-        <activity xml:id="i-activity-substitution-intuition">
+        <activity xml:id="in-activity-substitution-intuition">
             <introduction>
                 <p>
                     Let <m>f(x) = \sin(x^3+1)</m>
@@ -87,7 +87,7 @@
             </statement>
         </theorem>
         
-        <activity xml:id="i-activity-substitution-practice1">
+        <activity xml:id="in-activity-substitution-practice1">
             <statement>
                 <p>
                     Find the general antiderivative of <m>f(x) = \sin (2x)</m>
@@ -95,7 +95,7 @@
             </statement>
         </activity>
 
-        <activity xml:id="i-activity-substitution-bounds">
+        <activity xml:id="in-activity-substitution-bounds">
             <introduction>
                 <p>
                     The process of substitution changes the integral from being in terms of the original variable to a <em>substitution variable</em>, often <m>u</m>. This means that ALL references to the original variable must be removed when we substitute.
@@ -218,9 +218,8 @@
                 </statement>
             </task>
         </activity>
-    </subsection>
 
-    <activity xml:id="i-activity-substitution-practice2">
+        <activity xml:id="in-activity-substitution-practice2">
         <introduction>
             <p>
                 Compute the integrals below.
@@ -253,177 +252,179 @@
                 </p>
             </statement>
         </task>
-    </activity>
+        </activity>
 
-    <activity xml:id="i-activity-substitution-practice3">
-        <introduction>
-            <p>
-                Determine the answer to each of the following integrals.
-            </p>
-        </introduction>
-        <task>
-            <statement>
+        <activity xml:id="in-activity-substitution-practice3">
+            <introduction>
                 <p>
-                    <m>
-                        \ds \int 54x\sqrt{9x^2+5}\, dx
-                    </m>
-                    <!--
-                    <ol marker="A." cols="2">
-                        <li>
-                            <p>
-                                <m>
-                                    1
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    2
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    3
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    4
-                                </m>
-                            </p>
-                        </li>
-                    </ol>
-                    -->
+                    Determine the answer to each of the following integrals.
                 </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    <m>
-                        \ds \int_0^4 \sqrt{2x+1}\, dx
-                    </m>
-                    <!--
-                    <ol marker="A." cols="2">
-                        <li>
-                            <p>
-                                <m>
-                                    1
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    2
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    3
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    4
-                                </m>
-                            </p>
-                        </li>
-                    </ol>
-                    -->
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    <m>
-                        \ds \int \dfrac{\cos(t)}{\sin^2(t)}\, dt
-                    </m>
-                    <!--
-                    <ol marker="A." cols="2">
-                        <li>
-                            <p>
-                                <m>
-                                    1
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    2
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    3
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    4
-                                </m>
-                            </p>
-                        </li>
-                    </ol>
-                    -->
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    <m>
-                        \ds \int_0^1 xe^{4x^2+3}\, dx
-                    </m>
-                    <!--
-                    <ol marker="A." cols="2">
-                        <li>
-                            <p>
-                                <m>
-                                    1
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    2
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    3
-                                </m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>
-                                    4
-                                </m>
-                            </p>
-                        </li>
-                    </ol>
-                    -->
-                </p>
-            </statement>
-        </task>
-    </activity>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int 54x\sqrt{9x^2+5}\, dx
+                        </m>
+                        <!--
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        1
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        2
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        4
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                        -->
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_0^4 \sqrt{2x+1}\, dx
+                        </m>
+                        <!--
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        1
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        2
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        4
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                        -->
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int \dfrac{\cos(t)}{\sin^2(t)}\, dt
+                        </m>
+                        <!--
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        1
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        2
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        4
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                        -->
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \int_0^1 xe^{4x^2+3}\, dx
+                        </m>
+                        <!--
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        1
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        2
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        4
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                        -->
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </subsection>
+
 </section>
