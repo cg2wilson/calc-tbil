@@ -423,8 +423,9 @@
                 </task>
                 <task>
                     <statement>
-                        Which of the following values is the derivative of <m>a \circ b</m> at <m> x=2 </m>?
                         <p>
+                        Which of the following values is the derivative of <m>a \circ b</m> at <m> x=2 </m>?
+                        
                             <ol marker="A." cols="2">
                                 <li>
                                     <p>
@@ -462,8 +463,9 @@
                 </task>
                 <task>
                     <statement>
-                        Which of the following values is the derivative of <m>b \circ a</m> (different order!) at <m>x=-2 </m>?
                         <p>
+                        Which of the following values is the derivative of <m>b \circ a</m> (different order!) at <m>x=-2 </m>?
+                        
                             <ol marker="A." cols="2">
                                 <li>
                                     <p>

@@ -102,14 +102,14 @@
             <task>
                 <statement>
                     <p>
-                        To find the derivative of both sides of the equation, we think of <m>y</m> as a function of <m>x</m>, i.e. <m><q>y</q>  = y(x)</m>. Find the derivative, <m>\dfrac{dy}{dx}</m> by replacing every instance of <m>y</m> with <m>y(x)</m> and thinking about the chain rule.
+                        To find the derivative of both sides of the equation, we think of <m>y</m> as a function of <m>x</m>, i.e. <m>y = y(x)</m>. Find the derivative, <m>\dfrac{dy}{dx}</m> by replacing every instance of <m>y</m> with <m>y(x)</m> and thinking about the chain rule.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Now think of <m>x</m> as a function of <m>y</m>, i.e. <m><q>x</q> = x(y)</m>. Which represents the derivative, <m>\dfrac{dx}{dy}</m>?
+                        Now think of <m>x</m> as a function of <m>y</m>, i.e. <m>x = x(y)</m>. Which represents the derivative, <m>\dfrac{dx}{dy}</m>?
                         <ol marker="A." cols="2">
                             <li>
                                 <p>
@@ -138,7 +138,7 @@
             <task>
                 <statement>
                     <p>
-                        Now reconsider <m>x^2 + y^2 = 64</m>. If <em>both</em> <m>x</m> and <m>y</m> are functions of a separate variable <m>t</m>, i.e. <m><q>x</q> = x(t)</m> and <m><q>y</q> = y(t)</m>, which expression represents <m>\dfrac{dy}{dt}</m>?
+                        Now reconsider <m>x^2 + y^2 = 64</m>. If <em>both</em> <m>x</m> and <m>y</m> are functions of a separate variable <m>t</m>, i.e. <m>x = x(t)</m> and <m>y = y(t)</m>, which expression represents <m>\dfrac{dy}{dt}</m>?
                         <ol marker="A.">
                             <li>
                                 <p>
