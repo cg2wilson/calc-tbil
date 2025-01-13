@@ -1852,7 +1852,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.6",
   "title": "DE6: The Chain Rule",
-  "body": " DE6: The Chain Rule     DE6  I can use the chain rule to compute the derivative of composite functions, as well as in conjunction with other rules      Pre-Class Preparation  Read the following sections of the text:    Section 3.6: The Chain Rule    Read all sections     Read the material about function composition in        In-Class Activities   Notation  When a function inputs a number as its argument (also known as input), we write an expression like or .  We can extend this idea. If takes a function  as its input, we write either      Let and .    Which of the following is a formula for ?                          One of the options above is a formula for . Which one?      Consider the composite function .    Which function is the outside function and which one is the inside function ?                          Using properties of exponents, we can rewrite the original function as . Using this new expression, what is your new inside function and your new outside function?    Consider the function . In this case, what are the inside and outside functions?      In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.  My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns. Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?    The scenario gives you information regarding the rate of growth of , the squirrel population as a function of acorn availability (measured in bushels). What is the current value of ?   2    100    200    50       The scenario gives you information regarding the rate of growth of , the acorn availability as a function of time (measured in weeks). What is the current value of ?   2    100    200    50       Given all the information provided, what is your best guess for the value of , the rate at which the squirrel population is growing per week?   2    100    200    50       Given your answers above, what is the relationship between ?     Chain Rule   For the composite function ,   In Leibniz notation, if we consider the composite function , where and , then       Consider the function and . Notice that .    Which of the following is the derivative function of the composite function ?                          One of the options above is a formula for . Which one? Notice that this is not the same as the derivative of !      Consider the composite function . For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to ? Select all!                                      Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.      Which of the following values is the derivative of at ?                             The derivative does not exist at this point.      Which of the following values is the derivative of (different order!) at ?                             The derivative does not exist at this point.         In this activity you will study the derivative of for different powers .    Consider the function . Combining power and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider , for arbitary . Find the general formula for its derivative.      In this activity you will study the derivative of for different bases .    Consider the function . Combining exponential and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider the function for . Find the general formula for its derivative.      Find the derivative of the following functions.                               Now that we've learned the chain rule, we can tackle some derivatives using generic functions rather than specific ones.    Let . Which of the following is the correct expression for ?                          If , , and , what must be the value of ?      Use the table below to find the derivatives                                                                                                             if      if      if      "
+  "body": " DE6: The Chain Rule     DE6  I can use the chain rule to compute the derivative of composite functions, as well as in conjunction with other rules      Pre-Class Preparation  Read the following sections of the text:    Section 3.6: The Chain Rule    Read all sections     Read the material about function composition in        In-Class Activities   Notation  When a function inputs a number as its argument (also known as input), we write an expression like or .  We can extend this idea. If takes a function  as its input, we write either      Let and .    Which of the following is a formula for ?                          One of the options above is a formula for . Which one?      Consider the composite function .    Which function is the outside function and which one is the inside function ?                          Using properties of exponents, we can rewrite the original function as . Using this new expression, what is your new inside function and your new outside function?    Consider the function . In this case, what are the inside and outside functions?      In this activity we will build the intuition for the chain rule using a real-world scenario and differential notation for derivatives. Consider the following scenario.  My neighborhood is being invaded! The squirrel population grows based on acorn availability, at a rate of 2 squirrels per bushel of acorns. Acorn availability grows at a rate of 100 bushels of acorns per week. How fast is the squirrel population growing per week?    The scenario gives you information regarding the rate of growth of , the squirrel population as a function of acorn availability (measured in bushels). What is the current value of ?   2    100    200    50       The scenario gives you information regarding the rate of growth of , the acorn availability as a function of time (measured in weeks). What is the current value of ?   2    100    200    50       Given all the information provided, what is your best guess for the value of , the rate at which the squirrel population is growing per week?   2    100    200    50       Given your answers above, what is the relationship between ?     Chain Rule   For the composite function ,   In Leibniz notation, if we consider the composite function , where and , then       Consider the function and . Notice that .    Which of the following is the derivative function of the composite function ?                          One of the options above is a formula for . Which one? Notice that this is not the same as the derivative of !      Consider the composite function . For each of the two expressions, find the derivative using the chain rule. Which of the following expressions are equal to ? Select all!                                      Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.       Which of the following values is the derivative of at ?                            The derivative does not exist at this point.       Which of the following values is the derivative of (different order!) at ?                            The derivative does not exist at this point.         In this activity you will study the derivative of for different powers .    Consider the function . Combining power and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider , for arbitary . Find the general formula for its derivative.      In this activity you will study the derivative of for different bases .    Consider the function . Combining exponential and chain rule, what do you get if you differentiate ?                          Consider the function . Find its derivative.    Now consider the function for . Find the general formula for its derivative.      Find the derivative of the following functions.                               Now that we've learned the chain rule, we can tackle some derivatives using generic functions rather than specific ones.    Let . Which of the following is the correct expression for ?                          If , , and , what must be the value of ?      Use the table below to find the derivatives                                                                                                             if      if      if      "
 },
 {
   "id": "DE6-2",
@@ -1933,7 +1933,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.6.6",
   "title": "",
-  "body": "  Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.      Which of the following values is the derivative of at ?                             The derivative does not exist at this point.      Which of the following values is the derivative of (different order!) at ?                             The derivative does not exist at this point.      "
+  "body": "  Below you are given the graphs of two functions: and . Use the graphs to compute vaules of composite functions and of their derivatives, when possible (there are points where the derivative of these functions is not defined!). Notice that to compute the derivative at a point, you first want to find the derivative as a function of and then plug in the input you want to study.   The graphs of two piecewise functions        Notice that the derivative of is given by , so the derivative of at is given by the quantity , because . Using the graphs to compute slopes, what is the derivative of at ?                            The derivative does not exist at this point.       Which of the following values is the derivative of at ?                            The derivative does not exist at this point.       Which of the following values is the derivative of (different order!) at ?                            The derivative does not exist at this point.      "
 },
 {
   "id": "de-deriv-chainrule-chainpower",
@@ -4183,7 +4183,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.3",
   "title": "PD3: Partial Derivatives",
-  "body": " PD3: Partial Derivatives     PD3  Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface      Pre-Class Preparation  Read the following sections of the text:    Section 4.3: Partial Derivatives    Read all sections      Section 4.4: Tangent Planes and Linear Approximations    Read the \"Tangent Planes\" section only        In-Class Activities    A metal rod lying along the axis is heated unevenly. Assume that its temperature is a function of its distance from the origin, so that the input is given by cm and the output, , is given in degrees Celsius. The temperature of the rod is given in the table below.     cm  0  1  2  3  4  5     125  128  135  160  175  160      Which expression will approximate the derivative ?                          Compute , and include proper units.      Now consider an unevenly heated plate, whose corner lies at the origin, as in the image below.     The temperature at certain points is given by the table below.    3  85  90  110  135  155  180    2  100  110  120  145  190  170    1  125  128  135  160  175  160    0  120  135  155  160  160  150      0  1  2  3  4  5    Let give the temperature at a point on the plate, and let , where is a fixed number. is measured in feet, and is measured in meters.    In order to compute the rate of change at a specific point, we need to analyze how the function changes in a specific direction. We accomplish this by looking along specific vertical slices of the function.  Fix , so that . Which expression correctly identifies ?                          If , evaluate . What are the units associated to ?    \/m     \/ft    ft\/     m\/        If instead we look at the rate of change in the direction at , which would be the expression we should compute?                          Compute the rate of change in the direction, and include appropriate units.     Partial Derivative   Let be a function of two variables. The partial derivative of with respect to , written as or , is given by the limit The partial derivative of with respect to is written as or , and is given by the limit       Let     Which expression correctly sets up ?                          Evaluate .    Evaluate     Compare and contrast your answers to (b) and (c). What do they tell you about how the function is changing at ?     Partial derivatives can be computed like single-variable derivatives by holding the other variables constant and differentiating.  For example, if , can be visualized as     "
+  "body": " PD3: Partial Derivatives     PD3  Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface      Pre-Class Preparation  Read the following sections of the text:    Section 4.3: Partial Derivatives    Read all sections      Section 4.4: Tangent Planes and Linear Approximations    Read the \"Tangent Planes\" section only        In-Class Activities    A metal rod lying along the axis is heated unevenly. Assume that its temperature is a function of its distance from the origin, so that the input is given by cm and the output, , is given in degrees Celsius. The temperature of the rod is given in the table below.     cm  0  1  2  3  4  5     125  128  135  160  175  160      Which expression will approximate the derivative ?                          Compute , and include proper units.      Now consider an unevenly heated plate, whose corner lies at the origin, as in the image below.     The temperature at certain points is given by the table below.    3  85  90  110  135  155  180    2  100  110  120  145  190  170    1  125  128  135  160  175  160    0  120  135  155  160  160  150      0  1  2  3  4  5    Let give the temperature at a point on the plate, and let , where is a fixed number. is measured in feet, and is measured in meters.    In order to compute the rate of change at a specific point, we need to analyze how the function changes in a specific direction. We accomplish this by looking along specific vertical slices of the function.  Fix , so that . Which expression correctly identifies ?                          If , evaluate . What are the units associated to ?    \/m     \/ft    ft\/     m\/        If instead we look at the rate of change in the direction at , which would be the expression we should compute?                          Compute the rate of change in the direction, and include appropriate units.     Partial Derivative   Let be a function of two variables. The partial derivative of with respect to , written as or , is given by the limit The partial derivative of with respect to is written as or , and is given by the limit       Let     Which expression correctly sets up ?                          Evaluate .    Evaluate     Compare and contrast your answers to (b) and (c). What do they tell you about how the function is changing at ?     Partial derivatives can be computed like single-variable derivatives by holding the other variables constant and differentiating.  For example, if , can be visualized as   The partial derivatives and are called first-order partial derivatives .     Let .    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at       Let .    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at ?     A second-order partial derivative is similar to a second derivative from Calculus 1; however, now we must consider all possible second derivatives.     Consider a function of 4 variables, . How many second-order partial derivatives will have?   2    4    8    16         Let .    Find all first-order partial derivatives for .    There are four partial derivatives of . Compute them.    What relationship do you notice between the second partial derivatives?      Compute all four second partial derivatives of the function      The notation for second derivatives can be a little tricky. For a function of two variables, , there are four cases:   First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or      Functions with more than two inputs have a similar convention for notating their partial derivatives.    Tangent Plane    Let be a surface defined by the differentiable function , and let be a point in the domain of . Then, the equation of the tangent plane to at is given by      The definition of a tangent plane is a natural extension of the linearization of a single-variable function at the input :      Consider the surface given by .    Compute the first-order partial derivatives for     Use to compute the equation of the tangent plane at the point .     "
 },
 {
   "id": "PD3-2",
@@ -4237,7 +4237,97 @@ var ptx_lunr_docs = [
   "type": "Remark",
   "number": "10.3.2",
   "title": "",
-  "body": " Partial derivatives can be computed like single-variable derivatives by holding the other variables constant and differentiating.  For example, if , can be visualized as   "
+  "body": " Partial derivatives can be computed like single-variable derivatives by holding the other variables constant and differentiating.  For example, if , can be visualized as   The partial derivatives and are called first-order partial derivatives .  "
+},
+{
+  "id": "pd-partialderivative-compute2",
+  "level": "2",
+  "url": "PD3.html#pd-partialderivative-compute2",
+  "type": "Activity",
+  "number": "10.3.4",
+  "title": "",
+  "body": "  Let .    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at    "
+},
+{
+  "id": "pd-partialderivative-compute3",
+  "level": "2",
+  "url": "PD3.html#pd-partialderivative-compute3",
+  "type": "Activity",
+  "number": "10.3.5",
+  "title": "",
+  "body": "  Let .    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at ?   "
+},
+{
+  "id": "PD3-activities-9",
+  "level": "2",
+  "url": "PD3.html#PD3-activities-9",
+  "type": "Remark",
+  "number": "10.3.3",
+  "title": "",
+  "body": " A second-order partial derivative is similar to a second derivative from Calculus 1; however, now we must consider all possible second derivatives.  "
+},
+{
+  "id": "pd-partialderivative-secondorder",
+  "level": "2",
+  "url": "PD3.html#pd-partialderivative-secondorder",
+  "type": "Activity",
+  "number": "10.3.6",
+  "title": "",
+  "body": "  Consider a function of 4 variables, . How many second-order partial derivatives will have?   2    4    8    16      "
+},
+{
+  "id": "pd-partialderivative-firstsecond1",
+  "level": "2",
+  "url": "PD3.html#pd-partialderivative-firstsecond1",
+  "type": "Activity",
+  "number": "10.3.7",
+  "title": "",
+  "body": "  Let .    Find all first-order partial derivatives for .    There are four partial derivatives of . Compute them.    What relationship do you notice between the second partial derivatives?   "
+},
+{
+  "id": "pd-partialderivative-firstsecond2",
+  "level": "2",
+  "url": "PD3.html#pd-partialderivative-firstsecond2",
+  "type": "Activity",
+  "number": "10.3.8",
+  "title": "",
+  "body": "  Compute all four second partial derivatives of the function    "
+},
+{
+  "id": "PD3-activities-13",
+  "level": "2",
+  "url": "PD3.html#PD3-activities-13",
+  "type": "Remark",
+  "number": "10.3.4",
+  "title": "",
+  "body": " The notation for second derivatives can be a little tricky. For a function of two variables, , there are four cases:   First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or      Functions with more than two inputs have a similar convention for notating their partial derivatives.  "
+},
+{
+  "id": "def-tangent-plane",
+  "level": "2",
+  "url": "PD3.html#def-tangent-plane",
+  "type": "Definition",
+  "number": "10.3.5",
+  "title": "Tangent Plane.",
+  "body": " Tangent Plane    Let be a surface defined by the differentiable function , and let be a point in the domain of . Then, the equation of the tangent plane to at is given by    "
+},
+{
+  "id": "PD3-activities-15",
+  "level": "2",
+  "url": "PD3.html#PD3-activities-15",
+  "type": "Remark",
+  "number": "10.3.6",
+  "title": "",
+  "body": " The definition of a tangent plane is a natural extension of the linearization of a single-variable function at the input :   "
+},
+{
+  "id": "pd-tangentplane1",
+  "level": "2",
+  "url": "PD3.html#pd-tangentplane1",
+  "type": "Activity",
+  "number": "10.3.9",
+  "title": "",
+  "body": "  Consider the surface given by .    Compute the first-order partial derivatives for     Use to compute the equation of the tangent plane at the point .   "
 },
 {
   "id": "PD4",
@@ -4389,8 +4479,8 @@ var ptx_lunr_docs = [
   "url": "VF1.html",
   "type": "Section",
   "number": "12.1",
-  "title": "VF1: Double Integrals in Cartesian Coordinates",
-  "body": " VF1: Double Integrals in Cartesian Coordinates     VF1  I can parametrize curves and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 1.1: Parametric Equations    Read all sections      Section 1.2: Calculus of Parametric Curves    Read all sections        In-Class Activities   "
+  "title": "VF1: Parametrizing Curves",
+  "body": " VF1: Parametrizing Curves     VF1  I can parametrize curves and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 1.1: Parametric Equations    Read all sections      Section 1.2: Calculus of Parametric Curves    Read all sections        In-Class Activities   "
 },
 {
   "id": "VF1-2",
@@ -4407,8 +4497,8 @@ var ptx_lunr_docs = [
   "url": "VF2.html",
   "type": "Section",
   "number": "12.2",
-  "title": "VF2: Double Integrals in Polar Coordinates",
-  "body": " VF2: Double Integrals in Polar Coordinates     VF2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Vector-Valued Functions and Space Curves    Read all sections      Section 3.2: Calculus of Vector-Valued Functions    Read all sections      Section 3.3: Arc Length and Curvature    Read until \"Curvature\"        In-Class Activities   "
+  "title": "VF2: Vector-Valued Functions",
+  "body": " VF2: Vector-Valued Functions     VF2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Vector-Valued Functions and Space Curves    Read all sections      Section 3.2: Calculus of Vector-Valued Functions    Read all sections      Section 3.3: Arc Length and Curvature    Read until \"Curvature\"        In-Class Activities   "
 },
 {
   "id": "VF2-2",
@@ -4425,8 +4515,8 @@ var ptx_lunr_docs = [
   "url": "VF3.html",
   "type": "Section",
   "number": "12.3",
-  "title": "VF3: Triple Integrals in Cartesian Coordinates",
-  "body": " VF3: Triple Integrals in Cartesian Coordinates     VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Vector Fields    Read all sections      Line Integrals    Read all sections        In-Class Activities   "
+  "title": "VF3: Line Integrals",
+  "body": " VF3: Line Integrals     VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Vector Fields    Read all sections      Line Integrals    Read all sections        In-Class Activities   "
 },
 {
   "id": "VF3-2",
@@ -4443,8 +4533,8 @@ var ptx_lunr_docs = [
   "url": "VF4.html",
   "type": "Section",
   "number": "12.4",
-  "title": "VF4: Triple Integrals in Cylindrical\/Spherical Coordinates",
-  "body": " VF4: Triple Integrals in Cylindrical\/Spherical Coordinates     VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Conservative Vector Fields    Read all sections        In-Class Activities   "
+  "title": "VF4: Fundamental Theorem of Line Integrals",
+  "body": " VF4: Fundamental Theorem of Line Integrals     VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Conservative Vector Fields    Read all sections        In-Class Activities   "
 },
 {
   "id": "VF4-2",
@@ -4461,8 +4551,8 @@ var ptx_lunr_docs = [
   "url": "VF5.html",
   "type": "Section",
   "number": "12.5",
-  "title": "VF5: The Jacobian",
-  "body": " VF5: The Jacobian     VF5  I can identify when I can use Green’s Theorem, and use it for computations.      Pre-Class Preparation  Read the following sections of the text:    Section 6.4: Green's Theorem    Read all sections        In-Class Activities   "
+  "title": "VF5: Green’s Theorem",
+  "body": " VF5: Green's Theorem     VF5  I can identify when I can use Green’s Theorem, and use it for computations.      Pre-Class Preparation  Read the following sections of the text:    Section 6.4: Green's Theorem    Read all sections        In-Class Activities   "
 },
 {
   "id": "VF5-2",
@@ -4479,8 +4569,8 @@ var ptx_lunr_docs = [
   "url": "FS1.html",
   "type": "Section",
   "number": "13.1",
-  "title": "FS1: Double Integrals in Cartesian Coordinates",
-  "body": " FS1: Double Integrals in Cartesian Coordinates     FS1  I can parametrize curves and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 6.5: Divergence and Curl    Read all sections        In-Class Activities   "
+  "title": "FS1: Divergence &amp; Curl",
+  "body": " FS1: Divergence & Curl     FS1  Given a vector field, I can compute its divergence and curl, and interpret my results.      Pre-Class Preparation  Read the following sections of the text:    Section 6.5: Divergence and Curl    Read all sections        In-Class Activities   "
 },
 {
   "id": "FS1-2",
@@ -4489,7 +4579,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "13.1",
   "title": "",
-  "body": "   FS1  I can parametrize curves and use calculus to analyze their behavior.    "
+  "body": "   FS1  Given a vector field, I can compute its divergence and curl, and interpret my results.    "
 },
 {
   "id": "FS2",
@@ -4497,8 +4587,8 @@ var ptx_lunr_docs = [
   "url": "FS2.html",
   "type": "Section",
   "number": "13.2",
-  "title": "FS2: Double Integrals in Polar Coordinates",
-  "body": " FS2: Double Integrals in Polar Coordinates     FS2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read until \"Surface Integral of a Scalar-Valued Function\"        In-Class Activities   "
+  "title": "FS2: Surface Area",
+  "body": " FS2: Surface Area     FS2  I can compute the surface area of a parametrized surface.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read until \"Surface Integral of a Scalar-Valued Function\"        In-Class Activities   "
 },
 {
   "id": "FS2-2",
@@ -4507,7 +4597,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "13.2",
   "title": "",
-  "body": "   FS2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.    "
+  "body": "   FS2  I can compute the surface area of a parametrized surface.    "
 },
 {
   "id": "FS3",
@@ -4515,8 +4605,8 @@ var ptx_lunr_docs = [
   "url": "FS3.html",
   "type": "Section",
   "number": "13.3",
-  "title": "FS3: Triple Integrals in Cartesian Coordinates",
-  "body": " FS3: Triple Integrals in Cartesian Coordinates     FS3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read from \"Surface Integral of a Scalar-Valued Function\" to the end        In-Class Activities   "
+  "title": "FS3: Surface Integrals",
+  "body": " FS3: Surface Integrals     FS3  I can compute surface integrals of a scalar function and a vector field, and interpret my answers.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read from \"Surface Integral of a Scalar-Valued Function\" to the end        In-Class Activities   "
 },
 {
   "id": "FS3-2",
@@ -4525,7 +4615,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "13.3",
   "title": "",
-  "body": "   FS3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.    "
+  "body": "   FS3  I can compute surface integrals of a scalar function and a vector field, and interpret my answers.    "
 },
 {
   "id": "FS4",
@@ -4533,8 +4623,8 @@ var ptx_lunr_docs = [
   "url": "FS4.html",
   "type": "Section",
   "number": "13.4",
-  "title": "FS4: Triple Integrals in Cylindrical\/Spherical Coordinates",
-  "body": " FS4: Triple Integrals in Cylindrical\/Spherical Coordinates     FS4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.7: Stokes' Theorem    Read all sections      Section 6.8: The Divergence Theorem    Read all sections        In-Class Activities   "
+  "title": "FS4: Stokes’ Theorem and the Divergence Theorem",
+  "body": " FS4: Stokes' Theorem and the Divergence Theorem     FS4  I can use Stokes’ Theorem and the Divergence Theorem to evaluate various mathematical expressions, and interpret my answers.      Pre-Class Preparation  Read the following sections of the text:    Section 6.7: Stokes' Theorem    Read all sections      Section 6.8: The Divergence Theorem    Read all sections        In-Class Activities   "
 },
 {
   "id": "FS4-2",
@@ -4543,7 +4633,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "13.4",
   "title": "",
-  "body": "   FS4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.    "
+  "body": "   FS4  I can use Stokes’ Theorem and the Divergence Theorem to evaluate various mathematical expressions, and interpret my answers.    "
 },
 {
   "id": "backmatter-2",
