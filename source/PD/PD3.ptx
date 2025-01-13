@@ -562,7 +562,7 @@
             <task>
                 <statement>
                     <p>
-                        Use <xref ref="def-tangentplane"/> to compute the equation of the tangent plane at the point <m>(2,1)</m>.
+                        Use <xref ref="def-tangent-plane"/> to compute the equation of the tangent plane at the point <m>(2,1)</m>.
                     </p>
                 </statement>
             </task>
