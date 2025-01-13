@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="FS1" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>FS1: Double Integrals in Cartesian Coordinates</title>
+    <title>FS1: Divergence &amp; Curl</title>
     <objectives>
         <dl>
             <li>
                 <title>FS1</title>
                 <p>
-                    I can parametrize curves and use calculus to analyze their behavior.
+                    Given a vector field, I can compute its divergence and curl, and interpret my results.
                 </p>
             </li>
         </dl>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="FS2" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>FS2: Double Integrals in Polar Coordinates</title>
+    <title>FS2: Surface Area</title>
     <objectives>
         <dl>
             <li>
                 <title>FS2</title>
                 <p>
-                    I can work with vector-valued functions in space, and use calculus to analyze their behavior.
+                    I can compute the surface area of a parametrized surface.
                 </p>
             </li>
         </dl>

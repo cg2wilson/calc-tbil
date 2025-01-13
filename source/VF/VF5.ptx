@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="VF5" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>VF5: The Jacobian</title>
+    <title>VF5: Green's Theorem</title>
     <objectives>
         <dl>
             <li>

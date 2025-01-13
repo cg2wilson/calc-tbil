@@ -367,8 +367,206 @@
                     <mrow> \amp = 2xy + \cos(x)\cos(y)  </mrow>
                 </md>
             </p>
+            <p>
+                The partial derivatives <m>\dfrac{\partial f}{\partial x}(x,y)</m> and <m>\dfrac{\partial f}{\partial y}(x,y)</m> are called <term>first-order partial derivatives</term>.
+            </p>
         </remark>
 
+        <activity xml:id="pd-partialderivative-compute2">
+            <introduction>
+                <p>
+                    Let <m>f(x,y) = y^3+2x^3+x^3y^2-2y^2</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>f_x(1,2)</m>. What does this quantity tell you about how the function is changing at <m>(1,2)</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>f_y(1,2)</m>. What does this quantity tell you about how the function is changing at <m>(1,2)</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="pd-partialderivative-compute3">
+            <introduction>
+                <p>
+                    Let <m>g(x,y,z) = ye^{3x}+x^2y^2z^2</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\dfrac{\partial g}{\partial x}\bigg\rvert_{(1,1,0)}</m>. What does this quantity tell you about how the function is changing at <m>(1,1,0)</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\dfrac{\partial g}{\partial y}\bigg\rvert_{(1,1,0)}</m>. What does this quantity tell you about how the function is changing at <m>(1,1,0)</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\dfrac{\partial g}{\partial z}\bigg\rvert_{(1,1,0)}</m>. What does this quantity tell you about how the function is changing at <m>(1,1,0)</m>?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <remark>
+            <p>
+                A <term>second-order partial derivative</term> is similar to a second derivative from Calculus 1; however, now we must consider <em>all</em> possible second derivatives.
+            </p>
+        </remark>
+
+        <activity xml:id="pd-partialderivative-secondorder">
+            <statement>
+                <p>
+                    Consider a function of 4 variables, <m>f(w,x,y,z)</m>. How many second-order partial derivatives will <m>f</m> have?
+                    <ol>
+                        <li>
+                            <p>
+                                2
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                4
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                8
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                16
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="pd-partialderivative-firstsecond1">
+            <introduction>
+                <p>
+                    Let <m>f(x,y) = y^3 + 2x^3 + x^3y^2 -2y^2</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find all first-order partial derivatives for <m>f</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        There are four partial derivatives of <m>f</m>. Compute them.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What relationship do you notice between the second partial derivatives?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="pd-partialderivative-firstsecond2">
+            <statement>
+                <p>
+                    Compute all four second partial derivatives of the function <m>g(y,z) = y^2-z^4+yz\cos(y^2)</m>
+                </p>
+            </statement>
+        </activity>
+
+        <remark>
+            <p>
+                The notation for second derivatives can be a little tricky. For a function of two variables, <m>f(x,y)</m>, there are four cases:
+                <ul>
+                    <li>
+                        <p>
+                            First derivative with respect to <m>x</m>, second with respect to <m>x</m>: <m>f_{xx}(x,y)</m> or <m>\dfrac{\partial^2 f}{\partial x^2}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            First derivative with respect to <m>x</m>, second with respect to <m>y</m>: <m>f_{xy}(x,y)</m> or <m>\dfrac{\partial^2f}{\partial y\partial x}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            First derivative with respect to <m>y</m>, second with respect to <m>x</m>: <m>f_{yx}(x,y)</m> or <m>\dfrac{\partial^2f}{\partial x\partial y}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            First derivative with respect to <m>y</m>, second with respect to <m>y</m>: <m>f_{yy}(x,y)</m> or <m>\dfrac{\partial^2 f}{\partial y^2}</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Functions with more than two inputs have a similar convention for notating their partial derivatives.
+            </p>
+        </remark>
+
+        <definition xml:id="def-tangent-plane">
+            <title>Tangent Plane</title>
+            <idx><h></h></idx>
+            <statement>
+                <p>
+                    Let <m>S</m> be a surface defined by the differentiable function <m>z = f(x,y)</m>, and let <m>(x_0,y_0)</m> be a point in the domain of <m>f</m>. Then, the equation of the tangent plane to <m>S</m> at <m>(x_0,y_0)</m> is given by
+                    <me>
+                        z = f(x_0,y_0) + f_x(x_0,y_0)(x-x_0) + f_y(x_0,y_0)(y-y_0)
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
+            <p>
+                The definition of a tangent plane is a natural extension of the linearization of a single-variable function at the input <m>x_0</m>: <m>y = f'(x_0)(x-x_0)</m>
+            </p>
+        </remark>
+
+        <activity xml:id="pd-tangentplane1">
+            <introduction>
+                <p>
+                    Consider the surface given by <m>z = -9x^2-3y^2</m>. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute the first-order partial derivatives for <m>z</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use <xref ref="def-tangentplane"/> to compute the equation of the tangent plane at the point <m>(2,1)</m>.
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>

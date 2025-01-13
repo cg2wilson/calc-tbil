@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="FS3" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>FS3: Triple Integrals in Cartesian Coordinates</title>
+    <title>FS3: Surface Integrals</title>
     <objectives>
         <dl>
             <li>
                 <title>FS3</title>
                 <p>
-                    I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.
+                    I can compute surface integrals of a scalar function and a vector field, and interpret my answers.
                 </p>
             </li>
         </dl>

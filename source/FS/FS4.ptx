@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="FS4" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>FS4: Triple Integrals in Cylindrical/Spherical Coordinates</title>
+    <title>FS4: Stokes' Theorem and the Divergence Theorem</title>
     <objectives>
         <dl>
             <li>
                 <title>FS4</title>
                 <p>
-                    I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.
+                    I can use Stokes’ Theorem and the Divergence Theorem to evaluate various mathematical expressions, and interpret my answers.
                 </p>
             </li>
         </dl>
