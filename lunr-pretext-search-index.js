@@ -3517,7 +3517,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "VE3: Lines and Planes in Space",
-  "body": " VE3: Lines and Planes in Space     VE3  I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.5: Equations of Lines and Planes in Space    Read all sections        In-Class Activities    In three dimensions, lines can take slightly different form than we are accustomed to in two dimensions.    Direction Vector  direction vector   The direction vector of a line is a vector which points in the same direction as the line.      Two vectors are parallel if they have the same or opposite directions. This means that there is some scalar value such that or equivalently that, if the vectors have the same direction or if they have opposite directions.      This activity will develop the vector equation of a line.  Let be a line in space passing through the point and let be a vector parallel to .    Let be another point on . Write the vector .    Since is on , will also be parallel to . Using , write an expression (using for your scalar value) relating and .    Use vector operations to complete the equation:      Parametric\/Symmetric Forms of Lines  Let the line go through the points and have direction vector .  Then, can be expressed in parametric form as and in symmetric form as      Let be the line passing through the points and .    Which expression gives the parametric form of the line?              Which expression gives the symmetric form of the line?            To find the distance between a point and a line, recall that the cross product of two vectors and produces a third vector which is orthogonal to both and .  Let be a line in space passing through the point with direction vector . Let be a point which is not on .    First, create a sketch with , , , and .    Create a parallelogram whose sides are the vector and . It is a fact that the area of the parallelogram is given by .  Write another expression which gives the area of the parallelogram, using for the distance between and .    Solve for to get the formula for the distance from a point to a line in space.     Distance from a Point to a Line  Consider line in space which passes through with direction vector . If is a point not on , then the distance from to is given by      Find the distance between and the line given by     Which is the correct direction vector for the line?                          Why do we know the point lies on the line?     is given by which of the following?                          Compute the distance between and the line.     Skew Lines  skew lines   Two lines are called skew when they are neither parallel nor intersecting.      Consider the lines given by the parametric equations and   True or false: the lines are skew   True    False        "
+  "body": " VE3: Lines and Planes in Space     VE3  I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.5: Equations of Lines and Planes in Space    Read all sections        In-Class Activities    In three dimensions, lines can take slightly different form than we are accustomed to in two dimensions.    Direction Vector  direction vector   The direction vector of a line is a vector which points in the same direction as the line.      Two vectors are parallel if they have the same or opposite directions. This means that there is some scalar value such that or equivalently that, if the vectors have the same direction or if they have opposite directions.      This activity will develop the vector equation of a line.  Let be a line in space passing through the point and let be a vector parallel to .    Let be another point on . Write the vector .    Since is on , will also be parallel to . Using , write an expression (using for your scalar value) relating and .    Use vector operations to complete the equation:      Parametric\/Symmetric Forms of Lines  Let the line go through the points and have direction vector .  Then, can be expressed in parametric form as and in symmetric form as      Let be the line passing through the points and .    Which expression gives the parametric form of the line?                Use part (a) to write the symmetric form of the line.      To find the distance between a point and a line, recall that the cross product of two vectors and produces a third vector which is orthogonal to both and .  Let be a line in space passing through the point with direction vector . Let be a point which is not on .    First, create a sketch with , , , and .    Create a parallelogram whose sides are the vector and . It is a fact that the area of the parallelogram is given by .  Write another expression which gives the area of the parallelogram, using for the distance between and .    Solve for to get the formula for the distance from a point to a line in space.     Distance from a Point to a Line  Consider line in space which passes through with direction vector . If is a point not on , then the distance from to is given by      Find the distance between and the line given by     Which is the correct direction vector for the line?                          Why do we know the point lies on the line?     is given by which of the following?                          Compute the distance between and the line.     Skew Lines  skew lines   Two lines are called skew when they are neither parallel nor intersecting.      Consider the lines given by the parametric equations and   True or false: the lines are skew   True    False        Normal Vector  normal vector   A normal vector to a surface is one which is orthogonal (or perpendicular) to that surface.      Let the points and be points in a plane.    Let be a vector normal to the plane at . Which expression mathematically describes this relationship?                          If , use your answer in part (a) to rewrite without vector operations     Scalar Equation of a Plane  scalar equation of a plane   The scalar equation of a plane containing the point with normal vector is given by or alternately,       We will find the equation of the plane containing points , , and     First we need to find a normal vector for the plane. Which operation will find a vector orthogonal to a vector on the plane?   Dot product    Cross product       Find the vectors and , then use the operation from part (a) to find the orthogonal vector.    Use any point and your answer to part (b) to find the equation of the plane.      Use and the previous activity to find the equation of a plane that passes through the point and contains the line given by       "
 },
 {
   "id": "VE3-2",
@@ -3571,7 +3571,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "5.3.2",
   "title": "",
-  "body": "  Let be the line passing through the points and .    Which expression gives the parametric form of the line?              Which expression gives the symmetric form of the line?         "
+  "body": "  Let be the line passing through the points and .    Which expression gives the parametric form of the line?                Use part (a) to write the symmetric form of the line.   "
 },
 {
   "id": "ve3-distance-point-line1",
@@ -3601,13 +3601,58 @@ var ptx_lunr_docs = [
   "body": " Skew Lines  skew lines   Two lines are called skew when they are neither parallel nor intersecting.   "
 },
 {
-  "id": "VE3-activities-12",
+  "id": "ve-lines1",
   "level": "2",
-  "url": "VE3.html#VE3-activities-12",
+  "url": "VE3.html#ve-lines1",
   "type": "Activity",
   "number": "5.3.5",
   "title": "",
   "body": "  Consider the lines given by the parametric equations and   True or false: the lines are skew   True    False      "
+},
+{
+  "id": "def-normal-vector",
+  "level": "2",
+  "url": "VE3.html#def-normal-vector",
+  "type": "Definition",
+  "number": "5.3.5",
+  "title": "Normal Vector.",
+  "body": " Normal Vector  normal vector   A normal vector to a surface is one which is orthogonal (or perpendicular) to that surface.   "
+},
+{
+  "id": "ve-eqn-plane",
+  "level": "2",
+  "url": "VE3.html#ve-eqn-plane",
+  "type": "Activity",
+  "number": "5.3.6",
+  "title": "",
+  "body": "  Let the points and be points in a plane.    Let be a vector normal to the plane at . Which expression mathematically describes this relationship?                          If , use your answer in part (a) to rewrite without vector operations   "
+},
+{
+  "id": "def-scalar-eqn-plane",
+  "level": "2",
+  "url": "VE3.html#def-scalar-eqn-plane",
+  "type": "Definition",
+  "number": "5.3.6",
+  "title": "Scalar Equation of a Plane.",
+  "body": " Scalar Equation of a Plane  scalar equation of a plane   The scalar equation of a plane containing the point with normal vector is given by or alternately,    "
+},
+{
+  "id": "ve-eqn-plane1",
+  "level": "2",
+  "url": "VE3.html#ve-eqn-plane1",
+  "type": "Activity",
+  "number": "5.3.7",
+  "title": "",
+  "body": "  We will find the equation of the plane containing points , , and     First we need to find a normal vector for the plane. Which operation will find a vector orthogonal to a vector on the plane?   Dot product    Cross product       Find the vectors and , then use the operation from part (a) to find the orthogonal vector.    Use any point and your answer to part (b) to find the equation of the plane.   "
+},
+{
+  "id": "ve-eqn-plane2",
+  "level": "2",
+  "url": "VE3.html#ve-eqn-plane2",
+  "type": "Activity",
+  "number": "5.3.8",
+  "title": "",
+  "body": "  Use and the previous activity to find the equation of a plane that passes through the point and contains the line given by    "
 },
 {
   "id": "AI1",
@@ -3616,7 +3661,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "AI1: Volumes by Cross-Sectional Area",
-  "body": " AI1: Volumes by Cross-Sectional Area     AI1  I can determine the volume of objects by integrating cross-sectional areas.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: Determining Volumes by Slicing    Read until \"Solids of Revolution\"        In-Class Activities   "
+  "body": " AI1: Volumes by Cross-Sectional Area     AI1  I can determine the volume of objects by integrating cross-sectional areas.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: Determining Volumes by Slicing    Read until \"Solids of Revolution\"        In-Class Activities   Recall that the area between two curves is found by subtracting the smaller area from the larger area, resulting in the formula where on the interval      The triangle shown has a base length of 10 units and a height of 5 units. It is formed by the lines , , and .       Which expression approximates the area of the triangle?    , where      , where      , where      , where        Which is the correct area of the triangle?   25 square units    50 square units    75 square units    100 square units       Now instead partition the triangle such that the slickes are horizontal, as in the diagram below.     Which expression gives the area of the triangle in terms of horizontal slices?                          Use part (b) and part (c) to describe how you would find the volume of the triangular prism shown below.        Volume  volume   The volume of a solid is given by where is the area of a cross-section of the solid.      This activity will prove that the volume of a sphere of radius is given by . Recall that a circle of radius is given by .    A cross-section in the plane is shown below.     Which expression correctly identifies the area of the cross-section?                          Which bounds of integration are the most appropriate here?                            Can't be determined       Perform the integration to find the volume of a sphere of radius       A pyramid has a square base of length and height .    Sketch the figure and a cross-section. Hint: Think of the view from the side, and draw it in the Cartesian plane.    Find the area of one of the square cross-sections.    Integrate the cross-sectional area to find the volume.     "
 },
 {
   "id": "AI1-2",
@@ -3626,6 +3671,51 @@ var ptx_lunr_docs = [
   "number": "6.1",
   "title": "",
   "body": "   AI1  I can determine the volume of objects by integrating cross-sectional areas.    "
+},
+{
+  "id": "AI1-activities-2",
+  "level": "2",
+  "url": "AI1.html#AI1-activities-2",
+  "type": "Remark",
+  "number": "6.1.1",
+  "title": "",
+  "body": " Recall that the area between two curves is found by subtracting the smaller area from the larger area, resulting in the formula where on the interval   "
+},
+{
+  "id": "ai-area-slices-intuition1",
+  "level": "2",
+  "url": "AI1.html#ai-area-slices-intuition1",
+  "type": "Activity",
+  "number": "6.1.1",
+  "title": "",
+  "body": "  The triangle shown has a base length of 10 units and a height of 5 units. It is formed by the lines , , and .       Which expression approximates the area of the triangle?    , where      , where      , where      , where        Which is the correct area of the triangle?   25 square units    50 square units    75 square units    100 square units       Now instead partition the triangle such that the slickes are horizontal, as in the diagram below.     Which expression gives the area of the triangle in terms of horizontal slices?                          Use part (b) and part (c) to describe how you would find the volume of the triangular prism shown below.      "
+},
+{
+  "id": "def-volume",
+  "level": "2",
+  "url": "AI1.html#def-volume",
+  "type": "Definition",
+  "number": "6.1.2",
+  "title": "Volume.",
+  "body": " Volume  volume   The volume of a solid is given by where is the area of a cross-section of the solid.   "
+},
+{
+  "id": "ai-volume-sphere-slices",
+  "level": "2",
+  "url": "AI1.html#ai-volume-sphere-slices",
+  "type": "Activity",
+  "number": "6.1.2",
+  "title": "",
+  "body": "  This activity will prove that the volume of a sphere of radius is given by . Recall that a circle of radius is given by .    A cross-section in the plane is shown below.     Which expression correctly identifies the area of the cross-section?                          Which bounds of integration are the most appropriate here?                            Can't be determined       Perform the integration to find the volume of a sphere of radius    "
+},
+{
+  "id": "ai-volume-pyramid-slices",
+  "level": "2",
+  "url": "AI1.html#ai-volume-pyramid-slices",
+  "type": "Activity",
+  "number": "6.1.3",
+  "title": "",
+  "body": "  A pyramid has a square base of length and height .    Sketch the figure and a cross-section. Hint: Think of the view from the side, and draw it in the Cartesian plane.    Find the area of one of the square cross-sections.    Integrate the cross-sectional area to find the volume.   "
 },
 {
   "id": "AI2",
@@ -4183,7 +4273,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.3",
   "title": "PD3: Partial Derivatives",
-  "body": " PD3: Partial Derivatives     PD3  Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface      Pre-Class Preparation  Read the following sections of the text:    Section 4.3: Partial Derivatives    Read all sections      Section 4.4: Tangent Planes and Linear Approximations    Read the \"Tangent Planes\" section only        In-Class Activities    A metal rod lying along the axis is heated unevenly. Assume that its temperature is a function of its distance from the origin, so that the input is given by cm and the output, , is given in degrees Celsius. The temperature of the rod is given in the table below.     cm  0  1  2  3  4  5     125  128  135  160  175  160      Which expression will approximate the derivative ?                          Compute , and include proper units.      Now consider an unevenly heated plate, whose corner lies at the origin, as in the image below.     The temperature at certain points is given by the table below.    3  85  90  110  135  155  180    2  100  110  120  145  190  170    1  125  128  135  160  175  160    0  120  135  155  160  160  150      0  1  2  3  4  5    Let give the temperature at a point on the plate, and let , where is a fixed number. is measured in feet, and is measured in meters.    In order to compute the rate of change at a specific point, we need to analyze how the function changes in a specific direction. We accomplish this by looking along specific vertical slices of the function.  Fix , so that . Which expression correctly identifies ?                          If , evaluate . What are the units associated to ?    \/m     \/ft    ft\/     m\/        If instead we look at the rate of change in the direction at , which would be the expression we should compute?                          Compute the rate of change in the direction, and include appropriate units.     Partial Derivative   Let be a function of two variables. The partial derivative of with respect to , written as or , is given by the limit The partial derivative of with respect to is written as or , and is given by the limit       Let     Which expression correctly sets up ?                          Evaluate .    Evaluate     Compare and contrast your answers to (b) and (c). What do they tell you about how the function is changing at ?     Partial derivatives can be computed like single-variable derivatives by holding the other variables constant and differentiating.  For example, if , can be visualized as   The partial derivatives and are called first-order partial derivatives .     Let .    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at       Let .    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at ?     A second-order partial derivative is similar to a second derivative from Calculus 1; however, now we must consider all possible second derivatives.     Consider a function of 4 variables, . How many second-order partial derivatives will have?   2    4    8    16         Let .    Find all first-order partial derivatives for .    There are four partial derivatives of . Compute them.    What relationship do you notice between the second partial derivatives?      Compute all four second partial derivatives of the function      The notation for second derivatives can be a little tricky. For a function of two variables, , there are four cases:   First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or      Functions with more than two inputs have a similar convention for notating their partial derivatives.    Tangent Plane    Let be a surface defined by the differentiable function , and let be a point in the domain of . Then, the equation of the tangent plane to at is given by      The definition of a tangent plane is a natural extension of the linearization of a single-variable function at the input :      Consider the surface given by .    Compute the first-order partial derivatives for     Use to compute the equation of the tangent plane at the point .     "
+  "body": " PD3: Partial Derivatives     PD3  Given a multivariable function, I can compute its partial derivatives of any order, interpret their meaning in context, and use them to find the equation of the tangent plane to a surface      Pre-Class Preparation  Read the following sections of the text:    Section 4.3: Partial Derivatives    Read all sections      Section 4.4: Tangent Planes and Linear Approximations    Read the \"Tangent Planes\" section only        In-Class Activities    A metal rod lying along the axis is heated unevenly. Assume that its temperature is a function of its distance from the origin, so that the input is given by cm and the output, , is given in degrees Celsius. The temperature of the rod is given in the table below.     cm  0  1  2  3  4  5     125  128  135  160  175  160      Which expression will approximate the derivative ?                          Compute , and include proper units.      Now consider an unevenly heated plate, whose corner lies at the origin, as in the image below.     The temperature at certain points is given by the table below.    3  85  90  110  135  155  180    2  100  110  120  145  190  170    1  125  128  135  160  175  160    0  120  135  155  160  160  150      0  1  2  3  4  5    Let give the temperature at a point on the plate, and let , where is a fixed number. is measured in feet, and is measured in meters.    In order to compute the rate of change at a specific point, we need to analyze how the function changes in a specific direction. We accomplish this by looking along specific vertical slices of the function.  Fix , so that . Which expression correctly identifies ?                          If , evaluate . What are the units associated to ?    \/m     \/ft    ft\/     m\/        If instead we look at the rate of change in the direction at , which would be the expression we should compute?                          Compute the rate of change in the direction, and include appropriate units.     Partial Derivative   Let be a function of two variables. The partial derivative of with respect to , written as or , is given by the limit The partial derivative of with respect to is written as or , and is given by the limit       Let     Which expression correctly sets up ?                          Evaluate .    Evaluate     Compare and contrast your answers to (b) and (c). What do they tell you about how the function is changing at ?     Partial derivatives can be computed like single-variable derivatives by holding the other variables constant and differentiating.  For example, if , can be visualized as   The partial derivatives and are called first-order partial derivatives .     Let .    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at       Let .    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at ?    Compute . What does this quantity tell you about how the function is changing at ?     A second-order partial derivative is similar to a second derivative from Calculus 1; however, now we must consider all possible second derivatives.     Consider a function of 4 variables, . How many second-order partial derivatives will have?   2    4    8    16         Let .    Find all first-order partial derivatives for .    There are four partial derivatives of . Compute them.    What relationship do you notice between the second partial derivatives?      Compute all four second partial derivatives of the function      The notation for second derivatives can be a little tricky. For a function of two variables, , there are four cases:   First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or     First derivative with respect to , second with respect to : or      Functions with more than two inputs have a similar convention for notating their partial derivatives.    Tangent Plane    Let be a surface defined by the differentiable function , and let be a point in the domain of . Then, the equation of the tangent plane to at is given by   The tangent plane is the best local linear approximation of the surface , and contains all tangent lines to at the point      The definition of a tangent plane is a natural extension of the linearization of a single-variable function at the input :      Consider the surface given by .    Compute the first-order partial derivatives for     Use to compute the equation of the tangent plane at the point .     "
 },
 {
   "id": "PD3-2",
@@ -4309,7 +4399,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "10.3.5",
   "title": "Tangent Plane.",
-  "body": " Tangent Plane    Let be a surface defined by the differentiable function , and let be a point in the domain of . Then, the equation of the tangent plane to at is given by    "
+  "body": " Tangent Plane    Let be a surface defined by the differentiable function , and let be a point in the domain of . Then, the equation of the tangent plane to at is given by   The tangent plane is the best local linear approximation of the surface , and contains all tangent lines to at the point    "
 },
 {
   "id": "PD3-activities-15",
