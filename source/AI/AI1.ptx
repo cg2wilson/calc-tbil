@@ -18,6 +18,320 @@
     <subsection xml:id="AI1-activities">
         <title>In-Class Activities</title>
 
+        <remark>
+            <p>
+                Recall that the area between two curves is found by subtracting the smaller area from the larger area, resulting in the formula
+                <me>
+                    \int_a^b f(x)-g(x)\, dx
+                </me>
+                where <m>f(x)\geq g(x)</m> on the interval <m>[a,b]</m>
+            </p>
+        </remark>
+
+        <activity xml:id="ai-area-slices-intuition1">
+            <introduction>
+                <p>
+                    The triangle shown has a base length of 10 units and a height of 5 units. It is formed by the lines <m>y = x + 5</m>, <m>y = -x + 5</m>, and <m>y = 0</m>.
+                </p>
+                <image>
+                    <sageplot>
+                        p = Graphics()
+                        def edger_x (x,y1,y2):
+                            left=x-0.125
+                            right=x+0.125
+                            edge1 = line(([left,y1],[right,y1]),color='black')
+                            edge2 = line(([left,y2],[right,y2]),color='black')
+                            edge3 = line(([x,y1],[x,y2]),color='black')
+                            pl = edge1+edge2+edge3
+                            return pl
+                        p += polygon (([(-5,0),(0,5),(5,0)]),fill=False,thickness=2, axes=False)
+                        p += edger_x(5.5,0,5)
+                        p += text('5',(5.75,2.5), color='black', fontsize=12)
+                        p += text('10', (0,-.5),color='black', fontsize=12)
+                        p
+                    </sageplot>
+                </image>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which expression approximates the area of the triangle?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>A\approx \sum (x_i + 5)\cdot \Delta x</m>, where <m>\Delta x = \dfrac{10}{n}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A\approx \sum (x_i + 5)\cdot \Delta x</m>, where <m>\Delta x = \dfrac{5}{n}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A\approx \sum (x_i + 5)\cdot \Delta x = \sum (-x_j + 5)\cdot \Delta x</m>, where <m>\Delta x = \dfrac{10}{n}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A\approx \sum (x_i + 5)\cdot \Delta x = \sum (-x_j + 5)\cdot \Delta x</m>, where <m>\Delta x = \dfrac{5}{n}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which is the correct area of the triangle?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    25 square units
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    50 square units
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    75 square units
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    100 square units
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now instead partition the triangle such that the slickes are horizontal, as in the diagram below.
+                    </p>
+                    <image>
+                        <sageplot>
+                            p = Graphics()
+                            f(x) = x + 5
+                            g(x) = -x + 5
+                            p += polygon (([(-5,0),(0,5),(5,0)]),fill=False,thickness=2, axes=False)
+                            p += polygon(([(-2,f(-2)),(-2,f(-2)-.5),(2,g(2)-.5),(2,g(2))]), fill=False, color='black')
+                            p += polygon(([(-2.5,f(-2.5)),(-2.5,f(-2.5)-.5),(2.5,g(2.5)-.5),(2.5,g(2.5))]),fill=False,color='black')
+                            p
+                        </sageplot>
+                    </image>
+                    <p>
+                        Which expression gives the area of the triangle in terms of horizontal slices?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{-5}^0 y-5\, dy + \int_0^5 5-y\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_0^5 (y-5)-(5-y)\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_0^5 5-y\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_0^5 y-5\, dy
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use part (b) and part (c) to describe how you would find the volume of the triangular prism shown below.
+                    </p>
+                    <image>
+                        <sageplot>
+                            p = Graphics()
+                            def edger_x (x,y1,y2):
+                                left=x-0.125
+                                right=x+0.125
+                                edge1 = line(([left,y1],[right,y1]),color='black')
+                                edge2 = line(([left,y2],[right,y2]),color='black')
+                                edge3 = line(([x,y1],[x,y2]),color='black')
+                                pl = edge1+edge2+edge3
+                                return pl
+                            p += polygon (([(-5,0),(0,5),(5,0)]),fill=False,thickness=2, axes=False)
+                            p += polygon (([(-1,2),(4,7),(9,2)]),fill=False,thickness=2)
+                            p += line(([(0,5),(4,7)]),thickness=2)
+                            p += line(([(5,0),(9,2)]),thickness=2)
+                            p += line(([(-5,0),(-1,2)]),thickness=2)
+                            p += text('10',(0,-.5),color='black',fontsize=12)
+                            p += edger_x(5.5,0,5)
+                            p += text('5',(5.75,2.5),color='black',fontsize=12)
+                            p 
+                        </sageplot>
+                    </image>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-volume">
+            <title>Volume</title>
+            <idx><h>volume</h></idx>
+            <statement>
+                <p>
+                    The volume of a solid <m>S</m> is given by 
+                    <me>
+                        \ds \lim_{n\to \infty}\sum A_i(x) = \int_a^b A(x)\, dx
+                    </me>
+                    where <m>A(x)</m> is the area of a cross-section of the solid.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="ai-volume-sphere-slices">
+            <introduction>
+                <p>
+                    This activity will prove that the volume of a sphere of radius <m>r</m> is given by <m>V = \dfrac{4\pi}{3}r^3</m>. Recall that a circle of radius <m>r</m> is given by <m>x^2 + y^2 = r^2</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        A cross-section in the <m>xy-</m>plane is shown below.
+                    </p>
+                    <image>
+                        <sageplot>
+                            p = Graphics()
+                            p += arc((0,0),1,sector=(0,pi), thickness=2)
+                            p += line(([(0,0),(sqrt(3)/2,.5)]),color='black')
+                            p += text('$r$',(0.5,0.35),color='black',fontsize=12)
+                            p += line(([(sqrt(3)/2,.5),(sqrt(3)/2,0)]),color='black',linestyle='dashed')
+                            p += text('$y$', (0.9,0.2),color='black',fontsize=12)
+                            p += text('$x$', (0.5,0.05),color='black',fontsize=12)
+                            p
+                        </sageplot>
+                    </image>
+                    <p>
+                        Which expression correctly identifies the area of the cross-section?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>A = 2\pi \sqrt{r^2-x^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=\pi(r^2-x^2)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=\pi\sqrt{r^2-x^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A = 2\pi(r^2-x^2)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which bounds of integration are the most appropriate here?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>[0,r]</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>[r,0]</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>[-r,0]</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>[0,-r]</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>[-r,r]</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Can't be determined
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Perform the integration to find the volume of a sphere of radius <m>r</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ai-volume-pyramid-slices">
+            <introduction>
+                <p>
+                    A pyramid has a square base of length <m>R</m> and height <m>H</m>. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Sketch the figure and a cross-section. <em>Hint:</em> Think of the view from the side, and draw it in the Cartesian plane.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find the area of one of the square cross-sections.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Integrate the cross-sectional area to find the volume.
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>
