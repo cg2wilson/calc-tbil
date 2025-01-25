@@ -965,6 +965,24 @@ eBookConfig.enable_chatcodes =  false;
 #pd-partialderivative-secondorder-1-1-3 { counter-set: pd-partialderivative-secondorder-1-1-3 0; }
 #pd-partialderivative-secondorder-1-1-3 > li::marker { content: ""counter(pd-partialderivative-secondorder-1-1-3,decimal)"."; }
 #pd-partialderivative-secondorder-1-1-3 > li { counter-increment: pd-partialderivative-secondorder-1-1-3; }
+#pd-activity-gradient1-1-1-2 { counter-set: pd-activity-gradient1-1-1-2 0; }
+#pd-activity-gradient1-1-1-2 > li::marker { content: ""counter(pd-activity-gradient1-1-1-2,upper-alpha)"."; }
+#pd-activity-gradient1-1-1-2 > li { counter-increment: pd-activity-gradient1-1-1-2; }
+#pd-directional-derivative-intuition-2-1-1-2 { counter-set: pd-directional-derivative-intuition-2-1-1-2 0; }
+#pd-directional-derivative-intuition-2-1-1-2 > li::marker { content: ""counter(pd-directional-derivative-intuition-2-1-1-2,upper-alpha)"."; }
+#pd-directional-derivative-intuition-2-1-1-2 > li { counter-increment: pd-directional-derivative-intuition-2-1-1-2; }
+#pd-directional-derivative-intuition-3-1-3-3 { counter-set: pd-directional-derivative-intuition-3-1-3-3 0; }
+#pd-directional-derivative-intuition-3-1-3-3 > li::marker { content: ""counter(pd-directional-derivative-intuition-3-1-3-3,upper-alpha)"."; }
+#pd-directional-derivative-intuition-3-1-3-3 > li { counter-increment: pd-directional-derivative-intuition-3-1-3-3; }
+#pd-directional-derivative-intuition-4-1-1-3 { counter-set: pd-directional-derivative-intuition-4-1-1-3 0; }
+#pd-directional-derivative-intuition-4-1-1-3 > li::marker { content: ""counter(pd-directional-derivative-intuition-4-1-1-3,upper-alpha)"."; }
+#pd-directional-derivative-intuition-4-1-1-3 > li { counter-increment: pd-directional-derivative-intuition-4-1-1-3; }
+#pd-directional-derivative1-2-1-1-4 { counter-set: pd-directional-derivative1-2-1-1-4 0; }
+#pd-directional-derivative1-2-1-1-4 > li::marker { content: ""counter(pd-directional-derivative1-2-1-1-4,upper-alpha)"."; }
+#pd-directional-derivative1-2-1-1-4 > li { counter-increment: pd-directional-derivative1-2-1-1-4; }
+#pd-directional-derivative1-3-1-1-4 { counter-set: pd-directional-derivative1-3-1-1-4 0; }
+#pd-directional-derivative1-3-1-1-4 > li::marker { content: ""counter(pd-directional-derivative1-3-1-1-4,upper-alpha)"."; }
+#pd-directional-derivative1-3-1-1-4 > li { counter-increment: pd-directional-derivative1-3-1-1-4; }
 #MI-readiness-3-1 { counter-set: MI-readiness-3-1 0; }
 #MI-readiness-3-1 > li::marker { content: ""counter(MI-readiness-3-1,lower-alpha)"."; }
 #MI-readiness-3-1 > li { counter-increment: MI-readiness-3-1; }
@@ -1218,7 +1236,7 @@ true);
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-TI.html" class="internal"><span class="codenumber">7</span> <span class="title">Techniques of Integration (AI)</span></a></div>
+<div class="toc-title-box"><a href="ch-TI.html" class="internal"><span class="codenumber">7</span> <span class="title">Techniques of Integration (TI)</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="TI1.html" class="internal"><span class="codenumber">7.1</span> <span class="title">TI1: Integration by Parts</span></a></div>
@@ -1412,7 +1430,156 @@ true);
 </li></ul>
 </div></article><section class="subsection" id="PD4-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.4.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
-</h3></section></section></div>
+</h3>
+<article class="remark remark-like" id="PD4-activities-2"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">10.4.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="PD4-activities-2-1">In <a href="PD3.html" class="internal" title="Section 10.3: PD3: Partial Derivatives">Section 10.3</a>, we learned that the partial derivative was the rate of change of a multivariable function in a specific direction; <span class="process-math">\(\dfrac{\partial f}{\partial x}\)</span> tells the rate of change in the <span class="process-math">\(x-\)</span>direction, while <span class="process-math">\(\dfrac{\partial f}{\partial y}\)</span> tells us the rate of change in the <span class="process-math">\(y-\)</span>direction. How do we find the rate of change in any other direction?</div></article><article class="definition definition-like" id="def-gradient"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">10.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Gradient Vector.</span>
+</h4>
+<div class="para logical" id="def-gradient-3-1">
+<div class="para">Let <span class="process-math">\(f(x,y)\)</span> be a differentiable function of two variables. The <dfn class="terminology">gradient vector</dfn> of <span class="process-math">\(f\)</span> is defined to be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\nabla f = \lrangle{f_x(x,y),f_y(x,y)} = \text{grad}\,(f)
+\end{equation*}
+</div>
+</div></article><article class="activity project-like" id="pd-activity-gradient1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.4.1</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="pd-activity-gradient1-1-1">
+<div class="para">Let <span class="process-math">\(f(x,y) = x^2-xy+3y^2\text{.}\)</span> Which is the correct gradient vector?</div>
+<ol class="upper-alpha cols2" id="pd-activity-gradient1-1-1-2">
+<li id="pd-activity-gradient1-1-1-2-1"><div class="para" id="pd-activity-gradient1-1-1-2-1-1"><span class="process-math">\(\displaystyle 2x-y-x+6y\)</span></div></li>
+<li id="pd-activity-gradient1-1-1-2-2"><div class="para" id="pd-activity-gradient1-1-1-2-2-1"><span class="process-math">\(\displaystyle \lrangle{2x-y,-x+6y}\)</span></div></li>
+<li id="pd-activity-gradient1-1-1-2-3"><div class="para" id="pd-activity-gradient1-1-1-2-3-1"><span class="process-math">\(\displaystyle \lrangle{x^2-xy,-xy+3y^2}\)</span></div></li>
+<li id="pd-activity-gradient1-1-1-2-4"><div class="para" id="pd-activity-gradient1-1-1-2-4-1"><span class="process-math">\(\displaystyle \lrangle{2x-xy,-xy+6y}\)</span></div></li>
+</ol>
+</div></article><article class="activity project-like" id="pd-activity-gradient2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.4.2</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="pd-activity-gradient2-1"><div class="para" id="pd-activity-gradient2-1-1">Identify <span class="process-math">\(\nabla f\)</span> for the following functions.</div></div>
+<article class="task exercise-like" id="pd-activity-gradient2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="pd-activity-gradient2-2-1-1"><span class="process-math">\(f(x,y) = \sin(3x)\cos(3y)\)</span></div></article><article class="task exercise-like" id="pd-activity-gradient2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pd-activity-gradient2-3-1-1"><span class="process-math">\(f(a,b) = \dfrac{a^2-3b^2}{2a-b}\)</span></div></article></article><article class="definition definition-like" id="def-directional-derivative"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">10.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">Directional Derivative.</span>
+</h4>
+<div class="para logical" id="def-directional-derivative-3-1">
+<div class="para">Let <span class="process-math">\(f(x,y)\)</span> be a differentiable function of two variables, and let <span class="process-math">\(\textbf{u} = \lrangle{a,b}\)</span> be a unit vector. The <dfn class="terminology">directional derivative</dfn> of <span class="process-math">\(f(x,y)\)</span> in the direction of <span class="process-math">\(\textbf{u}\)</span> is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+D_{\textbf{u}}(f) = \nabla f\cdot\textbf{u}= f_x(x,y) + f_y(x,y)b
+\end{equation*}
+</div>
+<div class="para">or</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{h\to 0} \dfrac{f(x+ah,y+bh)-f(x,y)}{h}
+\end{equation*}
+</div>
+</div></article><article class="activity project-like" id="pd-directional-derivative-intuition"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.4.3</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="pd-directional-derivative-intuition-1"><div class="para" id="pd-directional-derivative-intuition-1-1">This activity will build the intuition for the definition for the directional derivative.</div></div>
+<article class="task exercise-like" id="pd-directional-derivative-intuition-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="pd-directional-derivative-intuition-2-1-1">
+<div class="para">Any vector <span class="process-math">\(\textbf{u} = \lrangle{a,b}\)</span> can be decomposed in which way?</div>
+<ol class="upper-alpha cols2" id="pd-directional-derivative-intuition-2-1-1-2">
+<li id="pd-directional-derivative-intuition-2-1-1-2-1"><div class="para" id="pd-directional-derivative-intuition-2-1-1-2-1-1"><span class="process-math">\(\displaystyle \lrangle{|\textbf{u}|\cos\theta,|\textbf{u}|\sin\theta}\)</span></div></li>
+<li id="pd-directional-derivative-intuition-2-1-1-2-2"><div class="para" id="pd-directional-derivative-intuition-2-1-1-2-2-1"><span class="process-math">\(\displaystyle \lrangle{|\textbf{u}|\sin\theta,|\textbf{u}|\cos\theta}\)</span></div></li>
+<li id="pd-directional-derivative-intuition-2-1-1-2-3"><div class="para" id="pd-directional-derivative-intuition-2-1-1-2-3-1"><span class="process-math">\(\displaystyle \lrangle{\cos\theta,\sin\theta}\)</span></div></li>
+<li id="pd-directional-derivative-intuition-2-1-1-2-4"><div class="para" id="pd-directional-derivative-intuition-2-1-1-2-4-1"><span class="process-math">\(\displaystyle \lrangle{\sin\theta,\cos\theta}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="pd-directional-derivative-intuition-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pd-directional-derivative-intuition-3-1-1">Consider the vectors <span class="process-math">\(\textbf{v}_1\)</span> and <span class="process-math">\(\textbf{v}_2\)</span> as shown below. Note that <span class="process-math">\(\textbf{v}_1\)</span> points exclusively in the <span class="process-math">\(x-\)</span>direction, and <span class="process-math">\(\textbf{v}_2\)</span> points exclusively in the <span class="process-math">\(y-\)</span>direction.</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/sageplot/pd-directional-derivative-intuition-3-1-2.svg" role="img" class="contained"></div> <div class="para logical" id="pd-directional-derivative-intuition-3-1-3">
+<div class="para">Which expression computes the slope of the secant line between <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2" id="pd-directional-derivative-intuition-3-1-3-3">
+<li id="pd-directional-derivative-intuition-3-1-3-3-1"><div class="para" id="pd-directional-derivative-intuition-3-1-3-3-1-1"><span class="process-math">\(\displaystyle \dfrac{f(x_0,y_0+k)-f(x_0,y_0)}{k}\)</span></div></li>
+<li id="pd-directional-derivative-intuition-3-1-3-3-2"><div class="para" id="pd-directional-derivative-intuition-3-1-3-3-2-1"><span class="process-math">\(\displaystyle \dfrac{f(x_0+h,y_0)-f(x_0,y_0)}{k}\)</span></div></li>
+<li id="pd-directional-derivative-intuition-3-1-3-3-3"><div class="para" id="pd-directional-derivative-intuition-3-1-3-3-3-1"><span class="process-math">\(\displaystyle \dfrac{f(x_0,y_0+k)-f(x_0,y_0)}{h}\)</span></div></li>
+<li id="pd-directional-derivative-intuition-3-1-3-3-4"><div class="para" id="pd-directional-derivative-intuition-3-1-3-3-4-1"><span class="process-math">\(\displaystyle \dfrac{f(x_0+h,y_0)-f(x_0,y_0)}{h}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="pd-directional-derivative-intuition-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="pd-directional-derivative-intuition-4-1-1">
+<div class="para">Using the same image as from part (b), which expression computes the slope of the secant line between <span class="process-math">\(P\)</span> and <span class="process-math">\(R\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2" id="pd-directional-derivative-intuition-4-1-1-3">
+<li id="pd-directional-derivative-intuition-4-1-1-3-1"><div class="para" id="pd-directional-derivative-intuition-4-1-1-3-1-1"><span class="process-math">\(\displaystyle \dfrac{f(x_0,y_0+k)-f(x_0,y_0)}{k}\)</span></div></li>
+<li id="pd-directional-derivative-intuition-4-1-1-3-2"><div class="para" id="pd-directional-derivative-intuition-4-1-1-3-2-1"><span class="process-math">\(\displaystyle \dfrac{f(x_0+h,y_0)-f(x_0,y_0)}{k}\)</span></div></li>
+<li id="pd-directional-derivative-intuition-4-1-1-3-3"><div class="para" id="pd-directional-derivative-intuition-4-1-1-3-3-1"><span class="process-math">\(\displaystyle \dfrac{f(x_0,y_0+k)-f(x_0,y_0)}{h}\)</span></div></li>
+<li id="pd-directional-derivative-intuition-4-1-1-3-4"><div class="para" id="pd-directional-derivative-intuition-4-1-1-3-4-1"><span class="process-math">\(\displaystyle \dfrac{f(x_0+h,y_0)-f(x_0,y_0)}{h}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="pd-directional-derivative-intuition-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="pd-directional-derivative-intuition-5-1-1">Now consider the unit vector <span class="process-math">\(\textbf{u} = \lrangle{a,b}\)</span> and the point <span class="process-math">\(Q\)</span> below. Write the slope of the secant line between <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\text{.}\)</span>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/sageplot/pd-directional-derivative-intuition-5-1-2.svg" role="img" class="contained"></div></article><article class="task exercise-like" id="pd-directional-derivative-intuition-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="pd-directional-derivative-intuition-6-1-1">Part (d) finds the slope of the secant line between <span class="process-math">\((x_0,y_0)\)</span> and <span class="process-math">\((x_0+ah,y_0+bh)\text{;}\)</span> how do we find the slope of the tangent line at <span class="process-math">\((x_0,y_0)\text{?}\)</span>
+</div></article><article class="task exercise-like" id="pd-directional-derivative-intuition-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="pd-directional-derivative-intuition-7-1-1">Fill in the blanks, recalling that <span class="process-math">\(\textbf{u}\)</span> is a unit vector:</div> <div class="para" id="pd-directional-derivative-intuition-7-1-2"><span class="process-math">\(\lrangle{a,b} = \lrangle{\fillinmath{XX},\fillinmath{XX}}\)</span></div> <div class="para logical" id="pd-directional-derivative-intuition-7-1-3">
+<div class="para">In this way, the definition of the directional derivative can be written as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{h\to 0} \dfrac{f(x_0+ah,y_0+bh)-f(x_0,y_0)}{h} = \lim_{h\to 0} \dfrac{f(x_0+\fillinmath{XX},y_0 + \fillinmath{XX})-f(x_0,y_0)}{h}
+\end{equation*}
+</div>
+</div></article></article><article class="activity project-like" id="pd-directional-derivative1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.4.4</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="pd-directional-derivative1-1"><div class="para" id="pd-directional-derivative1-1-1">Consider the function <span class="process-math">\(f(x,y) = 3x^2-4xy+y^2\)</span>
+</div></div>
+<article class="task exercise-like" id="pd-directional-derivative1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="pd-directional-derivative1-2-1-1">
+<div class="para">If we want to find <span class="process-math">\(D_{\textbf{v}}(f)\text{,}\)</span> where <span class="process-math">\(\textbf{v} = \lrangle{1,1}\text{,}\)</span> what should be done to <span class="process-math">\(\textbf{v}\text{?}\)</span>
+</div>
+<ol class="upper-alpha" id="pd-directional-derivative1-2-1-1-4">
+<li id="pd-directional-derivative1-2-1-1-4-1"><div class="para" id="pd-directional-derivative1-2-1-1-4-1-1">Nothing</div></li>
+<li id="pd-directional-derivative1-2-1-1-4-2"><div class="para" id="pd-directional-derivative1-2-1-1-4-2-1">Converted to sine and cosine</div></li>
+<li id="pd-directional-derivative1-2-1-1-4-3"><div class="para" id="pd-directional-derivative1-2-1-1-4-3-1">Converted to a unit vector</div></li>
+</ol>
+</div></article><article class="task exercise-like" id="pd-directional-derivative1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="pd-directional-derivative1-3-1-1">
+<div class="para">Which is the correct directional derivative of <span class="process-math">\(f\)</span> in the direction of <span class="process-math">\(\lrangle{1,1}\)</span> at the point <span class="process-math">\((2,3)\text{?}\)</span>
+</div>
+<ol class="upper-alpha" id="pd-directional-derivative1-3-1-1-4">
+<li id="pd-directional-derivative1-3-1-1-4-1"><div class="para" id="pd-directional-derivative1-3-1-1-4-1-1"><span class="process-math">\(\displaystyle -2\)</span></div></li>
+<li id="pd-directional-derivative1-3-1-1-4-2"><div class="para" id="pd-directional-derivative1-3-1-1-4-2-1"><span class="process-math">\(\displaystyle \sqrt{2}\)</span></div></li>
+<li id="pd-directional-derivative1-3-1-1-4-3"><div class="para" id="pd-directional-derivative1-3-1-1-4-3-1"><span class="process-math">\(\displaystyle -\sqrt{2}\)</span></div></li>
+<li id="pd-directional-derivative1-3-1-1-4-4"><div class="para" id="pd-directional-derivative1-3-1-1-4-4-1"><span class="process-math">\(\displaystyle 2\)</span></div></li>
+</ol>
+</div></article></article><article class="activity project-like" id="pd-directional-derivative2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.4.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="pd-directional-derivative2-1-1">Find the directional derivative of the function <span class="process-math">\(f(x,y) = x^3y^4-6e^x\)</span> at the point <span class="process-math">\((-1,2)\)</span> in the direction of the vector <span class="process-math">\(\textbf{v} = 4\textbf{i} - \textbf{j}\text{.}\)</span>
+</div></article><article class="activity project-like" id="pd-directional-derivative3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.4.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="pd-directional-derivative3-1-1">Find the directional derivative for the function <span class="process-math">\(h(x,y) = e^x\sin y\)</span> at the point <span class="process-math">\(\lrpar{1,\dfrac{\pi}{2}}\)</span> in the direction of <span class="process-math">\(60\dc\text{.}\)</span>
+</div></article><article class="activity project-like" id="pd-directional-derivative-gradient1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.4.7</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="pd-directional-derivative-gradient1-1"><div class="para" id="pd-directional-derivative-gradient1-1-1">This activity will develop of of the properties of the gradient vector.</div></div>
+<article class="task exercise-like" id="pd-directional-derivative-gradient1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="pd-directional-derivative-gradient1-2-1-1">Given the vectors <span class="process-math">\(\textbf{u}\)</span> and <span class="process-math">\(\textbf{v}\text{,}\)</span> fill in the blank: <span class="process-math">\(\cos\theta = \fillinmath{XXXXX}\)</span>
+</div></article><article class="task exercise-like" id="pd-directional-derivative-gradient1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pd-directional-derivative-gradient1-3-1-1">For which value(s) of <span class="process-math">\(\theta\)</span> will the dot product be at a maximum? What about a minimum?</div></article><article class="task exercise-like" id="pd-directional-derivative-gradient1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="pd-directional-derivative-gradient1-4-1-1">Use (a) to rewrite the definition of the directional derivative to arrive at an expression involving the gradient and <span class="process-math">\(\cos\theta\)</span>
+</div></article></article><article class="assemblage assemblage-like" id="PD4-activities-12"><h4 class="heading"><span class="title">Properties of the Gradient.</span></h4>
+<div class="para" id="PD4-activities-12-2">Suppose the function <span class="process-math">\(z = f(x,y)\)</span> is differentiable at <span class="process-math">\((x_0,y_0)\text{.}\)</span> Then, 
+                    <div class="para" id="PD4-activities-12-2-3-1">If <span class="process-math">\(\nabla f(x_0,y_0) = \textbf{0}\text{,}\)</span> then <span class="process-math">\(D_{\textbf{u}}f(x_0,y_0) = 0\)</span> for any unit vector <span class="process-math">\(\textbf{u}\)</span>
+</div>
+                 
+                    <div class="para" id="PD4-activities-12-2-4-1">If <span class="process-math">\(\nabla f(x_0,y_0) \neq \textbf{0}\text{,}\)</span> then <span class="process-math">\(D_{\textbf{u}}f(x_0,y_0)\)</span> is maximized (minimized) when <span class="process-math">\(\textbf{u}\)</span> points in the same (opposite) direction of <span class="process-math">\(\nabla f(x_0,y_0)\text{.}\)</span> The maximum value of <span class="process-math">\(D_{\textbf{u}}f(x_0,y_0)\)</span> is <span class="process-math">\(||\nabla f(x_0,y_0)\)</span> and the minimum value is <span class="process-math">\(-||\nabla f(x_0,y_0)\)</span>
+</div>
+                 
+                    <div class="para" id="PD4-activities-12-2-5-1">If <span class="process-math">\(\nabla f(x_0,y_0) \neq \textbf{0}\text{,}\)</span> then <span class="process-math">\(\nabla f(x_0,y_0)\)</span> is normal to the level curve of <span class="process-math">\(f\)</span> at <span class="process-math">\((x_0,y_0)\)</span>
+</div>
+                </div></article><article class="activity project-like" id="pd-directional-derivative-gradient2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.4.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="pd-directional-derivative-gradient2-1-1">Find the direction for which the directional derivative of <span class="process-math">\(f(x,y) = 3x^2-4xy + 2y^2\)</span> at <span class="process-math">\((2,-3)\)</span> is a minimum. What is the minimum value?</div></article><article class="activity project-like" id="pd-directional-derivative-gradient3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.4.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="pd-directional-derivative-gradient3-1-1">Find the derivative of <span class="process-math">\(f(x,y) = e^{xy}\)</span> at the point <span class="process-math">\((6,7)\)</span> in the direction the function increases most rapidly.</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="PD3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="PD5.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

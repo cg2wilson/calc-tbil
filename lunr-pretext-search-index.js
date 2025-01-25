@@ -4426,7 +4426,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.4",
   "title": "PD4: Directional Derivatives and Gradients",
-  "body": " PD4: Directional Derivatives and Gradients     PD4  Given a multivariable function, I can compute its directional derivative in a given direction, and determine\/interpret its gradient vector.      Pre-Class Preparation  Read the following sections of the text:    Section 4.6: Directional Derivatives and the Gradient    Read all sections        In-Class Activities   "
+  "body": " PD4: Directional Derivatives and Gradients     PD4  Given a multivariable function, I can compute its directional derivative in a given direction, and determine\/interpret its gradient vector.      Pre-Class Preparation  Read the following sections of the text:    Section 4.6: Directional Derivatives and the Gradient    Read all sections        In-Class Activities   In , we learned that the partial derivative was the rate of change of a multivariable function in a specific direction; tells the rate of change in the direction, while tells us the rate of change in the direction. How do we find the rate of change in any other direction?    Gradient Vector  gradient vector   Let be a differentiable function of two variables. The gradient vector of is defined to be       Let . Which is the correct gradient vector?                            Identify for the following functions.               Directional Derivative  directional derivative   Let be a differentiable function of two variables, and let be a unit vector. The directional derivative of in the direction of is given by or       This activity will build the intuition for the definition for the directional derivative.    Any vector can be decomposed in which way?                          Consider the vectors and as shown below. Note that points exclusively in the direction, and points exclusively in the direction.     Which expression computes the slope of the secant line between and ?                          Using the same image as from part (b), which expression computes the slope of the secant line between and ?                          Now consider the unit vector and the point below. Write the slope of the secant line between and .       Part (d) finds the slope of the secant line between and ; how do we find the slope of the tangent line at ?    Fill in the blanks, recalling that is a unit vector:     In this way, the definition of the directional derivative can be written as       Consider the function     If we want to find , where , what should be done to ?   Nothing    Converted to sine and cosine    Converted to a unit vector       Which is the correct directional derivative of in the direction of at the point ?                            Find the directional derivative of the function at the point in the direction of the vector .      Find the directional derivative for the function at the point in the direction of .      This activity will develop of of the properties of the gradient vector.    Given the vectors and , fill in the blank:     For which value(s) of will the dot product be at a maximum? What about a minimum?    Use (a) to rewrite the definition of the directional derivative to arrive at an expression involving the gradient and      Properties of the Gradient  Suppose the function is differentiable at . Then,  If , then for any unit vector     If , then is maximized (minimized) when points in the same (opposite) direction of . The maximum value of is and the minimum value is     If , then is normal to the level curve of at        Find the direction for which the directional derivative of at is a minimum. What is the minimum value?      Find the derivative of at the point in the direction the function increases most rapidly.      "
 },
 {
   "id": "PD4-2",
@@ -4436,6 +4436,114 @@ var ptx_lunr_docs = [
   "number": "10.4",
   "title": "",
   "body": "   PD4  Given a multivariable function, I can compute its directional derivative in a given direction, and determine\/interpret its gradient vector.    "
+},
+{
+  "id": "PD4-activities-2",
+  "level": "2",
+  "url": "PD4.html#PD4-activities-2",
+  "type": "Remark",
+  "number": "10.4.1",
+  "title": "",
+  "body": " In , we learned that the partial derivative was the rate of change of a multivariable function in a specific direction; tells the rate of change in the direction, while tells us the rate of change in the direction. How do we find the rate of change in any other direction?  "
+},
+{
+  "id": "def-gradient",
+  "level": "2",
+  "url": "PD4.html#def-gradient",
+  "type": "Definition",
+  "number": "10.4.2",
+  "title": "Gradient Vector.",
+  "body": " Gradient Vector  gradient vector   Let be a differentiable function of two variables. The gradient vector of is defined to be    "
+},
+{
+  "id": "pd-activity-gradient1",
+  "level": "2",
+  "url": "PD4.html#pd-activity-gradient1",
+  "type": "Activity",
+  "number": "10.4.1",
+  "title": "",
+  "body": "  Let . Which is the correct gradient vector?                         "
+},
+{
+  "id": "pd-activity-gradient2",
+  "level": "2",
+  "url": "PD4.html#pd-activity-gradient2",
+  "type": "Activity",
+  "number": "10.4.2",
+  "title": "",
+  "body": "  Identify for the following functions.             "
+},
+{
+  "id": "def-directional-derivative",
+  "level": "2",
+  "url": "PD4.html#def-directional-derivative",
+  "type": "Definition",
+  "number": "10.4.3",
+  "title": "Directional Derivative.",
+  "body": " Directional Derivative  directional derivative   Let be a differentiable function of two variables, and let be a unit vector. The directional derivative of in the direction of is given by or    "
+},
+{
+  "id": "pd-directional-derivative-intuition",
+  "level": "2",
+  "url": "PD4.html#pd-directional-derivative-intuition",
+  "type": "Activity",
+  "number": "10.4.3",
+  "title": "",
+  "body": "  This activity will build the intuition for the definition for the directional derivative.    Any vector can be decomposed in which way?                          Consider the vectors and as shown below. Note that points exclusively in the direction, and points exclusively in the direction.     Which expression computes the slope of the secant line between and ?                          Using the same image as from part (b), which expression computes the slope of the secant line between and ?                          Now consider the unit vector and the point below. Write the slope of the secant line between and .       Part (d) finds the slope of the secant line between and ; how do we find the slope of the tangent line at ?    Fill in the blanks, recalling that is a unit vector:     In this way, the definition of the directional derivative can be written as    "
+},
+{
+  "id": "pd-directional-derivative1",
+  "level": "2",
+  "url": "PD4.html#pd-directional-derivative1",
+  "type": "Activity",
+  "number": "10.4.4",
+  "title": "",
+  "body": "  Consider the function     If we want to find , where , what should be done to ?   Nothing    Converted to sine and cosine    Converted to a unit vector       Which is the correct directional derivative of in the direction of at the point ?                         "
+},
+{
+  "id": "pd-directional-derivative2",
+  "level": "2",
+  "url": "PD4.html#pd-directional-derivative2",
+  "type": "Activity",
+  "number": "10.4.5",
+  "title": "",
+  "body": "  Find the directional derivative of the function at the point in the direction of the vector .   "
+},
+{
+  "id": "pd-directional-derivative3",
+  "level": "2",
+  "url": "PD4.html#pd-directional-derivative3",
+  "type": "Activity",
+  "number": "10.4.6",
+  "title": "",
+  "body": "  Find the directional derivative for the function at the point in the direction of .   "
+},
+{
+  "id": "pd-directional-derivative-gradient1",
+  "level": "2",
+  "url": "PD4.html#pd-directional-derivative-gradient1",
+  "type": "Activity",
+  "number": "10.4.7",
+  "title": "",
+  "body": "  This activity will develop of of the properties of the gradient vector.    Given the vectors and , fill in the blank:     For which value(s) of will the dot product be at a maximum? What about a minimum?    Use (a) to rewrite the definition of the directional derivative to arrive at an expression involving the gradient and    "
+},
+{
+  "id": "pd-directional-derivative-gradient2",
+  "level": "2",
+  "url": "PD4.html#pd-directional-derivative-gradient2",
+  "type": "Activity",
+  "number": "10.4.8",
+  "title": "",
+  "body": "  Find the direction for which the directional derivative of at is a minimum. What is the minimum value?   "
+},
+{
+  "id": "pd-directional-derivative-gradient3",
+  "level": "2",
+  "url": "PD4.html#pd-directional-derivative-gradient3",
+  "type": "Activity",
+  "number": "10.4.9",
+  "title": "",
+  "body": "  Find the derivative of at the point in the direction the function increases most rapidly.   "
 },
 {
   "id": "PD5",
