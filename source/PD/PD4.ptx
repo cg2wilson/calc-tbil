@@ -18,6 +18,428 @@
     <subsection xml:id="PD4-activities">
         <title>In-Class Activities</title>
 
+        <remark>
+            <p>
+                In <xref ref="PD3"/>, we learned that the partial derivative was the rate of change of a multivariable function in a specific direction; <m>\dfrac{\partial f}{\partial x}</m> tells the rate of change in the <m>x-</m>direction, while <m>\dfrac{\partial f}{\partial y}</m> tells us the rate of change in the <m>y-</m>direction. How do we find the rate of change in any other direction?
+            </p>
+        </remark>
+
+        <definition xml:id="def-gradient">
+            <title>Gradient Vector</title>
+            <idx><h>gradient vector</h></idx>
+            <statement>
+                <p>
+                    Let <m>f(x,y)</m> be a differentiable function of two variables. The <term>gradient vector</term> of <m>f</m> is defined to be
+                    <me>
+                        \nabla f = \lrangle{f_x(x,y),f_y(x,y)} = \text{grad}\,(f)
+                    </me>   
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="pd-activity-gradient1">
+            <statement>
+                <p>
+                    Let <m>f(x,y) = x^2-xy+3y^2</m>. Which is the correct gradient vector?
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>
+                                    2x-y-x+6y
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    \lrangle{2x-y,-x+6y}
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    \lrangle{x^2-xy,-xy+3y^2}
+                                </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>
+                                    \lrangle{2x-xy,-xy+6y}
+                                </m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="pd-activity-gradient2">
+            <introduction>
+                <p>
+                    Identify <m>\nabla f</m> for the following functions.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x,y) = \sin(3x)\cos(3y)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(a,b) = \dfrac{a^2-3b^2}{2a-b}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-directional-derivative">
+            <title>Directional Derivative</title>
+            <idx><h>directional derivative</h></idx>
+            <statement>
+                <p>
+                    Let <m>f(x,y)</m> be a differentiable function of two variables, and let <m>\textbf{u} = \lrangle{a,b}</m> be a unit vector. The <term>directional derivative</term> of <m>f(x,y)</m> in the direction of <m>\textbf{u}</m> is given by
+                    <me>
+                        D_{\textbf{u}}(f) = \nabla f\cdot\textbf{u}= f_x(x,y) + f_y(x,y)b
+                    </me>
+                    or
+                    <me>
+                        \lim_{h\to 0} \dfrac{f(x+ah,y+bh)-f(x,y)}{h}
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="pd-directional-derivative-intuition">
+            <introduction>
+                <p>
+                    This activity will build the intuition for the definition for the directional derivative.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Any vector <m>\textbf{u} = \lrangle{a,b}</m> can be decomposed in which way?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\lrangle{|\textbf{u}|\cos\theta,|\textbf{u}|\sin\theta}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\lrangle{|\textbf{u}|\sin\theta,|\textbf{u}|\cos\theta}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\lrangle{\cos\theta,\sin\theta}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\lrangle{\sin\theta,\cos\theta}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Consider the vectors <m>\textbf{v}_1</m> and <m>\textbf{v}_2</m> as shown below. Note that <m>\textbf{v}_1</m> points exclusively in the <m>x-</m>direction, and <m>\textbf{v}_2</m> points exclusively in the <m>y-</m>direction.
+                    </p>
+                    <image>
+                        <sageplot>
+                            g = Graphics()
+                            g += plot(0,(x,0,3),ticks=[[],[]], ymin = 0, ymax = 3, axes_labels=('$x$','$y$'))
+                            g += circle((1,1),0.05,fill=True,facecolor='black',color='black')
+                            g += arrow((1,1),(1,2),color='black',linestyle='dashed')
+                            g += arrow((1,1),(2,1),color='black',linestyle='dashed')
+                            g += circle((1,2),0.05,fill=True,facecolor='black',color='black')
+                            g += circle((2,1),0.05,fill=True,facecolor='black',color='black')
+                            g += text('$R(x_0,y_0+k)$',(1,2.25),color='black',fontsize=14)
+                            g += text('$P(x_0,y_0)$', (1,0.75),color='black',fontsize=14)
+                            g += text('$Q(x_0+h,y_0)$', (2,0.75),color='black',fontsize=14)
+                            g += text(r'$\bf{v}_1$', (1.5,.85),color='black',fontsize=14)
+                            g += text(r'$\bf{v}_2$', (0.85,1.5),color='black',fontsize=14)
+                            g
+                        </sageplot> 
+                    </image>
+                    <p>
+                        Which expression computes the slope of the secant line between <m>P</m> and <m>Q</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{f(x_0,y_0+k)-f(x_0,y_0)}{k}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{f(x_0+h,y_0)-f(x_0,y_0)}{k}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{f(x_0,y_0+k)-f(x_0,y_0)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{f(x_0+h,y_0)-f(x_0,y_0)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Using the same image as from part (b), which expression computes the slope of the secant line between <m>P</m> and <m>R</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{f(x_0,y_0+k)-f(x_0,y_0)}{k}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{f(x_0+h,y_0)-f(x_0,y_0)}{k}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{f(x_0,y_0+k)-f(x_0,y_0)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \dfrac{f(x_0+h,y_0)-f(x_0,y_0)}{h}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now consider the unit vector <m>\textbf{u} = \lrangle{a,b}</m> and the point <m>Q</m> below. Write the slope of the secant line between <m>P</m> and <m>Q</m>.
+                    </p>
+                    <image>
+                        <sageplot>
+                            g = Graphics()
+                            g += plot(0,(x,0,3),ticks=[[],[]], ymin = 0, ymax = 3, axes_labels=('$x$','$y$'))
+                            g += circle((1,1),0.05,fill=True,facecolor='black',color='black')
+                            g += line(([(1,1),(2,1)]),color='black',linestyle='dashed')
+                            g += text(r'$P\,(x_0,y_0)$', (1,0.75),color='black',fontsize=14)
+                            g += arrow ((1,1),(3,3),color='black')
+                            g += line(([(2,1),(2,2)]),color='black',linestyle='dashed')
+                            g += circle((2,2),0.05,fill=True,color='black',facecolor='black')
+                            g += text(r'$\bf{u}$',(2.5,2.35),color='black',fontsize=14)
+                            g += text('$Q(x_0+ah,y_0+bh)$', (1.4,2.15),color='black',fontsize=14)
+                            g += text('$ah$',(1.5,0.85),color='black',fontsize=14)
+                            g += text('$bh$',(2.15,1.5),color='black',fontsize=14)
+                            g
+                        </sageplot>
+                    </image>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Part (d) finds the slope of the secant line between <m>(x_0,y_0)</m> and <m>(x_0+ah,y_0+bh)</m>; how do we find the slope of the tangent line at <m>(x_0,y_0)</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Fill in the blanks, recalling that <m>\textbf{u}</m> is a unit vector:
+                    </p>
+                    <p>
+                        <m>\lrangle{a,b} = \lrangle{<fillin characters="2" />,<fillin characters="2" />}</m>
+                    </p>
+                    <p>
+                        In this way, the definition of the directional derivative can be written as
+                        <me>
+                            \lim_{h\to 0} \dfrac{f(x_0+ah,y_0+bh)-f(x_0,y_0)}{h} = \lim_{h\to 0} \dfrac{f(x_0+<fillin characters="2" />,y_0 + <fillin characters="2" />)-f(x_0,y_0)}{h}
+                        </me>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="pd-directional-derivative1">
+            <introduction>
+                <p>
+                    Consider the function <m>f(x,y) = 3x^2-4xy+y^2</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        If we want to find <m>D_{\textbf{v}}(f)</m>, where <m>\textbf{v} = \lrangle{1,1}</m>, what should be done to <m>\textbf{v}</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    Nothing
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Converted to sine and cosine
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Converted to a unit vector
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which is the correct directional derivative of <m>f</m> in the direction of <m>\lrangle{1,1}</m> at the point <m>(2,3)</m>?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>-2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-\sqrt{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="pd-directional-derivative2">
+            <statement>
+                <p>
+                    Find the directional derivative of the function <m>f(x,y) = x^3y^4-6e^x</m> at the point <m>(-1,2)</m> in the direction of the vector <m>\textbf{v} = 4\textbf{i} - \textbf{j}</m>.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="pd-directional-derivative3">
+            <statement>
+                <p>
+                    Find the directional derivative for the function <m>h(x,y) = e^x\sin y</m> at the point <m>\lrpar{1,\dfrac{\pi}{2}}</m> in the direction of <m>60\dc</m>.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="pd-directional-derivative-gradient1">
+            <introduction>
+                <p>
+                    This activity will develop of of the properties of the gradient vector.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Given the vectors <m>\textbf{u}</m> and <m>\textbf{v}</m>, fill in the blank: <m>\cos\theta = <fillin characters="5" /></m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        For which value(s) of <m>\theta</m> will the dot product be at a maximum? What about a minimum?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use (a) to rewrite the definition of the directional derivative to arrive at an expression involving the gradient and <m>\cos\theta</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <assemblage>
+            <title>Properties of the Gradient</title>
+            <p>
+                Suppose the function <m>z = f(x,y)</m> is differentiable at <m>(x_0,y_0)</m>. Then,
+                <li>
+                    <p>
+                        If <m>\nabla f(x_0,y_0) = \textbf{0}</m>, then <m>D_{\textbf{u}}f(x_0,y_0) = 0</m> for any unit vector <m>\textbf{u}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>\nabla f(x_0,y_0) \neq \textbf{0}</m>, then <m>D_{\textbf{u}}f(x_0,y_0)</m> is maximized (minimized) when <m>\textbf{u}</m> points in the same (opposite) direction of <m>\nabla f(x_0,y_0)</m>. The maximum value of <m>D_{\textbf{u}}f(x_0,y_0)</m> is <m>||\nabla f(x_0,y_0)||</m> and the minimum value is <m>-||\nabla f(x_0,y_0)||</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>\nabla f(x_0,y_0) \neq \textbf{0}</m>, then <m>\nabla f(x_0,y_0)</m> is normal to the level curve of <m>f</m> at <m>(x_0,y_0)</m>
+                    </p>
+                </li>
+            </p>
+        </assemblage>
+
+        <activity xml:id="pd-directional-derivative-gradient2">
+            <statement>
+                <p>
+                    Find the direction for which the directional derivative of <m>f(x,y) = 3x^2-4xy + 2y^2</m> at <m>(2,-3)</m> is a minimum. What is the minimum value?
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="pd-directional-derivative-gradient3">
+            <statement>
+                <p>
+                    Find the derivative of <m>f(x,y) = e^{xy}</m> at the point <m>(6,7)</m> in the direction the function increases most rapidly.
+                </p>
+            </statement>
+        </activity>
+        <!-- 
+            need to add:
+            4) an associated example
+            5) another example
+        -->
     </subsection>
 
 </section>
