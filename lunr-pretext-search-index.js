@@ -3724,7 +3724,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.2",
   "title": "AI2: Volumes by Disks\/Washers",
-  "body": " AI2: Volumes by Disks\/Washers     AI2  I can use the disk and washer methods to compute the volume of solids of revolution.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: Determining Volumes by Slicing    Read from \"Solids of Revolution\" to the end        In-Class Activities   "
+  "body": " AI2: Volumes by Disks\/Washers     AI2  I can use the disk and washer methods to compute the volume of solids of revolution.      Pre-Class Preparation  Read the following sections of the text:    Section 2.2: Determining Volumes by Slicing    Read from \"Solids of Revolution\" to the end        In-Class Activities    Let .    Sketch on , and find the area between and the axis.    Sketch the cylinder created by rotating the line segment around the axis; what is the volume of the cylinder?    Which expression identifies the volume of a slice of the cylinder?                            Now let     Sketch the region bounded by , the axis, and     Sketch the solid created by rotating the region in (a) about the axis.    Which expression finds the volume of the cone?                           Disk Method  disk method   If is a positive, continuous function on , then the volume of the solid created by rotating about the axis is given by       Find the volume of the solid obtained by rotating the region under the curve from 0 to 1 about the axis.                            Find the volume of the solid obtained by reotating the first-quadrant region bounded by and about the axis.      Let     Sketch the first-quadrant region bounded by and     Sketch the solid resulting from rotating the region about     True or false: We can use the disk method to compute the volume of the solid.   True    False       Which operation will help find the volume of the solid?   Addition    Subtraction    Multiplication    Division       Use your answer to (d) to find the volume of the solid.      Find the volume of the solid formed by rotating the region bounded by and about the axis.     Washer Method  washer method   Let and be continuous functions on such that on . Then, the volume of the oslid created by rotating the region between and about the axis is given by where is the radius associated with and is the radius associated with       The region bounded by and is rotated about the axis .    Which expression gives the volume of the solid?                          If the region is rotated instead about , which expression gives the new volume?                          If the region is instead rotated about , write an expression to give the volume for this solid.     "
 },
 {
   "id": "AI2-2",
@@ -3734,6 +3734,87 @@ var ptx_lunr_docs = [
   "number": "6.2",
   "title": "",
   "body": "   AI2  I can use the disk and washer methods to compute the volume of solids of revolution.    "
+},
+{
+  "id": "ai-disk-intution1",
+  "level": "2",
+  "url": "AI2.html#ai-disk-intution1",
+  "type": "Activity",
+  "number": "6.2.1",
+  "title": "",
+  "body": "  Let .    Sketch on , and find the area between and the axis.    Sketch the cylinder created by rotating the line segment around the axis; what is the volume of the cylinder?    Which expression identifies the volume of a slice of the cylinder?                         "
+},
+{
+  "id": "ai-disk-intuition2",
+  "level": "2",
+  "url": "AI2.html#ai-disk-intuition2",
+  "type": "Activity",
+  "number": "6.2.2",
+  "title": "",
+  "body": "  Now let     Sketch the region bounded by , the axis, and     Sketch the solid created by rotating the region in (a) about the axis.    Which expression finds the volume of the cone?                         "
+},
+{
+  "id": "def-disk-method",
+  "level": "2",
+  "url": "AI2.html#def-disk-method",
+  "type": "Definition",
+  "number": "6.2.1",
+  "title": "Disk Method.",
+  "body": " Disk Method  disk method   If is a positive, continuous function on , then the volume of the solid created by rotating about the axis is given by    "
+},
+{
+  "id": "ai-disk-practice1",
+  "level": "2",
+  "url": "AI2.html#ai-disk-practice1",
+  "type": "Activity",
+  "number": "6.2.3",
+  "title": "",
+  "body": "  Find the volume of the solid obtained by rotating the region under the curve from 0 to 1 about the axis.                         "
+},
+{
+  "id": "ai-disk-practice2",
+  "level": "2",
+  "url": "AI2.html#ai-disk-practice2",
+  "type": "Activity",
+  "number": "6.2.4",
+  "title": "",
+  "body": "  Find the volume of the solid obtained by reotating the first-quadrant region bounded by and about the axis.   "
+},
+{
+  "id": "AI2-activities-7",
+  "level": "2",
+  "url": "AI2.html#AI2-activities-7",
+  "type": "Activity",
+  "number": "6.2.5",
+  "title": "",
+  "body": "  Let     Sketch the first-quadrant region bounded by and     Sketch the solid resulting from rotating the region about     True or false: We can use the disk method to compute the volume of the solid.   True    False       Which operation will help find the volume of the solid?   Addition    Subtraction    Multiplication    Division       Use your answer to (d) to find the volume of the solid.   "
+},
+{
+  "id": "ai-washer-practice1",
+  "level": "2",
+  "url": "AI2.html#ai-washer-practice1",
+  "type": "Activity",
+  "number": "6.2.6",
+  "title": "",
+  "body": "  Find the volume of the solid formed by rotating the region bounded by and about the axis.   "
+},
+{
+  "id": "def-washer-method",
+  "level": "2",
+  "url": "AI2.html#def-washer-method",
+  "type": "Definition",
+  "number": "6.2.2",
+  "title": "Washer Method.",
+  "body": " Washer Method  washer method   Let and be continuous functions on such that on . Then, the volume of the oslid created by rotating the region between and about the axis is given by where is the radius associated with and is the radius associated with    "
+},
+{
+  "id": "ai-washer-practice2",
+  "level": "2",
+  "url": "AI2.html#ai-washer-practice2",
+  "type": "Activity",
+  "number": "6.2.7",
+  "title": "",
+  "body": "  The region bounded by and is rotated about the axis .    Which expression gives the volume of the solid?                          If the region is rotated instead about , which expression gives the new volume?                          If the region is instead rotated about , write an expression to give the volume for this solid.   "
 },
 {
   "id": "AI3",
