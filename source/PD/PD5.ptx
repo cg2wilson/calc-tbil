@@ -18,6 +18,406 @@
     <subsection xml:id="PD5-activities">
         <title>In-Class Activities</title>
 
+        <remark>
+            <p>
+                Recall that a critical point in Calculus 1 is found by setting the derivative equal to zero, i.e. <m>f'(x) = 0</m>
+            </p>
+        </remark>
+
+        <definition xml:id="def-critical-pt-multivariable">
+            <title>Critical Point (Multivariable Version)</title>
+            <idx><h>critical point</h></idx>
+            
+            <statement>
+                <p>
+                    Let <m>z=f(x,y)</m> be a function of two variables. The point <m>(x_0,y_0)</m> is a critical point of <m>f(x,y)</m> if either
+                    <ol>
+                        <li>
+                            <p>
+                                <m>\nabla f(x_0,y_0) = \textbf{0}</m>, i.e. <m>f_x(x_0,y_0) = f_y(x_0,y_0) = 0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Either <m>f_x(x_0,y_0)</m> or <m>f_y(x_0,y_0)</m> does not exist
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </definition>
+
+        <activity>
+            <introduction>
+                <p>
+                    Let <m>f(x,y) = x^3+2xy-2x-4y</m>.
+                </p>
+                <task>
+                    <statement>
+                        <p>
+                            Identify <m>f_x(x,y)</m> and <m>f_y(x,y)</m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?
+                            <ol marker="A." cols="2">
+                                <li>
+                                    <p>
+                                        <m>
+                                            3x^2+2y-2 = 0
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            3x^2 + 2y-2 = 2x-4
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            2x-4 = 0
+                                        </m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>
+                                            3x^2 + 2(2x-4) - 2 = 0
+                                        </m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Solving the equation from (c) gives what conditions on the variable(s)?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?
+                        </p>
+                    </statement>
+                </task>
+            </introduction>
+        </activity>
+
+        <activity >
+            <statement>
+                <p>
+                    Argue why the only critical point of the function <m>g(x,y) = x^2+xy+y^2+2x-2y+5</m> is <m>(-2,2)</m>
+                </p>
+            </statement>
+        </activity>
+
+        <remark>
+            <p>
+                The definitions of local and absolute extrema for multivariable functions are analogous to the definitions for single-variable functions.
+            </p>
+        </remark>
+
+        <definition xml:id="def-local-extrema-multivariable">
+            <title>Local Max/Local Min (Multivariable)</title>
+            <idx><h>local maximum</h></idx>
+            <idx><h>local minimum</h></idx>
+            <idx><h>relative maximum</h></idx>
+            <idx><h>relative minimum</h></idx>
+            <statement>
+                <p>
+                    Let <m>z = f(x,y)</m> be a function of two variables that is defined and continuous on an open set containing the point <m>(x_0,y_0)</m>. We say that <m>f</m> has a <term>local maximum</term> at <m>(x_0,y_0)</m> if
+                    <me>
+                        f(x_0,y_0)\geq f(x,y)
+                    </me>
+                    for all points <m>(x,y)</m> within some disk centered at <m>(x_0,y_0)</m>. <m>f</m> has a <term>local minimum</term> at <m>(x_0,y_0)</m> if 
+                    <me>
+                        f(x_0,y_0) \leq f(x,y)
+                    </me>
+                    for all points <m>(x,y)</m> within some disk centered at <m>(x_0,y_0)</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-absolute-extrema-multivariable">
+            <title>Absolute Max/Min (Multivariable)</title>
+            <idx><h>absolute maximum</h></idx>
+            <idx><h>absolute minimum</h></idx>
+            <idx><h>global maximum</h></idx>
+            <idx><h>global minimum</h></idx>  
+            <statement>
+                <p>
+                    Let <m>z = f(x,y)</m> be a function of two variables that is defined and continuous on an open set containing the point <m>(x_0,y_0)</m>. We say that <m>f</m> has an <term>absolute maximum</term> at <m>(x_0,y_0)</m> if
+                    <me>
+                        f(x_0,y_0)\geq f(x,y)
+                    </me>
+                    for all points <m>(x,y)</m> in the domain of <m>f</m>. <m>f</m> has an <term>absolute minimum</term> at <m>(x_0,y_0)</m> if 
+                    <me>
+                        f(x_0,y_0) \leq f(x,y)
+                    </me>
+                    for all points <m>(x,y)</m> in the domain of <m>f</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-saddle-point">
+            <title>Saddle Point</title>
+            <idx><h>saddle point</h></idx>            
+            <statement>
+                <p>
+                    A function <m>f(x,y)</m> has a saddle point at <m>(x_0,y_0)</m> if <m>\nabla f(x_0,y_0) = \textbf{0}</m> but <m>(x_0,y_0)</m> is neither a maximum nor a minimum.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="pd-saddle-point1">
+            <introduction>
+                <p>
+                    Consider the function <m>f(x,y) = y^2-x^2</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find the critical point for <m>f(x,y)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Consider the traces <m>f(0,y)</m> and <m>f(x,0)</m>. These traces show that
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    the critical point is a maximum for both traces, thus a maximum
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    the critical point is a minimum for both traces, thus a minimum
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-second-partial-derivative-test">
+            <title>Second Partial Derivative Test</title>
+            <statement>
+                <p>
+                    Let <m>f(x,y)</m> be a twice-differentiable function, and let <m>(x_0,y_0)</m> be a critical point of <m>f</m>. Set
+                    <me>
+                        D = f_{xx}(x_0,y_0)f_{yy}(x_0,y_0) - (f_{xy}(x_0,y_0))^2
+                    </me>
+                    Then,
+                    <ol>
+                        <li>
+                            <p>
+                                If <m>D\gt 0</m> and <m>f_{xx}(x_0,y_0) \gt 0</m>, then <m>(x_0,y_0)</m> is a local minimum of <m>f</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>D\gt 0</m> and <m>f_{xx}(x_0,y_0) \lt 0</m>, then <m>(x_0,y_0)</m> is a local maximum of <m>f</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>D \lt 0</m>, then <m>(x_0,y_0)</m> is a saddle point of <m>f</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>D = 0</m>, the test is inconclusive
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity>
+            <introduction>
+                <p>
+                    Let <m>f(x,y) = x^2+y^2-2x-6y+14</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find the critical point(s) of <m>f</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Classify the critical point(s) of <m>f</m> using <xref ref="thm-second-partial-derivative-test"/>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Find and classify the critical points of the following functions.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x,y) = -x^3+4xy-2y^2+1</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x,y) = x^2y^2</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <remark>
+            <p>
+                In Calculus I, finding the absolute extrema of a function means we need to check the function value at the boundary of the interval; this is just the two endpoints. For a two-variable function, we need to check the boundary of the entire domain.
+            </p>
+        </remark>
+
+        <assemblage>
+            <title>Finding Absolute Extrema for Functions of Two Variables</title>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Determine the critical points of the function <m>f(x,y)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Compute the function value for each critical point
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Compute the maximum value along the boundary of the domain. This may mean you need to split the boundary into separate pieces of analysis.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The largest and smallest values in steps 2 and 3 are the absolute maximum and minimum, respectively.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </assemblage>
+
+        <activity>
+            <introduction>
+                <p>
+                    Let <m>f(x,y) = 4x^2-2xy+6y^2-8x+2y+3</m>. We will find the absolute extrema on the domain <m>0\leq x \leq 2</m>, <m>-1\leq y\leq 3</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Identify the critical point of the function on the domain. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the value of <m>f</m> at the critical point?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        To evaluate along the lower portion of the rectangle that forms the domain, which equation should be used?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        y=0
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        x=-1
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        y=-1
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        y = 2
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Evaluate the function along the other three sides.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Evaluate the function at the four corners.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the absolute maximum? What about the absolute minimum?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <statement>
+                <p>
+                    Identify the absolute extrema of <m>f(x,y) = x^2-2xy+2y</m> on the rectangle <m>0\leq x\leq 3</m>, <m>0\leq y\leq 2</m>
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>

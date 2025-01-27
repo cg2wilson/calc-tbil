@@ -195,7 +195,7 @@
             </statement>
         </activity>
 
-        <activity xm:id="ai-washer-intuition1">
+        <activity xml:id="ai-washer-intuition1">
             <introduction>
                 <p>
                     Let <m>f(x) = x^2</m>

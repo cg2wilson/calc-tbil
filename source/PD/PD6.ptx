@@ -17,7 +17,150 @@
 
     <subsection xml:id="PD6-activities">
         <title>In-Class Activities</title>
+        
+        <remark>
+            <p>
+                To solve an optimization problem under constraints, we use the technique of <em>Lagrange multipliers</em>
+            </p>
+        </remark>
 
+        <theorem xml:id="thm-lagrange-multipliers">
+            <title>Lagrange Multipliers</title>
+            <statement>
+                <p>
+                    Let <m>f</m> and <m>g</m> be functions of two variables with continuous partials at every point in some open set containing the curve <m>g(x,y) = 0</m>. Suppose that <m>f(x,y)</m>, when restricted to <m>g(x,y) = 0</m>, has an extremum at <m>(x_0,y_0)</m> such that <m>\nabla g(x_0,y_0)\neq 0</m>. Then, there exists some number <m>\lambda</m> such that <m>\nabla f = \lambda \nabla g</m>
+                </p>
+            </statement>
+        </theorem>
+        
+        <assemblage>
+            <title>Using Lagrange Multipliers</title>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Determine the objective function <m>f(x,y)</m> and the constraint <m>g(x,y)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Set up the following system of equations:
+                            <me>
+                                \begin{cases}
+                                    \nabla f &amp; = \lambda \nabla g \\
+                                    g &amp; = 0
+                                \end{cases}
+                            </me>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Solve the system for <m>x_0</m> and <m>y_0</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The largest value of <m>f</m> maximizes <m>f</m> subject to <m>g</m>, and the smallest minimizes <m>f</m> subject to <m>g</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </assemblage>
+
+        <activity>
+            <introduction>
+                <p>
+                    Let <m>f(x,y) = x^2+4y^2-2x+8y</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Identify <m>\nabla f</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>f</m> is subject to the constraint <m>g(x,y) = x+2y-7</m>, which is the correct way to set up the Lagrange multiplier system?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \begin{cases}
+                                            \nabla f &amp; = \lambda g\\ 
+                                            g &amp; = 0
+                                        \end{cases}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \begin{cases}
+                                            f &amp; = \lambda \nabla g \\
+                                            g &amp; = 7                                            
+                                        \end{cases}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \begin{cases}
+                                            f &amp; = \lambda g \\
+                                            g &amp; = 0
+                                        \end{cases}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \begin{cases}
+                                            \nabla f &amp; = \lambda \nabla g\\
+                                            g &amp; = 0
+                                        \end{cases}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Solve the system. Which value maximizes <m>f</m> and which value minimizes <m>f</m>?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <activity>
+            <statement>
+                <p>
+                    Find the extreme values of <m>f(x,y) = x^2 + 2y^2</m> on the circle <m>x^2 + y^2 = 4</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <statement>
+                <p>
+                    Find the maximum and minimum volumes of a rectangular box with a surface area of 1600 square inches and whose total edge length is 200 inches.
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <statement>
+                <p>
+                    Find the minimum of <m>x^2 + y^2 + z^2</m> subject to <m>x + y + z = 1</m>
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>

@@ -461,7 +461,7 @@
         <activity xml:id="ve-eqn-plane2">
             <statement>
                 <p>
-                    Use <xref ref="parametric-symmetric-forms-of-lines"/> and the previous activity to find the equation of a plane that passes through the point <m>(2,0,3)</m> and contains the line given by <m>\dfrac{x}{2} = y -1 = z</m>
+                    Use the definitions in <xref ref="parametric-symmetric-forms-of-lines" text="title"/> and the previous activity to find the equation of a plane that passes through the point <m>(2,0,3)</m> and contains the line given by <m>\dfrac{x}{2} = y -1 = z</m>
                 </p>
             </statement>
         </activity>
