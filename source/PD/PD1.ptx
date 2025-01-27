@@ -160,7 +160,7 @@
             <title>Function of Multiple Variables</title>
             <statement>
                 <p>
-                    A <term>function of multiple variables</term> <m>z = f(x_1,x_2,...,x_n)</m> is a rule which maps the ordered pair <fillin characters="5" /> in a subset <m>D</m> of <m>\R^n</m> to a unique real number <fillin characters="5" />. The set <m>D</m> is called the <fillin characters="5" /> of the function, and the <fillin characters="5" /> is the set of all real numbers <m>z</m> such that <fillin characters="5" />
+                    A <term>function of multiple variables</term> <m>z = f(x_1,x_2,...,x_n)</m> is a rule which maps the ordered pair <m><fillin characters="5" /></m> in a subset <m>D</m> of <m>\R^n</m> to a unique real number <m><fillin characters="5" /></m>. The set <m>D</m> is called the <m><fillin characters="5" /></m> of the function, and the <m><fillin characters="5" /></m> is the set of all real numbers <m>z</m> such that <m><fillin characters="5" /></m>
                 </p>
             </statement>
         </definition>
