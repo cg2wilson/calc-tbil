@@ -3517,7 +3517,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "VE3: Lines and Planes in Space",
-  "body": " VE3: Lines and Planes in Space     VE3  I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.5: Equations of Lines and Planes in Space    Read all sections        In-Class Activities    In three dimensions, lines can take slightly different form than we are accustomed to in two dimensions.    Direction Vector  direction vector   The direction vector of a line is a vector which points in the same direction as the line.      Two vectors are parallel if they have the same or opposite directions. This means that there is some scalar value such that or equivalently that, if the vectors have the same direction or if they have opposite directions.      This activity will develop the vector equation of a line.  Let be a line in space passing through the point and let be a vector parallel to .    Let be another point on . Write the vector .    Since is on , will also be parallel to . Using , write an expression (using for your scalar value) relating and .    Use vector operations to complete the equation:      Parametric\/Symmetric Forms of Lines  Let the line go through the points and have direction vector .  Then, can be expressed in parametric form as and in symmetric form as      Let be the line passing through the points and .    Which expression gives the parametric form of the line?                Use part (a) to write the symmetric form of the line.      To find the distance between a point and a line, recall that the cross product of two vectors and produces a third vector which is orthogonal to both and .  Let be a line in space passing through the point with direction vector . Let be a point which is not on .    First, create a sketch with , , , and .    Create a parallelogram whose sides are the vector and . It is a fact that the area of the parallelogram is given by .  Write another expression which gives the area of the parallelogram, using for the distance between and .    Solve for to get the formula for the distance from a point to a line in space.     Distance from a Point to a Line  Consider line in space which passes through with direction vector . If is a point not on , then the distance from to is given by      Find the distance between and the line given by     Which is the correct direction vector for the line?                          Why do we know the point lies on the line?     is given by which of the following?                          Compute the distance between and the line.     Skew Lines  skew lines   Two lines are called skew when they are neither parallel nor intersecting.      Consider the lines given by the parametric equations and   True or false: the lines are skew   True    False        Normal Vector  normal vector   A normal vector to a surface is one which is orthogonal (or perpendicular) to that surface.      Let the points and be points in a plane.    Let be a vector normal to the plane at . Which expression mathematically describes this relationship?                          If , use your answer in part (a) to rewrite without vector operations     Scalar Equation of a Plane  scalar equation of a plane   The scalar equation of a plane containing the point with normal vector is given by or alternately,       We will find the equation of the plane containing points , , and     First we need to find a normal vector for the plane. Which operation will find a vector orthogonal to a vector on the plane?   Dot product    Cross product       Find the vectors and , then use the operation from part (a) to find the orthogonal vector.    Use any point and your answer to part (b) to find the equation of the plane.      Use and the previous activity to find the equation of a plane that passes through the point and contains the line given by       "
+  "body": " VE3: Lines and Planes in Space     VE3  I can determine information about lines and planes in space, including: distance, angles between objects, and equations in various forms.      Pre-Class Preparation  Read the following sections of the text:    Volume 3, Section 2.5: Equations of Lines and Planes in Space    Read all sections        In-Class Activities    In three dimensions, lines can take slightly different form than we are accustomed to in two dimensions.    Direction Vector  direction vector   The direction vector of a line is a vector which points in the same direction as the line.      Two vectors are parallel if they have the same or opposite directions. This means that there is some scalar value such that or equivalently that, if the vectors have the same direction or if they have opposite directions.      This activity will develop the vector equation of a line.  Let be a line in space passing through the point and let be a vector parallel to .    Let be another point on . Write the vector .    Since is on , will also be parallel to . Using , write an expression (using for your scalar value) relating and .    Use vector operations to complete the equation:      Parametric\/Symmetric Forms of Lines  Let the line go through the points and have direction vector .  Then, can be expressed in parametric form as and in symmetric form as      Let be the line passing through the points and .    Which expression gives the parametric form of the line?                Use part (a) to write the symmetric form of the line.      To find the distance between a point and a line, recall that the cross product of two vectors and produces a third vector which is orthogonal to both and .  Let be a line in space passing through the point with direction vector . Let be a point which is not on .    First, create a sketch with , , , and .    Create a parallelogram whose sides are the vector and . It is a fact that the area of the parallelogram is given by .  Write another expression which gives the area of the parallelogram, using for the distance between and .    Solve for to get the formula for the distance from a point to a line in space.     Distance from a Point to a Line  Consider line in space which passes through with direction vector . If is a point not on , then the distance from to is given by      Find the distance between and the line given by     Which is the correct direction vector for the line?                          Why do we know the point lies on the line?     is given by which of the following?                          Compute the distance between and the line.     Skew Lines  skew lines   Two lines are called skew when they are neither parallel nor intersecting.      Consider the lines given by the parametric equations and   True or false: the lines are skew   True    False        Normal Vector  normal vector   A normal vector to a surface is one which is orthogonal (or perpendicular) to that surface.      Let the points and be points in a plane.    Let be a vector normal to the plane at . Which expression mathematically describes this relationship?                          If , use your answer in part (a) to rewrite without vector operations     Scalar Equation of a Plane  scalar equation of a plane   The scalar equation of a plane containing the point with normal vector is given by or alternately,       We will find the equation of the plane containing points , , and     First we need to find a normal vector for the plane. Which operation will find a vector orthogonal to a vector on the plane?   Dot product    Cross product       Find the vectors and , then use the operation from part (a) to find the orthogonal vector.    Use any point and your answer to part (b) to find the equation of the plane.      Use the definitions in and the previous activity to find the equation of a plane that passes through the point and contains the line given by       "
 },
 {
   "id": "VE3-2",
@@ -3652,7 +3652,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "5.3.8",
   "title": "",
-  "body": "  Use and the previous activity to find the equation of a plane that passes through the point and contains the line given by    "
+  "body": "  Use the definitions in and the previous activity to find the equation of a plane that passes through the point and contains the line given by    "
 },
 {
   "id": "AI1",
@@ -3781,9 +3781,9 @@ var ptx_lunr_docs = [
   "body": "  Find the volume of the solid obtained by reotating the first-quadrant region bounded by and about the axis.   "
 },
 {
-  "id": "AI2-activities-7",
+  "id": "ai-washer-intuition1",
   "level": "2",
-  "url": "AI2.html#AI2-activities-7",
+  "url": "AI2.html#ai-washer-intuition1",
   "type": "Activity",
   "number": "6.2.5",
   "title": "",
@@ -4633,7 +4633,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.5",
   "title": "PD5:  Multivariate Optimization",
-  "body": " PD5: Multivariate Optimization     PD5  I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface.      Pre-Class Preparation  Read the following sections of the text:    Section 4.7: Maxima\/Minima Problems    Read all sections        In-Class Activities   "
+  "body": " PD5: Multivariate Optimization     PD5  I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface.      Pre-Class Preparation  Read the following sections of the text:    Section 4.7: Maxima\/Minima Problems    Read all sections        In-Class Activities   Recall that a critical point in Calculus 1 is found by setting the derivative equal to zero, i.e.     Critical Point (Multivariable Version)  critical point   Let be a function of two variables. The point is a critical point of if either    , i.e.     Either or does not exist         Let .   Identify and     In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?                          Solving the equation from (c) gives what conditions on the variable(s)?    Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?       Argue why the only critical point of the function is      The definitions of local and absolute extrema for multivariable functions are analogous to the definitions for single-variable functions.    Local Max\/Local Min (Multivariable)  local maximum  local minimum  relative maximum  relative minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has a local maximum at if for all points within some disk centered at . has a local minimum at if for all points within some disk centered at .     Absolute Max\/Min (Multivariable)  absolute maximum  absolute minimum  global maximum  global minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has an absolute maximum at if for all points in the domain of . has an absolute minimum at if for all points in the domain of .     Saddle Point  saddle point   A function has a saddle point at if but is neither a maximum nor a minimum.      Consider the function .    Find the critical point for .    Consider the traces and . These traces show that   the critical point is a maximum for both traces, thus a maximum    the critical point is a minimum for both traces, thus a minimum    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point        Second Partial Derivative Test   Let be a twice-differentiable function, and let be a critical point of . Set Then,   If and , then is a local minimum of     If and , then is a local maximum of     If , then is a saddle point of     If , the test is inconclusive         Let .    Find the critical point(s) of     Classify the critical point(s) of using       Find and classify the critical points of the following functions.               In Calculus I, finding the absolute extrema of a function means we need to check the function value at the boundary of the interval; this is just the two endpoints. For a two-variable function, we need to check the boundary of the entire domain.    Finding Absolute Extrema for Functions of Two Variables     Determine the critical points of the function     Compute the function value for each critical point    Compute the maximum value along the boundary of the domain. This may mean you need to split the boundary into separate pieces of analysis.    The largest and smallest values in steps 2 and 3 are the absolute maximum and minimum, respectively.        Let . We will find the absolute extrema on the domain , .    Identify the critical point of the function on the domain.    What is the value of at the critical point?    To evaluate along the lower portion of the rectangle that forms the domain, which equation should be used?                          Evaluate the function along the other three sides.    Evaluate the function at the four corners.    What is the absolute maximum? What about the absolute minimum?      Identify the absolute extrema of on the rectangle ,      "
 },
 {
   "id": "PD5-2",
@@ -4645,13 +4645,148 @@ var ptx_lunr_docs = [
   "body": "   PD5  I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface.    "
 },
 {
+  "id": "PD5-activities-2",
+  "level": "2",
+  "url": "PD5.html#PD5-activities-2",
+  "type": "Remark",
+  "number": "10.5.1",
+  "title": "",
+  "body": " Recall that a critical point in Calculus 1 is found by setting the derivative equal to zero, i.e.   "
+},
+{
+  "id": "def-critical-pt-multivariable",
+  "level": "2",
+  "url": "PD5.html#def-critical-pt-multivariable",
+  "type": "Definition",
+  "number": "10.5.2",
+  "title": "Critical Point (Multivariable Version).",
+  "body": " Critical Point (Multivariable Version)  critical point   Let be a function of two variables. The point is a critical point of if either    , i.e.     Either or does not exist      "
+},
+{
+  "id": "PD5-activities-4",
+  "level": "2",
+  "url": "PD5.html#PD5-activities-4",
+  "type": "Activity",
+  "number": "10.5.1",
+  "title": "",
+  "body": "  Let .   Identify and     In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?                          Solving the equation from (c) gives what conditions on the variable(s)?    Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?    "
+},
+{
+  "id": "PD5-activities-5",
+  "level": "2",
+  "url": "PD5.html#PD5-activities-5",
+  "type": "Activity",
+  "number": "10.5.2",
+  "title": "",
+  "body": "  Argue why the only critical point of the function is    "
+},
+{
+  "id": "PD5-activities-6",
+  "level": "2",
+  "url": "PD5.html#PD5-activities-6",
+  "type": "Remark",
+  "number": "10.5.3",
+  "title": "",
+  "body": " The definitions of local and absolute extrema for multivariable functions are analogous to the definitions for single-variable functions.  "
+},
+{
+  "id": "def-local-extrema-multivariable",
+  "level": "2",
+  "url": "PD5.html#def-local-extrema-multivariable",
+  "type": "Definition",
+  "number": "10.5.4",
+  "title": "Local Max\/Local Min (Multivariable).",
+  "body": " Local Max\/Local Min (Multivariable)  local maximum  local minimum  relative maximum  relative minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has a local maximum at if for all points within some disk centered at . has a local minimum at if for all points within some disk centered at .   "
+},
+{
+  "id": "def-absolute-extrema-multivariable",
+  "level": "2",
+  "url": "PD5.html#def-absolute-extrema-multivariable",
+  "type": "Definition",
+  "number": "10.5.5",
+  "title": "Absolute Max\/Min (Multivariable).",
+  "body": " Absolute Max\/Min (Multivariable)  absolute maximum  absolute minimum  global maximum  global minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has an absolute maximum at if for all points in the domain of . has an absolute minimum at if for all points in the domain of .   "
+},
+{
+  "id": "def-saddle-point",
+  "level": "2",
+  "url": "PD5.html#def-saddle-point",
+  "type": "Definition",
+  "number": "10.5.6",
+  "title": "Saddle Point.",
+  "body": " Saddle Point  saddle point   A function has a saddle point at if but is neither a maximum nor a minimum.   "
+},
+{
+  "id": "pd-saddle-point1",
+  "level": "2",
+  "url": "PD5.html#pd-saddle-point1",
+  "type": "Activity",
+  "number": "10.5.3",
+  "title": "",
+  "body": "  Consider the function .    Find the critical point for .    Consider the traces and . These traces show that   the critical point is a maximum for both traces, thus a maximum    the critical point is a minimum for both traces, thus a minimum    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point      "
+},
+{
+  "id": "thm-second-partial-derivative-test",
+  "level": "2",
+  "url": "PD5.html#thm-second-partial-derivative-test",
+  "type": "Theorem",
+  "number": "10.5.7",
+  "title": "Second Partial Derivative Test.",
+  "body": " Second Partial Derivative Test   Let be a twice-differentiable function, and let be a critical point of . Set Then,   If and , then is a local minimum of     If and , then is a local maximum of     If , then is a saddle point of     If , the test is inconclusive      "
+},
+{
+  "id": "PD5-activities-12",
+  "level": "2",
+  "url": "PD5.html#PD5-activities-12",
+  "type": "Activity",
+  "number": "10.5.4",
+  "title": "",
+  "body": "  Let .    Find the critical point(s) of     Classify the critical point(s) of using    "
+},
+{
+  "id": "PD5-activities-13",
+  "level": "2",
+  "url": "PD5.html#PD5-activities-13",
+  "type": "Activity",
+  "number": "10.5.5",
+  "title": "",
+  "body": "  Find and classify the critical points of the following functions.             "
+},
+{
+  "id": "PD5-activities-14",
+  "level": "2",
+  "url": "PD5.html#PD5-activities-14",
+  "type": "Remark",
+  "number": "10.5.8",
+  "title": "",
+  "body": " In Calculus I, finding the absolute extrema of a function means we need to check the function value at the boundary of the interval; this is just the two endpoints. For a two-variable function, we need to check the boundary of the entire domain.  "
+},
+{
+  "id": "PD5-activities-16",
+  "level": "2",
+  "url": "PD5.html#PD5-activities-16",
+  "type": "Activity",
+  "number": "10.5.6",
+  "title": "",
+  "body": "  Let . We will find the absolute extrema on the domain , .    Identify the critical point of the function on the domain.    What is the value of at the critical point?    To evaluate along the lower portion of the rectangle that forms the domain, which equation should be used?                          Evaluate the function along the other three sides.    Evaluate the function at the four corners.    What is the absolute maximum? What about the absolute minimum?   "
+},
+{
+  "id": "PD5-activities-17",
+  "level": "2",
+  "url": "PD5.html#PD5-activities-17",
+  "type": "Activity",
+  "number": "10.5.7",
+  "title": "",
+  "body": "  Identify the absolute extrema of on the rectangle ,    "
+},
+{
   "id": "PD6",
   "level": "1",
   "url": "PD6.html",
   "type": "Section",
   "number": "10.6",
   "title": "PD6:  Lagrange Multipliers",
-  "body": " PD6: Lagrange Multipliers     PD6  I can use Lagrange Multipliers to solve optimization problems with constraints.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: Lagrange Multipliers    Read all sections        In-Class Activities   "
+  "body": " PD6: Lagrange Multipliers     PD6  I can use Lagrange Multipliers to solve optimization problems with constraints.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: Lagrange Multipliers    Read all sections        In-Class Activities   To solve an optimization problem under constraints, we use the technique of Lagrange multipliers     Lagrange Multipliers   Let and be functions of two variables with continuous partials at every point in some open set containing the curve . Suppose that , when restricted to , has an extremum at such that . Then, there exists some number such that      Using Lagrange Multipliers     Determine the objective function and the constraint     Set up the following system of equations:     Solve the system for and     The largest value of maximizes subject to , and the smallest minimizes subject to         Let     Identify     If is subject to the constraint , which is the correct way to set up the Lagrange multiplier system?                          Solve the system. Which value maximizes and which value minimizes ?      Find the extreme values of on the circle       Find the maximum and minimum volumes of a rectangular box with a surface area of 1600 square inches and whose total edge length is 200 inches.      Find the minimum of subject to      "
 },
 {
   "id": "PD6-2",
@@ -4661,6 +4796,60 @@ var ptx_lunr_docs = [
   "number": "10.6",
   "title": "",
   "body": "   PD6  I can use Lagrange Multipliers to solve optimization problems with constraints.    "
+},
+{
+  "id": "PD6-activities-2",
+  "level": "2",
+  "url": "PD6.html#PD6-activities-2",
+  "type": "Remark",
+  "number": "10.6.1",
+  "title": "",
+  "body": " To solve an optimization problem under constraints, we use the technique of Lagrange multipliers   "
+},
+{
+  "id": "thm-lagrange-multipliers",
+  "level": "2",
+  "url": "PD6.html#thm-lagrange-multipliers",
+  "type": "Theorem",
+  "number": "10.6.2",
+  "title": "Lagrange Multipliers.",
+  "body": " Lagrange Multipliers   Let and be functions of two variables with continuous partials at every point in some open set containing the curve . Suppose that , when restricted to , has an extremum at such that . Then, there exists some number such that    "
+},
+{
+  "id": "PD6-activities-5",
+  "level": "2",
+  "url": "PD6.html#PD6-activities-5",
+  "type": "Activity",
+  "number": "10.6.1",
+  "title": "",
+  "body": "  Let     Identify     If is subject to the constraint , which is the correct way to set up the Lagrange multiplier system?                          Solve the system. Which value maximizes and which value minimizes ?   "
+},
+{
+  "id": "PD6-activities-6",
+  "level": "2",
+  "url": "PD6.html#PD6-activities-6",
+  "type": "Activity",
+  "number": "10.6.2",
+  "title": "",
+  "body": "  Find the extreme values of on the circle    "
+},
+{
+  "id": "PD6-activities-7",
+  "level": "2",
+  "url": "PD6.html#PD6-activities-7",
+  "type": "Activity",
+  "number": "10.6.3",
+  "title": "",
+  "body": "  Find the maximum and minimum volumes of a rectangular box with a surface area of 1600 square inches and whose total edge length is 200 inches.   "
+},
+{
+  "id": "PD6-activities-8",
+  "level": "2",
+  "url": "PD6.html#PD6-activities-8",
+  "type": "Activity",
+  "number": "10.6.4",
+  "title": "",
+  "body": "  Find the minimum of subject to    "
 },
 {
   "id": "MI1",
