@@ -18,6 +18,230 @@
     <subsection xml:id="AI3-activities">
         <title>In-Class Activities</title>
 
+        <activity xml:id="ai-shell-intuition">
+            <introduction>
+                <p>
+                    Let <m>f(x) = x-x^2</m>; the graph is sketched below.
+                    
+                </p>
+                <figure xml:id="ai-shell-intuition-fig1">
+                    <image>
+                        <sageplot>
+                            x = var('x')
+                            f(x) = x-x^2
+                            plot(f,(x,0,1), thickness=2)
+                        </sageplot>
+                    </image>
+                    <caption>A plot of <m>f(x) = x-x^2</m> on <m>[0,1]</m></caption>
+                </figure>
+                    
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which expression computes the volume of the solid created by rotating the region about the line <m>y=0</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\ds \int_0^1 \pi(x-x^2)\, dx</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \int_0^1 (x-x^2)^2\, dx</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \int_0^1\pi(x-x^2)^2\, dy</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\ds \int_0^1\pi (x-x^2)^2\, dx</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        When we instead rotate around the line <m>x=0</m>, which of the following describes how the washer should be set up?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_0^1 \pi(x)^2 - \pi (x^2)^2\, dx
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_0^1 \pi(x)^2 - \pi (x^2)^2\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_0^{0.25} \pi(x)^2 - \pi (x^2)^2\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    None of the above
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The image below shows the region but includes one midpoint rectangle with width <m>\Delta x = \dfrac{1}{3}</m>. 
+                    </p>
+                    <figure xml:id="ai-shell-intuition-fig2">
+                        <caption>The graph of <m>f(x) = x-x^2</m> on <m>[0,1]</m> with one midpoint rectangle</caption>
+                        <image>
+                            <sageplot>
+                                x = var('x')
+                                f(x) = x-x^2
+                                p = Graphics()
+                                p += plot(f,(x,0,1), thickness=2)
+                                p += polygon(([(0.33,0),(0.33,f(0.33)),(0.67,f(0.67)),(0.67,0)]), fill=False, color='black',aspect_ratio = 2)
+                                p
+                            </sageplot>
+                        </image>
+                    </figure>
+                    <p>
+                        When rotated about the line <m>x= 0</m>, the rectangle will make a cylindrical shell shape. What is the volume of that shell?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>2\pi \cdot 0.5</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\pi \cdot \lrpar{0.5}^2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2\pi \cdot 0.5\cdot \dfrac{1}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\pi \cdot \lrpar{0.5}^2\cdot \dfrac{1}{3}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-shell-method">
+            <title>Shell Method</title>
+            <idx><h>shell method</h></idx>
+            <statement>
+                <p>
+                    Let <m>f(x)</m> be a continuous function on the interval <m>[a,b]</m>. Then, the volume of the solid created by rotating the region bounded <m>f(x)</m> and the <m>x-axis</m> about the line <m>x = 0</m> is given by
+                    <me>
+                        \ds \int_a^b 2\pi r(x)f(x)\, dx
+                    </me>
+                    where <m>r(x)</m> is a radius function describing the distance from <m>x=0</m> to the cylinder.
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="ai-shell-practice1">
+            <introduction>
+                <p>
+                    Consider the region bounded by the curve <m>y=2\sqrt{x}</m>, the <m>x-</m>axis, and the line <m>x=4</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Sketch and label the region.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Sketch and label a typical approximating cylinder, when rotated about <m>x=0</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Set up and solve an integral to find the volume of the resulting solid.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ai-shell-practice2">
+            <introduction>
+                <p>
+                    Use the shell method to find the volume of the solid generated by revolving the region bounded by the curves <m>xy =1 </m>, <m>x=0</m>, <m>y=1</m>, and <m>y = 3</m> about the <m>x-</m>axis. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Sketch the solid and an approximating cylinder for the solid.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which integral correctly sets up the shell method in order to find the volume?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ai-shell-practice3">
+            <statement>
+                <p>
+                    Find the volume of the solid created by rotating the first-quadrant region bounded by the curves <m>y=4x-x^2</m> and <m>y=x</m> about the <m>y-</m>axis. 
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="ai-shell-practice4">
+            <statement>
+                <p>
+                    Find the volume of the solid created by rotating the region bounded by the curves <m>x=2y^2</m>, <m>y\geq 0</m>, and <m>x=8</m> about <m>y=2</m>.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="ai-shell-practice5">
+            <statement>
+                <p>
+                    Find the volume of the solid created by rotating the region bounded by the curves <m>y=x^3</m>, <m>y=8</m>, and <m>x=0</m> about <m>x=2</m>.
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>
