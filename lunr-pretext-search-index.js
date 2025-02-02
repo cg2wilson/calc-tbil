@@ -4111,7 +4111,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.2",
   "title": "TI2: Trigonometric Integrals",
-  "body": " TI2: Trigonometric Integrals     TI2  I can compute the integrals of combinations of trigonometric functions.      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: Trigonometric Integrals    Read all sections        In-Class Activities   "
+  "body": " TI2: Trigonometric Integrals     TI2  I can compute the integrals of combinations of trigonometric functions.      Pre-Class Preparation  Read the following sections of the text:    Section 3.2: Trigonometric Integrals    Read all sections        In-Class Activities    Consider . Which substitution would you choose to evaluate this integral?     Substitution is not effective        Consider . Which substitution would you choose to evaluate this integral?     Substitution is not effective        Consider . Which substitution would you choose to evaluate this integral?     Substitution is not effective        It's possible to use substitution to evaluate , by taking advantage of the trigonometric identity .  Complete the following substitution of by filling in the missing s.       Trying to substitute in the previous example is less successful.   Which feature of made the better choice?  The even power of  The odd power of        Try to show by first trying , and then trying instead.  Which substitution worked better and why?  due to 's odd power.  due to 's even power.  due to 's odd power.  due to 's even power.        When integrating the form :    If 's power is odd, rewrite the integral as and use .    If 's power is odd, rewrite the integral as and use .        Let's consider .    Use the fact that to rewrite the integrand using the above identities as an integral involving .    Show that the integral evaluates to .      Let's consider .    Use the fact that and to rewrite the integrand using the above identities as an integral involving .    Use the above identities to rewrite this new integrand as one involving .    Show that integral evaluates to .      Consider . Which would be the most useful way to rewrite the integral?           Consider . Which would be the most useful way to rewrite the integral?          "
 },
 {
   "id": "TI2-2",
@@ -4121,6 +4121,105 @@ var ptx_lunr_docs = [
   "number": "7.2",
   "title": "",
   "body": "   TI2  I can compute the integrals of combinations of trigonometric functions.    "
+},
+{
+  "id": "TI2-activities-2",
+  "level": "2",
+  "url": "TI2.html#TI2-activities-2",
+  "type": "Activity",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  Consider . Which substitution would you choose to evaluate this integral?     Substitution is not effective     "
+},
+{
+  "id": "TI2-activities-3",
+  "level": "2",
+  "url": "TI2.html#TI2-activities-3",
+  "type": "Activity",
+  "number": "7.2.2",
+  "title": "",
+  "body": "  Consider . Which substitution would you choose to evaluate this integral?     Substitution is not effective     "
+},
+{
+  "id": "TI2-activities-4",
+  "level": "2",
+  "url": "TI2.html#TI2-activities-4",
+  "type": "Activity",
+  "number": "7.2.3",
+  "title": "",
+  "body": "  Consider . Which substitution would you choose to evaluate this integral?     Substitution is not effective     "
+},
+{
+  "id": "TI2-activities-5",
+  "level": "2",
+  "url": "TI2.html#TI2-activities-5",
+  "type": "Activity",
+  "number": "7.2.4",
+  "title": "",
+  "body": "  It's possible to use substitution to evaluate , by taking advantage of the trigonometric identity .  Complete the following substitution of by filling in the missing s.    "
+},
+{
+  "id": "TI2-activities-6",
+  "level": "2",
+  "url": "TI2.html#TI2-activities-6",
+  "type": "Activity",
+  "number": "7.2.5",
+  "title": "",
+  "body": "  Trying to substitute in the previous example is less successful.   Which feature of made the better choice?  The even power of  The odd power of     "
+},
+{
+  "id": "TI2-activities-7",
+  "level": "2",
+  "url": "TI2.html#TI2-activities-7",
+  "type": "Activity",
+  "number": "7.2.6",
+  "title": "",
+  "body": "  Try to show by first trying , and then trying instead.  Which substitution worked better and why?  due to 's odd power.  due to 's even power.  due to 's odd power.  due to 's even power.     "
+},
+{
+  "id": "TI2-activities-8",
+  "level": "2",
+  "url": "TI2.html#TI2-activities-8",
+  "type": "Observation",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  When integrating the form :    If 's power is odd, rewrite the integral as and use .    If 's power is odd, rewrite the integral as and use .     "
+},
+{
+  "id": "TI2-activities-9",
+  "level": "2",
+  "url": "TI2.html#TI2-activities-9",
+  "type": "Activity",
+  "number": "7.2.7",
+  "title": "",
+  "body": "  Let's consider .    Use the fact that to rewrite the integrand using the above identities as an integral involving .    Show that the integral evaluates to .   "
+},
+{
+  "id": "activity-TI3evenEvenRedux",
+  "level": "2",
+  "url": "TI2.html#activity-TI3evenEvenRedux",
+  "type": "Activity",
+  "number": "7.2.8",
+  "title": "",
+  "body": "  Let's consider .    Use the fact that and to rewrite the integrand using the above identities as an integral involving .    Use the above identities to rewrite this new integrand as one involving .    Show that integral evaluates to .   "
+},
+{
+  "id": "activity-TI3evenEvenFluency",
+  "level": "2",
+  "url": "TI2.html#activity-TI3evenEvenFluency",
+  "type": "Activity",
+  "number": "7.2.9",
+  "title": "",
+  "body": "  Consider . Which would be the most useful way to rewrite the integral?        "
+},
+{
+  "id": "activity-TI3oddOddFluency",
+  "level": "2",
+  "url": "TI2.html#activity-TI3oddOddFluency",
+  "type": "Activity",
+  "number": "7.2.10",
+  "title": "",
+  "body": "  Consider . Which would be the most useful way to rewrite the integral?        "
 },
 {
   "id": "TI3",
@@ -5092,7 +5191,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.1",
   "title": "MI1: Double Integrals in Cartesian Coordinates",
-  "body": " MI1: Double Integrals in Cartesian Coordinates     MI1  I can compute double integrals using Cartesian coordinates, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Double Integrals over Rectangular Regions    Read all sections      Section 5.2: Double Integrals over General Regions    Read all sections        In-Class Activities   "
+  "body": " MI1: Double Integrals in Cartesian Coordinates     MI1  I can compute double integrals using Cartesian coordinates, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Double Integrals over Rectangular Regions    Read all sections      Section 5.2: Double Integrals over General Regions    Read all sections        In-Class Activities   Double Integral (Over a Rectangle)  double integral (over a rectangle)   Let be defined on the region given by and let be the solid that lies above and under the graph of : The double integral over R is given by       This activity will develop the intuition for the double integral in general.    What kind of object can we use to approximate the volume of the solid ?   Rectangle    Rectangular prism    Sphere    Cylinder       In Calculus 1, the expression to approximate the area under a curve was given by where was the length of the interval we integrated over.  For the volume under a surface, we have the expression   Why do we need to have an extra summation and both and ?    The expression above gives an approximation of the area over the rectangular region. How can we move from an approximation to an exact answer?      The double integral of over the rectangle is given by       Consider the function , which is defined and integrable on the rectangle .    The integral is not necessarily a number. Why not?    If we set , then what does do? Is it necessarily a number?    Compute       Let on the rectangle     Which is the correct first step in computing the integral ?                          Finish the computation and evaluate the integral.    Now, compute      Fubini's Theorem (Version 1)  Fubini's theorem (version 1)   Suppose that is a function of two variables that is continuous over a rectangular region . Then,       Evaluate the double integral , where      Properties of Double Integrals  Assume that the functions and are integrable over the rectangular region and that and are subregions of . Then,        If is a constant, then     If and is empty except at the boundary, then     If can be written as where is a function of alone, and is a function of alone, then if , we have         Compute , where       Find the volume of the solid bounded by the elliptic paraboloid , the planes and , and the three coordinate planes.     Type I and Type II Regions  type 1 region  type 2 region   A region is called a type I region if it lies between two vertical lines and the graphs of two continuous functions and , i.e.   A region is called a type II region if it lies between two horizontal lines and the graphs of two continuous functions and , i.e.   Examples of each are given below.   An example of a Type I region on the left, and Type II region on the right               The image below is a Type I and a Type II region; call it .       Which set describes as a Type II region?                          Which set describes as a Type I region?                           Fubini's Theorem (Version 2)  Fubini's theorem (version 2)   For a function that is continuous on a Type I region , we have If is instead a Type II region, we have       The base of a prism is the triangle in the plane bounded by the axis, the line , and the line . The top of the prism lies in the plane .    Sketch and label the region.    If we consider region as Type I, which integral will compute the volume of the prism?                          If we consider region as Type II, which integral will compute the volume of the prism?                          Choose to use (b) or (c) to compute the value of the integral.      Let be the region bounded by the curves and . Compute the integral       Let     True or false: we can compute directly.   True    False       Sketch and label the region described in the integral from (a).    Use (b) to rewrite the integral from (a), then evaluate       Sketch the region of integration for the integral .      Consider the region bounded by the curves and .    Use techniques from Calculus I to find the area between the curves.    Let denote the region. Compute . What do you notice?      The area of a closed, bounded plane region is given by      "
 },
 {
   "id": "MI1-2",
@@ -5104,13 +5203,175 @@ var ptx_lunr_docs = [
   "body": "   MI1  I can compute double integrals using Cartesian coordinates, and interpret the results.    "
 },
 {
+  "id": "def-double-integral-cartesian-rectangle",
+  "level": "2",
+  "url": "MI1.html#def-double-integral-cartesian-rectangle",
+  "type": "Definition",
+  "number": "11.1.1",
+  "title": "Double Integral (Over a Rectangle).",
+  "body": " Double Integral (Over a Rectangle)  double integral (over a rectangle)   Let be defined on the region given by and let be the solid that lies above and under the graph of : The double integral over R is given by    "
+},
+{
+  "id": "mi-double-integral-cartesian-rectangle1",
+  "level": "2",
+  "url": "MI1.html#mi-double-integral-cartesian-rectangle1",
+  "type": "Activity",
+  "number": "11.1.1",
+  "title": "",
+  "body": "  This activity will develop the intuition for the double integral in general.    What kind of object can we use to approximate the volume of the solid ?   Rectangle    Rectangular prism    Sphere    Cylinder       In Calculus 1, the expression to approximate the area under a curve was given by where was the length of the interval we integrated over.  For the volume under a surface, we have the expression   Why do we need to have an extra summation and both and ?    The expression above gives an approximation of the area over the rectangular region. How can we move from an approximation to an exact answer?   "
+},
+{
+  "id": "fact-double-integral-cartesian-rectangle",
+  "level": "2",
+  "url": "MI1.html#fact-double-integral-cartesian-rectangle",
+  "type": "Fact",
+  "number": "11.1.2",
+  "title": "",
+  "body": "  The double integral of over the rectangle is given by    "
+},
+{
+  "id": "mi-double-integral-cartesian-rectangle-calculate1",
+  "level": "2",
+  "url": "MI1.html#mi-double-integral-cartesian-rectangle-calculate1",
+  "type": "Activity",
+  "number": "11.1.2",
+  "title": "",
+  "body": "  Consider the function , which is defined and integrable on the rectangle .    The integral is not necessarily a number. Why not?    If we set , then what does do? Is it necessarily a number?    Compute    "
+},
+{
+  "id": "mi-double-integral-cartesian-rectangle-calculate2",
+  "level": "2",
+  "url": "MI1.html#mi-double-integral-cartesian-rectangle-calculate2",
+  "type": "Activity",
+  "number": "11.1.3",
+  "title": "",
+  "body": "  Let on the rectangle     Which is the correct first step in computing the integral ?                          Finish the computation and evaluate the integral.    Now, compute    "
+},
+{
+  "id": "thm-fubini-weak",
+  "level": "2",
+  "url": "MI1.html#thm-fubini-weak",
+  "type": "Theorem",
+  "number": "11.1.3",
+  "title": "Fubini’s Theorem (Version 1).",
+  "body": " Fubini's Theorem (Version 1)  Fubini's theorem (version 1)   Suppose that is a function of two variables that is continuous over a rectangular region . Then,    "
+},
+{
+  "id": "mi-double-integral-cartesian-rectangle-calculate3",
+  "level": "2",
+  "url": "MI1.html#mi-double-integral-cartesian-rectangle-calculate3",
+  "type": "Activity",
+  "number": "11.1.4",
+  "title": "",
+  "body": "  Evaluate the double integral , where    "
+},
+{
+  "id": "mi-double-integrals-cartesian-rectangle-calculate4",
+  "level": "2",
+  "url": "MI1.html#mi-double-integrals-cartesian-rectangle-calculate4",
+  "type": "Activity",
+  "number": "11.1.5",
+  "title": "",
+  "body": "  Compute , where    "
+},
+{
+  "id": "mi-double-integrals-cartesian-rectangle-calculate5",
+  "level": "2",
+  "url": "MI1.html#mi-double-integrals-cartesian-rectangle-calculate5",
+  "type": "Activity",
+  "number": "11.1.6",
+  "title": "",
+  "body": "  Find the volume of the solid bounded by the elliptic paraboloid , the planes and , and the three coordinate planes.   "
+},
+{
+  "id": "def-type1-type2-regions",
+  "level": "2",
+  "url": "MI1.html#def-type1-type2-regions",
+  "type": "Definition",
+  "number": "11.1.4",
+  "title": "Type I and Type II Regions.",
+  "body": " Type I and Type II Regions  type 1 region  type 2 region   A region is called a type I region if it lies between two vertical lines and the graphs of two continuous functions and , i.e.   A region is called a type II region if it lies between two horizontal lines and the graphs of two continuous functions and , i.e.   Examples of each are given below.   An example of a Type I region on the left, and Type II region on the right            "
+},
+{
+  "id": "mi-double-integrals-type1type2-switch1",
+  "level": "2",
+  "url": "MI1.html#mi-double-integrals-type1type2-switch1",
+  "type": "Activity",
+  "number": "11.1.7",
+  "title": "",
+  "body": "  The image below is a Type I and a Type II region; call it .       Which set describes as a Type II region?                          Which set describes as a Type I region?                         "
+},
+{
+  "id": "thm-fubini-strong",
+  "level": "2",
+  "url": "MI1.html#thm-fubini-strong",
+  "type": "Theorem",
+  "number": "11.1.6",
+  "title": "Fubini’s Theorem (Version 2).",
+  "body": " Fubini's Theorem (Version 2)  Fubini's theorem (version 2)   For a function that is continuous on a Type I region , we have If is instead a Type II region, we have    "
+},
+{
+  "id": "mi-double-integrals-calculate4",
+  "level": "2",
+  "url": "MI1.html#mi-double-integrals-calculate4",
+  "type": "Activity",
+  "number": "11.1.8",
+  "title": "",
+  "body": "  The base of a prism is the triangle in the plane bounded by the axis, the line , and the line . The top of the prism lies in the plane .    Sketch and label the region.    If we consider region as Type I, which integral will compute the volume of the prism?                          If we consider region as Type II, which integral will compute the volume of the prism?                          Choose to use (b) or (c) to compute the value of the integral.   "
+},
+{
+  "id": "mi-double-integrals-calculate5",
+  "level": "2",
+  "url": "MI1.html#mi-double-integrals-calculate5",
+  "type": "Activity",
+  "number": "11.1.9",
+  "title": "",
+  "body": "  Let be the region bounded by the curves and . Compute the integral    "
+},
+{
+  "id": "mi-double-integrals-calculate6",
+  "level": "2",
+  "url": "MI1.html#mi-double-integrals-calculate6",
+  "type": "Activity",
+  "number": "11.1.10",
+  "title": "",
+  "body": "  Let     True or false: we can compute directly.   True    False       Sketch and label the region described in the integral from (a).    Use (b) to rewrite the integral from (a), then evaluate    "
+},
+{
+  "id": "mi-double-integrals-sketchregion1",
+  "level": "2",
+  "url": "MI1.html#mi-double-integrals-sketchregion1",
+  "type": "Activity",
+  "number": "11.1.11",
+  "title": "",
+  "body": "  Sketch the region of integration for the integral .   "
+},
+{
+  "id": "mi-double-integrals-calculate7",
+  "level": "2",
+  "url": "MI1.html#mi-double-integrals-calculate7",
+  "type": "Activity",
+  "number": "11.1.12",
+  "title": "",
+  "body": "  Consider the region bounded by the curves and .    Use techniques from Calculus I to find the area between the curves.    Let denote the region. Compute . What do you notice?   "
+},
+{
+  "id": "MI1-activities-20",
+  "level": "2",
+  "url": "MI1.html#MI1-activities-20",
+  "type": "Fact",
+  "number": "11.1.7",
+  "title": "",
+  "body": "  The area of a closed, bounded plane region is given by    "
+},
+{
   "id": "MI2",
   "level": "1",
   "url": "MI2.html",
   "type": "Section",
   "number": "11.2",
   "title": "MI2: Double Integrals in Polar Coordinates",
-  "body": " MI2: Double Integrals in Polar Coordinates     MI2  I can compute double integrals using polar coordinates      Pre-Class Preparation  Read the following sections of the text:    Section 1.3: Polar Coordinates    Read all sections      Section 1.4: Area and Arc Length in Polar Coordinates    Read \"Areas of Regions Bounded by Polar Curves\" only      Section 5.3: Double Integrals in Polar Coordinates        In-Class Activities   "
+  "body": " MI2: Double Integrals in Polar Coordinates     MI2  I can compute double integrals using polar coordinates      Pre-Class Preparation  Read the following sections of the text:    Section 1.3: Polar Coordinates    Read all sections      Section 1.4: Area and Arc Length in Polar Coordinates    Read \"Areas of Regions Bounded by Polar Curves\" only      Section 5.3: Double Integrals in Polar Coordinates        In-Class Activities    The polar coordinate system is ideal for shapes which are circular or periodic in nature. Polar cooridnates carry two pieces of information: a radial distance , ; and an angle , .  Converting to and from polar coordinates involves using the following pieces of information:       Find a polar equation for the circle       Convert the following polar equations to Cartesian equations:                    Polar Double Integral (Rectangular Region)  double integral (polar, rectangle)   The double integral over a polar rectangle of the function is given by       Sketch the polar rectangular region       Consider and the region     Sketch and label .    If we integrate in rectangular coordinates, should we express as a Type I or Type II region? Why?   Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of     Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of        Which integral correctly expresses ?                            Sketch the region and then evaluate       Let and let be the unit disk on the plane    Convert into a function of and .    Describe using polar coordinates.    Set up and evaluate the integral       Show that the volume of a sphere of radius is given by by using a polar double integral.     Polar Double Integral (General Region)  double integral (polar, general)   The double integral over a polar region , where is given by       Evaluate the integral , where is the region bounded by the polar axis and the lower portion of the cardioid     The plot of is given below. Use it to find the bounds on .       What are the bounds on ?    Set up and evaluate       Convert the integral to polar coordinates and evaluate.     "
 },
 {
   "id": "MI2-2",
@@ -5120,6 +5381,114 @@ var ptx_lunr_docs = [
   "number": "11.2",
   "title": "",
   "body": "   MI2  I can compute double integrals using polar coordinates    "
+},
+{
+  "id": "MI2-activities-2",
+  "level": "2",
+  "url": "MI2.html#MI2-activities-2",
+  "type": "Fact",
+  "number": "11.2.1",
+  "title": "",
+  "body": "  The polar coordinate system is ideal for shapes which are circular or periodic in nature. Polar cooridnates carry two pieces of information: a radial distance , ; and an angle , .  Converting to and from polar coordinates involves using the following pieces of information:    "
+},
+{
+  "id": "MI2-activities-3",
+  "level": "2",
+  "url": "MI2.html#MI2-activities-3",
+  "type": "Activity",
+  "number": "11.2.1",
+  "title": "",
+  "body": "  Find a polar equation for the circle    "
+},
+{
+  "id": "MI2-activities-4",
+  "level": "2",
+  "url": "MI2.html#MI2-activities-4",
+  "type": "Activity",
+  "number": "11.2.2",
+  "title": "",
+  "body": "  Convert the following polar equations to Cartesian equations:                  "
+},
+{
+  "id": "def-double-integral-polar-rectangle",
+  "level": "2",
+  "url": "MI2.html#def-double-integral-polar-rectangle",
+  "type": "Definition",
+  "number": "11.2.2",
+  "title": "Polar Double Integral (Rectangular Region).",
+  "body": " Polar Double Integral (Rectangular Region)  double integral (polar, rectangle)   The double integral over a polar rectangle of the function is given by    "
+},
+{
+  "id": "mi-double-integral-polar-region1",
+  "level": "2",
+  "url": "MI2.html#mi-double-integral-polar-region1",
+  "type": "Activity",
+  "number": "11.2.3",
+  "title": "",
+  "body": "  Sketch the polar rectangular region    "
+},
+{
+  "id": "MI2-activities-7",
+  "level": "2",
+  "url": "MI2.html#MI2-activities-7",
+  "type": "Activity",
+  "number": "11.2.4",
+  "title": "",
+  "body": "  Consider and the region     Sketch and label .    If we integrate in rectangular coordinates, should we express as a Type I or Type II region? Why?   Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of     Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of        Which integral correctly expresses ?                         "
+},
+{
+  "id": "mi-double-integral-polar-calculate1",
+  "level": "2",
+  "url": "MI2.html#mi-double-integral-polar-calculate1",
+  "type": "Activity",
+  "number": "11.2.5",
+  "title": "",
+  "body": "  Sketch the region and then evaluate    "
+},
+{
+  "id": "mi-double-integral-polar-convert1",
+  "level": "2",
+  "url": "MI2.html#mi-double-integral-polar-convert1",
+  "type": "Activity",
+  "number": "11.2.6",
+  "title": "",
+  "body": "  Let and let be the unit disk on the plane    Convert into a function of and .    Describe using polar coordinates.    Set up and evaluate the integral    "
+},
+{
+  "id": "mi-double-integral-polar-calculate2",
+  "level": "2",
+  "url": "MI2.html#mi-double-integral-polar-calculate2",
+  "type": "Activity",
+  "number": "11.2.7",
+  "title": "",
+  "body": "  Show that the volume of a sphere of radius is given by by using a polar double integral.   "
+},
+{
+  "id": "def-double-integral-polar-general",
+  "level": "2",
+  "url": "MI2.html#def-double-integral-polar-general",
+  "type": "Definition",
+  "number": "11.2.3",
+  "title": "Polar Double Integral (General Region).",
+  "body": " Polar Double Integral (General Region)  double integral (polar, general)   The double integral over a polar region , where is given by    "
+},
+{
+  "id": "mi-double-integral-polar-calculate3",
+  "level": "2",
+  "url": "MI2.html#mi-double-integral-polar-calculate3",
+  "type": "Activity",
+  "number": "11.2.8",
+  "title": "",
+  "body": "  Evaluate the integral , where is the region bounded by the polar axis and the lower portion of the cardioid     The plot of is given below. Use it to find the bounds on .       What are the bounds on ?    Set up and evaluate    "
+},
+{
+  "id": "mi-double-integral-polar-calculate4",
+  "level": "2",
+  "url": "MI2.html#mi-double-integral-polar-calculate4",
+  "type": "Activity",
+  "number": "11.2.9",
+  "title": "",
+  "body": "  Convert the integral to polar coordinates and evaluate.   "
 },
 {
   "id": "MI3",
