@@ -206,7 +206,7 @@
             </task>
         </activity>
 
-        <theorem xml:id="thm-fubini">
+        <theorem xml:id="thm-fubini-weak">
             <title>Fubini's Theorem (Version 1)</title>
             <idx><h>Fubini's theorem (version 1)</h></idx>
             <statement>
@@ -278,8 +278,354 @@
                    Find the volume of the solid bounded by the elliptic paraboloid <m>x^2 + 4y^2 + z = 16</m>, the planes <m>x=2</m> and <m>y=2</m>, and the three coordinate planes. 
                 </p>
             </statement>
-            
         </activity>
+
+        <definition xml:id="def-type1-type2-regions">
+            <title>Type I and Type II Regions</title>
+            <idx><h>type 1 region</h></idx>
+            <idx><h>type 2 region</h></idx>
+            <statement>
+                <p>
+                    A region <m>D</m> is called a <term>type I region</term> if it lies between two vertical lines and the graphs of two continuous functions <m>g_1(x)</m> and <m>g_2(x)</m>, i.e.
+                    <me>
+                        D = \lrbrace{(x,y)\in R^2\mid a\leq x\leq b, g_1(x)\leq y\leq g_2(x)}
+                    </me>
+                </p>
+                <p>
+                    A region <m>D</m> is called a <term>type II region</term> if it lies between two horizontal lines and the graphs of two continuous functions <m>h_1(y)</m> and <m>h_2(y)</m>, i.e.
+                    <me>
+                        D = \lrbrace{(x,y)\in\R^2\mid h_1(y)\leq x \leq h_2(y), c\leq y \leq d}
+                    </me>
+                </p>
+                <p>
+                    Examples of each are given below.
+                </p>
+                <figure xml:id="type1-type2-regions">
+                    <caption>An example of a Type I region on the left, and Type II region on the right</caption>
+                    <sidebyside widths="50% 50%">
+                        <image>
+                            <sageplot>
+                                x = var('x')
+                                f(x) = x-x^2
+                                g(x) = f(x) + 1
+                                p = Graphics()
+                                p+=plot([f,g],(x,-.5,1.5),axes=False,thickness=2,color='blue')
+                                p+=line(([(-.5,f(-.5)),(-.5,g(-.5))]),thickness=2,axes=False,color='blue')
+                                p+=line(([(1.5,f(1.5)),(1.5,g(1.5))]),thickness=2,axes=False,color='blue')
+                                p += text('$g_2(x)$',(0.5,1.4),color='black',fontsize=14)
+                                p += text('$g_1(x)$',(0.5,0.1),color='black',fontsize=14)
+                                p
+                            </sageplot>
+                        </image>
+                        <image>
+                            <sageplot>
+                                p = Graphics()
+                                t = var('t')
+                                p += parametric_plot((t^2,t),(t,-1.43,1.43), thickness=2,axes=False)
+                                p += parametric_plot((cos(2*t)+3,t),(t,-pi/2+.15,pi/2-.15),thickness=2)
+                                p += text('$h_1(y)$',(-.25,0),color='black',fontsize=14)
+                                p += text('$h_2(y)$',(4.25,0),color='black',fontsize=14)
+                                p
+                            </sageplot>
+                        </image>
+                    </sidebyside>
+                </figure>
+            </statement>
+        </definition>
+
+        <activity xml:id="mi-double-integrals-type1type2-switch1">
+            <introduction>
+                <p>
+                    The image below is a Type I and a Type II region; call it <m>R</m>.
+                </p>
+                <image>
+                    <sageplot>
+                        x = var('x')
+                        f(x) = x^2
+                        g(x) = 2*x
+                        p = Graphics()
+                        p += plot([f,g],(x,0,2),thickness=2,color='blue')
+                        p += text('$y=x^2$',(1,.7),color='black',fontsize=15)
+                        p += text('$y=2x$', (1,2.3),color='black',fontsize=15)
+                        p
+                    </sageplot>
+                </image>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which set describes <m>R</m> as a Type II region?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrbrace{(x,y)\in \R^2\mid 0\leq x\leq 2, x^2\leq y\leq 2x}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrbrace{(x,y)\in \R^2\mid 0\leq x\leq 4, x^2\leq y\leq 2x}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrbrace{(x,y)\in \R^2\mid \dfrac{1}{2}y \leq x\leq \sqrt{y}, 0\leq y\leq 4}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrbrace{(x,y)\in \R^2\mid \dfrac{1}{2}y \leq x\leq \sqrt{y}, 0\leq y\leq 2}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which set describes <m>R</m> as a Type I region?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrbrace{(x,y)\in \R^2\mid 0\leq x\leq 2, x^2\leq y\leq 2x}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrbrace{(x,y)\in \R^2\mid 0\leq x\leq 4, x^2\leq y\leq 2x}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrbrace{(x,y)\in \R^2\mid \dfrac{1}{2}y \leq x\leq \sqrt{y}, 0\leq y\leq 4}
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \lrbrace{(x,y)\in \R^2\mid \dfrac{1}{2}y \leq x\leq \sqrt{y}, 0\leq y\leq 2}
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-fubini-strong">
+            <title>Fubini's Theorem (Version 2)</title>
+            <idx><h>Fubini's theorem (version 2)</h></idx>
+            <statement>
+                <p>
+                    For a function <m>f(x,y)</m> that is continuous on a Type I region <m>D</m>, we have
+                    <me>
+                        \ds \iint_D f(x,y)\, dA = \iint_D f(x,y)\, dy\,dx = \int_a^b \int_{g_1(x)}^{g_2(x)}f(x,y)\, dy\, dx
+                    </me>
+                    If <m>D</m> is instead a Type II region, we have
+                    <me>
+                        \ds \iint_D f(x,y)\, dA = \iint_D f(x,y)\, dx\, dy = \int_c^d \int_{h_1(y)}^{h_2(y)} f(x,y)\, dx\, dy
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="mi-double-integrals-calculate4">
+            <introduction>
+                <p>
+                    The base of a prism is the triangle in the <m>xy-</m>plane bounded by the <m>y-</m>axis, the line <m>y=x</m>, and the line <m>y=1</m>. The top of the prism lies in the plane <m>z = 5-y-x</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Sketch and label the region.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If we consider region as Type I, which integral will compute the volume of the prism? 
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{x=0}^{x=1}\int_{y=1}^{y=x} z\, dx\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{x=0}^{x=1}\int_{y=1}^{y=x} z\, dy\, dx
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{y=0}^{y=1}\int_{x=0}^{x=y} z\, dx\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{y=0}^{y=1}\int_{x=0}^{x=y} z\, dy\, dx
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If we consider region as Type II, which integral will compute the volume of the prism? 
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{x=0}^{x=1}\int_{y=1}^{y=x} z\, dx\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{x=0}^{x=1}\int_{y=1}^{y=x} z\, dy\, dx
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{y=0}^{y=1}\int_{x=0}^{x=y} z\, dx\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{y=0}^{y=1}\int_{x=0}^{x=y} z\, dy\, dx
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Choose to use (b) or (c) to compute the value of the integral.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="mi-double-integrals-calculate5">
+            <statement>
+                <p>
+                    Let <m>D</m>be the region bounded by the curves <m>y=3x^2 </m>and <m>y=1_2x^2</m>. Compute the integral <m>\ds \iint_D (x+3y)\, dA</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="mi-double-integrals-calculate6">
+            <introduction>
+                <p>
+                    Let <m>f(x,y) = \cos(x^2)</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        True or false: we can compute <m>\ds \int_0^1\int_x^1 f(x,y)\, dy\,dx</m> directly.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    True
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    False
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Sketch and label the region described in the integral from (a).
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use (b) to rewrite the integral from (a), then evaluate <m>\ds \iint_D f(x,y)\, dA</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="mi-double-integrals-sketchregion1">
+            <statement>
+                <p>
+                    Sketch the region of integration for the integral <m>\ds \int_0^1 \int_{1-y}^{\sqrt{y^2-1}} f(x,y)\, dA</m>.
+                </p>
+            </statement>
+        </activity>
+        
+        <activity xml:id="mi-double-integrals-calculate7">
+            <introduction>
+                <p>
+                    Consider the region bounded by the curves <m>y=x</m> and <m>y=1-x^2</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Use techniques from Calculus I to find the area between the curves.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Let <m>R</m> denote the region. Compute <m>\ds \iint_R\, dA</m>. What do you notice?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <fact>
+            <statement>
+                <p>
+                    The area of a closed, bounded plane region <m>R</m> is given by <m>\ds \iint_R \,dA</m>
+                </p>
+            </statement>
+        </fact>
     </subsection>
 
 </section>

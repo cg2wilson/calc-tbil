@@ -18,6 +18,267 @@
     <subsection xml:id="MI2-activities">
         <title>In-Class Activities</title>
 
+        <fact>
+            <statement>
+                <p>
+                    The polar coordinate system is ideal for shapes which are circular or periodic in nature. Polar cooridnates carry two pieces of information: a <em>radial distance</em>, <m>r</m>; and an <em>angle</em>, <m>\theta</m>.
+                </p>
+                <p>
+                    Converting to and from polar coordinates involves using the following pieces of information:
+                    <md>
+                        <mrow>x = r\cos\theta \amp \amp y = r\sin\theta</mrow>
+                        <mrow>r^2 = x^2+y^2 \amp \amp \tan\theta = \dfrac{y}{x}</mrow>
+                    </md>
+                </p>
+            </statement>
+        </fact>
+
+        <activity>
+            <statement>
+                <p>
+                    Find a polar equation for the circle <m>x^2 + (y-2)^2 = 4</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Convert the following polar equations to Cartesian equations:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>r\cos\theta = 9</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>r^2 = 2r\cos\theta</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>r = \dfrac{16}{4\cos\theta -\sin\theta}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-double-integral-polar-rectangle">
+            <title>Polar Double Integral (Rectangular Region)</title>
+            <idx><h>double integral (polar, rectangle)</h></idx>
+            <statement>
+                <p>
+                    The <term>double integral over a polar rectangle <m>R</m></term> of the function <m>f(r,\theta)</m> is given by
+                    <me>
+                        \iint_R f(r,\theta)\, dA = \iint_R f(r,\theta)\,r\,dr\,d\theta = \int_{\theta=\alpha}^{\theta=\beta}\int_{r=a}^{r=b}f(r,\theta)\,r\,dr\,d\theta
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="mi-double-integral-polar-region1">
+            <statement>
+                <p>
+                    Sketch the polar rectangular region <m>R = \lrbrace{(r,\theta)\mid 2\leq r\leq 3, 0\leq \theta\leq \dfrac{\pi}{2}}</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Consider <m>f(x,y) = x+y</m> and the region <m>R = \lrpar{(x,y) \mid 4\leq x^2 + y^2 \leq 9, x\geq 0}</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Sketch and label <m>R</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If we integrate in rectangular coordinates, should we express <m>R</m> as a Type I or Type II region? Why?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Type I because the circles are more easily expressed as functions of <m>y</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Type II because the circles are more easily expressed as functions of <m>x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Type I because the circles are more easily expressed as functions of <m>x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Type II because the circles are more easily expressed as functions of <m>y</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which integral correctly expresses <m>\ds \iint_R f(x,y)\, dA</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{\sqrt{4-y^2}}^{\sqrt{9-y^2}}\int_4^9 f(x,y)\, dy\, dx
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_4^9 \int_{\sqrt{4-y^2}}^{\sqrt{9-y^2}} f(x,y)\, dy\, dx
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_4^9 \int_{\sqrt{4-y^2}}^{\sqrt{9-y^2}} f(x,y)\, dx\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_{\sqrt{4-y^2}}^{\sqrt{9-y^2}}\int_4^9 f(x,y)\, dx\, dy
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="mi-double-integral-polar-calculate1">
+            <statement>
+                <p>
+                    Sketch the region <m>R = \lrbrace{(r,\theta)\mid 1\leq r\leq 2, -\dfrac{\pi}{2}\leq \theta\leq \dfrac{\pi}{2}}</m> and then evaluate <m>\ds \iint_R x\, dA</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="mi-double-integral-polar-convert1">
+            <introduction>
+                <p>
+                    Let <m>f(x,y) = \sqrt{16-x^2-y^2}</m> and let <m>R</m> be the unit disk on the <m>xy-</m>plane
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Convert <m>f(x,y)</m> into a function of <m>r</m> and <m>\theta</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Describe <m>R</m> using polar coordinates.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Set up and evaluate the integral <m>\ds \iint_R f(x,y)\, dA</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="mi-double-integral-polar-calculate2">
+            <statement>
+                <p>
+                    Show that the volume of a sphere of radius <m>R</m> is given by <m>\dfrac{4\pi}{3}R^3</m> by using a polar double integral.
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-double-integral-polar-general">
+            <title>Polar Double Integral (General Region)</title>
+            <idx><h>double integral (polar, general)</h></idx>
+            <statement>
+                <p>
+                    The <term>double integral over a polar region <m>D</m></term>, where 
+                    <me>
+                        D = \lrbrace{(r,\theta)\mid \alpha\leq\theta\leq\beta, h_1(\theta)\leq r\leq h_2(\theta)}
+                    </me>
+                    is given by 
+                    <me>
+                        \ds \iint_D f(r,\theta) \,r\,dr\,d\theta = \int_{\theta = \alpha}^{\theta=\beta} \int_{r=h_1(\theta)} f(r,\theta)\,r\,dr\,d\theta
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="mi-double-integral-polar-calculate3">
+            <introduction>
+                <p>
+                    Evaluate the integral <m>\ds \iint_D r^2\cos\theta\,r\,dr\,d\theta</m>, where <m>D</m> is the region bounded by the polar axis and the lower portion of the cardioid <m>r = 1 - \sin\theta</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        The plot of <m>r = 1-\sin\theta</m> is given below. Use it to find the bounds on <m>\theta</m>.
+                    </p>
+                    <image>
+                        <sageplot>
+                            x = var('x')
+                            f(x) = 1 - sin(x)
+                            p = Graphics()
+                            p += polar_plot(f,(x,0,2*pi),thickness=2)
+                            p
+                        </sageplot>
+                    </image>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What are the bounds on <m>r</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Set up and evaluate <m>\ds \iint_D r^2\cos\theta\,r\,dr\,d\theta</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="mi-double-integral-polar-calculate4">
+            <statement>
+                <p>
+                    Convert the integral <m>\ds \int_0^1\int_{y\sqrt{5}}^{\sqrt{1-y^2}} xy^2\,dx\,dy</m> to polar coordinates and evaluate.
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>
