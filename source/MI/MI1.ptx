@@ -18,6 +18,268 @@
     <subsection xml:id="MI1-activities">
         <title>In-Class Activities</title>
 
+        <definition xml:id="def-double-integral-cartesian-rectangle">
+            <title>Double Integral (Over a Rectangle)</title>
+            <idx><h>double integral (over a rectangle)</h></idx>
+            <statement>
+                <p>
+                    Let <m>f(x,y)</m> be defined on the region <m>R</m> given by 
+                    <me>
+                        R = [a,b]\times [c,d] = \lrbrace{(x,y)\in\R^2\mid a\leq x\leq b, c\leq y\leq d}
+                    </me>
+                    and let <m>S</m> be the solid that lies above <m>R</m> and under the graph of <m>f</m>:
+                    <me>
+                        S = \lrbrace{(x,y,z)\in \R^3\mid 0\leq z\leq f(x,y), (x,y)\in R}
+                    </me>
+                    The <term>double integral over R</term> is given by
+                    <me>
+                        \iint_R f(x,y)\, dx\,dy = \iint_R f(x,y)\, dy\, dx
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="mi-double-integral-cartesian-rectangle1">
+            <introduction>
+                <p>
+                    This activity will develop the intuition for the double integral in general.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What kind of object can we use to approximate the <em>volume</em> of the solid <m>S</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Rectangle
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Rectangular prism
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Sphere
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Cylinder
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        In Calculus 1, the expression to approximate the area under a curve was given by
+                        <me>
+                            \ds \sum_{i=1}^n f(x_i)\Delta x
+                        </me>   
+                        where <m>\Delta x</m> was the length of the interval we integrated over.
+                    </p>
+                    <p>
+                        For the volume under a surface, we have the expression
+                        <me>
+                            \ds \sum_{i=1}^n\sum_{j=1}^m f(x_{i},y_{j})\Delta x\,\Delta y
+                        </me>
+                    </p>
+                    <p>
+                        Why do we need to have an extra summation and both <m>\Delta x</m> and <m>\Delta y</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The expression above gives an approximation of the area over the rectangular region. How can we move from an <em>approximation</em> to an <em>exact</em> answer?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <fact xml:id="fact-double-integral-cartesian-rectangle">
+            <statement>
+                <p>
+                    The double integral of <m>f(x,y)</m> over the rectangle <m>R = \lrbrace{(x,y)\in \R^2\mid a\leq x\leq b, c\leq y\leq d}</m> is given by
+                    <me>
+                        \int_a^b\int_c^d f(x,y)\, dy\, dx = \int_c^d\int_a^b f(x,y)\, dx\, dy = \ds \lim_{n,m\to\infty} \sum_{i=1}^n\sum_{j=1}^m f(x_{i},y_{j})\Delta x\,\Delta y
+                    </me>
+                </p>
+            </statement>
+        </fact>
+
+        <activity xml:id="mi-double-integral-cartesian-rectangle-calculate1">
+            <introduction>
+                <p>
+                    Consider the function <m>f(x,y)</m>, which is defined and integrable on the rectangle <m>R = [a,b]\times [c,d]</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        The integral <m>\ds \int_c^d f(x,y)\, dy</m> is not necessarily a number. Why not?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If we set <m>A(x) = \ds \int_c^d f(x,y)\, dy</m>, then what does <m>\ds \int_a^b A(x)\, dx</m> do? Is it necessarily a number?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\ds \int_0^1\int_0^1 x+y\, dx\,dy</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="mi-double-integral-cartesian-rectangle-calculate2">
+            <introduction>
+                <p>
+                    Let <m>f(x,y) = x^2y^3</m> on the rectangle <m>R = \lrbrace{(x,y)\in \R^2\mid 0\leq x\leq 3, 1\leq y\leq 2}</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which is the correct first step in computing the integral
+                        <me>
+                            \int_1^2\int_0^3 x^2y^2\, dx\, dy
+                        </me>   
+                        ?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_1^2 \dfrac{1}{3}x^3y^3\bigg\rvert_0^3\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_1^2 \dfrac{1}{4}x^2y^4\bigg\rvert_0^3\, dx
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_1^2 \dfrac{1}{4}x^2y^2\bigg\rvert_0^3\, dy
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        \ds \int_0^3\dfrac{1}{3}x^3y^3\bigg\rvert_1^2\, dy
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Finish the computation and evaluate the integral.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now, compute <m>\ds \int_0^3\int_1^2 x^2y^3\, dy\,dx</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-fubini">
+            <title>Fubini's Theorem (Version 1)</title>
+            <idx><h>Fubini's theorem (version 1)</h></idx>
+            <statement>
+                <p>
+                    Suppose that <m>f(x,y)</m> is a function of two variables that is continuous over a rectangular region <m>R = \lrbrace{(x,y)\in \R^2\mid a\leq x\leq b,c\leq y\leq d}</m>. Then,
+                    <me>
+                        \ds \iint_R f(x,y)\, dA = \int_a^b\int_c^d f(x,y)\, dy\, dx = \int_c^d\int_a^b f(x,y)\, dx\, dy
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="mi-double-integral-cartesian-rectangle-calculate3">
+            <statement>
+                <p>
+                    Evaluate the double integral <m>\ds \iint_R (y-3xy)\, dA</m>, where <m>R = \lrbrace{(x,y)\in\R^2\mid -1\leq x\leq 5,0\leq y\leq 1}</m>
+                </p>
+            </statement>
+        </activity>
+
+        <assemblage>
+            <title>Properties of Double Integrals</title>
+            <p>
+                Assume that the functions <m>f(x,y)</m> and <m>g(x,y)</m> are integrable over the rectangular region <m>R</m> and that <m>S</m> and <m>T</m> are subregions of <m>R</m>. Then,
+                <ol>
+                    <li>
+                        <p>
+                            <m>
+                                \ds \iint_R (f(x,y)\pm g(x,y))\, dA = \iint_R f(x,y)\, dA \pm \iint_R g(x,y)\, dA
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>c</m> is a constant, then <m> \ds \iint_R cf(x,y)\, dA = c\iint_R f(x,y)\, dA</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>R = S\cup T</m> and <m>S\cap T</m> is empty except at the boundary, then 
+                            <me>
+                                \ds \iint_R f(x,y) dA = \iint_S f(x,y)\, dA + \iint_T f(x,y)\, dA
+                            </me>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>f(x,y)</m> can be written as <m>f(x,y) = A(x)\cdot B(y)</m> where <m>A</m> is a function of <m>x</m> alone, and <m>B</m> is a function of <m>y</m> alone, then if <m>R = \lrbrace{(x,y)\in \R^2\mid a\leq x\leq b, c\leq y\leq d}</m>, we have
+                            <me>
+                                \ds \iint_R f(x,y)\, dA = \lrpar{\int_a^b A(x)\, dx}\lrpar{\int_c^d B(y)\, dy}
+                            </me>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </assemblage>
+
+        <activity xml:id="mi-double-integrals-cartesian-rectangle-calculate4">
+            <statement>
+                <p>
+                    Compute <m>\ds \iint_R xe^y\, dA</m>, where <m>R = [0,1]\times[-1,1]</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="mi-double-integrals-cartesian-rectangle-calculate5">
+            <statement>
+                <p>
+                   Find the volume of the solid bounded by the elliptic paraboloid <m>x^2 + 4y^2 + z = 16</m>, the planes <m>x=2</m> and <m>y=2</m>, and the three coordinate planes. 
+                </p>
+            </statement>
+            
+        </activity>
     </subsection>
 
 </section>
