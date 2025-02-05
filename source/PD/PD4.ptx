@@ -104,7 +104,7 @@
                 <p>
                     Let <m>f(x,y)</m> be a differentiable function of two variables, and let <m>\textbf{u} = \lrangle{a,b}</m> be a unit vector. The <term>directional derivative</term> of <m>f(x,y)</m> in the direction of <m>\textbf{u}</m> is given by
                     <me>
-                        D_{\textbf{u}}(f) = \nabla f\cdot\textbf{u}= f_x(x,y) + f_y(x,y)b
+                        D_{\textbf{u}}(f) = \nabla f\cdot\textbf{u}= f_x(x,y)a + f_y(x,y)b
                     </me>
                     or
                     <me>

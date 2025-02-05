@@ -545,7 +545,7 @@
 
         <remark>
             <p>
-                The definition of a tangent plane is a natural extension of the linearization of a single-variable function at the input <m>x_0</m>: <m>y = f'(x_0)(x-x_0)</m>
+                The definition of a tangent plane is a natural extension of the linearization of a single-variable function at the input <m>x_0</m>: <m>y = f'(x_0)(x-x_0) + f(a)</m>
             </p>
         </remark>
 
