@@ -18,6 +18,149 @@
     <subsection xml:id="MI3-activities">
         <title>In-Class Activities</title>
 
+        <definition xml:id="def-triple-integral-cartesian">
+            <title>Triple Integral (Cartesian Coordinates)</title>
+            <idx><h>triple integral (Cartesian coordinates)</h></idx>
+            <statement>
+                <p>
+                    The <term>triple integral</term> of a function <m>f(x,y,z)</m> over a rectangular box <m>B</m> is defined to be
+                    <me>
+                        \ds \lim_{l,m,n\to\infty} \sum_{i=1}^l\sum_{j=1}^m\sum_{k=1}^n f(x_{ijk},y_{ijk},z_{ijk})\Delta x \Delta y \Delta z = \iiint_B f(x,y,z)\, dV
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
+            <p>
+                Computing a triple integral is very similar to computing a double integral.
+            </p>
+        </remark>
+
+        <activity xml:id="mi-triple-integral-compute1">
+            <statement>
+                <p>
+                    Evaluate
+                    <me>
+                        \int_{z=0}^{z=1}\int_{y=2}^{y=4}\int_{x=-1}^{x=5} (x+yz^2)\, dx\,dy\,dz
+                    </me>
+                </p>
+            </statement>
+        </activity>
+
+        <theorem xml:id="thm-fubini-triple">
+            <title>Fubini's Theorem (Triple Integrals)</title>
+            <idx><h>Fubini's theorem (triple integrals)</h></idx>
+            <statement>
+                <p>
+                    If <m>f(x,y,z)</m> is continuous on a rectangular box <m>B = [a,b]\times[c,d]\times [e,f]</m>, then the following are equivalent:
+                    <md>
+                        <mrow> \int_e^f\int_c^d \int_a^b f(x,y,z)\, dx\,dy\,dz \amp = \int_c^d\int_e^f\int_a^b f(x,y,z)\, dx\,dz\,dy</mrow>
+                        <mrow>  = \int_a^b\int_e^f\int_c^d f(x,y,z)\,dy\,dz\,dx \amp = \int_e^f\int_a^b\int_c^d f(x,y,z)\,dy\,dx\,dz </mrow>
+                        <mrow>  = \int_c^d\int_a^b\int_e^f f(x,y,z)\, dz\,dx\,dy \amp = \int_a^b\int_c^d\int_e^f f(x,y,z)\,dz\,dy\,dx </mrow>
+                        <mrow> \amp = \iiint_B f(x,y,z)\,dV </mrow>
+                    </md>
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="mi-triple-integral-compute2">
+            <statement>
+                <p>
+                    Evaluate the triple integral <m>\iiint_B z\sin x\cos y\, dV</m> where
+                    <me>B = \lrbrace{(x,y,z)\in\R^3\mid 0\leq x\leq \pi, \dfrac{3\pi}{2}\leq y\leq 2\pi, 1\leq z\leq 3}</me>
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-volume-triple-integral">
+            <title>Volume</title>
+            <idx><h>volume</h></idx>
+            <statement>
+                <p>
+                    The <term>volume</term> of a closed, bounded region <m>D</m> in space is given by
+                    <me>
+                        \iiint_D \,dV
+                    </me>
+                </p>
+            </statement>
+        </definition>
+        
+        <activity xml:id="mi-triple-integral-compute3">
+            <introduction>
+                <p>
+                    We will compute the integral <m>\ds \iiint_E x-3y</m>, where <m>E</m> is the solid tetrahedron bounded by the planes <m>x=0, y= 0, z=0</m> and <m>x + y + z = 1</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Based on the way the sketch is drawn, which variable should we integrate with respect to first?
+                        <ol marker="A." cols="3">
+                            <li>
+                                <p>
+                                    x
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    y
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    z
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Set up the integral with the appropriate bounds for your choice in part (b).
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="mi-triple-integral-order1">
+            <statement>
+                <p>
+                    Consider the integral
+                    <me>
+                        \int_0^4\int_0^{4-z}\int_0^{\sqrt{y}} f(x,y,z)\,dx\,dy\,dz
+                    </me>
+                    Write five different iterated integrals equal to the given integral.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="mi-triple-integral-compute4">
+            <statement>
+                <p>
+                    Let <m>f(x,y,z) = 2x+5y+7z</m>. Compute <m>\ds \iiint_E f(x,y,z)\, dV</m> where
+                    <me>
+                        E = \lrbrace{(x,y,z)\in\R^3\mid 0\leq x\leq 1, 0\leq y\leq -x+1, 1\leq z\leq 2}
+                    </me>
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>

@@ -17,7 +17,468 @@
 
     <subsection xml:id="TI3-activities">
         <title>In-Class Activities</title>
+        
+        <activity xml:id="ti-trigsub-why1">
+            <statement>
+                <p>
+                    Consider the integral <m>\ds \int \dfrac{1}{16+x^2}\, dx</m>. Which statement is most accurate?
+                    <ol marker="A.">
+                        <li>
+                            <p>
+                                We can use <m>u-</m>substitution with <m>u = 16+x^2</m> and <m>du = 2x\, dx</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                We can use integration by parts with <m>u = \dfrac{1}{16+x^2}</m> and <m>dv = dx</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                This is a basic integral rule and evaluates to <m>\dfrac{1}{16}\inv{\tan}(x) + C</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                No technique is effective
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
 
+        <activity xml:id="ti-trigsub-intuition1">
+            <introduction>
+                <p>
+                    Consider the triangle below.
+                </p>
+                <image width = "50%">
+                    <sageplot>
+                        g = Graphics()
+                        g += polygon(([(0,0),(4,3),(4,0)]), axes=False, fill=False, thickness=2)
+                        g += text('$C$',(2,2),color='black',fontsize=30)
+                        g += text('$A$',(2,-.25),color='black',fontsize=30)
+                        g += text('$B$',(4.25,1.5),color='black',fontsize=30)
+                        g += polygon(([(3.75,0),(3.75,.25),(4,.25),(4,0)]), fill=False)
+                        g
+                    </sageplot>
+                </image>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        If <m>x = a\tan\theta</m>, then
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>A=a,B=x,C=\sqrt{x^2+a^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=x,B=a,C=\sqrt{x^2+a^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=a,B=x,C=x^2+a^2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=x,B=a,C=x^2+a^2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>x=a\sin\theta</m>, then
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>A=x,B=a,C=x^2+a^2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=x,B=a,C=\sqrt{a^2-x^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=\sqrt{a^2-x^2},B=x,C=a</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=\sqrt{x^2-a^2},B=x,C=a</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>x=a\sec\theta</m>, then
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>A=a,B=x,C=\sqrt{x^2+a^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=x,B=\sqrt{x^2-a^2},C=a</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=x,B=a,C=\sqrt{x^2+a^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>A=a,B=\sqrt{a^2-x^2},C=x</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ti-trigsub-compute1">
+            <introduction>
+                <p>
+                    Again consider the integral <m>\ds \int \dfrac{1}{16+x^2}\, dx</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Using the triangles from <xref ref="ti-trigsub-intuition1"/>, which substitution looks most like the integrand here?
+                        <ol marker="A." cols="3">
+                            <li>
+                                <p>
+                                    <m>x=4\tan\theta</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x=4\sin\theta</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x=4\sec\theta</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use your substitution to fill in the blank: <m>dx = <fillin characters="5" />\,d\theta</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Substitute <m>x</m> and <m>dx</m> into the integral.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which trigonometric identity is best suited for this problem?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\sin^2\theta = 1-\cos^2\theta</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\cos^2\theta = 1-\sin^2\theta</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>1+\tan^2\theta = \sec^2\theta</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\tan^2\theta = \sec^2\theta - 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>1+\cot^2\theta = \csc^2\theta</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\cot^2\theta = \csc^2\theta - 1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the trig identity from part (d) to simplify the integrand, then integrate.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which expression is most helpful to simplify our antiderivative?
+                        <ol marker="A." cols="3">
+                            <li>
+                                <p>
+                                    <m>\theta = \inv{\tan}\lrpar{\dfrac{x}{4}}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta = \inv{\sin}\lrpar{\dfrac{x}{4}}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta = \inv{\sec}\lrpar{\dfrac{x}{4}}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Write the final antiderivative. Don't forget the constant of integration.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <assemblage>
+            <title>Trigonometric Substitution</title>
+            <p>
+                If your integral has a term of the form
+                <ul>
+                    <li>
+                        <p>
+                            <m>x^2+a^2</m>, set <m>x = a\tan\theta</m>, find <m>d\theta</m>, and use the identity <m>a+a\tan^2\theta = a\sec^2\theta</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>a^2-x^2</m>, set <m>x = a\sin\theta</m>, find <m>d\theta</m>, and use the identity <m>a-a\sin^2\theta = a\cos^2\theta</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>x^2-a^2</m>, set <m>x = a\sec\theta</m>, find <m>d\theta</m>, and use the identity <m>a\sec^2\theta -a = a\tan^2\theta</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </assemblage>
+
+        <activity xml:id="ti-trigsub-compute2">
+            <introduction>
+                <p>
+                    We will compute <m>\ds \int \dfrac{\sqrt{9-x^2}}{x^2}</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which trigonometric substitution is most helpful here?
+                        <ol marker="A." cols="3">
+                            <li>
+                                <p>
+                                    <m>x=3\tan\theta</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x=3\sin\theta</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x=3\sec\theta</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Fill in the blank: <m>dx = <fillin characters="5" />\, d\theta</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Make the substitution and simplify your integral.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which identity is most useful before integrating?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\sin^2\theta + \cos^2\theta = 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>1 + \tan^2\theta = \sec^2\theta</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>1+\cot^2\theta = \csc^2\theta</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Integrate using the identity from part (d).
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>x = 3\sin\theta</m>, which expression must be true?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\cot\theta = \dfrac{\sqrt{9-x^2}}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\cot\theta = \dfrac{x}{\sqrt{9-x^2}}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\cot\theta = \dfrac{3}{\sqrt{9-x^2}}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\cot\theta = \dfrac{\sqrt{9-x^2}}{x}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Finish simplifying to find the antiderivative.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ti-trigsub-compute3">
+            <introduction>
+                <p>
+                    Consider <m>\ds \int \dfrac{x}{x^2+4}</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which technique of integration is most appropriate here?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    u-substitution
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Integration by parts
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Trigonometric substitution
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    None of the above
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ti-trigsub-compute4">
+            <introduction>
+                <p>
+                    Compute the following:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int \dfrac{1}{x^2\sqrt{x^2-1}}\, dx</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int \dfrac{16x^3}{(4x^2+9)^{3/2}}\, dx</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_0^a x^2\sqrt{a^2-x^2}\, dx</m>, where <m>a</m> is a constant
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>

@@ -18,7 +18,19 @@
     <subsection xml:id="MI4-activities">
         <title>In-Class Activities</title>
 
+
     </subsection>
 
 </section>
 
+<!-- 
+    1) definition of cylindrical coordinates/integrals in cylindrical coordinates
+    2) compute integral in cylindrical coordinates
+    3) convert integral from cartesian to cylindrical
+    4) definition of spherical coordinates/integrals in spherical coordinates
+    5) compute integral in spherical coordinates
+    6) compute second integral in spherical coordinates
+    7) convert integral from cartesian to spherical
+    8) convert second integral from cartesian to spherical
+    9) volume of sphere
+-->
