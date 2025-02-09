@@ -4228,7 +4228,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "TI3: Trigonometric Substitution",
-  "body": " TI3: Trigonometric Substitution     TI3  I can compute integrals using trigonometric substitution.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Trigonometric Substitution    Read all sections        In-Class Activities   "
+  "body": " TI3: Trigonometric Substitution     TI3  I can compute integrals using trigonometric substitution.      Pre-Class Preparation  Read the following sections of the text:    Section 3.3: Trigonometric Substitution    Read all sections        In-Class Activities    Consider the integral . Which statement is most accurate?   We can use substitution with and     We can use integration by parts with and     This is a basic integral rule and evaluates to     No technique is effective         Consider the triangle below.       If , then                          If , then                          If , then                            Again consider the integral .    Using the triangles from , which substitution looks most like the integrand here?                     Use your substitution to fill in the blank:     Substitute and into the integral.    Which trigonometric identity is best suited for this problem?                                    Use the trig identity from part (d) to simplify the integrand, then integrate.    Which expression is most helpful to simplify our antiderivative?                     Write the final antiderivative. Don't forget the constant of integration.     Trigonometric Substitution  If your integral has a term of the form    , set , find , and use the identity      , set , find , and use the identity      , set , find , and use the identity         We will compute .    Which trigonometric substitution is most helpful here?                     Fill in the blank:     Make the substitution and simplify your integral.    Which identity is most useful before integrating?                     Integrate using the identity from part (d).    If , which expression must be true?                          Finish simplifying to find the antiderivative.      Consider     Which technique of integration is most appropriate here?   u-substitution    Integration by parts    Trigonometric substitution    None of the above         Compute the following:               , where is a constant     "
 },
 {
   "id": "TI3-2",
@@ -4240,13 +4240,67 @@ var ptx_lunr_docs = [
   "body": "   TI3  I can compute integrals using trigonometric substitution.    "
 },
 {
+  "id": "ti-trigsub-why1",
+  "level": "2",
+  "url": "TI3.html#ti-trigsub-why1",
+  "type": "Activity",
+  "number": "7.3.1",
+  "title": "",
+  "body": "  Consider the integral . Which statement is most accurate?   We can use substitution with and     We can use integration by parts with and     This is a basic integral rule and evaluates to     No technique is effective      "
+},
+{
+  "id": "ti-trigsub-intuition1",
+  "level": "2",
+  "url": "TI3.html#ti-trigsub-intuition1",
+  "type": "Activity",
+  "number": "7.3.2",
+  "title": "",
+  "body": "  Consider the triangle below.       If , then                          If , then                          If , then                         "
+},
+{
+  "id": "ti-trigsub-compute1",
+  "level": "2",
+  "url": "TI3.html#ti-trigsub-compute1",
+  "type": "Activity",
+  "number": "7.3.3",
+  "title": "",
+  "body": "  Again consider the integral .    Using the triangles from , which substitution looks most like the integrand here?                     Use your substitution to fill in the blank:     Substitute and into the integral.    Which trigonometric identity is best suited for this problem?                                    Use the trig identity from part (d) to simplify the integrand, then integrate.    Which expression is most helpful to simplify our antiderivative?                     Write the final antiderivative. Don't forget the constant of integration.   "
+},
+{
+  "id": "ti-trigsub-compute2",
+  "level": "2",
+  "url": "TI3.html#ti-trigsub-compute2",
+  "type": "Activity",
+  "number": "7.3.4",
+  "title": "",
+  "body": "  We will compute .    Which trigonometric substitution is most helpful here?                     Fill in the blank:     Make the substitution and simplify your integral.    Which identity is most useful before integrating?                     Integrate using the identity from part (d).    If , which expression must be true?                          Finish simplifying to find the antiderivative.   "
+},
+{
+  "id": "ti-trigsub-compute3",
+  "level": "2",
+  "url": "TI3.html#ti-trigsub-compute3",
+  "type": "Activity",
+  "number": "7.3.5",
+  "title": "",
+  "body": "  Consider     Which technique of integration is most appropriate here?   u-substitution    Integration by parts    Trigonometric substitution    None of the above      "
+},
+{
+  "id": "ti-trigsub-compute4",
+  "level": "2",
+  "url": "TI3.html#ti-trigsub-compute4",
+  "type": "Activity",
+  "number": "7.3.6",
+  "title": "",
+  "body": "  Compute the following:               , where is a constant   "
+},
+{
   "id": "TI4",
   "level": "1",
   "url": "TI4.html",
   "type": "Section",
   "number": "7.4",
   "title": "TI4: Integration by Partial Fractions",
-  "body": " TI4: Integration by Partial Fractions     TI4  I can use partial fraction decomposition as a means to compute integrals of rational or rational-like functions.      Pre-Class Preparation  Read the following sections of the text:    Section 3.4: Partial Fractions    Read all sections        In-Class Activities   "
+  "body": " TI4: Integration by Partial Fractions     TI4  I can use partial fraction decomposition as a means to compute integrals of rational or rational-like functions.      Pre-Class Preparation  Read the following sections of the text:    Section 3.4: Partial Fractions    Read all sections        In-Class Activities    Consider . Which substitution would you choose to evaluate this integral?                  Substitution is not effective         Using the method of substitution, which of these is equal to ?                            To avoid repetitive substitution, the following integral formulas will be useful.         Which of the following is equal to ?                            Based on the previous activities, which of these is equal to ?                            Suppose we know . Which of these is equal to ?                            To find integrals like and , we'd like to decompose the fractions into simpler partial fractions that may be integrated with these formulas        Partial Fraction Decomposition   Let be a rational function, where the degree of is less than the degree of . integration partial fraction decomp.       Linear Terms: Let divide . Then the decomposition of will contain the terms .     Quadratic Terms: Let divide , where is irreducible. Then the decomposition of will contain the terms .         Following is an example of a rather involved partial fraction decomposition. Using some algebra, it's possible to find values for through to determine .      Which of the following is the form of the partial fraction decomposition of ?            Which of the following is the form of the partial fraction decomposition of ?            Consider that the partial decomposition of is What equality do we obtain if we multiply both sides of the above equation by ?           Use your choice in (which must hold for any value) to answer the following.  By substituting into the equation, we may find:      By substituting into the equation, we may find:        Using the results of , show how to rewrite our choice from  .  What value of satisfies this equation?           By using the form of the decomposition and the coefficients found in and , evaluate .      Given that do the following to find , and .   Eliminate the fractions to obtain .  Plug in an value that lets you find the value of .  Plug in an value that lets you find the value of .  Use other algebra techniques to find the values of and .     Given your choice in Find       Consider the rational expression Which of the following is the partial fraction decomposition of this rational expression?            Given your choice in Find .      Given that , find .      Evaluate .     "
 },
 {
   "id": "TI4-2",
@@ -4256,6 +4310,195 @@ var ptx_lunr_docs = [
   "number": "7.4",
   "title": "",
   "body": "   TI4  I can use partial fraction decomposition as a means to compute integrals of rational or rational-like functions.    "
+},
+{
+  "id": "activity-TI6fakeusub",
+  "level": "2",
+  "url": "TI4.html#activity-TI6fakeusub",
+  "type": "Activity",
+  "number": "7.4.1",
+  "title": "",
+  "body": "  Consider . Which substitution would you choose to evaluate this integral?                  Substitution is not effective      "
+},
+{
+  "id": "activity-TI6oneoverlinear",
+  "level": "2",
+  "url": "TI4.html#activity-TI6oneoverlinear",
+  "type": "Activity",
+  "number": "7.4.2",
+  "title": "",
+  "body": "  Using the method of substitution, which of these is equal to ?                         "
+},
+{
+  "id": "TI4-activities-4",
+  "level": "2",
+  "url": "TI4.html#TI4-activities-4",
+  "type": "Observation",
+  "number": "7.4.1",
+  "title": "",
+  "body": "  To avoid repetitive substitution, the following integral formulas will be useful.      "
+},
+{
+  "id": "activity-TI6RationalExpression",
+  "level": "2",
+  "url": "TI4.html#activity-TI6RationalExpression",
+  "type": "Activity",
+  "number": "7.4.3",
+  "title": "",
+  "body": "  Which of the following is equal to ?                         "
+},
+{
+  "id": "activity-TI6IntegrateRationalExpression",
+  "level": "2",
+  "url": "TI4.html#activity-TI6IntegrateRationalExpression",
+  "type": "Activity",
+  "number": "7.4.4",
+  "title": "",
+  "body": "  Based on the previous activities, which of these is equal to ?                         "
+},
+{
+  "id": "TI4-activities-7",
+  "level": "2",
+  "url": "TI4.html#TI4-activities-7",
+  "type": "Activity",
+  "number": "7.4.5",
+  "title": "",
+  "body": "  Suppose we know . Which of these is equal to ?                         "
+},
+{
+  "id": "TI4-activities-8",
+  "level": "2",
+  "url": "TI4.html#TI4-activities-8",
+  "type": "Observation",
+  "number": "7.4.2",
+  "title": "",
+  "body": "  To find integrals like and , we'd like to decompose the fractions into simpler partial fractions that may be integrated with these formulas      "
+},
+{
+  "id": "fact-TI6PartialFractions",
+  "level": "2",
+  "url": "TI4.html#fact-TI6PartialFractions",
+  "type": "Fact",
+  "number": "7.4.3",
+  "title": "Partial Fraction Decomposition.",
+  "body": " Partial Fraction Decomposition   Let be a rational function, where the degree of is less than the degree of . integration partial fraction decomp.       Linear Terms: Let divide . Then the decomposition of will contain the terms .     Quadratic Terms: Let divide , where is irreducible. Then the decomposition of will contain the terms .      "
+},
+{
+  "id": "TI4-activities-10",
+  "level": "2",
+  "url": "TI4.html#TI4-activities-10",
+  "type": "Example",
+  "number": "7.4.4",
+  "title": "",
+  "body": "  Following is an example of a rather involved partial fraction decomposition. Using some algebra, it's possible to find values for through to determine .   "
+},
+{
+  "id": "activity-TI6FirstDecomp",
+  "level": "2",
+  "url": "TI4.html#activity-TI6FirstDecomp",
+  "type": "Activity",
+  "number": "7.4.6",
+  "title": "",
+  "body": "  Which of the following is the form of the partial fraction decomposition of ?         "
+},
+{
+  "id": "activity-TI6SecondDecomp",
+  "level": "2",
+  "url": "TI4.html#activity-TI6SecondDecomp",
+  "type": "Activity",
+  "number": "7.4.7",
+  "title": "",
+  "body": "  Which of the following is the form of the partial fraction decomposition of ?         "
+},
+{
+  "id": "activity-TI6RationaltoPoly",
+  "level": "2",
+  "url": "TI4.html#activity-TI6RationaltoPoly",
+  "type": "Activity",
+  "number": "7.4.8",
+  "title": "",
+  "body": "  Consider that the partial decomposition of is What equality do we obtain if we multiply both sides of the above equation by ?         "
+},
+{
+  "id": "activity-TI6SolveaCoeff",
+  "level": "2",
+  "url": "TI4.html#activity-TI6SolveaCoeff",
+  "type": "Activity",
+  "number": "7.4.9",
+  "title": "",
+  "body": " Use your choice in (which must hold for any value) to answer the following.  By substituting into the equation, we may find:      By substituting into the equation, we may find:      "
+},
+{
+  "id": "activity-TI6SolvelastCoeff",
+  "level": "2",
+  "url": "TI4.html#activity-TI6SolvelastCoeff",
+  "type": "Activity",
+  "number": "7.4.10",
+  "title": "",
+  "body": " Using the results of , show how to rewrite our choice from  .  What value of satisfies this equation?        "
+},
+{
+  "id": "activity-TI6PuttingitTogether",
+  "level": "2",
+  "url": "TI4.html#activity-TI6PuttingitTogether",
+  "type": "Activity",
+  "number": "7.4.11",
+  "title": "",
+  "body": "  By using the form of the decomposition and the coefficients found in and , evaluate .   "
+},
+{
+  "id": "activity-TI6FindCoefficients1",
+  "level": "2",
+  "url": "TI4.html#activity-TI6FindCoefficients1",
+  "type": "Activity",
+  "number": "7.4.12",
+  "title": "",
+  "body": "  Given that do the following to find , and .   Eliminate the fractions to obtain .  Plug in an value that lets you find the value of .  Plug in an value that lets you find the value of .  Use other algebra techniques to find the values of and .  "
+},
+{
+  "id": "activity-TI6Evaluate1",
+  "level": "2",
+  "url": "TI4.html#activity-TI6Evaluate1",
+  "type": "Activity",
+  "number": "7.4.13",
+  "title": "",
+  "body": "  Given your choice in Find    "
+},
+{
+  "id": "activity-TI6FindCompleteDecomp",
+  "level": "2",
+  "url": "TI4.html#activity-TI6FindCompleteDecomp",
+  "type": "Activity",
+  "number": "7.4.14",
+  "title": "",
+  "body": "  Consider the rational expression Which of the following is the partial fraction decomposition of this rational expression?         "
+},
+{
+  "id": "activity-TI6Evaluate2",
+  "level": "2",
+  "url": "TI4.html#activity-TI6Evaluate2",
+  "type": "Activity",
+  "number": "7.4.15",
+  "title": "",
+  "body": "  Given your choice in Find .   "
+},
+{
+  "id": "activity-TI6Definite",
+  "level": "2",
+  "url": "TI4.html#activity-TI6Definite",
+  "type": "Activity",
+  "number": "7.4.16",
+  "title": "",
+  "body": "  Given that , find .   "
+},
+{
+  "id": "activity-TI6HandsOff",
+  "level": "2",
+  "url": "TI4.html#activity-TI6HandsOff",
+  "type": "Activity",
+  "number": "7.4.17",
+  "title": "",
+  "body": "  Evaluate .   "
 },
 {
   "id": "TI5",
@@ -5497,7 +5740,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.3",
   "title": "MI3: Triple Integrals in Cartesian Coordinates",
-  "body": " MI3: Triple Integrals in Cartesian Coordinates     MI3  I can compute triple integrals over rectangular boxes, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.4: Triple Integrals    Read until \"Average Value of a Function of Three Variables\"        In-Class Activities   "
+  "body": " MI3: Triple Integrals in Cartesian Coordinates     MI3  I can compute triple integrals over rectangular boxes, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.4: Triple Integrals    Read until \"Average Value of a Function of Three Variables\"        In-Class Activities   Triple Integral (Cartesian Coordinates)  triple integral (Cartesian coordinates)   The triple integral of a function over a rectangular box is defined to be      Computing a triple integral is very similar to computing a double integral.     Evaluate      Fubini's Theorem (Triple Integrals)  Fubini's theorem (triple integrals)   If is continuous on a rectangular box , then the following are equivalent:       Evaluate the triple integral where      Volume  volume   The volume of a closed, bounded region in space is given by       We will compute the integral , where is the solid tetrahedron bounded by the planes and     The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.    Based on the way the sketch is drawn, which variable should we integrate with respect to first?   x    y    z       Set up the integral with the appropriate bounds for your choice in part (b).    Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.      Consider the integral Write five different iterated integrals equal to the given integral.      Let . Compute where      "
 },
 {
   "id": "MI3-2",
@@ -5507,6 +5750,87 @@ var ptx_lunr_docs = [
   "number": "11.3",
   "title": "",
   "body": "   MI3  I can compute triple integrals over rectangular boxes, and interpret the results.    "
+},
+{
+  "id": "def-triple-integral-cartesian",
+  "level": "2",
+  "url": "MI3.html#def-triple-integral-cartesian",
+  "type": "Definition",
+  "number": "11.3.1",
+  "title": "Triple Integral (Cartesian Coordinates).",
+  "body": " Triple Integral (Cartesian Coordinates)  triple integral (Cartesian coordinates)   The triple integral of a function over a rectangular box is defined to be    "
+},
+{
+  "id": "MI3-activities-3",
+  "level": "2",
+  "url": "MI3.html#MI3-activities-3",
+  "type": "Remark",
+  "number": "11.3.2",
+  "title": "",
+  "body": " Computing a triple integral is very similar to computing a double integral.  "
+},
+{
+  "id": "mi-triple-integral-compute1",
+  "level": "2",
+  "url": "MI3.html#mi-triple-integral-compute1",
+  "type": "Activity",
+  "number": "11.3.1",
+  "title": "",
+  "body": "  Evaluate    "
+},
+{
+  "id": "thm-fubini-triple",
+  "level": "2",
+  "url": "MI3.html#thm-fubini-triple",
+  "type": "Theorem",
+  "number": "11.3.3",
+  "title": "Fubini’s Theorem (Triple Integrals).",
+  "body": " Fubini's Theorem (Triple Integrals)  Fubini's theorem (triple integrals)   If is continuous on a rectangular box , then the following are equivalent:    "
+},
+{
+  "id": "mi-triple-integral-compute2",
+  "level": "2",
+  "url": "MI3.html#mi-triple-integral-compute2",
+  "type": "Activity",
+  "number": "11.3.2",
+  "title": "",
+  "body": "  Evaluate the triple integral where    "
+},
+{
+  "id": "def-volume-triple-integral",
+  "level": "2",
+  "url": "MI3.html#def-volume-triple-integral",
+  "type": "Definition",
+  "number": "11.3.4",
+  "title": "Volume.",
+  "body": " Volume  volume   The volume of a closed, bounded region in space is given by    "
+},
+{
+  "id": "mi-triple-integral-compute3",
+  "level": "2",
+  "url": "MI3.html#mi-triple-integral-compute3",
+  "type": "Activity",
+  "number": "11.3.3",
+  "title": "",
+  "body": "  We will compute the integral , where is the solid tetrahedron bounded by the planes and     The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.    Based on the way the sketch is drawn, which variable should we integrate with respect to first?   x    y    z       Set up the integral with the appropriate bounds for your choice in part (b).    Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.   "
+},
+{
+  "id": "mi-triple-integral-order1",
+  "level": "2",
+  "url": "MI3.html#mi-triple-integral-order1",
+  "type": "Activity",
+  "number": "11.3.4",
+  "title": "",
+  "body": "  Consider the integral Write five different iterated integrals equal to the given integral.   "
+},
+{
+  "id": "mi-triple-integral-compute4",
+  "level": "2",
+  "url": "MI3.html#mi-triple-integral-compute4",
+  "type": "Activity",
+  "number": "11.3.5",
+  "title": "",
+  "body": "  Let . Compute where    "
 },
 {
   "id": "MI4",
