@@ -69,12 +69,12 @@
                             </li>
                             <li>
                                 <p>
-                                    <m>A\approx \sum (x_i + 5)\cdot \Delta x = \sum (-x_j + 5)\cdot \Delta x</m>, where <m>\Delta x = \dfrac{10}{n}</m>
+                                    <m>A\approx \sum (x_i + 5)\cdot \Delta x + \sum (-x_j + 5)\cdot \Delta x</m>, where <m>\Delta x = \dfrac{10}{n}</m>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <m>A\approx \sum (x_i + 5)\cdot \Delta x = \sum (-x_j + 5)\cdot \Delta x</m>, where <m>\Delta x = \dfrac{5}{n}</m>
+                                    <m>A\approx \sum (x_i + 5)\cdot \Delta x + \sum (-x_j + 5)\cdot \Delta x</m>, where <m>\Delta x = \dfrac{5}{n}</m>
                                 </p>
                             </li>
                         </ol>
@@ -113,7 +113,7 @@
             <task>
                 <statement>
                     <p>
-                        Now instead partition the triangle such that the slickes are horizontal, as in the diagram below.
+                        Now instead partition the triangle such that the slices are horizontal, as in the diagram below.
                     </p>
                     <image>
                         <sageplot>
@@ -139,14 +139,14 @@
                             <li>
                                 <p>
                                     <m>
-                                        \ds \int_0^5 (y-5)-(5-y)\, dy
+                                        \ds \int_0^5 5-y\, dy
                                     </m>
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     <m>
-                                        \ds \int_0^5 5-y\, dy
+                                        \ds \int_0^5 (y-5)-(5-y)\, dy
                                     </m>
                                 </p>
                             </li>
