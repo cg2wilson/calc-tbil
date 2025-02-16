@@ -18,16 +18,289 @@
     <subsection xml:id="MI4-activities">
         <title>In-Class Activities</title>
 
+        <definition xml:id="def-cylindrical-coordinates">
+            <title>Cylindrical Coordinates</title>
+            <idx>cylindrical coordinates</idx>
+            <statement>
+                <p>
+                    The <term>cylindrical coordinate system</term> is one where the coordinates of the object in question are projected onto a cylinder. The conversion factors are
+                    <me>
+                        x = r\cos\theta \qquad y = r\sin\theta \qquad z = z
+                    </me>
+                    and 
+                    <me>
+                        x^2 + y^2 + z^2 = r^2 
+                    </me>
+                </p>
+            </statement>
+        </definition>
 
+        <remark>
+            <p>
+                Cylindrical coordinates are a three-dimensional analogue of polar coordinates. As such, the integration is very similar to integration in polar coordinates.
+            </p>
+        </remark>
+
+        <activity xml:id="mi-cylindrical-convert">
+            <statement>
+                <p>
+                    Describe the surface whose equation (in cylindrical coordinates) is given by <m>z = 4r</m>. 
+                </p>
+            </statement>
+        </activity>
+
+        <theorem xml:id="thm-fubini-cylindrical">
+            <title>Fubini's Theorem in Cylindrical Coordinates</title>
+            <statement>
+                <p>
+                    Let <m>g(x,y,z)</m> be a continuous on a circular cylinder <m>B</m>, which when described in cylindrical coordinates looks like
+                    <me>
+                        B = \lrbrace{(r,\theta,z)\mid a\leq r\leq b, \alpha \leq\theta\leq\beta, c\leq z\leq d}
+                    </me>
+                    then, <m>g(x,y,z) = g(r\cos\theta,r\sin\theta, z) = f(r\theta,z)</m>, and
+                    <me>
+                        \iiint_B g(x,y,z)\, dV = \int_c^d \int_\alpha^\beta\int_a^b f(r,\theta,z)\,r\,dr\,d\theta\,dz
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="mi-cylindrical-rectangular-convert1">
+            <introduction>
+                <p>
+                    Consider the region <m>D</m> bounded below by the plane <m>z = 0</m>, laterally by the circular cylinder <m>x^2+(y-1)^2 = 4</m>, and above by the paraboloid <m>z = x^2 + y^2</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Describe the region in rectangular coordinates.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Describe the region in cylindrical coordinates.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Perform the integration. 
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <activity xml:id="mi-cylindrical-integrate1">
+            <statement>
+                <p>
+                    A solid <m>E</m> lies within the cylinder <m>x^2 + y^2 = 1</m>, below the plane <m>z=9</m>, and above the paraboloid <m>z = 1-x^2-y^2</m>. Evaluate <m>\iiint_E z\, dV</m>.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="mi-cylindrical-integrate2">
+            <statement>
+                <p>
+                    Consider the integral
+                    <me>
+                        \int_{-2}^2 \int_{-\sqrt{4-x^2}}^{\sqrt{4-x^2}}\int_{\sqrt{x^2+y^2}}^2 (x^2 + 2y^2)\, dz\,dy\,dx
+                    </me>
+                </p>
+            </statement>
+            <task>
+                <statement>
+                    <p>
+                        Convert the integral to cylindrical coordinates.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Perform the integration.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="mi-spherical-cylindrical-intuition">
+            <introduction>
+                <p>
+                    Consider the region bounded by the cylinder <m>x^2+y^2=1</m>, <m>z=1</m>, and <m>z=5</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        If we want to find the volume (using calculus), why would cylindrical coordinates give the easiest computation?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What if instead of <m>z= 5</m>, we cap off the cylinder with a hemisphere? What would happen to the computation from part (a)?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-spherical-coordinates">
+            <title>Spherical Coordinates</title>
+            <idx><h>spherical coordinates</h></idx>            
+            <statement>
+                <p>
+                    <term>Spherical coordinates</term> locate points on a sphere using two angles <m>\theta</m> and <m>\varphi</m> and a distance from the origin, <m>\rho</m>. 
+                </p>
+            </statement>
+        </definition>
+
+        <assemblage>
+            <title>Conversions for Spherical Coordinates</title>
+            <p>
+                To go from Cartesian to spherical coordinates, use 
+                <me>
+                    x = \rho\sin\varphi\cos\theta \qquad y = \rho\sin\varphi\cos\theta \qquad z = \rho\cos\varphi
+                </me>
+                and use 
+                <me>
+                    \rho^2 = x^2 + y^2 + z^2\qquad \tan\theta = \dfrac{y}{x} \qquad \varphi = \inv{\cos}\lrpar{\dfrac{z}{\sqrt{x^2 + y^2 + z^2}}}
+                </me>
+                to go from spherical to Cartesian coordinates.
+            </p>
+            <p>
+                To go from spherical coordinates to cylindrical coordinate, use
+                <me>
+                    r = \rho\sin\varphi \qquad \theta = \theta \qquad z = \rho\cos\varphi
+                </me>
+                and use
+                <me>
+                    \rho = \sqrt{r^2 + z^2} \qquad \theta = \theta \qquad \varphi = \inv{\cos}\lrpar{\dfrac{z}{\sqrt{r^2 + z^2}}}
+                </me>
+            </p>
+        </assemblage>
+
+        <activity xml:id = "mi-spherical-rectangular-convert1">
+            <introduction>
+                <p>
+                    Convert the following points from spherical coordinates to rectangular coordinates.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\lrpar{1,\dfrac{\pi}{2},\dfrac{\pi}{6}}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\lrpar{-2,\dfrac{\pi}{3},\dfrac{5\pi}{4}}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id= "mi-spherical-rectangular-convert2">
+            <introduction>
+                <p>
+                    Convert the following points from rectangular coordinates to spherical coordinates.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>(1,0,\sqrt{3})</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>(\sqrt{3},2\sqrt{3},-1)</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="mi-spherical-rectangular-convert3">
+            <introduction>
+                <p>
+                    Convert the following equations from rectangular to spherical coordinates.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>(x-2)^2 + y^2 + z^2 = 9</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>z = \sqrt{x^2 + y^2}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-fubini-spherical">
+            <title>Fubini's Theorem in Spherical Coordinates</title>
+            <statement>
+                <p>
+                    If <m>f(\rho,\theta,\varphi)</m> is continuous on a spherical solid box <m>B = [a,b]\times[\alpha,\beta]\times [\gamma,\psi]</m>, then
+                    <me>
+                        \iiint_B f(\rho,\theta,\varphi)\,\rho^2\sin\varphi\,d\rho\,d\varphi\,d\theta = \int_{\theta=\alpha}^{\theta=\beta}\int_{\varphi = \gamma}^{\varphi=\psi}\int_{\rho=a}^{\rho=b} f(\rho,\theta,\varphi)\, \rho^2\sin\varphi\,d\rho\,d\varphi\,d\theta
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="mi-spherical-integral-compute1">
+            <statement>
+                <p>
+                    Evaluate <m>\iiint_B e^{(x^2 + y^2 + z^2)^{3/2}}\, dV</m>, where <m>B</m> is the unit ball. 
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="mi-spherical-integral-compute2">
+            <statement>
+                <p>
+                    Find the volume of the region <m>D</m> cut from the solid sphere <m>\rho\leq 1</m> by the cone <m>\varphi = \dfrac{\pi}{3}</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="mi-spherical-integral-compute3">
+            <statement>
+                <p>
+                    Evaluate the integral.
+                    <me>
+                        \int_{-3}^3\int_0^{\sqrt{9-x^2}}\int_0^{9-x^2-y^2} \sqrt{x^2 + y^2}\, dz\, dy\,dz
+                    </me>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="mi-spherical-integral-compute4">
+            <statement>
+                <p>
+                    Use spherical coordinates to show that the volume of a sphere of radius <m>R</m> is <m>\dfrac{4\pi}{3}R^3</m>
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>
 
 <!-- 
-    1) definition of cylindrical coordinates/integrals in cylindrical coordinates
-    2) compute integral in cylindrical coordinates
-    3) convert integral from cartesian to cylindrical
-    4) definition of spherical coordinates/integrals in spherical coordinates
     5) compute integral in spherical coordinates
     6) compute second integral in spherical coordinates
     7) convert integral from cartesian to spherical

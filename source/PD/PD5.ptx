@@ -111,6 +111,32 @@
                     </statement>
                 </task>
             </introduction>
+            <solution>
+                <p>
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                <m>f_x = 3x^2 + 2y -2</m> and <m>f_y = 2x-4</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                C
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x = 2</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>x = 2</m>, then <m>y = -5</m>, which gives only one critical point of <m>(2,-5)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </activity>
 
         <activity >
@@ -119,6 +145,11 @@
                     Argue why the only critical point of the function <m>g(x,y) = x^2+xy+y^2+2x-2y+5</m> is <m>(-2,2)</m>
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <m>\nabla g = \lrangle{2x+y+2,x+2y-2}</m>. Setting <m>f_x = 0</m>, we get <m>y = -2x-2</m>. Plugging this into <m>f_y = 0</m>, we get <m>x + 2(-2x-2)-2 = 0</m>, which gives <m>x = -2</m>. Since <m>x = -2, y = -2(-2)-2 = 2</m>, giving the desired critical point.
+                </p>
+            </solution>
         </activity>
 
         <remark>
@@ -216,6 +247,22 @@
                     </p>
                 </statement>
             </task>
+            <solution>
+                <p>
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                The critical point is at <m>(0,0)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                C
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </activity>
 
         <theorem xml:id="thm-second-partial-derivative-test">
@@ -273,6 +320,26 @@
                     </p>
                 </statement>
             </task>
+            <solution>
+                <p>
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                The critical point is <m>(1,3)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f_{xx} = 2</m>, <m>f_{yy} = 2</m>, <m>f_{xy} = 0</m>. So, 
+                                <me>
+                                    D = (2)(2) - 0^2 = 4
+                                </me>
+                                since <m>f_{xx} = 2 \gt 0</m>, <m>(1,3)</m> is a minimum for the function.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </activity>
 
         <activity>
@@ -295,6 +362,22 @@
                     </p>
                 </statement>
             </task>
+            <solution>
+                <p>
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                The critical point <m>(0,0)</m> is a saddle point
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The critical point <m>\lrpar{-\dfrac{4}{3},-\dfrac{4}{3}}</m> is a saddle point
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </activity>
 
         <remark>
@@ -334,7 +417,7 @@
         <activity>
             <introduction>
                 <p>
-                    Let <m>f(x,y) = 4x^2-2xy+6y^2-8x+2y+3</m>. We will find the absolute extrema on the domain <m>0\leq x \leq 2</m>, <m>-1\leq y\leq 3</m>.
+                    Let <m>f(x,y) = 2x+2x+4y-x^2-y^2</m>. We will find the absolute extrema on the triangular region in the first quadrant bounded by the lines <m>x=0</m>, <m>y = 0</m>, and <m>y = 9-x</m>
                 </p>
             </introduction>
             <task>
@@ -354,7 +437,7 @@
             <task>
                 <statement>
                     <p>
-                        To evaluate along the lower portion of the rectangle that forms the domain, which equation should be used?
+                        To evaluate along the lower portion of the triangle that forms the domain, which equation should be used?
                         <ol marker="A." cols="2">
                             <li>
                                 <p>
@@ -366,21 +449,21 @@
                             <li>
                                 <p>
                                     <m>
-                                        x=-1
+                                        x=0
                                     </m>
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     <m>
-                                        y=-1
+                                        y=9-x
                                     </m>
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     <m>
-                                        y = 2
+                                        y = 9
                                     </m>
                                 </p>
                             </li>
@@ -391,14 +474,14 @@
             <task>
                 <statement>
                     <p>
-                        Evaluate the function along the other three sides.
+                        Evaluate the function along all three sides 
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Evaluate the function at the four corners.
+                        Evaluate the function at the three corners.
                     </p>
                 </statement>
             </task>
@@ -409,6 +492,54 @@
                     </p>
                 </statement>
             </task>
+            <solution>
+                <p>
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                <m>(1,2)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                7
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Along <m>y = 0</m>, we have <m>f(x,0) = 2+2x-x^2</m>. <m>f'(x,0) = 2-2x</m>, which assumes a maximum at <m>x = 1</m>. This gives the output <m>f(1,0) = 3</m>.
+                            </p>
+                            <p>
+                                Along <m>x = 0</m>, we have <m>f(0,y) = 4y-y^2</m>. <m>f'(0,y) = 4-2y</m>, which assumes a maximum at <m>y = 2</m>. This gives the output <m>f(0,2) = 6</m>
+                            </p>
+                            <p>
+                                Along <m>y = 9-x</m>, we have <m>f(x,9-x) = -43+16x-2x^2</m>. <m>f'(x,9-x) = 16-4x</m>, which assumes a maximum at <m>x = 4</m>. This gives the output <m>f(4,5) = -11</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                At <m>(0,0)</m>, <m>f(0,0) = 2</m>
+                            </p>
+                            <p>
+                                At <m>(9,0)</m>, <m>f(9,0) = -61</m>
+                            </p>
+                            <p>
+                                At <m>(0,9)</m>, <m>f(0,9) = -43</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The absolute maximum is at <m>(1,2,7)</m> and the absolute minimum is at <m>(9,0,-61)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </activity>
 
         <activity>
@@ -417,6 +548,11 @@
                     Identify the absolute extrema of <m>f(x,y) = x^2-2xy+2y</m> on the rectangle <m>0\leq x\leq 3</m>, <m>0\leq y\leq 2</m>
                 </p>
             </statement>
+            <solution>
+                <p>
+                    The absolute maximum is at <m>(3,2,25)</m>, and the absolute minimum is at <m>(0,0,0)</m>
+                </p>
+            </solution>
         </activity>
     </subsection>
 

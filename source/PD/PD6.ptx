@@ -136,6 +136,27 @@
                     </p>
                 </statement>
             </task>
+            <solution>
+                <p>
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                <m>\nabla f = \lrangle{2x-2,8y+8}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                D
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The only solution is at <m>(5,1)</m>. To check if it is a maximum or minimu, check other values. It is often convenient to check the roots of the constraint function; in this case, we check <m>f(7,0) = 35</m> and <m>f(0,3.5) = 77</m>. This means that we have produced a minimum.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </activity>
         
         <activity>
@@ -144,14 +165,24 @@
                     Find the extreme values of <m>f(x,y) = x^2 + 2y^2</m> on the circle <m>x^2 + y^2 = 4</m>
                 </p>
             </statement>
+            <solution>
+                <p>
+                    The absolute maximum occurs at <m>(0,\pm 2,8)</m> and the absolute minimum occurs at <m>(\pm 2,0,4)</m>
+                </p>
+            </solution>
         </activity>
 
         <activity>
             <statement>
                 <p>
-                    Find the maximum and minimum volumes of a rectangular box with a surface area of 1600 square inches and whose total edge length is 200 inches.
+                    A rectangular box without a lid is to be made from 12 square feet of cardboard. Find the maximum volume of such a box.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    The maximum volume is 4 square feet.
+                </p>
+            </solution>
         </activity>
 
         <activity>
@@ -160,6 +191,11 @@
                     Find the minimum of <m>x^2 + y^2 + z^2</m> subject to <m>x + y + z = 1</m>
                 </p>
             </statement>
+            <solution>
+                <p>
+                    The minimum is at <m>\lrpar{\dfrac{1}{3},\dfrac{1}{3},\dfrac{1}{3}}</m>
+                </p>
+            </solution>
         </activity>
     </subsection>
 
