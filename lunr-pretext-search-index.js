@@ -5209,7 +5209,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.5",
   "title": "PD5:  Multivariate Optimization",
-  "body": " PD5: Multivariate Optimization     PD5  I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface.      Pre-Class Preparation  Read the following sections of the text:    Section 4.7: Maxima\/Minima Problems    Read all sections        In-Class Activities   Recall that a critical point in Calculus 1 is found by setting the derivative equal to zero, i.e.     Critical Point (Multivariable Version)  critical point   Let be a function of two variables. The point is a critical point of if either    , i.e.     Either or does not exist         Let .   Identify and     In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?                          Solving the equation from (c) gives what conditions on the variable(s)?    Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?       Argue why the only critical point of the function is      The definitions of local and absolute extrema for multivariable functions are analogous to the definitions for single-variable functions.    Local Max\/Local Min (Multivariable)  local maximum  local minimum  relative maximum  relative minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has a local maximum at if for all points within some disk centered at . has a local minimum at if for all points within some disk centered at .     Absolute Max\/Min (Multivariable)  absolute maximum  absolute minimum  global maximum  global minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has an absolute maximum at if for all points in the domain of . has an absolute minimum at if for all points in the domain of .     Saddle Point  saddle point   A function has a saddle point at if but is neither a maximum nor a minimum.      Consider the function .    Find the critical point for .    Consider the traces and . These traces show that   the critical point is a maximum for both traces, thus a maximum    the critical point is a minimum for both traces, thus a minimum    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point        Second Partial Derivative Test   Let be a twice-differentiable function, and let be a critical point of . Set Then,   If and , then is a local minimum of     If and , then is a local maximum of     If , then is a saddle point of     If , the test is inconclusive         Let .    Find the critical point(s) of     Classify the critical point(s) of using       Find and classify the critical points of the following functions.               In Calculus I, finding the absolute extrema of a function means we need to check the function value at the boundary of the interval; this is just the two endpoints. For a two-variable function, we need to check the boundary of the entire domain.    Finding Absolute Extrema for Functions of Two Variables     Determine the critical points of the function     Compute the function value for each critical point    Compute the maximum value along the boundary of the domain. This may mean you need to split the boundary into separate pieces of analysis.    The largest and smallest values in steps 2 and 3 are the absolute maximum and minimum, respectively.        Let . We will find the absolute extrema on the domain , .    Identify the critical point of the function on the domain.    What is the value of at the critical point?    To evaluate along the lower portion of the rectangle that forms the domain, which equation should be used?                          Evaluate the function along the other three sides.    Evaluate the function at the four corners.    What is the absolute maximum? What about the absolute minimum?      Identify the absolute extrema of on the rectangle ,      "
+  "body": " PD5: Multivariate Optimization     PD5  I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface.      Pre-Class Preparation  Read the following sections of the text:    Section 4.7: Maxima\/Minima Problems    Read all sections        In-Class Activities   Recall that a critical point in Calculus 1 is found by setting the derivative equal to zero, i.e.     Critical Point (Multivariable Version)  critical point   Let be a function of two variables. The point is a critical point of if either    , i.e.     Either or does not exist         Let .   Identify and     In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?                          Solving the equation from (c) gives what conditions on the variable(s)?    Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?         and     C         If , then , which gives only one critical point of          Argue why the only critical point of the function is      . Setting , we get . Plugging this into , we get , which gives . Since , giving the desired critical point.     The definitions of local and absolute extrema for multivariable functions are analogous to the definitions for single-variable functions.    Local Max\/Local Min (Multivariable)  local maximum  local minimum  relative maximum  relative minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has a local maximum at if for all points within some disk centered at . has a local minimum at if for all points within some disk centered at .     Absolute Max\/Min (Multivariable)  absolute maximum  absolute minimum  global maximum  global minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has an absolute maximum at if for all points in the domain of . has an absolute minimum at if for all points in the domain of .     Saddle Point  saddle point   A function has a saddle point at if but is neither a maximum nor a minimum.      Consider the function .    Find the critical point for .    Consider the traces and . These traces show that   the critical point is a maximum for both traces, thus a maximum    the critical point is a minimum for both traces, thus a minimum    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point          The critical point is at     C        Second Partial Derivative Test   Let be a twice-differentiable function, and let be a critical point of . Set Then,   If and , then is a local minimum of     If and , then is a local maximum of     If , then is a saddle point of     If , the test is inconclusive         Let .    Find the critical point(s) of     Classify the critical point(s) of using        The critical point is      , , . So, since , is a minimum for the function.         Find and classify the critical points of the following functions.                 The critical point is a saddle point    The critical point is a saddle point        In Calculus I, finding the absolute extrema of a function means we need to check the function value at the boundary of the interval; this is just the two endpoints. For a two-variable function, we need to check the boundary of the entire domain.    Finding Absolute Extrema for Functions of Two Variables     Determine the critical points of the function     Compute the function value for each critical point    Compute the maximum value along the boundary of the domain. This may mean you need to split the boundary into separate pieces of analysis.    The largest and smallest values in steps 2 and 3 are the absolute maximum and minimum, respectively.        Let . We will find the absolute extrema on the triangular region in the first quadrant bounded by the lines , , and     Identify the critical point of the function on the domain.    What is the value of at the critical point?    To evaluate along the lower portion of the triangle that forms the domain, which equation should be used?                          Evaluate the function along all three sides    Evaluate the function at the three corners.    What is the absolute maximum? What about the absolute minimum?            7    A    Along , we have . , which assumes a maximum at . This gives the output .  Along , we have . , which assumes a maximum at . This gives the output   Along , we have . , which assumes a maximum at . This gives the output     At ,   At ,   At ,     The absolute maximum is at and the absolute minimum is at          Identify the absolute extrema of on the rectangle ,     The absolute maximum is at , and the absolute minimum is at      "
 },
 {
   "id": "PD5-2",
@@ -5245,7 +5245,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.1",
   "title": "",
-  "body": "  Let .   Identify and     In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?                          Solving the equation from (c) gives what conditions on the variable(s)?    Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?    "
+  "body": "  Let .   Identify and     In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?                          Solving the equation from (c) gives what conditions on the variable(s)?    Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?         and     C         If , then , which gives only one critical point of       "
 },
 {
   "id": "PD5-activities-5",
@@ -5254,7 +5254,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.2",
   "title": "",
-  "body": "  Argue why the only critical point of the function is    "
+  "body": "  Argue why the only critical point of the function is      . Setting , we get . Plugging this into , we get , which gives . Since , giving the desired critical point.   "
 },
 {
   "id": "PD5-activities-6",
@@ -5299,7 +5299,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.3",
   "title": "",
-  "body": "  Consider the function .    Find the critical point for .    Consider the traces and . These traces show that   the critical point is a maximum for both traces, thus a maximum    the critical point is a minimum for both traces, thus a minimum    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point      "
+  "body": "  Consider the function .    Find the critical point for .    Consider the traces and . These traces show that   the critical point is a maximum for both traces, thus a maximum    the critical point is a minimum for both traces, thus a minimum    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point          The critical point is at     C      "
 },
 {
   "id": "thm-second-partial-derivative-test",
@@ -5317,7 +5317,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.4",
   "title": "",
-  "body": "  Let .    Find the critical point(s) of     Classify the critical point(s) of using    "
+  "body": "  Let .    Find the critical point(s) of     Classify the critical point(s) of using        The critical point is      , , . So, since , is a minimum for the function.      "
 },
 {
   "id": "PD5-activities-13",
@@ -5326,7 +5326,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.5",
   "title": "",
-  "body": "  Find and classify the critical points of the following functions.             "
+  "body": "  Find and classify the critical points of the following functions.                 The critical point is a saddle point    The critical point is a saddle point      "
 },
 {
   "id": "PD5-activities-14",
@@ -5344,7 +5344,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.6",
   "title": "",
-  "body": "  Let . We will find the absolute extrema on the domain , .    Identify the critical point of the function on the domain.    What is the value of at the critical point?    To evaluate along the lower portion of the rectangle that forms the domain, which equation should be used?                          Evaluate the function along the other three sides.    Evaluate the function at the four corners.    What is the absolute maximum? What about the absolute minimum?   "
+  "body": "  Let . We will find the absolute extrema on the triangular region in the first quadrant bounded by the lines , , and     Identify the critical point of the function on the domain.    What is the value of at the critical point?    To evaluate along the lower portion of the triangle that forms the domain, which equation should be used?                          Evaluate the function along all three sides    Evaluate the function at the three corners.    What is the absolute maximum? What about the absolute minimum?            7    A    Along , we have . , which assumes a maximum at . This gives the output .  Along , we have . , which assumes a maximum at . This gives the output   Along , we have . , which assumes a maximum at . This gives the output     At ,   At ,   At ,     The absolute maximum is at and the absolute minimum is at       "
 },
 {
   "id": "PD5-activities-17",
@@ -5353,7 +5353,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.7",
   "title": "",
-  "body": "  Identify the absolute extrema of on the rectangle ,    "
+  "body": "  Identify the absolute extrema of on the rectangle ,     The absolute maximum is at , and the absolute minimum is at    "
 },
 {
   "id": "PD6",
@@ -5362,7 +5362,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.6",
   "title": "PD6:  Lagrange Multipliers",
-  "body": " PD6: Lagrange Multipliers     PD6  I can use Lagrange Multipliers to solve optimization problems with constraints.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: Lagrange Multipliers    Read all sections        In-Class Activities   To solve an optimization problem under constraints, we use the technique of Lagrange multipliers     Lagrange Multipliers   Let and be functions of two variables with continuous partials at every point in some open set containing the curve . Suppose that , when restricted to , has an extremum at such that . Then, there exists some number such that      Using Lagrange Multipliers     Determine the objective function and the constraint     Set up the following system of equations:     Solve the system for and     The largest value of maximizes subject to , and the smallest minimizes subject to         Let     Identify     If is subject to the constraint , which is the correct way to set up the Lagrange multiplier system?                          Solve the system. Which value maximizes and which value minimizes ?      Find the extreme values of on the circle       Find the maximum and minimum volumes of a rectangular box with a surface area of 1600 square inches and whose total edge length is 200 inches.      Find the minimum of subject to      "
+  "body": " PD6: Lagrange Multipliers     PD6  I can use Lagrange Multipliers to solve optimization problems with constraints.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: Lagrange Multipliers    Read all sections        In-Class Activities   To solve an optimization problem under constraints, we use the technique of Lagrange multipliers     Lagrange Multipliers   Let and be functions of two variables with continuous partials at every point in some open set containing the curve . Suppose that , when restricted to , has an extremum at such that . Then, there exists some number such that      Using Lagrange Multipliers     Determine the objective function and the constraint     Set up the following system of equations:     Solve the system for and     The largest value of maximizes subject to , and the smallest minimizes subject to         Let     Identify     If is subject to the constraint , which is the correct way to set up the Lagrange multiplier system?                          Solve the system. Which value maximizes and which value minimizes ?            D    The only solution is at . To check if it is a maximum or minimu, check other values. It is often convenient to check the roots of the constraint function; in this case, we check and . This means that we have produced a minimum.         Find the extreme values of on the circle     The absolute maximum occurs at and the absolute minimum occurs at       A rectangular box without a lid is to be made from 12 square feet of cardboard. Find the maximum volume of such a box.    The maximum volume is 4 square feet.      Find the minimum of subject to     The minimum is at      "
 },
 {
   "id": "PD6-2",
@@ -5398,7 +5398,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.6.1",
   "title": "",
-  "body": "  Let     Identify     If is subject to the constraint , which is the correct way to set up the Lagrange multiplier system?                          Solve the system. Which value maximizes and which value minimizes ?   "
+  "body": "  Let     Identify     If is subject to the constraint , which is the correct way to set up the Lagrange multiplier system?                          Solve the system. Which value maximizes and which value minimizes ?            D    The only solution is at . To check if it is a maximum or minimu, check other values. It is often convenient to check the roots of the constraint function; in this case, we check and . This means that we have produced a minimum.      "
 },
 {
   "id": "PD6-activities-6",
@@ -5407,7 +5407,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.6.2",
   "title": "",
-  "body": "  Find the extreme values of on the circle    "
+  "body": "  Find the extreme values of on the circle     The absolute maximum occurs at and the absolute minimum occurs at    "
 },
 {
   "id": "PD6-activities-7",
@@ -5416,7 +5416,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.6.3",
   "title": "",
-  "body": "  Find the maximum and minimum volumes of a rectangular box with a surface area of 1600 square inches and whose total edge length is 200 inches.   "
+  "body": "  A rectangular box without a lid is to be made from 12 square feet of cardboard. Find the maximum volume of such a box.    The maximum volume is 4 square feet.   "
 },
 {
   "id": "PD6-activities-8",
@@ -5425,7 +5425,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.6.4",
   "title": "",
-  "body": "  Find the minimum of subject to    "
+  "body": "  Find the minimum of subject to     The minimum is at    "
 },
 {
   "id": "MI1",
@@ -5839,7 +5839,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.4",
   "title": "MI4: Triple Integrals in Cylindrical\/Spherical Coordinates",
-  "body": " MI4: Triple Integrals in Cylindrical\/Spherical Coordinates     MI4  I can compute triple integrals in cylindrical or spherical coordinates.      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: Triple Integrals in Cylindrical and Spherical Coordinatess    Read all sections        In-Class Activities   "
+  "body": " MI4: Triple Integrals in Cylindrical\/Spherical Coordinates     MI4  I can compute triple integrals in cylindrical or spherical coordinates.      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: Triple Integrals in Cylindrical and Spherical Coordinatess    Read all sections        In-Class Activities   Cylindrical Coordinates  cylindrical coordinates   The cylindrical coordinate system is one where the coordinates of the object in question are projected onto a cylinder. The conversion factors are and      Cylindrical coordinates are a three-dimensional analogue of polar coordinates. As such, the integration is very similar to integration in polar coordinates.     Describe the surface whose equation (in cylindrical coordinates) is given by .     Fubini's Theorem in Cylindrical Coordinates   Let be a continuous on a circular cylinder , which when described in cylindrical coordinates looks like then, , and       Consider the region bounded below by the plane , laterally by the circular cylinder , and above by the paraboloid     Describe the region in rectangular coordinates.    Describe the region in cylindrical coordinates.    Perform the integration.      A solid lies within the cylinder , below the plane , and above the paraboloid . Evaluate .      Consider the integral     Convert the integral to cylindrical coordinates.    Perform the integration.      Consider the region bounded by the cylinder , , and .    If we want to find the volume (using calculus), why would cylindrical coordinates give the easiest computation?    What if instead of , we cap off the cylinder with a hemisphere? What would happen to the computation from part (a)?     Spherical Coordinates  spherical coordinates    Spherical coordinates locate points on a sphere using two angles and and a distance from the origin, .     Conversions for Spherical Coordinates  To go from Cartesian to spherical coordinates, use and use to go from spherical to Cartesian coordinates.  To go from spherical coordinates to cylindrical coordinate, use and use      Convert the following points from spherical coordinates to rectangular coordinates.                Convert the following points from rectangular coordinates to spherical coordinates.                Convert the following equations from rectangular to spherical coordinates.               Fubini's Theorem in Spherical Coordinates   If is continuous on a spherical solid box , then       Evaluate , where is the unit ball.      Find the volume of the region cut from the solid sphere by the cone       Evaluate the integral.       Use spherical coordinates to show that the volume of a sphere of radius is      "
 },
 {
   "id": "MI4-2",
@@ -5849,6 +5849,159 @@ var ptx_lunr_docs = [
   "number": "11.4",
   "title": "",
   "body": "   MI4  I can compute triple integrals in cylindrical or spherical coordinates.    "
+},
+{
+  "id": "def-cylindrical-coordinates",
+  "level": "2",
+  "url": "MI4.html#def-cylindrical-coordinates",
+  "type": "Definition",
+  "number": "11.4.1",
+  "title": "Cylindrical Coordinates.",
+  "body": " Cylindrical Coordinates  cylindrical coordinates   The cylindrical coordinate system is one where the coordinates of the object in question are projected onto a cylinder. The conversion factors are and    "
+},
+{
+  "id": "MI4-activities-3",
+  "level": "2",
+  "url": "MI4.html#MI4-activities-3",
+  "type": "Remark",
+  "number": "11.4.2",
+  "title": "",
+  "body": " Cylindrical coordinates are a three-dimensional analogue of polar coordinates. As such, the integration is very similar to integration in polar coordinates.  "
+},
+{
+  "id": "mi-cylindrical-convert",
+  "level": "2",
+  "url": "MI4.html#mi-cylindrical-convert",
+  "type": "Activity",
+  "number": "11.4.1",
+  "title": "",
+  "body": "  Describe the surface whose equation (in cylindrical coordinates) is given by .   "
+},
+{
+  "id": "thm-fubini-cylindrical",
+  "level": "2",
+  "url": "MI4.html#thm-fubini-cylindrical",
+  "type": "Theorem",
+  "number": "11.4.3",
+  "title": "Fubini’s Theorem in Cylindrical Coordinates.",
+  "body": " Fubini's Theorem in Cylindrical Coordinates   Let be a continuous on a circular cylinder , which when described in cylindrical coordinates looks like then, , and    "
+},
+{
+  "id": "mi-cylindrical-rectangular-convert1",
+  "level": "2",
+  "url": "MI4.html#mi-cylindrical-rectangular-convert1",
+  "type": "Activity",
+  "number": "11.4.2",
+  "title": "",
+  "body": "  Consider the region bounded below by the plane , laterally by the circular cylinder , and above by the paraboloid     Describe the region in rectangular coordinates.    Describe the region in cylindrical coordinates.    Perform the integration.   "
+},
+{
+  "id": "mi-cylindrical-integrate1",
+  "level": "2",
+  "url": "MI4.html#mi-cylindrical-integrate1",
+  "type": "Activity",
+  "number": "11.4.3",
+  "title": "",
+  "body": "  A solid lies within the cylinder , below the plane , and above the paraboloid . Evaluate .   "
+},
+{
+  "id": "mi-cylindrical-integrate2",
+  "level": "2",
+  "url": "MI4.html#mi-cylindrical-integrate2",
+  "type": "Activity",
+  "number": "11.4.4",
+  "title": "",
+  "body": "  Consider the integral     Convert the integral to cylindrical coordinates.    Perform the integration.   "
+},
+{
+  "id": "mi-spherical-cylindrical-intuition",
+  "level": "2",
+  "url": "MI4.html#mi-spherical-cylindrical-intuition",
+  "type": "Activity",
+  "number": "11.4.5",
+  "title": "",
+  "body": "  Consider the region bounded by the cylinder , , and .    If we want to find the volume (using calculus), why would cylindrical coordinates give the easiest computation?    What if instead of , we cap off the cylinder with a hemisphere? What would happen to the computation from part (a)?   "
+},
+{
+  "id": "def-spherical-coordinates",
+  "level": "2",
+  "url": "MI4.html#def-spherical-coordinates",
+  "type": "Definition",
+  "number": "11.4.4",
+  "title": "Spherical Coordinates.",
+  "body": " Spherical Coordinates  spherical coordinates    Spherical coordinates locate points on a sphere using two angles and and a distance from the origin, .   "
+},
+{
+  "id": "mi-spherical-rectangular-convert1",
+  "level": "2",
+  "url": "MI4.html#mi-spherical-rectangular-convert1",
+  "type": "Activity",
+  "number": "11.4.6",
+  "title": "",
+  "body": "  Convert the following points from spherical coordinates to rectangular coordinates.             "
+},
+{
+  "id": "mi-spherical-rectangular-convert2",
+  "level": "2",
+  "url": "MI4.html#mi-spherical-rectangular-convert2",
+  "type": "Activity",
+  "number": "11.4.7",
+  "title": "",
+  "body": "  Convert the following points from rectangular coordinates to spherical coordinates.             "
+},
+{
+  "id": "mi-spherical-rectangular-convert3",
+  "level": "2",
+  "url": "MI4.html#mi-spherical-rectangular-convert3",
+  "type": "Activity",
+  "number": "11.4.8",
+  "title": "",
+  "body": "  Convert the following equations from rectangular to spherical coordinates.             "
+},
+{
+  "id": "thm-fubini-spherical",
+  "level": "2",
+  "url": "MI4.html#thm-fubini-spherical",
+  "type": "Theorem",
+  "number": "11.4.5",
+  "title": "Fubini’s Theorem in Spherical Coordinates.",
+  "body": " Fubini's Theorem in Spherical Coordinates   If is continuous on a spherical solid box , then    "
+},
+{
+  "id": "mi-spherical-integral-compute1",
+  "level": "2",
+  "url": "MI4.html#mi-spherical-integral-compute1",
+  "type": "Activity",
+  "number": "11.4.9",
+  "title": "",
+  "body": "  Evaluate , where is the unit ball.   "
+},
+{
+  "id": "mi-spherical-integral-compute2",
+  "level": "2",
+  "url": "MI4.html#mi-spherical-integral-compute2",
+  "type": "Activity",
+  "number": "11.4.10",
+  "title": "",
+  "body": "  Find the volume of the region cut from the solid sphere by the cone    "
+},
+{
+  "id": "mi-spherical-integral-compute3",
+  "level": "2",
+  "url": "MI4.html#mi-spherical-integral-compute3",
+  "type": "Activity",
+  "number": "11.4.11",
+  "title": "",
+  "body": "  Evaluate the integral.    "
+},
+{
+  "id": "mi-spherical-integral-compute4",
+  "level": "2",
+  "url": "MI4.html#mi-spherical-integral-compute4",
+  "type": "Activity",
+  "number": "11.4.12",
+  "title": "",
+  "body": "  Use spherical coordinates to show that the volume of a sphere of radius is    "
 },
 {
   "id": "MI5",
