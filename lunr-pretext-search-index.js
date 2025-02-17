@@ -4507,7 +4507,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.5",
   "title": "TI5: Improper Integrals",
-  "body": " TI5: Improper Integrals     TI5  I can compute the integral of a function on an unbounded input interval.      Pre-Class Preparation  Read the following sections of the text:    Section 3.7: Improper Integrals    Read all sections        In-Class Activities   "
+  "body": " TI5: Improper Integrals     TI5  I can compute the integral of a function on an unbounded input interval.      Pre-Class Preparation  Read the following sections of the text:    Section 3.7: Improper Integrals    Read all sections        In-Class Activities    Consider the integral , where is a constant.    Compute the value of the integral for , and .    Based on your answers to (a), around which value do you expect the integral to settle?        0         Does not settle       Now compute in general.    Taking the limit, which value do you get?        0         Does not exist        Improper Integral  improper integral   An improper integral is an integral of the form provided that is continuous on the domain of integration.     Convergence\/Divergence  convergence (integral)  divergence (integral)   An improper integral is said to converge if it resolves to a finite number after taking limits. If the limit doe snot exist or is infinite, the integral is said to diverge .      Does converge or diverge?   Converges to 1    Diverges to 1    Converges to 0    Diverges to 0         Determine if converges or diverges. If it converges, give its exact value.      Consider     Convert the improper bound to a proper one with limits.    Which technique of integration is best in this problem?   Partial fractions    Trig substitution    Integration by parts       Use your technique to compute the value of the integral      Show that       Let     True or false: converges.   True    False       True or false: converges.   True    False         Determine if the following integrals converge or diverge.                          The integral diverges. How could we come to the conclusion without computing the integral?      Let , for some constant .    Convert the integral from an improper bound to a proper one.    Integrate your response in (a). What conditions on must be imposed so that the integral converges?    To what value does converge?     "
 },
 {
   "id": "TI5-2",
@@ -4517,6 +4517,105 @@ var ptx_lunr_docs = [
   "number": "7.5",
   "title": "",
   "body": "   TI5  I can compute the integral of a function on an unbounded input interval.    "
+},
+{
+  "id": "TI5-activities-2",
+  "level": "2",
+  "url": "TI5.html#TI5-activities-2",
+  "type": "Activity",
+  "number": "7.5.1",
+  "title": "",
+  "body": "  Consider the integral , where is a constant.    Compute the value of the integral for , and .    Based on your answers to (a), around which value do you expect the integral to settle?        0         Does not settle       Now compute in general.    Taking the limit, which value do you get?        0         Does not exist      "
+},
+{
+  "id": "def-improper-integral",
+  "level": "2",
+  "url": "TI5.html#def-improper-integral",
+  "type": "Definition",
+  "number": "7.5.1",
+  "title": "Improper Integral.",
+  "body": " Improper Integral  improper integral   An improper integral is an integral of the form provided that is continuous on the domain of integration.   "
+},
+{
+  "id": "def-convergence-divergence-integral",
+  "level": "2",
+  "url": "TI5.html#def-convergence-divergence-integral",
+  "type": "Definition",
+  "number": "7.5.2",
+  "title": "Convergence\/Divergence.",
+  "body": " Convergence\/Divergence  convergence (integral)  divergence (integral)   An improper integral is said to converge if it resolves to a finite number after taking limits. If the limit doe snot exist or is infinite, the integral is said to diverge .   "
+},
+{
+  "id": "TI5-activities-5",
+  "level": "2",
+  "url": "TI5.html#TI5-activities-5",
+  "type": "Activity",
+  "number": "7.5.2",
+  "title": "",
+  "body": "  Does converge or diverge?   Converges to 1    Diverges to 1    Converges to 0    Diverges to 0      "
+},
+{
+  "id": "TI5-activities-6",
+  "level": "2",
+  "url": "TI5.html#TI5-activities-6",
+  "type": "Activity",
+  "number": "7.5.3",
+  "title": "",
+  "body": "  Determine if converges or diverges. If it converges, give its exact value.   "
+},
+{
+  "id": "TI5-activities-7",
+  "level": "2",
+  "url": "TI5.html#TI5-activities-7",
+  "type": "Activity",
+  "number": "7.5.4",
+  "title": "",
+  "body": "  Consider     Convert the improper bound to a proper one with limits.    Which technique of integration is best in this problem?   Partial fractions    Trig substitution    Integration by parts       Use your technique to compute the value of the integral   "
+},
+{
+  "id": "TI5-activities-8",
+  "level": "2",
+  "url": "TI5.html#TI5-activities-8",
+  "type": "Activity",
+  "number": "7.5.5",
+  "title": "",
+  "body": "  Show that    "
+},
+{
+  "id": "TI5-activities-9",
+  "level": "2",
+  "url": "TI5.html#TI5-activities-9",
+  "type": "Activity",
+  "number": "7.5.6",
+  "title": "",
+  "body": "  Let     True or false: converges.   True    False       True or false: converges.   True    False      "
+},
+{
+  "id": "TI5-activities-10",
+  "level": "2",
+  "url": "TI5.html#TI5-activities-10",
+  "type": "Activity",
+  "number": "7.5.7",
+  "title": "",
+  "body": "  Determine if the following integrals converge or diverge.                       "
+},
+{
+  "id": "TI5-activities-11",
+  "level": "2",
+  "url": "TI5.html#TI5-activities-11",
+  "type": "Activity",
+  "number": "7.5.8",
+  "title": "",
+  "body": "  The integral diverges. How could we come to the conclusion without computing the integral?   "
+},
+{
+  "id": "TI5-activities-12",
+  "level": "2",
+  "url": "TI5.html#TI5-activities-12",
+  "type": "Activity",
+  "number": "7.5.9",
+  "title": "",
+  "body": "  Let , for some constant .    Convert the integral from an improper bound to a proper one.    Integrate your response in (a). What conditions on must be imposed so that the integral converges?    To what value does converge?   "
 },
 {
   "id": "SE1",
@@ -5209,7 +5308,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.5",
   "title": "PD5:  Multivariate Optimization",
-  "body": " PD5: Multivariate Optimization     PD5  I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface.      Pre-Class Preparation  Read the following sections of the text:    Section 4.7: Maxima\/Minima Problems    Read all sections        In-Class Activities   Recall that a critical point in Calculus 1 is found by setting the derivative equal to zero, i.e.     Critical Point (Multivariable Version)  critical point   Let be a function of two variables. The point is a critical point of if either    , i.e.     Either or does not exist         Let .   Identify and     In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?                          Solving the equation from (c) gives what conditions on the variable(s)?    Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?         and     C         If , then , which gives only one critical point of          Argue why the only critical point of the function is      . Setting , we get . Plugging this into , we get , which gives . Since , giving the desired critical point.     The definitions of local and absolute extrema for multivariable functions are analogous to the definitions for single-variable functions.    Local Max\/Local Min (Multivariable)  local maximum  local minimum  relative maximum  relative minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has a local maximum at if for all points within some disk centered at . has a local minimum at if for all points within some disk centered at .     Absolute Max\/Min (Multivariable)  absolute maximum  absolute minimum  global maximum  global minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has an absolute maximum at if for all points in the domain of . has an absolute minimum at if for all points in the domain of .     Saddle Point  saddle point   A function has a saddle point at if but is neither a maximum nor a minimum.      Consider the function .    Find the critical point for .    Consider the traces and . These traces show that   the critical point is a maximum for both traces, thus a maximum    the critical point is a minimum for both traces, thus a minimum    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point          The critical point is at     C        Second Partial Derivative Test   Let be a twice-differentiable function, and let be a critical point of . Set Then,   If and , then is a local minimum of     If and , then is a local maximum of     If , then is a saddle point of     If , the test is inconclusive         Let .    Find the critical point(s) of     Classify the critical point(s) of using        The critical point is      , , . So, since , is a minimum for the function.         Find and classify the critical points of the following functions.                 The critical point is a saddle point    The critical point is a saddle point        In Calculus I, finding the absolute extrema of a function means we need to check the function value at the boundary of the interval; this is just the two endpoints. For a two-variable function, we need to check the boundary of the entire domain.    Finding Absolute Extrema for Functions of Two Variables     Determine the critical points of the function     Compute the function value for each critical point    Compute the maximum value along the boundary of the domain. This may mean you need to split the boundary into separate pieces of analysis.    The largest and smallest values in steps 2 and 3 are the absolute maximum and minimum, respectively.        Let . We will find the absolute extrema on the triangular region in the first quadrant bounded by the lines , , and     Identify the critical point of the function on the domain.    What is the value of at the critical point?    To evaluate along the lower portion of the triangle that forms the domain, which equation should be used?                          Evaluate the function along all three sides    Evaluate the function at the three corners.    What is the absolute maximum? What about the absolute minimum?            7    A    Along , we have . , which assumes a maximum at . This gives the output .  Along , we have . , which assumes a maximum at . This gives the output   Along , we have . , which assumes a maximum at . This gives the output     At ,   At ,   At ,     The absolute maximum is at and the absolute minimum is at          Identify the absolute extrema of on the rectangle ,     The absolute maximum is at , and the absolute minimum is at      "
+  "body": " PD5: Multivariate Optimization     PD5  I can locate and classify the critical points of a function of two variables using the Second Derivative Test, and find the absolute extrema for a surface.      Pre-Class Preparation  Read the following sections of the text:    Section 4.7: Maxima\/Minima Problems    Read all sections        In-Class Activities   Recall that a critical point in Calculus 1 is found by setting the derivative equal to zero, i.e.     Critical Point (Multivariable Version)  critical point   Let be a function of two variables. The point is a critical point of if either    , i.e.     Either or does not exist         Let .    Identify and     and     In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?                         C    Solving the equation from (c) gives what conditions on the variable(s)?        Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?   If , then , which gives only one critical point of       Argue why the only critical point of the function is      . Setting , we get . Plugging this into , we get , which gives . Since , giving the desired critical point.     The definitions of local and absolute extrema for multivariable functions are analogous to the definitions for single-variable functions.    Local Max\/Local Min (Multivariable)  local maximum  local minimum  relative maximum  relative minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has a local maximum at if for all points within some disk centered at . has a local minimum at if for all points within some disk centered at .     Absolute Max\/Min (Multivariable)  absolute maximum  absolute minimum  global maximum  global minimum   Let be a function of two variables that is defined and continuous on an open set containing the point . We say that has an absolute maximum at if for all points in the domain of . has an absolute minimum at if for all points in the domain of .     Saddle Point  saddle point   A function has a saddle point at if but is neither a maximum nor a minimum.      Consider the function .    Find the critical point for .   The critical point is at     Consider the traces and . These traces show that   the critical point is a maximum for both traces, thus a maximum    the critical point is a minimum for both traces, thus a minimum    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point      C     Second Partial Derivative Test   Let be a twice-differentiable function, and let be a critical point of . Set Then,   If and , then is a local minimum of     If and , then is a local maximum of     If , then is a saddle point of     If , the test is inconclusive         Let .    Find the critical point(s) of    The critical point is     Classify the critical point(s) of using     , , . So, since , is a minimum for the function.      Find and classify the critical points of the following functions.        The critical points and are saddle points        The second partial derivative test is inconclusive about the critical point . However, we can conclude it is a minimum from the form of the function.     In Calculus I, finding the absolute extrema of a function means we need to check the function value at the boundary of the interval; this is just the two endpoints. For a two-variable function, we need to check the boundary of the entire domain.    Finding Absolute Extrema for Functions of Two Variables     Determine the critical points of the function     Compute the function value for each critical point    Compute the maximum value along the boundary of the domain. This may mean you need to split the boundary into separate pieces of analysis.    The largest and smallest values in steps 2 and 3 are the absolute maximum and minimum, respectively.        Let . We will find the absolute extrema on the triangular region in the first quadrant bounded by the lines , , and     Identify the critical point of the function on the domain.        What is the value of at the critical point?   7    To evaluate along the lower portion of the triangle that forms the domain, which equation should be used?                         A    Evaluate the function along all three sides   Along , we have . , which assumes a maximum at . This gives the output .  Along , we have . , which assumes a maximum at . This gives the output   Along , we have . , which assumes a maximum at . This gives the output     Evaluate the function at the three corners.   At ,   At ,   At ,     What is the absolute maximum? What about the absolute minimum?   The absolute maximum is at and the absolute minimum is at       Identify the absolute extrema of on the rectangle ,     The absolute maximum is at , and the absolute minimum is at      "
 },
 {
   "id": "PD5-2",
@@ -5245,7 +5344,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.1",
   "title": "",
-  "body": "  Let .   Identify and     In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?                          Solving the equation from (c) gives what conditions on the variable(s)?    Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?         and     C         If , then , which gives only one critical point of       "
+  "body": "  Let .    Identify and     and     In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?                         C    Solving the equation from (c) gives what conditions on the variable(s)?        Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?   If , then , which gives only one critical point of    "
 },
 {
   "id": "PD5-activities-5",
@@ -5299,7 +5398,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.3",
   "title": "",
-  "body": "  Consider the function .    Find the critical point for .    Consider the traces and . These traces show that   the critical point is a maximum for both traces, thus a maximum    the critical point is a minimum for both traces, thus a minimum    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point          The critical point is at     C      "
+  "body": "  Consider the function .    Find the critical point for .   The critical point is at     Consider the traces and . These traces show that   the critical point is a maximum for both traces, thus a maximum    the critical point is a minimum for both traces, thus a minimum    the critical point is a maximum for one trace, and a minimum for the other, and thus a saddle point      C   "
 },
 {
   "id": "thm-second-partial-derivative-test",
@@ -5317,7 +5416,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.4",
   "title": "",
-  "body": "  Let .    Find the critical point(s) of     Classify the critical point(s) of using        The critical point is      , , . So, since , is a minimum for the function.      "
+  "body": "  Let .    Find the critical point(s) of    The critical point is     Classify the critical point(s) of using     , , . So, since , is a minimum for the function.   "
 },
 {
   "id": "PD5-activities-13",
@@ -5326,7 +5425,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.5",
   "title": "",
-  "body": "  Find and classify the critical points of the following functions.                 The critical point is a saddle point    The critical point is a saddle point      "
+  "body": "  Find and classify the critical points of the following functions.        The critical points and are saddle points        The second partial derivative test is inconclusive about the critical point . However, we can conclude it is a minimum from the form of the function.   "
 },
 {
   "id": "PD5-activities-14",
@@ -5344,7 +5443,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.5.6",
   "title": "",
-  "body": "  Let . We will find the absolute extrema on the triangular region in the first quadrant bounded by the lines , , and     Identify the critical point of the function on the domain.    What is the value of at the critical point?    To evaluate along the lower portion of the triangle that forms the domain, which equation should be used?                          Evaluate the function along all three sides    Evaluate the function at the three corners.    What is the absolute maximum? What about the absolute minimum?            7    A    Along , we have . , which assumes a maximum at . This gives the output .  Along , we have . , which assumes a maximum at . This gives the output   Along , we have . , which assumes a maximum at . This gives the output     At ,   At ,   At ,     The absolute maximum is at and the absolute minimum is at       "
+  "body": "  Let . We will find the absolute extrema on the triangular region in the first quadrant bounded by the lines , , and     Identify the critical point of the function on the domain.        What is the value of at the critical point?   7    To evaluate along the lower portion of the triangle that forms the domain, which equation should be used?                         A    Evaluate the function along all three sides   Along , we have . , which assumes a maximum at . This gives the output .  Along , we have . , which assumes a maximum at . This gives the output   Along , we have . , which assumes a maximum at . This gives the output     Evaluate the function at the three corners.   At ,   At ,   At ,     What is the absolute maximum? What about the absolute minimum?   The absolute maximum is at and the absolute minimum is at    "
 },
 {
   "id": "PD5-activities-17",
@@ -5362,7 +5461,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.6",
   "title": "PD6:  Lagrange Multipliers",
-  "body": " PD6: Lagrange Multipliers     PD6  I can use Lagrange Multipliers to solve optimization problems with constraints.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: Lagrange Multipliers    Read all sections        In-Class Activities   To solve an optimization problem under constraints, we use the technique of Lagrange multipliers     Lagrange Multipliers   Let and be functions of two variables with continuous partials at every point in some open set containing the curve . Suppose that , when restricted to , has an extremum at such that . Then, there exists some number such that      Using Lagrange Multipliers     Determine the objective function and the constraint     Set up the following system of equations:     Solve the system for and     The largest value of maximizes subject to , and the smallest minimizes subject to         Let     Identify     If is subject to the constraint , which is the correct way to set up the Lagrange multiplier system?                          Solve the system. Which value maximizes and which value minimizes ?            D    The only solution is at . To check if it is a maximum or minimu, check other values. It is often convenient to check the roots of the constraint function; in this case, we check and . This means that we have produced a minimum.         Find the extreme values of on the circle     The absolute maximum occurs at and the absolute minimum occurs at       A rectangular box without a lid is to be made from 12 square feet of cardboard. Find the maximum volume of such a box.    The maximum volume is 4 square feet.      Find the minimum of subject to     The minimum is at      "
+  "body": " PD6: Lagrange Multipliers     PD6  I can use Lagrange Multipliers to solve optimization problems with constraints.      Pre-Class Preparation  Read the following sections of the text:    Section 4.8: Lagrange Multipliers    Read all sections        In-Class Activities   To solve an optimization problem under constraints, we use the technique of Lagrange multipliers     Lagrange Multipliers   Let and be functions of two variables with continuous partials at every point in some open set containing the curve . Suppose that , when restricted to , has an extremum at such that . Then, there exists some number such that      Using Lagrange Multipliers     Determine the objective function and the constraint     Set up the following system of equations:     Solve the system for and     The largest value of maximizes subject to , and the smallest minimizes subject to         Let     Identify         If is subject to the constraint , which is the correct way to set up the Lagrange multiplier system?                         D    Solve the system. Which value maximizes and which value minimizes ?   The only solution is at . To check if it is a maximum or minimu, check other values. It is often convenient to check the roots of the constraint function; in this case, we check and . This means that we have produced a minimum.      Find the extreme values of on the circle     The absolute maximum occurs at and the absolute minimum occurs at       A rectangular box without a lid is to be made from 12 square feet of cardboard. Find the maximum volume of such a box.    The maximum volume is 4 square feet.      Find the minimum of subject to     The minimum is at      "
 },
 {
   "id": "PD6-2",
@@ -5398,7 +5497,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10.6.1",
   "title": "",
-  "body": "  Let     Identify     If is subject to the constraint , which is the correct way to set up the Lagrange multiplier system?                          Solve the system. Which value maximizes and which value minimizes ?            D    The only solution is at . To check if it is a maximum or minimu, check other values. It is often convenient to check the roots of the constraint function; in this case, we check and . This means that we have produced a minimum.      "
+  "body": "  Let     Identify         If is subject to the constraint , which is the correct way to set up the Lagrange multiplier system?                         D    Solve the system. Which value maximizes and which value minimizes ?   The only solution is at . To check if it is a maximum or minimu, check other values. It is often convenient to check the roots of the constraint function; in this case, we check and . This means that we have produced a minimum.   "
 },
 {
   "id": "PD6-activities-6",
