@@ -87,6 +87,7 @@
       proof="yes"
       definition="no"
       example="no"
+      solution = "yes"
       example-solution="yes"
       project="no"
       task="no"

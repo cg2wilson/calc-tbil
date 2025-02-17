@@ -29,7 +29,7 @@
                     </me>
                     and 
                     <me>
-                        x^2 + y^2 + z^2 = r^2 
+                        x^2 + y^2 = r^2 \qquad \theta = \inv{\tan}\lrpar{\dfrac{y}{x}}
                     </me>
                 </p>
             </statement>
@@ -103,14 +103,14 @@
         </activity>
 
         <activity xml:id="mi-cylindrical-integrate2">
-            <statement>
+            <introduction>
                 <p>
                     Consider the integral
                     <me>
                         \int_{-2}^2 \int_{-\sqrt{4-x^2}}^{\sqrt{4-x^2}}\int_{\sqrt{x^2+y^2}}^2 (x^2 + 2y^2)\, dz\,dy\,dx
                     </me>
                 </p>
-            </statement>
+            </introduction>
             <task>
                 <statement>
                     <p>

@@ -18,6 +18,319 @@
     <subsection xml:id="TI5-activities">
         <title>In-Class Activities</title>
 
+        <activity>
+            <introduction>
+                <p>
+                    Consider the integral <m>\ds \int_0^a e^{-x}\, dx</m>, where <m>a \gt 0</m> is a constant.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute the value of the integral for <m>a = 1, a = 100, a = 1000</m>, and <m>a = 10000</m>. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Based on your answers to (a), around which value do you expect the integral to settle?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\infty</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    0
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-\infty</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Does not settle
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now compute <m>\ds \int_0^a e^{-x}\, dx</m> in general. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Taking the limit, which value do you get?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\infty</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    0
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-\infty</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Does not exist
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-improper-integral">
+            <title>Improper Integral</title>
+            <idx><h>improper integral</h></idx>
+            <statement>
+                <p>
+                    An <term>improper integral</term> is an integral of the form
+                    <me>
+                        \int_a^\infty f(x)\, dx \qquad \int_{-\infty}^a f(x)\, dx \qquad \int_{-\infty}^\infty f(x)\, dx
+                    </me>
+                    provided that <m>f(x)</m> is continuous on the domain of integration.
+                </p>
+            </statement>
+        </definition>
+        <definition xml:id="def-convergence-divergence-integral">
+            <title>Convergence/Divergence</title>
+            <idx><h>convergence (integral)</h></idx>
+            <idx><h>divergence (integral)</h></idx>
+            <statement>
+                <p>
+                    An improper integral is said to <term>converge</term> if it resolves to a finite number after taking limits. If the limit doe snot exist or is infinite, the integral is said to <term>diverge</term>.
+                </p>
+            </statement>
+        </definition>
+
+        <activity>
+            <statement>
+                <p>
+                    Does <m>\ds \int_1^\infty \dfrac{1}{x^2}\, dx</m> converge or diverge?
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                Converges to 1
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Diverges to 1
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Converges to 0
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Diverges to 0
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+        
+        <activity>
+            <statement>
+                <p>
+                    Determine if <m>\ds \int_1^\infty \dfrac{1}{x^3}\, dx</m> converges or diverges. If it converges, give its exact value.
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Consider <m>\ds \int_{-\infty}^0 xe^x\, dx</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Convert the improper bound to a proper one with limits.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which technique of integration is best in this problem?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Partial fractions
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Trig substitution
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Integration by parts
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use your technique to compute the value of the integral
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        <activity>
+            <statement>
+                <p>
+                    Show that <m>\ds \int_{-\infty}^\infty \dfrac{1}{1+x^2}\, dx = \pi</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Let <m>f(x) = \dfrac{1}{2-4x}</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        True or false: <m>\ds \int_{-\infty}^0 f(x)\, dx</m> converges.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    True
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    False
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        True or false: <m>\ds \int_0^\infty f(x)\, dx</m> converges.
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    True
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    False
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Determine if the following integrals converge or diverge.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_2^\infty e^{-5p}\, dp</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_{-\infty}^\infty xe^{-x^2}\, dx</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_{-\infty}^0 \dfrac{z}{z^4+4}\, dz</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \int_e^\infty \dfrac{1}{x(\ln x)^2}\, dx</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <statement>
+                <p>
+                    The integral <m>\ds \int_0^\infty \sin^2\alpha\, d\alpha</m> diverges. How could we come to the conclusion without computing the integral?
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Let <m>f(x) = \dfrac{1}{x^p}</m>, for some constant <m>p</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Convert the integral <m>\ds \int_1^\infty f(x)\, dx</m> from an improper bound to a proper one.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Integrate your response in (a). What conditions on <m>p</m> must be imposed so that the integral converges?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        To what value does <m>\ds \int_1^\infty f(x)\, dx</m> converge?
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>

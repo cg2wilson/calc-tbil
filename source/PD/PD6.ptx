@@ -79,6 +79,11 @@
                         Identify <m>\nabla f</m>
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <m>\nabla f = \lrangle{2x-2,8y+8}</m>
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -128,6 +133,11 @@
                         </ol>
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        D
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -135,28 +145,12 @@
                         Solve the system. Which value maximizes <m>f</m> and which value minimizes <m>f</m>?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The only solution is at <m>(5,1)</m>. To check if it is a maximum or minimu, check other values. It is often convenient to check the roots of the constraint function; in this case, we check <m>f(7,0) = 35</m> and <m>f(0,3.5) = 77</m>. This means that we have produced a minimum.
+                    </p>
+                </solution>
             </task>
-            <solution>
-                <p>
-                    <ol marker="a.">
-                        <li>
-                            <p>
-                                <m>\nabla f = \lrangle{2x-2,8y+8}</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                D
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The only solution is at <m>(5,1)</m>. To check if it is a maximum or minimu, check other values. It is often convenient to check the roots of the constraint function; in this case, we check <m>f(7,0) = 35</m> and <m>f(0,3.5) = 77</m>. This means that we have produced a minimum.
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </solution>
         </activity>
         
         <activity>

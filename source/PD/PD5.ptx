@@ -52,91 +52,85 @@
                 <p>
                     Let <m>f(x,y) = x^3+2xy-2x-4y</m>.
                 </p>
-                <task>
-                    <statement>
-                        <p>
-                            Identify <m>f_x(x,y)</m> and <m>f_y(x,y)</m>
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?
-                            <ol marker="A." cols="2">
-                                <li>
-                                    <p>
-                                        <m>
-                                            3x^2+2y-2 = 0
-                                        </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>
-                                            3x^2 + 2y-2 = 2x-4
-                                        </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>
-                                            2x-4 = 0
-                                        </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>
-                                            3x^2 + 2(2x-4) - 2 = 0
-                                        </m>
-                                    </p>
-                                </li>
-                            </ol>
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            Solving the equation from (c) gives what conditions on the variable(s)?
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?
-                        </p>
-                    </statement>
-                </task>
             </introduction>
-            <solution>
-                <p>
-                    <ol marker="a.">
-                        <li>
-                            <p>
-                                <m>f_x = 3x^2 + 2y -2</m> and <m>f_y = 2x-4</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                C
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>x = 2</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                If <m>x = 2</m>, then <m>y = -5</m>, which gives only one critical point of <m>(2,-5)</m>
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </solution>
+            <task>
+                <statement>
+                    <p>
+                        Identify <m>f_x(x,y)</m> and <m>f_y(x,y)</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>f_x = 3x^2 + 2y -2</m> and <m>f_y = 2x-4</m>
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        In order to begin finding the critical points, which expression(s) is the most appropriate to evaluate?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>
+                                        3x^2+2y-2 = 0
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3x^2 + 2y-2 = 2x-4
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        2x-4 = 0
+                                    </m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>
+                                        3x^2 + 2(2x-4) - 2 = 0
+                                    </m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        C
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Solving the equation from (c) gives what conditions on the variable(s)?
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                       <m>x = 2</m> 
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Plug the condition(s) from (c) into the other partial derivative. What critical point(s) do you get?
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        If <m>x = 2</m>, then <m>y = -5</m>, which gives only one critical point of <m>(2,-5)</m>
+                    </p>
+                </solution>
+            </task>
         </activity>
 
         <activity >
@@ -222,6 +216,11 @@
                         Find the critical point for <m>f(x,y)</m>.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The critical point is at <m>(0,0)</m>
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -246,23 +245,12 @@
                         </ol>
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        C
+                    </p>
+                </solution>
             </task>
-            <solution>
-                <p>
-                    <ol marker="a.">
-                        <li>
-                            <p>
-                                The critical point is at <m>(0,0)</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                C
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </solution>
         </activity>
 
         <theorem xml:id="thm-second-partial-derivative-test">
@@ -312,6 +300,11 @@
                         Find the critical point(s) of <m>f</m>
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The critical point is <m>(1,3)</m>
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -319,27 +312,16 @@
                         Classify the critical point(s) of <m>f</m> using <xref ref="thm-second-partial-derivative-test"/>
                     </p>
                 </statement>
-            </task>
-            <solution>
-                <p>
-                    <ol marker="a.">
-                        <li>
-                            <p>
-                                The critical point is <m>(1,3)</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>f_{xx} = 2</m>, <m>f_{yy} = 2</m>, <m>f_{xy} = 0</m>. So, 
+                <solution>
+                    <p>
+                        <m>f_{xx} = 2</m>, <m>f_{yy} = 2</m>, <m>f_{xy} = 0</m>. So, 
                                 <me>
                                     D = (2)(2) - 0^2 = 4
                                 </me>
                                 since <m>f_{xx} = 2 \gt 0</m>, <m>(1,3)</m> is a minimum for the function.
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </solution>
+                    </p>
+                </solution>
+            </task>
         </activity>
 
         <activity>
@@ -354,6 +336,11 @@
                         <m>f(x,y) = -x^3+4xy-2y^2+1</m>
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The critical points <m>(0,0)</m> and <m>\lrpar{-\dfrac{4}{3},-\dfrac{4}{3}}</m> are saddle points
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -361,23 +348,12 @@
                         <m>f(x,y) = x^2y^2</m>
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The second partial derivative test is inconclusive about the critical point <m>(0,0)</m>. However, we can conclude it is a minimum from the form of the function.
+                    </p>
+                </solution>
             </task>
-            <solution>
-                <p>
-                    <ol marker="a.">
-                        <li>
-                            <p>
-                                The critical point <m>(0,0)</m> is a saddle point
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The critical point <m>\lrpar{-\dfrac{4}{3},-\dfrac{4}{3}}</m> is a saddle point
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </solution>
         </activity>
 
         <remark>
@@ -426,6 +402,11 @@
                         Identify the critical point of the function on the domain. 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        <m>(1,2)</m>
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -433,6 +414,11 @@
                         What is the value of <m>f</m> at the critical point?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        7
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -470,6 +456,11 @@
                         </ol>
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        A
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -477,6 +468,17 @@
                         Evaluate the function along all three sides 
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        Along <m>y = 0</m>, we have <m>f(x,0) = 2+2x-x^2</m>. <m>f'(x,0) = 2-2x</m>, which assumes a maximum at <m>x = 1</m>. This gives the output <m>f(1,0) = 3</m>.
+                    </p>
+                    <p>
+                        Along <m>x = 0</m>, we have <m>f(0,y) = 4y-y^2</m>. <m>f'(0,y) = 4-2y</m>, which assumes a maximum at <m>y = 2</m>. This gives the output <m>f(0,2) = 6</m>
+                    </p>
+                    <p>
+                        Along <m>y = 9-x</m>, we have <m>f(x,9-x) = -43+16x-2x^2</m>. <m>f'(x,9-x) = 16-4x</m>, which assumes a maximum at <m>x = 4</m>. This gives the output <m>f(4,5) = -11</m>
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -484,6 +486,17 @@
                         Evaluate the function at the three corners.
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        At <m>(0,0)</m>, <m>f(0,0) = 2</m>
+                    </p>
+                    <p>
+                        At <m>(9,0)</m>, <m>f(9,0) = -61</m>
+                    </p>
+                    <p>
+                        At <m>(0,9)</m>, <m>f(0,9) = -43</m>
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
@@ -491,55 +504,12 @@
                         What is the absolute maximum? What about the absolute minimum?
                     </p>
                 </statement>
+                <solution>
+                    <p>
+                        The absolute maximum is at <m>(1,2,7)</m> and the absolute minimum is at <m>(9,0,-61)</m>
+                    </p>
+                </solution>
             </task>
-            <solution>
-                <p>
-                    <ol marker="a.">
-                        <li>
-                            <p>
-                                <m>(1,2)</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                7
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                A
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Along <m>y = 0</m>, we have <m>f(x,0) = 2+2x-x^2</m>. <m>f'(x,0) = 2-2x</m>, which assumes a maximum at <m>x = 1</m>. This gives the output <m>f(1,0) = 3</m>.
-                            </p>
-                            <p>
-                                Along <m>x = 0</m>, we have <m>f(0,y) = 4y-y^2</m>. <m>f'(0,y) = 4-2y</m>, which assumes a maximum at <m>y = 2</m>. This gives the output <m>f(0,2) = 6</m>
-                            </p>
-                            <p>
-                                Along <m>y = 9-x</m>, we have <m>f(x,9-x) = -43+16x-2x^2</m>. <m>f'(x,9-x) = 16-4x</m>, which assumes a maximum at <m>x = 4</m>. This gives the output <m>f(4,5) = -11</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                At <m>(0,0)</m>, <m>f(0,0) = 2</m>
-                            </p>
-                            <p>
-                                At <m>(9,0)</m>, <m>f(9,0) = -61</m>
-                            </p>
-                            <p>
-                                At <m>(0,9)</m>, <m>f(0,9) = -43</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The absolute maximum is at <m>(1,2,7)</m> and the absolute minimum is at <m>(9,0,-61)</m>
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </solution>
         </activity>
 
         <activity>
