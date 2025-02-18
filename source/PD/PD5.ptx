@@ -393,7 +393,7 @@
         <activity>
             <introduction>
                 <p>
-                    Let <m>f(x,y) = 2x+2x+4y-x^2-y^2</m>. We will find the absolute extrema on the triangular region in the first quadrant bounded by the lines <m>x=0</m>, <m>y = 0</m>, and <m>y = 9-x</m>
+                    Let <m>f(x,y) = 2+2x+4y-x^2-y^2</m>. We will find the absolute extrema on the triangular region in the first quadrant bounded by the lines <m>x=0</m>, <m>y = 0</m>, and <m>y = 9-x</m>
                 </p>
             </introduction>
             <task>
