@@ -6127,7 +6127,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.1",
   "title": "VF1: Parametrizing Curves",
-  "body": " VF1: Parametrizing Curves     VF1  I can parametrize curves and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 1.1: Parametric Equations    Read all sections      Section 1.2: Calculus of Parametric Curves    Read all sections        In-Class Activities   "
+  "body": " VF1: Parametrizing Curves     VF1  I can parametrize curves and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 1.1: Parametric Equations    Read all sections      Section 1.2: Calculus of Parametric Curves    Read all sections        In-Class Activities   Parametric Curve  parametric equations  parametric curve  parameter   If and are continuous functions of the variable on some interval , then the equations and are called parametric equations and is called the parameter . The graph of parametric equations- the set of points obtained as varies over - is called a parametric curve .      Consider the parametric curves given by and on the interval .    Which image correctly plots ?                          Which images correctly plots ?                          Fill out the table below to help graph the curve.                                                  Consider the parametric curve given by , .    Plot the curve on     Plot the curve on     Now let and . Plot the curve on ; what changes do you notice?      For the function , write three different parametrizations.     eliminating the parameter   We can convert between parametric and rectangular forms of equations through a process called eliminating the parameter .    Consider the parametrization , on . Which of the following shows the appropriate rectangular equation (and interval) for the parametric curve?    on      on      on      on        Eliminate the parameter to find a Cartesian description for the parametric equation , , on . Think of equations relating sine and cosine...      Eliminate the parameter for the following parametric curves.     , ,      ,      , ,       Eliminate the parameter to find the curve represented by the parametric equations , . There is a natural restriction on the time interval; what is it?     Calculus on parametric curves can be done using as the independent variable and without eliminating the parameter!    Derivatives of Parametric Equations   For the plane curve defined by the parametric equations and on the interval , the derivative is given by assuming that exist and .  The second derivative, , is given by under the same assumptions.      Consider the parametric curve , ,     What shape does this curve trace, and in what direction?   Circle, clockwise    Semi-circle, counterclockwise    Circle, counterclockwise    Semi-circle, clockwise       Compute     Compute     At which point or points in the domain of the curve does the derivative not exist?    Evaluate the derivative when , and     Write the equation of the tangent line to the curve at       Compute the derivative for the plane curve defined by the equations , , on . Identify any critical points of the function.      Consider the parameterization of a circle given by ,     Find the derivative at any arbitrary point on the curve. Does the derivative depend on the size of the circle?    Find the second derivative at any arbitrary point. Does the acceleration depend on the size of the circle?     Area Under a Parametric Curve  area under parametric curve   Let and be a non-self-intersecting plane curve on the interval ; assume that is differentiable. Then, the area under the curve is given by       A cycloid is a figure traced out by the edge of a rolling circle. The parametric equations for a cycloid of radius are given by and .    Compute the derivative for a cycloid. Does the derivative depend on the size of the circle?    Find the area under one arch of the cycloid     Arc Length of a Parametric Curve  arc length of a parametric curve   Consider the plane curve defined by the parametric equations , on the interval , and assume that both functions are differentiable. Then, the arc length of the curve is given by       Use to prove that the circumference of a circle is given by       Find the arc length of the curve defined by the equations , , .     "
 },
 {
   "id": "VF1-2",
@@ -6139,13 +6139,166 @@ var ptx_lunr_docs = [
   "body": "   VF1  I can parametrize curves and use calculus to analyze their behavior.    "
 },
 {
+  "id": "def-parametric-curve",
+  "level": "2",
+  "url": "VF1.html#def-parametric-curve",
+  "type": "Definition",
+  "number": "12.1.1",
+  "title": "Parametric Curve.",
+  "body": " Parametric Curve  parametric equations  parametric curve  parameter   If and are continuous functions of the variable on some interval , then the equations and are called parametric equations and is called the parameter . The graph of parametric equations- the set of points obtained as varies over - is called a parametric curve .   "
+},
+{
+  "id": "vf-parametric-plot1",
+  "level": "2",
+  "url": "VF1.html#vf-parametric-plot1",
+  "type": "Activity",
+  "number": "12.1.1",
+  "title": "",
+  "body": "  Consider the parametric curves given by and on the interval .    Which image correctly plots ?                          Which images correctly plots ?                          Fill out the table below to help graph the curve.                                               "
+},
+{
+  "id": "vf-parametric-plot2",
+  "level": "2",
+  "url": "VF1.html#vf-parametric-plot2",
+  "type": "Activity",
+  "number": "12.1.2",
+  "title": "",
+  "body": "  Consider the parametric curve given by , .    Plot the curve on     Plot the curve on     Now let and . Plot the curve on ; what changes do you notice?   "
+},
+{
+  "id": "vf-parametric-parametrize",
+  "level": "2",
+  "url": "VF1.html#vf-parametric-parametrize",
+  "type": "Activity",
+  "number": "12.1.3",
+  "title": "",
+  "body": "  For the function , write three different parametrizations.   "
+},
+{
+  "id": "vf-eliminate-parameter1",
+  "level": "2",
+  "url": "VF1.html#vf-eliminate-parameter1",
+  "type": "Activity",
+  "number": "12.1.4",
+  "title": "",
+  "body": " eliminating the parameter   We can convert between parametric and rectangular forms of equations through a process called eliminating the parameter .    Consider the parametrization , on . Which of the following shows the appropriate rectangular equation (and interval) for the parametric curve?    on      on      on      on        Eliminate the parameter to find a Cartesian description for the parametric equation , , on . Think of equations relating sine and cosine...   "
+},
+{
+  "id": "vf-eliminate-parameter2",
+  "level": "2",
+  "url": "VF1.html#vf-eliminate-parameter2",
+  "type": "Activity",
+  "number": "12.1.5",
+  "title": "",
+  "body": "  Eliminate the parameter for the following parametric curves.     , ,      ,      , ,    "
+},
+{
+  "id": "vf-eliminate-parameter3",
+  "level": "2",
+  "url": "VF1.html#vf-eliminate-parameter3",
+  "type": "Activity",
+  "number": "12.1.6",
+  "title": "",
+  "body": "  Eliminate the parameter to find the curve represented by the parametric equations , . There is a natural restriction on the time interval; what is it?   "
+},
+{
+  "id": "VF1-activities-9",
+  "level": "2",
+  "url": "VF1.html#VF1-activities-9",
+  "type": "Remark",
+  "number": "12.1.2",
+  "title": "",
+  "body": " Calculus on parametric curves can be done using as the independent variable and without eliminating the parameter!  "
+},
+{
+  "id": "thm-derivative-parametric",
+  "level": "2",
+  "url": "VF1.html#thm-derivative-parametric",
+  "type": "Theorem",
+  "number": "12.1.3",
+  "title": "Derivatives of Parametric Equations.",
+  "body": " Derivatives of Parametric Equations   For the plane curve defined by the parametric equations and on the interval , the derivative is given by assuming that exist and .  The second derivative, , is given by under the same assumptions.   "
+},
+{
+  "id": "vf-parametric-deriv-compute1",
+  "level": "2",
+  "url": "VF1.html#vf-parametric-deriv-compute1",
+  "type": "Activity",
+  "number": "12.1.7",
+  "title": "",
+  "body": "  Consider the parametric curve , ,     What shape does this curve trace, and in what direction?   Circle, clockwise    Semi-circle, counterclockwise    Circle, counterclockwise    Semi-circle, clockwise       Compute     Compute     At which point or points in the domain of the curve does the derivative not exist?    Evaluate the derivative when , and     Write the equation of the tangent line to the curve at    "
+},
+{
+  "id": "vf-parametric-deriv-compute2",
+  "level": "2",
+  "url": "VF1.html#vf-parametric-deriv-compute2",
+  "type": "Activity",
+  "number": "12.1.8",
+  "title": "",
+  "body": "  Compute the derivative for the plane curve defined by the equations , , on . Identify any critical points of the function.   "
+},
+{
+  "id": "vf-parametric-deriv-compute3",
+  "level": "2",
+  "url": "VF1.html#vf-parametric-deriv-compute3",
+  "type": "Activity",
+  "number": "12.1.9",
+  "title": "",
+  "body": "  Consider the parameterization of a circle given by ,     Find the derivative at any arbitrary point on the curve. Does the derivative depend on the size of the circle?    Find the second derivative at any arbitrary point. Does the acceleration depend on the size of the circle?   "
+},
+{
+  "id": "thm-area-parametric",
+  "level": "2",
+  "url": "VF1.html#thm-area-parametric",
+  "type": "Theorem",
+  "number": "12.1.4",
+  "title": "Area Under a Parametric Curve.",
+  "body": " Area Under a Parametric Curve  area under parametric curve   Let and be a non-self-intersecting plane curve on the interval ; assume that is differentiable. Then, the area under the curve is given by    "
+},
+{
+  "id": "vf-parametric-area1",
+  "level": "2",
+  "url": "VF1.html#vf-parametric-area1",
+  "type": "Activity",
+  "number": "12.1.10",
+  "title": "",
+  "body": "  A cycloid is a figure traced out by the edge of a rolling circle. The parametric equations for a cycloid of radius are given by and .    Compute the derivative for a cycloid. Does the derivative depend on the size of the circle?    Find the area under one arch of the cycloid   "
+},
+{
+  "id": "thm-arc-length-parametric",
+  "level": "2",
+  "url": "VF1.html#thm-arc-length-parametric",
+  "type": "Theorem",
+  "number": "12.1.5",
+  "title": "Arc Length of a Parametric Curve.",
+  "body": " Arc Length of a Parametric Curve  arc length of a parametric curve   Consider the plane curve defined by the parametric equations , on the interval , and assume that both functions are differentiable. Then, the arc length of the curve is given by    "
+},
+{
+  "id": "vf-arc-length-compute1",
+  "level": "2",
+  "url": "VF1.html#vf-arc-length-compute1",
+  "type": "Activity",
+  "number": "12.1.11",
+  "title": "",
+  "body": "  Use to prove that the circumference of a circle is given by    "
+},
+{
+  "id": "VF1-activities-18",
+  "level": "2",
+  "url": "VF1.html#VF1-activities-18",
+  "type": "Activity",
+  "number": "12.1.12",
+  "title": "",
+  "body": "  Find the arc length of the curve defined by the equations , , .   "
+},
+{
   "id": "VF2",
   "level": "1",
   "url": "VF2.html",
   "type": "Section",
   "number": "12.2",
   "title": "VF2: Vector-Valued Functions",
-  "body": " VF2: Vector-Valued Functions     VF2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Vector-Valued Functions and Space Curves    Read all sections      Section 3.2: Calculus of Vector-Valued Functions    Read all sections      Section 3.3: Arc Length and Curvature    Read until \"Curvature\"        In-Class Activities   "
+  "body": " VF2: Vector-Valued Functions     VF2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 3.1: Vector-Valued Functions and Space Curves    Read all sections      Section 3.2: Calculus of Vector-Valued Functions    Read all sections      Section 3.3: Arc Length and Curvature    Read until \"Curvature\"        In-Class Activities   Vector-Valued Function  vector-valued function   A vector-valued function is a function of the form where the component functions are real-valued functions of the parameter .     Working with vector-valued functions is almost identical to working with the real-valued functions we've dealt with so far.     Let and .    Evaluate and .    Use (a) to determine , if .    Evaluate .    Determine       Describe the graph of the vector-valued function on the interval       Derivatives and integrals of vector-valued functions work mostly as you think they might      Let     Compute the derivative of     Compute      Properties of the Derivative for Vector-Valued Functions  Let and be vector-valued functions of , let be a differentiable, real-valued function of , and let be a scalar value.                                       Let and .    Determine     Compute       unit tangent vector   The unit tangent vector of a plane curve is given by assuming that exists and is non-zero.      Determine the unit tangent vector for the function      Arc Length (Vector-Valued Function)  arc length (vector-valued function)   Consider the smooth vector valued function , defined on the interval . The arc length of on is given by Arc length is defined similarly for a space curve of three components.      Calculate the arc length for the vector-valued function on the interval      "
 },
 {
   "id": "VF2-2",
@@ -6155,6 +6308,105 @@ var ptx_lunr_docs = [
   "number": "12.2",
   "title": "",
   "body": "   VF2  I can work with vector-valued functions in space, and use calculus to analyze their behavior.    "
+},
+{
+  "id": "def-vector-valued-function",
+  "level": "2",
+  "url": "VF2.html#def-vector-valued-function",
+  "type": "Definition",
+  "number": "12.2.1",
+  "title": "Vector-Valued Function.",
+  "body": " Vector-Valued Function  vector-valued function   A vector-valued function is a function of the form where the component functions are real-valued functions of the parameter .   "
+},
+{
+  "id": "VF2-activities-3",
+  "level": "2",
+  "url": "VF2.html#VF2-activities-3",
+  "type": "Remark",
+  "number": "12.2.2",
+  "title": "",
+  "body": " Working with vector-valued functions is almost identical to working with the real-valued functions we've dealt with so far.  "
+},
+{
+  "id": "vf-vector-valued-compute1",
+  "level": "2",
+  "url": "VF2.html#vf-vector-valued-compute1",
+  "type": "Activity",
+  "number": "12.2.1",
+  "title": "",
+  "body": "  Let and .    Evaluate and .    Use (a) to determine , if .    Evaluate .    Determine    "
+},
+{
+  "id": "vf-vector-valued-graph1",
+  "level": "2",
+  "url": "VF2.html#vf-vector-valued-graph1",
+  "type": "Activity",
+  "number": "12.2.2",
+  "title": "",
+  "body": "  Describe the graph of the vector-valued function on the interval    "
+},
+{
+  "id": "VF2-activities-6",
+  "level": "2",
+  "url": "VF2.html#VF2-activities-6",
+  "type": "Fact",
+  "number": "12.2.3",
+  "title": "",
+  "body": "  Derivatives and integrals of vector-valued functions work mostly as you think they might   "
+},
+{
+  "id": "vf-vector-valued-derivative-integral1",
+  "level": "2",
+  "url": "VF2.html#vf-vector-valued-derivative-integral1",
+  "type": "Activity",
+  "number": "12.2.3",
+  "title": "",
+  "body": "  Let     Compute the derivative of     Compute    "
+},
+{
+  "id": "vf-vector-valued-deriv-compute1",
+  "level": "2",
+  "url": "VF2.html#vf-vector-valued-deriv-compute1",
+  "type": "Activity",
+  "number": "12.2.4",
+  "title": "",
+  "body": "  Let and .    Determine     Compute    "
+},
+{
+  "id": "def-unit-tangent-vector",
+  "level": "2",
+  "url": "VF2.html#def-unit-tangent-vector",
+  "type": "Definition",
+  "number": "12.2.4",
+  "title": ".",
+  "body": "  unit tangent vector   The unit tangent vector of a plane curve is given by assuming that exists and is non-zero.   "
+},
+{
+  "id": "vf-vector-valued-unittangent1",
+  "level": "2",
+  "url": "VF2.html#vf-vector-valued-unittangent1",
+  "type": "Activity",
+  "number": "12.2.5",
+  "title": "",
+  "body": "  Determine the unit tangent vector for the function    "
+},
+{
+  "id": "def-arc-length-vectorvalued",
+  "level": "2",
+  "url": "VF2.html#def-arc-length-vectorvalued",
+  "type": "Definition",
+  "number": "12.2.5",
+  "title": "Arc Length (Vector-Valued Function).",
+  "body": " Arc Length (Vector-Valued Function)  arc length (vector-valued function)   Consider the smooth vector valued function , defined on the interval . The arc length of on is given by Arc length is defined similarly for a space curve of three components.   "
+},
+{
+  "id": "vf-vector-valued-arclength1",
+  "level": "2",
+  "url": "VF2.html#vf-vector-valued-arclength1",
+  "type": "Activity",
+  "number": "12.2.6",
+  "title": "",
+  "body": "  Calculate the arc length for the vector-valued function on the interval    "
 },
 {
   "id": "VF3",
