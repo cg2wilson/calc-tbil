@@ -18,6 +18,488 @@
     <subsection xml:id="VF1-activities">
         <title>In-Class Activities</title>
 
+        <definition xml:id="def-parametric-curve">
+            <title>Parametric Curve</title>
+            <idx><h>parametric equations</h></idx>
+            <idx><h>parametric curve</h></idx>
+            <idx><h>parameter</h></idx>
+            <statement>
+                <p>
+                    If <m>x</m> and <m>y</m> are continuous functions of the variable <m>t</m> on some interval <m>I</m>, then the equations <m>x = x(t)</m> and <m>y = y(t)</m> are called <term>parametric equations</term> and <m>t</m> is called the <term>parameter</term>. The graph of parametric equations- the set of points <m>(x,y)</m> obtained as <m>t</m> varies over <m>I</m>- is called a <term>parametric curve</term>.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="vf-parametric-plot1">
+            <introduction>
+                <p>
+                    Consider the parametric curves given by <m>x(t) = t-1</m> and <m>y(t) = t^2 + 3</m> on the interval <m>-3\leq t\leq 2</m>. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which image correctly plots <m>x(t)</m>? 
+                        <ol marker="A.">
+                            <li>
+                                <image width = "50%">
+                                    <sageplot>
+                                        x = var('x')
+                                        p = Graphics()
+                                        p += plot(x-1,(x,2,3), axes_labels=("$t$","$x(t)$"))
+                                        p
+                                    </sageplot>
+                                </image>
+                            </li>
+                            <li>
+                                <image width = "50%">
+                                    <sageplot>
+                                        x = var('x')
+                                        p = Graphics()
+                                        p += plot(x+1,(x,-3,2), axes_labels=("$t$","$x(t)$"))
+                                        p
+                                    </sageplot>
+                                </image>
+                            </li>
+                            <li>
+                                <image width = "50%">
+                                    <sageplot>
+                                        x = var('x')
+                                        p = Graphics()
+                                        p += plot(x-1,(x,-3,2), axes_labels=("$t$","$x(t)$"))
+                                        p
+                                    </sageplot>
+                                </image>
+                            </li>
+                            <li>
+                                <image width = "50%">
+                                    <sageplot>
+                                        x = var('x')
+                                        p = Graphics()
+                                        p += plot(x+1,(x,2,3), axes_labels=("$t$","$x(t)$"))
+                                        p
+                                    </sageplot>
+                                </image>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which images correctly plots <m>y(t)</m>?
+                        <ol marker="A.">
+                            <li>
+                                <image width = "50%">
+                                    <sageplot>
+                                        x = var('x')
+                                        p = Graphics()
+                                        p += plot(x^2 + 3,(x,2,3), axes_labels=("$t$","$y(t)$"))
+                                        p
+                                    </sageplot>
+                                </image>
+                            </li>
+                            <li>
+                                <image width = "50%">
+                                    <sageplot>
+                                        x = var('x')
+                                        p = Graphics()
+                                        p += plot(sqrt(x + 3),(x,-3,2), axes_labels=("$t$","$y(t)$"))
+                                        p += plot(-1*sqrt(x+3),(x,-3,2))
+                                        p
+                                    </sageplot>
+                                </image>
+                            </li>
+                            <li>
+                                <image width = "50%">
+                                    <sageplot>
+                                        x = var('x')
+                                        p = Graphics()
+                                        p += plot(x^2 + 3,(x,-3,2), axes_labels=("$t$","$y(t)$"))
+                                        p
+                                    </sageplot>
+                                </image>
+                            </li>
+                            <li>
+                                <image width = "50%">
+                                    <sageplot>
+                                        x = var('x')
+                                        p = Graphics()
+                                        p += plot(sqrt(x + 3),(x,-3,2), axes_labels=("$t$","$y(t)$"))
+                                        p
+                                    </sageplot>
+                                </image>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Fill out the table below to help graph the curve.
+                    </p>
+                    <tabular>
+                        <row>
+                            <cell><m>t</m></cell>
+                            <cell><m>x(t)</m></cell>
+                            <cell><m>y(t)</m></cell>
+                            <cell><m>(x,y)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>-3</m></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell><m>-2</m></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell><m>-1</m></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell><m>0</m></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell><m>1</m></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell><m>2</m></cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        
+                    </tabular>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="vf-parametric-plot2">
+            <introduction>
+                <p>
+                    Consider the parametric curve given by <m>x(t) = \cos(2\pi t)</m>, <m>y(t) = \sin(2\pi t)</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Plot the curve on <m>0\leq t\leq 1</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Plot the curve on <m>-\dfrac{1}{2}\leq t \leq \dfrac{1}{2}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now let <m>x(t) = \sin(2\pi t)</m> and <m>y(t) = \cos (2\pi t)</m>. Plot the curve on <m>0\leq t \leq 1</m>; what changes do you notice?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="vf-parametric-parametrize">
+            <statement>
+                <p>
+                    For the function <m>y = x^2 + 2x</m>, write three different parametrizations.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="vf-eliminate-parameter1"> 
+            <idx><h>eliminating the parameter</h></idx>
+            <introduction>
+                <p>
+                    We can convert between parametric and rectangular forms of equations through a process called <term>eliminating the parameter</term>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Consider the parametrization <m>x(t) = t+1</m>, <m>y = t^2 + 1</m> on <m>-\infty\leq t \leq -1</m>. Which of the following shows the appropriate rectangular equation (and interval) for the parametric curve?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    <m> y = (x-1)^2 + 1</m> on <m>-\infty\leq x\leq 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>y = (x+1)^2 + 1</m> on <m>-\infty\leq x\leq 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m> y = (x+1)^2 + 1</m> on <m>-\infty\leq x\leq -1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m> y = (x-1)^2 + 1</m> on <m>-\infty\leq x\leq 0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Eliminate the parameter to find a Cartesian description for the parametric equation <m>x(t) = \cos (2\pi t)</m>, <m>y = \sin (2\pi t)</m>, on <m>0\leq t \leq 1</m>. Think of equations relating sine and cosine...
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="vf-eliminate-parameter2">
+            <introduction>
+                <p>
+                    Eliminate the parameter for the following parametric curves.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>x = 4\cos\theta</m>, <m>y = 3\sin\theta</m>, <m>\theta \in (0,2\pi]</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>x = 2t-3</m>, <m>y = 6t-7</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>x = t^2-3</m>, <m>y = t+2</m>, <m>-3\leq t\leq 3</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="vf-eliminate-parameter3">
+            <statement>
+                <p>
+                    Eliminate the parameter to find the curve represented by the parametric equations <m>x = \sqrt{t}</m>, <m>y = t^2 + 1</m>. There is a natural restriction on the time interval; what is it?
+                </p>
+            </statement>
+        </activity>
+
+        <remark>
+            <p>
+                Calculus on parametric curves can be done using <m>t</m> as the independent variable and without eliminating the parameter!
+            </p>
+        </remark>
+
+        <theorem xml:id="thm-derivative-parametric">
+            <title>Derivatives of Parametric Equations</title>
+                
+            <statement>
+                <p>
+                   For the plane curve defined by the parametric equations <m>x = x(t)</m> and <m>y = y(t)</m> on the interval <m>I</m>, the derivative <m>\dfrac{dy}{dx}</m> is given by
+                    <me>
+                        \dfrac{dy}{dx} = \dfrac{dy/dt}{dx/dt} = \dfrac{y'(t)}{x'(t)}
+                    </me>
+                    assuming that <m>x'(t),y'(t)</m> exist and <m>x'(t)\neq 0</m>. 
+                </p>
+                <p>
+                    The second derivative, <m>\dfrac{d^2y}{dx^2}</m>, is given by
+                    <me>
+                        \dfrac{d^2y}{dx^2} = \dfrac{\frac{d}{dt}[dy/dx]}{x'(t)}
+                    </me>
+                    under the same assumptions.
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="vf-parametric-deriv-compute1">
+            <introduction>
+                <p>
+                    Consider the parametric curve <m>x(t) = 5\sin \pi t</m>, <m>y(t) = 5\cos \pi t</m>, <m>0\leq t\leq 1</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What shape does this curve trace, and in what direction?
+                        <ol marker="A.">
+                            <li>
+                                <p>
+                                    Circle, clockwise
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Semi-circle, counterclockwise
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Circle, counterclockwise
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Semi-circle, clockwise
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\dfrac{dy}{dt}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\dfrac{dx}{dt}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        At which point or points in the domain of the curve does the derivative not exist?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Evaluate the derivative when <m>t = \dfrac{1}{3}, \dfrac{1}{2}</m>, and <m>\dfrac{5}{6}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Write the equation of the tangent line to the curve at <m>t = \dfrac{2\pi}{3}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="vf-parametric-deriv-compute2">
+            <introduction>
+                <p>
+                    Compute the derivative <m>\dfrac{dy}{dx}</m> for the plane curve defined by the equations <m>x(t) = t^2-4t</m>, <m>y(t) = 2t^3-6t</m>, on <m>-2\leq 2\leq 3</m>. Identify any critical points of the function.
+                </p>
+            </introduction>
+        </activity>
+
+        <activity xml:id="vf-parametric-deriv-compute3">
+            <introduction>
+                <p>
+                    Consider the parameterization of a circle given by <m>x(t) = a\cos t</m>, <m>y = a\sin t</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find the derivative at any arbitrary point <m>(x_0,y_0)</m> on the curve. Does the derivative depend on the size of the circle?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find the second derivative at any arbitrary point. Does the acceleration depend on the size of the circle?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-area-parametric">
+            <title>Area Under a Parametric Curve</title>
+            <idx><h>area under parametric curve</h></idx>
+            <statement>
+                <p>
+                    Let <m>x=x(t)</m> and <m>y = y(t)</m> be a non-self-intersecting plane curve on the interval <m>a\leq t\leq b</m>; assume that <m>x(t)</m> is differentiable. Then, the area under the curve is given by 
+                    <me>
+                        A = \int_a^b y(t) x'(t)\, dt
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="vf-parametric-area1">
+            <introduction>
+                <p>
+                    A <term>cycloid</term> is a figure traced out by the edge of a rolling circle. The parametric equations for a cycloid of radius <m>r</m> are given by <m>x(\theta) = r(\theta - \sin\theta)</m> and <m>y(\theta) = r(1-\cos\theta)</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute the derivative for a cycloid. Does the derivative depend on the size of the circle?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find the area under one arch of the cycloid
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-arc-length-parametric">
+            <title>Arc Length of a Parametric Curve</title>
+            <idx><h>arc length of a parametric curve</h></idx>
+            <statement>
+                <p>
+                    Consider the plane curve defined by the parametric equations <m>x = x(t)</m>, <m>y = y(t)</m> on the interval <m>t_1 \leq t\leq t_2</m>, and assume that both functions are differentiable. Then, the arc length of the curve is given by
+                    <me>
+                        s = \int_{t_1}^{t_2} \sqrt{\lrpar{\dfrac{dx}{dt}}^2 + \lrpar{\dfrac{dy}{dt}}^2}
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="vf-arc-length-compute1">
+            <statement>
+                <p>
+                    Use <xref ref="thm-arc-length-parametric"/> to prove that the circumference of a circle is given by <m>2\pi r</m>
+                </p>
+            </statement>
+        </activity>
+        
+        <activity>
+            <statement>
+                <p>
+                    Find the arc length of the curve defined by the equations <m>x(t) = 3t^2</m>, <m>y(t) = 2t^3</m>, <m>1\leq t\leq 3</m>. 
+                </p>
+            </statement>
+        </activity>        
     </subsection>
 
 </section>

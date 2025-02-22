@@ -17,7 +17,223 @@
 
     <subsection xml:id="VF2-activities">
         <title>In-Class Activities</title>
+        
+        <definition xml:id="def-vector-valued-function">
+            <title>Vector-Valued Function</title>
+            <idx><h>vector-valued function</h></idx>
+            <statement>
+                <p>
+                    A <term>vector-valued function</term> is a function of the form 
+                    <me>
+                        \textbf{r}(t) = f(t)\textbf{i} + g(t)\textbf{j} \text{ or } \textbf{r}(t) = f(t)\textbf{i} + g(t)\textbf{j} + h(t)\textbf{k}
+                    </me>
+                    where the component functions <m>f(t), g(t), h(t)</m> are real-valued functions of the parameter <m>t</m>.
+                </p>
+            </statement>
+        </definition>
 
+        <remark>
+            <p>
+                Working with vector-valued functions is almost identical to working with the real-valued functions we've dealt with so far.
+            </p>
+        </remark>
+
+        <activity xml:id="vf-vector-valued-compute1">
+            <introduction>
+                <p>
+                    Let <m>f(t) = t^2-3t</m> and <m>g(t) = 4t + 1</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Evaluate <m>f(0)</m> and <m>g(0)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use (a) to determine <m>\text{r}(0)</m>, if <m>\textbf{r}(t) = \lrangle{f(t),g(t)}</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Evaluate <m>\textbf{r}(-4)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Determine <m>\ds \lim_{t\to 0} \textbf{r}(t)</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="vf-vector-valued-graph1">
+            <statement>
+                <p>
+                    Describe the graph of the vector-valued function
+                    <me>
+                        \textbf{r}(t) = \lrangle{3\cos t, 3 \sin t, t}
+                    </me>
+                    on the interval <m>0\leq t\leq 6\pi</m>
+                </p>
+            </statement>
+        </activity>
+
+        <fact>
+            <statement>
+                <p>
+                    Derivatives and integrals of vector-valued functions work mostly as you think they might       
+                </p>
+            </statement>
+        </fact>
+
+        <activity xml:id="vf-vector-valued-derivative-integral1">
+            <introduction>
+                <p>
+                    Let <m>\textbf{r}(t) = \lrangle{te^t, \sin t, t^2}</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute the derivative of <m>\textbf{r}(t)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\ds \int_0^1 \textbf{r}(t)\, dt</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <assemblage>
+            <title>Properties of the Derivative for Vector-Valued Functions</title>
+            <p>
+                Let <m>\textbf{r}</m> and <m>\textbf{u}</m> be vector-valued functions of <m>t</m>, let <m>f</m> be a differentiable, real-valued function of <m>t</m>, and let <m>c</m> be a scalar value.
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            <m>
+                                \dfrac{d}{dt}[c\textbf{r}(t)] = c\textbf{r}'(t)
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>
+                                \dfrac{d}{dt}[\textbf{r}(t) \pm \textbf{u}(t)] = \textbf{r}'(t)\pm \textbf{u}'(t)
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>
+                                \dfrac{d}{dt}[f(t)\textbf{u}(t)] = f'(t)\textbf{u}(t) + f(t)\textbf{u}'(t)
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>
+                                \dfrac{d}{dt}[\textbf{r}(t)\cdot \textbf{u}(t)] = \textbf{r}'(t)\cdot \textbf{u}(t) + \textbf{r}(t)\cdot \textbf{u}'(t)
+                            </m>    
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>
+                                \dfrac{d}{dt}[\textbf{r}(t)\times \textbf{u}(t)] = \textbf{r}'(t)\times \textbf{u}(t) + \textbf{r}(t)\times \textbf{u}'(t)
+                            </m>    
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>
+                                \dfrac{d}{dt}[\textbf{r}(f(t))] = \textbf{r}'(f(t))f'(t)
+                            </m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </assemblage>
+
+        <activity xml:id="vf-vector-valued-deriv-compute1">
+            <introduction>
+                <p>
+                    Let <m>\textbf{r}(t) = \cos t\textbf{i} + \sin t\textbf{j} = e^{2t}\textbf{k}</m> and <m>\textbf{u}(t) = \lrangle{t,\sin t,\cos t}</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Determine <m>\dfrac{d}{dt}[\textbf{r}(t)\cdot \textbf{u}(t)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m> \dfrac{d}{dt}[\textbf{u}(t)\times \textbf{u}'(t)]</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-unit-tangent-vector">
+            <title></title>
+            <idx><h>unit tangent vector</h></idx>
+            <statement>
+                <p>
+                    The <term>unit tangent vector</term> of a plane curve <m>\textbf{r}(t)</m> is given by
+                    <me>
+                        \textbf{T}(t) = \dfrac{\textbf{r}'(t)}{||\textbf{r}'(t)||}
+                    </me>
+                    assuming that <m>\textbf{r}'(t)</m> exists and is non-zero.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="vf-vector-valued-unittangent1">
+            <statement>
+                <p>
+                    Determine the unit tangent vector for the function <m>\textbf{r}(t) = \lrangle{3t^2 + 2t,6t-5}</m>
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-arc-length-vectorvalued">
+            <title>Arc Length (Vector-Valued Function)</title>
+            <idx><h>arc length (vector-valued function)</h></idx>
+            <statement>
+                <p>
+                    Consider the smooth vector valued function <m>\textbf{r}(t) = \lrangle{f(t),g(t)}</m>, defined on the interval <m>[a,b]</m>. The <term>arc length</term> of <m>\textbf{r}(t)</m> on <m>[a,b]</m> is given by
+                    <me>
+                        s = \int_a^b \sqrt{[f'(t)]^2 + [g'(t)]^2}\, dt = \int_a^b ||\textbf{r}'(t)||\, dt
+                    </me>
+                    Arc length is defined similarly for a space curve of three components.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="vf-vector-valued-arclength1"> 
+            <statement>
+                <p>
+                    Calculate the arc length for the vector-valued function <m>\textbf{r}(t) = \lrangle{3t-2,4t+5}</m> on the interval <m>1\leq t\leq 4</m>
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>
