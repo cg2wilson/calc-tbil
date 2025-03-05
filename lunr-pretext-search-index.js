@@ -4624,7 +4624,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.1",
   "title": "SE1: Sequences",
-  "body": " SE1: Sequences     SE1  I can work with sequences by determining its general form, computing its limit, and determining its convergence or divergence.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Sequences    Read all sections        In-Class Activities   "
+  "body": " SE1: Sequences     SE1  I can work with sequences by determining its general form, computing its limit, and determining its convergence or divergence.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Sequences    Read all sections        In-Class Activities   Sequence  sequence   A sequence is an ordered list of numbers of the form Each value in the sequence is called a term . The symbol is called the index for the sequence. We denote a sequence by when the sequence begins at index value and ends at index value . If the sequence is infinite, we instead write or       Consider the sequence     Which of the choices below reasonably continues this sequence of numbers?                               Find a formula that allows us to move from one term to the next one in the previous sequence      Consider the sequence . Which of the following choices gives a closed formula for this sequence? Select all that apply.             Let be the th term in the sequence . Which of the following terms corresponds to the term of this sequence?             Find an explicit formula for the sequence .     Geometric & Arithmetic Sequences  geometric sequence  arithmetic sequence   A sequence is said to be arithmetic if the difference between every pair of consecutive terms is the same. A sequence is said to be geometric if the ratio between every pair of consecutive terms is the same.      Is the sequence in arithmetic, geometric, or neither?   Arithmetic    Geometric    Neither        Recursive Sequence  recursive sequence   A sequence is said to be recursive if the terms are defined as a function of previous terms (with the necessary initial terms provided).      Consider the sequence defined by and for . What are the first four terms?      Consider the sequence . Which of the following offers the best recursive formula for this sequence?   for  for        The Fibonacci sequence is a famous recursive sequence, whose initial terms are given by . Give a recursive formula for that works for all      Limit of a Sequence  limit (sequence)   Given a sequence , if the terms become arbitrarily close to a finite number as becomes sufficiently large, we say is a convergent sequence and that is the limit of the sequence. We write this as If a sequence is not convergent, it is divergent       For each of the following, (1) determine if the sequence converges or diverges, and (2) find the limit of the sequence (if possible).                          Consider a sequence such that for some function and for all . If there exists a real number such that then converges to :      Limit Laws for Sequences  Let and be sequences which converge to and , respectively. Let be a real number. Then,                        provided that and each        Bounded Sequence  bounded above  bounded below  bounded  unbounded   A sequence is bounded above if there exists a real number such that for every . is bounded below if there exists a real number such that for every .  If a sequence is bounded above and bounded below, we say it is bounded . If a sequence is not bounded (above or below), it is said to be unbounded .      If a sequence converges, then it is bounded     Monotonic Sequence  monotonic  monotonically increasing  monotonically decreasing   A sequence is said to be monotonically increasing for all if for all ; if for all , then the sequence is said to be monotonically decreasing for all .  A sequence is said to be monotonic or monotone if it is monotonically increasing or monotonically decreasing.      All monotonic, bounded sequences converge.     "
 },
 {
   "id": "SE1-2",
@@ -4634,6 +4634,168 @@ var ptx_lunr_docs = [
   "number": "8.1",
   "title": "",
   "body": "   SE1  I can work with sequences by determining its general form, computing its limit, and determining its convergence or divergence.    "
+},
+{
+  "id": "def-sequence",
+  "level": "2",
+  "url": "SE1.html#def-sequence",
+  "type": "Definition",
+  "number": "8.1.1",
+  "title": "Sequence.",
+  "body": " Sequence  sequence   A sequence is an ordered list of numbers of the form Each value in the sequence is called a term . The symbol is called the index for the sequence. We denote a sequence by when the sequence begins at index value and ends at index value . If the sequence is infinite, we instead write or    "
+},
+{
+  "id": "se-sequence-construct1",
+  "level": "2",
+  "url": "SE1.html#se-sequence-construct1",
+  "type": "Activity",
+  "number": "8.1.1",
+  "title": "",
+  "body": "  Consider the sequence     Which of the choices below reasonably continues this sequence of numbers?                               Find a formula that allows us to move from one term to the next one in the previous sequence   "
+},
+{
+  "id": "se-sequence-construct2",
+  "level": "2",
+  "url": "SE1.html#se-sequence-construct2",
+  "type": "Activity",
+  "number": "8.1.2",
+  "title": "",
+  "body": "  Consider the sequence . Which of the following choices gives a closed formula for this sequence? Select all that apply.          "
+},
+{
+  "id": "se-sequence-whichterm1",
+  "level": "2",
+  "url": "SE1.html#se-sequence-whichterm1",
+  "type": "Activity",
+  "number": "8.1.3",
+  "title": "",
+  "body": "  Let be the th term in the sequence . Which of the following terms corresponds to the term of this sequence?          "
+},
+{
+  "id": "se-sequence-construct3",
+  "level": "2",
+  "url": "SE1.html#se-sequence-construct3",
+  "type": "Activity",
+  "number": "8.1.4",
+  "title": "",
+  "body": "  Find an explicit formula for the sequence .   "
+},
+{
+  "id": "def-geometric-arithmetic-sequence",
+  "level": "2",
+  "url": "SE1.html#def-geometric-arithmetic-sequence",
+  "type": "Definition",
+  "number": "8.1.2",
+  "title": "Geometric &amp; Arithmetic Sequences.",
+  "body": " Geometric & Arithmetic Sequences  geometric sequence  arithmetic sequence   A sequence is said to be arithmetic if the difference between every pair of consecutive terms is the same. A sequence is said to be geometric if the ratio between every pair of consecutive terms is the same.   "
+},
+{
+  "id": "se-sequence-arithmeticgeometric1",
+  "level": "2",
+  "url": "SE1.html#se-sequence-arithmeticgeometric1",
+  "type": "Activity",
+  "number": "8.1.5",
+  "title": "",
+  "body": "  Is the sequence in arithmetic, geometric, or neither?   Arithmetic    Geometric    Neither      "
+},
+{
+  "id": "def-recursive",
+  "level": "2",
+  "url": "SE1.html#def-recursive",
+  "type": "Definition",
+  "number": "8.1.3",
+  "title": "Recursive Sequence.",
+  "body": " Recursive Sequence  recursive sequence   A sequence is said to be recursive if the terms are defined as a function of previous terms (with the necessary initial terms provided).   "
+},
+{
+  "id": "se-sequence-recursive1",
+  "level": "2",
+  "url": "SE1.html#se-sequence-recursive1",
+  "type": "Activity",
+  "number": "8.1.6",
+  "title": "",
+  "body": "  Consider the sequence defined by and for . What are the first four terms?   "
+},
+{
+  "id": "se-sequence-recursive2",
+  "level": "2",
+  "url": "SE1.html#se-sequence-recursive2",
+  "type": "Activity",
+  "number": "8.1.7",
+  "title": "",
+  "body": "  Consider the sequence . Which of the following offers the best recursive formula for this sequence?   for  for     "
+},
+{
+  "id": "se-sequence-recursive3",
+  "level": "2",
+  "url": "SE1.html#se-sequence-recursive3",
+  "type": "Activity",
+  "number": "8.1.8",
+  "title": "",
+  "body": "  The Fibonacci sequence is a famous recursive sequence, whose initial terms are given by . Give a recursive formula for that works for all    "
+},
+{
+  "id": "def-limit-sequence",
+  "level": "2",
+  "url": "SE1.html#def-limit-sequence",
+  "type": "Definition",
+  "number": "8.1.4",
+  "title": "Limit of a Sequence.",
+  "body": " Limit of a Sequence  limit (sequence)   Given a sequence , if the terms become arbitrarily close to a finite number as becomes sufficiently large, we say is a convergent sequence and that is the limit of the sequence. We write this as If a sequence is not convergent, it is divergent    "
+},
+{
+  "id": "se-sequence-limit1",
+  "level": "2",
+  "url": "SE1.html#se-sequence-limit1",
+  "type": "Activity",
+  "number": "8.1.9",
+  "title": "",
+  "body": "  For each of the following, (1) determine if the sequence converges or diverges, and (2) find the limit of the sequence (if possible).                       "
+},
+{
+  "id": "thm-sequence-limit-function",
+  "level": "2",
+  "url": "SE1.html#thm-sequence-limit-function",
+  "type": "Theorem",
+  "number": "8.1.5",
+  "title": "",
+  "body": "  Consider a sequence such that for some function and for all . If there exists a real number such that then converges to :    "
+},
+{
+  "id": "def-bounded",
+  "level": "2",
+  "url": "SE1.html#def-bounded",
+  "type": "Definition",
+  "number": "8.1.6",
+  "title": "Bounded Sequence.",
+  "body": " Bounded Sequence  bounded above  bounded below  bounded  unbounded   A sequence is bounded above if there exists a real number such that for every . is bounded below if there exists a real number such that for every .  If a sequence is bounded above and bounded below, we say it is bounded . If a sequence is not bounded (above or below), it is said to be unbounded .   "
+},
+{
+  "id": "SE1-activities-18",
+  "level": "2",
+  "url": "SE1.html#SE1-activities-18",
+  "type": "Fact",
+  "number": "8.1.7",
+  "title": "",
+  "body": "  If a sequence converges, then it is bounded   "
+},
+{
+  "id": "def-monotonic",
+  "level": "2",
+  "url": "SE1.html#def-monotonic",
+  "type": "Definition",
+  "number": "8.1.8",
+  "title": "Monotonic Sequence.",
+  "body": " Monotonic Sequence  monotonic  monotonically increasing  monotonically decreasing   A sequence is said to be monotonically increasing for all if for all ; if for all , then the sequence is said to be monotonically decreasing for all .  A sequence is said to be monotonic or monotone if it is monotonically increasing or monotonically decreasing.   "
+},
+{
+  "id": "SE1-activities-20",
+  "level": "2",
+  "url": "SE1.html#SE1-activities-20",
+  "type": "Fact",
+  "number": "8.1.9",
+  "title": "",
+  "body": "  All monotonic, bounded sequences converge.   "
 },
 {
   "id": "SE2",

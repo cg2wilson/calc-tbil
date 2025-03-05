@@ -97,14 +97,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.5.9';
+eBookConfig.runestone_version = '7.5.10';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.d7db380f34a0a67e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.c2d04816128ebb44.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.e0c6d4592e23c667.css">
 </head>
 <body id="TBIL Calculus 1" class="pretext book ignore-math">
@@ -541,7 +541,194 @@ true);
 </li></ul>
 </div></article><section class="subsection" id="SE1-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">8.1.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
-</h3></section></section></div>
+</h3>
+<article class="definition definition-like" id="def-sequence"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Sequence.</span>
+</h4>
+<div class="para logical" id="def-sequence-3-1">
+<div class="para">A <dfn class="terminology">sequence</dfn> is an ordered list of numbers of the form</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a_1,a_2,a_3,...,a_n,...
+\end{equation*}
+</div>
+<div class="para">Each value in the sequence is called a <dfn class="terminology">term</dfn>. The symbol <span class="process-math">\(n\)</span> is called the <dfn class="terminology">index</dfn> for the sequence. We denote a sequence by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lrbrace{a_n}_{n=i}^j
+\end{equation*}
+</div>
+<div class="para">when the sequence begins at index value <span class="process-math">\(i\)</span> and ends at index value <span class="process-math">\(j\text{.}\)</span> If the sequence is infinite, we instead write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lrbrace{a_n}_{n=1}^\infty
+\end{equation*}
+</div>
+<div class="para">or</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lrbrace{a_n}
+\end{equation*}
+</div>
+</div></article><article class="activity project-like" id="se-sequence-construct1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.1.1</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="se-sequence-construct1-1"><div class="para" id="se-sequence-construct1-1-1">Consider the sequence <span class="process-math">\(1,2,4,...\)</span>
+</div></div>
+<article class="task exercise-like" id="se-sequence-construct1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="se-sequence-construct1-2-1-1">
+<div class="para">Which of the choices below reasonably continues this sequence of numbers?</div>
+<ol class="upper-alpha ol-marker-2 cols2" id="se-sequence-construct1-2-1-1-1">
+<li id="se-sequence-construct1-2-1-1-1-1"><div class="para" id="se-sequence-construct1-2-1-1-1-1-1"><span class="process-math">\(\displaystyle 7, 12, 24,...\)</span></div></li>
+<li id="se-sequence-construct1-2-1-1-1-2"><div class="para" id="se-sequence-construct1-2-1-1-1-2-1"><span class="process-math">\(\displaystyle 7, 11, 16,...\)</span></div></li>
+<li id="se-sequence-construct1-2-1-1-1-3"><div class="para" id="se-sequence-construct1-2-1-1-1-3-1"><span class="process-math">\(\displaystyle 8, 16, 32,...\)</span></div></li>
+<li id="se-sequence-construct1-2-1-1-1-4"><div class="para" id="se-sequence-construct1-2-1-1-1-4-1"><span class="process-math">\(\displaystyle 1, 2, 4,....\)</span></div></li>
+<li id="se-sequence-construct1-2-1-1-1-5"><div class="para" id="se-sequence-construct1-2-1-1-1-5-1"><span class="process-math">\(\displaystyle 7, 12, 20,...\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="se-sequence-construct1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="se-sequence-construct1-3-1-1">Find a formula that allows us to move from one term to the next one in the previous sequence</div></article></article><article class="activity project-like" id="se-sequence-construct2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.1.2</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="se-sequence-construct2-1-1">
+<div class="para">Consider the sequence <span class="process-math">\(\displaystyle 1, \frac{1}{3}, \frac{1}{9}, \frac{1}{27}, \ldots\text{.}\)</span> Which of the following choices gives a closed formula for this sequence? Select all that apply.</div>
+<ol class="upper-alpha ol-marker-2 cols2" id="se-sequence-construct2-1-1-2">
+<li id="se-sequence-construct2-1-1-2-1"><div class="para" id="p-derived-se-sequence-construct2-1-1-2-1"><span class="process-math">\(\displaystyle \displaystyle \left\{\left(\frac{1}{3}\right)^{n-1}\right\}_{n=1}^\infty\)</span></div></li>
+<li id="se-sequence-construct2-1-1-2-2"><div class="para" id="p-derived-se-sequence-construct2-1-1-2-2"><span class="process-math">\(\displaystyle \displaystyle \left\{\left(\frac{1}{3}\right)^{n}\right\}_{n=1}^\infty\)</span></div></li>
+<li id="se-sequence-construct2-1-1-2-3"><div class="para" id="p-derived-se-sequence-construct2-1-1-2-3"><span class="process-math">\(\displaystyle \displaystyle \left\{\left(\frac{1}{3}\right)^{n-1}\right\}_{n=2}^\infty\)</span></div></li>
+<li id="se-sequence-construct2-1-1-2-4"><div class="para" id="p-derived-se-sequence-construct2-1-1-2-4"><span class="process-math">\(\displaystyle \displaystyle \left\{\left(\frac{1}{3}\right)^{n+1}\right\}_{n=0}^\infty\)</span></div></li>
+<li id="se-sequence-construct2-1-1-2-5"><div class="para" id="p-derived-se-sequence-construct2-1-1-2-5"><span class="process-math">\(\displaystyle \displaystyle \left\{\left(\frac{1}{3}\right)^{n}\right\}_{n=0}^\infty\)</span></div></li>
+</ol>
+</div></article><article class="activity project-like" id="se-sequence-whichterm1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.1.3</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="se-sequence-whichterm1-1-1">
+<div class="para">Let <span class="process-math">\(a_n\)</span> be the <span class="process-math">\(n\)</span>th term in the sequence <span class="process-math">\(\displaystyle \left\{\frac{n+1}{n}\right\}_{n=2}^\infty\text{.}\)</span> Which of the following terms corresponds to the <span class="process-math">\(27^{th}\)</span> term of this sequence?</div>
+<ol class="upper-alpha ol-marker-2 cols2" id="se-sequence-whichterm1-1-1-5">
+<li id="se-sequence-whichterm1-1-1-5-1"><div class="para" id="p-derived-se-sequence-whichterm1-1-1-5-1"><span class="process-math">\(\displaystyle \dfrac{27}{26}\)</span></div></li>
+<li id="se-sequence-whichterm1-1-1-5-2"><div class="para" id="p-derived-se-sequence-whichterm1-1-1-5-2"><span class="process-math">\(\displaystyle \dfrac{26}{27}\)</span></div></li>
+<li id="se-sequence-whichterm1-1-1-5-3"><div class="para" id="p-derived-se-sequence-whichterm1-1-1-5-3"><span class="process-math">\(\displaystyle \dfrac{27}{28}\)</span></div></li>
+<li id="se-sequence-whichterm1-1-1-5-4"><div class="para" id="p-derived-se-sequence-whichterm1-1-1-5-4"><span class="process-math">\(\displaystyle \dfrac{28}{27}\)</span></div></li>
+<li id="se-sequence-whichterm1-1-1-5-5"><div class="para" id="p-derived-se-sequence-whichterm1-1-1-5-5"><span class="process-math">\(\displaystyle \dfrac{29}{28}\)</span></div></li>
+</ol>
+</div></article><article class="activity project-like" id="se-sequence-construct3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.1.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="se-sequence-construct3-1-1">Find an explicit formula for the sequence <span class="process-math">\(0, 3, 8, 15, 24, \ldots\text{.}\)</span>
+</div></article><article class="definition definition-like" id="def-geometric-arithmetic-sequence"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Geometric &amp; Arithmetic Sequences.</span>
+</h4>
+<div class="para" id="def-geometric-arithmetic-sequence-4-1">A sequence is said to be <dfn class="terminology">arithmetic</dfn> if the difference between every pair of consecutive terms is the same. A sequence is said to be <dfn class="terminology">geometric</dfn> if the ratio between every pair of consecutive terms is the same.</div></article><article class="activity project-like" id="se-sequence-arithmeticgeometric1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.1.5</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="se-sequence-arithmeticgeometric1-1-1">
+<div class="para">Is the sequence in <a href="SE1.html#se-sequence-construct3" class="xref" data-knowl="./knowl/xref/se-sequence-construct3.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 8.1.4">Activity 8.1.4</a> arithmetic, geometric, or neither?</div>
+<ol class="upper-alpha ol-marker-2 cols2" id="se-sequence-arithmeticgeometric1-1-1-2">
+<li id="se-sequence-arithmeticgeometric1-1-1-2-1"><div class="para" id="se-sequence-arithmeticgeometric1-1-1-2-1-1">Arithmetic</div></li>
+<li id="se-sequence-arithmeticgeometric1-1-1-2-2"><div class="para" id="se-sequence-arithmeticgeometric1-1-1-2-2-1">Geometric</div></li>
+<li id="se-sequence-arithmeticgeometric1-1-1-2-3"><div class="para" id="se-sequence-arithmeticgeometric1-1-1-2-3-1">Neither</div></li>
+</ol>
+</div></article><article class="definition definition-like" id="def-recursive"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Recursive Sequence.</span>
+</h4>
+<div class="para" id="def-recursive-3-1">A sequence is said to be <dfn class="terminology">recursive</dfn> if the terms are defined as a function of previous terms (with the necessary initial terms provided).</div></article><article class="activity project-like" id="se-sequence-recursive1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.1.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="se-sequence-recursive1-1-1">Consider the sequence defined by <span class="process-math">\(a_1=6\)</span> and <span class="process-math">\(a_{k+1}=4a_k-7\)</span> for <span class="process-math">\(k\geq 1\text{.}\)</span> What are the first four terms?</div></article><article class="activity project-like" id="se-sequence-recursive2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.1.7</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="se-sequence-recursive2-1-1">
+<div class="para">Consider the sequence <span class="process-math">\(2, 7, 22, 67, 202, \ldots\text{.}\)</span> Which of the following offers the best recursive formula for this sequence?</div>
+<ol class="upper-alpha ol-marker-2 cols2" id="se-sequence-recursive2-1-1-2">
+<li id="se-sequence-recursive2-1-1-2-1"><div class="para" id="p-derived-se-sequence-recursive2-1-1-2-1"><span class="process-math">\(\displaystyle a_{n+1} = 3a_n+1\)</span></div></li>
+<li id="se-sequence-recursive2-1-1-2-2"><div class="para" id="p-derived-se-sequence-recursive2-1-1-2-2">
+<span class="process-math">\(a_1=2, a_k=3a_{k-1}+1\)</span> for <span class="process-math">\(k\gt 1\)</span>
+</div></li>
+<li id="se-sequence-recursive2-1-1-2-3"><div class="para" id="p-derived-se-sequence-recursive2-1-1-2-3">
+<span class="process-math">\(a_1=2, a_2=7, a_k=3a_{k-1}+1\)</span> for <span class="process-math">\(k\gt 2\)</span>
+</div></li>
+</ol>
+</div></article><article class="activity project-like" id="se-sequence-recursive3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.1.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="se-sequence-recursive3-1-1">The <dfn class="terminology">Fibonacci sequence</dfn> is a famous recursive sequence, whose initial terms are given by <span class="process-math">\(1, 1, 2, 3, 5, 8\text{.}\)</span> Give a recursive formula for <span class="process-math">\(a_n\)</span> that works for all <span class="process-math">\(n\geq 3\)</span>
+</div></article><article class="definition definition-like" id="def-limit-sequence"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">Limit of a Sequence.</span>
+</h4>
+<div class="para logical" id="def-limit-sequence-3-1">
+<div class="para">Given a sequence <span class="process-math">\(\lrbrace{a_n}\text{,}\)</span> if the terms <span class="process-math">\(a_n\)</span> become arbitrarily close to a finite number <span class="process-math">\(L\)</span> as <span class="process-math">\(n\)</span> becomes sufficiently large, we say <span class="process-math">\(\lrbrace{a_n}\)</span> is a <dfn class="terminology">convergent sequence</dfn> and that <span class="process-math">\(L\)</span> is the <dfn class="terminology">limit</dfn> of the sequence. We write this as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{n\to\infty} a_n = L
+\end{equation*}
+</div>
+<div class="para">If a sequence is not convergent, it is <dfn class="terminology">divergent</dfn>
+</div>
+</div></article><article class="activity project-like" id="se-sequence-limit1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.1.9</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="se-sequence-limit1-1"><div class="para" id="se-sequence-limit1-1-1">For each of the following, (1) determine if the sequence converges or diverges, and (2) find the limit of the sequence (if possible).</div></div>
+<article class="task exercise-like" id="se-sequence-limit1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="se-sequence-limit1-2-1-1"><span class="process-math">\(\lrbrace{\dfrac{(-1)^n}{n}}_{n=1}^\infty\)</span></div></article><article class="task exercise-like" id="se-sequence-limit1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="se-sequence-limit1-3-1-1"><span class="process-math">\(\lrbrace{\dfrac{n^2+1}{n}}_{n=1}^\infty\)</span></div></article><article class="task exercise-like" id="se-sequence-limit1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="se-sequence-limit1-4-1-1"><span class="process-math">\(\lrbrace{\dfrac{n+1}{n}}_{n=1}^\infty\)</span></div></article><article class="task exercise-like" id="se-sequence-limit1-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="se-sequence-limit1-5-1-1"><span class="process-math">\(\lrbrace{\dfrac{2}{3^n}}_{n=0}^\infty\)</span></div></article></article><article class="theorem theorem-like" id="thm-sequence-limit-function"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.1.5</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="thm-sequence-limit-function-1-1">
+<div class="para">Consider a sequence <span class="process-math">\(\lbrace{a_n}\)</span> such that <span class="process-math">\(a_n = f(n)\)</span> for some function <span class="process-math">\(f\)</span> and for all <span class="process-math">\(n\geq 1\text{.}\)</span> If there exists a real number <span class="process-math">\(L\)</span> such that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x\to\infty} f(x) = L
+\end{equation*}
+</div>
+<div class="para">then <span class="process-math">\(\lrbrace{a_n}\)</span> converges to <span class="process-math">\(L\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{n\to\infty} a_n = L
+\end{equation*}
+</div>
+</div></article><article class="assemblage assemblage-like" id="SE1-activities-16"><h4 class="heading"><span class="title">Limit Laws for Sequences.</span></h4>
+<div class="para logical" id="SE1-activities-16-2">
+<div class="para">Let <span class="process-math">\(\lrbrace{a_n}\)</span> and <span class="process-math">\(\lrbrace{b_n}\)</span> be sequences which converge to <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> respectively. Let <span class="process-math">\(c\)</span> be a real number. Then,</div>
+<ol class="decimal" id="SE1-activities-16-2-6">
+<li id="SE1-activities-16-2-6-1"><div class="para" id="SE1-activities-16-2-6-1-1"><span class="process-math">\(\displaystyle \lim_{n\to\infty} c = c\)</span></div></li>
+<li id="SE1-activities-16-2-6-2"><div class="para" id="SE1-activities-16-2-6-2-1"><span class="process-math">\(\displaystyle \lim_{n\to\infty} ca_n = c\cdot \lim_{n\to\infty} a_n\)</span></div></li>
+<li id="SE1-activities-16-2-6-3"><div class="para logical" id="SE1-activities-16-2-6-3-1"><div class="displaymath process-math">
+\begin{equation*}
+\lim_{n\to\infty} (a_n\pm b_n) = \lim_{n\to\infty} a_n \pm \lim_{n\to\infty} b_n = A\pm B
+\end{equation*}
+</div></div></li>
+<li id="SE1-activities-16-2-6-4"><div class="para logical" id="SE1-activities-16-2-6-4-1"><div class="displaymath process-math">
+\begin{equation*}
+\lim_{n\to\infty} (a_n\cdot b_n) = \lrpar{\lim_{n\to\infty} a_n}\lrpar{\lim_{n\to\infty} b_n} = A\cdot B
+\end{equation*}
+</div></div></li>
+<li id="SE1-activities-16-2-6-5"><div class="para logical" id="SE1-activities-16-2-6-5-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{n\to\infty} \lrpar{\dfrac{a_n}{b_n}} = \dfrac{\lim_{n\to\infty} a_n}{\lim_{n\to\infty} b_n} = \dfrac{A}{B}
+\end{equation*}
+</div>
+<div class="para">provided that <span class="process-math">\(B\neq 0\)</span> and each <span class="process-math">\(b_n\neq 0\)</span>
+</div>
+</div></li>
+</ol>
+</div></article><article class="definition definition-like" id="def-bounded"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">Bounded Sequence.</span>
+</h4>
+<div class="para" id="def-bounded-6-1">A sequence <span class="process-math">\(\lrbrace{a_n}\)</span> is <dfn class="terminology">bounded above</dfn> if there exists a real number <span class="process-math">\(M\)</span> such that <span class="process-math">\(a_n \leq M\)</span> for every <span class="process-math">\(n\text{.}\)</span> <span class="process-math">\(\lrbrace{a_n}\)</span> is <dfn class="terminology">bounded below</dfn> if there exists a real number <span class="process-math">\(N\)</span> such that <span class="process-math">\(N \leq a_n\)</span> for every <span class="process-math">\(n\text{.}\)</span>
+</div> <div class="para" id="def-bounded-6-2">If a sequence is bounded above and bounded below, we say it is <dfn class="terminology">bounded</dfn>. If a sequence is not bounded (above or below), it is said to be <dfn class="terminology">unbounded</dfn>.</div></article><article class="fact theorem-like" id="SE1-activities-18"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">8.1.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="SE1-activities-18-1-1">If a sequence converges, then it is bounded</div></article><article class="definition definition-like" id="def-monotonic"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1.8</span><span class="period">.</span><span class="space"> </span><span class="title">Monotonic Sequence.</span>
+</h4>
+<div class="para" id="def-monotonic-5-1">A sequence is said to be <dfn class="terminology">monotonically increasing</dfn> for all <span class="process-math">\(n\geq N\)</span> if <span class="process-math">\(a_n\leq a_{n+1}\)</span> for all <span class="process-math">\(n\geq N\text{;}\)</span> if <span class="process-math">\(a_n \geq a_{n+1}\)</span> for all <span class="process-math">\(n\geq N\text{,}\)</span> then the sequence is said to be <dfn class="terminology">monotonically decreasing</dfn> for all <span class="process-math">\(n\geq N\text{.}\)</span>
+</div> <div class="para" id="def-monotonic-5-2">A sequence is said to be <dfn class="terminology">monotonic</dfn> or <dfn class="terminology">monotone</dfn> if it is monotonically increasing or monotonically decreasing.</div></article><article class="fact theorem-like" id="SE1-activities-20"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">8.1.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="SE1-activities-20-1-1">All monotonic, bounded sequences converge.</div></article></section></section></div>
 <div class="ptx-content-footer">
 <span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="SE2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
