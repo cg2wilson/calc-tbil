@@ -543,7 +543,7 @@
         <activity xml:id="mi-double-integrals-calculate5">
             <statement>
                 <p>
-                    Let <m>D</m>be the region bounded by the curves <m>y=3x^2 </m>and <m>y=1_2x^2</m>. Compute the integral <m>\ds \iint_D (x+3y)\, dA</m>
+                    Let <m>D</m>be the region bounded by the curves <m>y=3x^2 </m>and <m>y=1-2x^2</m>. Compute the integral <m>\ds \iint_D (x+3y)\, dA</m>
                 </p>
             </statement>
         </activity>
@@ -557,7 +557,7 @@
             <task>
                 <statement>
                     <p>
-                        True or false: we can compute <m>\ds \int_0^1\int_x^1 f(x,y)\, dy\,dx</m> directly.
+                        True or false: we can compute <m>\ds \int_0^1\int_0^y f(x,y)\, dy\,dx</m> directly.
                         <ol marker="A." cols="2">
                             <li>
                                 <p>
@@ -592,7 +592,7 @@
         <activity xml:id="mi-double-integrals-sketchregion1">
             <statement>
                 <p>
-                    Sketch the region of integration for the integral <m>\ds \int_0^1 \int_{1-y}^{\sqrt{y^2-1}} f(x,y)\, dA</m>.
+                    Sketch the region of integration for the integral <m>\ds \int_0^1 \int_{1-y}^{\sqrt{1-y^2}} f(x,y)\, dA</m>.
                 </p>
             </statement>
         </activity>
