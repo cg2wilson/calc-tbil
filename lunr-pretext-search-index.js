@@ -6001,7 +6001,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.3",
   "title": "MI3: Triple Integrals in Cartesian Coordinates",
-  "body": " MI3: Triple Integrals in Cartesian Coordinates     MI3  I can compute triple integrals over rectangular boxes, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.4: Triple Integrals    Read until \"Average Value of a Function of Three Variables\"        In-Class Activities   Triple Integral (Cartesian Coordinates)  triple integral (Cartesian coordinates)   The triple integral of a function over a rectangular box is defined to be      Computing a triple integral is very similar to computing a double integral.     Evaluate      Fubini's Theorem (Triple Integrals)  Fubini's theorem (triple integrals)   If is continuous on a rectangular box , then the following are equivalent:       Evaluate the triple integral where      Volume  volume   The volume of a closed, bounded region in space is given by       We will compute the integral , where is the solid tetrahedron bounded by the planes and     The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.    Based on the way the sketch is drawn, which variable should we integrate with respect to first?   x    y    z       Set up the integral with the appropriate bounds for your choice in part (b).    Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.      Consider the integral Write five different iterated integrals equal to the given integral.      Let . Compute where      "
+  "body": " MI3: Triple Integrals in Cartesian Coordinates     MI3  I can compute triple integrals over rectangular boxes, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.4: Triple Integrals    Read until \"Average Value of a Function of Three Variables\"        In-Class Activities   Triple Integral (Cartesian Coordinates)  triple integral (Cartesian coordinates)   The triple integral of a function over a rectangular box is defined to be      Computing a triple integral is very similar to computing a double integral.     Evaluate      Fubini's Theorem (Triple Integrals)  Fubini's theorem (triple integrals)   If is continuous on a rectangular box , then the following are equivalent:       Evaluate the triple integral where      Volume  volume   The volume of a closed, bounded region in space is given by       We will compute the integral , where is the solid tetrahedron bounded by the planes and     The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.    Based on the way the sketch is drawn, which variable should we integrate with respect to first?   x    y    z       Set up the integral with the appropriate bounds for your choice in part (b).    Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.      Consider the integral Write five different iterated integrals equal to the given integral.      Let . Compute where       Evaluate the triple integral , where is the region bounded by the paraboloid and the plane      "
 },
 {
   "id": "MI3-2",
@@ -6092,6 +6092,15 @@ var ptx_lunr_docs = [
   "number": "11.3.5",
   "title": "",
   "body": "  Let . Compute where    "
+},
+{
+  "id": "MI3-activities-11",
+  "level": "2",
+  "url": "MI3.html#MI3-activities-11",
+  "type": "Activity",
+  "number": "11.3.6",
+  "title": "",
+  "body": "  Evaluate the triple integral , where is the region bounded by the paraboloid and the plane    "
 },
 {
   "id": "MI4",
