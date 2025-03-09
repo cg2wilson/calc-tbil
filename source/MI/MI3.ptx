@@ -67,7 +67,7 @@
         <activity xml:id="mi-triple-integral-compute2">
             <statement>
                 <p>
-                    Evaluate the triple integral <m>\iiint_B z\sin x\cos y\, dV</m> where
+                    Evaluate the triple integral <m>\ds \iiint_B z\sin x\cos y\, dV</m> where
                     <me>B = \lrbrace{(x,y,z)\in\R^3\mid 0\leq x\leq \pi, \dfrac{3\pi}{2}\leq y\leq 2\pi, 1\leq z\leq 3}</me>
                 </p>
             </statement>
@@ -158,6 +158,14 @@
                     <me>
                         E = \lrbrace{(x,y,z)\in\R^3\mid 0\leq x\leq 1, 0\leq y\leq -x+1, 1\leq z\leq 2}
                     </me>
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <statement>
+                <p>
+                    Evaluate the triple integral <m>\ds \iiint_E \sqrt{x^2 + z^2}\, dV</m>, where <m>E</m> is the region bounded by the paraboloid <m>y = x^2 + z^2</m> and the plane <m>y = 4</m>
                 </p>
             </statement>
         </activity>

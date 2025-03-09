@@ -228,7 +228,7 @@
                     </me>
                     is given by 
                     <me>
-                        \ds \iint_D f(r,\theta) \,r\,dr\,d\theta = \int_{\theta = \alpha}^{\theta=\beta} \int_{r=h_1(\theta)} f(r,\theta)\,r\,dr\,d\theta
+                        \ds \iint_D f(r,\theta) \,r\,dr\,d\theta = \int_{\theta = \alpha}^{\theta=\beta} \int_{r=h_1(\theta)}^{r=h_2(\theta)} f(r,\theta)\,r\,dr\,d\theta
                     </me>
                 </p>
             </statement>
