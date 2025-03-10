@@ -144,9 +144,9 @@
                 <p>
                     Consider the integral
                     <me>
-                        \int_0^4\int_0^{4-z}\int_0^{\sqrt{y}} f(x,y,z)\,dx\,dy\,dz
+                        \int_0^1\int_0^{x^2}\int_0^{y^2} f(x,y,z)\,dz\,dy\,ds
                     </me>
-                    Write five different iterated integrals equal to the given integral.
+                    Rewrite the integral so that the order of integration is given by <m>dx\,dz\,dy</m>
                 </p>
             </statement>
         </activity>
