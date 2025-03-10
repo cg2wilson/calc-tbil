@@ -144,7 +144,7 @@
                 <p>
                     Consider the integral
                     <me>
-                        \int_0^1\int_0^{x^2}\int_0^{y^2} f(x,y,z)\,dz\,dy\,ds
+                        \int_0^1\int_0^{x^2}\int_0^{y^2} f(x,y,z)\,dz\,dy\,dx
                     </me>
                     Rewrite the integral so that the order of integration is given by <m>dx\,dz\,dy</m>
                 </p>
