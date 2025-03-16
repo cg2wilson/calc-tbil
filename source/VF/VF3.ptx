@@ -18,6 +18,85 @@
     <subsection xml:id="VF3-activities">
         <title>In-Class Activities</title>
 
+        <definition xml:id="def-scalar-line-integral">
+            <title>Line Integral (Scalar)</title>
+            <idx><h>line integral (scalar)</h></idx>
+            <statement>
+                <p>
+                    Let <m>f</m> be a continuous function with a domain that includes the smooth curve <m>C</m> with parametrization <m>\textbf{r}(t)</m> on <m>a\leq t\leq b</m>. Then, the <term>scalar line integral</term> of <m>f</m> over <m>C</m> is given by
+                    <me>
+                        \int_C f\, ds = \int_a^b f(\textbf{r}(t))||\textbf{r}'(t)||\, dt
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
+            <p>
+                The differential term <m>ds</m> in the definition of a scalar line integral represents the change in arc length of the curve <m>C</m>. 
+            </p>
+        </remark>
+
+        <activity>
+            <introduction>
+                <p>
+                    Consider a helix, parametrized as <m>\textbf{r}(t) = \lrangle{\cos t, \sin t, t}</m> on the interval <m>0
+                    \leq t\leq 2\pi</m>. Compute the line integral
+                    <me>
+                        \ds \int_C f\, ds
+                    </me>
+                    where <m>f(x,y,z) = xy + z</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>\textbf{r}'(t)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute <m>||\textbf{r}'(t)||</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Determine <m>f(\textbf{r}(t))</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use (a)-(c) to show that <m>\ds \int_C f\, ds = 2\sqrt{2}\pi^2</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <statement>
+                <p>
+                    If we reparameterize the helix as <m>\textbf{r}(t) = \lrangle{\cos 2\pi t, \sin 2\pi t, 2\pi t}</m>, what is the value of the line integral?
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <statement>
+                <p>
+                    Let <m>f(x,y) = y-x</m> and consider the curve given by
+                    <me>
+                        \textbf{r}(t) = \begin{cases}\lrangle{2t,t} \amp 0\leq t\leq 1 \\\ \lrangle{t+1,5-4t} \amp 1 \lt t\leq 3  \end{cases}
+                    </me>
+                    Compute the line integral <m>\ds \int_C f\, ds</m>
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>

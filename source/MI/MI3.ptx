@@ -169,6 +169,22 @@
                 </p>
             </statement>
         </activity>
+
+        <activity>
+            <statement>
+                <p>
+                    Compute the volume of the solid <m>W</m> which sits in the first octant and is bounded by the coordinate planes, the paraboloid <m>z= x^2 + y^2 + 9</m>, and the parabolic cylinder <m>y = 4-x^2</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <statement>
+                <p>
+                    Integrate the function <m>f(x,y,z) = 2x-y+z</m> over the region <m>W</m> which is bounded by the cylinder <m>z = y^2</m>, the <m>xy-</m>plane, and the planes <m>x=0, x=1, y=-2, y=2</m>.
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>

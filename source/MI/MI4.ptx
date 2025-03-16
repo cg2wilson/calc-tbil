@@ -265,7 +265,7 @@
         <activity xml:id="mi-spherical-integral-compute1">
             <statement>
                 <p>
-                    Evaluate <m>\iiint_B e^{(x^2 + y^2 + z^2)^{3/2}}\, dV</m>, where <m>B</m> is the unit ball. 
+                    Evaluate <m>\ds\iiint_B e^{(x^2 + y^2 + z^2)^{3/2}}\, dV</m>, where <m>B</m> is the unit ball. 
                 </p>
             </statement>
         </activity>
