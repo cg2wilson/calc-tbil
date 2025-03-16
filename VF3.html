@@ -97,14 +97,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.5.10';
+eBookConfig.runestone_version = '7.5.11';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.c2d04816128ebb44.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.ee5a0b116b7d0991.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.e0c6d4592e23c667.css">
 </head>
 <body id="TBIL Calculus 1" class="pretext book ignore-math">
@@ -547,7 +547,59 @@ true);
 </ul>
 </div></article><section class="subsection" id="VF3-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">12.3.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
-</h3></section></section></div>
+</h3>
+<article class="definition definition-like" id="def-scalar-line-integral"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Line Integral (Scalar).</span>
+</h4>
+<div class="para logical" id="def-scalar-line-integral-3-1">
+<div class="para">Let <span class="process-math">\(f\)</span> be a continuous function with a domain that includes the smooth curve <span class="process-math">\(C\)</span> with parametrization <span class="process-math">\(\textbf{r}(t)\)</span> on <span class="process-math">\(a\leq t\leq b\text{.}\)</span> Then, the <dfn class="terminology">scalar line integral</dfn> of <span class="process-math">\(f\)</span> over <span class="process-math">\(C\)</span> is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int_C f\, ds = \int_a^b f(\textbf{r}(t))||\textbf{r}'(t)||\, dt
+\end{equation*}
+</div>
+</div></article><article class="remark remark-like" id="VF3-activities-3"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">12.3.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="VF3-activities-3-1">The differential term <span class="process-math">\(ds\)</span> in the definition of a scalar line integral represents the change in arc length of the curve <span class="process-math">\(C\text{.}\)</span>
+</div></article><article class="activity project-like" id="VF3-activities-4"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.1</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="VF3-activities-4-1"><div class="para logical" id="VF3-activities-4-1-1">
+<div class="para">Consider a helix, parametrized as <span class="process-math">\(\textbf{r}(t) = \lrangle{\cos t, \sin t, t}\)</span> on the interval <span class="process-math">\(0
+leq t\leq 2\pi\text{.}\)</span> Compute the line integral</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\ds \int_C f\, ds
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(f(x,y,z) = xy + z\)</span>
+</div>
+</div></div>
+<article class="task exercise-like" id="VF3-activities-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="VF3-activities-4-2-1-1">Compute <span class="process-math">\(\textbf{r}'(t)\)</span>
+</div></article><article class="task exercise-like" id="VF3-activities-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="VF3-activities-4-3-1-1">Compute <span class="process-math">\(||\textbf{r}'(t)||\)</span>
+</div></article><article class="task exercise-like" id="VF3-activities-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="VF3-activities-4-4-1-1">Determine <span class="process-math">\(f(\textbf{r}(t))\)</span>
+</div></article><article class="task exercise-like" id="VF3-activities-4-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="VF3-activities-4-5-1-1">Use (a)-(c) to show that <span class="process-math">\(\ds \int_C f\, ds = 2\sqrt{2}\pi^2\)</span>
+</div></article></article><article class="activity project-like" id="VF3-activities-5"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="VF3-activities-5-1-1">If we reparameterize the helix as <span class="process-math">\(\textbf{r}(t) = \lrangle{\cos 2\pi t, \sin 2\pi t, 2\pi t}\text{,}\)</span> what is the value of the line integral?</div></article><article class="activity project-like" id="VF3-activities-6"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.3</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="VF3-activities-6-1-1">
+<div class="para">Let <span class="process-math">\(f(x,y) = y-x\)</span> and consider the curve given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{r}(t) = \begin{cases}\lrangle{2t,t} \amp 0\leq t\leq 1 \\\ \lrangle{t+1,5-4t} \amp 1 \lt t\leq 3  \end{cases}
+\end{equation*}
+</div>
+<div class="para">Compute the line integral <span class="process-math">\(\ds \int_C f\, ds\)</span>
+</div>
+</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="VF2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="VF4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
