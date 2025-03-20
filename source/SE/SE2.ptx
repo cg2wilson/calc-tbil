@@ -18,6 +18,334 @@
     <subsection xml:id="SE2-activities">
         <title>In-Class Activities</title>
 
-    </subsection>
+        <activity xml:id="se-partialsum-1">
+            <introduction>
+                <p>
+                    Consider the sequence <m>\lrbrace{a_n}_{n=0}^\infty = \lrbrace{\dfrac{1}{2^n}}_{n=0}^\infty</m> 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute the first five terms of the sequence.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute the following:
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>a_0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>a_0 + a_1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>a_0 + a_1 + a_2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>a_0 + a_1 + a_2 + a_3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>a_0 + a_1 + a_2 + a_3 + a_4</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
 
+        <definition xml:id="def-partial-sum">
+            <title>Partial Sum</title>
+            <idx><h>partial sum</h></idx>
+            <statement>
+                <p>
+                    Given a sequence <m>\lrbrace{a_n}_{n=N}^\infty</m>, the sum
+                    <me>
+                        S_k = \sum_{i=N}^k a_i = a_N + a_{N+1} + a_{N+2} + ... + a_k
+                    </me>
+                    is called the <term><m>k-th</m> partial sum</term> of the sequence.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="se-partialsum-2">
+            <introduction>
+                <p>
+                    Let <m>a_n=\dfrac{2}{3^n}.</m> Find the following partial sums of the sequence <m>\lrbrace{a_n}_{n=0}^\infty</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            S_0
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            S_1
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            S_5
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            S_{10}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="se-partialsum-3">
+            <statement>
+                <p>
+                    For the sequence <m>a_n = \dfrac{2}{3^n}</m>, which is the best way to find <m>S_{100}</m>?
+                    <ol marker="A.">
+                        <li>
+                            <p>
+                                Sum the first 101 terms of the sequence
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find a formula for the partial sums
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="se-partialsum-geometric">
+            <introduction>
+                <p>
+                    This activity will develop the formula for the partial sum of a geometric series, as well as the sum of an infinite geometric series. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Write out the partial sum <m>\ds S_k = \sum_{i=0}^k ar^i</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Multiply both sides of the equation by <m>1-r</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Simplify and isolate <m>S_k</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        For what value(s) of <m>r</m> does <m>\ds\sum_{n=0}^\infty ar^n</m> converge?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        To what value does <m>\ds\sum_{n=0}^\infty ar^n</m> converge?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <assemblage>
+            <title>Formulas for Geometric Series</title>
+            <p>
+                For a finite geometric series <m>\ds\sum_{n=0}^k ar^n</m>, the <m>k</m>-th partial sum is given by
+                <me>
+                    S_k = a\cdot \dfrac{1-r^{n+1}}{1-r}
+                </me>
+                For an infinite geometric series <m>\ds\sum_{n=0}^\infty ar^n</m>, the series converges if and only if <m>|r| \lt 1</m> and the sum is given by
+                <me>
+                    \dfrac{a}{1-r}
+                </me>
+            </p>
+        </assemblage>
+
+        <fact>
+            <statement>
+                <p>
+                    For any series, the indices can be manipulated. For example, the two series below are equivalent
+                    <me>
+                        \sum_{n=0}^\infty ar^n = \sum_{n=1}^\infty ar^{n-1}
+                    </me>    
+                    as are these
+                    <me>
+                        \sum_{n=1}^\infty ar^n = \sum_{n=0}^\infty ar^{n+1}
+                    </me>      
+                </p>
+            </statement>
+        </fact>
+
+        <activity xml:id="se-geometric-convdiv-1">
+            <introduction>
+                <p>
+                    Determine if the geometric series below converge or diverge. If they converge, find its value.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=0}^\infty \dfrac{(-3)^n}{4^n}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=0}^\infty e^{2n}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=2}^\infty (0.6)^n</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="se-geometric-number-1">
+            <introduction>
+                <p>
+                    This activity will convert the number <m>4.151515...</m> into a fraction.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Express 0.15 as a fraction; do not reduce
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now express 0.0015 as a fraction; do not reduce
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now write 0.000015 as a fraction; do not reduce. What pattern do you see emerging from (a) to (c)?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use part (c) to complete the activity.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    Consider the series <m>\ds \sum_{n=1}^\infty \dfrac{1}{n(n+1)}</m>. This is called a <term>telescoping series</term>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Use partial fractions to decompose the summand.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Write out several terms in the series; what pattern do you notice?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find the sum of the series. 
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity>
+            <statement>
+                <p>
+                    Determine if the series <m>\ds \sum_{n=2}^\infty \ln\lrpar{\dfrac{1}{n(n-1)}}</m> converges or diverges; if it converges, give its sum.
+                </p>
+            </statement>
+        </activity>
+
+        <activity>
+            <introduction>
+                <p>
+                    For each of the series below, determine if they converge or diverge. If the series converges, give its value.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>-1 + \ds \sum_{n=1}^\infty 2^{-n+1}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>-7 + \lrpar{-\dfrac{3}{7}}^2 + \lrpar{-\dfrac{3}{7}}^3 + ...</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>-6 + \lrpar{\dfrac{5}{4}}^3 + \lrpar{\dfrac{5}{4}}^4</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </subsection>
 </section>

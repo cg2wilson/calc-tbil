@@ -37,7 +37,7 @@
             </p>
         </remark>
 
-        <activity>
+        <activity xml:id="vf-scalar-line-integral-1">
             <introduction>
                 <p>
                     Consider a helix, parametrized as <m>\textbf{r}(t) = \lrangle{\cos t, \sin t, t}</m> on the interval <m>0
@@ -78,7 +78,7 @@
             </task>
         </activity>
 
-        <activity>
+        <activity xml:id="vf-scalar-line-integral-2">
             <statement>
                 <p>
                     If we reparameterize the helix as <m>\textbf{r}(t) = \lrangle{\cos 2\pi t, \sin 2\pi t, 2\pi t}</m>, what is the value of the line integral?
@@ -86,7 +86,7 @@
             </statement>
         </activity>
 
-        <activity>
+        <activity xml:id="vf-scalar-line-integral-3">
             <statement>
                 <p>
                     Let <m>f(x,y) = y-x</m> and consider the curve given by
@@ -97,7 +97,212 @@
                 </p>
             </statement>
         </activity>
-    </subsection>
 
+        <fact>
+            <statement>
+                <p>
+                    A scalar line integral represents the net area between the projection of the curve onto the <m>xy-</m>plane and the curve itself.
+                </p>
+            </statement>
+        </fact>
+
+        <definition xml:id="def-vector-line-integral">
+            <title>Line Integral (Vector)</title>
+            <idx><h>line integral (vector)</h></idx>
+            <statement>
+                <p>
+                    Let <m>\textbf{F}</m> be a continuous vector field defined on some smooth curve <m>C</m> given by the vector function <m>\textbf{r}(t), a\leq t\leq b</m>. Then, the <term>line integral of F along C</term> is given by
+                    <me>
+                        \int_C \textbf{F}\cdot d\textbf{r} = \int_a^b \textbf{F}(\textbf{r}(t))\cdot \textbf{r}'(t)\, dt = \int_C \textbf{F}\cdot \textbf{T}\, ds
+                    </me>
+                    where <m>\textbf{T}</m> is the unit tangent vector at a given point.
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
+            <p>
+                The last integral indicates that work is the line integral (with respect to arc length) of the tangential component of the force.
+            </p>
+        </remark>
+
+        <activity xml:id="vf-vector-line-integral-1">
+            <introduction>
+                <p>
+                    Consider the force field <m>\textbf{F} = \lrangle{x^2,-xy}</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find the work done by moving a particle along the quarter circle given by <m>\textbf{r}(t) = \lrangle{\cos t, \sin t}</m>, <m>0\leq t\leq \pi/2</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find the work done by moving a particle along the same quarter circle, but parameterized as <m>\textbf{r}(t) = \lrangle{\sin t, \cos t}</m>, <m>0\leq t\leq \pi/2</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What do you notice about the two answers?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.
+                    </p>
+                    <image width = "50%">
+                        <sageplot>
+                            x,y = var('x,y')
+                            g = Graphics()
+                            g += plot_vector_field((x^2,-x*y),(x,0,1),(y,0,1), color="blue")
+                            g += parametric_plot((cos(x),sin(x)),(x,0,pi/2), color="red")
+                            g
+                        </sageplot>
+                    </image>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="vf-vector-line-integral-2">
+            <statement>
+                <p>
+                    Evaluate <m>\ds \int_C \textbf{F}\cdot d\textbf{r}</m>, where <m>\textbf{F}(x,y,z) = \lrangle{xy,yz,zx}</m> and <m>C</m> is given by the parameterization
+                    <me>
+                        \begin{cases}
+                            x = t \amp \\ 
+                            y = t^2 \amp \\ 
+                            z = t^3 \amp
+                        \end{cases}
+                    </me>
+                    on <m>0\leq t\leq 1</m>
+                </p>
+            </statement>
+        </activity>
+
+        <remark>
+            <p>
+                Since vector fields have components, we can write vector line integrals using <term>component form</term>:
+                <me>
+                    \ds \int_C \textbf{F}\cdot d\textbf{r} = \int_C P\, dx + Q\, dy + R\, dz
+                </me>
+                where <m>\textbf{F} = \lrangle{P,Q,R}</m>
+            </p>
+        </remark>
+
+        <activity xml:id="vf-vector-line-integral-3">
+            <statement>
+                <p>
+                    Evaluate <m>\ds \int_C \textbf{F}\cdot d\textbf{r}</m>, where <m>F</m> is the vector field <m>\lrangle{xy^2,-x^2}</m> and the curve <m>C</m> is parameterized by <m>\textbf{r}(t) = \lrangle{t^3,t^2}</m> on <m>0\leq t\leq 1</m>
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-flux-circulation">
+            <title>Flux and Circulation</title>
+            <idx><h>flux</h></idx>
+            <idx><h>circulation</h></idx>
+            <statement>
+                <p>
+                    The <term>flux</term> of a vector field <m>\textbf{F}</m> across a curve <m>C</m> is given by the integral
+                    <me>
+                        \ds \int_C \textbf{F}\cdot \textbf{N}\, ds = \int_a^b \textbf{F}(\textbf{r}(t))\cdot \textbf{n}(t)\, dt
+                    </me>
+                    where <m>\textbf{r}(t) = \lrangle{x(t),y(t)}</m> and <m>\textbf{n}(t) = \lrangle{y'(t),-x'(t)}</m>
+                </p>
+                <p>
+                    Let <m>C</m> be an oriented, closed curve. Then, the <term>circulation</term> of the vector field <m>\textbf{F}</m> along <m>C</m> is defined to be the line integral along <m>C</m>, but is denoted as
+                    <me>
+                        \oint_C \textbf{F}\cdot \textbf{T}\, ds
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
+            <p>
+                If the vector field <m>\textbf{F}</m> represents the velocity field of a fluid and <m>C</m> represents a permeable membrane, then the flux of <m>\textbf{F}</m> across <m>C</m> measures the rate of fluid flow across <m>C</m>
+            </p>
+            <p>
+                In the same scenario, circulation measures the tendency of the fluid to move in the direction of <m>C</m>.
+            </p>
+        </remark>
+
+        <activity xml:id="vf-flux-1">
+            <introduction>
+                <p>
+                    Let <m>\textbf{F}(x,y) = \lrangle{3x,3y}</m>, and let <m>C</m> be a unit circle oriented counterclockwise.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Identify a parametrization for <m>C</m>, and then find a normal vector to <m>C</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Compute the flux.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\textbf{F}</m> and <m>C</m> are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?
+                    </p>
+                    <image width = "50%">
+                        <sageplot>
+                            x,y = var('x,y')
+                            g = Graphics()
+                            g += plot_vector_field((3*x,3*y),(x,-1.5,1.5),(y,-1.5,1.5), color="blue")
+                            g += parametric_plot((cos(x),sin(x)),(x,0,2*pi), color="red")
+                            g
+                        </sageplot>
+                    </image>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        A new vector field and <m>C</m> are plotted below. What do you suspect will happen to the flux and why?
+                    </p>
+                    <image width = "50%">
+                        <sageplot>
+                            x,y = var('x,y')
+                            g = Graphics()
+                            g += plot_vector_field((3*y,3*x),(x,-1.5,1.5),(y,-1.5,1.5), color="blue")
+                            g += parametric_plot((cos(x),sin(x)),(x,0,2*pi), color="red")
+                            g
+                        </sageplot>
+                    </image>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The vector field in part (d) is given by <m>\textbf{G} = \lrangle{3y,3x}</m>; compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="vf-circulation-1">
+            <statement>
+                <p>
+                    Let <m>\textbf{F} = \lrangle{-y,x}</m> be a vector field, and let <m>C</m> be the unit circle, oriented clockwise. Compute the circulation of <m>\textbf{F}</m> along <m>C</m>. What happens when the orientation is changed to counterclockwise?
+                </p>
+            </statement>
+        </activity>
+    </subsection>
 </section>
 
