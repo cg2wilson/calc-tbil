@@ -4804,7 +4804,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.2",
   "title": "SE2: Series",
-  "body": " SE2: Series     SE2  I can determine if a series is geometric, telescoping, or neither, and find its sum if possible.      Pre-Class Preparation  Read the following sections of the text:    Section 5.2: Infinite Series    Read all sections        In-Class Activities   "
+  "body": " SE2: Series     SE2  I can determine if a series is geometric, telescoping, or neither, and find its sum if possible.      Pre-Class Preparation  Read the following sections of the text:    Section 5.2: Infinite Series    Read all sections        In-Class Activities    Consider the sequence     Compute the first five terms of the sequence.    Compute the following:                                Partial Sum  partial sum   Given a sequence , the sum is called the partial sum of the sequence.      Let Find the following partial sums of the sequence .                          For the sequence , which is the best way to find ?   Sum the first 101 terms of the sequence    Find a formula for the partial sums         This activity will develop the formula for the partial sum of a geometric series, as well as the sum of an infinite geometric series.    Write out the partial sum     Multiply both sides of the equation by     Simplify and isolate     For what value(s) of does converge?    To what value does converge?     Formulas for Geometric Series  For a finite geometric series , the -th partial sum is given by For an infinite geometric series , the series converges if and only if and the sum is given by      For any series, the indices can be manipulated. For example, the two series below are equivalent as are these       Determine if the geometric series below converge or diverge. If they converge, find its value.                     This activity will convert the number into a fraction.    Express 0.15 as a fraction; do not reduce    Now express 0.0015 as a fraction; do not reduce    Now write 0.000015 as a fraction; do not reduce. What pattern do you see emerging from (a) to (c)?    Use part (c) to complete the activity.      Consider the series . This is called a telescoping series .    Use partial fractions to decompose the summand.    Write out several terms in the series; what pattern do you notice?    Find the sum of the series.      Determine if the series converges or diverges; if it converges, give its sum.      For each of the series below, determine if they converge or diverge. If the series converges, give its value.                    "
 },
 {
   "id": "SE2-2",
@@ -4814,6 +4814,105 @@ var ptx_lunr_docs = [
   "number": "8.2",
   "title": "",
   "body": "   SE2  I can determine if a series is geometric, telescoping, or neither, and find its sum if possible.    "
+},
+{
+  "id": "se-partialsum-1",
+  "level": "2",
+  "url": "SE2.html#se-partialsum-1",
+  "type": "Activity",
+  "number": "8.2.1",
+  "title": "",
+  "body": "  Consider the sequence     Compute the first five terms of the sequence.    Compute the following:                              "
+},
+{
+  "id": "def-partial-sum",
+  "level": "2",
+  "url": "SE2.html#def-partial-sum",
+  "type": "Definition",
+  "number": "8.2.1",
+  "title": "Partial Sum.",
+  "body": " Partial Sum  partial sum   Given a sequence , the sum is called the partial sum of the sequence.   "
+},
+{
+  "id": "se-partialsum-2",
+  "level": "2",
+  "url": "SE2.html#se-partialsum-2",
+  "type": "Activity",
+  "number": "8.2.2",
+  "title": "",
+  "body": "  Let Find the following partial sums of the sequence .                       "
+},
+{
+  "id": "se-partialsum-3",
+  "level": "2",
+  "url": "SE2.html#se-partialsum-3",
+  "type": "Activity",
+  "number": "8.2.3",
+  "title": "",
+  "body": "  For the sequence , which is the best way to find ?   Sum the first 101 terms of the sequence    Find a formula for the partial sums      "
+},
+{
+  "id": "se-partialsum-geometric",
+  "level": "2",
+  "url": "SE2.html#se-partialsum-geometric",
+  "type": "Activity",
+  "number": "8.2.4",
+  "title": "",
+  "body": "  This activity will develop the formula for the partial sum of a geometric series, as well as the sum of an infinite geometric series.    Write out the partial sum     Multiply both sides of the equation by     Simplify and isolate     For what value(s) of does converge?    To what value does converge?   "
+},
+{
+  "id": "SE2-activities-8",
+  "level": "2",
+  "url": "SE2.html#SE2-activities-8",
+  "type": "Fact",
+  "number": "8.2.2",
+  "title": "",
+  "body": "  For any series, the indices can be manipulated. For example, the two series below are equivalent as are these    "
+},
+{
+  "id": "se-geometric-convdiv-1",
+  "level": "2",
+  "url": "SE2.html#se-geometric-convdiv-1",
+  "type": "Activity",
+  "number": "8.2.5",
+  "title": "",
+  "body": "  Determine if the geometric series below converge or diverge. If they converge, find its value.                  "
+},
+{
+  "id": "se-geometric-number-1",
+  "level": "2",
+  "url": "SE2.html#se-geometric-number-1",
+  "type": "Activity",
+  "number": "8.2.6",
+  "title": "",
+  "body": "  This activity will convert the number into a fraction.    Express 0.15 as a fraction; do not reduce    Now express 0.0015 as a fraction; do not reduce    Now write 0.000015 as a fraction; do not reduce. What pattern do you see emerging from (a) to (c)?    Use part (c) to complete the activity.   "
+},
+{
+  "id": "SE2-activities-11",
+  "level": "2",
+  "url": "SE2.html#SE2-activities-11",
+  "type": "Activity",
+  "number": "8.2.7",
+  "title": "",
+  "body": "  Consider the series . This is called a telescoping series .    Use partial fractions to decompose the summand.    Write out several terms in the series; what pattern do you notice?    Find the sum of the series.   "
+},
+{
+  "id": "SE2-activities-12",
+  "level": "2",
+  "url": "SE2.html#SE2-activities-12",
+  "type": "Activity",
+  "number": "8.2.8",
+  "title": "",
+  "body": "  Determine if the series converges or diverges; if it converges, give its sum.   "
+},
+{
+  "id": "SE2-activities-13",
+  "level": "2",
+  "url": "SE2.html#SE2-activities-13",
+  "type": "Activity",
+  "number": "8.2.9",
+  "title": "",
+  "body": "  For each of the series below, determine if they converge or diverge. If the series converges, give its value.                  "
 },
 {
   "id": "SE3",
@@ -6604,7 +6703,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.3",
   "title": "VF3: Line Integrals",
-  "body": " VF3: Line Integrals     VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Vector Fields    Read all sections      Line Integrals    Read all sections        In-Class Activities   Line Integral (Scalar)  line integral (scalar)   Let be a continuous function with a domain that includes the smooth curve with parametrization on . Then, the scalar line integral of over is given by      The differential term in the definition of a scalar line integral represents the change in arc length of the curve .     Consider a helix, parametrized as on the interval . Compute the line integral where     Compute     Compute     Determine     Use (a)-(c) to show that       If we reparameterize the helix as , what is the value of the line integral?      Let and consider the curve given by Compute the line integral      "
+  "body": " VF3: Line Integrals     VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Vector Fields    Read all sections      Line Integrals    Read all sections        In-Class Activities   Line Integral (Scalar)  line integral (scalar)   Let be a continuous function with a domain that includes the smooth curve with parametrization on . Then, the scalar line integral of over is given by      The differential term in the definition of a scalar line integral represents the change in arc length of the curve .     Consider a helix, parametrized as on the interval . Compute the line integral where     Compute     Compute     Determine     Use (a)-(c) to show that       If we reparameterize the helix as , what is the value of the line integral?      Let and consider the curve given by Compute the line integral       A scalar line integral represents the net area between the projection of the curve onto the plane and the curve itself.     Line Integral (Vector)  line integral (vector)   Let be a continuous vector field defined on some smooth curve given by the vector function . Then, the line integral of F along C is given by where is the unit tangent vector at a given point.     The last integral indicates that work is the line integral (with respect to arc length) of the tangential component of the force.     Consider the force field .    Find the work done by moving a particle along the quarter circle given by ,     Find the work done by moving a particle along the same quarter circle, but parameterized as ,     What do you notice about the two answers?    The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.         Evaluate , where and is given by the parameterization on      Since vector fields have components, we can write vector line integrals using component form : where      Evaluate , where is the vector field and the curve is parameterized by on      Flux and Circulation  flux  circulation   The flux of a vector field across a curve is given by the integral where and   Let be an oriented, closed curve. Then, the circulation of the vector field along is defined to be the line integral along , but is denoted as      If the vector field represents the velocity field of a fluid and represents a permeable membrane, then the flux of across measures the rate of fluid flow across   In the same scenario, circulation measures the tendency of the fluid to move in the direction of .     Let , and let be a unit circle oriented counterclockwise.    Identify a parametrization for , and then find a normal vector to .    Compute the flux.     and are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?       A new vector field and are plotted below. What do you suspect will happen to the flux and why?       The vector field in part (d) is given by ; compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.      Let be a vector field, and let be the unit circle, oriented clockwise. Compute the circulation of along . What happens when the orientation is changed to counterclockwise?     "
 },
 {
   "id": "VF3-2",
@@ -6634,31 +6733,130 @@ var ptx_lunr_docs = [
   "body": " The differential term in the definition of a scalar line integral represents the change in arc length of the curve .  "
 },
 {
-  "id": "VF3-activities-4",
+  "id": "vf-scalar-line-integral-1",
   "level": "2",
-  "url": "VF3.html#VF3-activities-4",
+  "url": "VF3.html#vf-scalar-line-integral-1",
   "type": "Activity",
   "number": "12.3.1",
   "title": "",
   "body": "  Consider a helix, parametrized as on the interval . Compute the line integral where     Compute     Compute     Determine     Use (a)-(c) to show that    "
 },
 {
-  "id": "VF3-activities-5",
+  "id": "vf-scalar-line-integral-2",
   "level": "2",
-  "url": "VF3.html#VF3-activities-5",
+  "url": "VF3.html#vf-scalar-line-integral-2",
   "type": "Activity",
   "number": "12.3.2",
   "title": "",
   "body": "  If we reparameterize the helix as , what is the value of the line integral?   "
 },
 {
-  "id": "VF3-activities-6",
+  "id": "vf-scalar-line-integral-3",
   "level": "2",
-  "url": "VF3.html#VF3-activities-6",
+  "url": "VF3.html#vf-scalar-line-integral-3",
   "type": "Activity",
   "number": "12.3.3",
   "title": "",
   "body": "  Let and consider the curve given by Compute the line integral    "
+},
+{
+  "id": "VF3-activities-7",
+  "level": "2",
+  "url": "VF3.html#VF3-activities-7",
+  "type": "Fact",
+  "number": "12.3.3",
+  "title": "",
+  "body": "  A scalar line integral represents the net area between the projection of the curve onto the plane and the curve itself.   "
+},
+{
+  "id": "def-vector-line-integral",
+  "level": "2",
+  "url": "VF3.html#def-vector-line-integral",
+  "type": "Definition",
+  "number": "12.3.4",
+  "title": "Line Integral (Vector).",
+  "body": " Line Integral (Vector)  line integral (vector)   Let be a continuous vector field defined on some smooth curve given by the vector function . Then, the line integral of F along C is given by where is the unit tangent vector at a given point.   "
+},
+{
+  "id": "VF3-activities-9",
+  "level": "2",
+  "url": "VF3.html#VF3-activities-9",
+  "type": "Remark",
+  "number": "12.3.5",
+  "title": "",
+  "body": " The last integral indicates that work is the line integral (with respect to arc length) of the tangential component of the force.  "
+},
+{
+  "id": "vf-vector-line-integral-1",
+  "level": "2",
+  "url": "VF3.html#vf-vector-line-integral-1",
+  "type": "Activity",
+  "number": "12.3.4",
+  "title": "",
+  "body": "  Consider the force field .    Find the work done by moving a particle along the quarter circle given by ,     Find the work done by moving a particle along the same quarter circle, but parameterized as ,     What do you notice about the two answers?    The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.      "
+},
+{
+  "id": "vf-vector-line-integral-2",
+  "level": "2",
+  "url": "VF3.html#vf-vector-line-integral-2",
+  "type": "Activity",
+  "number": "12.3.5",
+  "title": "",
+  "body": "  Evaluate , where and is given by the parameterization on    "
+},
+{
+  "id": "VF3-activities-12",
+  "level": "2",
+  "url": "VF3.html#VF3-activities-12",
+  "type": "Remark",
+  "number": "12.3.6",
+  "title": "",
+  "body": " Since vector fields have components, we can write vector line integrals using component form : where   "
+},
+{
+  "id": "vf-vector-line-integral-3",
+  "level": "2",
+  "url": "VF3.html#vf-vector-line-integral-3",
+  "type": "Activity",
+  "number": "12.3.6",
+  "title": "",
+  "body": "  Evaluate , where is the vector field and the curve is parameterized by on    "
+},
+{
+  "id": "def-flux-circulation",
+  "level": "2",
+  "url": "VF3.html#def-flux-circulation",
+  "type": "Definition",
+  "number": "12.3.7",
+  "title": "Flux and Circulation.",
+  "body": " Flux and Circulation  flux  circulation   The flux of a vector field across a curve is given by the integral where and   Let be an oriented, closed curve. Then, the circulation of the vector field along is defined to be the line integral along , but is denoted as    "
+},
+{
+  "id": "VF3-activities-15",
+  "level": "2",
+  "url": "VF3.html#VF3-activities-15",
+  "type": "Remark",
+  "number": "12.3.8",
+  "title": "",
+  "body": " If the vector field represents the velocity field of a fluid and represents a permeable membrane, then the flux of across measures the rate of fluid flow across   In the same scenario, circulation measures the tendency of the fluid to move in the direction of .  "
+},
+{
+  "id": "vf-flux-1",
+  "level": "2",
+  "url": "VF3.html#vf-flux-1",
+  "type": "Activity",
+  "number": "12.3.7",
+  "title": "",
+  "body": "  Let , and let be a unit circle oriented counterclockwise.    Identify a parametrization for , and then find a normal vector to .    Compute the flux.     and are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?       A new vector field and are plotted below. What do you suspect will happen to the flux and why?       The vector field in part (d) is given by ; compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.   "
+},
+{
+  "id": "vf-circulation-1",
+  "level": "2",
+  "url": "VF3.html#vf-circulation-1",
+  "type": "Activity",
+  "number": "12.3.8",
+  "title": "",
+  "body": "  Let be a vector field, and let be the unit circle, oriented clockwise. Compute the circulation of along . What happens when the orientation is changed to counterclockwise?   "
 },
 {
   "id": "VF4",
