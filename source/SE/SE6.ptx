@@ -18,7 +18,270 @@
     <subsection xml:id="SE6-activities">
         <title>In-Class Activities</title>
 
+        <theorem xml:id="thm-ratio-test">
+            <title>The Ratio Test</title>
+            <idx><h>ratio test</h></idx>
+            <statement>
+                <p>
+                    For the series <m>\ds \sum a_n</m>, let 
+                    <me>
+                        \ds \lim_{n\to\infty} \left|\dfrac{a_{n+1}}{a_n}\right| = L
+                    </me>
+                    Then, if
+                    <ul>
+                        <li>
+                            <p>
+                                <m>L \lt 1</m>, the series converges absolutely
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>L \gt 1</m>, the series diverges
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>L = 1</m>, the ratio test is inconclusive and another test must be used
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </theorem>
 
+        <definition xml:id="def-factorial">
+            <title>Factorial</title>
+            <idx><h>factorial</h></idx>
+            <statement>
+                <p>
+                    A <term>factorial</term> is a term given by the expression
+                    <me>
+                        n! = n\cdot (n-1)\cdot (n-2)\cdots 3\cdot 2\cdot 1
+                    </me>
+                </p>
+                <p>
+                    A factorial expresses the number of non-unique ways a set of <m>n</m> elements can be ordered.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="se-factorial-1">
+            <introduction>
+                <p>
+                    Which gives the value of <m>5!\,</m>?
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>4\cdot 3\cdot 2\cdot 1 = 24</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>5\cdot 4\cdot 3\cdot 2\cdot 1 = 120</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>5 + 4 + 3 + 2 + 1 = 15</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </introduction>
+        </activity>
+
+        <activity xml:id="se-factorial-2">
+            <statement>
+                <p>
+                    What is the value of <m>\dfrac{(n+1)!}{n!}</m>?
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="se-ratio-1">
+            <statement>
+                <p>
+                    Does the series <m>\ds \sum_{n=1}^\infty (-1)^n \dfrac{n^2}{5^n}</m> converge absolutely, conditionally, or not at all?
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="se-ratio-2">
+            <statement>
+                <p>
+                    Determine the convergence of <m>\ds \sum_{n=1}^\infty \dfrac{n^n}{n!}</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="se-ratio-3">
+            <introduction>
+                <p>
+                    Determine if the following series are absolutely convergent, conditionally convergent, or divergent.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \sum_{n=1}^\infty \dfrac{(-1)^{n-1}}{\sqrt{n}}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                             \ds \sum_{n=1}^\infty \dfrac{(-1)^{n+1}}{n^3+1}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \sum_{n=1}^\infty \dfrac{(-4)^n}{n^2}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \sum_{n=0}^\infty \dfrac{(-3)^n}{(2n+1)!}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <theorem xml:id="thm-root-test">
+            <title>The Root Test</title>
+            <idx><h>root test</h></idx>
+            <statement>
+                <p>
+                    For the series <m>\ds \sum a_n</m>, let 
+                    <me>
+                        \ds \lim_{n\to \infty}\sqrt[n]{|a_n|} = L
+                    </me>
+                    If
+                    <ul>
+                        <li>
+                            <p>
+                                <m>L \lt 1</m>, the series converges absolutely
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>L \gt 1</m>, the series diverges
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>L = 1</m>, the root test is inconclusive and another test must be used
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="se-root-1">
+            <statement>
+                <p>
+                    Does <m>\ds \sum_{n=1}^\infty \lrpar{\dfrac{1}{n+1}}^n</m> converge or diverge?
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="se-root-2">
+            <introduction>
+                Use the Root Test to determine if the series below converge or diverge.
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=1}^\infty \dfrac{13}{(6n-5)^n}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=1}^\infty \lrpar{-\ln \lrpar{e^2 + \dfrac{1}{n}}}^{n+1}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="se-converge-diverge-1">
+            <introduction>
+                <p>
+                    Determine if the series below converge absolutely, conditionally, or diverge.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=2}^\infty \dfrac{(-1)^n}{\ln n}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=1}^\infty \lrpar{\dfrac{1-n}{2+3n}}^n</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=1}^\infty \lrpar{\dfrac{n}{\ln n}}^n</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=1}^\infty \dfrac{(-1)^n\arctan n}{n^2}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=1}^\infty \dfrac{\sin(n\pi/6)}{1 + n\sqrt{n}}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=2}^\infty \dfrac{(-1)^n}{n\ln n}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="se-converge-diverge-2">
+            <statement>
+                <p>
+                    The terms of a series are defined recursively by the equations <m>a_1 = 2</m>, <m>a_{n+1} = \dfrac{5n+1}{4n+3}a_n</m>.  Determine if <m>\ds \sum a_n</m> converges or diverges.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="se-converge-diverge-3">
+            <statement>
+                <p>
+                    Let <m>\lrbrace{b_n}</m> be a sequence of positive numbers that converges to <m>\dfrac{1}{3}</m>.  Is the series <m>\ds \sum_{n=1}^\infty \dfrac{b_n^n\cos n\pi}{n}</m> absolutely convergent?
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>

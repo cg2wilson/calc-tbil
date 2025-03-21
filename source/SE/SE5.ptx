@@ -18,7 +18,231 @@
     <subsection xml:id="SE5-activities">
         <title>In-Class Activities</title>
 
+        <definition xml:id="def-alternating-series">
+            <title>Alternating Series</title>
+            <idx><h>alternating series</h></idx>
+            <statement>
+                <p>
+                    An <term>alternating series</term> is a series whose terms alternate between positive and negative values.
+                </p>
+            </statement>
+        </definition>
 
+        <theorem xml:id="thm-alternating-series-test">
+            <title>Alternating Series Test</title>
+            <idx><h>alternating series test</h></idx>
+            <statement>
+                <p>
+                    If the alternating series <m>\ds \sum (-1)^n a_n</m> converges if and only if the three conditions below are satisfied:
+                    <ol>
+                        <li>
+                            <p>
+                                <m>a_n</m> is always positive
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                There is an integer <m>N</m> such that <m>a_n \geq a_{n+1}</m> for all <m>n\geq N</m> (<m>a_n</m> is eventually decreasing)
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\ds \lim_{n\to \infty} a_n = 0</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="se-alternating-1">
+            <statement>
+                <p>
+                    Determine if the <term>alternating harmonic series</term>, <m>\ds \sum (-1)^n \dfrac{1}{n}</m>, converges or diverges.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="se-alternating-2">
+            <statement>
+                <p>
+                    The series <m>\ds \sum_{n=1}^\infty \dfrac{(-1)^n2^n}{5n-3}</m> diverges. Why?
+                    <ol marker="A.">
+                        <li>
+                            <p>
+                                It passes the alternating series test
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                It fails the alternating series test
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                It fails the test for divergence
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                It passes the test for divergence
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="se-alternating-3">
+            <introduction>
+                <p>
+                    Determine if the following series converge or diverge.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{k=1}^\infty (-1)^{n+1} \dfrac{k^2}{k^3 + 2}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds\sum_{n=1}^\infty (-1)^{n+1}ne^{-2n}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\dfrac{2}{3} - \dfrac{2}{5} + \dfrac{2}{7} - \dfrac{2}{9} + \dfrac{2}{11} - \cdots</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=1}^\infty (-1)^{n-1}\arctan n</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=1}^\infty \dfrac{n\cos (n\pi)}{2^n}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=1}^\infty (-1)^n \sin \lrpar{\dfrac{\pi}{n}}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-absolute-conditional-convergence">
+            <title>Absolute/Conditional Convergence</title>
+            <idx><h>absolute convergence</h></idx>
+            <idx><h>conditional convergence</h></idx>
+            <statement>
+                <p>
+                    A series <m>\ds \sum a_n</m> is <term>absolutely convergent</term> if the series <m>\ds \sum |a_n|</m> converges.
+                </p>
+                <p>
+                    If a series converges (but not absolutely), then it is said to be <term>conditionally convergent</term>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="se-absolute-convergence-1">
+            <statement>
+                <p>
+                    Which reason explains why the alternating harmonic series is conditionally convergent?
+                    <ol marker="A.">
+                        <li>
+                            <p>
+                                The harmonic series is convergent, so the alternating harmonic series must converge.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The harmonic series diverges and the alternating harmonic series converges.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The harmonic series diverges and the alternating harmonic series diverges as well.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The harmonic series converges but the alternating harmonic series diverges.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="se-absolute-convergence-2">
+            <statement>
+                <p>
+                    Argue why a convergent <m>p-</m>series must be absolutely convergent.
+                </p>
+            </statement>
+        </activity>
+
+        <theorem xml:id="thm-absolute-convergence-test">
+            <title>Absolute Convergence Test</title>
+            <idx><h>absolute convergence test</h></idx>
+            <statement>
+                <p>
+                    If <m>\ds \sum |a_n|</m> converges, then <m>\ds \sum a_n</m> also converges.
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="se-absolute-convergence-3">
+            <statement>
+                <p>
+                    Does the series <m>\ds \sum \dfrac{\sin 2n}{n^{3/2}}</m> converge or diverge?
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="se-absolute-convergence-4">
+            <statement>
+                <p>
+                    Determine the convergence status of the series <m>\ds \sum \dfrac{(-1)^n}{5n+1}</m>.
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                Cannot be determined
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Converges conditionally
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Converges absolutely
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Diverges
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+        
     </subsection>
 
 </section>

@@ -347,5 +347,81 @@
                 </statement>
             </task>
         </activity>
+
+        <theorem xml:id="thm-test-for-divergence">
+            <title>Test for Divergence</title>
+            <idx><h>divergence test</h></idx>
+            <statement>
+                <p>
+                    Given a sequence <m>\lrangle{a_n}</m>, if <m>\ds \lim_{n\to\infty} a_n \neq 0</m>, then the series  <m>\ds \sum a_n</m> diverges.
+                </p>
+            </statement>
+        </theorem>
+
+        <fact>
+            <statement>
+                <p>
+                    If a series <m>\ds \sum a_n</m> converges, then <m>\ds \lim_{n\to \infty} a_n = 0</m>
+                </p>
+            </statement>
+        </fact>
+
+        <remark>
+            <p>
+                If <m>\ds \lim_{n\to\infty} a_n = 0</m>, it is <alert>not true</alert> that <m>\sum a_n</m> must converge.
+            </p>
+        </remark>
+
+        <fact>
+            <statement>
+                <p>
+                    The <term>harmonic series</term>, <m>\ds \sum \dfrac{1}{n}</m> diverges
+                </p>
+            </statement>
+        </fact>
+
+        <activity xml:id="se-test-divergence-1">
+            <introduction>
+                <p>
+                    Determine if the following series diverge. If it doesn't diverge, is it necessarily true that it converges?
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \sum \dfrac{n^2}{5n^2 + 4}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \sum \dfrac{1}{2n}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \sum \dfrac{3^{n+1}}{(-2)^n}
+                        </m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>
+                            \ds \sum (-1)^n
+                        </m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 </section>

@@ -18,7 +18,546 @@
     <subsection xml:id="SE4-activities">
         <title>In-Class Activities</title>
 
-
+        <activity xml:id="activity-SQ6multipleofsequence">
+            <introduction>
+                <p>
+                    Let <m>\{a_n\}_{n=1}^\infty</m> be a sequence, with infinite series <m>\ds \sum_{n=1}^\infty a_n=a_1+a_2+\cdots </m>.  Suppose <m>\{b_n\}_{n=1}^\infty</m> is a sequence where each <m>b_n=3a_n</m>, with infinite series <m>\ds \sum_{n=1}^\infty b_n=\sum_{n=1}^\infty 3a_n=3a_1+3a_2+\cdots </m>.
+                </p>
+            </introduction>
+            <task>
+                <p>
+                If <m>\ds \sum_{n=1}^\infty a_n=5</m> what can be said about <m>\ds\sum_{n=1}^\infty b_n</m>?
+                <ol marker="A." cols="2">
+                    <li><m>\ds\sum_{n=1}^\infty b_n</m> converges but the value cannot be determined.</li>
+                    <li><m>\ds\sum_{n=1}^\infty b_n</m> converges to <m>3\cdot 5=15</m>.</li>
+                    <li><m>\ds\sum_{n=1}^\infty b_n</m> converges to some value other than 15.</li>
+                    <li><m>\ds\sum_{n=1}^\infty b_n</m> diverges.</li>
+                    <li>It cannot be determined whether <m>\ds\sum_{n=1}^\infty b_n</m> converges or diverges.</li>
+                </ol>
+                </p>
+            </task>
+            
+        <task>
+                <p>
+                If <m>\ds \sum_{n=1}^\infty a_n</m> diverges, what can be said about <m>\ds\sum_{n=1}^\infty b_n</m>?
+                <ol marker="A." cols="2">
+                    <li><m>\ds\sum_{n=1}^\infty b_n</m> converges but the value cannot be determined.</li>
+                    <li><m>\ds\sum_{n=1}^\infty b_n</m> converges and the value can be determined.</li>
+                    <li><m>\ds\sum_{n=1}^\infty b_n</m> diverges.</li>
+                    <li>It cannot be determined whether <m>\ds\sum_{n=1}^\infty b_n</m> converges or diverges.</li>
+                </ol>
+                </p>
+            </task>
+        </activity>
+        
+        
+        <activity xml:id="activity-SQ6sortofmultiplesequence">
+            <introduction>
+                <p>
+                    Recall that geometric series <me>\ds \sum_{n=0}^\infty \frac{1}{2^n}=1+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\cdots+\frac{1}{2^n}+\cdots=\frac{1}{1-\frac{1}{2}}=2.</me>
+                </p>
+            </introduction>
+            
+            <task>
+                <p>
+                    What can we say about the series <me>\ds 3+\frac{3}{2}+\frac{3}{4}+\frac{3}{8}+\cdots+\frac{3}{2^n}+\cdots?</me>
+                    
+                    <ol marker="A.">
+                    <li><m>\ds 3+\frac{3}{2}+\frac{3}{4}+\frac{3}{8}+\cdots+\frac{3}{2^n}+\cdots</m> converges to <m>3\cdot 2=6</m>.</li>
+                    <li><m>\ds 3+\frac{3}{2}+\frac{3}{4}+\frac{3}{8}+\cdots+\frac{3}{2^n}+\cdots</m> converges to some value other than 6.</li>    
+                    <li><m>\ds 3+\frac{3}{2}+\frac{3}{4}+\frac{3}{8}+\cdots+\frac{3}{2^n}+\cdots</m> diverges.</li>
+                    
+                </ol>
+                </p>
+            </task>
+            
+            <task>
+                <p>
+                    What do you think we can say about the series <me>\ds \frac{3.1}{2}+\frac{3.01}{4}+\frac{3.001}{8}+\cdots+\frac{3+(0.1)^n}{2^n}+\cdots?</me>
+                    
+                    <ol marker="A.">
+                    <li><m>\ds 3+\frac{3.1}{2}+\frac{3.01}{4}+\frac{3.001}{8}+\cdots+\frac{3+(0.1)^n}{2^n}+\cdots</m> converges to <m>3\cdot 2=6</m>.</li>
+                    <li><m>\ds 3+\frac{3.1}{2}+\frac{3.01}{4}+\frac{3.001}{8}+\cdots+\frac{3+(0.1)^n}{2^n}+\cdots</m> converges to some value other than 6.</li>    
+                    <li><m>\ds 3+\frac{3.1}{2}+\frac{3.01}{4}+\frac{3.001}{8}+\cdots+\frac{3+(0.1)^n}{2^n}+\cdots</m> diverges.</li>
+                    
+                </ol>
+                </p>
+            </task>
+        </activity>
+        
+        
+        
+        <activity xml:id="activity-SQ6sortofmultiplesequencediverge">
+            <introduction>
+                <p>
+                    Recall that the harmonic series <m>\ds \sum \dfrac{1}{n}</m> diverges.
+                </p>
+            </introduction>
+            
+            <task>
+                <p>
+                    What can we say about the series <me>\ds 5+\frac{5}{2}+\frac{5}{3}+\frac{5}{4}+\cdots+\frac{5}{n}+\cdots?</me>
+                    
+                    <ol marker="A.">
+                    <li><m>\ds 5+\frac{5}{2}+\frac{5}{3}+\frac{5}{4}+\cdots+\frac{5}{n}+\cdots</m> converges to a known value we can compute.</li>
+                    <li><m>\ds 5+\frac{5}{2}+\frac{5}{3}+\frac{5}{4}+\cdots+\frac{5}{n}+\cdots</m> converges to some unknown value.</li>    
+                    <li><m>\ds 5+\frac{5}{2}+\frac{5}{3}+\frac{5}{4}+\cdots+\frac{5}{n}+\cdots</m> diverges.</li>
+                    
+                </ol>
+                </p>
+            </task>
+            
+            <task>
+                <p>
+                    What do you think we can say about the series <me>\ds 4.9+\frac{4.99}{2}+\frac{4.999}{3}+\frac{4.9999}{4}+\cdots+\frac{5-(0.1)^n}{n}+\cdots?</me>
+                    
+                    <ol marker="A.">
+                    <li><m>\ds 4.9+\frac{4.99}{2}+\frac{4.999}{3}+\frac{4.9999}{4}+\cdots+\frac{5-(0.1)^n}{n}+\cdots</m> converges to a known value we can compute.</li>
+                    <li><m>\ds 4.9+\frac{4.99}{2}+\frac{4.999}{3}+\frac{4.9999}{4}+\cdots+\frac{5-(0.1)^n}{n}+\cdots</m> converges to some unknown value.</li>    
+                    <li><m>\ds 4.9+\frac{4.99}{2}+\frac{4.999}{3}+\frac{4.9999}{4}+\cdots+\frac{5-(0.1)^n}{n}+\cdots</m> diverges.</li>
+                    
+                </ol>
+                </p>
+            </task>
+        </activity>
+        
+        <theorem xml:id="thm-limit-comparison-test">
+            <title>The Limit Comparison Test</title>
+            <idx><h>limit comparison test</h></idx>
+            <statement>
+      <p>
+        Let <m>\ds\sum a_n</m> and <m>\ds\sum b_n</m> be series with positive terms.
+        If
+        <me>
+          \lim_{n \to \infty} \frac{b_n}{a_n} = c
+        </me>
+        for some positive (finite) constant <m>c</m>,
+        then <m>\ds\sum a_n</m> and <m>\ds\sum b_n</m> either both converge or both diverge.
+      </p>
+                </statement>
+        </theorem>
+        
+        
+        <activity xml:id="activity-SQ6conversenottrue">
+            <introduction>
+                <p>
+                    Recall that <me>\ds \sum_{n=1}^\infty \frac{1}{2^n}</me> converges.
+                </p>
+            </introduction>
+            <task>
+                <p>
+               Let <m>b_n=\frac{1}{n}</m>. Compute <m>\ds \lim_{n\to\infty}\frac{\frac{1}{n}}{\frac{1}{2^n}}</m>.
+                </p>
+                <ol marker="A." cols="2">
+                    <li><m>-\infty</m>.</li>
+                    <li><m>0</m>.</li>
+                    <li><m>\ds \frac{1}{2}</m>.</li>
+                    <li><m>1</m>.</li>
+                    <li><m>\infty</m>.</li>
+                </ol>
+            </task>
+            <task>
+                <p>
+                    Does <m>\ds\sum_{n=1}^\infty \frac{1}{n}</m> converge or diverge?
+                </p>
+            </task>
+            <task>
+                <p>
+                    Let <m>\ds b_n=\frac{1}{n^2}</m>.  Compute <m>\ds \lim_{n\to\infty}\frac{\frac{1}{n^2}}{\frac{1}{2^n}}</m>.
+                </p>
+                <ol marker="A." cols="2">
+                    <li><m>\infty</m>.</li> 
+                    <li><m>\ln(2)</m>.</li>
+                    <li><m>1</m>.</li>                    
+                    <li><m>\ds \frac{1}{2}</m>.</li>
+                    <li><m>-\infty</m>.</li>                    
+                </ol>               
+            </task>
+            <task>
+                <p>
+                    Does <m>\ds\sum_{n=1}^\infty \frac{1}{n^2}</m> converge or diverge?
+                </p>
+            </task>
+            <task>
+                <p>
+                    Let <m>\ds\sum a_n</m> and <m>\ds\sum b_n</m> be series with positive terms.
+        If
+        <me>
+          \lim_{n \to \infty} \frac{b_n}{a_n}
+        </me>
+                    diverges, can we conclude that <m>\ds \sum b_n</m> converges or diverges?
+                </p>
+            </task>
+        </activity>
+        
+        
+        <activity xml:id="activity-SQ6useLCT">
+            <introduction>
+                <p>
+                    We wish to determine if <m>\ds \sum_{n=1}^\infty \frac{1}{4^n-1}</m> converges or diverges.
+                </p>
+            </introduction>
+            <task>
+                <p>
+                    Compute <me>\ds\lim_{n\to\infty}\frac{\frac{1}{4^n-1}}{\frac{1}{4^n}}.</me>
+                </p>
+                
+            </task>
+            <task>
+                <p>Does the geometric series <m>\ds \sum_{n=1}^\infty \frac{1}{4^n}</m> converge or diverge?</p>
+            </task>
+            <task>
+                <p>
+                    Does <m>\ds \sum_{n=1}^\infty \frac{1}{4^n-1}</m> converge or diverge?
+                </p>
+            </task>
+        </activity>
+        
+        
+        <activity xml:id="activity-SQ6pickandcompare1">
+            <introduction>
+                <p>
+                    We wish to determine if <m>\ds \sum_{n=2}^\infty \frac{2}{\sqrt{n+3}}</m> converges or diverges using.
+                </p>
+            </introduction>
+            <task>
+                <p>
+                    To which of the following should we compare <m>\ds \{a_n\}=\left\{\frac{2}{\sqrt{n+3}}\right\}</m>?
+                    <ol marker="A." cols="2">
+                        <li><m>\ds \left\{\frac{1}{n}\right\}</m>.</li>
+                        <li><m>\ds \left\{\frac{1}{\sqrt{n}}\right\}</m>.</li>
+                        <li><m>\ds \left\{\frac{1}{n^2}\right\}</m>.</li>
+                        <li><m>\ds \left\{\frac{1}{2^n}\right\}</m>.</li>
+                    </ol>
+                </p>
+            </task>
+            <task>
+                <p>
+                    Compute <m>\ds \lim_{n\to\infty} \frac{b_n}{a_n}</m>.
+                </p>
+            </task>
+            <task>
+                <p>
+                    Compute <m>\ds \lim_{n\to\infty} \frac{a_n}{b_n}</m>.
+                </p>
+            </task>
+            <task>
+                <p>
+                    What is true about <m>\ds \lim_{n\to\infty} \frac{b_n}{a_n}</m> and <m>\ds \lim_{n\to\infty} \frac{a_n}{b_n}</m>?
+                    <ol marker="A." cols="2">
+                        <li>Their values are reciprocals.</li>
+                        <li>Their values negative reciprocals.</li>
+                        <li>They are both positive finite constants.</li>
+                        <li>Only one value is a finite positive constant.</li>
+                        <li>One value is <m>0</m> and the other value is infinite.</li>
+                    </ol>
+                </p>
+            </task>
+            <task>
+                <p>
+                    Does the series <m>\ds \sum_{n=2}^\infty \frac{1}{\sqrt{n}}</m> converge or diverge?
+                </p>
+            </task>
+            <task>
+                <p>
+                    Using your chosen sequence and the Limit Comparison Test, does <m>\ds \sum_{n=2}^\infty \frac{2}{\sqrt{n+3}}</m> converge or diverge?
+                </p>
+            </task>
+        </activity>
+        
+        
+        <activity xml:id="activity-SQ6pickandcompare2">
+            <introduction>
+                <p>
+                    We wish to determine if <m>\ds \sum_{n=1}^\infty \frac{3}{n^2+8n+5}</m> converges or diverges.
+                </p>
+            </introduction>
+            <task>
+                <p>
+                    To which of the following should we compare <m>\ds \{x_n\}=\left\{\frac{3}{n^2+8n+5} \right\}</m>?
+                    <ol marker="A." cols="2">
+                        <li><m>\ds \left\{\frac{1}{n}\right\}</m>.</li>
+                        <li><m>\ds \left\{\frac{1}{\sqrt{n}}\right\}</m>.</li>
+                        <li><m>\ds \left\{\frac{1}{n^2}\right\}</m>.</li>
+                        <li><m>\ds \left\{\frac{1}{2^n}\right\}</m>.</li>
+                    </ol>
+                </p>
+            </task>
+            <task>
+                <p>
+                    Using your chosen sequence and the Limit Comparison Test, does <m>\ds \frac{3}{n^2+8n+5}</m> converge or diverge?
+                </p>
+            </task>
+        </activity>
+        
+    <activity>
+        <p>
+            Use the Limit Comparison Test to determine if the series <m>\ds \sum_{n=5}^\infty \frac{2}{4^n}</m> converges or diverges.
+        </p>
+    </activity>
+        
+        <activity xml:id="activity-SQ6comparesequences">
+            <introduction>
+                <p>
+                    Consider sequences <m>\{a_n\}, \{b_n\}</m> where <m>a_n\geq b_n\geq 0</m>.
+                    <figure>
+                <caption>Plots of <m>\{a_n\}, \{b_n\}</m></caption>
+                    <image xml:id="comparesequences" width="100%">
+                        <description>Plots of sequences <m>\{a_n\}, \{b_n\}</m> where <m>a_n\geq b_n\geq 0</m>.</description>
+                        <sageplot>
+                        x = var('x')
+                        plt = Graphics()
+                        f(x) = 4*0.8^(x+1)
+                        g(x) = 4*0.7^(x+1)
+                        for i in [0,..,10]:
+                            plt += polygon(([(i,0),(i,f(i)),(i+1,f(i)),(i+1,0)]),fill='blue',alpha=0.25,edgecolor='black',axes=False)
+                            plt += polygon(([(i,0),(i,g(i)),(i+1,g(i)),(i+1,0)]),color='red',alpha=0.25,edgecolor='black')
+                        a0 = text('$a_0$',(1.25,f(0)),color='blue',fontsize=12)
+                        b0 = text('$b_0$',(1.25,g(0)),color='red',fontsize=12)
+                        a1 = text('$a_1$',(2.25,f(1)),color='blue',fontsize=12)
+                        b1 = text('$b_1$',(2.25,g(1)),color='red',fontsize=12)
+                        a2 = text('$a_2$',(3.25,f(2)),color='blue',fontsize=12)
+                        b2 = text('$b_2$',(3.25,g(2)),color='red',fontsize=12)
+                        plt += a0
+                        plt += b0
+                        plt += a1
+                        plt += b1
+                        plt += a2
+                        plt += b2
+                        plt += text('$\\cdots$',(11.5,.1),color='black',fontsize=15)
+                        plt += arrow((0,0),(12.5,0),arrowsize=0.5,color='black')
+                        plt += text('$x$', (12.75,0), color='black',fontsize=13)
+                        plt += arrow((0,0),(0,4),arrowsize=0.5,color='black')
+                        plt += text('$y$', (0,4.25),color='black',fontsize=13)
+                        plt
+                        </sageplot>
+                    </image>
+            </figure> 
+                </p>
+            </introduction>
+            
+            <task>
+                <p>
+                    Suppose that <m>\ds \sum_{n=0}^\infty a_n</m> converges.  What could be said about <m>\{b_n\}</m>?
+                    <ol marker="A." cols="2">
+                        <li><m>\ds \sum_{n=0}^\infty b_n</m> converges.</li>
+                        <li><m>\ds \sum_{n=0}^\infty b_n</m> diverges.</li>
+                        <li>Whether or not <m>\ds \sum_{n=0}^\infty b_n</m> converges or diverges cannot be determined with this information.</li>
+                    </ol>
+                </p>
+            </task>
+            
+            <task>
+                <p>
+                    Suppose that <m>\ds \sum_{n=1}^\infty a_n=\sum_{n=1}^\infty \frac{1}{n+1}</m> which diverges. Which of the following statements are true?
+                    <ol marker="A." cols="2">
+                        <li><m>\ds 0\leq \frac{1}{2n^2} \leq \frac{1}{n+1}</m> for each <m>n \geq 1</m> and <m>\ds \sum_{n=1}^\infty \frac{1}{2n^2}</m> is a convergent <m>p</m>-series where <m>p=2</m>.</li>
+                        <li><m>\ds 0\leq \frac{1}{2n}\leq \frac{1}{n+1}</m> for each <m>n \geq 1</m> and <m>\ds \sum_{n=1}^\infty \frac{1}{2n}</m> is a divergent <m>p</m>-series where <m>p=1</m>.</li>
+                    </ol>
+                </p>
+            </task>
+            
+            <task>
+                <p>
+                    Suppose that <m>\ds \sum_{n=0}^\infty a_n</m> was some series that diverges.  What could be said about <m>\{b_n\}</m>?
+                    <ol marker="A." cols="2">
+                        <li><m>\ds \sum_{n=0}^\infty b_n</m> converges.</li>
+                        <li><m>\ds \sum_{n=0}^\infty b_n</m> diverges.</li>
+                        <li>Whether or not <m>\ds \sum_{n=0}^\infty b_n</m> converges or diverges cannot be determined with this information.</li>
+                    </ol>
+                </p>
+            </task>
+            
+            
+            
+            <task>
+                <p>
+                    Suppose that <m>\ds \sum_{n=0}^\infty b_n</m> diverges.  What could be said about <m>\{a_n\}</m>?
+                    <ol marker="A." cols="2">
+                        <li><m>\ds \sum_{n=0}^\infty a_n</m> converges.</li>
+                        <li><m>\ds \sum_{n=0}^\infty a_n</m> diverges.</li>
+                        <li>Whether or not <m>\ds \sum_{n=0}^\infty a_n</m> converges or diverges cannot be determined with this information.</li>
+                    </ol>
+                </p>
+            </task>
+            
+            <task>
+                <p>
+                    Suppose that <m>\ds \sum_{n=0}^\infty b_n=\sum_{n=0}^\infty \frac{1}{3^n}</m> which converges. Which of the following statements are true?
+                    <ol marker="A." cols="2">
+                        <li><m>\ds 0\leq \frac{1}{3^n} \leq \frac{1}{2^n}</m> for each <m>n</m> and <m>\ds \sum_{n=0}^\infty \frac{1}{2^n}</m> is a convergent geometric series where <m>\ds |r|=\frac{1}{2} \lt 1</m>.</li>
+                        <li><m>\ds 0\leq \frac{1}{3^n} \leq 1</m> for each <m>n</m> and <m>\ds \sum_{n=0}^\infty 1</m> diverges by the Divergence Test.</li>
+                    </ol>
+                </p>
+            </task>
+            
+            <task>
+                <p>
+                    Suppose that <m>\ds \sum_{n=0}^\infty b_n</m> was some series that converges.  What could be said about <m>\{a_n\}</m>?
+                    <ol marker="A." cols="2">
+                        <li><m>\ds \sum_{n=0}^\infty a_n</m> converges.</li>
+                        <li><m>\ds \sum_{n=0}^\infty a_n</m> diverges.</li>
+                        <li>Whether or not <m>\ds \sum_{n=0}^\infty a_n</m> converges or diverges cannot be determined with this information.</li>
+                    </ol>
+                </p>
+            </task>
+            
+            
+        </activity>
+        
+        <fact xml:id="fact-SQ6comparesequence">
+            <statement>
+            <p>
+                Suppose we have sequences <m>\{a_n\}, \{b_n\}</m> so that for some <m>k</m> we have that <m>0\leq b_n\leq a_n</m> for each <m>k\geq n</m>. Then we have the following results:
+                <ul>
+                    <li>If <m>\ds\sum_{k=n}^\infty a_n</m> converges, then so does  <m>\ds\sum_{k=n}^\infty b_n</m>.</li>
+                    <li>If <m>\ds\sum_{k=n}^\infty b_n</m> diverges, then so does  <m>\ds\sum_{k=n}^\infty a_n</m>.</li>
+                </ul>
+            </p>
+           </statement>     
+        </fact>
+        
+        
+        <activity xml:id="activity-SQ6partialcompare">
+            <introduction>
+                <p>
+                    Suppose that you were handed positive sequences <m>\{a_n\}, \{b_n\}</m>.  For the first few values <m>a_n\geq b_n</m>, but after that what happens is unclear until <m>n=100</m>. Then for any <m>n\geq 100</m> we have that <m>a_n \leq b_n</m>.
+                    
+                    <figure>
+                <caption>Plots of <m>\{a_n\}, \{b_n\}</m></caption>
+                    <image xml:id="comparepartialsequences" width="100%">
+                        <description>Plots of sequences <m>\{a_n\}, \{b_n\}</m> where <m>a_n\geq b_n\geq 0</m> initially but eventually <m>a_n\leq b_n\geq 0</m>.</description>
+                        <sageplot>
+                        x = var('x')
+                        plt = Graphics()
+                        f(x) = 4*0.8^(x+1)
+                        g(x) = 4*0.7^(x+1)
+                        for i in [0,..,4]:
+                            plt += polygon(([(i,0),(i,f(i)),(i+1,f(i)),(i+1,0)]),fill='blue',alpha=0.25,edgecolor='black',axes=False)
+                            plt += polygon(([(i,0),(i,g(i)),(i+1,g(i)),(i+1,0)]),color='red',alpha=0.25,edgecolor='black')                          
+                        plt += text('$\\cdots$',(5.5,.5),color='black',fontsize=15)
+                        for i in [6,..,10]:
+                            plt += polygon(([(i,0),(i,f(i)),(i+1,f(i)),(i+1,0)]),color='cyan',alpha=0.25,edgecolor='black',axes=False)
+                            plt += polygon(([(i,0),(i,g(i)),(i+1,g(i)),(i+1,0)]),color='red',alpha=0.25,edgecolor='black')
+                        plt += arrow((0,0),(12.5,0),arrowsize=0.5,color='black')
+                        plt += text('$x$', (12.75,0), color='black',fontsize=13)
+                        plt += arrow((0,0),(0,4),arrowsize=0.5,color='black')
+                        plt += text('$y$', (0,4.25),color='black',fontsize=13)
+                        plt += text('100', (6,-0.25),color='black',fontsize=15)
+                        plt += text('$\\cdots$',(11.5,0.2),color='black',fontsize=15)
+                        plt
+                        </sageplot>
+                    </image>
+            </figure> 
+                </p>
+            </introduction>
+            <task>
+                <p>
+                    How might we best utilize <xref ref="fact-SQ6comparesequence"/> to determine the convergence of <m>\ds \sum_{n=0}^\infty a_n</m> or <m>\ds \sum_{n=0}^\infty b_n</m>?
+                    <ol marker="A." cols="2">
+                        <li>Since <m>a_n</m> is sometimes greater than, and sometimes less than <m>b_n</m>, there is no way to utilize <xref ref="fact-SQ6comparesequence"/>.</li>
+                        <li>Since initially, we have <m>b_n\leq a_n</m>, we can utilize <xref ref="fact-SQ6comparesequence"/> by assuming <m>a_n\geq b_n</m>.</li>
+                        <li>Since we can rewrite <m>\ds \sum_{n=0}^\infty a_n=\sum_{n=0}^{99} a_n+\sum_{n=100}^\infty a_n</m> and <m>\ds \sum_{n=0}^\infty b_n=\sum_{n=0}^{99} b_n+\sum_{n=100}^\infty b_n</m> and <m>\ds \sum_{n=0}^{99} a_n, \sum_{n=0}^{99} b_n</m> are necessarily finite, we can compare <m>\ds \sum_{n=100}^\infty a_n, \sum_{n=100}^\infty b_n</m> with <xref ref="fact-SQ6comparesequence"/>.</li>
+                    </ol>
+                </p>
+            </task>
+        </activity>
+        
+        
+        
+        <theorem xml:id="thm-direct-comparison-test">
+            <title>The Direct Comparison Test</title>
+            <idx><h>direct comparison test</h></idx>
+            <statement>
+      <p>
+        Let <m>\ds\sum a_n</m> and <m>\ds\sum b_n</m> be series with positive terms.
+        If there is a <m>k</m> such that <m>b_n\leq a_n</m> for each <m>n\geq k</m>, then:
+        <ul>
+                    <li>If <m>\ds \sum a_n</m> converges, then so does  <m>\ds \sum b_n</m>.</li>
+                    <li>If <m>\ds \sum b_n</m> diverges, then so does  <m>\ds \sum a_n</m>.</li>
+                </ul>
+      </p>
+                </statement>
+        </theorem>
+        
+        
+        <activity xml:id="activity-SQ6useDCT">
+            <introduction>
+                <p>
+                    Suppose we wish to determine if <m>\ds \sum_{n=1}^\infty \frac{1}{2n+3}</m> converged using the Direct Comparison Test.
+                </p>
+            </introduction>
+            
+            <task>
+                <p>
+                    Does <m>\ds \sum_{n=1}^\infty \frac{1}{3n}</m> converge or diverge?
+                </p>
+            </task>
+            
+            
+            <task>
+                <p>
+                    For which value <m>k</m> is <m>\ds\frac{1}{3n}\leq \frac{1}{2n+3}</m> for each <m>n\geq k</m>?
+                    <ol marker="A." cols="2">
+                        <li><m>\ds\frac{1}{3n}\leq \frac{1}{2n+3}</m> for each <m>n\geq k=0</m>.</li>
+                        <li><m>\ds\frac{1}{3n}\leq \frac{1}{2n+3}</m> for each <m>n\geq k=1</m>.</li>
+                        <li><m>\ds\frac{1}{3n}\leq \frac{1}{2n+3}</m> for each <m>n\geq k=2</m>.</li>
+                        <li><m>\ds\frac{1}{3n}\leq \frac{1}{2n+3}</m> for each <m>n\geq k=3</m>.</li>
+                        <li>There is no <m>k</m> for which <m>\ds \frac{1}{3n}\leq \frac{1}{2n+3}</m> for each <m>n\geq k</m>.</li>
+                    </ol>
+                </p>
+            </task>
+            
+            <task>
+                <p>
+                    Use the Direct Comparison Test and compare <m>\ds \sum_{n=1}^\infty \frac{1}{2n+3}</m> to <m>\ds \sum_{n=1}^\infty \frac{1}{3n}</m> to determine if <m>\ds \sum_{n=1}^\infty \frac{1}{2n+3}</m> converges or diverges.
+                </p>
+            </task>
+        
+        </activity>
+        
+        
+        <activity xml:id="activity-SQ6useDCT2">
+            <introduction>
+                <p>
+                    Suppose we wish to determine if <m>\ds \sum_{n=1}^\infty \frac{1}{n^2+5}</m> converged  using the Direct Comparison Test.
+                </p>
+            </introduction>
+            
+            <task>
+                <p>
+                    Which series should we compare <m>\ds \sum_{n=1}^\infty \frac{1}{n^2+5}</m> to best utilize the Direct Comparison Test?
+                    <ol marker="A." cols="2">
+                        <li><m>\ds\sum_{n=1}^\infty \frac{1}{n}</m>.</li>
+                        <li><m>\ds\sum_{n=1}^\infty \frac{1}{n^2}</m>.</li>
+                        <li><m>\ds\sum_{n=1}^\infty \frac{1}{2^n}</m>.</li>
+                        <li><m>\ds\sum_{n=1}^\infty \frac{1}{n+5}</m>.</li>
+                        <li><m>\ds\sum_{n=1}^\infty \frac{1}{n^2+5}</m>.</li>
+                        <li><m>\ds\sum_{n=1}^\infty \frac{1}{2^n+5}</m>.</li>
+                    </ol>
+                </p>
+            </task>
+            
+            <task>
+                <p>
+                    Using your chosen series and the Direct Comparison Test, does <m>\ds \sum_{n=1}^\infty \frac{1}{n^2+5}</m> converge or diverge?
+                </p>
+            </task>
+        
+        </activity>
+    
+<activity checkit-seed="8989" checkit-slug="SQ6" checkit-title="Comparison tests">
+    <introduction>
+        <p>
+            For each of the following series, determine if it converges or diverges, and explain your choice.</p></introduction>
+            
+                <task>
+                    <m>\ds \sum_{n= 4 }^\infty \frac{3}{\log\left(n\right) + 2}.</m>
+                </task>
+                <task>
+                    <m>\ds \sum_{n= 3 }^\infty \frac{1}{n^{2} + 2 \, n + 1}.</m>
+                </task>
+</activity>    
     </subsection>
 
 </section>
