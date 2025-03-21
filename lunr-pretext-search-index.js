@@ -4804,7 +4804,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.2",
   "title": "SE2: Series",
-  "body": " SE2: Series     SE2  I can determine if a series is geometric, telescoping, or neither, and find its sum if possible.      Pre-Class Preparation  Read the following sections of the text:    Section 5.2: Infinite Series    Read all sections        In-Class Activities    Consider the sequence     Compute the first five terms of the sequence.    Compute the following:                                Partial Sum  partial sum   Given a sequence , the sum is called the partial sum of the sequence.      Let Find the following partial sums of the sequence .                          For the sequence , which is the best way to find ?   Sum the first 101 terms of the sequence    Find a formula for the partial sums         This activity will develop the formula for the partial sum of a geometric series, as well as the sum of an infinite geometric series.    Write out the partial sum     Multiply both sides of the equation by     Simplify and isolate     For what value(s) of does converge?    To what value does converge?     Formulas for Geometric Series  For a finite geometric series , the -th partial sum is given by For an infinite geometric series , the series converges if and only if and the sum is given by      For any series, the indices can be manipulated. For example, the two series below are equivalent as are these       Determine if the geometric series below converge or diverge. If they converge, find its value.                     This activity will convert the number into a fraction.    Express 0.15 as a fraction; do not reduce    Now express 0.0015 as a fraction; do not reduce    Now write 0.000015 as a fraction; do not reduce. What pattern do you see emerging from (a) to (c)?    Use part (c) to complete the activity.      Consider the series . This is called a telescoping series .    Use partial fractions to decompose the summand.    Write out several terms in the series; what pattern do you notice?    Find the sum of the series.      Determine if the series converges or diverges; if it converges, give its sum.      For each of the series below, determine if they converge or diverge. If the series converges, give its value.                    "
+  "body": " SE2: Series     SE2  I can determine if a series is geometric, telescoping, or neither, and find its sum if possible.      Pre-Class Preparation  Read the following sections of the text:    Section 5.2: Infinite Series    Read all sections        In-Class Activities    Consider the sequence     Compute the first five terms of the sequence.    Compute the following:                                Partial Sum  partial sum   Given a sequence , the sum is called the partial sum of the sequence.      Let Find the following partial sums of the sequence .                          For the sequence , which is the best way to find ?   Sum the first 101 terms of the sequence    Find a formula for the partial sums         This activity will develop the formula for the partial sum of a geometric series, as well as the sum of an infinite geometric series.    Write out the partial sum     Multiply both sides of the equation by     Simplify and isolate     For what value(s) of does converge?    To what value does converge?     Formulas for Geometric Series  For a finite geometric series , the -th partial sum is given by For an infinite geometric series , the series converges if and only if and the sum is given by      For any series, the indices can be manipulated. For example, the two series below are equivalent as are these       Determine if the geometric series below converge or diverge. If they converge, find its value.                     This activity will convert the number into a fraction.    Express 0.15 as a fraction; do not reduce    Now express 0.0015 as a fraction; do not reduce    Now write 0.000015 as a fraction; do not reduce. What pattern do you see emerging from (a) to (c)?    Use part (c) to complete the activity.      Consider the series . This is called a telescoping series .    Use partial fractions to decompose the summand.    Write out several terms in the series; what pattern do you notice?    Find the sum of the series.      Determine if the series converges or diverges; if it converges, give its sum.      For each of the series below, determine if they converge or diverge. If the series converges, give its value.                    Test for Divergence  divergence test   Given a sequence , if , then the series diverges.      If a series converges, then      If , it is not true that must converge.     The harmonic series , diverges      Determine if the following series diverge. If it doesn't diverge, is it necessarily true that it converges?                         "
 },
 {
   "id": "SE2-2",
@@ -4915,13 +4915,58 @@ var ptx_lunr_docs = [
   "body": "  For each of the series below, determine if they converge or diverge. If the series converges, give its value.                  "
 },
 {
+  "id": "thm-test-for-divergence",
+  "level": "2",
+  "url": "SE2.html#thm-test-for-divergence",
+  "type": "Theorem",
+  "number": "8.2.3",
+  "title": "Test for Divergence.",
+  "body": " Test for Divergence  divergence test   Given a sequence , if , then the series diverges.   "
+},
+{
+  "id": "SE2-activities-15",
+  "level": "2",
+  "url": "SE2.html#SE2-activities-15",
+  "type": "Fact",
+  "number": "8.2.4",
+  "title": "",
+  "body": "  If a series converges, then    "
+},
+{
+  "id": "SE2-activities-16",
+  "level": "2",
+  "url": "SE2.html#SE2-activities-16",
+  "type": "Remark",
+  "number": "8.2.5",
+  "title": "",
+  "body": " If , it is not true that must converge.  "
+},
+{
+  "id": "SE2-activities-17",
+  "level": "2",
+  "url": "SE2.html#SE2-activities-17",
+  "type": "Fact",
+  "number": "8.2.6",
+  "title": "",
+  "body": "  The harmonic series , diverges   "
+},
+{
+  "id": "se-test-divergence-1",
+  "level": "2",
+  "url": "SE2.html#se-test-divergence-1",
+  "type": "Activity",
+  "number": "8.2.10",
+  "title": "",
+  "body": "  Determine if the following series diverge. If it doesn't diverge, is it necessarily true that it converges?                       "
+},
+{
   "id": "SE3",
   "level": "1",
   "url": "SE3.html",
   "type": "Section",
   "number": "8.3",
   "title": "SE3: The Integral Test",
-  "body": " SE3: The Integral Test     SE3  I can use the integral test to determine if a series converges or diverges.      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Divergence and Integral Tests    Read all sections        In-Class Activities   "
+  "body": " SE3: The Integral Test     SE3  I can use the integral test to determine if a series converges or diverges.      Pre-Class Preparation  Read the following sections of the text:    Section 5.3: The Divergence and Integral Tests    Read all sections        In-Class Activities   The Integral Test  integral test   Suppose is a series with positive terms. Suppose there exists a function and some positive integer such that    is continuous     is decreasing     for all    Then, and both converge or both diverge.      This activity will build the intuition for the integral test.  Consider the series     Find the first five terms of the sequence    Use rectangesl to represent the values of the first five terms. Using the geometric information, how can we find ?    Now graph the function with the rectangles. What can you say about the relationship between the value of the series and the value of the integral, as the inputs increase?                          What can we say about the improper integral ?   The improper integral converges    The improper integral diverges       What can we say about the series ?   The series converges    The series diverges         Use the Integral Test to show that the harmonic series diverges.      A series of the form is called a series     Recall that the harmonic series diverges. What value of corresponds to the harmonic series?                               What can you conclude about a series with ?   There is not enough information to draw a conclusion    The series converges    The series diverges       Under what condition(s) will the general series converge?                                                A series converges if and only if       Consider the series .    If we aim to use the integral test, which is an appropriate choice for ?                               Does the series convege or diverge?      Determine if the following series converge or diverge. You may or may need to use the integral test.                          The series converges, but we can't use the Integral Test to prove that. Why not?     "
 },
 {
   "id": "SE3-2",
@@ -4933,13 +4978,85 @@ var ptx_lunr_docs = [
   "body": "   SE3  I can use the integral test to determine if a series converges or diverges.    "
 },
 {
+  "id": "thm-integral-test",
+  "level": "2",
+  "url": "SE3.html#thm-integral-test",
+  "type": "Theorem",
+  "number": "8.3.1",
+  "title": "The Integral Test.",
+  "body": " The Integral Test  integral test   Suppose is a series with positive terms. Suppose there exists a function and some positive integer such that    is continuous     is decreasing     for all    Then, and both converge or both diverge.   "
+},
+{
+  "id": "se-integral-test-intuition",
+  "level": "2",
+  "url": "SE3.html#se-integral-test-intuition",
+  "type": "Activity",
+  "number": "8.3.1",
+  "title": "",
+  "body": "  This activity will build the intuition for the integral test.  Consider the series     Find the first five terms of the sequence    Use rectangesl to represent the values of the first five terms. Using the geometric information, how can we find ?    Now graph the function with the rectangles. What can you say about the relationship between the value of the series and the value of the integral, as the inputs increase?                          What can we say about the improper integral ?   The improper integral converges    The improper integral diverges       What can we say about the series ?   The series converges    The series diverges      "
+},
+{
+  "id": "se-integral-test-1",
+  "level": "2",
+  "url": "SE3.html#se-integral-test-1",
+  "type": "Activity",
+  "number": "8.3.2",
+  "title": "",
+  "body": "  Use the Integral Test to show that the harmonic series diverges.   "
+},
+{
+  "id": "se-pseries",
+  "level": "2",
+  "url": "SE3.html#se-pseries",
+  "type": "Activity",
+  "number": "8.3.3",
+  "title": "",
+  "body": "  A series of the form is called a series     Recall that the harmonic series diverges. What value of corresponds to the harmonic series?                               What can you conclude about a series with ?   There is not enough information to draw a conclusion    The series converges    The series diverges       Under what condition(s) will the general series converge?                                             "
+},
+{
+  "id": "SE3-activities-6",
+  "level": "2",
+  "url": "SE3.html#SE3-activities-6",
+  "type": "Fact",
+  "number": "8.3.2",
+  "title": "",
+  "body": "  A series converges if and only if    "
+},
+{
+  "id": "se-integral-test-2",
+  "level": "2",
+  "url": "SE3.html#se-integral-test-2",
+  "type": "Activity",
+  "number": "8.3.4",
+  "title": "",
+  "body": "  Consider the series .    If we aim to use the integral test, which is an appropriate choice for ?                               Does the series convege or diverge?   "
+},
+{
+  "id": "se-integral-test-3",
+  "level": "2",
+  "url": "SE3.html#se-integral-test-3",
+  "type": "Activity",
+  "number": "8.3.5",
+  "title": "",
+  "body": "  Determine if the following series converge or diverge. You may or may need to use the integral test.                       "
+},
+{
+  "id": "se-integral-test-4",
+  "level": "2",
+  "url": "SE3.html#se-integral-test-4",
+  "type": "Activity",
+  "number": "8.3.6",
+  "title": "",
+  "body": "  The series converges, but we can't use the Integral Test to prove that. Why not?   "
+},
+{
   "id": "SE4",
   "level": "1",
   "url": "SE4.html",
   "type": "Section",
   "number": "8.4",
   "title": "SE4: The Comparison Tests",
-  "body": " SE4: The Comparison Tests     SE4  I can use the direct comparison test and limit comparison test to determine if a series converges or diverges      Pre-Class Preparation  Read the following sections of the text:    Section 5.4: The Comparison Tests    Read all sections        In-Class Activities   "
+  "body": " SE4: The Comparison Tests     SE4  I can use the direct comparison test and limit comparison test to determine if a series converges or diverges      Pre-Class Preparation  Read the following sections of the text:    Section 5.4: The Comparison Tests    Read all sections        In-Class Activities    Let be a sequence, with infinite series . Suppose is a sequence where each , with infinite series .   If what can be said about ?  converges but the value cannot be determined.  converges to .  converges to some value other than 15.  diverges.  It cannot be determined whether converges or diverges.    If diverges, what can be said about ?  converges but the value cannot be determined.  converges and the value can be determined.  diverges.  It cannot be determined whether converges or diverges.       Recall that geometric series    What can we say about the series   converges to .  converges to some value other than 6.  diverges.    What do you think we can say about the series   converges to .  converges to some value other than 6.  diverges.       Recall that the harmonic series diverges.   What can we say about the series   converges to a known value we can compute.  converges to some unknown value.  diverges.    What do you think we can say about the series   converges to a known value we can compute.  converges to some unknown value.  diverges.      The Limit Comparison Test  limit comparison test   Let and be series with positive terms. If for some positive (finite) constant , then and either both converge or both diverge.      Recall that converges.   Let . Compute .  .  .  .  .  .   Does converge or diverge?  Let . Compute .  .  .  .  .  .   Does converge or diverge?  Let and be series with positive terms. If diverges, can we conclude that converges or diverges?     We wish to determine if converges or diverges.   Compute   Does the geometric series converge or diverge?  Does converge or diverge?     We wish to determine if converges or diverges using.   To which of the following should we compare ?  .  .  .  .    Compute .  Compute .  What is true about and ?  Their values are reciprocals.  Their values negative reciprocals.  They are both positive finite constants.  Only one value is a finite positive constant.  One value is and the other value is infinite.    Does the series converge or diverge?  Using your chosen sequence and the Limit Comparison Test, does converge or diverge?     We wish to determine if converges or diverges.   To which of the following should we compare ?  .  .  .  .    Using your chosen sequence and the Limit Comparison Test, does converge or diverge?    Use the Limit Comparison Test to determine if the series converges or diverges.     Consider sequences where .  Plots of   Plots of sequences where .       Suppose that converges. What could be said about ?  converges.  diverges.  Whether or not converges or diverges cannot be determined with this information.    Suppose that which diverges. Which of the following statements are true?  for each and is a convergent -series where .  for each and is a divergent -series where .    Suppose that was some series that diverges. What could be said about ?  converges.  diverges.  Whether or not converges or diverges cannot be determined with this information.    Suppose that diverges. What could be said about ?  converges.  diverges.  Whether or not converges or diverges cannot be determined with this information.    Suppose that which converges. Which of the following statements are true?  for each and is a convergent geometric series where .  for each and diverges by the Divergence Test.    Suppose that was some series that converges. What could be said about ?  converges.  diverges.  Whether or not converges or diverges cannot be determined with this information.       Suppose we have sequences so that for some we have that for each . Then we have the following results:  If converges, then so does .  If diverges, then so does .        Suppose that you were handed positive sequences . For the first few values , but after that what happens is unclear until . Then for any we have that .  Plots of   Plots of sequences where initially but eventually .       How might we best utilize to determine the convergence of or ?  Since is sometimes greater than, and sometimes less than , there is no way to utilize .  Since initially, we have , we can utilize by assuming .  Since we can rewrite and and are necessarily finite, we can compare with .      The Direct Comparison Test  direct comparison test   Let and be series with positive terms. If there is a such that for each , then:  If converges, then so does .  If diverges, then so does .        Suppose we wish to determine if converged using the Direct Comparison Test.   Does converge or diverge?  For which value is for each ?  for each .  for each .  for each .  for each .  There is no for which for each .    Use the Direct Comparison Test and compare to to determine if converges or diverges.     Suppose we wish to determine if converged using the Direct Comparison Test.   Which series should we compare to best utilize the Direct Comparison Test?  .  .  .  .  .  .    Using your chosen series and the Direct Comparison Test, does converge or diverge?     For each of the following series, determine if it converges or diverges, and explain your choice.      "
 },
 {
   "id": "SE4-2",
@@ -4951,13 +5068,157 @@ var ptx_lunr_docs = [
   "body": "   SE4  I can use the direct comparison test and limit comparison test to determine if a series converges or diverges    "
 },
 {
+  "id": "activity-SQ6multipleofsequence",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6multipleofsequence",
+  "type": "Activity",
+  "number": "8.4.1",
+  "title": "",
+  "body": "  Let be a sequence, with infinite series . Suppose is a sequence where each , with infinite series .   If what can be said about ?  converges but the value cannot be determined.  converges to .  converges to some value other than 15.  diverges.  It cannot be determined whether converges or diverges.    If diverges, what can be said about ?  converges but the value cannot be determined.  converges and the value can be determined.  diverges.  It cannot be determined whether converges or diverges.    "
+},
+{
+  "id": "activity-SQ6sortofmultiplesequence",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6sortofmultiplesequence",
+  "type": "Activity",
+  "number": "8.4.2",
+  "title": "",
+  "body": "  Recall that geometric series    What can we say about the series   converges to .  converges to some value other than 6.  diverges.    What do you think we can say about the series   converges to .  converges to some value other than 6.  diverges.    "
+},
+{
+  "id": "activity-SQ6sortofmultiplesequencediverge",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6sortofmultiplesequencediverge",
+  "type": "Activity",
+  "number": "8.4.3",
+  "title": "",
+  "body": "  Recall that the harmonic series diverges.   What can we say about the series   converges to a known value we can compute.  converges to some unknown value.  diverges.    What do you think we can say about the series   converges to a known value we can compute.  converges to some unknown value.  diverges.    "
+},
+{
+  "id": "thm-limit-comparison-test",
+  "level": "2",
+  "url": "SE4.html#thm-limit-comparison-test",
+  "type": "Theorem",
+  "number": "8.4.1",
+  "title": "The Limit Comparison Test.",
+  "body": " The Limit Comparison Test  limit comparison test   Let and be series with positive terms. If for some positive (finite) constant , then and either both converge or both diverge.   "
+},
+{
+  "id": "activity-SQ6conversenottrue",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6conversenottrue",
+  "type": "Activity",
+  "number": "8.4.4",
+  "title": "",
+  "body": "  Recall that converges.   Let . Compute .  .  .  .  .  .   Does converge or diverge?  Let . Compute .  .  .  .  .  .   Does converge or diverge?  Let and be series with positive terms. If diverges, can we conclude that converges or diverges?  "
+},
+{
+  "id": "activity-SQ6useLCT",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6useLCT",
+  "type": "Activity",
+  "number": "8.4.5",
+  "title": "",
+  "body": "  We wish to determine if converges or diverges.   Compute   Does the geometric series converge or diverge?  Does converge or diverge?  "
+},
+{
+  "id": "activity-SQ6pickandcompare1",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6pickandcompare1",
+  "type": "Activity",
+  "number": "8.4.6",
+  "title": "",
+  "body": "  We wish to determine if converges or diverges using.   To which of the following should we compare ?  .  .  .  .    Compute .  Compute .  What is true about and ?  Their values are reciprocals.  Their values negative reciprocals.  They are both positive finite constants.  Only one value is a finite positive constant.  One value is and the other value is infinite.    Does the series converge or diverge?  Using your chosen sequence and the Limit Comparison Test, does converge or diverge?  "
+},
+{
+  "id": "activity-SQ6pickandcompare2",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6pickandcompare2",
+  "type": "Activity",
+  "number": "8.4.7",
+  "title": "",
+  "body": "  We wish to determine if converges or diverges.   To which of the following should we compare ?  .  .  .  .    Using your chosen sequence and the Limit Comparison Test, does converge or diverge?  "
+},
+{
+  "id": "SE4-activities-10",
+  "level": "2",
+  "url": "SE4.html#SE4-activities-10",
+  "type": "Activity",
+  "number": "8.4.8",
+  "title": "",
+  "body": " Use the Limit Comparison Test to determine if the series converges or diverges.  "
+},
+{
+  "id": "activity-SQ6comparesequences",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6comparesequences",
+  "type": "Activity",
+  "number": "8.4.9",
+  "title": "",
+  "body": "  Consider sequences where .  Plots of   Plots of sequences where .       Suppose that converges. What could be said about ?  converges.  diverges.  Whether or not converges or diverges cannot be determined with this information.    Suppose that which diverges. Which of the following statements are true?  for each and is a convergent -series where .  for each and is a divergent -series where .    Suppose that was some series that diverges. What could be said about ?  converges.  diverges.  Whether or not converges or diverges cannot be determined with this information.    Suppose that diverges. What could be said about ?  converges.  diverges.  Whether or not converges or diverges cannot be determined with this information.    Suppose that which converges. Which of the following statements are true?  for each and is a convergent geometric series where .  for each and diverges by the Divergence Test.    Suppose that was some series that converges. What could be said about ?  converges.  diverges.  Whether or not converges or diverges cannot be determined with this information.    "
+},
+{
+  "id": "fact-SQ6comparesequence",
+  "level": "2",
+  "url": "SE4.html#fact-SQ6comparesequence",
+  "type": "Fact",
+  "number": "8.4.3",
+  "title": "",
+  "body": "  Suppose we have sequences so that for some we have that for each . Then we have the following results:  If converges, then so does .  If diverges, then so does .     "
+},
+{
+  "id": "activity-SQ6partialcompare",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6partialcompare",
+  "type": "Activity",
+  "number": "8.4.10",
+  "title": "",
+  "body": "  Suppose that you were handed positive sequences . For the first few values , but after that what happens is unclear until . Then for any we have that .  Plots of   Plots of sequences where initially but eventually .       How might we best utilize to determine the convergence of or ?  Since is sometimes greater than, and sometimes less than , there is no way to utilize .  Since initially, we have , we can utilize by assuming .  Since we can rewrite and and are necessarily finite, we can compare with .    "
+},
+{
+  "id": "thm-direct-comparison-test",
+  "level": "2",
+  "url": "SE4.html#thm-direct-comparison-test",
+  "type": "Theorem",
+  "number": "8.4.5",
+  "title": "The Direct Comparison Test.",
+  "body": " The Direct Comparison Test  direct comparison test   Let and be series with positive terms. If there is a such that for each , then:  If converges, then so does .  If diverges, then so does .     "
+},
+{
+  "id": "activity-SQ6useDCT",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6useDCT",
+  "type": "Activity",
+  "number": "8.4.11",
+  "title": "",
+  "body": "  Suppose we wish to determine if converged using the Direct Comparison Test.   Does converge or diverge?  For which value is for each ?  for each .  for each .  for each .  for each .  There is no for which for each .    Use the Direct Comparison Test and compare to to determine if converges or diverges.  "
+},
+{
+  "id": "activity-SQ6useDCT2",
+  "level": "2",
+  "url": "SE4.html#activity-SQ6useDCT2",
+  "type": "Activity",
+  "number": "8.4.12",
+  "title": "",
+  "body": "  Suppose we wish to determine if converged using the Direct Comparison Test.   Which series should we compare to best utilize the Direct Comparison Test?  .  .  .  .  .  .    Using your chosen series and the Direct Comparison Test, does converge or diverge?  "
+},
+{
+  "id": "SE4-activities-17",
+  "level": "2",
+  "url": "SE4.html#SE4-activities-17",
+  "type": "Activity",
+  "number": "8.4.13",
+  "title": "",
+  "body": "  For each of the following series, determine if it converges or diverges, and explain your choice.    "
+},
+{
   "id": "SE5",
   "level": "1",
   "url": "SE5.html",
   "type": "Section",
   "number": "8.5",
   "title": "SE5: The Alternating Series Test",
-  "body": " SE5: The Alternating Series Test     SE5  I can determine the convergence or divergence of an alternating series, and determine if the series converges absolutely or conditionally.      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: The Alternating Series Test    Read all sections        In-Class Activities   "
+  "body": " SE5: The Alternating Series Test     SE5  I can determine the convergence or divergence of an alternating series, and determine if the series converges absolutely or conditionally.      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: The Alternating Series Test    Read all sections        In-Class Activities   Alternating Series  alternating series   An alternating series is a series whose terms alternate between positive and negative values.     Alternating Series Test  alternating series test   If the alternating series converges if and only if the three conditions below are satisfied:    is always positive    There is an integer such that for all ( is eventually decreasing)              Determine if the alternating harmonic series , , converges or diverges.      The series diverges. Why?   It passes the alternating series test    It fails the alternating series test    It fails the test for divergence    It passes the test for divergence         Determine if the following series converge or diverge.                                   Absolute\/Conditional Convergence  absolute convergence  conditional convergence   A series is absolutely convergent if the series converges.  If a series converges (but not absolutely), then it is said to be conditionally convergent       Which reason explains why the alternating harmonic series is conditionally convergent?   The harmonic series is convergent, so the alternating harmonic series must converge.    The harmonic series diverges and the alternating harmonic series converges.    The harmonic series diverges and the alternating harmonic series diverges as well.    The harmonic series converges but the alternating harmonic series diverges.         Argue why a convergent series must be absolutely convergent.     Absolute Convergence Test  absolute convergence test   If converges, then also converges.      Does the series converge or diverge?      Determine the convergence status of the series .   Cannot be determined    Converges conditionally    Converges absolutely    Diverges        "
 },
 {
   "id": "SE5-2",
@@ -4969,13 +5230,112 @@ var ptx_lunr_docs = [
   "body": "   SE5  I can determine the convergence or divergence of an alternating series, and determine if the series converges absolutely or conditionally.    "
 },
 {
+  "id": "def-alternating-series",
+  "level": "2",
+  "url": "SE5.html#def-alternating-series",
+  "type": "Definition",
+  "number": "8.5.1",
+  "title": "Alternating Series.",
+  "body": " Alternating Series  alternating series   An alternating series is a series whose terms alternate between positive and negative values.   "
+},
+{
+  "id": "thm-alternating-series-test",
+  "level": "2",
+  "url": "SE5.html#thm-alternating-series-test",
+  "type": "Theorem",
+  "number": "8.5.2",
+  "title": "Alternating Series Test.",
+  "body": " Alternating Series Test  alternating series test   If the alternating series converges if and only if the three conditions below are satisfied:    is always positive    There is an integer such that for all ( is eventually decreasing)           "
+},
+{
+  "id": "se-alternating-1",
+  "level": "2",
+  "url": "SE5.html#se-alternating-1",
+  "type": "Activity",
+  "number": "8.5.1",
+  "title": "",
+  "body": "  Determine if the alternating harmonic series , , converges or diverges.   "
+},
+{
+  "id": "se-alternating-2",
+  "level": "2",
+  "url": "SE5.html#se-alternating-2",
+  "type": "Activity",
+  "number": "8.5.2",
+  "title": "",
+  "body": "  The series diverges. Why?   It passes the alternating series test    It fails the alternating series test    It fails the test for divergence    It passes the test for divergence      "
+},
+{
+  "id": "se-alternating-3",
+  "level": "2",
+  "url": "SE5.html#se-alternating-3",
+  "type": "Activity",
+  "number": "8.5.3",
+  "title": "",
+  "body": "  Determine if the following series converge or diverge.                                 "
+},
+{
+  "id": "def-absolute-conditional-convergence",
+  "level": "2",
+  "url": "SE5.html#def-absolute-conditional-convergence",
+  "type": "Definition",
+  "number": "8.5.3",
+  "title": "Absolute\/Conditional Convergence.",
+  "body": " Absolute\/Conditional Convergence  absolute convergence  conditional convergence   A series is absolutely convergent if the series converges.  If a series converges (but not absolutely), then it is said to be conditionally convergent    "
+},
+{
+  "id": "se-absolute-convergence-1",
+  "level": "2",
+  "url": "SE5.html#se-absolute-convergence-1",
+  "type": "Activity",
+  "number": "8.5.4",
+  "title": "",
+  "body": "  Which reason explains why the alternating harmonic series is conditionally convergent?   The harmonic series is convergent, so the alternating harmonic series must converge.    The harmonic series diverges and the alternating harmonic series converges.    The harmonic series diverges and the alternating harmonic series diverges as well.    The harmonic series converges but the alternating harmonic series diverges.      "
+},
+{
+  "id": "se-absolute-convergence-2",
+  "level": "2",
+  "url": "SE5.html#se-absolute-convergence-2",
+  "type": "Activity",
+  "number": "8.5.5",
+  "title": "",
+  "body": "  Argue why a convergent series must be absolutely convergent.   "
+},
+{
+  "id": "thm-absolute-convergence-test",
+  "level": "2",
+  "url": "SE5.html#thm-absolute-convergence-test",
+  "type": "Theorem",
+  "number": "8.5.4",
+  "title": "Absolute Convergence Test.",
+  "body": " Absolute Convergence Test  absolute convergence test   If converges, then also converges.   "
+},
+{
+  "id": "se-absolute-convergence-3",
+  "level": "2",
+  "url": "SE5.html#se-absolute-convergence-3",
+  "type": "Activity",
+  "number": "8.5.6",
+  "title": "",
+  "body": "  Does the series converge or diverge?   "
+},
+{
+  "id": "se-absolute-convergence-4",
+  "level": "2",
+  "url": "SE5.html#se-absolute-convergence-4",
+  "type": "Activity",
+  "number": "8.5.7",
+  "title": "",
+  "body": "  Determine the convergence status of the series .   Cannot be determined    Converges conditionally    Converges absolutely    Diverges      "
+},
+{
   "id": "SE6",
   "level": "1",
   "url": "SE6.html",
   "type": "Section",
   "number": "8.6",
   "title": "SE6: The Ratio and Root Tests",
-  "body": " SE6: The Ratio and Root Tests     SE6  I can use the ratio test and the root test to determine if a series converges absolutely, conditionally, or diverges.      Pre-Class Preparation  Read the following sections of the text:    Section 5.6: The Ratio and Root Tests    Read all sections        In-Class Activities   "
+  "body": " SE6: The Ratio and Root Tests     SE6  I can use the ratio test and the root test to determine if a series converges absolutely, conditionally, or diverges.      Pre-Class Preparation  Read the following sections of the text:    Section 5.6: The Ratio and Root Tests    Read all sections        In-Class Activities   The Ratio Test  ratio test   For the series , let Then, if    , the series converges absolutely     , the series diverges     , the ratio test is inconclusive and another test must be used        Factorial  factorial   A factorial is a term given by the expression   A factorial expresses the number of non-unique ways a set of elements can be ordered.      Which gives the value of ?                       What is the value of ?      Does the series converge absolutely, conditionally, or not at all?      Determine the convergence of       Determine if the following series are absolutely convergent, conditionally convergent, or divergent.                         The Root Test  root test   For the series , let If    , the series converges absolutely     , the series diverges     , the root test is inconclusive and another test must be used         Does converge or diverge?     Use the Root Test to determine if the series below converge or diverge.               Determine if the series below converge absolutely, conditionally, or diverge.                                    The terms of a series are defined recursively by the equations , . Determine if converges or diverges.      Let be a sequence of positive numbers that converges to . Is the series absolutely convergent?     "
 },
 {
   "id": "SE6-2",
@@ -4985,6 +5345,123 @@ var ptx_lunr_docs = [
   "number": "8.6",
   "title": "",
   "body": "   SE6  I can use the ratio test and the root test to determine if a series converges absolutely, conditionally, or diverges.    "
+},
+{
+  "id": "thm-ratio-test",
+  "level": "2",
+  "url": "SE6.html#thm-ratio-test",
+  "type": "Theorem",
+  "number": "8.6.1",
+  "title": "The Ratio Test.",
+  "body": " The Ratio Test  ratio test   For the series , let Then, if    , the series converges absolutely     , the series diverges     , the ratio test is inconclusive and another test must be used      "
+},
+{
+  "id": "def-factorial",
+  "level": "2",
+  "url": "SE6.html#def-factorial",
+  "type": "Definition",
+  "number": "8.6.2",
+  "title": "Factorial.",
+  "body": " Factorial  factorial   A factorial is a term given by the expression   A factorial expresses the number of non-unique ways a set of elements can be ordered.   "
+},
+{
+  "id": "se-factorial-1",
+  "level": "2",
+  "url": "SE6.html#se-factorial-1",
+  "type": "Activity",
+  "number": "8.6.1",
+  "title": "",
+  "body": "  Which gives the value of ?                    "
+},
+{
+  "id": "se-factorial-2",
+  "level": "2",
+  "url": "SE6.html#se-factorial-2",
+  "type": "Activity",
+  "number": "8.6.2",
+  "title": "",
+  "body": "  What is the value of ?   "
+},
+{
+  "id": "se-ratio-1",
+  "level": "2",
+  "url": "SE6.html#se-ratio-1",
+  "type": "Activity",
+  "number": "8.6.3",
+  "title": "",
+  "body": "  Does the series converge absolutely, conditionally, or not at all?   "
+},
+{
+  "id": "se-ratio-2",
+  "level": "2",
+  "url": "SE6.html#se-ratio-2",
+  "type": "Activity",
+  "number": "8.6.4",
+  "title": "",
+  "body": "  Determine the convergence of    "
+},
+{
+  "id": "se-ratio-3",
+  "level": "2",
+  "url": "SE6.html#se-ratio-3",
+  "type": "Activity",
+  "number": "8.6.5",
+  "title": "",
+  "body": "  Determine if the following series are absolutely convergent, conditionally convergent, or divergent.                       "
+},
+{
+  "id": "thm-root-test",
+  "level": "2",
+  "url": "SE6.html#thm-root-test",
+  "type": "Theorem",
+  "number": "8.6.3",
+  "title": "The Root Test.",
+  "body": " The Root Test  root test   For the series , let If    , the series converges absolutely     , the series diverges     , the root test is inconclusive and another test must be used      "
+},
+{
+  "id": "se-root-1",
+  "level": "2",
+  "url": "SE6.html#se-root-1",
+  "type": "Activity",
+  "number": "8.6.6",
+  "title": "",
+  "body": "  Does converge or diverge?   "
+},
+{
+  "id": "se-root-2",
+  "level": "2",
+  "url": "SE6.html#se-root-2",
+  "type": "Activity",
+  "number": "8.6.7",
+  "title": "",
+  "body": " Use the Root Test to determine if the series below converge or diverge.            "
+},
+{
+  "id": "se-converge-diverge-1",
+  "level": "2",
+  "url": "SE6.html#se-converge-diverge-1",
+  "type": "Activity",
+  "number": "8.6.8",
+  "title": "",
+  "body": "  Determine if the series below converge absolutely, conditionally, or diverge.                                 "
+},
+{
+  "id": "se-converge-diverge-2",
+  "level": "2",
+  "url": "SE6.html#se-converge-diverge-2",
+  "type": "Activity",
+  "number": "8.6.9",
+  "title": "",
+  "body": "  The terms of a series are defined recursively by the equations , . Determine if converges or diverges.   "
+},
+{
+  "id": "se-converge-diverge-3",
+  "level": "2",
+  "url": "SE6.html#se-converge-diverge-3",
+  "type": "Activity",
+  "number": "8.6.10",
+  "title": "",
+  "body": "  Let be a sequence of positive numbers that converges to . Is the series absolutely convergent?   "
 },
 {
   "id": "PS1",
