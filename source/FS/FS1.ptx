@@ -18,6 +18,223 @@
     <subsection xml:id="FS1-activities">
         <title>In-Class Activities</title>
 
+        <definition xml:id="def-divergence">
+            <title>Divergence</title>
+            <idx><h>divergence</h></idx>
+            <statement>
+                <p>
+                    For a vector field <m>\textbf{F} = \lrangle{P,Q,R}</m>, if each component function is differentiable, the <term>divergence</term> of <m>\textbf{F}</m> is given by
+                    <me>
+                        \divr{F}= P_x + Q_y + R_z
+                    </me>
+                </p>
+                <p>
+                    In terms of the del operator
+                    <me>
+                        \nabla = \lrangle{\dfrac{\partial}{\partial x},\dfrac{\partial}{\partial y},\dfrac{\partial}{\partial z}}
+                    </me>
+                    we can express the divergence of a vector field as
+                    <me>
+                        \divr{F} = \nabla\cdot\textbf{F}
+                    </me>
+                </p>
+                <p>
+                    The definition of divergence can be extended to a vector in <m>\R^n</m> in the natural way.
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
+            <p>
+                Divergence measures the net rate of fluid flow out from a specific point in a vector field; positive divergence means that more fluid flows out than in, and a negative divergence indicates more inflow than outflow.
+            </p>
+        </remark>
+
+        <activity xml:id="fs-divergence-1">
+            <introduction>
+                <p>
+                    Compute the divergence for each vector field. What does the value of the divergence tell you about the vector field at the point <m>(1,2,0)</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\textbf{F} = \lrangle{x^2y,xz,xyz}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\textbf{G} = \lrangle{xz,xyz,-y^2}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="fs-divergence-2">
+            <statement>
+                <p>
+                    Is it possible for the vector field <m>\textbf{F} = \lrangle{x^2y,y-xy^2}</m> to be a magnetic field?
+                    <ol marker="A.">
+                        <li>
+                            <p>
+                                Yes, because it's a vector field
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Yes, because the divergence is positive
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                No, because the divergence is positive
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                No, because the divergence is negative
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Yes, because the divergence is negative
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-curl">
+            <title>Curl</title>
+            <idx><h>curl</h></idx>
+            <statement>
+                <p>
+                    For a vector field <m>\textbf{F} = \lrangle{P,Q,R}</m> for which the first partials of each component exists, we define the <term>curl</term> of <m>\textbf{F}</m> to be
+                    <me>
+                        \curl{F} = \lrangle{R_y-Q_z,P_z-R_x,Q_x-P_y} = \left|\begin{matrix} \textbf{i} \amp \textbf{j} \amp \textbf{k} \\ \dfrac{\partial}{\partial x} \amp \dfrac{\partial}{\partial y} \amp \dfrac{\partial}{\partial z} \\ P \amp Q \amp R \end{matrix}\right|
+                    </me>   
+                </p>
+                <p>
+                    In terms of the del operator, we can write
+                    <me>
+                        \curl{F} = \nabla \times\textbf{F}
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <remark>
+            <p>
+                Curl represents the tendency of an object to rotate at that point about the axis in the direction of the vector produced; smaller magnitudes of the curl vectors indicate a slower rotation, while larger magnitudes indicate faster rotation.
+            </p>
+        </remark>
+
+        <fact>
+            <statement>
+                <p>
+                    The following facts are true about divergence and curl:
+                    <ul>
+                        <li>
+                            <p>
+                                <m>\nabla\cdot (\nabla \times \textbf{F}) = 0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\nabla \times (\nabla f) = \textbf{0}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>\textbf{F}</m> is a vector field defined on a simply connected subset of <m>\R^3</m> and <m>\curl{F} = \textbf{0}</m>, then <m>\textbf{F}</m> is conservative.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </fact>
+
+        <activity xml:id="fs-curl-1">
+            <statement>
+                <p>
+                    True or false: if <m>\textbf{F}</m> is conservative, then <m>\curl{F} =\textbf{0}</m>. Why?
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="fs-curl-2">
+            <introduction>
+                <p>
+                    Compute the curl of the vector fields given. What does the curl tell you at the point <m>(1,2,0)</m>?
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\textbf{F} = \lrangle{xz,xyz,-y^2}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\textbf{G} = \lrangle{x^2,-xe^y,2xyz}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\textbf{H} = \lrangle{x+yz,y+xz,z+xy}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="fs-curl-3">
+            <statement>
+                <p>
+                    The gravitational field between two objects <m>m_1</m> and <m>m_2</m>, 
+                    <me>
+                        \textbf{G} = -Gm_1m_2\lrangle{\dfrac{x}{(x^2+y^2+z^2)^{3/2}},\dfrac{y}{(x^2+y^2+z^2)^{3/2}},\dfrac{z}{(x^2+y^2+z^2)^{3/2}}}
+                    </me>
+                    has no spin. Prove this fact.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="fs-div-curl-1">
+            <introduction>
+                <p>
+                    Maxwell's equations relate an electric field <m>\textbf{E}</m> and magnetic field <m>\textbf{H}</m> as they vary with time in a region which contains no charge and no current. We can state these in terms of divergence and curl as
+                    <md>
+                        <mrow>\divr{E} = 0 \amp  \amp \divr{H} = 0</mrow>
+                        <mrow>\curl{E} = -\dfrac{1}{c}\dfrac{\partial\textbf{H}}{\partial t} \amp \amp \curl{H} = \dfrac{1}{c}\dfrac{\partial \textbf{E}}{\partial t} </mrow>
+                    </md>
+                    where <m>c</m> is the speed of light. 
+                </p>
+                <p>
+                    Show the following.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\nabla\times (\nabla\times \textbf{E}) = -\dfrac{1}{c^2} \dfrac{\partial^2\textbf{E}}{\partial t^2}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\nabla\times (\nabla\times \textbf{H}) = -\dfrac{1}{c^2} \dfrac{\partial^2\textbf{H}}{\partial t^2}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>

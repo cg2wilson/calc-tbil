@@ -29,6 +29,8 @@
     \newcommand{\Z}{\mathbb{Z}}
     \newcommand{\dc}{^\circ}
     \newcommand{\unknown}{{\color{gray} ?}}
+    \newcommand{\divr}[1]{\text{div}\,(\textbf{#1})}
+    \newcommand{\curl}[1]{\text{curl}\,(\textbf{#1})}
     \DeclareMathOperator{\arcsec}{arcsec}
     \DeclareMathOperator{\arccot}{arccot}
     \DeclareMathOperator{\arccsc}{arccsc}
