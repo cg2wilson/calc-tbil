@@ -71,12 +71,16 @@
             </statement>
         </activity>
 
-        <definition xml:id="def-connected">
-            <title>Connected Region</title>
+        <definition xml:id="def-connected-simply-connected">
+            <title>Connected Region/Simply Connected Region</title>
             <idx><h>connected region</h></idx>
+            <idx><h>simply connected region</h></idx>
             <statement>
                 <p>
                     A region <m>D</m> is said to be <term>connected</term> if for any two points in <m>D</m>, there exists a path between them which lies entirely in <m>D</m>. 
+                </p>
+                <p>
+                    <m>D</m> is further said to be <term>simply connected</term> if all it can be compressed to a single point. In particular, <m>D</m> cannot have any holes and must be connected.
                 </p>
             </statement>
         </definition>
