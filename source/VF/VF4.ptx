@@ -18,6 +18,253 @@
     <subsection xml:id="VF4-activities">
         <title>In-Class Activities</title>
 
+
+        <definition xml:id="def-closed-simple-curve">
+            <title>Closed Curve/Simple Curve</title>
+            <idx><h>closed curve</h></idx>
+            <idx><h>simple curve</h></idx>
+            <statement>
+                <p>
+                    A curve <m>C</m> is said to be <term>closed</term> if there is a parameterization of <m>C</m> given by <m>\textbf{r}(t)</m> for <m>a\leq t\leq b</m> such that <m>\textbf{r}(a) = \textbf{r}(b)</m> and the parameterization traverses the curve only once.
+                </p>
+                <p>
+                    A curve is said to be <term>simple</term> if it does not intersect itself, except possibly <m>t = a = b</m>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="vf-simple-closed-1">
+            <statement>
+                <p>
+                    The curve traced by the parameterization <m>\textbf{r}(t) = \lrangle{2\cos t, 3\sin t}</m>, <m>0\leq 6\pi</m> is shown below. 
+                </p>
+                <image width = "50%">
+                    <sageplot>
+                        t = var('t')
+                        parametric_plot((2*cos(t),3*sin(t)),(t,0,6*pi), color='blue')
+                    </sageplot>
+                </image>
+                <p>
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                The curve is simple and closed
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The curve is neither simple nor closed
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The curve is simple but not closed
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The curve is closed but not simple
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-connected">
+            <title>Connected Region</title>
+            <idx><h>connected region</h></idx>
+            <statement>
+                <p>
+                    A region <m>D</m> is said to be <term>connected</term> if for any two points in <m>D</m>, there exists a path between them which lies entirely in <m>D</m>. 
+                </p>
+            </statement>
+        </definition>
+
+        <theorem xml:id="thm-fundamental-thm-line-integrals">
+            <title>Fundamental Theorem of Line Integrals</title>
+            <idx><h>fundamental theorem of line integrals</h></idx>
+            <statement>
+                <p>
+                    Let <m>C</m> be a piecewise-smooth curve with parameterization <m>\textbf{r}(t)</m>, <m>a\leq t\leq b</m>. Let <m>f</m> be a function of two or three variables with first-order partial derivatives that exist and are continuous on <m>C</m>. Then,
+                    <me>
+                        \int_C \nabla f\cdot d\textbf{r} = f(\textbf{r}(b)) - f(\textbf{r}(a))
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+        
+        <activity xml:id="vf-ftli-1">
+            <introduction>
+                <p>
+                    Consider the vector field 
+                    <me>
+                        \textbf{F} = \lrangle{2xy-2y+(y+1)^2,(x-1)^2 + 2yx+2x}
+                    </me>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Confirm that <m>f(x,y) = (x-1)^2y + (y+1)^2x</m> is a potential function for <m>\textbf{F}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>C</m> is the lower half of the unit circle, oriented counterclockwise, compute <m>\ds \int_C \textbf{F}\cdot d\textbf{r}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Now compute <m>\ds \int_C \textbf{F}\cdot d\textbf{r}</m> if <m>C</m> is the straight-line path <m>(-1,0)</m> to <m>(1,0)</m>.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <definition xml:id="def-path-independence">
+            <title>Path Independence</title>
+            <idx><h>path independence</h></idx>
+            <statement>
+                <p>
+                    Let <m>\textbf{F}</m> be a vector field with domain <m>D</m>. <m>\textbf{F}</m> is said to the <term>path independent</term> if <m>\ds \int_{C_1}\textbf{F}\cdot d\textbf{r} = \int_{C_2} \textbf{F}\cdot d\textbf{r}</m> for any paths <m>C_1,C_2</m> in <m>D</m> with the same initial and terminal points.
+                </p>
+            </statement>
+        </definition>
+
+        <fact>
+            <statement>
+                <p>
+                    If <m>\textbf{F}</m> is a conservative vector field, then <m>\textbf{F}</m> is path independent
+                </p>
+            </statement>
+        </fact>
+
+        <fact>
+            <statement>
+                <p>
+                    Let <m>\textbf{F}</m> be a continuous vector field. Then, <m>\textbf{F}</m> has path independent line integrals if and only if <m>\oint_C \textbf{F}\cdot d\textbf{r} = 0</m> for all piecewise smooth, simple, closed curves in the domain of <m>\textbf{F}</m>.
+                </p>
+            </statement>
+        </fact>
+
+        <activity xml:id="vf-conservative-1">
+            <statement>
+                <p>
+                    True or false: the vector field <m>\lrangle{x^2y,y+5}</m> is conservative
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                True
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                False
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="vf-conservative-2">
+            <statement>
+                <p>
+                    Compute the circulation for the vector field 
+                    <me>\textbf{F} = \lrangle{2xy+\cos(2y),x^2-2x\sin(2y)}</me>
+                    along the ellipse <m>\dfrac{x^2}{4} + \dfrac{y^2}{9} =1 </m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="vf-find-potential-1">
+            <statement>
+                <p>
+                    Find a potential function for <m>\textbf{F}(x,y) = \lrangle{2xy^3,3x^2y^2+\cos(y)}</m>.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="vf-find-potential-2">
+            <statement>
+                <p>
+                    Determine if the vector field 
+                    <me>\textbf{F} = \lrangle{2xy+\cos(2y),x^2-2x\sin(2y)}</me>
+                    is conservative; if it is, find its potential function.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="vf-find-potential-3">
+            <statement>
+                <p>
+                    Find a potential function for <m>\textbf{F}(x,y) = \lrangle{e^xy^3+y,3e^xy^2+x}</m>
+                </p>
+            </statement>
+        </activity>
+
+
+        <activity xml:id="vf-ftli-2">
+            <statement>
+                <p>
+                    Compute the line integral <m>\ds \int_C \textbf{F}\cdot d\textbf{r}</m>, where 
+                    <me>
+                        \textbf{F}(x,y,z) = \lrangle{2xe^yz+e^xz,x^2e^yz,x^2e^y+e^x}
+                    </me>
+                    and <m>C</m> is any smooth curve that goes from the origin to <m>(1,1,1)</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="vf-ftli-3">
+            <introduction>
+                <p>
+                    This activity will prove the Law of Conservation of Energy. Let <m>\textbf{F}</m> be a continuous, conservative force field which moves an object along a path <m>C</m> given by <m>\textbf{r}(t)</m>, <m>a\leq t\leq b</m>, where <m>\textbf{r}(a) = A</m> is the initial point and <m>\textbf{r}(b) = B</m> is the terminal point.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Use a line integral to describe the work done in moving the particle along <m>C</m>; use Newton's Second Law to simplify the expression.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the fact that <m>\dfrac{d}{dt}\left[\textbf{r}'(t)\cdot \textbf{r}'(t)\right] = 2\textbf{r}''(t)\cdot \textbf{r}'(t)</m> to rewrite the integral.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the Fundamental Theorem of Calculus to show that the work is given by
+                        <me>W = \dfrac{1}{2}m |\textbf{v}(b)|^2 - \dfrac{1}{2}m|\textbf{v}(a)|^2</me>
+                    </p>
+                    where <m>\textbf{r}' = \textbf{v}</m>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the relationship between the vector field and the potential energy of the object?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the relationship and the Fundamental Theorem of Line Integrals to show that work is the net change in potential energy.
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>

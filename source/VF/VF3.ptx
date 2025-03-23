@@ -17,6 +17,69 @@
 
     <subsection xml:id="VF3-activities">
         <title>In-Class Activities</title>
+        
+        <definition xml:id="def-vector-field">
+            <title>Vector Field</title>
+            <idx><h>vector field</h></idx>
+            <statement>
+                <p>
+                    A <term>vector field</term> is an assignment of a vector <m>\textbf{F}(x_1,x_2,...,x_n)</m> to a point <m>(x_1,x_2,...,x_n)</m> of a subset <m>D</m> of <m>\R^n</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="vf-vector-field-1">
+            <statement>
+                <p>
+                    Consider <m>\textbf{F}(x,y) = \lrangle{x^2y,-x-y}</m>. What is the vector associated with the point <m>(-2,3)</m>?
+                </p>
+            </statement>
+        </activity>
+
+        <definition xml:id="def-conservative-gradient-field">
+            <title>Conservative/Gradient Field</title>
+            <idx><h>conservative vector field</h></idx>
+            <idx><h>gradient vector field</h></idx>
+            <idx><h>potential function</h></idx>
+            <statement>
+                <p>
+                    A vector field <m>\textbf{F}</m> is called a <term>gradient field</term> or <term>conservative field</term> if there exists a scalar function <m>f</m> such that <m>\nabla f = \textbf{F}</m>. The function <m>f</m> is called a <term>potential function</term> for the vector field.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="vf-vector-field-2">
+            <statement>
+                <p>
+                    Given <m>f(x,y) = \sin x\cos y</m>, identify its gradient field.
+                </p>
+            </statement>
+        </activity>
+
+
+        <activity xml:id="vf-potential-function-1">
+            <statement>
+                <p>
+                    Determine if <m>f(x,y,z) = x^2\cos(yz) + y^2z^2</m> is a potential function for <m>\textbf{F}(x,y,z) = \lrangle{2x\cos(yz),-x^2z\sin(yz+2yz^2),y^2}</m>. Is the field conservative?
+                </p>
+            </statement>
+        </activity>
+
+        <fact>
+            <statement>
+                <p>
+                    If a vector field is conservative, then the mixed partials of the vector field components are equal.       
+                </p>
+            </statement>
+        </fact>
+
+        <fact>
+            <statement>
+                <p>
+                    If the mixed partials of a vector field are equal on an open, simply connected domain, then the vector field is conservative.    
+                </p>
+            </statement>
+        </fact>
 
         <definition xml:id="def-scalar-line-integral">
             <title>Line Integral (Scalar)</title>
