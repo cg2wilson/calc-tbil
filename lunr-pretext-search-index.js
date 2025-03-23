@@ -7180,7 +7180,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.3",
   "title": "VF3: Line Integrals",
-  "body": " VF3: Line Integrals     VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Vector Fields    Read all sections      Line Integrals    Read all sections        In-Class Activities   Line Integral (Scalar)  line integral (scalar)   Let be a continuous function with a domain that includes the smooth curve with parametrization on . Then, the scalar line integral of over is given by      The differential term in the definition of a scalar line integral represents the change in arc length of the curve .     Consider a helix, parametrized as on the interval . Compute the line integral where     Compute     Compute     Determine     Use (a)-(c) to show that       If we reparameterize the helix as , what is the value of the line integral?      Let and consider the curve given by Compute the line integral       A scalar line integral represents the net area between the projection of the curve onto the plane and the curve itself.     Line Integral (Vector)  line integral (vector)   Let be a continuous vector field defined on some smooth curve given by the vector function . Then, the line integral of F along C is given by where is the unit tangent vector at a given point.     The last integral indicates that work is the line integral (with respect to arc length) of the tangential component of the force.     Consider the force field .    Find the work done by moving a particle along the quarter circle given by ,     Find the work done by moving a particle along the same quarter circle, but parameterized as ,     What do you notice about the two answers?    The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.         Evaluate , where and is given by the parameterization on      Since vector fields have components, we can write vector line integrals using component form : where      Evaluate , where is the vector field and the curve is parameterized by on      Flux and Circulation  flux  circulation   The flux of a vector field across a curve is given by the integral where and   Let be an oriented, closed curve. Then, the circulation of the vector field along is defined to be the line integral along , but is denoted as      If the vector field represents the velocity field of a fluid and represents a permeable membrane, then the flux of across measures the rate of fluid flow across   In the same scenario, circulation measures the tendency of the fluid to move in the direction of .     Let , and let be a unit circle oriented counterclockwise.    Identify a parametrization for , and then find a normal vector to .    Compute the flux.     and are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?       A new vector field and are plotted below. What do you suspect will happen to the flux and why?       The vector field in part (d) is given by ; compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.      Let be a vector field, and let be the unit circle, oriented clockwise. Compute the circulation of along . What happens when the orientation is changed to counterclockwise?     "
+  "body": " VF3: Line Integrals     VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Vector Fields    Read all sections      Line Integrals    Read all sections        In-Class Activities   Vector Field  vector field   A vector field is an assignment of a vector to a point of a subset of .      Consider . What is the vector associated with the point ?     Conservative\/Gradient Field  conservative vector field  gradient vector field  potential function   A vector field is called a gradient field or conservative field if there exists a scalar function such that . The function is called a potential function for the vector field.      Given , identify its gradient field.      Determine if is a potential function for . Is the field conservative?      If a vector field is conservative, then the mixed partials of the vector field components are equal.      If the mixed partials of a vector field are equal on an open, simply connected domain, then the vector field is conservative.     Line Integral (Scalar)  line integral (scalar)   Let be a continuous function with a domain that includes the smooth curve with parametrization on . Then, the scalar line integral of over is given by      The differential term in the definition of a scalar line integral represents the change in arc length of the curve .     Consider a helix, parametrized as on the interval . Compute the line integral where     Compute     Compute     Determine     Use (a)-(c) to show that       If we reparameterize the helix as , what is the value of the line integral?      Let and consider the curve given by Compute the line integral       A scalar line integral represents the net area between the projection of the curve onto the plane and the curve itself.     Line Integral (Vector)  line integral (vector)   Let be a continuous vector field defined on some smooth curve given by the vector function . Then, the line integral of F along C is given by where is the unit tangent vector at a given point.     The last integral indicates that work is the line integral (with respect to arc length) of the tangential component of the force.     Consider the force field .    Find the work done by moving a particle along the quarter circle given by ,     Find the work done by moving a particle along the same quarter circle, but parameterized as ,     What do you notice about the two answers?    The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.         Evaluate , where and is given by the parameterization on      Since vector fields have components, we can write vector line integrals using component form : where      Evaluate , where is the vector field and the curve is parameterized by on      Flux and Circulation  flux  circulation   The flux of a vector field across a curve is given by the integral where and   Let be an oriented, closed curve. Then, the circulation of the vector field along is defined to be the line integral along , but is denoted as      If the vector field represents the velocity field of a fluid and represents a permeable membrane, then the flux of across measures the rate of fluid flow across   In the same scenario, circulation measures the tendency of the fluid to move in the direction of .     Let , and let be a unit circle oriented counterclockwise.    Identify a parametrization for , and then find a normal vector to .    Compute the flux.     and are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?       A new vector field and are plotted below. What do you suspect will happen to the flux and why?       The vector field in part (d) is given by ; compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.      Let be a vector field, and let be the unit circle, oriented clockwise. Compute the circulation of along . What happens when the orientation is changed to counterclockwise?     "
 },
 {
   "id": "VF3-2",
@@ -7192,49 +7192,49 @@ var ptx_lunr_docs = [
   "body": "   VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.    "
 },
 {
-  "id": "def-scalar-line-integral",
+  "id": "def-vector-field",
   "level": "2",
-  "url": "VF3.html#def-scalar-line-integral",
+  "url": "VF3.html#def-vector-field",
   "type": "Definition",
   "number": "12.3.1",
-  "title": "Line Integral (Scalar).",
-  "body": " Line Integral (Scalar)  line integral (scalar)   Let be a continuous function with a domain that includes the smooth curve with parametrization on . Then, the scalar line integral of over is given by    "
+  "title": "Vector Field.",
+  "body": " Vector Field  vector field   A vector field is an assignment of a vector to a point of a subset of .   "
 },
 {
-  "id": "VF3-activities-3",
+  "id": "vf-vector-field-1",
   "level": "2",
-  "url": "VF3.html#VF3-activities-3",
-  "type": "Remark",
-  "number": "12.3.2",
-  "title": "",
-  "body": " The differential term in the definition of a scalar line integral represents the change in arc length of the curve .  "
-},
-{
-  "id": "vf-scalar-line-integral-1",
-  "level": "2",
-  "url": "VF3.html#vf-scalar-line-integral-1",
+  "url": "VF3.html#vf-vector-field-1",
   "type": "Activity",
   "number": "12.3.1",
   "title": "",
-  "body": "  Consider a helix, parametrized as on the interval . Compute the line integral where     Compute     Compute     Determine     Use (a)-(c) to show that    "
+  "body": "  Consider . What is the vector associated with the point ?   "
 },
 {
-  "id": "vf-scalar-line-integral-2",
+  "id": "def-conservative-gradient-field",
   "level": "2",
-  "url": "VF3.html#vf-scalar-line-integral-2",
+  "url": "VF3.html#def-conservative-gradient-field",
+  "type": "Definition",
+  "number": "12.3.2",
+  "title": "Conservative\/Gradient Field.",
+  "body": " Conservative\/Gradient Field  conservative vector field  gradient vector field  potential function   A vector field is called a gradient field or conservative field if there exists a scalar function such that . The function is called a potential function for the vector field.   "
+},
+{
+  "id": "vf-vector-field-2",
+  "level": "2",
+  "url": "VF3.html#vf-vector-field-2",
   "type": "Activity",
   "number": "12.3.2",
   "title": "",
-  "body": "  If we reparameterize the helix as , what is the value of the line integral?   "
+  "body": "  Given , identify its gradient field.   "
 },
 {
-  "id": "vf-scalar-line-integral-3",
+  "id": "vf-potential-function-1",
   "level": "2",
-  "url": "VF3.html#vf-scalar-line-integral-3",
+  "url": "VF3.html#vf-potential-function-1",
   "type": "Activity",
   "number": "12.3.3",
   "title": "",
-  "body": "  Let and consider the curve given by Compute the line integral    "
+  "body": "  Determine if is a potential function for . Is the field conservative?   "
 },
 {
   "id": "VF3-activities-7",
@@ -7243,6 +7243,69 @@ var ptx_lunr_docs = [
   "type": "Fact",
   "number": "12.3.3",
   "title": "",
+  "body": "  If a vector field is conservative, then the mixed partials of the vector field components are equal.   "
+},
+{
+  "id": "VF3-activities-8",
+  "level": "2",
+  "url": "VF3.html#VF3-activities-8",
+  "type": "Fact",
+  "number": "12.3.4",
+  "title": "",
+  "body": "  If the mixed partials of a vector field are equal on an open, simply connected domain, then the vector field is conservative.   "
+},
+{
+  "id": "def-scalar-line-integral",
+  "level": "2",
+  "url": "VF3.html#def-scalar-line-integral",
+  "type": "Definition",
+  "number": "12.3.5",
+  "title": "Line Integral (Scalar).",
+  "body": " Line Integral (Scalar)  line integral (scalar)   Let be a continuous function with a domain that includes the smooth curve with parametrization on . Then, the scalar line integral of over is given by    "
+},
+{
+  "id": "VF3-activities-10",
+  "level": "2",
+  "url": "VF3.html#VF3-activities-10",
+  "type": "Remark",
+  "number": "12.3.6",
+  "title": "",
+  "body": " The differential term in the definition of a scalar line integral represents the change in arc length of the curve .  "
+},
+{
+  "id": "vf-scalar-line-integral-1",
+  "level": "2",
+  "url": "VF3.html#vf-scalar-line-integral-1",
+  "type": "Activity",
+  "number": "12.3.4",
+  "title": "",
+  "body": "  Consider a helix, parametrized as on the interval . Compute the line integral where     Compute     Compute     Determine     Use (a)-(c) to show that    "
+},
+{
+  "id": "vf-scalar-line-integral-2",
+  "level": "2",
+  "url": "VF3.html#vf-scalar-line-integral-2",
+  "type": "Activity",
+  "number": "12.3.5",
+  "title": "",
+  "body": "  If we reparameterize the helix as , what is the value of the line integral?   "
+},
+{
+  "id": "vf-scalar-line-integral-3",
+  "level": "2",
+  "url": "VF3.html#vf-scalar-line-integral-3",
+  "type": "Activity",
+  "number": "12.3.6",
+  "title": "",
+  "body": "  Let and consider the curve given by Compute the line integral    "
+},
+{
+  "id": "VF3-activities-14",
+  "level": "2",
+  "url": "VF3.html#VF3-activities-14",
+  "type": "Fact",
+  "number": "12.3.7",
+  "title": "",
   "body": "  A scalar line integral represents the net area between the projection of the curve onto the plane and the curve itself.   "
 },
 {
@@ -7250,16 +7313,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "VF3.html#def-vector-line-integral",
   "type": "Definition",
-  "number": "12.3.4",
+  "number": "12.3.8",
   "title": "Line Integral (Vector).",
   "body": " Line Integral (Vector)  line integral (vector)   Let be a continuous vector field defined on some smooth curve given by the vector function . Then, the line integral of F along C is given by where is the unit tangent vector at a given point.   "
 },
 {
-  "id": "VF3-activities-9",
+  "id": "VF3-activities-16",
   "level": "2",
-  "url": "VF3.html#VF3-activities-9",
+  "url": "VF3.html#VF3-activities-16",
   "type": "Remark",
-  "number": "12.3.5",
+  "number": "12.3.9",
   "title": "",
   "body": " The last integral indicates that work is the line integral (with respect to arc length) of the tangential component of the force.  "
 },
@@ -7268,7 +7331,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "VF3.html#vf-vector-line-integral-1",
   "type": "Activity",
-  "number": "12.3.4",
+  "number": "12.3.7",
   "title": "",
   "body": "  Consider the force field .    Find the work done by moving a particle along the quarter circle given by ,     Find the work done by moving a particle along the same quarter circle, but parameterized as ,     What do you notice about the two answers?    The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.      "
 },
@@ -7277,16 +7340,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "VF3.html#vf-vector-line-integral-2",
   "type": "Activity",
-  "number": "12.3.5",
+  "number": "12.3.8",
   "title": "",
   "body": "  Evaluate , where and is given by the parameterization on    "
 },
 {
-  "id": "VF3-activities-12",
+  "id": "VF3-activities-19",
   "level": "2",
-  "url": "VF3.html#VF3-activities-12",
+  "url": "VF3.html#VF3-activities-19",
   "type": "Remark",
-  "number": "12.3.6",
+  "number": "12.3.10",
   "title": "",
   "body": " Since vector fields have components, we can write vector line integrals using component form : where   "
 },
@@ -7295,7 +7358,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "VF3.html#vf-vector-line-integral-3",
   "type": "Activity",
-  "number": "12.3.6",
+  "number": "12.3.9",
   "title": "",
   "body": "  Evaluate , where is the vector field and the curve is parameterized by on    "
 },
@@ -7304,16 +7367,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "VF3.html#def-flux-circulation",
   "type": "Definition",
-  "number": "12.3.7",
+  "number": "12.3.11",
   "title": "Flux and Circulation.",
   "body": " Flux and Circulation  flux  circulation   The flux of a vector field across a curve is given by the integral where and   Let be an oriented, closed curve. Then, the circulation of the vector field along is defined to be the line integral along , but is denoted as    "
 },
 {
-  "id": "VF3-activities-15",
+  "id": "VF3-activities-22",
   "level": "2",
-  "url": "VF3.html#VF3-activities-15",
+  "url": "VF3.html#VF3-activities-22",
   "type": "Remark",
-  "number": "12.3.8",
+  "number": "12.3.12",
   "title": "",
   "body": " If the vector field represents the velocity field of a fluid and represents a permeable membrane, then the flux of across measures the rate of fluid flow across   In the same scenario, circulation measures the tendency of the fluid to move in the direction of .  "
 },
@@ -7322,7 +7385,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "VF3.html#vf-flux-1",
   "type": "Activity",
-  "number": "12.3.7",
+  "number": "12.3.10",
   "title": "",
   "body": "  Let , and let be a unit circle oriented counterclockwise.    Identify a parametrization for , and then find a normal vector to .    Compute the flux.     and are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?       A new vector field and are plotted below. What do you suspect will happen to the flux and why?       The vector field in part (d) is given by ; compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.   "
 },
@@ -7331,7 +7394,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "VF3.html#vf-circulation-1",
   "type": "Activity",
-  "number": "12.3.8",
+  "number": "12.3.11",
   "title": "",
   "body": "  Let be a vector field, and let be the unit circle, oriented clockwise. Compute the circulation of along . What happens when the orientation is changed to counterclockwise?   "
 },
@@ -7342,7 +7405,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.4",
   "title": "VF4: Fundamental Theorem of Line Integrals",
-  "body": " VF4: Fundamental Theorem of Line Integrals     VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Conservative Vector Fields    Read all sections        In-Class Activities   "
+  "body": " VF4: Fundamental Theorem of Line Integrals     VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Conservative Vector Fields    Read all sections        In-Class Activities   Closed Curve\/Simple Curve  closed curve  simple curve   A curve is said to be closed if there is a parameterization of given by for such that and the parameterization traverses the curve only once.  A curve is said to be simple if it does not intersect itself, except possibly       The curve traced by the parameterization , is shown below.        The curve is simple and closed    The curve is neither simple nor closed    The curve is simple but not closed    The curve is closed but not simple        Connected Region  connected region   A region is said to be connected if for any two points in , there exists a path between them which lies entirely in .     Fundamental Theorem of Line Integrals  fundamental theorem of line integrals   Let be a piecewise-smooth curve with parameterization , . Let be a function of two or three variables with first-order partial derivatives that exist and are continuous on . Then,       Consider the vector field     Confirm that is a potential function for     If is the lower half of the unit circle, oriented counterclockwise, compute     Now compute if is the straight-line path to .     Path Independence  path independence   Let be a vector field with domain . is said to the path independent if for any paths in with the same initial and terminal points.      If is a conservative vector field, then is path independent      Let be a continuous vector field. Then, has path independent line integrals if and only if for all piecewise smooth, simple, closed curves in the domain of .      True or false: the vector field is conservative   True    False         Compute the circulation for the vector field along the ellipse       Find a potential function for .      Determine if the vector field is conservative; if it is, find its potential function.      Find a potential function for       Compute the line integral , where and is any smooth curve that goes from the origin to       This activity will prove the Law of Conservation of Energy. Let be a continuous, conservative force field which moves an object along a path given by , , where is the initial point and is the terminal point.    Use a line integral to describe the work done in moving the particle along ; use Newton's Second Law to simplify the expression.    Use the fact that to rewrite the integral.    Use the Fundamental Theorem of Calculus to show that the work is given by  where    What is the relationship between the vector field and the potential energy of the object?    Use the relationship and the Fundamental Theorem of Line Integrals to show that work is the net change in potential energy.     "
 },
 {
   "id": "VF4-2",
@@ -7352,6 +7415,141 @@ var ptx_lunr_docs = [
   "number": "12.4",
   "title": "",
   "body": "   VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.    "
+},
+{
+  "id": "def-closed-simple-curve",
+  "level": "2",
+  "url": "VF4.html#def-closed-simple-curve",
+  "type": "Definition",
+  "number": "12.4.1",
+  "title": "Closed Curve\/Simple Curve.",
+  "body": " Closed Curve\/Simple Curve  closed curve  simple curve   A curve is said to be closed if there is a parameterization of given by for such that and the parameterization traverses the curve only once.  A curve is said to be simple if it does not intersect itself, except possibly    "
+},
+{
+  "id": "vf-simple-closed-1",
+  "level": "2",
+  "url": "VF4.html#vf-simple-closed-1",
+  "type": "Activity",
+  "number": "12.4.1",
+  "title": "",
+  "body": "  The curve traced by the parameterization , is shown below.        The curve is simple and closed    The curve is neither simple nor closed    The curve is simple but not closed    The curve is closed but not simple      "
+},
+{
+  "id": "def-connected",
+  "level": "2",
+  "url": "VF4.html#def-connected",
+  "type": "Definition",
+  "number": "12.4.2",
+  "title": "Connected Region.",
+  "body": " Connected Region  connected region   A region is said to be connected if for any two points in , there exists a path between them which lies entirely in .   "
+},
+{
+  "id": "thm-fundamental-thm-line-integrals",
+  "level": "2",
+  "url": "VF4.html#thm-fundamental-thm-line-integrals",
+  "type": "Theorem",
+  "number": "12.4.3",
+  "title": "Fundamental Theorem of Line Integrals.",
+  "body": " Fundamental Theorem of Line Integrals  fundamental theorem of line integrals   Let be a piecewise-smooth curve with parameterization , . Let be a function of two or three variables with first-order partial derivatives that exist and are continuous on . Then,    "
+},
+{
+  "id": "vf-ftli-1",
+  "level": "2",
+  "url": "VF4.html#vf-ftli-1",
+  "type": "Activity",
+  "number": "12.4.2",
+  "title": "",
+  "body": "  Consider the vector field     Confirm that is a potential function for     If is the lower half of the unit circle, oriented counterclockwise, compute     Now compute if is the straight-line path to .   "
+},
+{
+  "id": "def-path-independence",
+  "level": "2",
+  "url": "VF4.html#def-path-independence",
+  "type": "Definition",
+  "number": "12.4.4",
+  "title": "Path Independence.",
+  "body": " Path Independence  path independence   Let be a vector field with domain . is said to the path independent if for any paths in with the same initial and terminal points.   "
+},
+{
+  "id": "VF4-activities-8",
+  "level": "2",
+  "url": "VF4.html#VF4-activities-8",
+  "type": "Fact",
+  "number": "12.4.5",
+  "title": "",
+  "body": "  If is a conservative vector field, then is path independent   "
+},
+{
+  "id": "VF4-activities-9",
+  "level": "2",
+  "url": "VF4.html#VF4-activities-9",
+  "type": "Fact",
+  "number": "12.4.6",
+  "title": "",
+  "body": "  Let be a continuous vector field. Then, has path independent line integrals if and only if for all piecewise smooth, simple, closed curves in the domain of .   "
+},
+{
+  "id": "vf-conservative-1",
+  "level": "2",
+  "url": "VF4.html#vf-conservative-1",
+  "type": "Activity",
+  "number": "12.4.3",
+  "title": "",
+  "body": "  True or false: the vector field is conservative   True    False      "
+},
+{
+  "id": "vf-conservative-2",
+  "level": "2",
+  "url": "VF4.html#vf-conservative-2",
+  "type": "Activity",
+  "number": "12.4.4",
+  "title": "",
+  "body": "  Compute the circulation for the vector field along the ellipse    "
+},
+{
+  "id": "vf-find-potential-1",
+  "level": "2",
+  "url": "VF4.html#vf-find-potential-1",
+  "type": "Activity",
+  "number": "12.4.5",
+  "title": "",
+  "body": "  Find a potential function for .   "
+},
+{
+  "id": "vf-find-potential-2",
+  "level": "2",
+  "url": "VF4.html#vf-find-potential-2",
+  "type": "Activity",
+  "number": "12.4.6",
+  "title": "",
+  "body": "  Determine if the vector field is conservative; if it is, find its potential function.   "
+},
+{
+  "id": "vf-find-potential-3",
+  "level": "2",
+  "url": "VF4.html#vf-find-potential-3",
+  "type": "Activity",
+  "number": "12.4.7",
+  "title": "",
+  "body": "  Find a potential function for    "
+},
+{
+  "id": "vf-ftli-2",
+  "level": "2",
+  "url": "VF4.html#vf-ftli-2",
+  "type": "Activity",
+  "number": "12.4.8",
+  "title": "",
+  "body": "  Compute the line integral , where and is any smooth curve that goes from the origin to    "
+},
+{
+  "id": "vf-ftli-3",
+  "level": "2",
+  "url": "VF4.html#vf-ftli-3",
+  "type": "Activity",
+  "number": "12.4.9",
+  "title": "",
+  "body": "  This activity will prove the Law of Conservation of Energy. Let be a continuous, conservative force field which moves an object along a path given by , , where is the initial point and is the terminal point.    Use a line integral to describe the work done in moving the particle along ; use Newton's Second Law to simplify the expression.    Use the fact that to rewrite the integral.    Use the Fundamental Theorem of Calculus to show that the work is given by  where    What is the relationship between the vector field and the potential energy of the object?    Use the relationship and the Fundamental Theorem of Line Integrals to show that work is the net change in potential energy.   "
 },
 {
   "id": "VF5",

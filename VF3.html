@@ -548,8 +548,31 @@ true);
 </div></article><section class="subsection" id="VF3-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">12.3.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
 </h3>
-<article class="definition definition-like" id="def-scalar-line-integral"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Line Integral (Scalar).</span>
+<article class="definition definition-like" id="def-vector-field"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Vector Field.</span>
+</h4>
+<div class="para" id="def-vector-field-3-1">A <dfn class="terminology">vector field</dfn> is an assignment of a vector <span class="process-math">\(\textbf{F}(x_1,x_2,...,x_n)\)</span> to a point <span class="process-math">\((x_1,x_2,...,x_n)\)</span> of a subset <span class="process-math">\(D\)</span> of <span class="process-math">\(\R^n\text{.}\)</span>
+</div></article><article class="activity project-like" id="vf-vector-field-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="vf-vector-field-1-1-1">Consider <span class="process-math">\(\textbf{F}(x,y) = \lrangle{x^2y,-x-y}\text{.}\)</span> What is the vector associated with the point <span class="process-math">\((-2,3)\text{?}\)</span>
+</div></article><article class="definition definition-like" id="def-conservative-gradient-field"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Conservative/Gradient Field.</span>
+</h4>
+<div class="para" id="def-conservative-gradient-field-5-1">A vector field <span class="process-math">\(\textbf{F}\)</span> is called a <dfn class="terminology">gradient field</dfn> or <dfn class="terminology">conservative field</dfn> if there exists a scalar function <span class="process-math">\(f\)</span> such that <span class="process-math">\(\nabla f = \textbf{F}\text{.}\)</span> The function <span class="process-math">\(f\)</span> is called a <dfn class="terminology">potential function</dfn> for the vector field.</div></article><article class="activity project-like" id="vf-vector-field-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="vf-vector-field-2-1-1">Given <span class="process-math">\(f(x,y) = \sin x\cos y\text{,}\)</span> identify its gradient field.</div></article><article class="activity project-like" id="vf-potential-function-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="vf-potential-function-1-1-1">Determine if <span class="process-math">\(f(x,y,z) = x^2\cos(yz) + y^2z^2\)</span> is a potential function for <span class="process-math">\(\textbf{F}(x,y,z) = \lrangle{2x\cos(yz),-x^2z\sin(yz+2yz^2),y^2}\text{.}\)</span> Is the field conservative?</div></article><article class="fact theorem-like" id="VF3-activities-7"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">12.3.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="VF3-activities-7-1-1">If a vector field is conservative, then the mixed partials of the vector field components are equal.</div></article><article class="fact theorem-like" id="VF3-activities-8"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">12.3.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="VF3-activities-8-1-1">If the mixed partials of a vector field are equal on an open, simply connected domain, then the vector field is conservative.</div></article><article class="definition definition-like" id="def-scalar-line-integral"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.3.5</span><span class="period">.</span><span class="space"> </span><span class="title">Line Integral (Scalar).</span>
 </h4>
 <div class="para logical" id="def-scalar-line-integral-3-1">
 <div class="para">Let <span class="process-math">\(f\)</span> be a continuous function with a domain that includes the smooth curve <span class="process-math">\(C\)</span> with parametrization <span class="process-math">\(\textbf{r}(t)\)</span> on <span class="process-math">\(a\leq t\leq b\text{.}\)</span> Then, the <dfn class="terminology">scalar line integral</dfn> of <span class="process-math">\(f\)</span> over <span class="process-math">\(C\)</span> is given by</div>
@@ -558,12 +581,12 @@ true);
 \int_C f\, ds = \int_a^b f(\textbf{r}(t))||\textbf{r}'(t)||\, dt
 \end{equation*}
 </div>
-</div></article><article class="remark remark-like" id="VF3-activities-3"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">12.3.2</span><span class="period">.</span>
+</div></article><article class="remark remark-like" id="VF3-activities-10"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">12.3.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="VF3-activities-3-1">The differential term <span class="process-math">\(ds\)</span> in the definition of a scalar line integral represents the change in arc length of the curve <span class="process-math">\(C\text{.}\)</span>
+<div class="para" id="VF3-activities-10-1">The differential term <span class="process-math">\(ds\)</span> in the definition of a scalar line integral represents the change in arc length of the curve <span class="process-math">\(C\text{.}\)</span>
 </div></article><article class="activity project-like" id="vf-scalar-line-integral-1"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.1</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.4</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="vf-scalar-line-integral-1-1"><div class="para logical" id="vf-scalar-line-integral-1-1-1">
 <div class="para">Consider a helix, parametrized as <span class="process-math">\(\textbf{r}(t) = \lrangle{\cos t, \sin t, t}\)</span> on the interval <span class="process-math">\(0
@@ -585,10 +608,10 @@ true);
 </div></article><article class="task exercise-like" id="vf-scalar-line-integral-1-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="vf-scalar-line-integral-1-5-1-1">Use (a)-(c) to show that <span class="process-math">\(\ds \int_C f\, ds = 2\sqrt{2}\pi^2\)</span>
 </div></article></article><article class="activity project-like" id="vf-scalar-line-integral-2"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.2</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.5</span><span class="period">.</span>
 </h4>
 <div class="para" id="vf-scalar-line-integral-2-1-1">If we reparameterize the helix as <span class="process-math">\(\textbf{r}(t) = \lrangle{\cos 2\pi t, \sin 2\pi t, 2\pi t}\text{,}\)</span> what is the value of the line integral?</div></article><article class="activity project-like" id="vf-scalar-line-integral-3"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.3</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.6</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="vf-scalar-line-integral-3-1-1">
 <div class="para">Let <span class="process-math">\(f(x,y) = y-x\)</span> and consider the curve given by</div>
@@ -599,11 +622,11 @@ true);
 </div>
 <div class="para">Compute the line integral <span class="process-math">\(\ds \int_C f\, ds\)</span>
 </div>
-</div></article><article class="fact theorem-like" id="VF3-activities-7"><h4 class="heading">
-<span class="type">Fact</span><span class="space"> </span><span class="codenumber">12.3.3</span><span class="period">.</span>
+</div></article><article class="fact theorem-like" id="VF3-activities-14"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">12.3.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="VF3-activities-7-1-1">A scalar line integral represents the net area between the projection of the curve onto the <span class="process-math">\(xy-\)</span>plane and the curve itself.</div></article><article class="definition definition-like" id="def-vector-line-integral"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.3.4</span><span class="period">.</span><span class="space"> </span><span class="title">Line Integral (Vector).</span>
+<div class="para" id="VF3-activities-14-1-1">A scalar line integral represents the net area between the projection of the curve onto the <span class="process-math">\(xy-\)</span>plane and the curve itself.</div></article><article class="definition definition-like" id="def-vector-line-integral"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.3.8</span><span class="period">.</span><span class="space"> </span><span class="title">Line Integral (Vector).</span>
 </h4>
 <div class="para logical" id="def-vector-line-integral-3-1">
 <div class="para">Let <span class="process-math">\(\textbf{F}\)</span> be a continuous vector field defined on some smooth curve <span class="process-math">\(C\)</span> given by the vector function <span class="process-math">\(\textbf{r}(t), a\leq t\leq b\text{.}\)</span> Then, the <dfn class="terminology">line integral of F along C</dfn> is given by</div>
@@ -613,11 +636,11 @@ true);
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(\textbf{T}\)</span> is the unit tangent vector at a given point.</div>
-</div></article><article class="remark remark-like" id="VF3-activities-9"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">12.3.5</span><span class="period">.</span>
+</div></article><article class="remark remark-like" id="VF3-activities-16"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">12.3.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="VF3-activities-9-1">The last integral indicates that work is the line integral (with respect to arc length) of the tangential component of the force.</div></article><article class="activity project-like" id="vf-vector-line-integral-1"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.4</span><span class="period">.</span>
+<div class="para" id="VF3-activities-16-1">The last integral indicates that work is the line integral (with respect to arc length) of the tangential component of the force.</div></article><article class="activity project-like" id="vf-vector-line-integral-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.7</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="vf-vector-line-integral-1-1"><div class="para" id="vf-vector-line-integral-1-1-1">Consider the force field <span class="process-math">\(\textbf{F} = \lrangle{x^2,-xy}\text{.}\)</span>
 </div></div>
@@ -628,7 +651,7 @@ true);
 </div></article><article class="task exercise-like" id="vf-vector-line-integral-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="vf-vector-line-integral-1-4-1-1">What do you notice about the two answers?</div></article><article class="task exercise-like" id="vf-vector-line-integral-1-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="vf-vector-line-integral-1-5-1-1">The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/sageplot/vf-vector-line-integral-1-5-1-2.svg" role="img" class="contained"></div></article></article><article class="activity project-like" id="vf-vector-line-integral-2"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.5</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.8</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="vf-vector-line-integral-2-1-1">
 <div class="para">Evaluate <span class="process-math">\(\ds \int_C \textbf{F}\cdot d\textbf{r}\text{,}\)</span> where <span class="process-math">\(\textbf{F}(x,y,z) = \lrangle{xy,yz,zx}\)</span> and <span class="process-math">\(C\)</span> is given by the parameterization</div>
@@ -643,10 +666,10 @@ z = t^3 \amp
 </div>
 <div class="para">on <span class="process-math">\(0\leq t\leq 1\)</span>
 </div>
-</div></article><article class="remark remark-like" id="VF3-activities-12"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">12.3.6</span><span class="period">.</span>
+</div></article><article class="remark remark-like" id="VF3-activities-19"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">12.3.10</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="VF3-activities-12-1">
+<div class="para logical" id="VF3-activities-19-1">
 <div class="para">Since vector fields have components, we can write vector line integrals using <dfn class="terminology">component form</dfn>:</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -656,11 +679,11 @@ z = t^3 \amp
 <div class="para">where <span class="process-math">\(\textbf{F} = \lrangle{P,Q,R}\)</span>
 </div>
 </div></article><article class="activity project-like" id="vf-vector-line-integral-3"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.6</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.9</span><span class="period">.</span>
 </h4>
 <div class="para" id="vf-vector-line-integral-3-1-1">Evaluate <span class="process-math">\(\ds \int_C \textbf{F}\cdot d\textbf{r}\text{,}\)</span> where <span class="process-math">\(F\)</span> is the vector field <span class="process-math">\(\lrangle{xy^2,-x^2}\)</span> and the curve <span class="process-math">\(C\)</span> is parameterized by <span class="process-math">\(\textbf{r}(t) = \lrangle{t^3,t^2}\)</span> on <span class="process-math">\(0\leq t\leq 1\)</span>
 </div></article><article class="definition definition-like" id="def-flux-circulation"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.3.7</span><span class="period">.</span><span class="space"> </span><span class="title">Flux and Circulation.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.3.11</span><span class="period">.</span><span class="space"> </span><span class="title">Flux and Circulation.</span>
 </h4>
 <div class="para logical" id="def-flux-circulation-4-1">
 <div class="para">The <dfn class="terminology">flux</dfn> of a vector field <span class="process-math">\(\textbf{F}\)</span> across a curve <span class="process-math">\(C\)</span> is given by the integral</div>
@@ -678,14 +701,14 @@ z = t^3 \amp
 \oint_C \textbf{F}\cdot \textbf{T}\, ds
 \end{equation*}
 </div>
-</div></article><article class="remark remark-like" id="VF3-activities-15"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">12.3.8</span><span class="period">.</span>
+</div></article><article class="remark remark-like" id="VF3-activities-22"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">12.3.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="VF3-activities-15-1">If the vector field <span class="process-math">\(\textbf{F}\)</span> represents the velocity field of a fluid and <span class="process-math">\(C\)</span> represents a permeable membrane, then the flux of <span class="process-math">\(\textbf{F}\)</span> across <span class="process-math">\(C\)</span> measures the rate of fluid flow across <span class="process-math">\(C\)</span>
+<div class="para" id="VF3-activities-22-1">If the vector field <span class="process-math">\(\textbf{F}\)</span> represents the velocity field of a fluid and <span class="process-math">\(C\)</span> represents a permeable membrane, then the flux of <span class="process-math">\(\textbf{F}\)</span> across <span class="process-math">\(C\)</span> measures the rate of fluid flow across <span class="process-math">\(C\)</span>
 </div>
-<div class="para" id="VF3-activities-15-2">In the same scenario, circulation measures the tendency of the fluid to move in the direction of <span class="process-math">\(C\text{.}\)</span>
+<div class="para" id="VF3-activities-22-2">In the same scenario, circulation measures the tendency of the fluid to move in the direction of <span class="process-math">\(C\text{.}\)</span>
 </div></article><article class="activity project-like" id="vf-flux-1"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.7</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.10</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="vf-flux-1-1"><div class="para" id="vf-flux-1-1-1">Let <span class="process-math">\(\textbf{F}(x,y) = \lrangle{3x,3y}\text{,}\)</span> and let <span class="process-math">\(C\)</span> be a unit circle oriented counterclockwise.</div></div>
 <article class="task exercise-like" id="vf-flux-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
@@ -696,7 +719,7 @@ z = t^3 \amp
 <span class="process-math">\(\textbf{F}\)</span> and <span class="process-math">\(C\)</span> are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/sageplot/vf-flux-1-4-1-2.svg" role="img" class="contained"></div></article><article class="task exercise-like" id="vf-flux-1-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="vf-flux-1-5-1-1">A new vector field and <span class="process-math">\(C\)</span> are plotted below. What do you suspect will happen to the flux and why?</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/sageplot/vf-flux-1-5-1-2.svg" role="img" class="contained"></div></article><article class="task exercise-like" id="vf-flux-1-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
 <div class="para" id="vf-flux-1-6-1-1">The vector field in part (d) is given by <span class="process-math">\(\textbf{G} = \lrangle{3y,3x}\text{;}\)</span> compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.</div></article></article><article class="activity project-like" id="vf-circulation-1"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.8</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.3.11</span><span class="period">.</span>
 </h4>
 <div class="para" id="vf-circulation-1-1-1">Let <span class="process-math">\(\textbf{F} = \lrangle{-y,x}\)</span> be a vector field, and let <span class="process-math">\(C\)</span> be the unit circle, oriented clockwise. Compute the circulation of <span class="process-math">\(\textbf{F}\)</span> along <span class="process-math">\(C\text{.}\)</span> What happens when the orientation is changed to counterclockwise?</div></article></section></section></div>
 <div class="ptx-content-footer">

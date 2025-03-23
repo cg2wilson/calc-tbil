@@ -541,7 +541,129 @@ true);
 </li></ul>
 </div></article><section class="subsection" id="VF4-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">12.4.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
-</h3></section></section></div>
+</h3>
+<article class="definition definition-like" id="def-closed-simple-curve"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Closed Curve/Simple Curve.</span>
+</h4>
+<div class="para" id="def-closed-simple-curve-4-1">A curve <span class="process-math">\(C\)</span> is said to be <dfn class="terminology">closed</dfn> if there is a parameterization of <span class="process-math">\(C\)</span> given by <span class="process-math">\(\textbf{r}(t)\)</span> for <span class="process-math">\(a\leq t\leq b\)</span> such that <span class="process-math">\(\textbf{r}(a) = \textbf{r}(b)\)</span> and the parameterization traverses the curve only once.</div> <div class="para" id="def-closed-simple-curve-4-2">A curve is said to be <dfn class="terminology">simple</dfn> if it does not intersect itself, except possibly <span class="process-math">\(t = a = b\)</span>
+</div></article><article class="activity project-like" id="vf-simple-closed-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.4.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="vf-simple-closed-1-1-1">The curve traced by the parameterization <span class="process-math">\(\textbf{r}(t) = \lrangle{2\cos t, 3\sin t}\text{,}\)</span> <span class="process-math">\(0\leq 6\pi\)</span> is shown below.</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/sageplot/vf-simple-closed-1-1-2.svg" role="img" class="contained"></div> <div class="para logical" id="vf-simple-closed-1-1-3"><ol class="upper-alpha ol-marker-2 cols2" id="vf-simple-closed-1-1-3-1">
+<li id="vf-simple-closed-1-1-3-1-1"><div class="para" id="vf-simple-closed-1-1-3-1-1-1">The curve is simple and closed</div></li>
+<li id="vf-simple-closed-1-1-3-1-2"><div class="para" id="vf-simple-closed-1-1-3-1-2-1">The curve is neither simple nor closed</div></li>
+<li id="vf-simple-closed-1-1-3-1-3"><div class="para" id="vf-simple-closed-1-1-3-1-3-1">The curve is simple but not closed</div></li>
+<li id="vf-simple-closed-1-1-3-1-4"><div class="para" id="vf-simple-closed-1-1-3-1-4-1">The curve is closed but not simple</div></li>
+</ol></div></article><article class="definition definition-like" id="def-connected"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Connected Region.</span>
+</h4>
+<div class="para" id="def-connected-3-1">A region <span class="process-math">\(D\)</span> is said to be <dfn class="terminology">connected</dfn> if for any two points in <span class="process-math">\(D\text{,}\)</span> there exists a path between them which lies entirely in <span class="process-math">\(D\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="thm-fundamental-thm-line-integrals"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">12.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">Fundamental Theorem of Line Integrals.</span>
+</h4>
+<div class="para logical" id="thm-fundamental-thm-line-integrals-3-1">
+<div class="para">Let <span class="process-math">\(C\)</span> be a piecewise-smooth curve with parameterization <span class="process-math">\(\textbf{r}(t)\text{,}\)</span> <span class="process-math">\(a\leq t\leq b\text{.}\)</span> Let <span class="process-math">\(f\)</span> be a function of two or three variables with first-order partial derivatives that exist and are continuous on <span class="process-math">\(C\text{.}\)</span> Then,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int_C \nabla f\cdot d\textbf{r} = f(\textbf{r}(b)) - f(\textbf{r}(a))
+\end{equation*}
+</div>
+</div></article><article class="activity project-like" id="vf-ftli-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.4.2</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="vf-ftli-1-1"><div class="para logical" id="vf-ftli-1-1-1">
+<div class="para">Consider the vector field</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{F} = \lrangle{2xy-2y+(y+1)^2,(x-1)^2 + 2yx+2x}
+\end{equation*}
+</div>
+</div></div>
+<article class="task exercise-like" id="vf-ftli-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="vf-ftli-1-2-1-1">Confirm that <span class="process-math">\(f(x,y) = (x-1)^2y + (y+1)^2x\)</span> is a potential function for <span class="process-math">\(\textbf{F}\)</span>
+</div></article><article class="task exercise-like" id="vf-ftli-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="vf-ftli-1-3-1-1">If <span class="process-math">\(C\)</span> is the lower half of the unit circle, oriented counterclockwise, compute <span class="process-math">\(\ds \int_C \textbf{F}\cdot d\textbf{r}\)</span>
+</div></article><article class="task exercise-like" id="vf-ftli-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="vf-ftli-1-4-1-1">Now compute <span class="process-math">\(\ds \int_C \textbf{F}\cdot d\textbf{r}\)</span> if <span class="process-math">\(C\)</span> is the straight-line path <span class="process-math">\((-1,0)\)</span> to <span class="process-math">\((1,0)\text{.}\)</span>
+</div></article></article><article class="definition definition-like" id="def-path-independence"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">12.4.4</span><span class="period">.</span><span class="space"> </span><span class="title">Path Independence.</span>
+</h4>
+<div class="para" id="def-path-independence-3-1">Let <span class="process-math">\(\textbf{F}\)</span> be a vector field with domain <span class="process-math">\(D\text{.}\)</span> <span class="process-math">\(\textbf{F}\)</span> is said to the <dfn class="terminology">path independent</dfn> if <span class="process-math">\(\ds \int_{C_1}\textbf{F}\cdot d\textbf{r} = \int_{C_2} \textbf{F}\cdot d\textbf{r}\)</span> for any paths <span class="process-math">\(C_1,C_2\)</span> in <span class="process-math">\(D\)</span> with the same initial and terminal points.</div></article><article class="fact theorem-like" id="VF4-activities-8"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">12.4.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="VF4-activities-8-1-1">If <span class="process-math">\(\textbf{F}\)</span> is a conservative vector field, then <span class="process-math">\(\textbf{F}\)</span> is path independent</div></article><article class="fact theorem-like" id="VF4-activities-9"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">12.4.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="VF4-activities-9-1-1">Let <span class="process-math">\(\textbf{F}\)</span> be a continuous vector field. Then, <span class="process-math">\(\textbf{F}\)</span> has path independent line integrals if and only if <span class="process-math">\(\oint_C \textbf{F}\cdot d\textbf{r} = 0\)</span> for all piecewise smooth, simple, closed curves in the domain of <span class="process-math">\(\textbf{F}\text{.}\)</span>
+</div></article><article class="activity project-like" id="vf-conservative-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.4.3</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="vf-conservative-1-1-1">
+<div class="para">True or false: the vector field <span class="process-math">\(\lrangle{x^2y,y+5}\)</span> is conservative</div>
+<ol class="upper-alpha ol-marker-2 cols2" id="vf-conservative-1-1-1-2">
+<li id="vf-conservative-1-1-1-2-1"><div class="para" id="vf-conservative-1-1-1-2-1-1">True</div></li>
+<li id="vf-conservative-1-1-1-2-2"><div class="para" id="vf-conservative-1-1-1-2-2-1">False</div></li>
+</ol>
+</div></article><article class="activity project-like" id="vf-conservative-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.4.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="vf-conservative-2-1-1">
+<div class="para">Compute the circulation for the vector field</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{F} = \lrangle{2xy+\cos(2y),x^2-2x\sin(2y)}
+\end{equation*}
+</div>
+<div class="para">along the ellipse <span class="process-math">\(\dfrac{x^2}{4} + \dfrac{y^2}{9} =1 \)</span>
+</div>
+</div></article><article class="activity project-like" id="vf-find-potential-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.4.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="vf-find-potential-1-1-1">Find a potential function for <span class="process-math">\(\textbf{F}(x,y) = \lrangle{2xy^3,3x^2y^2+\cos(y)}\text{.}\)</span>
+</div></article><article class="activity project-like" id="vf-find-potential-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.4.6</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="vf-find-potential-2-1-1">
+<div class="para">Determine if the vector field</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{F} = \lrangle{2xy+\cos(2y),x^2-2x\sin(2y)}
+\end{equation*}
+</div>
+<div class="para">is conservative; if it is, find its potential function.</div>
+</div></article><article class="activity project-like" id="vf-find-potential-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.4.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="vf-find-potential-3-1-1">Find a potential function for <span class="process-math">\(\textbf{F}(x,y) = \lrangle{e^xy^3+y,3e^xy^2+x}\)</span>
+</div></article><article class="activity project-like" id="vf-ftli-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.4.8</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="vf-ftli-2-1-1">
+<div class="para">Compute the line integral <span class="process-math">\(\ds \int_C \textbf{F}\cdot d\textbf{r}\text{,}\)</span> where</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{F}(x,y,z) = \lrangle{2xe^yz+e^xz,x^2e^yz,x^2e^y+e^x}
+\end{equation*}
+</div>
+<div class="para">and <span class="process-math">\(C\)</span> is any smooth curve that goes from the origin to <span class="process-math">\((1,1,1)\)</span>
+</div>
+</div></article><article class="activity project-like" id="vf-ftli-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.4.9</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="vf-ftli-3-1"><div class="para" id="vf-ftli-3-1-1">This activity will prove the Law of Conservation of Energy. Let <span class="process-math">\(\textbf{F}\)</span> be a continuous, conservative force field which moves an object along a path <span class="process-math">\(C\)</span> given by <span class="process-math">\(\textbf{r}(t)\text{,}\)</span> <span class="process-math">\(a\leq t\leq b\text{,}\)</span> where <span class="process-math">\(\textbf{r}(a) = A\)</span> is the initial point and <span class="process-math">\(\textbf{r}(b) = B\)</span> is the terminal point.</div></div>
+<article class="task exercise-like" id="vf-ftli-3-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="vf-ftli-3-2-1-1">Use a line integral to describe the work done in moving the particle along <span class="process-math">\(C\text{;}\)</span> use Newton’s Second Law to simplify the expression.</div></article><article class="task exercise-like" id="vf-ftli-3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="vf-ftli-3-3-1-1">Use the fact that <span class="process-math">\(\dfrac{d}{dt}\left[\textbf{r}'(t)\cdot \textbf{r}'(t)] = 2\textbf{r}''(t)\cdot \textbf{r}'(t)\)</span> to rewrite the integral.</div></article><article class="task exercise-like" id="vf-ftli-3-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="vf-ftli-3-4-1-1">
+<div class="para">Use the Fundamental Theorem of Calculus to show that the work is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W = \dfrac{1}{2}m |\textbf{v}(b)|^2 - \dfrac{1}{2}m|\textbf{v}(a)|^2
+\end{equation*}
+</div>
+</div> where <span class="process-math">\(\textbf{r}' = \textbf{v}\)</span></article><article class="task exercise-like" id="vf-ftli-3-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="vf-ftli-3-5-1-1">What is the relationship between the vector field and the potential energy of the object?</div></article><article class="task exercise-like" id="vf-ftli-3-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="vf-ftli-3-6-1-1">Use the relationship and the Fundamental Theorem of Line Integrals to show that work is the net change in potential energy.</div></article></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="VF3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="VF5.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
