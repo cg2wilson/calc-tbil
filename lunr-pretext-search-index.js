@@ -7405,7 +7405,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.4",
   "title": "VF4: Fundamental Theorem of Line Integrals",
-  "body": " VF4: Fundamental Theorem of Line Integrals     VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Conservative Vector Fields    Read all sections        In-Class Activities   Closed Curve\/Simple Curve  closed curve  simple curve   A curve is said to be closed if there is a parameterization of given by for such that and the parameterization traverses the curve only once.  A curve is said to be simple if it does not intersect itself, except possibly       The curve traced by the parameterization , is shown below.        The curve is simple and closed    The curve is neither simple nor closed    The curve is simple but not closed    The curve is closed but not simple        Connected Region  connected region   A region is said to be connected if for any two points in , there exists a path between them which lies entirely in .     Fundamental Theorem of Line Integrals  fundamental theorem of line integrals   Let be a piecewise-smooth curve with parameterization , . Let be a function of two or three variables with first-order partial derivatives that exist and are continuous on . Then,       Consider the vector field     Confirm that is a potential function for     If is the lower half of the unit circle, oriented counterclockwise, compute     Now compute if is the straight-line path to .     Path Independence  path independence   Let be a vector field with domain . is said to the path independent if for any paths in with the same initial and terminal points.      If is a conservative vector field, then is path independent      Let be a continuous vector field. Then, has path independent line integrals if and only if for all piecewise smooth, simple, closed curves in the domain of .      True or false: the vector field is conservative   True    False         Compute the circulation for the vector field along the ellipse       Find a potential function for .      Determine if the vector field is conservative; if it is, find its potential function.      Find a potential function for       Compute the line integral , where and is any smooth curve that goes from the origin to       This activity will prove the Law of Conservation of Energy. Let be a continuous, conservative force field which moves an object along a path given by , , where is the initial point and is the terminal point.    Use a line integral to describe the work done in moving the particle along ; use Newton's Second Law to simplify the expression.    Use the fact that to rewrite the integral.    Use the Fundamental Theorem of Calculus to show that the work is given by  where    What is the relationship between the vector field and the potential energy of the object?    Use the relationship and the Fundamental Theorem of Line Integrals to show that work is the net change in potential energy.     "
+  "body": " VF4: Fundamental Theorem of Line Integrals     VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Conservative Vector Fields    Read all sections        In-Class Activities   Closed Curve\/Simple Curve  closed curve  simple curve   A curve is said to be closed if there is a parameterization of given by for such that and the parameterization traverses the curve only once.  A curve is said to be simple if it does not intersect itself, except possibly       The curve traced by the parameterization , is shown below.        The curve is simple and closed    The curve is neither simple nor closed    The curve is simple but not closed    The curve is closed but not simple        Connected Region\/Simply Connected Region  connected region  simply connected region   A region is said to be connected if for any two points in , there exists a path between them which lies entirely in .   is further said to be simply connected if all it can be compressed to a single point. In particular, cannot have any holes and must be connected.     Fundamental Theorem of Line Integrals  fundamental theorem of line integrals   Let be a piecewise-smooth curve with parameterization , . Let be a function of two or three variables with first-order partial derivatives that exist and are continuous on . Then,       Consider the vector field     Confirm that is a potential function for     If is the lower half of the unit circle, oriented counterclockwise, compute     Now compute if is the straight-line path to .     Path Independence  path independence   Let be a vector field with domain . is said to the path independent if for any paths in with the same initial and terminal points.      If is a conservative vector field, then is path independent      Let be a continuous vector field. Then, has path independent line integrals if and only if for all piecewise smooth, simple, closed curves in the domain of .      True or false: the vector field is conservative   True    False         Compute the circulation for the vector field along the ellipse       Find a potential function for .      Determine if the vector field is conservative; if it is, find its potential function.      Find a potential function for       Compute the line integral , where and is any smooth curve that goes from the origin to       This activity will prove the Law of Conservation of Energy. Let be a continuous, conservative force field which moves an object along a path given by , , where is the initial point and is the terminal point.    Use a line integral to describe the work done in moving the particle along ; use Newton's Second Law to simplify the expression.    Use the fact that to rewrite the integral.    Use the Fundamental Theorem of Calculus to show that the work is given by  where    What is the relationship between the vector field and the potential energy of the object?    Use the relationship and the Fundamental Theorem of Line Integrals to show that work is the net change in potential energy.     "
 },
 {
   "id": "VF4-2",
@@ -7435,13 +7435,13 @@ var ptx_lunr_docs = [
   "body": "  The curve traced by the parameterization , is shown below.        The curve is simple and closed    The curve is neither simple nor closed    The curve is simple but not closed    The curve is closed but not simple      "
 },
 {
-  "id": "def-connected",
+  "id": "def-connected-simply-connected",
   "level": "2",
-  "url": "VF4.html#def-connected",
+  "url": "VF4.html#def-connected-simply-connected",
   "type": "Definition",
   "number": "12.4.2",
-  "title": "Connected Region.",
-  "body": " Connected Region  connected region   A region is said to be connected if for any two points in , there exists a path between them which lies entirely in .   "
+  "title": "Connected Region\/Simply Connected Region.",
+  "body": " Connected Region\/Simply Connected Region  connected region  simply connected region   A region is said to be connected if for any two points in , there exists a path between them which lies entirely in .   is further said to be simply connected if all it can be compressed to a single point. In particular, cannot have any holes and must be connected.   "
 },
 {
   "id": "thm-fundamental-thm-line-integrals",
@@ -7558,7 +7558,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.5",
   "title": "VF5: Green’s Theorem",
-  "body": " VF5: Green's Theorem     VF5  I can identify when I can use Green’s Theorem, and use it for computations.      Pre-Class Preparation  Read the following sections of the text:    Section 6.4: Green's Theorem    Read all sections        In-Class Activities   "
+  "body": " VF5: Green's Theorem     VF5  I can identify when I can use Green’s Theorem, and use it for computations.      Pre-Class Preparation  Read the following sections of the text:    Section 6.4: Green's Theorem    Read all sections        In-Class Activities   Green's Theorem (Circulation Form)  Green's theorem (circulation)   Let be an open, simply conencted region with boundary curve that is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on . Then,       Let , and let be the first quadrant region bounded by the line and . Compute the circulation of along .    Compute the line integral without using Green's Theorem.    Verify that Green's Theorem can be used in this situation.    Use Green's Theorem to confirm your answer in (a).      Compute , where is the circle of radius , oriented counterclockwise.      An ellipse can be parameterized by on   Use Green's Theorem to prove that the area inside an ellipse is exactly .      Calculate the work done on a particle by the force field as the particle traverses the circle of radius 2 exactly once in the counterclockwise direction, starting and ending at .     Green's Theorem (Flux Form)  Green's theorem (flux)   Let be an open, simply conencted region with boundary curve which is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on an open region containing . Then,       Let be a circle of radius centered at the origin, and let . Compute the flux across .      Let be the triangle with vertices at , , and , oriented clockwise. Compute the flux across , given the vector field       If a vector field is conservative, Green's Theorem guarantees that the circulation of any closed curve is what?      Use the fact that to argue why, in polar coordinates, the formula for the area of a region is given by where      "
 },
 {
   "id": "VF5-2",
@@ -7568,6 +7568,96 @@ var ptx_lunr_docs = [
   "number": "12.5",
   "title": "",
   "body": "   VF5  I can identify when I can use Green’s Theorem, and use it for computations.    "
+},
+{
+  "id": "thm-greens-circulation",
+  "level": "2",
+  "url": "VF5.html#thm-greens-circulation",
+  "type": "Theorem",
+  "number": "12.5.1",
+  "title": "Green’s Theorem (Circulation Form).",
+  "body": " Green's Theorem (Circulation Form)  Green's theorem (circulation)   Let be an open, simply conencted region with boundary curve that is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on . Then,    "
+},
+{
+  "id": "vf-greens-1",
+  "level": "2",
+  "url": "VF5.html#vf-greens-1",
+  "type": "Activity",
+  "number": "12.5.1",
+  "title": "",
+  "body": "  Let , and let be the first quadrant region bounded by the line and . Compute the circulation of along .    Compute the line integral without using Green's Theorem.    Verify that Green's Theorem can be used in this situation.    Use Green's Theorem to confirm your answer in (a).   "
+},
+{
+  "id": "vf-greens-2",
+  "level": "2",
+  "url": "VF5.html#vf-greens-2",
+  "type": "Activity",
+  "number": "12.5.2",
+  "title": "",
+  "body": "  Compute , where is the circle of radius , oriented counterclockwise.   "
+},
+{
+  "id": "vf-greens-3",
+  "level": "2",
+  "url": "VF5.html#vf-greens-3",
+  "type": "Activity",
+  "number": "12.5.3",
+  "title": "",
+  "body": "  An ellipse can be parameterized by on   Use Green's Theorem to prove that the area inside an ellipse is exactly .   "
+},
+{
+  "id": "vf-greens-4",
+  "level": "2",
+  "url": "VF5.html#vf-greens-4",
+  "type": "Activity",
+  "number": "12.5.4",
+  "title": "",
+  "body": "  Calculate the work done on a particle by the force field as the particle traverses the circle of radius 2 exactly once in the counterclockwise direction, starting and ending at .   "
+},
+{
+  "id": "thm-greens-flux",
+  "level": "2",
+  "url": "VF5.html#thm-greens-flux",
+  "type": "Theorem",
+  "number": "12.5.2",
+  "title": "Green’s Theorem (Flux Form).",
+  "body": " Green's Theorem (Flux Form)  Green's theorem (flux)   Let be an open, simply conencted region with boundary curve which is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on an open region containing . Then,    "
+},
+{
+  "id": "vf-greens-5",
+  "level": "2",
+  "url": "VF5.html#vf-greens-5",
+  "type": "Activity",
+  "number": "12.5.5",
+  "title": "",
+  "body": "  Let be a circle of radius centered at the origin, and let . Compute the flux across .   "
+},
+{
+  "id": "vf-greens-6",
+  "level": "2",
+  "url": "VF5.html#vf-greens-6",
+  "type": "Activity",
+  "number": "12.5.6",
+  "title": "",
+  "body": "  Let be the triangle with vertices at , , and , oriented clockwise. Compute the flux across , given the vector field    "
+},
+{
+  "id": "vf-greens-7",
+  "level": "2",
+  "url": "VF5.html#vf-greens-7",
+  "type": "Activity",
+  "number": "12.5.7",
+  "title": "",
+  "body": "  If a vector field is conservative, Green's Theorem guarantees that the circulation of any closed curve is what?   "
+},
+{
+  "id": "vf-greens-8",
+  "level": "2",
+  "url": "VF5.html#vf-greens-8",
+  "type": "Activity",
+  "number": "12.5.8",
+  "title": "",
+  "body": "  Use the fact that to argue why, in polar coordinates, the formula for the area of a region is given by where    "
 },
 {
   "id": "FS1",
