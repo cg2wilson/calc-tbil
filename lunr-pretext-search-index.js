@@ -7666,7 +7666,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.1",
   "title": "FS1: Divergence &amp; Curl",
-  "body": " FS1: Divergence & Curl     FS1  Given a vector field, I can compute its divergence and curl, and interpret my results.      Pre-Class Preparation  Read the following sections of the text:    Section 6.5: Divergence and Curl    Read all sections        In-Class Activities   "
+  "body": " FS1: Divergence & Curl     FS1  Given a vector field, I can compute its divergence and curl, and interpret my results.      Pre-Class Preparation  Read the following sections of the text:    Section 6.5: Divergence and Curl    Read all sections        In-Class Activities   Divergence  divergence   For a vector field , if each component function is differentiable, the divergence of is given by   In terms of the del operator we can express the divergence of a vector field as   The definition of divergence can be extended to a vector in in the natural way.     Divergence measures the net rate of fluid flow out from a specific point in a vector field; positive divergence means that more fluid flows out than in, and a negative divergence indicates more inflow than outflow.     Compute the divergence for each vector field. What does the value of the divergence tell you about the vector field at the point                 Is it possible for the vector field to be a magnetic field?   Yes, because it's a vector field    Yes, because the divergence is positive    No, because the divergence is positive    No, because the divergence is negative    Yes, because the divergence is negative        Curl  curl   For a vector field for which the first partials of each component exists, we define the curl of to be   In terms of the del operator, we can write      Curl represents the tendency of an object to rotate at that point about the axis in the direction of the vector produced; smaller magnitudes of the curl vectors indicate a slower rotation, while larger magnitudes indicate faster rotation.     The following facts are true about divergence and curl:             If is a vector field defined on a simply connected subset of and , then is conservative.         True or false: if is conservative, then . Why?      Compute the curl of the vector fields given. What does the curl tell you at the point ?                     The gravitational field between two objects and , has no spin. Prove this fact.      Maxwell's equations relate an electric field and magnetic field as they vary with time in a region which contains no charge and no current. We can state these in terms of divergence and curl as where is the speed of light.  Show the following.               "
 },
 {
   "id": "FS1-2",
@@ -7676,6 +7676,105 @@ var ptx_lunr_docs = [
   "number": "13.1",
   "title": "",
   "body": "   FS1  Given a vector field, I can compute its divergence and curl, and interpret my results.    "
+},
+{
+  "id": "def-divergence",
+  "level": "2",
+  "url": "FS1.html#def-divergence",
+  "type": "Definition",
+  "number": "13.1.1",
+  "title": "Divergence.",
+  "body": " Divergence  divergence   For a vector field , if each component function is differentiable, the divergence of is given by   In terms of the del operator we can express the divergence of a vector field as   The definition of divergence can be extended to a vector in in the natural way.   "
+},
+{
+  "id": "FS1-activities-3",
+  "level": "2",
+  "url": "FS1.html#FS1-activities-3",
+  "type": "Remark",
+  "number": "13.1.2",
+  "title": "",
+  "body": " Divergence measures the net rate of fluid flow out from a specific point in a vector field; positive divergence means that more fluid flows out than in, and a negative divergence indicates more inflow than outflow.  "
+},
+{
+  "id": "fs-divergence-1",
+  "level": "2",
+  "url": "FS1.html#fs-divergence-1",
+  "type": "Activity",
+  "number": "13.1.1",
+  "title": "",
+  "body": "  Compute the divergence for each vector field. What does the value of the divergence tell you about the vector field at the point              "
+},
+{
+  "id": "fs-divergence-2",
+  "level": "2",
+  "url": "FS1.html#fs-divergence-2",
+  "type": "Activity",
+  "number": "13.1.2",
+  "title": "",
+  "body": "  Is it possible for the vector field to be a magnetic field?   Yes, because it's a vector field    Yes, because the divergence is positive    No, because the divergence is positive    No, because the divergence is negative    Yes, because the divergence is negative      "
+},
+{
+  "id": "def-curl",
+  "level": "2",
+  "url": "FS1.html#def-curl",
+  "type": "Definition",
+  "number": "13.1.3",
+  "title": "Curl.",
+  "body": " Curl  curl   For a vector field for which the first partials of each component exists, we define the curl of to be   In terms of the del operator, we can write    "
+},
+{
+  "id": "FS1-activities-7",
+  "level": "2",
+  "url": "FS1.html#FS1-activities-7",
+  "type": "Remark",
+  "number": "13.1.4",
+  "title": "",
+  "body": " Curl represents the tendency of an object to rotate at that point about the axis in the direction of the vector produced; smaller magnitudes of the curl vectors indicate a slower rotation, while larger magnitudes indicate faster rotation.  "
+},
+{
+  "id": "FS1-activities-8",
+  "level": "2",
+  "url": "FS1.html#FS1-activities-8",
+  "type": "Fact",
+  "number": "13.1.5",
+  "title": "",
+  "body": "  The following facts are true about divergence and curl:             If is a vector field defined on a simply connected subset of and , then is conservative.      "
+},
+{
+  "id": "fs-curl-1",
+  "level": "2",
+  "url": "FS1.html#fs-curl-1",
+  "type": "Activity",
+  "number": "13.1.3",
+  "title": "",
+  "body": "  True or false: if is conservative, then . Why?   "
+},
+{
+  "id": "fs-curl-2",
+  "level": "2",
+  "url": "FS1.html#fs-curl-2",
+  "type": "Activity",
+  "number": "13.1.4",
+  "title": "",
+  "body": "  Compute the curl of the vector fields given. What does the curl tell you at the point ?                  "
+},
+{
+  "id": "fs-curl-3",
+  "level": "2",
+  "url": "FS1.html#fs-curl-3",
+  "type": "Activity",
+  "number": "13.1.5",
+  "title": "",
+  "body": "  The gravitational field between two objects and , has no spin. Prove this fact.   "
+},
+{
+  "id": "fs-div-curl-1",
+  "level": "2",
+  "url": "FS1.html#fs-div-curl-1",
+  "type": "Activity",
+  "number": "13.1.6",
+  "title": "",
+  "body": "  Maxwell's equations relate an electric field and magnetic field as they vary with time in a region which contains no charge and no current. We can state these in terms of divergence and curl as where is the speed of light.  Show the following.             "
 },
 {
   "id": "FS2",
