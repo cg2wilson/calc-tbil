@@ -18,7 +18,141 @@
     <subsection xml:id="VF5-activities">
         <title>In-Class Activities</title>
 
+        <theorem xml:id="thm-greens-circulation">
+            <title>Green's Theorem (Circulation Form)</title>
+            <idx><h>Green's theorem (circulation)</h></idx>
+            <statement>
+                <p>
+                    Let <m>D</m> be an open, simply conencted region with boundary curve <m>C</m> that is piecewise smooth, simple, closed, and oriented counterclockwise. Let <m>\textbf{F} = \lrangle{P,Q}</m> be a vector field with component functions that have continuous partial derivatives on <m>D</m>. Then,
+                    <me>
+                        \oint_C \textbf{F}\cdot d\textbf{r} = \oint_C P\, dx + Q\, dy = \iint_D (Q_x-P_y)\, dA
+                    </me>
+                </p>
+            </statement>
+        </theorem>
         
+        <activity xml:id="vf-greens-1">
+            <introduction>
+                <p>
+                    Let <m>\textbf{F} - \lrangle{xy,y^2}</m>, and let <m>D</m> be the first quadrant region bounded by the line <m>y = x</m> and <m>y = x^2</m>. Compute the circulation of <m>\textbf{F}</m> along <m>C</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute the line integral without using Green's Theorem.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Verify that Green's Theorem can be used in this situation.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use Green's Theorem to confirm your answer in (a).
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="vf-greens-2">
+            <statement>
+                <p>
+                    Compute <m>\ds \oint_C -y\, dx + x\, dy</m>, where <m>C</m> is the circle of radius <m>a</m>, oriented counterclockwise.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="vf-greens-3">
+            <statement>
+                <p>
+                    An ellipse can be parameterized by 
+                    <me>
+                        \begin{cases}
+                            x \amp = a\cos t\\ 
+                            y \amp = b\sin t
+                        \end{cases}
+                    </me>
+                    on <m>0\leq t\leq 2\pi</m>
+                </p>
+                <p>
+                    Use Green's Theorem to prove that the area inside an ellipse is exactly <m>\pi ab</m>.
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="vf-greens-4">
+            <statement>
+                <p>
+                    Calculate the work done on a particle by the force field
+                    <me>
+                        \textbf{F}(x,y) = \lrangle{y+\sin x,e^y-x}
+                    </me>
+                    as the particle traverses the circle of radius 2 exactly once in the counterclockwise direction, starting and ending at <m>(2,0)</m>.
+                </p>
+            </statement>
+        </activity>
+
+        <theorem xml:id="thm-greens-flux">
+            <title>Green's Theorem (Flux Form)</title>
+            <idx><h>Green's theorem (flux)</h></idx>
+            <statement>
+                <p>
+                    Let <m>D</m> be an open, simply conencted region with boundary curve <m>C</m> which is piecewise smooth, simple, closed, and oriented counterclockwise. Let <m>\textbf{F} = \lrangle{P,Q}</m> be a vector field with component functions that have continuous partial derivatives on an open region containing <m>D</m>. Then,
+                    <me>
+                        \oint_C \textbf{F}\cdot \textbf{N}\, ds = \iint_D P_x + Q_y\, dA
+                    </me>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="vf-greens-5">
+            <statement>
+                <p>
+                    Let <m>C</m>be a circle of radius <m>a</m> centered at the origin, and let <m>\textbf{F}(x,y) = \lrangle{x,y}</m>. Compute the flux across <m>C</m>. 
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="vf-greens-6">
+            <statement>
+                <p>
+                    Let <m>S</m> be the triangle with vertices at <m>(0,0)</m>, <m>(1,0)</m>, and <m>(0,1)</m>, oriented clockwise. Compute the flux across <m>S</m>, given the vector field <m>\textbf{F} = \lrangle{x^3,y^3}</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="vf-greens-7">
+            <statement>
+                <p>
+                    If a vector field is conservative, Green's Theorem guarantees that the circulation of any closed curve is what?
+                </p>
+            </statement>
+        </activity>
+        
+        <activity xml:id="vf-greens-8">
+            <introduction>
+                <p>
+                    Use the fact that 
+                    <me>
+                        A = \dfrac{1}{2}\int_C -y\, dx + x\, dy
+                    </me>
+                    to argue why, in polar coordinates, the formula for the area of a region <m>D</m> is given by
+                    <me>
+                        \dfrac{1}{2}\int_a^b (f(\theta))^2\, d\theta
+                    </me>
+                    where
+                    <me>
+                        D = \lrbrace{(r,\theta)\mid 0\leq r\leq f(\theta), a\leq \theta \leq b}
+                    </me>
+                </p>
+            </introduction>
+        </activity>
     </subsection>
 
 </section>
