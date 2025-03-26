@@ -602,7 +602,7 @@ B = \lrbrace{(r,\theta,z)\mid a\leq r\leq b, \alpha \leq\theta\leq\beta, c\leq z
 <div class="para">Consider the integral</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\int_{-2}^2 \int_{-\sqrt{4-x^2}}^{\sqrt{4-x^2}}\int_{\sqrt{x^2+y^2}}^2 (x^2 + 2y^2)\, dz\,dy\,dx
+\int_{-2}^2 \int_{-\sqrt{4-x^2}}^{\sqrt{4-x^2}}\int_{\sqrt{x^2+y^2}}^2 (x^2 + y^2)\, dz\,dy\,dx
 \end{equation*}
 </div>
 </div></div>
@@ -631,7 +631,7 @@ x = \rho\sin\varphi\cos\theta \qquad y = \rho\sin\varphi\cos\theta \qquad z = \r
 <div class="para">and use</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\rho^2 = x^2 + y^2 + z^2\qquad \tan\theta = \dfrac{y}{x} \qquad \varphi = \inv{\cos}\lrpar{\dfrac{z}{\sqrt{x^2 + y^2 + z^2}}}
+\rho^2 = x^2 + y^2 + z^2\qquad \cos\theta = \dfrac{x}{\rho\sin\varphi} \qquad \cos\varphi = \dfrac{z}{\rho}
 \end{equation*}
 </div>
 <div class="para">to go from spherical to Cartesian coordinates.</div>
@@ -688,7 +688,7 @@ r = \rho\sin\varphi \qquad \theta = \theta \qquad z = \rho\cos\varphi
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.4.11</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="mi-spherical-integral-compute3-1-1">
-<div class="para">Evaluate the integral.</div>
+<div class="para">Convert the integral to spherical coordinates:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \int_{-3}^3\int_0^{\sqrt{9-x^2}}\int_0^{9-x^2-y^2} \sqrt{x^2 + y^2}\, dz\, dy\,dz
