@@ -107,7 +107,7 @@
                 <p>
                     Consider the integral
                     <me>
-                        \int_{-2}^2 \int_{-\sqrt{4-x^2}}^{\sqrt{4-x^2}}\int_{\sqrt{x^2+y^2}}^2 (x^2 + 2y^2)\, dz\,dy\,dx
+                        \int_{-2}^2 \int_{-\sqrt{4-x^2}}^{\sqrt{4-x^2}}\int_{\sqrt{x^2+y^2}}^2 (x^2 + y^2)\, dz\,dy\,dx
                     </me>
                 </p>
             </introduction>
@@ -168,7 +168,7 @@
                 </me>
                 and use 
                 <me>
-                    \rho^2 = x^2 + y^2 + z^2\qquad \tan\theta = \dfrac{y}{x} \qquad \varphi = \inv{\cos}\lrpar{\dfrac{z}{\sqrt{x^2 + y^2 + z^2}}}
+                    \rho^2 = x^2 + y^2 + z^2\qquad \cos\theta = \dfrac{x}{\rho\sin\varphi} \qquad \cos\varphi = \dfrac{z}{\rho}
                 </me>
                 to go from spherical to Cartesian coordinates.
             </p>
@@ -281,7 +281,7 @@
         <activity xml:id="mi-spherical-integral-compute3">
             <statement>
                 <p>
-                    Evaluate the integral.
+                    Convert the integral to spherical coordinates:
                     <me>
                         \int_{-3}^3\int_0^{\sqrt{9-x^2}}\int_0^{9-x^2-y^2} \sqrt{x^2 + y^2}\, dz\, dy\,dz
                     </me>
