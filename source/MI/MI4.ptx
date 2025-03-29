@@ -164,7 +164,7 @@
             <p>
                 To go from Cartesian to spherical coordinates, use 
                 <me>
-                    x = \rho\sin\varphi\cos\theta \qquad y = \rho\sin\varphi\cos\theta \qquad z = \rho\cos\varphi
+                    x = \rho\sin\varphi\cos\theta \qquad y = \rho\sin\varphi\sin\theta \qquad z = \rho\cos\varphi
                 </me>
                 and use 
                 <me>
