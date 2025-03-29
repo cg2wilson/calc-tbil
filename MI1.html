@@ -97,14 +97,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.5.11';
+eBookConfig.runestone_version = '7.5.12';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.ee5a0b116b7d0991.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.8ded03b2da8fab17.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.e0c6d4592e23c667.css">
 </head>
 <body id="TBIL Calculus 1" class="pretext book ignore-math">
@@ -587,7 +587,8 @@ S = \lrbrace{(x,y,z)\in \R^3\mid 0\leq z\leq f(x,y), (x,y)\in R}
 <li id="mi-double-integral-cartesian-rectangle1-2-1-1-3-3"><div class="para" id="mi-double-integral-cartesian-rectangle1-2-1-1-3-3-1">Sphere</div></li>
 <li id="mi-double-integral-cartesian-rectangle1-2-1-1-3-4"><div class="para" id="mi-double-integral-cartesian-rectangle1-2-1-1-3-4-1">Cylinder</div></li>
 </ol>
-</div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+</div>
+<div class="solutions"><details id="mi-double-integral-cartesian-rectangle1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integral-cartesian-rectangle1-2-2-1">B: Rectangular prism</div></div></details></div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para logical" id="mi-double-integral-cartesian-rectangle1-3-1-1">
 <div class="para">In Calculus 1, the expression to approximate the area under a curve was given by</div>
 <div class="displaymath process-math">
@@ -604,8 +605,10 @@ S = \lrbrace{(x,y,z)\in \R^3\mid 0\leq z\leq f(x,y), (x,y)\in R}
 \end{equation*}
 </div>
 </div> <div class="para" id="mi-double-integral-cartesian-rectangle1-3-1-3">Why do we need to have an extra summation and both <span class="process-math">\(\Delta x\)</span> and <span class="process-math">\(\Delta y\text{?}\)</span>
-</div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="mi-double-integral-cartesian-rectangle1-4-1-1">The expression above gives an approximation of the area over the rectangular region. How can we move from an <em class="emphasis">approximation</em> to an <em class="emphasis">exact</em> answer?</div></article></article><article class="fact theorem-like" id="fact-double-integral-cartesian-rectangle"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-double-integral-cartesian-rectangle1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integral-cartesian-rectangle1-3-2-1">We need <span class="process-math">\(\Delta x\)</span> and <span class="process-math">\(\Delta y\)</span> because we are partitioning area- which requires two dimensions; this is what requires the extra summation.</div></div></details></div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="mi-double-integral-cartesian-rectangle1-4-1-1">The expression above gives an approximation of the area over the rectangular region. How can we move from an <em class="emphasis">approximation</em> to an <em class="emphasis">exact</em> answer?</div>
+<div class="solutions"><details id="mi-double-integral-cartesian-rectangle1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integral-cartesian-rectangle1-4-2-1">Take a limit of the approximation</div></div></details></div></article></article><article class="fact theorem-like" id="fact-double-integral-cartesian-rectangle"><h4 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">11.1.2</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="fact-double-integral-cartesian-rectangle-1-1">
@@ -621,10 +624,27 @@ S = \lrbrace{(x,y,z)\in \R^3\mid 0\leq z\leq f(x,y), (x,y)\in R}
 <div class="introduction" id="mi-double-integral-cartesian-rectangle-calculate1-1"><div class="para" id="mi-double-integral-cartesian-rectangle-calculate1-1-1">Consider the function <span class="process-math">\(f(x,y)\text{,}\)</span> which is defined and integrable on the rectangle <span class="process-math">\(R = [a,b]\times [c,d]\text{.}\)</span>
 </div></div>
 <article class="task exercise-like" id="mi-double-integral-cartesian-rectangle-calculate1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="mi-double-integral-cartesian-rectangle-calculate1-2-1-1">The integral <span class="process-math">\(\ds \int_c^d f(x,y)\, dy\)</span> is not necessarily a number. Why not?</div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle-calculate1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="mi-double-integral-cartesian-rectangle-calculate1-3-1-1">If we set <span class="process-math">\(A(x) = \ds \int_c^d f(x,y)\, dy\text{,}\)</span> then what does <span class="process-math">\(\ds \int_a^b A(x)\, dx\)</span> do? Is it necessarily a number?</div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle-calculate1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="mi-double-integral-cartesian-rectangle-calculate1-2-1-1">The integral <span class="process-math">\(\ds \int_c^d f(x,y)\, dy\)</span> is not necessarily a number. Why not?</div>
+<div class="solutions"><details id="mi-double-integral-cartesian-rectangle-calculate1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="mi-double-integral-cartesian-rectangle-calculate1-2-2-1">
+<div class="para">Take <span class="process-math">\(\ds \int_0^1 x + y\, dy\text{.}\)</span> Then we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\ds \int_0^1 x+y\, y = xy + \dfrac{1}{2}y^2\bigg\rvert_0^1 = x + \dfrac{1}{2}
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle-calculate1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="mi-double-integral-cartesian-rectangle-calculate1-3-1-1">If we set <span class="process-math">\(A(x) = \ds \int_c^d f(x,y)\, dy\text{,}\)</span> then what does <span class="process-math">\(\ds \int_a^b A(x)\, dx\)</span> do? Is it necessarily a number?</div>
+<div class="solutions"><details id="mi-double-integral-cartesian-rectangle-calculate1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integral-cartesian-rectangle-calculate1-3-2-1">Yes, it must be a number; the integral computes volume, since volume is the integral of cross-sectional area.</div></div></details></div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle-calculate1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="mi-double-integral-cartesian-rectangle-calculate1-4-1-1">Compute <span class="process-math">\(\ds \int_0^1\int_0^1 x+y\, dx\,dy\)</span>
-</div></article></article><article class="activity project-like" id="mi-double-integral-cartesian-rectangle-calculate2"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-double-integral-cartesian-rectangle-calculate1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="mi-double-integral-cartesian-rectangle-calculate1-4-2-1"><div class="displaymath process-math" id="mi-double-integral-cartesian-rectangle-calculate1-4-2-1-1">
+\begin{align*}
+\ds\int_0^1\int_0^1 x+y\, dx\,dy \amp = \int_0^1 \dfrac{1}{2}x + xy\bigg\rvert_0^1\, dy\\
+\amp = \ds \int_0^1 \dfrac{1}{2}+y\, dy\\
+\amp = \dfrac{1}{2}y + \dfrac{1}{2}y^2\bigg\rvert_0^1\\
+\amp = 1
+\end{align*}
+</div></div></div></details></div></article></article><article class="activity project-like" id="mi-double-integral-cartesian-rectangle-calculate2"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.1.3</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="mi-double-integral-cartesian-rectangle-calculate2-1"><div class="para" id="mi-double-integral-cartesian-rectangle-calculate2-1-1">Let <span class="process-math">\(f(x,y) = x^2y^3\)</span> on the rectangle <span class="process-math">\(R = \lrbrace{(x,y)\in \R^2\mid 0\leq x\leq 3, 1\leq y\leq 2}\)</span>
@@ -639,15 +659,28 @@ S = \lrbrace{(x,y,z)\in \R^3\mid 0\leq z\leq f(x,y), (x,y)\in R}
 </div>
 <div class="para">?</div>
 <ol class="upper-alpha ol-marker-2 cols2" id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2">
-<li id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2-1"><div class="para" id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2-1-1"><span class="process-math">\(\displaystyle \ds \int_1^2 \dfrac{1}{3}x^3y^3\bigg\rvert_0^3\, dy\)</span></div></li>
+<li id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2-1"><div class="para" id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2-1-1"><span class="process-math">\(\displaystyle \ds \int_1^2 \dfrac{1}{3}x^3y^2\bigg\rvert_0^3\, dy\)</span></div></li>
 <li id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2-2"><div class="para" id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2-2-1"><span class="process-math">\(\displaystyle \ds \int_1^2 \dfrac{1}{4}x^2y^4\bigg\rvert_0^3\, dx\)</span></div></li>
 <li id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2-3"><div class="para" id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2-3-1"><span class="process-math">\(\displaystyle \ds \int_1^2 \dfrac{1}{4}x^2y^2\bigg\rvert_0^3\, dy\)</span></div></li>
 <li id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2-4"><div class="para" id="mi-double-integral-cartesian-rectangle-calculate2-2-1-1-2-4-1"><span class="process-math">\(\displaystyle \ds \int_0^3\dfrac{1}{3}x^3y^3\bigg\rvert_1^2\, dy\)</span></div></li>
 </ol>
-</div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle-calculate2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="mi-double-integral-cartesian-rectangle-calculate2-3-1-1">Finish the computation and evaluate the integral.</div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle-calculate2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+</div>
+<div class="solutions"><details id="mi-double-integral-cartesian-rectangle-calculate2-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integral-cartesian-rectangle-calculate2-2-2-1">A</div></div></details></div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle-calculate2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="mi-double-integral-cartesian-rectangle-calculate2-3-1-1">Finish the computation and evaluate the integral.</div>
+<div class="solutions"><details id="mi-double-integral-cartesian-rectangle-calculate2-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="mi-double-integral-cartesian-rectangle-calculate2-3-2-1"><div class="displaymath process-math" id="mi-double-integral-cartesian-rectangle-calculate2-3-2-1-1">
+\begin{align*}
+\ds \int_1^2\int_0^3 x^2y^2\, dx\, dy \amp =\int_1^2 \dfrac{1}{3}x^3y^2\bigg\rvert_0^3\, dy\\
+\amp = \ds \int_1^2 9y^2\, dy
+\end{align*}
+</div></div></div></details></div></article><article class="task exercise-like" id="mi-double-integral-cartesian-rectangle-calculate2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="mi-double-integral-cartesian-rectangle-calculate2-4-1-1">Now, compute <span class="process-math">\(\ds \int_0^3\int_1^2 x^2y^3\, dy\,dx\)</span>
-</div></article></article><article class="theorem theorem-like" id="thm-fubini-weak"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-double-integral-cartesian-rectangle-calculate2-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="mi-double-integral-cartesian-rectangle-calculate2-4-2-1"><div class="displaymath process-math" id="mi-double-integral-cartesian-rectangle-calculate2-4-2-1-1">
+\begin{align*}
+\ds \int_1^2 9y^2\, dy \amp = 3y^3\bigg\rvert_1^2\\
+\amp = 21 
+\end{align*}
+</div></div></div></details></div></article></article><article class="theorem theorem-like" id="thm-fubini-weak"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">11.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Fubini’s Theorem (Version 1).</span>
 </h4>
 <div class="para logical" id="thm-fubini-weak-3-1">
@@ -661,7 +694,8 @@ S = \lrbrace{(x,y,z)\in \R^3\mid 0\leq z\leq f(x,y), (x,y)\in R}
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.1.4</span><span class="period">.</span>
 </h4>
 <div class="para" id="mi-double-integral-cartesian-rectangle-calculate3-1-1">Evaluate the double integral <span class="process-math">\(\ds \iint_R (y-3xy)\, dA\text{,}\)</span> where <span class="process-math">\(R = \lrbrace{(x,y)\in\R^2\mid -1\leq x\leq 5,0\leq y\leq 1}\)</span>
-</div></article><article class="assemblage assemblage-like" id="MI1-activities-9"><h4 class="heading"><span class="title">Properties of Double Integrals.</span></h4>
+</div>
+<div class="solutions"><details id="mi-double-integral-cartesian-rectangle-calculate3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integral-cartesian-rectangle-calculate3-2-1"><span class="process-math">\(-15\)</span></div></div></details></div></article><article class="assemblage assemblage-like" id="MI1-activities-9"><h4 class="heading"><span class="title">Properties of Double Integrals.</span></h4>
 <div class="para logical" id="MI1-activities-9-2">
 <div class="para">Assume that the functions <span class="process-math">\(f(x,y)\)</span> and <span class="process-math">\(g(x,y)\)</span> are integrable over the rectangular region <span class="process-math">\(R\)</span> and that <span class="process-math">\(S\)</span> and <span class="process-math">\(T\)</span> are subregions of <span class="process-math">\(R\text{.}\)</span> Then,</div>
 <ol class="decimal" id="MI1-activities-9-2-7">
@@ -689,10 +723,12 @@ S = \lrbrace{(x,y,z)\in \R^3\mid 0\leq z\leq f(x,y), (x,y)\in R}
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.1.5</span><span class="period">.</span>
 </h4>
 <div class="para" id="mi-double-integrals-cartesian-rectangle-calculate4-1-1">Compute <span class="process-math">\(\ds \iint_R xe^y\, dA\text{,}\)</span> where <span class="process-math">\(R = [0,1]\times[-1,1]\)</span>
-</div></article><article class="activity project-like" id="mi-double-integrals-cartesian-rectangle-calculate5"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-double-integrals-cartesian-rectangle-calculate4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-cartesian-rectangle-calculate4-2-1"><span class="process-math">\(\dfrac{1}{2}(e-e^{-1})\)</span></div></div></details></div></article><article class="activity project-like" id="mi-double-integrals-cartesian-rectangle-calculate5"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.1.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="mi-double-integrals-cartesian-rectangle-calculate5-1-1">Find the volume of the solid bounded by the elliptic paraboloid <span class="process-math">\(x^2 + 4y^2 + z = 16\text{,}\)</span> the planes <span class="process-math">\(x=2\)</span> and <span class="process-math">\(y=2\text{,}\)</span> and the three coordinate planes.</div></article><article class="definition definition-like" id="def-type1-type2-regions"><h4 class="heading">
+<div class="para" id="mi-double-integrals-cartesian-rectangle-calculate5-1-1">Find the volume of the solid bounded by the elliptic paraboloid <span class="process-math">\(x^2 + 4y^2 + z = 16\text{,}\)</span> the planes <span class="process-math">\(x=2\)</span> and <span class="process-math">\(y=2\text{,}\)</span> and the three coordinate planes.</div>
+<div class="solutions"><details id="mi-double-integrals-cartesian-rectangle-calculate5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-cartesian-rectangle-calculate5-2-1"><span class="process-math">\(\ds \int_0^2\int_0^2 16-x^2-4y^2\, dx\, dy = \dfrac{112}{3}\)</span></div></div></details></div></article><article class="definition definition-like" id="def-type1-type2-regions"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">11.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">Type I and Type II Regions.</span>
 </h4>
 <div class="para logical" id="def-type1-type2-regions-4-1">
@@ -719,7 +755,7 @@ D = \lrbrace{(x,y)\in\R^2\mid h_1(y)\leq x \leq h_2(y), c\leq y \leq d}
 <div class="introduction" id="mi-double-integrals-type1type2-switch1-1">
 <div class="para" id="mi-double-integrals-type1type2-switch1-1-1">The image below is a Type I and a Type II region; call it <span class="process-math">\(R\text{.}\)</span>
 </div>
-<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/sageplot/mi-double-integrals-type1type2-switch1-1-2.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/sageplot/mi-double-integrals-type1type2-switch1-1-2.svg" role="img" class="contained"></div>
 </div>
 <article class="task exercise-like" id="mi-double-integrals-type1type2-switch1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para logical" id="mi-double-integrals-type1type2-switch1-2-1-1">
@@ -730,7 +766,8 @@ D = \lrbrace{(x,y)\in\R^2\mid h_1(y)\leq x \leq h_2(y), c\leq y \leq d}
 <li id="mi-double-integrals-type1type2-switch1-2-1-1-2-3"><div class="para" id="mi-double-integrals-type1type2-switch1-2-1-1-2-3-1"><span class="process-math">\(\displaystyle \lrbrace{(x,y)\in \R^2\mid \dfrac{1}{2}y \leq x\leq \sqrt{y}, 0\leq y\leq 4}\)</span></div></li>
 <li id="mi-double-integrals-type1type2-switch1-2-1-1-2-4"><div class="para" id="mi-double-integrals-type1type2-switch1-2-1-1-2-4-1"><span class="process-math">\(\displaystyle \lrbrace{(x,y)\in \R^2\mid \dfrac{1}{2}y \leq x\leq \sqrt{y}, 0\leq y\leq 2}\)</span></div></li>
 </ol>
-</div></article><article class="task exercise-like" id="mi-double-integrals-type1type2-switch1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+</div>
+<div class="solutions"><details id="mi-double-integrals-type1type2-switch1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-type1type2-switch1-2-2-1">C</div></div></details></div></article><article class="task exercise-like" id="mi-double-integrals-type1type2-switch1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para logical" id="mi-double-integrals-type1type2-switch1-3-1-1">
 <div class="para">Which set describes <span class="process-math">\(R\)</span> as a Type I region?</div>
 <ol class="upper-alpha ol-marker-2" id="mi-double-integrals-type1type2-switch1-3-1-1-2">
@@ -739,7 +776,8 @@ D = \lrbrace{(x,y)\in\R^2\mid h_1(y)\leq x \leq h_2(y), c\leq y \leq d}
 <li id="mi-double-integrals-type1type2-switch1-3-1-1-2-3"><div class="para" id="mi-double-integrals-type1type2-switch1-3-1-1-2-3-1"><span class="process-math">\(\displaystyle \lrbrace{(x,y)\in \R^2\mid \dfrac{1}{2}y \leq x\leq \sqrt{y}, 0\leq y\leq 4}\)</span></div></li>
 <li id="mi-double-integrals-type1type2-switch1-3-1-1-2-4"><div class="para" id="mi-double-integrals-type1type2-switch1-3-1-1-2-4-1"><span class="process-math">\(\displaystyle \lrbrace{(x,y)\in \R^2\mid \dfrac{1}{2}y \leq x\leq \sqrt{y}, 0\leq y\leq 2}\)</span></div></li>
 </ol>
-</div></article></article><article class="theorem theorem-like" id="thm-fubini-strong"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-double-integrals-type1type2-switch1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-type1type2-switch1-3-2-1">A</div></div></details></div></article></article><article class="theorem theorem-like" id="thm-fubini-strong"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">11.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">Fubini’s Theorem (Version 2).</span>
 </h4>
 <div class="para logical" id="thm-fubini-strong-3-1">
@@ -761,16 +799,18 @@ D = \lrbrace{(x,y)\in\R^2\mid h_1(y)\leq x \leq h_2(y), c\leq y \leq d}
 <div class="introduction" id="mi-double-integrals-calculate4-1"><div class="para" id="mi-double-integrals-calculate4-1-1">The base of a prism is the triangle in the <span class="process-math">\(xy-\)</span>plane bounded by the <span class="process-math">\(y-\)</span>axis, the line <span class="process-math">\(y=x\text{,}\)</span> and the line <span class="process-math">\(y=1\text{.}\)</span> The top of the prism lies in the plane <span class="process-math">\(z = 5-y-x\text{.}\)</span>
 </div></div>
 <article class="task exercise-like" id="mi-double-integrals-calculate4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="mi-double-integrals-calculate4-2-1-1">Sketch and label the region.</div></article><article class="task exercise-like" id="mi-double-integrals-calculate4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="mi-double-integrals-calculate4-2-1-1">Sketch and label the region.</div>
+<div class="solutions"><details id="mi-double-integrals-calculate4-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/sageplot/mi-double-integrals-calculate4-2-2-1.svg" role="img" class="contained"></div></div></details></div></article><article class="task exercise-like" id="mi-double-integrals-calculate4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para logical" id="mi-double-integrals-calculate4-3-1-1">
 <div class="para">If we consider region as Type I, which integral will compute the volume of the prism?</div>
 <ol class="upper-alpha ol-marker-2 cols2" id="mi-double-integrals-calculate4-3-1-1-1">
 <li id="mi-double-integrals-calculate4-3-1-1-1-1"><div class="para" id="mi-double-integrals-calculate4-3-1-1-1-1-1"><span class="process-math">\(\displaystyle \ds \int_{x=0}^{x=1}\int_{y=1}^{y=x} z\, dx\, dy\)</span></div></li>
-<li id="mi-double-integrals-calculate4-3-1-1-1-2"><div class="para" id="mi-double-integrals-calculate4-3-1-1-1-2-1"><span class="process-math">\(\displaystyle \ds \int_{x=0}^{x=1}\int_{y=1}^{y=x} z\, dy\, dx\)</span></div></li>
+<li id="mi-double-integrals-calculate4-3-1-1-1-2"><div class="para" id="mi-double-integrals-calculate4-3-1-1-1-2-1"><span class="process-math">\(\displaystyle \ds \int_{x=0}^{x=1}\int_{y=x}^{y=1} z\, dy\, dx\)</span></div></li>
 <li id="mi-double-integrals-calculate4-3-1-1-1-3"><div class="para" id="mi-double-integrals-calculate4-3-1-1-1-3-1"><span class="process-math">\(\displaystyle \ds \int_{y=0}^{y=1}\int_{x=0}^{x=y} z\, dx\, dy\)</span></div></li>
 <li id="mi-double-integrals-calculate4-3-1-1-1-4"><div class="para" id="mi-double-integrals-calculate4-3-1-1-1-4-1"><span class="process-math">\(\displaystyle \ds \int_{y=0}^{y=1}\int_{x=0}^{x=y} z\, dy\, dx\)</span></div></li>
 </ol>
-</div></article><article class="task exercise-like" id="mi-double-integrals-calculate4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+</div>
+<div class="solutions"><details id="mi-double-integrals-calculate4-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-calculate4-3-2-1">B</div></div></details></div></article><article class="task exercise-like" id="mi-double-integrals-calculate4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para logical" id="mi-double-integrals-calculate4-4-1-1">
 <div class="para">If we consider region as Type II, which integral will compute the volume of the prism?</div>
 <ol class="upper-alpha ol-marker-2 cols2" id="mi-double-integrals-calculate4-4-1-1-1">
@@ -779,37 +819,49 @@ D = \lrbrace{(x,y)\in\R^2\mid h_1(y)\leq x \leq h_2(y), c\leq y \leq d}
 <li id="mi-double-integrals-calculate4-4-1-1-1-3"><div class="para" id="mi-double-integrals-calculate4-4-1-1-1-3-1"><span class="process-math">\(\displaystyle \ds \int_{y=0}^{y=1}\int_{x=0}^{x=y} z\, dx\, dy\)</span></div></li>
 <li id="mi-double-integrals-calculate4-4-1-1-1-4"><div class="para" id="mi-double-integrals-calculate4-4-1-1-1-4-1"><span class="process-math">\(\displaystyle \ds \int_{y=0}^{y=1}\int_{x=0}^{x=y} z\, dy\, dx\)</span></div></li>
 </ol>
-</div></article><article class="task exercise-like" id="mi-double-integrals-calculate4-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="mi-double-integrals-calculate4-5-1-1">Choose to use (b) or (c) to compute the value of the integral.</div></article></article><article class="activity project-like" id="mi-double-integrals-calculate5"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-double-integrals-calculate4-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-calculate4-4-2-1">C</div></div></details></div></article><article class="task exercise-like" id="mi-double-integrals-calculate4-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="mi-double-integrals-calculate4-5-1-1">Choose to use (b) or (c) to compute the value of the integral.</div>
+<div class="solutions"><details id="mi-double-integrals-calculate4-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-calculate4-5-2-1">2</div></div></details></div></article></article><article class="activity project-like" id="mi-double-integrals-calculate5"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.1.9</span><span class="period">.</span>
 </h4>
 <div class="para" id="mi-double-integrals-calculate5-1-1">Let <span class="process-math">\(D\)</span>be the region bounded by the curves <span class="process-math">\(y=3x^2 \)</span>and <span class="process-math">\(y=1-2x^2\text{.}\)</span> Compute the integral <span class="process-math">\(\ds \iint_D (x+3y)\, dA\)</span>
-</div></article><article class="activity project-like" id="mi-double-integrals-calculate6"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-double-integrals-calculate5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-calculate5-2-1"><span class="process-math">\(\ds \int_{-1/\sqrt{5}}^{1/\sqrt{5}}\int_{3x^2}{1-2x^2} x+3y\, dy\, dx = \dfrac{52}{25\sqrt{5}}\)</span></div></div></details></div></article><article class="activity project-like" id="mi-double-integrals-calculate6"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.1.10</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="mi-double-integrals-calculate6-1"><div class="para" id="mi-double-integrals-calculate6-1-1">Let <span class="process-math">\(f(x,y) = \cos(x^2)\)</span>
 </div></div>
 <article class="task exercise-like" id="mi-double-integrals-calculate6-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para logical" id="mi-double-integrals-calculate6-2-1-1">
-<div class="para">True or false: we can compute <span class="process-math">\(\ds \int_0^1\int_0^y f(x,y)\, dy\,dx\)</span> directly.</div>
+<div class="para">True or false: we can compute <span class="process-math">\(\ds \int_0^1\int_y^1 f(x,y)\, dx\,dy\)</span> directly.</div>
 <ol class="upper-alpha ol-marker-2 cols2" id="mi-double-integrals-calculate6-2-1-1-2">
 <li id="mi-double-integrals-calculate6-2-1-1-2-1"><div class="para" id="mi-double-integrals-calculate6-2-1-1-2-1-1">True</div></li>
 <li id="mi-double-integrals-calculate6-2-1-1-2-2"><div class="para" id="mi-double-integrals-calculate6-2-1-1-2-2-1">False</div></li>
 </ol>
-</div></article><article class="task exercise-like" id="mi-double-integrals-calculate6-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="mi-double-integrals-calculate6-3-1-1">Sketch and label the region described in the integral from (a).</div></article><article class="task exercise-like" id="mi-double-integrals-calculate6-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+</div>
+<div class="solutions"><details id="mi-double-integrals-calculate6-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-calculate6-2-2-1">B</div></div></details></div></article><article class="task exercise-like" id="mi-double-integrals-calculate6-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="mi-double-integrals-calculate6-3-1-1">Sketch and label the region described in the integral from (a).</div>
+<div class="solutions"><details id="mi-double-integrals-calculate6-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/sageplot/mi-double-integrals-calculate6-3-2-1.svg" role="img" class="contained"></div></div></details></div></article><article class="task exercise-like" id="mi-double-integrals-calculate6-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="mi-double-integrals-calculate6-4-1-1">Use (b) to rewrite the integral from (a), then evaluate <span class="process-math">\(\ds \iint_D f(x,y)\, dA\)</span>
-</div></article></article><article class="activity project-like" id="mi-double-integrals-sketchregion1"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-double-integrals-calculate6-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-calculate6-4-2-1"><span class="process-math">\(\ds \int_0^1\int_y^1 \cos(x^2)\, dx\,dy = \int_0^1\int_0^x \cos(x^2)\, dy\, dx = \dfrac{1}{2}\sin(1)\)</span></div></div></details></div></article></article><article class="activity project-like" id="mi-double-integrals-sketchregion1"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.1.11</span><span class="period">.</span>
 </h4>
 <div class="para" id="mi-double-integrals-sketchregion1-1-1">Sketch the region of integration for the integral <span class="process-math">\(\ds \int_0^1 \int_{1-y}^{\sqrt{1-y^2}} f(x,y)\, dA\text{.}\)</span>
-</div></article><article class="activity project-like" id="mi-double-integrals-calculate7"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-double-integrals-sketchregion1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="mi-double-integrals-sketchregion1-2-1">Note first that <span class="process-math">\(\ds \int_0^1 \int_{1-y}^{\sqrt{1-y^2}} f(x,y)\, dA = \)</span>
+</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/sageplot/mi-double-integrals-sketchregion1-2-2.svg" role="img" class="contained"></div>
+</div></details></div></article><article class="activity project-like" id="mi-double-integrals-calculate7"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.1.12</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="mi-double-integrals-calculate7-1"><div class="para" id="mi-double-integrals-calculate7-1-1">Consider the region bounded by the curves <span class="process-math">\(y=x\)</span> and <span class="process-math">\(y=1-x^2\text{.}\)</span>
 </div></div>
 <article class="task exercise-like" id="mi-double-integrals-calculate7-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="mi-double-integrals-calculate7-2-1-1">Use techniques from Calculus I to find the area between the curves.</div></article><article class="task exercise-like" id="mi-double-integrals-calculate7-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="mi-double-integrals-calculate7-2-1-1">Use techniques from Calculus I to find the area between the curves.</div>
+<div class="solutions"><details id="mi-double-integrals-calculate7-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-double-integrals-calculate7-2-2-1"><span class="process-math">\(\dfrac{1}{6}\)</span></div></div></details></div></article><article class="task exercise-like" id="mi-double-integrals-calculate7-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="mi-double-integrals-calculate7-3-1-1">Let <span class="process-math">\(R\)</span> denote the region. Compute <span class="process-math">\(\ds \iint_R\, dA\text{.}\)</span> What do you notice?</div></article></article><article class="fact theorem-like" id="MI1-activities-20"><h4 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">11.1.7</span><span class="period">.</span>
 </h4>

@@ -6271,7 +6271,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.1",
   "title": "MI1: Double Integrals in Cartesian Coordinates",
-  "body": " MI1: Double Integrals in Cartesian Coordinates     MI1  I can compute double integrals using Cartesian coordinates, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Double Integrals over Rectangular Regions    Read all sections      Section 5.2: Double Integrals over General Regions    Read all sections        In-Class Activities   Double Integral (Over a Rectangle)  double integral (over a rectangle)   Let be defined on the region given by and let be the solid that lies above and under the graph of : The double integral over R is given by       This activity will develop the intuition for the double integral in general.    What kind of object can we use to approximate the volume of the solid ?   Rectangle    Rectangular prism    Sphere    Cylinder       In Calculus 1, the expression to approximate the area under a curve was given by where was the length of the interval we integrated over.  For the volume under a surface, we have the expression   Why do we need to have an extra summation and both and ?    The expression above gives an approximation of the area over the rectangular region. How can we move from an approximation to an exact answer?      The double integral of over the rectangle is given by       Consider the function , which is defined and integrable on the rectangle .    The integral is not necessarily a number. Why not?    If we set , then what does do? Is it necessarily a number?    Compute       Let on the rectangle     Which is the correct first step in computing the integral ?                          Finish the computation and evaluate the integral.    Now, compute      Fubini's Theorem (Version 1)  Fubini's theorem (version 1)   Suppose that is a function of two variables that is continuous over a rectangular region . Then,       Evaluate the double integral , where      Properties of Double Integrals  Assume that the functions and are integrable over the rectangular region and that and are subregions of . Then,        If is a constant, then     If and is empty except at the boundary, then     If can be written as where is a function of alone, and is a function of alone, then if , we have         Compute , where       Find the volume of the solid bounded by the elliptic paraboloid , the planes and , and the three coordinate planes.     Type I and Type II Regions  type 1 region  type 2 region   A region is called a type I region if it lies between two vertical lines and the graphs of two continuous functions and , i.e.   A region is called a type II region if it lies between two horizontal lines and the graphs of two continuous functions and , i.e.   Examples of each are given below.   An example of a Type I region on the left, and Type II region on the right               The image below is a Type I and a Type II region; call it .       Which set describes as a Type II region?                          Which set describes as a Type I region?                           Fubini's Theorem (Version 2)  Fubini's theorem (version 2)   For a function that is continuous on a Type I region , we have If is instead a Type II region, we have       The base of a prism is the triangle in the plane bounded by the axis, the line , and the line . The top of the prism lies in the plane .    Sketch and label the region.    If we consider region as Type I, which integral will compute the volume of the prism?                          If we consider region as Type II, which integral will compute the volume of the prism?                          Choose to use (b) or (c) to compute the value of the integral.      Let be the region bounded by the curves and . Compute the integral       Let     True or false: we can compute directly.   True    False       Sketch and label the region described in the integral from (a).    Use (b) to rewrite the integral from (a), then evaluate       Sketch the region of integration for the integral .      Consider the region bounded by the curves and .    Use techniques from Calculus I to find the area between the curves.    Let denote the region. Compute . What do you notice?      The area of a closed, bounded plane region is given by      "
+  "body": " MI1: Double Integrals in Cartesian Coordinates     MI1  I can compute double integrals using Cartesian coordinates, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.1: Double Integrals over Rectangular Regions    Read all sections      Section 5.2: Double Integrals over General Regions    Read all sections        In-Class Activities   Double Integral (Over a Rectangle)  double integral (over a rectangle)   Let be defined on the region given by and let be the solid that lies above and under the graph of : The double integral over R is given by       This activity will develop the intuition for the double integral in general.    What kind of object can we use to approximate the volume of the solid ?   Rectangle    Rectangular prism    Sphere    Cylinder      B: Rectangular prism    In Calculus 1, the expression to approximate the area under a curve was given by where was the length of the interval we integrated over.  For the volume under a surface, we have the expression   Why do we need to have an extra summation and both and ?   We need and because we are partitioning area- which requires two dimensions; this is what requires the extra summation.    The expression above gives an approximation of the area over the rectangular region. How can we move from an approximation to an exact answer?   Take a limit of the approximation      The double integral of over the rectangle is given by       Consider the function , which is defined and integrable on the rectangle .    The integral is not necessarily a number. Why not?   Take . Then we have     If we set , then what does do? Is it necessarily a number?   Yes, it must be a number; the integral computes volume, since volume is the integral of cross-sectional area.    Compute           Let on the rectangle     Which is the correct first step in computing the integral ?                         A    Finish the computation and evaluate the integral.        Now, compute          Fubini's Theorem (Version 1)  Fubini's theorem (version 1)   Suppose that is a function of two variables that is continuous over a rectangular region . Then,       Evaluate the double integral , where           Properties of Double Integrals  Assume that the functions and are integrable over the rectangular region and that and are subregions of . Then,        If is a constant, then     If and is empty except at the boundary, then     If can be written as where is a function of alone, and is a function of alone, then if , we have         Compute , where            Find the volume of the solid bounded by the elliptic paraboloid , the planes and , and the three coordinate planes.          Type I and Type II Regions  type 1 region  type 2 region   A region is called a type I region if it lies between two vertical lines and the graphs of two continuous functions and , i.e.   A region is called a type II region if it lies between two horizontal lines and the graphs of two continuous functions and , i.e.   Examples of each are given below.   An example of a Type I region on the left, and Type II region on the right               The image below is a Type I and a Type II region; call it .       Which set describes as a Type II region?                         C    Which set describes as a Type I region?                         A     Fubini's Theorem (Version 2)  Fubini's theorem (version 2)   For a function that is continuous on a Type I region , we have If is instead a Type II region, we have       The base of a prism is the triangle in the plane bounded by the axis, the line , and the line . The top of the prism lies in the plane .    Sketch and label the region.        If we consider region as Type I, which integral will compute the volume of the prism?                         B    If we consider region as Type II, which integral will compute the volume of the prism?                         C    Choose to use (b) or (c) to compute the value of the integral.   2      Let be the region bounded by the curves and . Compute the integral            Let     True or false: we can compute directly.   True    False      B    Sketch and label the region described in the integral from (a).        Use (b) to rewrite the integral from (a), then evaluate           Sketch the region of integration for the integral .    Note first that          Consider the region bounded by the curves and .    Use techniques from Calculus I to find the area between the curves.        Let denote the region. Compute . What do you notice?    The value of the integral is       The area of a closed, bounded plane region is given by      "
 },
 {
   "id": "MI1-2",
@@ -6298,7 +6298,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.1",
   "title": "",
-  "body": "  This activity will develop the intuition for the double integral in general.    What kind of object can we use to approximate the volume of the solid ?   Rectangle    Rectangular prism    Sphere    Cylinder       In Calculus 1, the expression to approximate the area under a curve was given by where was the length of the interval we integrated over.  For the volume under a surface, we have the expression   Why do we need to have an extra summation and both and ?    The expression above gives an approximation of the area over the rectangular region. How can we move from an approximation to an exact answer?   "
+  "body": "  This activity will develop the intuition for the double integral in general.    What kind of object can we use to approximate the volume of the solid ?   Rectangle    Rectangular prism    Sphere    Cylinder      B: Rectangular prism    In Calculus 1, the expression to approximate the area under a curve was given by where was the length of the interval we integrated over.  For the volume under a surface, we have the expression   Why do we need to have an extra summation and both and ?   We need and because we are partitioning area- which requires two dimensions; this is what requires the extra summation.    The expression above gives an approximation of the area over the rectangular region. How can we move from an approximation to an exact answer?   Take a limit of the approximation   "
 },
 {
   "id": "fact-double-integral-cartesian-rectangle",
@@ -6316,7 +6316,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.2",
   "title": "",
-  "body": "  Consider the function , which is defined and integrable on the rectangle .    The integral is not necessarily a number. Why not?    If we set , then what does do? Is it necessarily a number?    Compute    "
+  "body": "  Consider the function , which is defined and integrable on the rectangle .    The integral is not necessarily a number. Why not?   Take . Then we have     If we set , then what does do? Is it necessarily a number?   Yes, it must be a number; the integral computes volume, since volume is the integral of cross-sectional area.    Compute        "
 },
 {
   "id": "mi-double-integral-cartesian-rectangle-calculate2",
@@ -6325,7 +6325,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.3",
   "title": "",
-  "body": "  Let on the rectangle     Which is the correct first step in computing the integral ?                          Finish the computation and evaluate the integral.    Now, compute    "
+  "body": "  Let on the rectangle     Which is the correct first step in computing the integral ?                         A    Finish the computation and evaluate the integral.        Now, compute        "
 },
 {
   "id": "thm-fubini-weak",
@@ -6343,7 +6343,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.4",
   "title": "",
-  "body": "  Evaluate the double integral , where    "
+  "body": "  Evaluate the double integral , where         "
 },
 {
   "id": "mi-double-integrals-cartesian-rectangle-calculate4",
@@ -6352,7 +6352,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.5",
   "title": "",
-  "body": "  Compute , where    "
+  "body": "  Compute , where         "
 },
 {
   "id": "mi-double-integrals-cartesian-rectangle-calculate5",
@@ -6361,7 +6361,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.6",
   "title": "",
-  "body": "  Find the volume of the solid bounded by the elliptic paraboloid , the planes and , and the three coordinate planes.   "
+  "body": "  Find the volume of the solid bounded by the elliptic paraboloid , the planes and , and the three coordinate planes.        "
 },
 {
   "id": "def-type1-type2-regions",
@@ -6379,7 +6379,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.7",
   "title": "",
-  "body": "  The image below is a Type I and a Type II region; call it .       Which set describes as a Type II region?                          Which set describes as a Type I region?                         "
+  "body": "  The image below is a Type I and a Type II region; call it .       Which set describes as a Type II region?                         C    Which set describes as a Type I region?                         A   "
 },
 {
   "id": "thm-fubini-strong",
@@ -6397,7 +6397,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.8",
   "title": "",
-  "body": "  The base of a prism is the triangle in the plane bounded by the axis, the line , and the line . The top of the prism lies in the plane .    Sketch and label the region.    If we consider region as Type I, which integral will compute the volume of the prism?                          If we consider region as Type II, which integral will compute the volume of the prism?                          Choose to use (b) or (c) to compute the value of the integral.   "
+  "body": "  The base of a prism is the triangle in the plane bounded by the axis, the line , and the line . The top of the prism lies in the plane .    Sketch and label the region.        If we consider region as Type I, which integral will compute the volume of the prism?                         B    If we consider region as Type II, which integral will compute the volume of the prism?                         C    Choose to use (b) or (c) to compute the value of the integral.   2   "
 },
 {
   "id": "mi-double-integrals-calculate5",
@@ -6406,7 +6406,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.9",
   "title": "",
-  "body": "  Let be the region bounded by the curves and . Compute the integral    "
+  "body": "  Let be the region bounded by the curves and . Compute the integral         "
 },
 {
   "id": "mi-double-integrals-calculate6",
@@ -6415,7 +6415,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.10",
   "title": "",
-  "body": "  Let     True or false: we can compute directly.   True    False       Sketch and label the region described in the integral from (a).    Use (b) to rewrite the integral from (a), then evaluate    "
+  "body": "  Let     True or false: we can compute directly.   True    False      B    Sketch and label the region described in the integral from (a).        Use (b) to rewrite the integral from (a), then evaluate        "
 },
 {
   "id": "mi-double-integrals-sketchregion1",
@@ -6424,7 +6424,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.11",
   "title": "",
-  "body": "  Sketch the region of integration for the integral .   "
+  "body": "  Sketch the region of integration for the integral .    Note first that       "
 },
 {
   "id": "mi-double-integrals-calculate7",
@@ -6433,7 +6433,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.1.12",
   "title": "",
-  "body": "  Consider the region bounded by the curves and .    Use techniques from Calculus I to find the area between the curves.    Let denote the region. Compute . What do you notice?   "
+  "body": "  Consider the region bounded by the curves and .    Use techniques from Calculus I to find the area between the curves.        Let denote the region. Compute . What do you notice?    The value of the integral is    "
 },
 {
   "id": "MI1-activities-20",
