@@ -39,6 +39,13 @@
                     Find a polar equation for the circle <m>x^2 + (y-2)^2 = 4</m>
                 </p>
             </statement>
+            <task>
+                <statement>
+                    <p>
+                        <m>r = 4\sin\theta</m>
+                    </p>
+                </statement>
+            </task>
         </activity>
 
         <activity>
@@ -53,6 +60,11 @@
                         <m>r\cos\theta = 9</m>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>x = 9</m>
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -60,6 +72,11 @@
                         <m>r^2 = 2r\cos\theta</m>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>(x-1)^2 + y^2 = 1</m>
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -67,6 +84,11 @@
                         <m>r = \dfrac{16}{4\cos\theta -\sin\theta}</m>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>y = 4x - 16</m>
+                    </p>
+                </answer>
             </task>
         </activity>
 
@@ -89,6 +111,17 @@
                     Sketch the polar rectangular region <m>R = \lrbrace{(r,\theta)\mid 2\leq r\leq 3, 0\leq \theta\leq \dfrac{\pi}{2}}</m>
                 </p>
             </statement>
+            <answer>
+                <image width="50%">
+                    <sageplot>
+                        t = var('t')
+                        g = Graphics()
+                        g += polar_plot(2,(t,0,pi/2), color = 'blue', thickness=2)
+                        g += polar_plot(3,(t,0,pi/2), color = 'blue', fill=2, thickness=2, fillcolor='blue', fillalpha = 0.25)
+                        g
+                    </sageplot>
+                </image>
+            </answer>
         </activity>
 
         <activity>
@@ -103,6 +136,17 @@
                         Sketch and label <m>R</m>.
                     </p>
                 </statement>
+                <answer>
+                <image width="50%">
+                    <sageplot>
+                        t = var('t')
+                        g = Graphics()
+                        g += polar_plot(2,(t,-pi/2,pi/2), color = 'blue', thickness=2)
+                        g += polar_plot(3,(t,-pi/2,pi/2), color = 'blue', fill=2, thickness=2, fillcolor='blue', fillalpha = 0.25)
+                        g
+                    </sageplot>
+                </image>
+            </answer>
             </task>
             <task>
                 <statement>
@@ -132,6 +176,11 @@
                         </ol>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        D
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -169,6 +218,11 @@
                         </ol>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        C
+                    </p>
+                </answer>
             </task>
         </activity>
 
@@ -178,6 +232,20 @@
                     Sketch the region <m>R = \lrbrace{(r,\theta)\mid 1\leq r\leq 2, -\dfrac{\pi}{2}\leq \theta\leq \dfrac{\pi}{2}}</m> and then evaluate <m>\ds \iint_R x\, dA</m>
                 </p>
             </statement>
+            <answer>
+                <image width="50%">
+                    <sageplot>
+                        t = var('t')
+                        g = Graphics()
+                        g += polar_plot(1,(t,0,pi/2), color = 'blue', thickness=2)
+                        g += polar_plot(2,(t,0,pi/2), color = 'blue', fill=1, thickness=2, fillcolor='blue', fillalpha = 0.25)
+                        g
+                    </sageplot>
+                </image>
+                <p>
+                    <m>\ds \iint_R x\, dA = \int_{-pi/2}^{pi/2}\int_1^2 r^2\cos\theta\, dr\, d\theta = \dfrac{14}{3}</m>
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="mi-double-integral-polar-convert1">
@@ -192,6 +260,11 @@
                         Convert <m>f(x,y)</m> into a function of <m>r</m> and <m>\theta</m>.
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>f(r,\theta) = \sqrt{16-r^2}</m>
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -199,6 +272,11 @@
                         Describe <m>R</m> using polar coordinates.
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>R = \lrbrace{(r,\theta)\mid 0\leq r\leq 1, 0\leq \theta \leq 2\pi}</m>
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -206,6 +284,11 @@
                         Set up and evaluate the integral <m>\ds \iint_R f(x,y)\, dA</m>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>\ds \int_0^{2\pi}\int_0^1 r\sqrt{16-r^2}\, dr\, d\theta = \dfrac{128}{3} - 10\sqrt{15}</m>
+                    </p>
+                </answer>
             </task>
         </activity>
 
@@ -215,6 +298,22 @@
                     Show that the volume of a sphere of radius <m>R</m> is given by <m>\dfrac{4\pi}{3}R^3</m> by using a polar double integral.
                 </p>
             </statement>
+            <answer>
+                <p>
+                    The upper hemisphere of a sphere of radius <m>R</m> is given by <m>z = \sqrt{R^2-r^2}</m> in polar coordinates, so we get
+                    <me>
+                        V = \ds 2\int_0^{2\pi}\int_0^R r\sqrt{R^2-r^2}\, dr\, d\theta
+                    </me>   
+                    The first integral gives (after a u-substitution)
+                    <me>
+                        2\int_0^{2\pi} \dfrac{1}{2}\sqrt{u}\bigg\rvert_0^{R^2}\, d\theta = \int_0^{2\pi} \dfrac{2}{3}R^3\, d\theta
+                    </me>
+                    and finally
+                    <me>
+                        \int_0^{2\pi} \dfrac{2}{3}R^3\, d\theta =  \dfrac{4\pi}{3}R^3
+                    </me>
+                </p>
+            </answer>
         </activity>
 
         <definition xml:id="def-double-integral-polar-general">
@@ -255,6 +354,11 @@
                         </sageplot>
                     </image>
                 </statement>
+                <answer>
+                    <p>
+                        <m>\pi \leq \theta\leq 2\pi</m>
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -262,6 +366,11 @@
                         What are the bounds on <m>r</m>?
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>0\leq r\leq 1-\sin\theta</m>
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -270,14 +379,24 @@
                     </p>
                 </statement>
             </task>
+            <answer>
+                <p>
+                    <m>\int_{\pi}^{2\pi}\int_0^{1-\sin\theta} r^3\cos\theta\, dr\,d\theta = 0</m>
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="mi-double-integral-polar-calculate4">
             <statement>
                 <p>
-                    Convert the integral <m>\ds \int_0^1\int_{y\sqrt{5}}^{\sqrt{1-y^2}} xy^2\,dx\,dy</m> to polar coordinates and evaluate.
+                    Convert the integral <m>\ds \int_1^2\int_{x\sqrt{3}}^{\sqrt{4-y^2}} \,dA</m> to polar coordinates and evaluate.
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m>\ds \int_{\pi/6}^{\pi/3}\int_{\csc\theta}^2 r\, dr\, d\theta = \dfrac{\pi - \sqrt{3}}{3}</m>
+                </p>
+            </answer>
         </activity>
     </subsection>
 
