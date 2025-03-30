@@ -6451,7 +6451,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.2",
   "title": "MI2: Double Integrals in Polar Coordinates",
-  "body": " MI2: Double Integrals in Polar Coordinates     MI2  I can compute double integrals using polar coordinates      Pre-Class Preparation  Read the following sections of the text:    Section 1.3: Polar Coordinates    Read all sections      Section 1.4: Area and Arc Length in Polar Coordinates    Read \"Areas of Regions Bounded by Polar Curves\" only      Section 5.3: Double Integrals in Polar Coordinates        In-Class Activities    The polar coordinate system is ideal for shapes which are circular or periodic in nature. Polar cooridnates carry two pieces of information: a radial distance , ; and an angle , .  Converting to and from polar coordinates involves using the following pieces of information:       Find a polar equation for the circle       Convert the following polar equations to Cartesian equations:                    Polar Double Integral (Rectangular Region)  double integral (polar, rectangle)   The double integral over a polar rectangle of the function is given by       Sketch the polar rectangular region       Consider and the region     Sketch and label .    If we integrate in rectangular coordinates, should we express as a Type I or Type II region? Why?   Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of     Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of        Which integral correctly expresses ?                            Sketch the region and then evaluate       Let and let be the unit disk on the plane    Convert into a function of and .    Describe using polar coordinates.    Set up and evaluate the integral       Show that the volume of a sphere of radius is given by by using a polar double integral.     Polar Double Integral (General Region)  double integral (polar, general)   The double integral over a polar region , where is given by       Evaluate the integral , where is the region bounded by the polar axis and the lower portion of the cardioid     The plot of is given below. Use it to find the bounds on .       What are the bounds on ?    Set up and evaluate       Convert the integral to polar coordinates and evaluate.     "
+  "body": " MI2: Double Integrals in Polar Coordinates     MI2  I can compute double integrals using polar coordinates      Pre-Class Preparation  Read the following sections of the text:    Section 1.3: Polar Coordinates    Read all sections      Section 1.4: Area and Arc Length in Polar Coordinates    Read \"Areas of Regions Bounded by Polar Curves\" only      Section 5.3: Double Integrals in Polar Coordinates        In-Class Activities    The polar coordinate system is ideal for shapes which are circular or periodic in nature. Polar cooridnates carry two pieces of information: a radial distance , ; and an angle , .  Converting to and from polar coordinates involves using the following pieces of information:       Find a polar equation for the circle            Convert the following polar equations to Cartesian equations:                                Polar Double Integral (Rectangular Region)  double integral (polar, rectangle)   The double integral over a polar rectangle of the function is given by       Sketch the polar rectangular region            Consider and the region     Sketch and label .        If we integrate in rectangular coordinates, should we express as a Type I or Type II region? Why?   Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of     Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of       D    Which integral correctly expresses ?                         C      Sketch the region and then evaluate               Let and let be the unit disk on the plane    Convert into a function of and .        Describe using polar coordinates.        Set up and evaluate the integral           Show that the volume of a sphere of radius is given by by using a polar double integral.    The upper hemisphere of a sphere of radius is given by in polar coordinates, so we get The first integral gives (after a u-substitution) and finally      Polar Double Integral (General Region)  double integral (polar, general)   The double integral over a polar region , where is given by       Evaluate the integral , where is the region bounded by the polar axis and the lower portion of the cardioid     The plot of is given below. Use it to find the bounds on .           What are the bounds on ?        Set up and evaluate            Convert the integral to polar coordinates and evaluate.          "
 },
 {
   "id": "MI2-2",
@@ -6478,7 +6478,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.2.1",
   "title": "",
-  "body": "  Find a polar equation for the circle    "
+  "body": "  Find a polar equation for the circle         "
 },
 {
   "id": "MI2-activities-4",
@@ -6487,7 +6487,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.2.2",
   "title": "",
-  "body": "  Convert the following polar equations to Cartesian equations:                  "
+  "body": "  Convert the following polar equations to Cartesian equations:                              "
 },
 {
   "id": "def-double-integral-polar-rectangle",
@@ -6505,7 +6505,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.2.3",
   "title": "",
-  "body": "  Sketch the polar rectangular region    "
+  "body": "  Sketch the polar rectangular region         "
 },
 {
   "id": "MI2-activities-7",
@@ -6514,7 +6514,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.2.4",
   "title": "",
-  "body": "  Consider and the region     Sketch and label .    If we integrate in rectangular coordinates, should we express as a Type I or Type II region? Why?   Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of     Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of        Which integral correctly expresses ?                         "
+  "body": "  Consider and the region     Sketch and label .        If we integrate in rectangular coordinates, should we express as a Type I or Type II region? Why?   Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of     Type I because the circles are more easily expressed as functions of     Type II because the circles are more easily expressed as functions of       D    Which integral correctly expresses ?                         C   "
 },
 {
   "id": "mi-double-integral-polar-calculate1",
@@ -6523,7 +6523,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.2.5",
   "title": "",
-  "body": "  Sketch the region and then evaluate    "
+  "body": "  Sketch the region and then evaluate            "
 },
 {
   "id": "mi-double-integral-polar-convert1",
@@ -6532,7 +6532,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.2.6",
   "title": "",
-  "body": "  Let and let be the unit disk on the plane    Convert into a function of and .    Describe using polar coordinates.    Set up and evaluate the integral    "
+  "body": "  Let and let be the unit disk on the plane    Convert into a function of and .        Describe using polar coordinates.        Set up and evaluate the integral        "
 },
 {
   "id": "mi-double-integral-polar-calculate2",
@@ -6541,7 +6541,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.2.7",
   "title": "",
-  "body": "  Show that the volume of a sphere of radius is given by by using a polar double integral.   "
+  "body": "  Show that the volume of a sphere of radius is given by by using a polar double integral.    The upper hemisphere of a sphere of radius is given by in polar coordinates, so we get The first integral gives (after a u-substitution) and finally    "
 },
 {
   "id": "def-double-integral-polar-general",
@@ -6559,7 +6559,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.2.8",
   "title": "",
-  "body": "  Evaluate the integral , where is the region bounded by the polar axis and the lower portion of the cardioid     The plot of is given below. Use it to find the bounds on .       What are the bounds on ?    Set up and evaluate    "
+  "body": "  Evaluate the integral , where is the region bounded by the polar axis and the lower portion of the cardioid     The plot of is given below. Use it to find the bounds on .           What are the bounds on ?        Set up and evaluate         "
 },
 {
   "id": "mi-double-integral-polar-calculate4",
@@ -6568,7 +6568,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.2.9",
   "title": "",
-  "body": "  Convert the integral to polar coordinates and evaluate.   "
+  "body": "  Convert the integral to polar coordinates and evaluate.        "
 },
 {
   "id": "MI3",
