@@ -378,12 +378,12 @@
                         Set up and evaluate <m>\ds \iint_D r^2\cos\theta\,r\,dr\,d\theta</m>
                     </p>
                 </statement>
-            </task>
-            <answer>
-                <p>
-                    <m>\int_{\pi}^{2\pi}\int_0^{1-\sin\theta} r^3\cos\theta\, dr\,d\theta = 0</m>
-                </p>
-            </answer>
+                <answer>
+                    <p>
+                        <m>\int_{\pi}^{2\pi}\int_0^{1-\sin\theta} r^3\cos\theta\, dr\,d\theta = 0</m>
+                    </p>
+                </answer>
+            </task>    
         </activity>
 
         <activity xml:id="mi-double-integral-polar-calculate4">
