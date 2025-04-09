@@ -18,7 +18,73 @@
     <subsection xml:id="FS2-activities">
         <title>In-Class Activities</title>
 
-        
+        <remark>
+            <p>
+                We can parametrize surfaces in much the same way as we parametrize curves. 
+            </p>
+        </remark>
+
+        <definition xml:id="def-parametrization-surface">
+            <title>Parametrization of a Surface</title>
+            <idx><h>surface</h></idx>
+            <idx><h>parametrization (surface)</h></idx>
+            <idx><h>parameter domain</h></idx>
+            <statement>
+                <p>
+                    Suppose that the continuous vector function
+                    <me>
+                        \textbf{r}(u,v) = \lrangle{f(u,v),g(u,v),h(u,v)}
+                    </me>
+                    is defined on some region <m>R</m> in the <m>uv</m>-plane and one-to-one on the interior of <m>R</m>. The range of <m>\textbf{r}</m> is called a <term>surface</term> <m>S</m> defined or traced by <m>\textbf{r}</m>. This vector function along with the domain <m>R</m> is called a <term>parametrization</term> of the surface <m>S</m>, the variables <m>u,v</m> are called <term>parameters</term>, and <m>R</m> is called the <term>parameter domain</term>. 
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="fs-parametrization-1">
+            <statement>
+                <p>
+                    The parametrization <m>\textbf{f}(r,\theta) = \lrangle{r\cos\theta,r\sin\theta,r}</m>, <m>0\leq z\leq 1</m>, parametrizes which of the following surfaces?
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                Cone
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Sphere
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Plane
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Elliptic Paraboloid
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="fs-parametrization-2">
+            <statement>
+                <p>
+                    Describe the surface with parametrization <m>\textbf{r}(u,v) = \lrangle{2\cos u,2\sin u, v}</m>, <m>0\leq u \lt 2\pi</m>, <m>-\infty \lt v \lt \infty</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="fs-parametrization-3">
+            <statement>
+                <p>
+                    Parametrize a hemisphere of radius 4, for <m>z \leq 0</m>
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>
