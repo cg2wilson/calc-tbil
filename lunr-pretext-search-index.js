@@ -6577,7 +6577,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.3",
   "title": "MI3: Triple Integrals in Cartesian Coordinates",
-  "body": " MI3: Triple Integrals in Cartesian Coordinates     MI3  I can compute triple integrals over rectangular boxes, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.4: Triple Integrals    Read until \"Average Value of a Function of Three Variables\"        In-Class Activities   Triple Integral (Cartesian Coordinates)  triple integral (Cartesian coordinates)   The triple integral of a function over a rectangular box is defined to be      Computing a triple integral is very similar to computing a double integral.     Evaluate      Fubini's Theorem (Triple Integrals)  Fubini's theorem (triple integrals)   If is continuous on a rectangular box , then the following are equivalent:       Evaluate the triple integral where      Volume  volume   The volume of a closed, bounded region in space is given by       We will compute the integral , where is the solid tetrahedron bounded by the planes and     The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.    Based on the way the sketch is drawn, which variable should we integrate with respect to first?   x    y    z       Set up the integral with the appropriate bounds for your choice in part (b).    Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.      Consider the integral Rewrite the integral so that the order of integration is given by       Let . Compute where       Evaluate the triple integral , where is the region bounded by the paraboloid and the plane       Compute the volume of the solid which sits in the first octant and is bounded by the coordinate planes, the paraboloid , and the parabolic cylinder       Integrate the function over the region which is bounded by the cylinder , the plane, and the planes .     "
+  "body": " MI3: Triple Integrals in Cartesian Coordinates     MI3  I can compute triple integrals over rectangular boxes, and interpret the results.      Pre-Class Preparation  Read the following sections of the text:    Section 5.4: Triple Integrals    Read until \"Average Value of a Function of Three Variables\"        In-Class Activities   Triple Integral (Cartesian Coordinates)  triple integral (Cartesian coordinates)   The triple integral of a function over a rectangular box is defined to be      Computing a triple integral is very similar to computing a double integral.     Evaluate     36     Fubini's Theorem (Triple Integrals)  Fubini's theorem (triple integrals)   If is continuous on a rectangular box , then the following are equivalent:       Evaluate the triple integral where           Volume  volume   The volume of a closed, bounded region in space is given by       We will compute the integral , where is the solid tetrahedron bounded by the planes and     The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.        Based on the way the sketch is drawn, which variable should we integrate with respect to first?   x    y    z      There is a good argument for any of the three variables; we proceed choosing C.    Set up the integral with the appropriate bounds for your choice in part (b).        Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.             Consider the integral Rewrite the integral so that the order of integration is given by            Let . Compute where            Evaluate the triple integral , where is the region bounded by the paraboloid and the plane            Compute the volume of the solid which sits in the first octant and is bounded by the coordinate planes, the paraboloid , and the parabolic cylinder            Integrate the function over the region which is bounded by the cylinder , the plane, and the planes .          "
 },
 {
   "id": "MI3-2",
@@ -6613,7 +6613,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.3.1",
   "title": "",
-  "body": "  Evaluate    "
+  "body": "  Evaluate     36   "
 },
 {
   "id": "thm-fubini-triple",
@@ -6631,7 +6631,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.3.2",
   "title": "",
-  "body": "  Evaluate the triple integral where    "
+  "body": "  Evaluate the triple integral where         "
 },
 {
   "id": "def-volume-triple-integral",
@@ -6649,7 +6649,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.3.3",
   "title": "",
-  "body": "  We will compute the integral , where is the solid tetrahedron bounded by the planes and     The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.    Based on the way the sketch is drawn, which variable should we integrate with respect to first?   x    y    z       Set up the integral with the appropriate bounds for your choice in part (b).    Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.   "
+  "body": "  We will compute the integral , where is the solid tetrahedron bounded by the planes and     The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.        Based on the way the sketch is drawn, which variable should we integrate with respect to first?   x    y    z      There is a good argument for any of the three variables; we proceed choosing C.    Set up the integral with the appropriate bounds for your choice in part (b).        Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.          "
 },
 {
   "id": "mi-triple-integral-order1",
@@ -6658,7 +6658,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.3.4",
   "title": "",
-  "body": "  Consider the integral Rewrite the integral so that the order of integration is given by    "
+  "body": "  Consider the integral Rewrite the integral so that the order of integration is given by         "
 },
 {
   "id": "mi-triple-integral-compute4",
@@ -6667,7 +6667,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.3.5",
   "title": "",
-  "body": "  Let . Compute where    "
+  "body": "  Let . Compute where         "
 },
 {
   "id": "MI3-activities-11",
@@ -6676,7 +6676,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.3.6",
   "title": "",
-  "body": "  Evaluate the triple integral , where is the region bounded by the paraboloid and the plane    "
+  "body": "  Evaluate the triple integral , where is the region bounded by the paraboloid and the plane         "
 },
 {
   "id": "MI3-activities-12",
@@ -6685,7 +6685,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.3.7",
   "title": "",
-  "body": "  Compute the volume of the solid which sits in the first octant and is bounded by the coordinate planes, the paraboloid , and the parabolic cylinder    "
+  "body": "  Compute the volume of the solid which sits in the first octant and is bounded by the coordinate planes, the paraboloid , and the parabolic cylinder         "
 },
 {
   "id": "MI3-activities-13",
@@ -6694,7 +6694,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.3.8",
   "title": "",
-  "body": "  Integrate the function over the region which is bounded by the cylinder , the plane, and the planes .   "
+  "body": "  Integrate the function over the region which is bounded by the cylinder , the plane, and the planes .        "
 },
 {
   "id": "MI4",
@@ -6703,7 +6703,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.4",
   "title": "MI4: Triple Integrals in Cylindrical\/Spherical Coordinates",
-  "body": " MI4: Triple Integrals in Cylindrical\/Spherical Coordinates     MI4  I can compute triple integrals in cylindrical or spherical coordinates.      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: Triple Integrals in Cylindrical and Spherical Coordinatess    Read all sections        In-Class Activities   Cylindrical Coordinates  cylindrical coordinates   The cylindrical coordinate system is one where the coordinates of the object in question are projected onto a cylinder. The conversion factors are and      Cylindrical coordinates are a three-dimensional analogue of polar coordinates. As such, the integration is very similar to integration in polar coordinates.     Describe the surface whose equation (in cylindrical coordinates) is given by .     Fubini's Theorem in Cylindrical Coordinates   Let be a continuous on a circular cylinder , which when described in cylindrical coordinates looks like then, , and       Consider the region bounded below by the plane , laterally by the circular cylinder , and above by the paraboloid     Describe the region in rectangular coordinates.    Describe the region in cylindrical coordinates.    Perform the integration.      A solid lies within the cylinder , below the plane , and above the paraboloid . Evaluate .      Consider the integral     Convert the integral to cylindrical coordinates.    Perform the integration.      Consider the region bounded by the cylinder , , and .    If we want to find the volume (using calculus), why would cylindrical coordinates give the easiest computation?    What if instead of , we cap off the cylinder with a hemisphere? What would happen to the computation from part (a)?     Spherical Coordinates  spherical coordinates    Spherical coordinates locate points on a sphere using two angles and and a distance from the origin, .     Conversions for Spherical Coordinates  To go from Cartesian to spherical coordinates, use and use to go from spherical to Cartesian coordinates.  To go from spherical coordinates to cylindrical coordinate, use and use      Convert the following points from spherical coordinates to rectangular coordinates.                Convert the following points from rectangular coordinates to spherical coordinates.                Convert the following equations from rectangular to spherical coordinates.               Fubini's Theorem in Spherical Coordinates   If is continuous on a spherical solid box , then       Evaluate , where is the unit ball.      Find the volume of the region cut from the solid sphere by the cone       Convert the integral to spherical coordinates:       Use spherical coordinates to show that the volume of a sphere of radius is      "
+  "body": " MI4: Triple Integrals in Cylindrical\/Spherical Coordinates     MI4  I can compute triple integrals in cylindrical or spherical coordinates.      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: Triple Integrals in Cylindrical and Spherical Coordinatess    Read all sections        In-Class Activities   Cylindrical Coordinates  cylindrical coordinates   The cylindrical coordinate system is one where the coordinates of the object in question are projected onto a cylinder. The conversion factors are and      Cylindrical coordinates are a three-dimensional analogue of polar coordinates. As such, the integration is very similar to integration in polar coordinates.     Describe the surface whose equation (in cylindrical coordinates) is given by .    This is a cone whose slope is 4     Fubini's Theorem in Cylindrical Coordinates   Let be a continuous on a circular cylinder , which when described in cylindrical coordinates looks like then, , and       Consider the region bounded below by the plane , laterally by the circular cylinder , and above by the paraboloid     Describe the region in rectangular coordinates.   In rectangular coordinates, we have     Describe the region in cylindrical coordinates.   In cylindrical coordinates, we have     Perform the integration.          A solid lies within the cylinder , below the plane , and above the paraboloid . Evaluate .           Consider the integral     Convert the integral to cylindrical coordinates.        Perform the integration.          Consider the region bounded by the cylinder , , and .    If we want to find the volume (using calculus), why would cylindrical coordinates give the easiest computation?   There's a cylinder involved    What if instead of , we cap off the cylinder with a hemisphere? What would happen to the computation from part (a)?   We would need to express a sphere in terms of cylindrical coordinates, which they aren't set up well to do     Spherical Coordinates  spherical coordinates    Spherical coordinates locate points on a sphere using two angles and and a distance from the origin, .     Conversions for Spherical Coordinates  To go from Cartesian to spherical coordinates, use and use to go from spherical to Cartesian coordinates.  To go from spherical coordinates to cylindrical coordinate, use and use      Convert the following points from spherical coordinates to rectangular coordinates.                        Convert the following points from rectangular coordinates to spherical coordinates.                        Convert the following equations from rectangular to spherical coordinates.                     Fubini's Theorem in Spherical Coordinates   If is continuous on a spherical solid box , then       Evaluate , where is the unit ball.      Find the volume of the region cut from the solid sphere by the cone       Convert the integral to spherical coordinates:       Use spherical coordinates to show that the volume of a sphere of radius is      "
 },
 {
   "id": "MI4-2",
@@ -6739,7 +6739,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.1",
   "title": "",
-  "body": "  Describe the surface whose equation (in cylindrical coordinates) is given by .   "
+  "body": "  Describe the surface whose equation (in cylindrical coordinates) is given by .    This is a cone whose slope is 4   "
 },
 {
   "id": "thm-fubini-cylindrical",
@@ -6757,7 +6757,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.2",
   "title": "",
-  "body": "  Consider the region bounded below by the plane , laterally by the circular cylinder , and above by the paraboloid     Describe the region in rectangular coordinates.    Describe the region in cylindrical coordinates.    Perform the integration.   "
+  "body": "  Consider the region bounded below by the plane , laterally by the circular cylinder , and above by the paraboloid     Describe the region in rectangular coordinates.   In rectangular coordinates, we have     Describe the region in cylindrical coordinates.   In cylindrical coordinates, we have     Perform the integration.       "
 },
 {
   "id": "mi-cylindrical-integrate1",
@@ -6766,7 +6766,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.3",
   "title": "",
-  "body": "  A solid lies within the cylinder , below the plane , and above the paraboloid . Evaluate .   "
+  "body": "  A solid lies within the cylinder , below the plane , and above the paraboloid . Evaluate .        "
 },
 {
   "id": "mi-cylindrical-integrate2",
@@ -6775,7 +6775,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.4",
   "title": "",
-  "body": "  Consider the integral     Convert the integral to cylindrical coordinates.    Perform the integration.   "
+  "body": "  Consider the integral     Convert the integral to cylindrical coordinates.        Perform the integration.       "
 },
 {
   "id": "mi-spherical-cylindrical-intuition",
@@ -6784,7 +6784,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.5",
   "title": "",
-  "body": "  Consider the region bounded by the cylinder , , and .    If we want to find the volume (using calculus), why would cylindrical coordinates give the easiest computation?    What if instead of , we cap off the cylinder with a hemisphere? What would happen to the computation from part (a)?   "
+  "body": "  Consider the region bounded by the cylinder , , and .    If we want to find the volume (using calculus), why would cylindrical coordinates give the easiest computation?   There's a cylinder involved    What if instead of , we cap off the cylinder with a hemisphere? What would happen to the computation from part (a)?   We would need to express a sphere in terms of cylindrical coordinates, which they aren't set up well to do   "
 },
 {
   "id": "def-spherical-coordinates",
@@ -6802,7 +6802,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.6",
   "title": "",
-  "body": "  Convert the following points from spherical coordinates to rectangular coordinates.             "
+  "body": "  Convert the following points from spherical coordinates to rectangular coordinates.                     "
 },
 {
   "id": "mi-spherical-rectangular-convert2",
@@ -6811,7 +6811,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.7",
   "title": "",
-  "body": "  Convert the following points from rectangular coordinates to spherical coordinates.             "
+  "body": "  Convert the following points from rectangular coordinates to spherical coordinates.                     "
 },
 {
   "id": "mi-spherical-rectangular-convert3",
@@ -6820,7 +6820,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.8",
   "title": "",
-  "body": "  Convert the following equations from rectangular to spherical coordinates.             "
+  "body": "  Convert the following equations from rectangular to spherical coordinates.                   "
 },
 {
   "id": "thm-fubini-spherical",
@@ -7180,7 +7180,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.3",
   "title": "VF3: Line Integrals",
-  "body": " VF3: Line Integrals     VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Vector Fields    Read all sections      Line Integrals    Read all sections        In-Class Activities   Vector Field  vector field   A vector field is an assignment of a vector to a point of a subset of .      Consider . What is the vector associated with the point ?     Conservative\/Gradient Field  conservative vector field  gradient vector field  potential function   A vector field is called a gradient field or conservative field if there exists a scalar function such that . The function is called a potential function for the vector field.      Given , identify its gradient field.      Determine if is a potential function for . Is the field conservative?      If a vector field is conservative, then the mixed partials of the vector field components are equal.      If the mixed partials of a vector field are equal on an open, simply connected domain, then the vector field is conservative.     Line Integral (Scalar)  line integral (scalar)   Let be a continuous function with a domain that includes the smooth curve with parametrization on . Then, the scalar line integral of over is given by      The differential term in the definition of a scalar line integral represents the change in arc length of the curve .     Consider a helix, parametrized as on the interval . Compute the line integral where     Compute     Compute     Determine     Use (a)-(c) to show that       If we reparameterize the helix as , what is the value of the line integral?      Let and consider the curve given by Compute the line integral       A scalar line integral represents the net area between the projection of the curve onto the plane and the curve itself.     Line Integral (Vector)  line integral (vector)   Let be a continuous vector field defined on some smooth curve given by the vector function . Then, the line integral of F along C is given by where is the unit tangent vector at a given point.     The last integral indicates that work is the line integral (with respect to arc length) of the tangential component of the force.     Consider the force field .    Find the work done by moving a particle along the quarter circle given by ,     Find the work done by moving a particle along the same quarter circle, but parameterized as ,     What do you notice about the two answers?    The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.         Evaluate , where and is given by the parameterization on      Since vector fields have components, we can write vector line integrals using component form : where      Evaluate , where is the vector field and the curve is parameterized by on      Flux and Circulation  flux  circulation   The flux of a vector field across a curve is given by the integral where and   Let be an oriented, closed curve. Then, the circulation of the vector field along is defined to be the line integral along , but is denoted as      If the vector field represents the velocity field of a fluid and represents a permeable membrane, then the flux of across measures the rate of fluid flow across   In the same scenario, circulation measures the tendency of the fluid to move in the direction of .     Let , and let be a unit circle oriented counterclockwise.    Identify a parametrization for , and then find a normal vector to .    Compute the flux.     and are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?       A new vector field and are plotted below. What do you suspect will happen to the flux and why?       The vector field in part (d) is given by ; compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.      Let be a vector field, and let be the unit circle, oriented clockwise. Compute the circulation of along . What happens when the orientation is changed to counterclockwise?     "
+  "body": " VF3: Line Integrals     VF3  I can compute a scalar or vector line integral along a curve in space, and use line integrals in applications such as work, flux, or circulation.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Vector Fields    Read all sections      Line Integrals    Read all sections        In-Class Activities   Vector Field  vector field   A vector field is an assignment of a vector to a point of a subset of .      Consider . What is the vector associated with the point ?          Conservative\/Gradient Field  conservative vector field  gradient vector field  potential function   A vector field is called a gradient field or conservative field if there exists a scalar function such that . The function is called a potential function for the vector field.      Given , identify its gradient field.           Determine if is a potential function for . Is the field conservative?    The gradient field is , so is a potential function. Since , the field is conservative      If a vector field is conservative, then the mixed partials of the vector field components are equal.      If the mixed partials of a vector field are equal on an open, simply connected domain, then the vector field is conservative.     Line Integral (Scalar)  line integral (scalar)   Let be a continuous function with a domain that includes the smooth curve with parametrization on . Then, the scalar line integral of over is given by      The differential term in the definition of a scalar line integral represents the change in arc length of the curve .     Consider a helix, parametrized as on the interval . Compute the line integral where     Compute         Compute         Determine         Use (a)-(c) to show that       If we reparameterize the helix as , what is the value of the line integral?           Let and consider the curve given by Compute the line integral            A scalar line integral represents the net area between the projection of the curve onto the plane and the curve itself.     Line Integral (Vector)  line integral (vector)   Let be a continuous vector field defined on some smooth curve given by the vector function . Then, the line integral of F along C is given by where is the unit tangent vector at a given point.     The last integral indicates that work is the line integral (with respect to arc length) of the tangential component of the force.     Consider the force field .    Find the work done by moving a particle along the quarter circle given by ,         Find the work done by moving a particle along the same quarter circle, but parameterized as ,         What do you notice about the two answers?   They're opposite signs    The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.      The work done in moving a particle from to is       Evaluate , where and is given by the parameterization on           Since vector fields have components, we can write vector line integrals using component form : where      Evaluate , where is the vector field and the curve is parameterized by on           Flux and Circulation  flux  circulation   The flux of a vector field across a curve is given by the integral where and   Let be an oriented, closed curve. Then, the circulation of the vector field along is defined to be the line integral along , but is denoted as      If the vector field represents the velocity field of a fluid and represents a permeable membrane, then the flux of across measures the rate of fluid flow across   In the same scenario, circulation measures the tendency of the fluid to move in the direction of .     Let , and let be a unit circle oriented counterclockwise.    Identify a parametrization for , and then find a normal vector to .    on , so     Compute the flux.         and are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?      The fluid flow across is per unit time; this makes sense because the vector field only flows outward    A new vector field and are plotted below. What do you suspect will happen to the flux and why?      Answers vary    The vector field in part (d) is given by ; compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.   The flux is 0      Let be a vector field, and let be the unit circle, oriented clockwise. Compute the circulation of along . What happens when the orientation is changed to counterclockwise?     for the clockwise orientation, and for the counterclockwise orientation     "
 },
 {
   "id": "VF3-2",
@@ -7207,7 +7207,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.1",
   "title": "",
-  "body": "  Consider . What is the vector associated with the point ?   "
+  "body": "  Consider . What is the vector associated with the point ?        "
 },
 {
   "id": "def-conservative-gradient-field",
@@ -7225,7 +7225,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.2",
   "title": "",
-  "body": "  Given , identify its gradient field.   "
+  "body": "  Given , identify its gradient field.        "
 },
 {
   "id": "vf-potential-function-1",
@@ -7234,7 +7234,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.3",
   "title": "",
-  "body": "  Determine if is a potential function for . Is the field conservative?   "
+  "body": "  Determine if is a potential function for . Is the field conservative?    The gradient field is , so is a potential function. Since , the field is conservative   "
 },
 {
   "id": "VF3-activities-7",
@@ -7279,7 +7279,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.4",
   "title": "",
-  "body": "  Consider a helix, parametrized as on the interval . Compute the line integral where     Compute     Compute     Determine     Use (a)-(c) to show that    "
+  "body": "  Consider a helix, parametrized as on the interval . Compute the line integral where     Compute         Compute         Determine         Use (a)-(c) to show that    "
 },
 {
   "id": "vf-scalar-line-integral-2",
@@ -7288,7 +7288,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.5",
   "title": "",
-  "body": "  If we reparameterize the helix as , what is the value of the line integral?   "
+  "body": "  If we reparameterize the helix as , what is the value of the line integral?        "
 },
 {
   "id": "vf-scalar-line-integral-3",
@@ -7297,7 +7297,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.6",
   "title": "",
-  "body": "  Let and consider the curve given by Compute the line integral    "
+  "body": "  Let and consider the curve given by Compute the line integral         "
 },
 {
   "id": "VF3-activities-14",
@@ -7333,7 +7333,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.7",
   "title": "",
-  "body": "  Consider the force field .    Find the work done by moving a particle along the quarter circle given by ,     Find the work done by moving a particle along the same quarter circle, but parameterized as ,     What do you notice about the two answers?    The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.      "
+  "body": "  Consider the force field .    Find the work done by moving a particle along the quarter circle given by ,         Find the work done by moving a particle along the same quarter circle, but parameterized as ,         What do you notice about the two answers?   They're opposite signs    The vector field is shown below, along with the quarter-circle. Interpret your answers in (a) and (b) in context of the vector field.      The work done in moving a particle from to is    "
 },
 {
   "id": "vf-vector-line-integral-2",
@@ -7342,7 +7342,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.8",
   "title": "",
-  "body": "  Evaluate , where and is given by the parameterization on    "
+  "body": "  Evaluate , where and is given by the parameterization on         "
 },
 {
   "id": "VF3-activities-19",
@@ -7360,7 +7360,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.9",
   "title": "",
-  "body": "  Evaluate , where is the vector field and the curve is parameterized by on    "
+  "body": "  Evaluate , where is the vector field and the curve is parameterized by on         "
 },
 {
   "id": "def-flux-circulation",
@@ -7387,7 +7387,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.10",
   "title": "",
-  "body": "  Let , and let be a unit circle oriented counterclockwise.    Identify a parametrization for , and then find a normal vector to .    Compute the flux.     and are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?       A new vector field and are plotted below. What do you suspect will happen to the flux and why?       The vector field in part (d) is given by ; compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.   "
+  "body": "  Let , and let be a unit circle oriented counterclockwise.    Identify a parametrization for , and then find a normal vector to .    on , so     Compute the flux.         and are graphed below. Interpret your answer in (b); why does it make sense, given the vector field?      The fluid flow across is per unit time; this makes sense because the vector field only flows outward    A new vector field and are plotted below. What do you suspect will happen to the flux and why?      Answers vary    The vector field in part (d) is given by ; compute the flux across the unit circle (oriented counterclockwise) and compare against your suspicion.   The flux is 0   "
 },
 {
   "id": "vf-circulation-1",
@@ -7396,7 +7396,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.3.11",
   "title": "",
-  "body": "  Let be a vector field, and let be the unit circle, oriented clockwise. Compute the circulation of along . What happens when the orientation is changed to counterclockwise?   "
+  "body": "  Let be a vector field, and let be the unit circle, oriented clockwise. Compute the circulation of along . What happens when the orientation is changed to counterclockwise?     for the clockwise orientation, and for the counterclockwise orientation   "
 },
 {
   "id": "VF4",
@@ -7783,7 +7783,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.2",
   "title": "FS2: Surface Area",
-  "body": " FS2: Surface Area     FS2  I can compute the surface area of a parametrized surface.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read until \"Surface Integral of a Scalar-Valued Function\"        In-Class Activities   "
+  "body": " FS2: Surface Area     FS2  I can compute the surface area of a parametrized surface.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read until \"Surface Integral of a Scalar-Valued Function\"        In-Class Activities   We can parametrize surfaces in much the same way as we parametrize curves.    Parametrization of a Surface  surface  parametrization (surface)  parameter domain   Suppose that the continuous vector function is defined on some region in the -plane and one-to-one on the interior of . The range of is called a surface  defined or traced by . This vector function along with the domain is called a parametrization of the surface , the variables are called parameters , and is called the parameter domain .      The parametrization , , parametrizes which of the following surfaces?   Cone    Sphere    Plane    Elliptic Paraboloid         Describe the surface with parametrization , ,       Parametrize a hemisphere of radius 4, for      "
 },
 {
   "id": "FS2-2",
@@ -7793,6 +7793,51 @@ var ptx_lunr_docs = [
   "number": "13.2",
   "title": "",
   "body": "   FS2  I can compute the surface area of a parametrized surface.    "
+},
+{
+  "id": "FS2-activities-2",
+  "level": "2",
+  "url": "FS2.html#FS2-activities-2",
+  "type": "Remark",
+  "number": "13.2.1",
+  "title": "",
+  "body": " We can parametrize surfaces in much the same way as we parametrize curves.  "
+},
+{
+  "id": "def-parametrization-surface",
+  "level": "2",
+  "url": "FS2.html#def-parametrization-surface",
+  "type": "Definition",
+  "number": "13.2.2",
+  "title": "Parametrization of a Surface.",
+  "body": " Parametrization of a Surface  surface  parametrization (surface)  parameter domain   Suppose that the continuous vector function is defined on some region in the -plane and one-to-one on the interior of . The range of is called a surface  defined or traced by . This vector function along with the domain is called a parametrization of the surface , the variables are called parameters , and is called the parameter domain .   "
+},
+{
+  "id": "fs-parametrization-1",
+  "level": "2",
+  "url": "FS2.html#fs-parametrization-1",
+  "type": "Activity",
+  "number": "13.2.1",
+  "title": "",
+  "body": "  The parametrization , , parametrizes which of the following surfaces?   Cone    Sphere    Plane    Elliptic Paraboloid      "
+},
+{
+  "id": "fs-parametrization-2",
+  "level": "2",
+  "url": "FS2.html#fs-parametrization-2",
+  "type": "Activity",
+  "number": "13.2.2",
+  "title": "",
+  "body": "  Describe the surface with parametrization , ,    "
+},
+{
+  "id": "fs-parametrization-3",
+  "level": "2",
+  "url": "FS2.html#fs-parametrization-3",
+  "type": "Activity",
+  "number": "13.2.3",
+  "title": "",
+  "body": "  Parametrize a hemisphere of radius 4, for    "
 },
 {
   "id": "FS3",

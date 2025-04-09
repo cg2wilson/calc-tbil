@@ -97,15 +97,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.5.12';
+eBookConfig.runestone_version = '7.5.16';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.8ded03b2da8fab17.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.e0c6d4592e23c667.css">
+<script src="_static/prefix-runtime.a0c870bab402ccbf.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.97de40e034b535c5.css">
 </head>
 <body id="TBIL Calculus 1" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
@@ -567,7 +567,8 @@ true);
 \int_{z=0}^{z=1}\int_{y=2}^{y=4}\int_{x=-1}^{x=5} (x+yz^2)\, dx\,dy\,dz
 \end{equation*}
 </div>
-</div></article><article class="theorem theorem-like" id="thm-fubini-triple"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-triple-integral-compute1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-triple-integral-compute1-2-1">36</div></div></details></div></article><article class="theorem theorem-like" id="thm-fubini-triple"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">11.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">Fubini’s Theorem (Triple Integrals).</span>
 </h4>
 <div class="para logical" id="thm-fubini-triple-3-1">
@@ -590,7 +591,8 @@ true);
 B = \lrbrace{(x,y,z)\in\R^3\mid 0\leq x\leq \pi, \dfrac{3\pi}{2}\leq y\leq 2\pi, 1\leq z\leq 3}
 \end{equation*}
 </div>
-</div></article><article class="definition definition-like" id="def-volume-triple-integral"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-triple-integral-compute2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-triple-integral-compute2-2-1"><span class="process-math">\(-8\)</span></div></div></details></div></article><article class="definition definition-like" id="def-volume-triple-integral"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">11.3.4</span><span class="period">.</span><span class="space"> </span><span class="title">Volume.</span>
 </h4>
 <div class="para logical" id="def-volume-triple-integral-3-1">
@@ -606,7 +608,8 @@ B = \lrbrace{(x,y,z)\in\R^3\mid 0\leq x\leq \pi, \dfrac{3\pi}{2}\leq y\leq 2\pi,
 <div class="introduction" id="mi-triple-integral-compute3-1"><div class="para" id="mi-triple-integral-compute3-1-1">We will compute the integral <span class="process-math">\(\ds \iiint_E x-3y\text{,}\)</span> where <span class="process-math">\(E\)</span> is the solid tetrahedron bounded by the planes <span class="process-math">\(x=0, y= 0, z=0\)</span> and <span class="process-math">\(x + y + z = 1\)</span>
 </div></div>
 <article class="task exercise-like" id="mi-triple-integral-compute3-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="mi-triple-integral-compute3-2-1-1">The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.</div></article><article class="task exercise-like" id="mi-triple-integral-compute3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="mi-triple-integral-compute3-2-1-1">The first step is to determine the bounds of the solid in terms of one of the variables. Sketch an image of the solid and label your sketch.</div>
+<div class="solutions"><details id="mi-triple-integral-compute3-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/sageplot/mi-triple-integral-compute3-2-2-1.svg" role="img" class="contained"></div></div></details></div></article><article class="task exercise-like" id="mi-triple-integral-compute3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para logical" id="mi-triple-integral-compute3-3-1-1">
 <div class="para">Based on the way the sketch is drawn, which variable should we integrate with respect to first?</div>
 <ol class="upper-alpha ol-marker-2 cols3" id="mi-triple-integral-compute3-3-1-1-1">
@@ -614,9 +617,12 @@ B = \lrbrace{(x,y,z)\in\R^3\mid 0\leq x\leq \pi, \dfrac{3\pi}{2}\leq y\leq 2\pi,
 <li id="mi-triple-integral-compute3-3-1-1-1-2"><div class="para" id="mi-triple-integral-compute3-3-1-1-1-2-1">y</div></li>
 <li id="mi-triple-integral-compute3-3-1-1-1-3"><div class="para" id="mi-triple-integral-compute3-3-1-1-1-3-1">z</div></li>
 </ol>
-</div></article><article class="task exercise-like" id="mi-triple-integral-compute3-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="mi-triple-integral-compute3-4-1-1">Set up the integral with the appropriate bounds for your choice in part (b).</div></article><article class="task exercise-like" id="mi-triple-integral-compute3-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="mi-triple-integral-compute3-5-1-1">Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.</div></article></article><article class="activity project-like" id="mi-triple-integral-order1"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-triple-integral-compute3-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-triple-integral-compute3-3-2-1">There is a good argument for any of the three variables; we proceed choosing C.</div></div></details></div></article><article class="task exercise-like" id="mi-triple-integral-compute3-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="mi-triple-integral-compute3-4-1-1">Set up the integral with the appropriate bounds for your choice in part (b).</div>
+<div class="solutions"><details id="mi-triple-integral-compute3-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-triple-integral-compute3-4-2-1"><span class="process-math">\(\ds \int_{z=0}^{z = x+y-1} x-3y\, dz\)</span></div></div></details></div></article><article class="task exercise-like" id="mi-triple-integral-compute3-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="mi-triple-integral-compute3-5-1-1">Now we are dealing with a double integral over some triangular region. Sketch the region we are integrating over, then complete the integration.</div>
+<div class="solutions"><details id="mi-triple-integral-compute3-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/sageplot/mi-triple-integral-compute3-5-2-1.svg" role="img" class="contained"></div></div></details></div></article></article><article class="activity project-like" id="mi-triple-integral-order1"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.3.4</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="mi-triple-integral-order1-1-1">
@@ -628,7 +634,8 @@ B = \lrbrace{(x,y,z)\in\R^3\mid 0\leq x\leq \pi, \dfrac{3\pi}{2}\leq y\leq 2\pi,
 </div>
 <div class="para">Rewrite the integral so that the order of integration is given by <span class="process-math">\(dx\,dz\,dy\)</span>
 </div>
-</div></article><article class="activity project-like" id="mi-triple-integral-compute4"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-triple-integral-order1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-triple-integral-order1-2-1"><span class="process-math">\(\ds \int_0^1\int_0^{y^2}\int_{\sqrt{y}}^1 f(x,y,z)\, dx\,dz\,dy\)</span></div></div></details></div></article><article class="activity project-like" id="mi-triple-integral-compute4"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.3.5</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="mi-triple-integral-compute4-1-1">
@@ -638,19 +645,23 @@ B = \lrbrace{(x,y,z)\in\R^3\mid 0\leq x\leq \pi, \dfrac{3\pi}{2}\leq y\leq 2\pi,
 E = \lrbrace{(x,y,z)\in\R^3\mid 0\leq x\leq 1, 0\leq y\leq -x+1, 1\leq z\leq 2}
 \end{equation*}
 </div>
-</div></article><article class="activity project-like" id="MI3-activities-11"><h4 class="heading">
+</div>
+<div class="solutions"><details id="mi-triple-integral-compute4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="mi-triple-integral-compute4-2-1"><span class="process-math">\(\ds \int_1^2\int_0^1\int_0^{-x+1}2x+5y+7z\, dy\,dx\,dz = \dfrac{77}{12}\)</span></div></div></details></div></article><article class="activity project-like" id="MI3-activities-11"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.3.6</span><span class="period">.</span>
 </h4>
 <div class="para" id="MI3-activities-11-1-1">Evaluate the triple integral <span class="process-math">\(\ds \iiint_E \sqrt{x^2 + z^2}\, dV\text{,}\)</span> where <span class="process-math">\(E\)</span> is the region bounded by the paraboloid <span class="process-math">\(y = x^2 + z^2\)</span> and the plane <span class="process-math">\(y = 4\)</span>
-</div></article><article class="activity project-like" id="MI3-activities-12"><h4 class="heading">
+</div>
+<div class="solutions"><details id="MI3-activities-11-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="MI3-activities-11-2-1"><span class="process-math">\(\dfrac{128\pi}{15}\)</span></div></div></details></div></article><article class="activity project-like" id="MI3-activities-12"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.3.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="MI3-activities-12-1-1">Compute the volume of the solid <span class="process-math">\(W\)</span> which sits in the first octant and is bounded by the coordinate planes, the paraboloid <span class="process-math">\(z= x^2 + y^2 + 9\text{,}\)</span> and the parabolic cylinder <span class="process-math">\(y = 4-x^2\)</span>
-</div></article><article class="activity project-like" id="MI3-activities-13"><h4 class="heading">
+</div>
+<div class="solutions"><details id="MI3-activities-12-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="MI3-activities-12-2-1"><span class="process-math">\(\dfrac{2512}{35}\)</span></div></div></details></div></article><article class="activity project-like" id="MI3-activities-13"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">11.3.8</span><span class="period">.</span>
 </h4>
 <div class="para" id="MI3-activities-13-1-1">Integrate the function <span class="process-math">\(f(x,y,z) = 2x-y+z\)</span> over the region <span class="process-math">\(W\)</span> which is bounded by the cylinder <span class="process-math">\(z = y^2\text{,}\)</span> the <span class="process-math">\(xy-\)</span>plane, and the planes <span class="process-math">\(x=0, x=1, y=-2, y=2\text{.}\)</span>
-</div></article></section></section></div>
+</div>
+<div class="solutions"><details id="MI3-activities-13-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="MI3-activities-13-2-1"><span class="process-math">\(\dfrac{176}{15}\)</span></div></div></details></div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="MI2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="MI4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
