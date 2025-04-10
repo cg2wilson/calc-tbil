@@ -196,7 +196,7 @@
             </statement>
             <answer>
                 <p>
-                    <m>-\dfrac{\sqrt{5}}{2} - 4\sqrt{17}</m>
+                    <m>-\dfrac{\sqrt{5}}{2} - 12\sqrt{17}</m>
                 </p>
             </answer>
         </activity>
@@ -243,7 +243,7 @@
                 </statement>
                 <answer>
                     <p>
-                        <m>-\dfrac{1}{3}</m>
+                        <m>-\dfrac{2}{3}</m>
                     </p>
                 </answer>
             </task>
@@ -255,7 +255,7 @@
                 </statement>
                 <answer>
                     <p>
-                        <m>\dfrac{1}{3}</m>
+                        <m>\dfrac{2}{3}</m>
                     </p>
                 </answer>
             </task>

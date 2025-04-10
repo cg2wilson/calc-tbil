@@ -310,12 +310,12 @@
             <task>
                 <statement>
                     <p>
-                        <m>(x-2)^2 + y^2 + z^2 = 9</m>
+                        <m>(x-2)^2 + y^2 + z^2 = 4</m>
                     </p>
                 </statement>
                 <answer>
                     <p>
-                        
+                        <m>\rho = 4\cos\theta\sin\varphi</m>
                     </p>
                 </answer>
             </task>
@@ -327,7 +327,7 @@
                 </statement>
                 <answer>
                     <p>
-                        
+                        <m>\varphi = \dfrac{\pi}{4}</m>
                     </p>
                 </answer>
             </task>
@@ -351,6 +351,11 @@
                     Evaluate <m>\ds\iiint_B e^{(x^2 + y^2 + z^2)^{3/2}}\, dV</m>, where <m>B</m> is the unit ball. 
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m>\dfrac{4\pi}{3}(e-1)</m>
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="mi-spherical-integral-compute2">
@@ -359,6 +364,11 @@
                     Find the volume of the region <m>D</m> cut from the solid sphere <m>\rho\leq 1</m> by the cone <m>\varphi = \dfrac{\pi}{3}</m>
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m></m>
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="mi-spherical-integral-compute3">
@@ -370,6 +380,11 @@
                     </me>
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m>\dfrac{\pi}{8}</m>
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="mi-spherical-integral-compute4">
@@ -378,6 +393,19 @@
                     Use spherical coordinates to show that the volume of a sphere of radius <m>R</m> is <m>\dfrac{4\pi}{3}R^3</m>
                 </p>
             </statement>
+            <answer>
+                <p>
+                    The region is given by
+                    <me>
+                        E = \lrbrace{(\rho,\theta,\varphi)\mid 0\leq \rho\leq R, 0\leq\theta\leq 2\pi, 0\leq \varphi\leq \pi}
+                    </me>
+                    Since we can find volume by computing the triple integral, we have
+                    <me>
+                        V = \iiint_E \, dV = \int_0^R\int_0^{2\pi}\int_0^\pi \rho^2\sin\varphi\, d\varphi\, d\theta\, d\rho
+                    </me>
+                    which evaluates to <m>\dfrac{4\pi}{3}R^3</m>, as expected.
+                </p>
+            </answer>
         </activity>
     </subsection>
 
