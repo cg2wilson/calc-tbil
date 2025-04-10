@@ -6703,7 +6703,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.4",
   "title": "MI4: Triple Integrals in Cylindrical\/Spherical Coordinates",
-  "body": " MI4: Triple Integrals in Cylindrical\/Spherical Coordinates     MI4  I can compute triple integrals in cylindrical or spherical coordinates.      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: Triple Integrals in Cylindrical and Spherical Coordinatess    Read all sections        In-Class Activities   Cylindrical Coordinates  cylindrical coordinates   The cylindrical coordinate system is one where the coordinates of the object in question are projected onto a cylinder. The conversion factors are and      Cylindrical coordinates are a three-dimensional analogue of polar coordinates. As such, the integration is very similar to integration in polar coordinates.     Describe the surface whose equation (in cylindrical coordinates) is given by .    This is a cone whose slope is 4     Fubini's Theorem in Cylindrical Coordinates   Let be a continuous on a circular cylinder , which when described in cylindrical coordinates looks like then, , and       Consider the region bounded below by the plane , laterally by the circular cylinder , and above by the paraboloid     Describe the region in rectangular coordinates.   In rectangular coordinates, we have     Describe the region in cylindrical coordinates.   In cylindrical coordinates, we have     Perform the integration.          A solid lies within the cylinder , below the plane , and above the paraboloid . Evaluate .           Consider the integral     Convert the integral to cylindrical coordinates.        Perform the integration.          Consider the region bounded by the cylinder , , and .    If we want to find the volume (using calculus), why would cylindrical coordinates give the easiest computation?   There's a cylinder involved    What if instead of , we cap off the cylinder with a hemisphere? What would happen to the computation from part (a)?   We would need to express a sphere in terms of cylindrical coordinates, which they aren't set up well to do     Spherical Coordinates  spherical coordinates    Spherical coordinates locate points on a sphere using two angles and and a distance from the origin, .     Conversions for Spherical Coordinates  To go from Cartesian to spherical coordinates, use and use to go from spherical to Cartesian coordinates.  To go from spherical coordinates to cylindrical coordinate, use and use      Convert the following points from spherical coordinates to rectangular coordinates.                        Convert the following points from rectangular coordinates to spherical coordinates.                        Convert the following equations from rectangular to spherical coordinates.                     Fubini's Theorem in Spherical Coordinates   If is continuous on a spherical solid box , then       Evaluate , where is the unit ball.      Find the volume of the region cut from the solid sphere by the cone       Convert the integral to spherical coordinates:       Use spherical coordinates to show that the volume of a sphere of radius is      "
+  "body": " MI4: Triple Integrals in Cylindrical\/Spherical Coordinates     MI4  I can compute triple integrals in cylindrical or spherical coordinates.      Pre-Class Preparation  Read the following sections of the text:    Section 5.5: Triple Integrals in Cylindrical and Spherical Coordinatess    Read all sections        In-Class Activities   Cylindrical Coordinates  cylindrical coordinates   The cylindrical coordinate system is one where the coordinates of the object in question are projected onto a cylinder. The conversion factors are and      Cylindrical coordinates are a three-dimensional analogue of polar coordinates. As such, the integration is very similar to integration in polar coordinates.     Describe the surface whose equation (in cylindrical coordinates) is given by .    This is a cone whose slope is 4     Fubini's Theorem in Cylindrical Coordinates   Let be a continuous on a circular cylinder , which when described in cylindrical coordinates looks like then, , and       Consider the region bounded below by the plane , laterally by the circular cylinder , and above by the paraboloid     Describe the region in rectangular coordinates.   In rectangular coordinates, we have     Describe the region in cylindrical coordinates.   In cylindrical coordinates, we have     Perform the integration.          A solid lies within the cylinder , below the plane , and above the paraboloid . Evaluate .           Consider the integral     Convert the integral to cylindrical coordinates.        Perform the integration.          Consider the region bounded by the cylinder , , and .    If we want to find the volume (using calculus), why would cylindrical coordinates give the easiest computation?   There's a cylinder involved    What if instead of , we cap off the cylinder with a hemisphere? What would happen to the computation from part (a)?   We would need to express a sphere in terms of cylindrical coordinates, which they aren't set up well to do     Spherical Coordinates  spherical coordinates    Spherical coordinates locate points on a sphere using two angles and and a distance from the origin, .     Conversions for Spherical Coordinates  To go from Cartesian to spherical coordinates, use and use to go from spherical to Cartesian coordinates.  To go from spherical coordinates to cylindrical coordinate, use and use      Convert the following points from spherical coordinates to rectangular coordinates.                        Convert the following points from rectangular coordinates to spherical coordinates.                        Convert the following equations from rectangular to spherical coordinates.                       Fubini's Theorem in Spherical Coordinates   If is continuous on a spherical solid box , then       Evaluate , where is the unit ball.           Find the volume of the region cut from the solid sphere by the cone            Convert the integral to spherical coordinates:            Use spherical coordinates to show that the volume of a sphere of radius is     The region is given by Since we can find volume by computing the triple integral, we have which evaluates to , as expected.     "
 },
 {
   "id": "MI4-2",
@@ -6820,7 +6820,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.8",
   "title": "",
-  "body": "  Convert the following equations from rectangular to spherical coordinates.                   "
+  "body": "  Convert the following equations from rectangular to spherical coordinates.                     "
 },
 {
   "id": "thm-fubini-spherical",
@@ -6838,7 +6838,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.9",
   "title": "",
-  "body": "  Evaluate , where is the unit ball.   "
+  "body": "  Evaluate , where is the unit ball.        "
 },
 {
   "id": "mi-spherical-integral-compute2",
@@ -6847,7 +6847,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.10",
   "title": "",
-  "body": "  Find the volume of the region cut from the solid sphere by the cone    "
+  "body": "  Find the volume of the region cut from the solid sphere by the cone         "
 },
 {
   "id": "mi-spherical-integral-compute3",
@@ -6856,7 +6856,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.11",
   "title": "",
-  "body": "  Convert the integral to spherical coordinates:    "
+  "body": "  Convert the integral to spherical coordinates:         "
 },
 {
   "id": "mi-spherical-integral-compute4",
@@ -6865,7 +6865,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "11.4.12",
   "title": "",
-  "body": "  Use spherical coordinates to show that the volume of a sphere of radius is    "
+  "body": "  Use spherical coordinates to show that the volume of a sphere of radius is     The region is given by Since we can find volume by computing the triple integral, we have which evaluates to , as expected.   "
 },
 {
   "id": "MI5",
@@ -6892,7 +6892,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.1",
   "title": "VF1: Parametrizing Curves",
-  "body": " VF1: Parametrizing Curves     VF1  I can parametrize curves and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 1.1: Parametric Equations    Read all sections      Section 1.2: Calculus of Parametric Curves    Read all sections        In-Class Activities   Parametric Curve  parametric equations  parametric curve  parameter   If and are continuous functions of the variable on some interval , then the equations and are called parametric equations and is called the parameter . The graph of parametric equations- the set of points obtained as varies over - is called a parametric curve .      Consider the parametric curves given by and on the interval .    Which image correctly plots ?                          Which images correctly plots ?                          Fill out the table below to help graph the curve.                                                  Consider the parametric curve given by , .    Plot the curve on     Plot the curve on     Now let and . Plot the curve on ; what changes do you notice?      For the function , write three different parametrizations.     eliminating the parameter   We can convert between parametric and rectangular forms of equations through a process called eliminating the parameter .    Consider the parametrization , on . Which of the following shows the appropriate rectangular equation (and interval) for the parametric curve?    on      on      on      on        Eliminate the parameter to find a Cartesian description for the parametric equation , , on . Think of equations relating sine and cosine...      Eliminate the parameter for the following parametric curves.     , ,      ,      , ,       Eliminate the parameter to find the curve represented by the parametric equations , . There is a natural restriction on the time interval; what is it?     Calculus on parametric curves can be done using as the independent variable and without eliminating the parameter!    Derivatives of Parametric Equations   For the plane curve defined by the parametric equations and on the interval , the derivative is given by assuming that exist and .  The second derivative, , is given by under the same assumptions.      Consider the parametric curve , ,     What shape does this curve trace, and in what direction?   Circle, clockwise    Semi-circle, counterclockwise    Circle, counterclockwise    Semi-circle, clockwise       Compute     Compute     At which point or points in the domain of the curve does the derivative not exist?    Evaluate the derivative when , and     Write the equation of the tangent line to the curve at       Compute the derivative for the plane curve defined by the equations , , on . Identify any critical points of the function.      Consider the parameterization of a circle given by ,     Find the derivative at any arbitrary point on the curve. Does the derivative depend on the size of the circle?    Find the second derivative at any arbitrary point. Does the acceleration depend on the size of the circle?     Area Under a Parametric Curve  area under parametric curve   Let and be a non-self-intersecting plane curve on the interval ; assume that is differentiable. Then, the area under the curve is given by       A cycloid is a figure traced out by the edge of a rolling circle. The parametric equations for a cycloid of radius are given by and .    Compute the derivative for a cycloid. Does the derivative depend on the size of the circle?    Find the area under one arch of the cycloid     Arc Length of a Parametric Curve  arc length of a parametric curve   Consider the plane curve defined by the parametric equations , on the interval , and assume that both functions are differentiable. Then, the arc length of the curve is given by       Use to prove that the circumference of a circle is given by       Find the arc length of the curve defined by the equations , , .     "
+  "body": " VF1: Parametrizing Curves     VF1  I can parametrize curves and use calculus to analyze their behavior.      Pre-Class Preparation  Read the following sections of the text:    Section 1.1: Parametric Equations    Read all sections      Section 1.2: Calculus of Parametric Curves    Read all sections        In-Class Activities   Parametric Curve  parametric equations  parametric curve  parameter   If and are continuous functions of the variable on some interval , then the equations and are called parametric equations and is called the parameter . The graph of parametric equations- the set of points obtained as varies over - is called a parametric curve .      Consider the parametric curves given by and on the interval .    Which image correctly plots ?                         C    Which images correctly plots ?                         C    Fill out the table below to help graph the curve.                                                         12       7       4       3      0  4      1  7          Consider the parametric curve given by , .    Plot the curve on         Plot the curve on         Now let and . Plot the curve on ; what changes do you notice?   The direction changes from counterclockwise tracing to clockwise tracing      For the function , write three different parametrizations.    Answers vary     eliminating the parameter   We can convert between parametric and rectangular forms of equations through a process called eliminating the parameter .    Consider the parametrization , on . Which of the following shows the appropriate rectangular equation (and interval) for the parametric curve?    on      on      on      on       A    Eliminate the parameter to find a Cartesian description for the parametric equation , , on . Think of equations relating sine and cosine...          Eliminate the parameter for the following parametric curves.     , ,          ,          , ,           Eliminate the parameter to find the curve represented by the parametric equations , . There is a natural restriction on the time interval; what is it?    The curve is given by . The natural restriction is because of the domain of      Calculus on parametric curves can be done using as the independent variable and without eliminating the parameter!    Derivatives of Parametric Equations   For the plane curve defined by the parametric equations and on the interval , the derivative is given by assuming that exist and .  The second derivative, , is given by under the same assumptions.      Consider the parametric curve , ,     What shape does this curve trace, and in what direction?   Circle, clockwise    Semi-circle, counterclockwise    Circle, counterclockwise    Semi-circle, clockwise      D    Compute         Compute         At which point or points in the domain of the curve does the derivative not exist?   Any time value where , i.e. , where     Evaluate the derivative when , and        DNE       Write the equation of the tangent line to the curve at           Compute the derivative for the plane curve defined by the equations , , on . Identify any critical points of the function.     . The critical points occur at and       Consider the parameterization of a circle given by ,     Find the derivative at any arbitrary point on the curve. Does the derivative depend on the size of the circle?    . No, it does not.    Find the second derivative at any arbitrary point. Does the acceleration depend on the size of the circle?    . Yes, it does.     Area Under a Parametric Curve  area under parametric curve   Let and be a non-self-intersecting plane curve on the interval ; assume that is differentiable. Then, the area under the curve is given by       A cycloid is a figure traced out by the edge of a rolling circle. The parametric equations for a cycloid of radius are given by and .    Compute the derivative for a cycloid. Does the derivative depend on the size of the circle?        Find the area under one arch of the cycloid         Arc Length of a Parametric Curve  arc length of a parametric curve   Consider the plane curve defined by the parametric equations , on the interval , and assume that both functions are differentiable. Then, the arc length of the curve is given by       Use to prove that the circumference of a circle is given by     Consider the parametrization , on . Then, and so that Then, arc length is given by       Find the arc length of the curve defined by the equations , , .          "
 },
 {
   "id": "VF1-2",
@@ -6919,7 +6919,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.1",
   "title": "",
-  "body": "  Consider the parametric curves given by and on the interval .    Which image correctly plots ?                          Which images correctly plots ?                          Fill out the table below to help graph the curve.                                               "
+  "body": "  Consider the parametric curves given by and on the interval .    Which image correctly plots ?                         C    Which images correctly plots ?                         C    Fill out the table below to help graph the curve.                                                         12       7       4       3      0  4      1  7       "
 },
 {
   "id": "vf-parametric-plot2",
@@ -6928,7 +6928,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.2",
   "title": "",
-  "body": "  Consider the parametric curve given by , .    Plot the curve on     Plot the curve on     Now let and . Plot the curve on ; what changes do you notice?   "
+  "body": "  Consider the parametric curve given by , .    Plot the curve on         Plot the curve on         Now let and . Plot the curve on ; what changes do you notice?   The direction changes from counterclockwise tracing to clockwise tracing   "
 },
 {
   "id": "vf-parametric-parametrize",
@@ -6937,7 +6937,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.3",
   "title": "",
-  "body": "  For the function , write three different parametrizations.   "
+  "body": "  For the function , write three different parametrizations.    Answers vary   "
 },
 {
   "id": "vf-eliminate-parameter1",
@@ -6946,7 +6946,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.4",
   "title": "",
-  "body": " eliminating the parameter   We can convert between parametric and rectangular forms of equations through a process called eliminating the parameter .    Consider the parametrization , on . Which of the following shows the appropriate rectangular equation (and interval) for the parametric curve?    on      on      on      on        Eliminate the parameter to find a Cartesian description for the parametric equation , , on . Think of equations relating sine and cosine...   "
+  "body": " eliminating the parameter   We can convert between parametric and rectangular forms of equations through a process called eliminating the parameter .    Consider the parametrization , on . Which of the following shows the appropriate rectangular equation (and interval) for the parametric curve?    on      on      on      on       A    Eliminate the parameter to find a Cartesian description for the parametric equation , , on . Think of equations relating sine and cosine...       "
 },
 {
   "id": "vf-eliminate-parameter2",
@@ -6955,7 +6955,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.5",
   "title": "",
-  "body": "  Eliminate the parameter for the following parametric curves.     , ,      ,      , ,    "
+  "body": "  Eliminate the parameter for the following parametric curves.     , ,          ,          , ,        "
 },
 {
   "id": "vf-eliminate-parameter3",
@@ -6964,7 +6964,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.6",
   "title": "",
-  "body": "  Eliminate the parameter to find the curve represented by the parametric equations , . There is a natural restriction on the time interval; what is it?   "
+  "body": "  Eliminate the parameter to find the curve represented by the parametric equations , . There is a natural restriction on the time interval; what is it?    The curve is given by . The natural restriction is because of the domain of    "
 },
 {
   "id": "VF1-activities-9",
@@ -6991,7 +6991,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.7",
   "title": "",
-  "body": "  Consider the parametric curve , ,     What shape does this curve trace, and in what direction?   Circle, clockwise    Semi-circle, counterclockwise    Circle, counterclockwise    Semi-circle, clockwise       Compute     Compute     At which point or points in the domain of the curve does the derivative not exist?    Evaluate the derivative when , and     Write the equation of the tangent line to the curve at    "
+  "body": "  Consider the parametric curve , ,     What shape does this curve trace, and in what direction?   Circle, clockwise    Semi-circle, counterclockwise    Circle, counterclockwise    Semi-circle, clockwise      D    Compute         Compute         At which point or points in the domain of the curve does the derivative not exist?   Any time value where , i.e. , where     Evaluate the derivative when , and        DNE       Write the equation of the tangent line to the curve at        "
 },
 {
   "id": "vf-parametric-deriv-compute2",
@@ -7000,7 +7000,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.8",
   "title": "",
-  "body": "  Compute the derivative for the plane curve defined by the equations , , on . Identify any critical points of the function.   "
+  "body": "  Compute the derivative for the plane curve defined by the equations , , on . Identify any critical points of the function.     . The critical points occur at and    "
 },
 {
   "id": "vf-parametric-deriv-compute3",
@@ -7009,7 +7009,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.9",
   "title": "",
-  "body": "  Consider the parameterization of a circle given by ,     Find the derivative at any arbitrary point on the curve. Does the derivative depend on the size of the circle?    Find the second derivative at any arbitrary point. Does the acceleration depend on the size of the circle?   "
+  "body": "  Consider the parameterization of a circle given by ,     Find the derivative at any arbitrary point on the curve. Does the derivative depend on the size of the circle?    . No, it does not.    Find the second derivative at any arbitrary point. Does the acceleration depend on the size of the circle?    . Yes, it does.   "
 },
 {
   "id": "thm-area-parametric",
@@ -7027,7 +7027,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.10",
   "title": "",
-  "body": "  A cycloid is a figure traced out by the edge of a rolling circle. The parametric equations for a cycloid of radius are given by and .    Compute the derivative for a cycloid. Does the derivative depend on the size of the circle?    Find the area under one arch of the cycloid   "
+  "body": "  A cycloid is a figure traced out by the edge of a rolling circle. The parametric equations for a cycloid of radius are given by and .    Compute the derivative for a cycloid. Does the derivative depend on the size of the circle?        Find the area under one arch of the cycloid       "
 },
 {
   "id": "thm-arc-length-parametric",
@@ -7045,7 +7045,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.1.11",
   "title": "",
-  "body": "  Use to prove that the circumference of a circle is given by    "
+  "body": "  Use to prove that the circumference of a circle is given by     Consider the parametrization , on . Then, and so that Then, arc length is given by    "
 },
 {
   "id": "VF1-activities-18",
