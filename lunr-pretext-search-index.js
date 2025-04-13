@@ -7783,7 +7783,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.2",
   "title": "FS2: Surface Area",
-  "body": " FS2: Surface Area     FS2  I can compute the surface area of a parametrized surface.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read until \"Surface Integral of a Scalar-Valued Function\"        In-Class Activities   We can parametrize surfaces in much the same way as we parametrize curves.    Parametrization of a Surface  surface  parametrization (surface)  parameter domain   Suppose that the continuous vector function is defined on some region in the -plane and one-to-one on the interior of . The range of is called a surface  defined or traced by . This vector function along with the domain is called a parametrization of the surface , the variables are called parameters , and is called the parameter domain .      The parametrization , , parametrizes which of the following surfaces?   Cone    Sphere    Plane    Elliptic Paraboloid         Describe the surface with parametrization , ,       Parametrize a hemisphere of radius 4, for      "
+  "body": " FS2: Surface Area     FS2  I can compute the surface area of a parametrized surface.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read until \"Surface Integral of a Scalar-Valued Function\"        In-Class Activities   We can parametrize surfaces in much the same way as we parametrize curves.    Parametrization of a Surface  surface  parametrization (surface)  parameter domain   Suppose that the continuous vector function is defined on some region in the -plane and one-to-one on the interior of . The range of is called a surface  defined or traced by . This vector function along with the domain is called a parametrization of the surface , the variables are called parameters , and is called the parameter domain .      The parametrization , , parametrizes which of the following surfaces?   Cone    Sphere    Plane    Elliptic Paraboloid         Describe the surface with parametrization , ,       Parametrize a hemisphere of radius 4, for      Smooth Surface  smooth (surface)   A parametrized surface is said to be smooth if and are continuous and is nonzero on the interior of the parameter domain.     Surface Area  surface area   For smooth parametric surface given by , , such that is covered once by , then the surface area of is given by       Show that the surface area of a sphere of radius is given by       Find the surface area of a cone for       The surface area of a graph is given by       Find the area cut from the top of the paraboloid by the plane      "
 },
 {
   "id": "FS2-2",
@@ -7838,6 +7838,60 @@ var ptx_lunr_docs = [
   "number": "13.2.3",
   "title": "",
   "body": "  Parametrize a hemisphere of radius 4, for    "
+},
+{
+  "id": "def-smooth",
+  "level": "2",
+  "url": "FS2.html#def-smooth",
+  "type": "Definition",
+  "number": "13.2.3",
+  "title": "Smooth Surface.",
+  "body": " Smooth Surface  smooth (surface)   A parametrized surface is said to be smooth if and are continuous and is nonzero on the interior of the parameter domain.   "
+},
+{
+  "id": "def-surface-area",
+  "level": "2",
+  "url": "FS2.html#def-surface-area",
+  "type": "Definition",
+  "number": "13.2.4",
+  "title": "Surface Area.",
+  "body": " Surface Area  surface area   For smooth parametric surface given by , , such that is covered once by , then the surface area of is given by    "
+},
+{
+  "id": "fs-surfacearea-1",
+  "level": "2",
+  "url": "FS2.html#fs-surfacearea-1",
+  "type": "Activity",
+  "number": "13.2.4",
+  "title": "",
+  "body": "  Show that the surface area of a sphere of radius is given by    "
+},
+{
+  "id": "fs-surfacearea-2",
+  "level": "2",
+  "url": "FS2.html#fs-surfacearea-2",
+  "type": "Activity",
+  "number": "13.2.5",
+  "title": "",
+  "body": "  Find the surface area of a cone for    "
+},
+{
+  "id": "FS2-activities-11",
+  "level": "2",
+  "url": "FS2.html#FS2-activities-11",
+  "type": "Fact",
+  "number": "13.2.5",
+  "title": "",
+  "body": "  The surface area of a graph is given by    "
+},
+{
+  "id": "fs-surfacearea-3",
+  "level": "2",
+  "url": "FS2.html#fs-surfacearea-3",
+  "type": "Activity",
+  "number": "13.2.6",
+  "title": "",
+  "body": "  Find the area cut from the top of the paraboloid by the plane    "
 },
 {
   "id": "FS3",
