@@ -85,6 +85,62 @@
                 </p>
             </statement>
         </activity>
+
+        <definition xml:id="def-smooth">
+            <title>Smooth Surface</title>
+            <idx><h>smooth (surface)</h></idx>
+            <statement>
+                <p>
+                    A parametrized surface <m>\textbf{r}(u,v) = \lrangle{f(t),g(t),h(t)}</m> is said to be <term>smooth</term> if <m>\textbf{r}_u</m> and <m>\textbf{r}_v</m> are continuous and <m>\textbf{r}_u\times\textbf{r}_v</m> is nonzero on the interior of the parameter domain.
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-surface-area">
+            <title>Surface Area</title>
+            <idx><h>surface area</h></idx>
+            <statement>
+                <p>
+                    For smooth parametric surface <m>S</m> given by <m>\textbf{r}(u,v) = \lrangle{f(t),g(t),h(t)}</m>, <m>u,v\in D</m>, such that <m>S</m> is covered once by <m>\textbf{r}</m>, then the <term>surface area</term> of <m>S</m> is given by
+                    <me>
+                        A(S) = \iint_D |\textbf{r}_u\times\textbf{r}_v|\, dA
+                    </me>   
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="fs-surfacearea-1">
+            <statement>
+                <p>
+                    Show that the surface area of a sphere of radius <m>a</m> is given by <m>4\pi a^2</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="fs-surfacearea-2">
+            <statement>
+                <p>
+                    Find the surface area of a cone <m>z = \sqrt{x^2 + y^2}</m> for <m>0\leq z\leq 2</m>
+                </p>
+            </statement>
+        </activity>
+
+        <fact>
+            <statement>
+                <p>
+                    The surface area of a graph <m>z=f(x,y)</m> is given by <m>\ds \iint_D \sqrt{1 + (f_x)^2 + (f_y)^2}\, dA</m>
+                </p>
+            </statement>
+        </fact>
+
+        <activity xml:id="fs-surfacearea-3">
+            <statement>
+                <p>
+                    Find the area cut from the top of the paraboloid <m>f(x,y) = 4-x^2-y^2</m> by the plane <m>z = 2</m>
+                </p>
+            </statement>
+        </activity>
+
     </subsection>
 
 </section>
