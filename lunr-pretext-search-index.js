@@ -5470,7 +5470,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.1",
   "title": "PS1: Power Series",
-  "body": " PS1: Power Series     PS1  I can determine the radius and interval of convergence of a power series.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Power Series and Functions    Read all sections        In-Class Activities   "
+  "body": " PS1: Power Series     PS1  I can determine the radius and interval of convergence of a power series.      Pre-Class Preparation  Read the following sections of the text:    Section 6.1: Power Series and Functions    Read all sections        In-Class Activities   Power Series  power series  convergence (power series)   A series of the form where is a variable and the coefficients are constants, is called a power series centered at .  A power series centered at is a power series of the form   A power series is said to converge on the interval if the series converges on .      Consider the power series     Thinking about , what kind of name did we apply to this power series?   p-series    Geometric series    Telescoping series    Alternating series       The power series converges; under what conditions is this true?                          To what value will the power series converge?             The series will diverge    Cannot be determined         Consider the series .    Using the Ratio Test, what can you say about the convergence of the series?   Converges conditionally    Converges absolutely for all     Converges absolutely for     Diverges       Based on your answer to part (a), for what values of should the power series converge?      A power series satisfies one of the following three conditions:   The series converges at and diverges for all     The series converges for all real numbers     There exists a real number such that the series converges if and diverges if . The series may converge or diverge at the values for which .        Interval\/Radius of Convergence  interval of convergence  radius of convergence   The set of values for with the series converges is called the interval of convergence . The radius of convergence is the value for which .      What is the radius of convergence for ?      Consider the series     Letting , find     For what values of is ?                     If , does converge or diverge?    If , converge or diverge?    Which of the following describes the values of for which converges?                            Find the interval and radius of convergence for the series .                            Find the radius and interval of convergence of the followingseries                         "
 },
 {
   "id": "PS1-2",
@@ -5482,13 +5482,94 @@ var ptx_lunr_docs = [
   "body": "   PS1  I can determine the radius and interval of convergence of a power series.    "
 },
 {
+  "id": "def-power-series",
+  "level": "2",
+  "url": "PS1.html#def-power-series",
+  "type": "Definition",
+  "number": "9.1.1",
+  "title": "Power Series.",
+  "body": " Power Series  power series  convergence (power series)   A series of the form where is a variable and the coefficients are constants, is called a power series centered at .  A power series centered at is a power series of the form   A power series is said to converge on the interval if the series converges on .   "
+},
+{
+  "id": "ps-power-series-1",
+  "level": "2",
+  "url": "PS1.html#ps-power-series-1",
+  "type": "Activity",
+  "number": "9.1.1",
+  "title": "",
+  "body": "  Consider the power series     Thinking about , what kind of name did we apply to this power series?   p-series    Geometric series    Telescoping series    Alternating series       The power series converges; under what conditions is this true?                          To what value will the power series converge?             The series will diverge    Cannot be determined      "
+},
+{
+  "id": "ps-power-series-converge-1",
+  "level": "2",
+  "url": "PS1.html#ps-power-series-converge-1",
+  "type": "Activity",
+  "number": "9.1.2",
+  "title": "",
+  "body": "  Consider the series .    Using the Ratio Test, what can you say about the convergence of the series?   Converges conditionally    Converges absolutely for all     Converges absolutely for     Diverges       Based on your answer to part (a), for what values of should the power series converge?   "
+},
+{
+  "id": "PS1-activities-5",
+  "level": "2",
+  "url": "PS1.html#PS1-activities-5",
+  "type": "Fact",
+  "number": "9.1.2",
+  "title": "",
+  "body": "  A power series satisfies one of the following three conditions:   The series converges at and diverges for all     The series converges for all real numbers     There exists a real number such that the series converges if and diverges if . The series may converge or diverge at the values for which .      "
+},
+{
+  "id": "def-radius-interval-convergence",
+  "level": "2",
+  "url": "PS1.html#def-radius-interval-convergence",
+  "type": "Definition",
+  "number": "9.1.3",
+  "title": "Interval\/Radius of Convergence.",
+  "body": " Interval\/Radius of Convergence  interval of convergence  radius of convergence   The set of values for with the series converges is called the interval of convergence . The radius of convergence is the value for which .   "
+},
+{
+  "id": "ps-interval-radius-convergence-1",
+  "level": "2",
+  "url": "PS1.html#ps-interval-radius-convergence-1",
+  "type": "Activity",
+  "number": "9.1.3",
+  "title": "",
+  "body": "  What is the radius of convergence for ?   "
+},
+{
+  "id": "ps-interval-radius-convergence-2",
+  "level": "2",
+  "url": "PS1.html#ps-interval-radius-convergence-2",
+  "type": "Activity",
+  "number": "9.1.4",
+  "title": "",
+  "body": "  Consider the series     Letting , find     For what values of is ?                     If , does converge or diverge?    If , converge or diverge?    Which of the following describes the values of for which converges?                         "
+},
+{
+  "id": "ps-interval-radius-convergence-3",
+  "level": "2",
+  "url": "PS1.html#ps-interval-radius-convergence-3",
+  "type": "Activity",
+  "number": "9.1.5",
+  "title": "",
+  "body": "  Find the interval and radius of convergence for the series .                         "
+},
+{
+  "id": "ps-interval-radius-convergence-4",
+  "level": "2",
+  "url": "PS1.html#ps-interval-radius-convergence-4",
+  "type": "Activity",
+  "number": "9.1.6",
+  "title": "",
+  "body": "  Find the radius and interval of convergence of the followingseries                       "
+},
+{
   "id": "PS2",
   "level": "1",
   "url": "PS2.html",
   "type": "Section",
   "number": "9.2",
   "title": "PS2: Properties of Power Series",
-  "body": " PS2: Properties of Power Series     PS2  I can use properties of work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.      Pre-Class Preparation  Read the following sections of the text:    Section 6.2: Properties of Power Seriess    Read all sections        In-Class Activities   "
+  "body": " PS2: Properties of Power Series     PS2  I can use properties of power series to work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.      Pre-Class Preparation  Read the following sections of the text:    Section 6.2: Properties of Power Seriess    Read all sections        In-Class Activities    Consider the power series     To what function does the power series converge?    To what function might the power series converge?   Cannot be determined              Does not converge         If we see a term in a power series involving only, we can factor it out from the power series. For example,       Show that can be expressed by the power series       Power series can be added, subtracted, and multiplied. Suppose that the power series converges to and converges to . Then, the following hold:   The power seires converges to on     For integer and , converges to on     For any integer and , converges to for all such that     The product of two power series is given by where and the product converges to on          Use the power series representation for to construct a power series for                Write the first six terms for the power series representation of      Differentiation\/Integration of Power Series   Suppose the power series converges on the interval for some positive . Let for . Then, is differentiable on the same interval, and for . Further, converges on and       Find a power series representation for the function , and use it to find the sum of the series       Find a power series representation for       Find a power series representation for      "
 },
 {
   "id": "PS2-2",
@@ -5497,7 +5578,97 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "9.2",
   "title": "",
-  "body": "   PS2  I can use properties of work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.    "
+  "body": "   PS2  I can use properties of power series to work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.    "
+},
+{
+  "id": "ps-power-series-function-1",
+  "level": "2",
+  "url": "PS2.html#ps-power-series-function-1",
+  "type": "Activity",
+  "number": "9.2.1",
+  "title": "",
+  "body": "  Consider the power series     To what function does the power series converge?    To what function might the power series converge?   Cannot be determined              Does not converge      "
+},
+{
+  "id": "PS2-activities-3",
+  "level": "2",
+  "url": "PS2.html#PS2-activities-3",
+  "type": "Fact",
+  "number": "9.2.1",
+  "title": "",
+  "body": "  If we see a term in a power series involving only, we can factor it out from the power series. For example,    "
+},
+{
+  "id": "ps-power-series-function-2",
+  "level": "2",
+  "url": "PS2.html#ps-power-series-function-2",
+  "type": "Activity",
+  "number": "9.2.2",
+  "title": "",
+  "body": "  Show that can be expressed by the power series    "
+},
+{
+  "id": "PS2-activities-5",
+  "level": "2",
+  "url": "PS2.html#PS2-activities-5",
+  "type": "Fact",
+  "number": "9.2.2",
+  "title": "",
+  "body": "  Power series can be added, subtracted, and multiplied. Suppose that the power series converges to and converges to . Then, the following hold:   The power seires converges to on     For integer and , converges to on     For any integer and , converges to for all such that     The product of two power series is given by where and the product converges to on       "
+},
+{
+  "id": "ps-combining-1",
+  "level": "2",
+  "url": "PS2.html#ps-combining-1",
+  "type": "Activity",
+  "number": "9.2.3",
+  "title": "",
+  "body": "  Use the power series representation for to construct a power series for             "
+},
+{
+  "id": "ps-combining-2",
+  "level": "2",
+  "url": "PS2.html#ps-combining-2",
+  "type": "Activity",
+  "number": "9.2.4",
+  "title": "",
+  "body": "  Write the first six terms for the power series representation of    "
+},
+{
+  "id": "thm-diff-int-power-series",
+  "level": "2",
+  "url": "PS2.html#thm-diff-int-power-series",
+  "type": "Theorem",
+  "number": "9.2.3",
+  "title": "Differentiation\/Integration of Power Series.",
+  "body": " Differentiation\/Integration of Power Series   Suppose the power series converges on the interval for some positive . Let for . Then, is differentiable on the same interval, and for . Further, converges on and    "
+},
+{
+  "id": "ps-differentiate-1",
+  "level": "2",
+  "url": "PS2.html#ps-differentiate-1",
+  "type": "Activity",
+  "number": "9.2.5",
+  "title": "",
+  "body": "  Find a power series representation for the function , and use it to find the sum of the series    "
+},
+{
+  "id": "ps-integrate-1",
+  "level": "2",
+  "url": "PS2.html#ps-integrate-1",
+  "type": "Activity",
+  "number": "9.2.6",
+  "title": "",
+  "body": "  Find a power series representation for    "
+},
+{
+  "id": "ps-integrate-2",
+  "level": "2",
+  "url": "PS2.html#ps-integrate-2",
+  "type": "Activity",
+  "number": "9.2.7",
+  "title": "",
+  "body": "  Find a power series representation for    "
 },
 {
   "id": "PS3",
@@ -5506,7 +5677,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.3",
   "title": "PS3: Taylor and Maclaurin Series",
-  "body": " PS3: Taylor and Maclaurin Series     PS3  I can compute the Taylor or Maclaurin series of a function, centered at a given input.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Taylor and Maclaurin Series    Read all sections        In-Class Activities   "
+  "body": " PS3: Taylor and Maclaurin Series     PS3  I can compute the Taylor or Maclaurin series of a function, centered at a given input.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Taylor and Maclaurin Series    Read all sections        In-Class Activities    The following tasks will help us find a mechanism to produce a power series given information about its derivatives.   Find the 2nd derivative of .       Find the 3rd derivative of .       Find the 4th derivative of .       Based on these results, which of the following should always equal the th derivative of with respect to ?           Let's use derivatives to rediscover the sequence which gives a power series representation for .   Let's say that . What must be to satisfy ?  Then, . What must be to also satisfy ?  Then, . What must be to also satisfy ?  Then, . What must be to also satisfy ?  So this term was obtained from the fact that the rd derivative of is . So finally, we may skip ahead to the th derivative: . What must be to also satisfy ?  This reveals the power series we previously found for : . So in general, if , then . What must be to produce the correct value for ?      If can be written as a power series, then there is a real number such that on some interval centered at .  In fact, the functions that can be represented as power series are exactly those functions which are infinitely differentiable on some open interval.      The Taylor series Taylor Series generated by and centered at is given by with an interval of convergence determinable by series convergence rules.  When , is called the Maclaurin series Maclaurin Series generated by .      Observe that is a function such that:  Given the zeros appearing for every even derivative above, which of these is a valid simplification of the Maclaurin series for ?       Now consider the following consolidated chart: Which formula yields these alternating s and s appearing for ?          The power series we've introduced for each of the following functions are in fact their Maclaurin series (Taylor series centered at ).       For a function with a Taylor series centered at , where is called the degree Taylor polynomial Taylor polynomial generated by and centered at .  The degree Taylor polynomial can be seen as the best polynomial of degree or less for approximating for values close to . Note that the degree Taylor polynomial is also known as the linearization linearization of a function of .      Let be a function such that:  Find a Taylor polynomial for centered at of degree .  Using the table above, find a general closed form for .  Use (b) to find a Taylor series for centered at .      Let be a function such that:  Find a Taylor polynomial for centered at of degree .  Using the table above, find a general closed form for .  Use (b) to find a Taylor series for centered at .       You might have seen written as , and know that is a complex number if for some real numbers and . Note that , , , , and so on. This gives rise to the following notion.     Euler's Identity   For any real number ,        Use Euler's identity to evaluate .      "
 },
 {
   "id": "PS3-2",
@@ -5516,6 +5687,114 @@ var ptx_lunr_docs = [
   "number": "9.3",
   "title": "",
   "body": "   PS3  I can compute the Taylor or Maclaurin series of a function, centered at a given input.    "
+},
+{
+  "id": "PS3-activities-2",
+  "level": "2",
+  "url": "PS3.html#PS3-activities-2",
+  "type": "Activity",
+  "number": "9.3.1",
+  "title": "",
+  "body": "  The following tasks will help us find a mechanism to produce a power series given information about its derivatives.   Find the 2nd derivative of .       Find the 3rd derivative of .       Find the 4th derivative of .       Based on these results, which of the following should always equal the th derivative of with respect to ?        "
+},
+{
+  "id": "PS3-activities-3",
+  "level": "2",
+  "url": "PS3.html#PS3-activities-3",
+  "type": "Activity",
+  "number": "9.3.2",
+  "title": "",
+  "body": "  Let's use derivatives to rediscover the sequence which gives a power series representation for .   Let's say that . What must be to satisfy ?  Then, . What must be to also satisfy ?  Then, . What must be to also satisfy ?  Then, . What must be to also satisfy ?  So this term was obtained from the fact that the rd derivative of is . So finally, we may skip ahead to the th derivative: . What must be to also satisfy ?  This reveals the power series we previously found for : . So in general, if , then . What must be to produce the correct value for ?  "
+},
+{
+  "id": "fact-PS4taylorSeriesForm",
+  "level": "2",
+  "url": "PS3.html#fact-PS4taylorSeriesForm",
+  "type": "Fact",
+  "number": "9.3.1",
+  "title": "",
+  "body": "  If can be written as a power series, then there is a real number such that on some interval centered at .  In fact, the functions that can be represented as power series are exactly those functions which are infinitely differentiable on some open interval.   "
+},
+{
+  "id": "definition-PS4taylorSeries",
+  "level": "2",
+  "url": "PS3.html#definition-PS4taylorSeries",
+  "type": "Definition",
+  "number": "9.3.2",
+  "title": "",
+  "body": "  The Taylor series Taylor Series generated by and centered at is given by with an interval of convergence determinable by series convergence rules.  When , is called the Maclaurin series Maclaurin Series generated by .   "
+},
+{
+  "id": "PS3-activities-6",
+  "level": "2",
+  "url": "PS3.html#PS3-activities-6",
+  "type": "Activity",
+  "number": "9.3.3",
+  "title": "",
+  "body": "  Observe that is a function such that:  Given the zeros appearing for every even derivative above, which of these is a valid simplification of the Maclaurin series for ?       Now consider the following consolidated chart: Which formula yields these alternating s and s appearing for ?       "
+},
+{
+  "id": "fact-maclaurin-series-common",
+  "level": "2",
+  "url": "PS3.html#fact-maclaurin-series-common",
+  "type": "Fact",
+  "number": "9.3.3",
+  "title": "",
+  "body": "  The power series we've introduced for each of the following functions are in fact their Maclaurin series (Taylor series centered at ).    "
+},
+{
+  "id": "definition-PS4taylorPolynomial",
+  "level": "2",
+  "url": "PS3.html#definition-PS4taylorPolynomial",
+  "type": "Definition",
+  "number": "9.3.4",
+  "title": "",
+  "body": "  For a function with a Taylor series centered at , where is called the degree Taylor polynomial Taylor polynomial generated by and centered at .  The degree Taylor polynomial can be seen as the best polynomial of degree or less for approximating for values close to . Note that the degree Taylor polynomial is also known as the linearization linearization of a function of .   "
+},
+{
+  "id": "PS3-activities-9",
+  "level": "2",
+  "url": "PS3.html#PS3-activities-9",
+  "type": "Activity",
+  "number": "9.3.4",
+  "title": "",
+  "body": "  Let be a function such that:  Find a Taylor polynomial for centered at of degree .  Using the table above, find a general closed form for .  Use (b) to find a Taylor series for centered at .   "
+},
+{
+  "id": "PS3-activities-10",
+  "level": "2",
+  "url": "PS3.html#PS3-activities-10",
+  "type": "Activity",
+  "number": "9.3.5",
+  "title": "",
+  "body": "  Let be a function such that:  Find a Taylor polynomial for centered at of degree .  Using the table above, find a general closed form for .  Use (b) to find a Taylor series for centered at .   "
+},
+{
+  "id": "PS3-activities-11",
+  "level": "2",
+  "url": "PS3.html#PS3-activities-11",
+  "type": "Remark",
+  "number": "9.3.5",
+  "title": "",
+  "body": "  You might have seen written as , and know that is a complex number if for some real numbers and . Note that , , , , and so on. This gives rise to the following notion.   "
+},
+{
+  "id": "definition-PS4eulerIdentity",
+  "level": "2",
+  "url": "PS3.html#definition-PS4eulerIdentity",
+  "type": "Definition",
+  "number": "9.3.6",
+  "title": "Euler’s Identity.",
+  "body": " Euler's Identity   For any real number ,     "
+},
+{
+  "id": "activity-PS4eulerIdentityExample",
+  "level": "2",
+  "url": "PS3.html#activity-PS4eulerIdentityExample",
+  "type": "Activity",
+  "number": "9.3.6",
+  "title": "",
+  "body": "  Use Euler's identity to evaluate .   "
 },
 {
   "id": "PD1",
@@ -7405,7 +7684,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.4",
   "title": "VF4: Fundamental Theorem of Line Integrals",
-  "body": " VF4: Fundamental Theorem of Line Integrals     VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Conservative Vector Fields    Read all sections        In-Class Activities   Closed Curve\/Simple Curve  closed curve  simple curve   A curve is said to be closed if there is a parameterization of given by for such that and the parameterization traverses the curve only once.  A curve is said to be simple if it does not intersect itself, except possibly       The curve traced by the parameterization , is shown below.        The curve is simple and closed    The curve is neither simple nor closed    The curve is simple but not closed    The curve is closed but not simple        Connected Region\/Simply Connected Region  connected region  simply connected region   A region is said to be connected if for any two points in , there exists a path between them which lies entirely in .   is further said to be simply connected if all it can be compressed to a single point. In particular, cannot have any holes and must be connected.     Fundamental Theorem of Line Integrals  fundamental theorem of line integrals   Let be a piecewise-smooth curve with parameterization , . Let be a function of two or three variables with first-order partial derivatives that exist and are continuous on . Then,       Consider the vector field     Confirm that is a potential function for     If is the lower half of the unit circle, oriented counterclockwise, compute     Now compute if is the straight-line path to .     Path Independence  path independence   Let be a vector field with domain . is said to the path independent if for any paths in with the same initial and terminal points.      If is a conservative vector field, then is path independent      Let be a continuous vector field. Then, has path independent line integrals if and only if for all piecewise smooth, simple, closed curves in the domain of .      True or false: the vector field is conservative   True    False         Compute the circulation for the vector field along the ellipse       Find a potential function for .      Determine if the vector field is conservative; if it is, find its potential function.      Find a potential function for       Compute the line integral , where and is any smooth curve that goes from the origin to       This activity will prove the Law of Conservation of Energy. Let be a continuous, conservative force field which moves an object along a path given by , , where is the initial point and is the terminal point.    Use a line integral to describe the work done in moving the particle along ; use Newton's Second Law to simplify the expression.    Use the fact that to rewrite the integral.    Use the Fundamental Theorem of Calculus to show that the work is given by  where    What is the relationship between the vector field and the potential energy of the object?    Use the relationship and the Fundamental Theorem of Line Integrals to show that work is the net change in potential energy.     "
+  "body": " VF4: Fundamental Theorem of Line Integrals     VF4  I can use the Fundamental Theorem of Line Integrals to evaluate a line integral in a vector field, and I can find the potential function for a conservative vector field.      Pre-Class Preparation  Read the following sections of the text:    Section 6.3: Conservative Vector Fields    Read all sections        In-Class Activities   Closed Curve\/Simple Curve  closed curve  simple curve   A curve is said to be closed if there is a parameterization of given by for such that and the parameterization traverses the curve only once.  A curve is said to be simple if it does not intersect itself, except possibly       The curve traced by the parameterization , is shown below.        The curve is simple and closed    The curve is neither simple nor closed    The curve is simple but not closed    The curve is closed but not simple       D     Connected Region\/Simply Connected Region  connected region  simply connected region   A region is said to be connected if for any two points in , there exists a path between them which lies entirely in .   is further said to be simply connected if all it can be compressed to a single point. In particular, cannot have any holes and must be connected.     Fundamental Theorem of Line Integrals  fundamental theorem of line integrals   Let be a piecewise-smooth curve with parameterization , . Let be a function of two or three variables with first-order partial derivatives that exist and are continuous on . Then,       Consider the vector field     Confirm that is a potential function for     and , so is a potential function for the vector field.    If is the lower half of the unit circle, oriented counterclockwise, compute         Now compute if is the straight-line path to .         Path Independence  path independence   Let be a vector field with domain . is said to the path independent if for any paths in with the same initial and terminal points.      If is a conservative vector field, then is path independent      Let be a continuous vector field. Then, has path independent line integrals if and only if for all piecewise smooth, simple, closed curves in the domain of .      True or false: the vector field is conservative   True    False       B      Find a potential function for .           Determine if the vector field is conservative; if it is, find its potential function.    Yes it is conservative. Its potential function is given by       Compute the circulation for the vector field along the ellipse            Find a potential function for            Compute the line integral , where and is any smooth curve that goes from the origin to            This activity will prove the Law of Conservation of Energy. Let be a continuous, conservative force field which moves an object along a path given by , , where is the initial point and is the terminal point.    Use a line integral to describe the work done in moving the particle along ; use Newton's Second Law to simplify the expression.        Use the fact that to rewrite the integral.        Use the Fundamental Theorem of Calculus to show that the work is given by  where    so that or     What is the relationship between the vector field and the potential energy of the object?   Since the vector field is conservative, , so that (since )    Use the relationship and the Fundamental Theorem of Line Integrals to show that work is the net change in potential energy.    Then, or      "
 },
 {
   "id": "VF4-2",
@@ -7432,7 +7711,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.4.1",
   "title": "",
-  "body": "  The curve traced by the parameterization , is shown below.        The curve is simple and closed    The curve is neither simple nor closed    The curve is simple but not closed    The curve is closed but not simple      "
+  "body": "  The curve traced by the parameterization , is shown below.        The curve is simple and closed    The curve is neither simple nor closed    The curve is simple but not closed    The curve is closed but not simple       D   "
 },
 {
   "id": "def-connected-simply-connected",
@@ -7459,7 +7738,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.4.2",
   "title": "",
-  "body": "  Consider the vector field     Confirm that is a potential function for     If is the lower half of the unit circle, oriented counterclockwise, compute     Now compute if is the straight-line path to .   "
+  "body": "  Consider the vector field     Confirm that is a potential function for     and , so is a potential function for the vector field.    If is the lower half of the unit circle, oriented counterclockwise, compute         Now compute if is the straight-line path to .       "
 },
 {
   "id": "def-path-independence",
@@ -7495,34 +7774,34 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.4.3",
   "title": "",
-  "body": "  True or false: the vector field is conservative   True    False      "
-},
-{
-  "id": "vf-conservative-2",
-  "level": "2",
-  "url": "VF4.html#vf-conservative-2",
-  "type": "Activity",
-  "number": "12.4.4",
-  "title": "",
-  "body": "  Compute the circulation for the vector field along the ellipse    "
+  "body": "  True or false: the vector field is conservative   True    False       B   "
 },
 {
   "id": "vf-find-potential-1",
   "level": "2",
   "url": "VF4.html#vf-find-potential-1",
   "type": "Activity",
-  "number": "12.4.5",
+  "number": "12.4.4",
   "title": "",
-  "body": "  Find a potential function for .   "
+  "body": "  Find a potential function for .        "
 },
 {
   "id": "vf-find-potential-2",
   "level": "2",
   "url": "VF4.html#vf-find-potential-2",
   "type": "Activity",
+  "number": "12.4.5",
+  "title": "",
+  "body": "  Determine if the vector field is conservative; if it is, find its potential function.    Yes it is conservative. Its potential function is given by    "
+},
+{
+  "id": "vf-conservative-2",
+  "level": "2",
+  "url": "VF4.html#vf-conservative-2",
+  "type": "Activity",
   "number": "12.4.6",
   "title": "",
-  "body": "  Determine if the vector field is conservative; if it is, find its potential function.   "
+  "body": "  Compute the circulation for the vector field along the ellipse         "
 },
 {
   "id": "vf-find-potential-3",
@@ -7531,7 +7810,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.4.7",
   "title": "",
-  "body": "  Find a potential function for    "
+  "body": "  Find a potential function for         "
 },
 {
   "id": "vf-ftli-2",
@@ -7540,7 +7819,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.4.8",
   "title": "",
-  "body": "  Compute the line integral , where and is any smooth curve that goes from the origin to    "
+  "body": "  Compute the line integral , where and is any smooth curve that goes from the origin to         "
 },
 {
   "id": "vf-ftli-3",
@@ -7549,7 +7828,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.4.9",
   "title": "",
-  "body": "  This activity will prove the Law of Conservation of Energy. Let be a continuous, conservative force field which moves an object along a path given by , , where is the initial point and is the terminal point.    Use a line integral to describe the work done in moving the particle along ; use Newton's Second Law to simplify the expression.    Use the fact that to rewrite the integral.    Use the Fundamental Theorem of Calculus to show that the work is given by  where    What is the relationship between the vector field and the potential energy of the object?    Use the relationship and the Fundamental Theorem of Line Integrals to show that work is the net change in potential energy.   "
+  "body": "  This activity will prove the Law of Conservation of Energy. Let be a continuous, conservative force field which moves an object along a path given by , , where is the initial point and is the terminal point.    Use a line integral to describe the work done in moving the particle along ; use Newton's Second Law to simplify the expression.        Use the fact that to rewrite the integral.        Use the Fundamental Theorem of Calculus to show that the work is given by  where    so that or     What is the relationship between the vector field and the potential energy of the object?   Since the vector field is conservative, , so that (since )    Use the relationship and the Fundamental Theorem of Line Integrals to show that work is the net change in potential energy.    Then, or    "
 },
 {
   "id": "VF5",

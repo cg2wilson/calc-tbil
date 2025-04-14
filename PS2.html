@@ -533,7 +533,7 @@ true);
 <article class="objectives goal-like" id="PS2-2"><h3 class="heading"><span class="type">Objectives</span></h3>
 <dl class="description-list">
 <dt id="PS2-2-1-1">PS2</dt>
-<dd><div class="para" id="PS2-2-1-1-2">I can use properties of work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.</div></dd>
+<dd><div class="para" id="PS2-2-1-1-2">I can use properties of power series to work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.</div></dd>
 </dl></article><article class="assemblage assemblage-like" id="PS2-prep"><h3 class="heading"><span class="title">Pre-Class Preparation.</span></h3>
 <div class="para logical" id="PS2-prep-2">
 <div class="para">Read the following sections of the text:</div>
@@ -543,7 +543,111 @@ true);
 </li></ul>
 </div></article><section class="subsection" id="PS2-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">9.2.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
-</h3></section></section></div>
+</h3>
+<article class="activity project-like" id="ps-power-series-function-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.1</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ps-power-series-function-1-1"><div class="para" id="ps-power-series-function-1-1-1">Consider the power series <span class="process-math">\(\ds \sum_{n=0}^\infty x^n\)</span>
+</div></div>
+<article class="task exercise-like" id="ps-power-series-function-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ps-power-series-function-1-2-1-1">To what function does the power series converge?</div></article><article class="task exercise-like" id="ps-power-series-function-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="ps-power-series-function-1-3-1-1">
+<div class="para">To what function might the power series <span class="process-math">\(\ds \sum_{n=0}^\infty x^{2n}\)</span> converge?</div>
+<ol class="upper-alpha ol-marker-2 cols2" id="ps-power-series-function-1-3-1-1-2">
+<li id="ps-power-series-function-1-3-1-1-2-1"><div class="para" id="ps-power-series-function-1-3-1-1-2-1-1">Cannot be determined</div></li>
+<li id="ps-power-series-function-1-3-1-1-2-2"><div class="para" id="ps-power-series-function-1-3-1-1-2-2-1"><span class="process-math">\(\displaystyle \dfrac{1}{1-x^2}\)</span></div></li>
+<li id="ps-power-series-function-1-3-1-1-2-3"><div class="para" id="ps-power-series-function-1-3-1-1-2-3-1"><span class="process-math">\(\displaystyle \dfrac{1}{1+x^2}\)</span></div></li>
+<li id="ps-power-series-function-1-3-1-1-2-4"><div class="para" id="ps-power-series-function-1-3-1-1-2-4-1">Does not converge</div></li>
+</ol>
+</div></article></article><article class="fact theorem-like" id="PS2-activities-3"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">9.2.1</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="PS2-activities-3-1-1">
+<div class="para">If we see a term in a power series involving <span class="process-math">\(x\)</span> only, we can factor it out from the power series. For example,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sum_{n=0}^\infty \dfrac{x^2}{n!} = x^2 \sum_{n=0}^\infty x^2\dfrac{1}{n!}
+\end{equation*}
+</div>
+</div></article><article class="activity project-like" id="ps-power-series-function-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.2</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="ps-power-series-function-2-1-1">
+<div class="para">Show that <span class="process-math">\(\dfrac{x^2}{4-x^2}\)</span> can be expressed by the power series</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sum_{n=0}^\infty \dfrac{x^{2n+2}}{4^{n+1}}
+\end{equation*}
+</div>
+</div></article><article class="fact theorem-like" id="PS2-activities-5"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">9.2.2</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="PS2-activities-5-1-1">
+<div class="para">Power series can be added, subtracted, and multiplied. Suppose that the power series <span class="process-math">\(\ds \sum_{n=0}^\infty c_nx^n\)</span> converges to <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(\ds \sum_{n=0}^\infty d_nx^n\)</span> converges to <span class="process-math">\(g(x)\text{.}\)</span> Then, the following hold:</div>
+<ul class="disc" id="PS2-activities-5-1-1-5">
+<li id="PS2-activities-5-1-1-5-1"><div class="para" id="PS2-activities-5-1-1-5-1-1">The power seires <span class="process-math">\(\ds \sum_{n=0}^\infty (c_nx^n\pm d_nx^n)\)</span> converges to <span class="process-math">\(f(x)\pm g(x)\)</span> on <span class="process-math">\(I\)</span>
+</div></li>
+<li id="PS2-activities-5-1-1-5-2"><div class="para" id="PS2-activities-5-1-1-5-2-1">For integer <span class="process-math">\(m\geq 0\)</span> and <span class="process-math">\(b\in \R\text{,}\)</span> <span class="process-math">\(\ds \sum_{n=0}^\infty bx^mc_nx^n\)</span> converges to <span class="process-math">\(bx^mf(x)\)</span> on <span class="process-math">\(I\)</span>
+</div></li>
+<li id="PS2-activities-5-1-1-5-3"><div class="para" id="PS2-activities-5-1-1-5-3-1">For any integer <span class="process-math">\(m\geq 0\)</span> and <span class="process-math">\(b\in \R\text{,}\)</span> <span class="process-math">\(\ds \sum_{n=0}^\infty c_n(bx^m)^n\)</span> converges to <span class="process-math">\(f(bx^m)\)</span> for all <span class="process-math">\(x\)</span> such that <span class="process-math">\(bx^m\in I\)</span>
+</div></li>
+<li id="PS2-activities-5-1-1-5-4"><div class="para logical" id="PS2-activities-5-1-1-5-4-1">
+<div class="para">The product of two power series is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\ds \lrpar{\sum_{n=0}^\infty c_nx^n}\lrpar{\sum_{n=0}^\infty d_nx^n} = \sum_{n=0}^\infty e_nx^n
+\end{equation*}
+</div>
+<div class="para">where</div>
+<div class="displaymath process-math">
+\begin{equation*}
+e_n = c_0d_n + c_1d_{n-1}+ c_2d_{n-2}+\cdots + c_{n-1}d_1 + c_nd_0
+\end{equation*}
+</div>
+<div class="para">and the product converges to <span class="process-math">\(f(x)\cdot g(x)\)</span> on <span class="process-math">\(I\)</span>
+</div>
+</div></li>
+</ul>
+</div></article><article class="activity project-like" id="ps-combining-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.3</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="ps-combining-1-1"><div class="para" id="ps-combining-1-1-1">Use the power series representation for <span class="process-math">\(f(x) = \dfrac{1}{1-x}\)</span> to construct a power series for</div></div>
+<article class="task exercise-like" id="ps-combining-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ps-combining-1-2-1-1"><span class="process-math">\(g(x) = \dfrac{3x}{1+x^2}\)</span></div></article><article class="task exercise-like" id="ps-combining-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ps-combining-1-3-1-1"><span class="process-math">\(h(x) = \dfrac{1}{(1-x)(3-x)}\)</span></div></article></article><article class="activity project-like" id="ps-combining-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="ps-combining-2-1-1">Write the first six terms for the power series representation of <span class="process-math">\(f(x) = \dfrac{1}{(1-x)(1-x^2)}\)</span>
+</div></article><article class="theorem theorem-like" id="thm-diff-int-power-series"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Differentiation/Integration of Power Series.</span>
+</h4>
+<div class="para logical" id="thm-diff-int-power-series-2-1">
+<div class="para">Suppose the power series <span class="process-math">\(\ds \sum_{n=0}^\infty c_n(x-a)^n\)</span> converges on the interval <span class="process-math">\((a-R,a+R)\)</span> for some positive <span class="process-math">\(R\text{.}\)</span> Let <span class="process-math">\(f(x) = \ds \sum_{n=0}^\infty c_n(x-a)^n\)</span> for <span class="process-math">\(|x-a|\lt R\text{.}\)</span> Then, <span class="process-math">\(f\)</span> is differentiable on the same interval, and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f'(x) = \sum_{n=1}^\infty nc_n(x-a)^{n-1}
+\end{equation*}
+</div>
+<div class="para">for <span class="process-math">\(|x-a|\lt R\text{.}\)</span> Further, <span class="process-math">\(\ds \int f(x)\, dx\)</span> converges on <span class="process-math">\((a-R,a+R)\)</span> and</div>
+<div class="displaymath process-math" id="thm-diff-int-power-series-2-1-11">
+\begin{align*}
+\int f(x)\, dx \amp = C + \sum_{n=0}^\infty c_n \dfrac{(x-a)^{n+1}}{n+1} \\
+\amp = C + c_0(x-a) + c_1\dfrac{(x-a)^2}{2} + \cdots 
+\end{align*}
+</div>
+</div></article><article class="activity project-like" id="ps-differentiate-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="ps-differentiate-1-1-1">Find a power series representation for the function <span class="process-math">\(f(x) = \dfrac{1}{(1-x)^2}\text{,}\)</span> and use it to find the sum of the series <span class="process-math">\(\ds \sum_{n=0}^\infty \dfrac{n+1}{4^n}\)</span>
+</div></article><article class="activity project-like" id="ps-integrate-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="ps-integrate-1-1-1">Find a power series representation for <span class="process-math">\(f(x) = \inv{\tan}(x)\)</span>
+</div></article><article class="activity project-like" id="ps-integrate-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="ps-integrate-2-1-1">Find a power series representation for <span class="process-math">\(f(x) = \ln(1+x)\)</span>
+</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="PS1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="PS3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
