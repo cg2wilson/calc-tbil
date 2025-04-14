@@ -7,7 +7,7 @@
             <li>
                 <title>PS2</title>
                 <p>
-                    I can use properties of work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.
+                    I can use properties of power series to work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.
                 </p>
             </li>
         </dl>
@@ -17,7 +17,182 @@
 
     <subsection xml:id="PS2-activities">
         <title>In-Class Activities</title>
+        
+        <activity xml:id="ps-power-series-function-1">
+            <introduction>
+                <p>
+                    Consider the power series <m>\ds \sum_{n=0}^\infty x^n</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        To what function does the power series converge?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        To what function might the power series <m>\ds \sum_{n=0}^\infty x^{2n}</m> converge?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Cannot be determined
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{1-x^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{1+x^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Does not converge
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        
+        <fact>
+            <statement>
+                <p>
+                    If we see a term in a power series involving <m>x</m> only, we can factor it out from the power series. For example,
+                    <me>
+                        \sum_{n=0}^\infty \dfrac{x^2}{n!} = x^2 \sum_{n=0}^\infty x^2\dfrac{1}{n!}
+                    </me>
+                </p>
+            </statement>
+        </fact>
 
+        <activity xml:id="ps-power-series-function-2">
+            <statement>
+                <p>
+                    Show that <m>\dfrac{x^2}{4-x^2}</m> can be expressed by the power series
+                    <me>
+                        \sum_{n=0}^\infty \dfrac{x^{2n+2}}{4^{n+1}}
+                    </me>
+                </p>
+            </statement>
+        </activity>
+
+        <fact>
+            <statement>
+                <p>
+                    Power series can be added, subtracted, and multiplied. Suppose that the power series <m>\ds \sum_{n=0}^\infty c_nx^n</m> converges to <m>f(x)</m> and <m>\ds \sum_{n=0}^\infty d_nx^n</m> converges to <m>g(x)</m>. Then, the following hold:
+                    <ul>
+                        <li>
+                            <p>
+                                The power seires <m>\ds \sum_{n=0}^\infty (c_nx^n\pm d_nx^n)</m> converges to <m>f(x)\pm g(x)</m> on <m>I</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                For integer <m>m\geq 0</m> and <m>b\in \R</m>, <m>\ds \sum_{n=0}^\infty bx^mc_nx^n</m> converges to <m>bx^mf(x)</m> on <m>I</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                For any integer <m>m\geq 0</m> and <m>b\in \R</m>, <m>\ds \sum_{n=0}^\infty c_n(bx^m)^n</m> converges to <m>f(bx^m)</m> for all <m>x</m> such that <m>bx^m\in I</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The product of two power series is given by
+                                <me>
+                                    \ds \lrpar{\sum_{n=0}^\infty c_nx^n}\lrpar{\sum_{n=0}^\infty d_nx^n} = \sum_{n=0}^\infty e_nx^n
+                                </me>
+                                where
+                                <me>
+                                    e_n = c_0d_n + c_1d_{n-1}+ c_2d_{n-2}+\cdots + c_{n-1}d_1 + c_nd_0
+                                </me>
+                                and the product converges to <m>f(x)\cdot g(x)</m> on <m>I</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </fact>
+
+        <activity xml:id="ps-combining-1">
+            <introduction>
+                <p>
+                    Use the power series representation for <m>f(x) = \dfrac{1}{1-x}</m> to construct a power series for 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>g(x) = \dfrac{3x}{1+x^2}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>h(x) = \dfrac{1}{(1-x)(3-x)}</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ps-combining-2">
+            <statement>
+                <p>
+                    Write the first six terms for the power series representation of <m>f(x) = \dfrac{1}{(1-x)(1-x^2)}</m>
+                </p>
+            </statement>
+        </activity>
+
+        <theorem xml:id="thm-diff-int-power-series">
+            <title>Differentiation/Integration of Power Series</title>
+            <statement>
+                <p>
+                    Suppose the power series <m>\ds \sum_{n=0}^\infty c_n(x-a)^n</m> converges on the interval <m>(a-R,a+R)</m> for some positive <m>R</m>. Let <m>f(x) = \ds \sum_{n=0}^\infty c_n(x-a)^n</m> for <m>|x-a|\lt R</m>. Then, <m>f</m> is differentiable on the same interval, and 
+                    <me>
+                        f'(x) = \sum_{n=1}^\infty nc_n(x-a)^{n-1}
+                    </me>
+                    for <m>|x-a|\lt R</m>. Further, <m>\ds \int f(x)\, dx</m> converges on <m>(a-R,a+R)</m> and
+                    <md>
+                        <mrow>\int f(x)\, dx \amp = C + \sum_{n=0}^\infty c_n \dfrac{(x-a)^{n+1}}{n+1} </mrow>
+                        <mrow> \amp = C + c_0(x-a) + c_1\dfrac{(x-a)^2}{2} + \cdots </mrow>
+                    </md>
+                </p>
+            </statement>
+        </theorem>
+
+        <activity xml:id="ps-differentiate-1">
+            <statement>
+                <p>
+                    Find a power series representation for the function <m>f(x) = \dfrac{1}{(1-x)^2}</m>, and use it to find the sum of the series
+                    <m>\ds \sum_{n=0}^\infty \dfrac{n+1}{4^n}</m>
+                </p>
+            </statement>
+        </activity>
+        
+        <activity xml:id="ps-integrate-1">
+            <statement>
+                <p>
+                    Find a power series representation for <m>f(x) = \inv{\tan}(x)</m>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="ps-integrate-2">
+            <statement>
+                <p>
+                    Find a power series representation for <m>f(x) = \ln(1+x)</m>
+                </p>
+            </statement>
+        </activity>
     </subsection>
 
 </section>

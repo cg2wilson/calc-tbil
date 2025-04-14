@@ -18,7 +18,360 @@
     <subsection xml:id="PS1-activities">
         <title>In-Class Activities</title>
         
+        <definition xml:id="def-power-series">
+            <title>Power Series</title>
+            <idx><h>power series</h></idx>  
+            <idx><h>convergence (power series)</h></idx>          
+            <statement>
+                <p>
+                    A series of the form
+                    <me>
+                        \sum_{n=0}^\infty c_nx^n = c_0 + c_1x + c_2x^2 + \cdots 
+                    </me>
+                    where <m>x</m> is a variable and the coefficients <m>c_n</m> are constants, is called a <term>power series centered at <m>x= 0</m></term>.
+                </p>
+                <p>
+                    A <term>power series centered at <m>x = a</m></term> is a power series of the form
+                    <me>
+                        \sum_{n=0}^\infty c_n(x-a)^n = c_0 + c_1(x-a) + c_2(x-a)^2 + \cdots
+                    </me>
+                </p>
+                <p>
+                    A power series is said to <term>converge</term> on the interval <m>I</m> if the series converges on <m>I</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="ps-power-series-1">
+            <introduction>
+                <p>
+                    Consider the power series <m>\ds \sum_{n=0}^\infty x^n</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Thinking about <xref ref="ch-SE"/>, what kind of name did we apply to this power series?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    p-series
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Geometric series
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Telescoping series
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Alternating series
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The power series converges; under what conditions is this true?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>|x|\geq 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>|x| \gt 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>|x|  \lt 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>|x| \leq 1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        To what value will the power series converge?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{1-x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1-x^n}{1-x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The series will diverge
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Cannot be determined
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ps-power-series-converge-1">
+            <introduction>
+                <p>
+                    Consider the series <m>\ds \sum_{n=0}^\infty \dfrac{x^n}{n!}</m>. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Using the Ratio Test, what can you say about the convergence of the series?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    Converges conditionally
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Converges absolutely for all <m>x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Converges absolutely for <m>|x|\lt 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Diverges
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Based on your answer to part (a), for what values of <m>x</m> should the power series converge?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <fact>
+            <statement>
+                <p>
+                    A power series <m>\ds \sum_{n=0}^\infty c_n (x-a)^n</m> satisfies one of the following three conditions:
+                    <ol>
+                        <li>
+                            <p>
+                                The series converges at <m>x=a</m> and diverges for all <m>x\neq a</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The series converges for all real numbers <m>x</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                There exists a real number <m>R\gt 0</m> such that the series converges if <m>|x-a| \lt R</m> and diverges if <m>|x-a| \gt R</m>. The series may converge or diverge at the values for which <m>|x-a| = R</m>. 
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </fact>       
+
+        <definition xml:id="def-radius-interval-convergence">
+            <title>Interval/Radius of Convergence</title>
+            <idx><h>interval of convergence</h></idx>
+            <idx><h>radius of convergence</h></idx>
+            <statement>
+                <p>
+                    The set of values for with the series <m>\ds \sum_{n=0}^\infty c_n(x-a)^n</m> converges is called the <term>interval of convergence</term>. The <term>radius of convergence</term> is the value <m>R</m> for which <m>|x-a| \lt R</m>. 
+                </p>
+            </statement>
+        </definition>
         
+        <activity xml:id="ps-interval-radius-convergence-1">
+            <statement>
+                <p>
+                    What is the radius of convergence for <m>\ds \sum_{n=0}^\infty \dfrac{x^n}{n!}</m>?
+                </p>
+            </statement>
+        </activity>
+        
+        <activity xml:id="ps-interval-radius-convergence-2">
+            <introduction>
+                <p>
+                    Consider the series <m>\ds \sum_{n=0}^\infty \dfrac{1}{n^2+1}x^n</m>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Letting <m>c_n = \dfrac{1}{n^2 + 1}</m>, find <m>\ds \lim_{n\to\infty} \left|\dfrac{c_{n+1}}{c_n}\right|</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        For what values of <m>x</m> is <m>|x|\ds \lim_{n\to\infty} \left|\dfrac{c_{n+1}}{c_n}\right| \lt 1</m>?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>x \lt 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>0\leq x \lt 1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-1 \lt x\lt 1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>x = 1</m>, does <m>\ds \sum_{n=0}^\infty \dfrac{1}{n^2+1}x^n</m> converge or diverge?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>x= -1</m>, <m>\ds \sum_{n=0}^\infty \dfrac{1}{n^2+1}x^n</m> converge or diverge?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which of the following describes the values of <m>x</m> for which <m>\ds \sum_{n=0}^\infty \dfrac{1}{n^2+1}x^n</m> converges?
+                        <ol marker="A." cols="2">
+                            <li>
+                                <p>
+                                    <m>(-1,1)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>[-1,1)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(-1,1]</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>[-1,1]</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </activity>
+
+        <activity xml:id="ps-interval-radius-convergence-3">
+            <statement>
+                <p>
+                    Find the interval and radius of convergence for the series <m>\ds \sum_{n=0}^\infty \dfrac{(x-2)^n}{(n+1)3^n}</m>.
+                    <ol marker="A." cols="2">
+                        <li>
+                            <p>
+                                <m>(-1,5]</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>[-1,5)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>[-1,5]</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>(-1,5)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+
+        <activity xml:id="ps-interval-radius-convergence-4">
+            <introduction>
+                <p>
+                    Find the radius and interval of convergence of the followingseries
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=0}^\infty \dfrac{(-3)^nx^n}{\sqrt{n+1}}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=0}^\infty n!x^n</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=0}^\infty \dfrac{2^n+1}{n3^n}(x+1)^n</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\ds \sum_{n=0}^\infty \dfrac{n^2}{n!}\lrpar{x + \dfrac{1}{2}}^n</m>
+                    </p>
+                </statement>
+            </task>
+        </activity>
     </subsection>
 
 </section>
