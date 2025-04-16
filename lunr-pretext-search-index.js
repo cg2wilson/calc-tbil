@@ -7837,7 +7837,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.5",
   "title": "VF5: Green’s Theorem",
-  "body": " VF5: Green's Theorem     VF5  I can identify when I can use Green’s Theorem, and use it for computations.      Pre-Class Preparation  Read the following sections of the text:    Section 6.4: Green's Theorem    Read all sections        In-Class Activities   Green's Theorem (Circulation Form)  Green's theorem (circulation)   Let be an open, simply conencted region with boundary curve that is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on . Then,       Let , and let be the first quadrant region bounded by the line and . Compute the circulation of along .    Compute the line integral without using Green's Theorem.    Verify that Green's Theorem can be used in this situation.    Use Green's Theorem to confirm your answer in (a).      Compute , where is the circle of radius , oriented counterclockwise.      An ellipse can be parameterized by on   Use Green's Theorem to prove that the area inside an ellipse is exactly .      Calculate the work done on a particle by the force field as the particle traverses the circle of radius 2 exactly once in the counterclockwise direction, starting and ending at .     Green's Theorem (Flux Form)  Green's theorem (flux)   Let be an open, simply conencted region with boundary curve which is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on an open region containing . Then,       Let be a circle of radius centered at the origin, and let . Compute the flux across .      Let be the triangle with vertices at , , and , oriented clockwise. Compute the flux across , given the vector field       If a vector field is conservative, Green's Theorem guarantees that the circulation of any closed curve is what?      Use the fact that to argue why, in polar coordinates, the formula for the area of a region is given by where      "
+  "body": " VF5: Green's Theorem     VF5  I can identify when I can use Green’s Theorem, and use it for computations.      Pre-Class Preparation  Read the following sections of the text:    Section 6.4: Green's Theorem    Read all sections        In-Class Activities   Green's Theorem (Circulation Form)  Green's theorem (circulation)   Let be an open, simply connected region with boundary curve that is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on . Then,       Let , and let be the first quadrant region bounded by the line and . Compute the circulation of along .    Compute the line integral without using Green's Theorem.        Verify that Green's Theorem can be used in this situation.   The region is open, simply connected, and bounded by a curve which is piecewise smooth, simple, closed, and oriented appropriately.    Use Green's Theorem to confirm your answer in (a).   We get again.      Compute , where is the circle of radius , oriented counterclockwise.           An ellipse can be parameterized by on   Use Green's Theorem to prove that the area inside an ellipse is exactly .    Choose the vector field . Then, . So,       Calculate the work done on a particle by the force field as the particle traverses the circle of radius 2 exactly once in the counterclockwise direction, starting and ending at .          Green's Theorem (Flux Form)  Green's theorem (flux)   Let be an open, simply conencted region with boundary curve which is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on an open region containing . Then,       Let be a circle of radius centered at the origin, and let . Compute the flux across .           Let be the triangle with vertices at , , and , oriented clockwise. Compute the flux across , given the vector field            If a vector field is conservative, Green's Theorem guarantees that the circulation of any closed curve is what?    0      Use the fact that to argue why, in polar coordinates, the formula for the area of a region is given by where      "
 },
 {
   "id": "VF5-2",
@@ -7855,7 +7855,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "12.5.1",
   "title": "Green’s Theorem (Circulation Form).",
-  "body": " Green's Theorem (Circulation Form)  Green's theorem (circulation)   Let be an open, simply conencted region with boundary curve that is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on . Then,    "
+  "body": " Green's Theorem (Circulation Form)  Green's theorem (circulation)   Let be an open, simply connected region with boundary curve that is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on . Then,    "
 },
 {
   "id": "vf-greens-1",
@@ -7864,7 +7864,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.5.1",
   "title": "",
-  "body": "  Let , and let be the first quadrant region bounded by the line and . Compute the circulation of along .    Compute the line integral without using Green's Theorem.    Verify that Green's Theorem can be used in this situation.    Use Green's Theorem to confirm your answer in (a).   "
+  "body": "  Let , and let be the first quadrant region bounded by the line and . Compute the circulation of along .    Compute the line integral without using Green's Theorem.        Verify that Green's Theorem can be used in this situation.   The region is open, simply connected, and bounded by a curve which is piecewise smooth, simple, closed, and oriented appropriately.    Use Green's Theorem to confirm your answer in (a).   We get again.   "
 },
 {
   "id": "vf-greens-2",
@@ -7873,7 +7873,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.5.2",
   "title": "",
-  "body": "  Compute , where is the circle of radius , oriented counterclockwise.   "
+  "body": "  Compute , where is the circle of radius , oriented counterclockwise.        "
 },
 {
   "id": "vf-greens-3",
@@ -7882,7 +7882,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.5.3",
   "title": "",
-  "body": "  An ellipse can be parameterized by on   Use Green's Theorem to prove that the area inside an ellipse is exactly .   "
+  "body": "  An ellipse can be parameterized by on   Use Green's Theorem to prove that the area inside an ellipse is exactly .    Choose the vector field . Then, . So,    "
 },
 {
   "id": "vf-greens-4",
@@ -7891,7 +7891,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.5.4",
   "title": "",
-  "body": "  Calculate the work done on a particle by the force field as the particle traverses the circle of radius 2 exactly once in the counterclockwise direction, starting and ending at .   "
+  "body": "  Calculate the work done on a particle by the force field as the particle traverses the circle of radius 2 exactly once in the counterclockwise direction, starting and ending at .        "
 },
 {
   "id": "thm-greens-flux",
@@ -7909,7 +7909,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.5.5",
   "title": "",
-  "body": "  Let be a circle of radius centered at the origin, and let . Compute the flux across .   "
+  "body": "  Let be a circle of radius centered at the origin, and let . Compute the flux across .        "
 },
 {
   "id": "vf-greens-6",
@@ -7918,7 +7918,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.5.6",
   "title": "",
-  "body": "  Let be the triangle with vertices at , , and , oriented clockwise. Compute the flux across , given the vector field    "
+  "body": "  Let be the triangle with vertices at , , and , oriented clockwise. Compute the flux across , given the vector field         "
 },
 {
   "id": "vf-greens-7",
@@ -7927,7 +7927,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.5.7",
   "title": "",
-  "body": "  If a vector field is conservative, Green's Theorem guarantees that the circulation of any closed curve is what?   "
+  "body": "  If a vector field is conservative, Green's Theorem guarantees that the circulation of any closed curve is what?    0   "
 },
 {
   "id": "vf-greens-8",
