@@ -23,7 +23,7 @@
             <idx><h>Green's theorem (circulation)</h></idx>
             <statement>
                 <p>
-                    Let <m>D</m> be an open, simply conencted region with boundary curve <m>C</m> that is piecewise smooth, simple, closed, and oriented counterclockwise. Let <m>\textbf{F} = \lrangle{P,Q}</m> be a vector field with component functions that have continuous partial derivatives on <m>D</m>. Then,
+                    Let <m>D</m> be an open, simply connected region with boundary curve <m>C</m> that is piecewise smooth, simple, closed, and oriented counterclockwise. Let <m>\textbf{F} = \lrangle{P,Q}</m> be a vector field with component functions that have continuous partial derivatives on <m>D</m>. Then,
                     <me>
                         \oint_C \textbf{F}\cdot d\textbf{r} = \oint_C P\, dx + Q\, dy = \iint_D (Q_x-P_y)\, dA
                     </me>
@@ -34,7 +34,7 @@
         <activity xml:id="vf-greens-1">
             <introduction>
                 <p>
-                    Let <m>\textbf{F} - \lrangle{xy,y^2}</m>, and let <m>D</m> be the first quadrant region bounded by the line <m>y = x</m> and <m>y = x^2</m>. Compute the circulation of <m>\textbf{F}</m> along <m>C</m>.
+                    Let <m>\textbf{F} = \lrangle{xy,y^2}</m>, and let <m>D</m> be the first quadrant region bounded by the line <m>y = x</m> and <m>y = x^2</m>. Compute the circulation of <m>\textbf{F}</m> along <m>C</m>.
                 </p>
             </introduction>
             <task>
@@ -43,6 +43,11 @@
                         Compute the line integral without using Green's Theorem.
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>-\dfrac{1}{12}</m>
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -50,6 +55,11 @@
                         Verify that Green's Theorem can be used in this situation.
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        The region is open, simply connected, and bounded by a curve which is piecewise smooth, simple, closed, and oriented appropriately. 
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -57,6 +67,11 @@
                         Use Green's Theorem to confirm your answer in (a).
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        We get <m>-\dfrac{1}{12}</m> again.
+                    </p>
+                </answer>
             </task>
         </activity>
 
@@ -66,6 +81,11 @@
                     Compute <m>\ds \oint_C -y\, dx + x\, dy</m>, where <m>C</m> is the circle of radius <m>a</m>, oriented counterclockwise.
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m>2\pi a^2</m>
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="vf-greens-3">
@@ -84,6 +104,17 @@
                     Use Green's Theorem to prove that the area inside an ellipse is exactly <m>\pi ab</m>.
                 </p>
             </statement>
+            <answer>
+                <p>
+                    Choose the vector field <m>\textbf{F} = \lrangle{-\dfrac{y}{2},\dfrac{x}{2}}</m>. Then, <m>Q_x-P_y = 1</m>. So,
+                    <md>
+                        <mrow> \iint_R dA \amp =  \dfrac{1}{2}\iint -y\, dx + x\, dy</mrow>
+                        <mrow> \amp = \oint_C \textbf{F}\cdot d\textbf{r} </mrow>
+                        <mrow> \amp = \dfrac{1}{2} \int_0^{2\pi} ab(\cos^2t + \sin^2t)\, dt</mrow>
+                        <mrow> \amp = \pi ab </mrow>
+                    </md>
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="vf-greens-4">
@@ -96,6 +127,11 @@
                     as the particle traverses the circle of radius 2 exactly once in the counterclockwise direction, starting and ending at <m>(2,0)</m>.
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m>-8\pi</m>
+                </p>
+            </answer>
         </activity>
 
         <theorem xml:id="thm-greens-flux">
@@ -117,6 +153,11 @@
                     Let <m>C</m>be a circle of radius <m>a</m> centered at the origin, and let <m>\textbf{F}(x,y) = \lrangle{x,y}</m>. Compute the flux across <m>C</m>. 
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m>2\pi a^2</m>
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="vf-greens-6">
@@ -125,6 +166,11 @@
                     Let <m>S</m> be the triangle with vertices at <m>(0,0)</m>, <m>(1,0)</m>, and <m>(0,1)</m>, oriented clockwise. Compute the flux across <m>S</m>, given the vector field <m>\textbf{F} = \lrangle{x^3,y^3}</m>
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m>1</m>
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="vf-greens-7">
@@ -133,10 +179,15 @@
                     If a vector field is conservative, Green's Theorem guarantees that the circulation of any closed curve is what?
                 </p>
             </statement>
+            <answer>
+                <p>
+                    0
+                </p>
+            </answer>
         </activity>
         
         <activity xml:id="vf-greens-8">
-            <introduction>
+            <statement>
                 <p>
                     Use the fact that 
                     <me>
@@ -151,7 +202,12 @@
                         D = \lrbrace{(r,\theta)\mid 0\leq r\leq f(\theta), a\leq \theta \leq b}
                     </me>
                 </p>
-            </introduction>
+            </statement>
+            <answer>
+                <p>
+                    
+                </p>
+            </answer>
         </activity>
     </subsection>
 
