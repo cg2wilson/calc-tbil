@@ -7837,7 +7837,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.5",
   "title": "VF5: Green’s Theorem",
-  "body": " VF5: Green's Theorem     VF5  I can identify when I can use Green’s Theorem, and use it for computations.      Pre-Class Preparation  Read the following sections of the text:    Section 6.4: Green's Theorem    Read all sections        In-Class Activities   Green's Theorem (Circulation Form)  Green's theorem (circulation)   Let be an open, simply connected region with boundary curve that is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on . Then,       Let , and let be the first quadrant region bounded by the line and . Compute the circulation of along .    Compute the line integral without using Green's Theorem.        Verify that Green's Theorem can be used in this situation.   The region is open, simply connected, and bounded by a curve which is piecewise smooth, simple, closed, and oriented appropriately.    Use Green's Theorem to confirm your answer in (a).   We get again.      Compute , where is the circle of radius , oriented counterclockwise.           An ellipse can be parameterized by on   Use Green's Theorem to prove that the area inside an ellipse is exactly .    Choose the vector field . Then, . So,       Calculate the work done on a particle by the force field as the particle traverses the circle of radius 2 exactly once in the counterclockwise direction, starting and ending at .          Green's Theorem (Flux Form)  Green's theorem (flux)   Let be an open, simply conencted region with boundary curve which is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on an open region containing . Then,       Let be a circle of radius centered at the origin, and let . Compute the flux across .           Let be the triangle with vertices at , , and , oriented clockwise. Compute the flux across , given the vector field            If a vector field is conservative, Green's Theorem guarantees that the circulation of any closed curve is what?    0      Use the fact that to argue why, in polar coordinates, the formula for the area of a region is given by where      "
+  "body": " VF5: Green's Theorem     VF5  I can identify when I can use Green’s Theorem, and use it for computations.      Pre-Class Preparation  Read the following sections of the text:    Section 6.4: Green's Theorem    Read all sections        In-Class Activities   Green's Theorem (Circulation Form)  Green's theorem (circulation)   Let be an open, simply connected region with boundary curve that is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on . Then,       Let , and let be the first quadrant region bounded by the line and . Compute the circulation of along .    Compute the line integral without using Green's Theorem.        Verify that Green's Theorem can be used in this situation.   The region is open, simply connected, and bounded by a curve which is piecewise smooth, simple, closed, and oriented appropriately.    Use Green's Theorem to confirm your answer in (a).   We get again.      Compute , where is the circle of radius , oriented counterclockwise.           An ellipse can be parameterized by on   Use Green's Theorem to prove that the area inside an ellipse is exactly .    Choose the vector field . Then, . So,       Calculate the work done on a particle by the force field as the particle traverses the circle of radius 2 exactly once in the counterclockwise direction, starting and ending at .          Green's Theorem (Flux Form)  Green's theorem (flux)   Let be an open, simply conencted region with boundary curve which is piecewise smooth, simple, closed, and oriented counterclockwise. Let be a vector field with component functions that have continuous partial derivatives on an open region containing . Then,       Let be a circle of radius centered at the origin, and let . Compute the flux across .           Let be the triangle with vertices at , , and , oriented clockwise. Compute the flux across , given the vector field            If a vector field is conservative, Green's Theorem guarantees that the circulation of any closed curve is what?    0      Use the fact that to argue why, in polar coordinates, the formula for the area of a region is given by where     Note that Converting to polar coordinates, we have and which gives      "
 },
 {
   "id": "VF5-2",
@@ -7936,7 +7936,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "12.5.8",
   "title": "",
-  "body": "  Use the fact that to argue why, in polar coordinates, the formula for the area of a region is given by where    "
+  "body": "  Use the fact that to argue why, in polar coordinates, the formula for the area of a region is given by where     Note that Converting to polar coordinates, we have and which gives    "
 },
 {
   "id": "FS1",
@@ -8179,7 +8179,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.3",
   "title": "FS3: Surface Integrals",
-  "body": " FS3: Surface Integrals     FS3  I can compute surface integrals of a scalar function and a vector field, and interpret my answers.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read from \"Surface Integral of a Scalar-Valued Function\" to the end        In-Class Activities   "
+  "body": " FS3: Surface Integrals     FS3  I can compute surface integrals of a scalar function and a vector field, and interpret my answers.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read from \"Surface Integral of a Scalar-Valued Function\" to the end        In-Class Activities   Surface integrals are an extension of the idea of line integrals- the ideas are the same, but the dimension has changed.    Surface Integral (Scalar)  surface integral (scalar)   Given a parametrization of the surface , the surface integral of a scalar function over is given by Here, the term is the surface area differential       For a function given explicitly, the surface area differential is given by       Compute the surface integral , where is the unit sphere            Evaluate , where is the surface on .           Compute the surface integral , where is the surface consisting of the piece of the sphere that lies on or above the plane and the disk that is enclosed by the intersection plane and the given sphere.          Orientation  orientation  oriented surface   The orientation of a surface is a choice of unit normal vectors which vary continuously across the surface. If we can make such a choice, the surface is said to be orientable .     Surface Integral (Vector)  surface integral (vector)   Let be a continuous vector field with a domain that contains the oriented surface with unit normal vector . The surface integral of over is given by where for some parametrization of .  A computational form is given by       Compute the surface integral , where and is the surface parametrized by     340      Find the flux of the vector field across the unit sphere.           Find the flux of the vector field through the parabolic cylinder on     2     "
 },
 {
   "id": "FS3-2",
@@ -8191,13 +8191,112 @@ var ptx_lunr_docs = [
   "body": "   FS3  I can compute surface integrals of a scalar function and a vector field, and interpret my answers.    "
 },
 {
+  "id": "FS3-activities-2",
+  "level": "2",
+  "url": "FS3.html#FS3-activities-2",
+  "type": "Remark",
+  "number": "13.3.1",
+  "title": "",
+  "body": " Surface integrals are an extension of the idea of line integrals- the ideas are the same, but the dimension has changed.  "
+},
+{
+  "id": "def-surface-integral-scalar",
+  "level": "2",
+  "url": "FS3.html#def-surface-integral-scalar",
+  "type": "Definition",
+  "number": "13.3.2",
+  "title": "Surface Integral (Scalar).",
+  "body": " Surface Integral (Scalar)  surface integral (scalar)   Given a parametrization of the surface , the surface integral of a scalar function over is given by Here, the term is the surface area differential    "
+},
+{
+  "id": "FS3-activities-4",
+  "level": "2",
+  "url": "FS3.html#FS3-activities-4",
+  "type": "Fact",
+  "number": "13.3.3",
+  "title": "",
+  "body": "  For a function given explicitly, the surface area differential is given by    "
+},
+{
+  "id": "fs-surface-integral-1",
+  "level": "2",
+  "url": "FS3.html#fs-surface-integral-1",
+  "type": "Activity",
+  "number": "13.3.1",
+  "title": "",
+  "body": "  Compute the surface integral , where is the unit sphere         "
+},
+{
+  "id": "fs-surface-integral-2",
+  "level": "2",
+  "url": "FS3.html#fs-surface-integral-2",
+  "type": "Activity",
+  "number": "13.3.2",
+  "title": "",
+  "body": "  Evaluate , where is the surface on .        "
+},
+{
+  "id": "fs-surface-integral-3",
+  "level": "2",
+  "url": "FS3.html#fs-surface-integral-3",
+  "type": "Activity",
+  "number": "13.3.3",
+  "title": "",
+  "body": "  Compute the surface integral , where is the surface consisting of the piece of the sphere that lies on or above the plane and the disk that is enclosed by the intersection plane and the given sphere.        "
+},
+{
+  "id": "def-orientation",
+  "level": "2",
+  "url": "FS3.html#def-orientation",
+  "type": "Definition",
+  "number": "13.3.4",
+  "title": "Orientation.",
+  "body": " Orientation  orientation  oriented surface   The orientation of a surface is a choice of unit normal vectors which vary continuously across the surface. If we can make such a choice, the surface is said to be orientable .   "
+},
+{
+  "id": "def-surface-integral-vector",
+  "level": "2",
+  "url": "FS3.html#def-surface-integral-vector",
+  "type": "Definition",
+  "number": "13.3.5",
+  "title": "Surface Integral (Vector).",
+  "body": " Surface Integral (Vector)  surface integral (vector)   Let be a continuous vector field with a domain that contains the oriented surface with unit normal vector . The surface integral of over is given by where for some parametrization of .  A computational form is given by    "
+},
+{
+  "id": "fs-surface-integral-4",
+  "level": "2",
+  "url": "FS3.html#fs-surface-integral-4",
+  "type": "Activity",
+  "number": "13.3.4",
+  "title": "",
+  "body": "  Compute the surface integral , where and is the surface parametrized by     340   "
+},
+{
+  "id": "fs-surface-integral-5",
+  "level": "2",
+  "url": "FS3.html#fs-surface-integral-5",
+  "type": "Activity",
+  "number": "13.3.5",
+  "title": "",
+  "body": "  Find the flux of the vector field across the unit sphere.        "
+},
+{
+  "id": "fs-surface-integral-6",
+  "level": "2",
+  "url": "FS3.html#fs-surface-integral-6",
+  "type": "Activity",
+  "number": "13.3.6",
+  "title": "",
+  "body": "  Find the flux of the vector field through the parabolic cylinder on     2   "
+},
+{
   "id": "FS4",
   "level": "1",
   "url": "FS4.html",
   "type": "Section",
   "number": "13.4",
   "title": "FS4: Stokes’ Theorem and the Divergence Theorem",
-  "body": " FS4: Stokes' Theorem and the Divergence Theorem     FS4  I can use Stokes’ Theorem and the Divergence Theorem to evaluate various mathematical expressions, and interpret my answers.      Pre-Class Preparation  Read the following sections of the text:    Section 6.7: Stokes' Theorem    Read all sections      Section 6.8: The Divergence Theorem    Read all sections        In-Class Activities   "
+  "body": " FS4: Stokes' Theorem and the Divergence Theorem     FS4  I can use Stokes’ Theorem and the Divergence Theorem to evaluate various mathematical expressions, and interpret my answers.      Pre-Class Preparation  Read the following sections of the text:    Section 6.7: Stokes' Theorem    Read all sections      Section 6.8: The Divergence Theorem    Read all sections        In-Class Activities   Stokes' Theorem  Stokes' theorem   Let be a piecewise smooth oriented surface with a boundary that is a simple, closed curve with positive orientation. If is a vector field with component functions that have continuous partial derivatives on a open region containing , then      Stokes' Theorem says that the value of a surface integral depends only on the line integral around the boundary only.     Compute the line integral , where and is the boundary of the parallelogram with vertices at      3     Find the circulation of the field around the curve in which the plane meets the cone , counterclockwise as viewed from above.           Compute the integral , where and is the part of the sphere of radius 2 that lies inside the cylinder and above the plane    0     The Divergence Theorem  divergence theorem   Let be a piecewise, smooth, closed surface that encloses a solid in space. Assume that is oriented outward, and let be a vector field with continuous partial derivatives on an open region containing . Then,       Compute , where is the closed cylinder , , and            Find the flux of outward through the surface of the cube cut from the first octant by the planes .          "
 },
 {
   "id": "FS4-2",
@@ -8207,6 +8306,78 @@ var ptx_lunr_docs = [
   "number": "13.4",
   "title": "",
   "body": "   FS4  I can use Stokes’ Theorem and the Divergence Theorem to evaluate various mathematical expressions, and interpret my answers.    "
+},
+{
+  "id": "thm-stokes",
+  "level": "2",
+  "url": "FS4.html#thm-stokes",
+  "type": "Theorem",
+  "number": "13.4.1",
+  "title": "Stokes’ Theorem.",
+  "body": " Stokes' Theorem  Stokes' theorem   Let be a piecewise smooth oriented surface with a boundary that is a simple, closed curve with positive orientation. If is a vector field with component functions that have continuous partial derivatives on a open region containing , then    "
+},
+{
+  "id": "FS4-activities-3",
+  "level": "2",
+  "url": "FS4.html#FS4-activities-3",
+  "type": "Remark",
+  "number": "13.4.2",
+  "title": "",
+  "body": " Stokes' Theorem says that the value of a surface integral depends only on the line integral around the boundary only.  "
+},
+{
+  "id": "fs-stokes-1",
+  "level": "2",
+  "url": "FS4.html#fs-stokes-1",
+  "type": "Activity",
+  "number": "13.4.1",
+  "title": "",
+  "body": "  Compute the line integral , where and is the boundary of the parallelogram with vertices at    "
+},
+{
+  "id": "fs-stokes-2",
+  "level": "2",
+  "url": "FS4.html#fs-stokes-2",
+  "type": "Activity",
+  "number": "13.4.2",
+  "title": "",
+  "body": "  Find the circulation of the field around the curve in which the plane meets the cone , counterclockwise as viewed from above.        "
+},
+{
+  "id": "fs-stokes-3",
+  "level": "2",
+  "url": "FS4.html#fs-stokes-3",
+  "type": "Activity",
+  "number": "13.4.3",
+  "title": "",
+  "body": "  Compute the integral , where and is the part of the sphere of radius 2 that lies inside the cylinder and above the plane    0   "
+},
+{
+  "id": "thm-divergence",
+  "level": "2",
+  "url": "FS4.html#thm-divergence",
+  "type": "Theorem",
+  "number": "13.4.3",
+  "title": "The Divergence Theorem.",
+  "body": " The Divergence Theorem  divergence theorem   Let be a piecewise, smooth, closed surface that encloses a solid in space. Assume that is oriented outward, and let be a vector field with continuous partial derivatives on an open region containing . Then,    "
+},
+{
+  "id": "fs-divergencethm-1",
+  "level": "2",
+  "url": "FS4.html#fs-divergencethm-1",
+  "type": "Activity",
+  "number": "13.4.4",
+  "title": "",
+  "body": "  Compute , where is the closed cylinder , , and         "
+},
+{
+  "id": "fs-divergencethm-2",
+  "level": "2",
+  "url": "FS4.html#fs-divergencethm-2",
+  "type": "Activity",
+  "number": "13.4.5",
+  "title": "",
+  "body": "  Find the flux of outward through the surface of the cube cut from the first octant by the planes .        "
 },
 {
   "id": "backmatter-2",

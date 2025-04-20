@@ -549,7 +549,67 @@ true);
 </ul>
 </div></article><section class="subsection" id="FS4-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">13.4.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
-</h3></section></section></div>
+</h3>
+<article class="theorem theorem-like" id="thm-stokes"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">13.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Stokes’ Theorem.</span>
+</h4>
+<div class="para logical" id="thm-stokes-3-1">
+<div class="para">Let <span class="process-math">\(S\)</span> be a piecewise smooth oriented surface with a boundary that is a simple, closed curve <span class="process-math">\(C\)</span> with positive orientation. If <span class="process-math">\(\textbf{F}\)</span> is a vector field with component functions that have continuous partial derivatives on a open region containing <span class="process-math">\(S\text{,}\)</span> then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int_C \textbf{F}\cdot d\textbf{r} = \iint_S \curl{F}\, d\textbf{S}
+\end{equation*}
+</div>
+</div></article><article class="remark remark-like" id="FS4-activities-3"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">13.4.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="FS4-activities-3-1">Stokes’ Theorem says that the value of a surface integral depends only on the line integral around the boundary only.</div></article><article class="activity project-like" id="fs-stokes-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.4.1</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="fs-stokes-1-1-1">
+<div class="para">Compute the line integral <span class="process-math">\(\int_C \textbf{F}\cdot d\textbf{r}\text{,}\)</span> where</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{F} = \lrangle{xy, x^2+y^2+z^2,yz}
+\end{equation*}
+</div>
+<div class="para">and <span class="process-math">\(C\)</span> is the boundary of the parallelogram with vertices at <span class="process-math">\((0,0,1), (0,1,0),(2,0,-1),(2,1,-2)\)</span>
+</div>
+</div></article><details id="FS4-activities-5" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="FS4-activities-5-1">3</div></div></details><article class="activity project-like" id="fs-stokes-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.4.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="fs-stokes-2-1-1">Find the circulation of the field <span class="process-math">\(\textbf{F} = \lrangle{x^2-y,4z,x^2}\)</span> around the curve <span class="process-math">\(C\)</span> in which the plane <span class="process-math">\(z = 2\)</span> meets the cone <span class="process-math">\(z = \sqrt{x^2+y^2}\text{,}\)</span> counterclockwise as viewed from above.</div>
+<div class="solutions"><details id="fs-stokes-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="fs-stokes-2-2-1"><span class="process-math">\(4\pi\)</span></div></div></details></div></article><article class="activity project-like" id="fs-stokes-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.4.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="fs-stokes-3-1-1">Compute the integral <span class="process-math">\(\ds \iint_S \curl{F}\cdot d\textbf{S}\text{,}\)</span> where <span class="process-math">\(\textbf{F} = \lrangle{xz,yz,xy}\)</span> and <span class="process-math">\(S\)</span> is the part of the sphere of radius 2 that lies inside the cylinder <span class="process-math">\(x^2 + y^2 = 1\)</span> and above the <span class="process-math">\(xy-\)</span>plane</div>
+<div class="solutions"><details id="fs-stokes-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="fs-stokes-3-2-1">0</div></div></details></div></article><article class="theorem theorem-like" id="thm-divergence"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">13.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">The Divergence Theorem.</span>
+</h4>
+<div class="para logical" id="thm-divergence-3-1">
+<div class="para">Let <span class="process-math">\(S\)</span> be a piecewise, smooth, closed surface that encloses a solid <span class="process-math">\(E\)</span> in space. Assume that <span class="process-math">\(S\)</span> is oriented outward, and let <span class="process-math">\(\textbf{F}\)</span> be a vector field with continuous partial derivatives on an open region containing <span class="process-math">\(E\text{.}\)</span> Then,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\iiint_E \div{\textbf{F}}\,dV = \iint_S \textbf{F}\cdot d\textbf{S}
+\end{equation*}
+</div>
+</div></article><article class="activity project-like" id="fs-divergencethm-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.4.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="fs-divergencethm-1-1-1">
+<div class="para">Compute <span class="process-math">\(\ds \iint_S \textbf{F}\cdot d\textbf{S}\text{,}\)</span> where <span class="process-math">\(S\)</span> is the closed cylinder <span class="process-math">\(x^2 + y^2 = 1\text{,}\)</span> <span class="process-math">\(0\leq z\leq 2\text{,}\)</span> and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{F} = \lrangle{\dfrac{1}{3}x^3+yz, \dfrac{1}{3}y^3 -\sin(xz),z-x-y}
+\end{equation*}
+</div>
+</div>
+<div class="solutions"><details id="fs-divergencethm-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="fs-divergencethm-1-2-1"><span class="process-math">\(3\pi\)</span></div></div></details></div></article><article class="activity project-like" id="fs-divergencethm-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.4.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="fs-divergencethm-2-1-1">Find the flux of <span class="process-math">\(\textbf{F} = \lrangle{xy,yz,xz}\)</span> outward through the surface of the cube cut from the first octant by the planes <span class="process-math">\(x=1,y=1,z=1\text{.}\)</span>
+</div>
+<div class="solutions"><details id="fs-divergencethm-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="fs-divergencethm-2-2-1"><span class="process-math">\(\dfrac{3}{2}\)</span></div></div></details></div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="FS3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
 </div></main>

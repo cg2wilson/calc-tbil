@@ -543,7 +543,89 @@ true);
 </li></ul>
 </div></article><section class="subsection" id="FS3-activities"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">13.3.1</span><span class="space"> </span><span class="title">In-Class Activities</span>
-</h3></section></section></div>
+</h3>
+<article class="remark remark-like" id="FS3-activities-2"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">13.3.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="FS3-activities-2-1">Surface integrals are an extension of the idea of line integrals- the ideas are the same, but the dimension has changed.</div></article><article class="definition definition-like" id="def-surface-integral-scalar"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">13.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Surface Integral (Scalar).</span>
+</h4>
+<div class="para logical" id="def-surface-integral-scalar-3-1">
+<div class="para">Given a parametrization <span class="process-math">\(\textbf{r}(u,v) = \lrangle{f(u,v),g(u,v),h(u,v)}\)</span> of the surface <span class="process-math">\(S\text{,}\)</span> the <dfn class="terminology">surface integral</dfn> of a scalar function <span class="process-math">\(f(x,y,z)\)</span> over <span class="process-math">\(S\)</span> is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\iint_S f(x,y,z)\, dS = \iint_R f(\textbf{r}(u,v))|\textbf{r}_u\times\textbf{r}_v|\, du\, dv
+\end{equation*}
+</div>
+<div class="para">Here, the term <span class="process-math">\(dS\)</span> is the <dfn class="terminology">surface area differential</dfn>
+</div>
+</div></article><article class="fact theorem-like" id="FS3-activities-4"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">13.3.3</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="FS3-activities-4-1-1">
+<div class="para">For a function <span class="process-math">\(z = f(x,y)\)</span> given explicitly, the surface area differential is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+dS = \sqrt{f_x^2 + f_y^2 + 1}\, dx\, dy
+\end{equation*}
+</div>
+</div></article><article class="activity project-like" id="fs-surface-integral-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.3.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="fs-surface-integral-1-1-1">Compute the surface integral <span class="process-math">\(\ds \iint_S x^2\, dS\text{,}\)</span> where <span class="process-math">\(S\)</span> is the unit sphere <span class="process-math">\(x^2 + y^2 + z^2 = 1\)</span>
+</div>
+<div class="solutions"><details id="fs-surface-integral-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="fs-surface-integral-1-2-1"><span class="process-math">\(\dfrac{4\pi}{3}\)</span></div></div></details></div></article><article class="activity project-like" id="fs-surface-integral-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.3.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="fs-surface-integral-2-1-1">Evaluate <span class="process-math">\(\ds \iint_S y\, dS\text{,}\)</span> where <span class="process-math">\(S\)</span> is the surface <span class="process-math">\(z = x+y^2\)</span> on <span class="process-math">\(0\leq x\leq 1, 0\leq y\leq 2\text{.}\)</span>
+</div>
+<div class="solutions"><details id="fs-surface-integral-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="fs-surface-integral-2-2-1"><span class="process-math">\(\dfrac{13\sqrt{2}}{3}\)</span></div></div></details></div></article><article class="activity project-like" id="fs-surface-integral-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.3.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="fs-surface-integral-3-1-1">Compute the surface integral <span class="process-math">\(\ds \iint_S z^2\, dS\text{,}\)</span> where <span class="process-math">\(S\)</span> is the surface consisting of the piece of the sphere <span class="process-math">\(x^2 + y^2 + z^2 = 4\)</span> that lies on or above the plane <span class="process-math">\(z=1\)</span> and the disk that is enclosed by the intersection plane <span class="process-math">\(z = 1\)</span> and the given sphere.</div>
+<div class="solutions"><details id="fs-surface-integral-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="fs-surface-integral-3-2-1"><span class="process-math">\(\dfrac{37\pi}{3}\)</span></div></div></details></div></article><article class="definition definition-like" id="def-orientation"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">13.3.4</span><span class="period">.</span><span class="space"> </span><span class="title">Orientation.</span>
+</h4>
+<div class="para" id="def-orientation-4-1">The <dfn class="terminology">orientation</dfn> of a surface is a choice of unit normal vectors which vary continuously across the surface. If we can make such a choice, the surface is said to be <dfn class="terminology">orientable</dfn>.</div></article><article class="definition definition-like" id="def-surface-integral-vector"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">13.3.5</span><span class="period">.</span><span class="space"> </span><span class="title">Surface Integral (Vector).</span>
+</h4>
+<div class="para logical" id="def-surface-integral-vector-3-1">
+<div class="para">Let <span class="process-math">\(\textbf{F}\)</span> be a continuous vector field with a domain that contains the oriented surface <span class="process-math">\(S\)</span> with unit normal vector <span class="process-math">\(\textbf{N}\text{.}\)</span> The <dfn class="terminology">surface integral</dfn> of <span class="process-math">\(\textbf{F}\)</span> over <span class="process-math">\(S\)</span> is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\iint_S \textbf{F}\cdot d\textbf{S} = \iint_S \textbf{F}\cdot \textbf{N}\, dS
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(\textbf{N} = \dfrac{\textbf{r}_u\times \textbf{r}_v}{|\textbf{r}_u\times \textbf{r}_v|}\)</span> for some parametrization <span class="process-math">\(\textbf{r}(u,v)\)</span> of <span class="process-math">\(S\text{.}\)</span>
+</div>
+</div> <div class="para logical" id="def-surface-integral-vector-3-2">
+<div class="para">A computational form is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\iint_S \textbf{F}\cdot \textbf{N}\, dS = \iint_D \textbf{F}(\textbf{r}(u,v))\cdot (\textbf{r}_u\times \textbf{r}_v)\, dA
+\end{equation*}
+</div>
+</div></article><article class="activity project-like" id="fs-surface-integral-4"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.3.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="fs-surface-integral-4-1-1">
+<div class="para">Compute the surface integral <span class="process-math">\(\ds \iint_S \textbf{F}\cdot \textbf{N}\, dS\text{,}\)</span> where <span class="process-math">\(\textbf{F} = \lrangle{-y,x,0}\)</span> and <span class="process-math">\(S\)</span> is the surface parametrized by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{r}(u,v) = \lrangle{u,v^2-u,u+v},\quad 0\leq u \lt 3, 0\leq v\leq 4
+\end{equation*}
+</div>
+</div>
+<div class="solutions"><details id="fs-surface-integral-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="fs-surface-integral-4-2-1">340</div></div></details></div></article><article class="activity project-like" id="fs-surface-integral-5"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.3.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="fs-surface-integral-5-1-1">Find the flux of the vector field <span class="process-math">\(\textbf{F} = \lrangle{z,y,x}\)</span> across the unit sphere.</div>
+<div class="solutions"><details id="fs-surface-integral-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="fs-surface-integral-5-2-1"><span class="process-math">\(\dfrac{4\pi}{3}\)</span></div></div></details></div></article><article class="activity project-like" id="fs-surface-integral-6"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13.3.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="fs-surface-integral-6-1-1">Find the flux of the vector field <span class="process-math">\(\textbf{F} = \lrangle{yz,x,-z^2}\)</span> through the parabolic cylinder <span class="process-math">\(y = x^2\)</span> on <span class="process-math">\(0\leq x\leq 1, 0\leq z\leq 4\)</span>
+</div>
+<div class="solutions"><details id="fs-surface-integral-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="fs-surface-integral-6-2-1">2</div></div></details></div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="FS2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="FS4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

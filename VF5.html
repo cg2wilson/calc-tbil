@@ -636,7 +636,7 @@ y \amp = b\sin t
 <div class="solutions"><details id="vf-greens-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="vf-greens-7-2-1">0</div></div></details></div></article><article class="activity project-like" id="vf-greens-8"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">12.5.8</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="vf-greens-8-1"><div class="para logical" id="vf-greens-8-1-1">
+<div class="para logical" id="vf-greens-8-1-1">
 <div class="para">Use the fact that</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -655,7 +655,33 @@ A = \dfrac{1}{2}\int_C -y\, dx + x\, dy
 D = \lrbrace{(r,\theta)\mid 0\leq r\leq f(\theta), a\leq \theta \leq b}
 \end{equation*}
 </div>
-</div></div></article></section></section></div>
+</div>
+<div class="solutions"><details id="vf-greens-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="vf-greens-8-2-1">
+<div class="para">Note that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A = \dfrac{1}{2}\int_C -y\, dx + x\, dy = \dfrac{1}{2}\iint_D 2\,dA
+\end{equation*}
+</div>
+<div class="para">Converting to polar coordinates, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\dfrac{1}{2}\iint_D 2\, dA = \int_a^b \int_0^{f(\theta)}r\, dr\,d\theta
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int_a^b \int_0^{f(\theta)}r\, dr\,d\theta = \int_a^b \dfrac{1}{2}r^2\bigg\rvert_0^{f(\theta)}\, d\theta
+\end{equation*}
+</div>
+<div class="para">which gives</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\dfrac{1}{2}\int_a^b (f(\theta))^2\, d\theta
+\end{equation*}
+</div>
+</div></div></details></div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="VF4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
 </div></main>
