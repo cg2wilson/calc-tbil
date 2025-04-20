@@ -205,7 +205,22 @@
             </statement>
             <answer>
                 <p>
-                    
+                    Note that 
+                    <me>
+                        A = \dfrac{1}{2}\int_C -y\, dx + x\, dy = \dfrac{1}{2}\iint_D 2\,dA
+                    </me>
+                    Converting to polar coordinates, we have
+                    <me>
+                        \dfrac{1}{2}\iint_D 2\, dA = \int_a^b \int_0^{f(\theta)}r\, dr\,d\theta
+                    </me>
+                    and
+                    <me>
+                        \int_a^b \int_0^{f(\theta)}r\, dr\,d\theta = \int_a^b \dfrac{1}{2}r^2\bigg\rvert_0^{f(\theta)}\, d\theta
+                    </me>
+                    which gives
+                    <me>
+                        \dfrac{1}{2}\int_a^b (f(\theta))^2\, d\theta
+                    </me>
                 </p>
             </answer>
         </activity>

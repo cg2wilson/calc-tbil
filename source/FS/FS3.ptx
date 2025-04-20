@@ -18,6 +18,148 @@
     <subsection xml:id="FS3-activities">
         <title>In-Class Activities</title>
         
+        <remark>
+            <p>
+                Surface integrals are an extension of the idea of line integrals- the ideas are the same, but the dimension has changed.
+            </p>
+        </remark>
+
+        <definition xml:id="def-surface-integral-scalar">
+            <title>Surface Integral (Scalar)</title>
+            <idx><h>surface integral (scalar)</h></idx>
+            <statement>
+                <p>
+                    Given a parametrization <m>\textbf{r}(u,v) = \lrangle{f(u,v),g(u,v),h(u,v)}</m> of the surface <m>S</m>, the <term>surface integral</term> of a scalar function <m>f(x,y,z)</m> over <m>S</m> is given by
+                    <me>
+                        \iint_S f(x,y,z)\, dS = \iint_R f(\textbf{r}(u,v))|\textbf{r}_u\times\textbf{r}_v|\, du\, dv
+                    </me>
+                    Here, the term <m>dS</m> is the <term>surface area differential</term>
+                </p>
+            </statement>
+        </definition>
+
+        <fact>
+            <statement>
+                <p>
+                    For a function <m>z = f(x,y)</m> given explicitly, the surface area differential is given by
+                    <me>
+                        dS = \sqrt{f_x^2 + f_y^2 + 1}\, dx\, dy
+                    </me>       
+                </p>
+            </statement>
+        </fact>
+
+        <activity xml:id="fs-surface-integral-1">
+            <statement>
+                <p>
+                    Compute the surface integral <m>\ds \iint_S x^2\, dS</m>, where <m>S</m> is the unit sphere <m>x^2 + y^2 + z^2 = 1</m>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>\dfrac{4\pi}{3}</m>
+                </p>
+            </answer>
+        </activity>
+
+        <activity xml:id="fs-surface-integral-2">
+            <statement>
+                <p>
+                    Evaluate <m>\ds \iint_S y\, dS</m>, where <m>S</m> is the surface <m>z = x+y^2</m> on <m>0\leq x\leq 1, 0\leq y\leq 2</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>\dfrac{13\sqrt{2}}{3}</m>
+                </p>
+            </answer>
+        </activity>
+
+        <activity xml:id="fs-surface-integral-3">
+            <statement>
+                <p>
+                    Compute the surface integral <m>\ds \iint_S z^2\, dS</m>, where <m>S</m> is the surface consisting of the piece of the sphere <m>x^2 + y^2 + z^2 = 4</m> that lies on or above the plane <m>z=1</m> and the disk that is enclosed by the intersection plane <m>z = 1</m> and the given sphere.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>\dfrac{37\pi}{3}</m>
+                </p>
+            </answer>
+        </activity>
+
+        <definition xml:id="def-orientation">
+            <title>Orientation</title>
+            <idx><h>orientation</h></idx>
+            <idx><h>oriented surface</h></idx>
+            <statement>
+                <p>
+                    The <term>orientation</term> of a surface is a choice of unit normal vectors which vary continuously across the surface. If we can make such a choice, the surface is said to be <term>orientable</term>.
+                </p>
+            </statement>
+        </definition>
+
+        <definition xml:id="def-surface-integral-vector">
+            <title>Surface Integral (Vector)</title>
+            <idx><h>surface integral (vector)</h></idx>
+            <statement>
+                <p>
+                    Let <m>\textbf{F}</m> be a continuous vector field with a domain that contains the oriented surface <m>S</m> with unit normal vector <m>\textbf{N}</m>. The <term>surface integral</term> of <m>\textbf{F}</m> over <m>S</m> is given by
+                    <me>
+                        \iint_S \textbf{F}\cdot d\textbf{S} = \iint_S \textbf{F}\cdot \textbf{N}\, dS
+                    </me>
+                    where <m>\textbf{N} = \dfrac{\textbf{r}_u\times \textbf{r}_v}{|\textbf{r}_u\times \textbf{r}_v|}</m> for some parametrization <m>\textbf{r}(u,v)</m> of <m>S</m>. 
+                </p>
+                <p>
+                    A computational form is given by 
+                    <me>
+                        \iint_S \textbf{F}\cdot \textbf{N}\, dS = \iint_D \textbf{F}(\textbf{r}(u,v))\cdot (\textbf{r}_u\times \textbf{r}_v)\, dA
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <activity xml:id="fs-surface-integral-4">
+            <statement>
+                <p>
+                    Compute the surface integral <m>\ds \iint_S \textbf{F}\cdot \textbf{N}\, dS</m>, where <m>\textbf{F} = \lrangle{-y,x,0}</m> and <m>S</m> is the surface parametrized by
+                    <me>
+                        \textbf{r}(u,v) = \lrangle{u,v^2-u,u+v},\quad 0\leq u \lt 3, 0\leq v\leq 4
+                    </me>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    340
+                </p>
+            </answer>
+        </activity>
+
+        <activity xml:id="fs-surface-integral-5">
+            <statement>
+                <p>
+                    Find the flux of the vector field <m>\textbf{F} = \lrangle{z,y,x}</m> across the unit sphere.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>\dfrac{4\pi}{3}</m>
+                </p>
+            </answer>
+        </activity>
+
+        <activity xml:id="fs-surface-integral-6">
+            <statement>
+                <p>
+                    Find the flux of the vector field <m>\textbf{F} = \lrangle{yz,x,-z^2}</m> through the parabolic cylinder <m>y = x^2</m> on <m>0\leq x\leq 1, 0\leq z\leq 4</m>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    2
+                </p>
+            </answer>
+        </activity>
         
     </subsection>
 
