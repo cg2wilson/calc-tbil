@@ -62,6 +62,11 @@
                         <m>\textbf{F} = \lrangle{x^2y,xz,xyz}</m>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>\div{F} (1,2,0) = 6</m>. The net outflow rate is 6.
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -69,6 +74,11 @@
                         <m>\textbf{G} = \lrangle{xz,xyz,-y^2}</m>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>\div{G} (1,2,0) = 0</m>. The net outflow rate is 0.
+                    </p>
+                </answer>
             </task>
         </activity>
 
@@ -102,9 +112,24 @@
                                 Yes, because the divergence is negative
                             </p>
                         </li>
+                        <li>
+                            <p>
+                                No, because the divergence is zero
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Yes, because the divergence is zero
+                            </p>
+                        </li>
                     </ol>
                 </p>
             </statement>
+            <answer>
+                <p>
+                    C
+                </p>
+            </answer>
         </activity>
 
         <definition xml:id="def-curl">
@@ -163,6 +188,11 @@
                     True or false: if <m>\textbf{F}</m> is conservative, then <m>\curl{F} =\textbf{0}</m>. Why?
                 </p>
             </statement>
+            <answer>
+                <p>
+                    True. If <m>\textbf{F}</m> is conservative, then <m>\textbf{F} = \nabla f</m> for some potential function <m>f</m>. Then, <m>\nabla \times \textbf{F} = \nabla\times (\nabla f) = 0</m>
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="fs-curl-2">
@@ -177,6 +207,11 @@
                         <m>\textbf{F} = \lrangle{xz,xyz,-y^2}</m>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>\lrangle{-6,1,0}</m>. A particle will tend to rotate along this vector.
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -184,6 +219,11 @@
                         <m>\textbf{G} = \lrangle{x^2,-xe^y,2xyz}</m>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>\lrangle{0,0,-2e^y}</m>
+                    </p>
+                </answer>
             </task>
             <task>
                 <statement>
@@ -191,6 +231,11 @@
                         <m>\textbf{H} = \lrangle{x+yz,y+xz,z+xy}</m>
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        <m>\textbf{0}</m>
+                    </p>
+                </answer>
             </task>
         </activity>
 
