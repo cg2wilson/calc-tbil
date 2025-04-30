@@ -5569,7 +5569,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.2",
   "title": "PS2: Properties of Power Series",
-  "body": " PS2: Properties of Power Series     PS2  I can use properties of power series to work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.      Pre-Class Preparation  Read the following sections of the text:    Section 6.2: Properties of Power Seriess    Read all sections        In-Class Activities    Consider the power series     To what function does the power series converge?    To what function might the power series converge?   Cannot be determined              Does not converge         If we see a term in a power series involving only, we can factor it out from the power series. For example,       Show that can be expressed by the power series       Power series can be added, subtracted, and multiplied. Suppose that the power series converges to and converges to . Then, the following hold:   The power seires converges to on     For integer and , converges to on     For any integer and , converges to for all such that     The product of two power series is given by where and the product converges to on          Use the power series representation for to construct a power series for                Write the first six terms for the power series representation of      Differentiation\/Integration of Power Series   Suppose the power series converges on the interval for some positive . Let for . Then, is differentiable on the same interval, and for . Further, converges on and       Find a power series representation for the function , and use it to find the sum of the series       Find a power series representation for       Find a power series representation for      "
+  "body": " PS2: Properties of Power Series     PS2  I can use properties of power series to work with and represent power series by addition, subtraction, multiplication, differentiation, or integration.      Pre-Class Preparation  Read the following sections of the text:    Section 6.2: Properties of Power Seriess    Read all sections        In-Class Activities    Consider the power series     To what function does the power series converge?    To what function might the power series converge?   Cannot be determined              Does not converge         If we see a term in a power series involving only, we can factor it out from the power series. For example,       Show that can be expressed by the power series       Power series can be added, subtracted, and multiplied. Suppose that the power series converges to and converges to . Then, the following hold:   The power series converges to on     For integer and , converges to on     For any integer and , converges to for all such that     The product of two power series is given by where and the product converges to on          Use the power series representation for to construct a power series for                Write the first six terms for the power series representation of      Differentiation\/Integration of Power Series   Suppose the power series converges on the interval for some positive . Let for . Then, is differentiable on the same interval, and for . Further, converges on and       Find a power series representation for the function , and use it to find the sum of the series       Find a power series representation for       Find a power series representation for      "
 },
 {
   "id": "PS2-2",
@@ -5614,7 +5614,7 @@ var ptx_lunr_docs = [
   "type": "Fact",
   "number": "9.2.2",
   "title": "",
-  "body": "  Power series can be added, subtracted, and multiplied. Suppose that the power series converges to and converges to . Then, the following hold:   The power seires converges to on     For integer and , converges to on     For any integer and , converges to for all such that     The product of two power series is given by where and the product converges to on       "
+  "body": "  Power series can be added, subtracted, and multiplied. Suppose that the power series converges to and converges to . Then, the following hold:   The power series converges to on     For integer and , converges to on     For any integer and , converges to for all such that     The product of two power series is given by where and the product converges to on       "
 },
 {
   "id": "ps-combining-1",
@@ -8062,7 +8062,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.2",
   "title": "FS2: Surface Area",
-  "body": " FS2: Surface Area     FS2  I can compute the surface area of a parametrized surface.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read until \"Surface Integral of a Scalar-Valued Function\"        In-Class Activities   We can parametrize surfaces in much the same way as we parametrize curves.    Parametrization of a Surface  surface  parametrization (surface)  parameter domain   Suppose that the continuous vector function is defined on some region in the -plane and one-to-one on the interior of . The range of is called a surface  defined or traced by . This vector function along with the domain is called a parametrization of the surface , the variables are called parameters , and is called the parameter domain .      The parametrization , , parametrizes which of the following surfaces?   Cone    Sphere    Plane    Elliptic Paraboloid         Describe the surface with parametrization , ,       Parametrize a hemisphere of radius 4, for      Smooth Surface  smooth (surface)   A parametrized surface is said to be smooth if and are continuous and is nonzero on the interior of the parameter domain.     Surface Area  surface area   For smooth parametric surface given by , , such that is covered once by , then the surface area of is given by       Show that the surface area of a sphere of radius is given by       Find the surface area of a cone for       The surface area of a graph is given by       Find the area cut from the top of the paraboloid by the plane      "
+  "body": " FS2: Surface Area     FS2  I can compute the surface area of a parametrized surface.      Pre-Class Preparation  Read the following sections of the text:    Section 6.6: Surface Integrals    Read until \"Surface Integral of a Scalar-Valued Function\"        In-Class Activities   We can parametrize surfaces in much the same way as we parametrize curves.    Parametrization of a Surface  surface  parametrization (surface)  parameter domain   Suppose that the continuous vector function is defined on some region in the -plane and one-to-one on the interior of . The range of is called a surface  defined or traced by . This vector function along with the domain is called a parametrization of the surface , the variables are called parameters , and is called the parameter domain .      The parametrization , , parametrizes which of the following surfaces?   Cone    Sphere    Plane    Elliptic Paraboloid       A      Describe the surface with parametrization , ,     Cylinder of radius 2      Parametrize a hemisphere of radius 4, for           Smooth Surface  smooth (surface)   A parametrized surface is said to be smooth if and are continuous and is nonzero on the interior of the parameter domain.     Surface Area  surface area   For smooth parametric surface given by , , such that is covered once by , then the surface area of is given by       Show that the surface area of a sphere of radius is given by       Find the surface area of a cone for            The surface area of a graph is given by       Find the area cut from the top of the paraboloid by the plane           "
 },
 {
   "id": "FS2-2",
@@ -8098,7 +8098,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "13.2.1",
   "title": "",
-  "body": "  The parametrization , , parametrizes which of the following surfaces?   Cone    Sphere    Plane    Elliptic Paraboloid      "
+  "body": "  The parametrization , , parametrizes which of the following surfaces?   Cone    Sphere    Plane    Elliptic Paraboloid       A   "
 },
 {
   "id": "fs-parametrization-2",
@@ -8107,7 +8107,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "13.2.2",
   "title": "",
-  "body": "  Describe the surface with parametrization , ,    "
+  "body": "  Describe the surface with parametrization , ,     Cylinder of radius 2   "
 },
 {
   "id": "fs-parametrization-3",
@@ -8116,7 +8116,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "13.2.3",
   "title": "",
-  "body": "  Parametrize a hemisphere of radius 4, for    "
+  "body": "  Parametrize a hemisphere of radius 4, for         "
 },
 {
   "id": "def-smooth",
@@ -8152,7 +8152,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "13.2.5",
   "title": "",
-  "body": "  Find the surface area of a cone for    "
+  "body": "  Find the surface area of a cone for         "
 },
 {
   "id": "FS2-activities-11",
@@ -8170,7 +8170,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "13.2.6",
   "title": "",
-  "body": "  Find the area cut from the top of the paraboloid by the plane    "
+  "body": "  Find the area cut from the top of the paraboloid by the plane         "
 },
 {
   "id": "FS3",
