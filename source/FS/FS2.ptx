@@ -43,7 +43,7 @@
         <activity xml:id="fs-parametrization-1">
             <statement>
                 <p>
-                    The parametrization <m>\textbf{f}(r,\theta) = \lrangle{r\cos\theta,r\sin\theta,r}</m>, <m>0\leq z\leq 1</m>, parametrizes which of the following surfaces?
+                    The parametrization <m>\textbf{f}(r,\theta) = \lrangle{r\cos\theta,r\sin\theta,r}</m>, <m>0\leq r\leq 1</m>, parametrizes which of the following surfaces?
                     <ol marker="A." cols="2">
                         <li>
                             <p>
@@ -68,6 +68,11 @@
                     </ol>
                 </p>
             </statement>
+            <answer>
+                <p>
+                    A
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="fs-parametrization-2">
@@ -76,6 +81,11 @@
                     Describe the surface with parametrization <m>\textbf{r}(u,v) = \lrangle{2\cos u,2\sin u, v}</m>, <m>0\leq u \lt 2\pi</m>, <m>-\infty \lt v \lt \infty</m>
                 </p>
             </statement>
+            <answer>
+                <p>
+                    Cylinder of radius 2
+                </p>
+            </answer>
         </activity>
 
         <activity xml:id="fs-parametrization-3">
@@ -84,6 +94,11 @@
                     Parametrize a hemisphere of radius 4, for <m>z \leq 0</m>
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m>\textbf{r}(\theta,\varphi) = \lrangle{2\cos\theta\sin\varphi, 2\sin\theta\sin\varphi,2\cos\varphi}</m>
+                </p>
+            </answer>
         </activity>
 
         <definition xml:id="def-smooth">
@@ -91,7 +106,7 @@
             <idx><h>smooth (surface)</h></idx>
             <statement>
                 <p>
-                    A parametrized surface <m>\textbf{r}(u,v) = \lrangle{f(t),g(t),h(t)}</m> is said to be <term>smooth</term> if <m>\textbf{r}_u</m> and <m>\textbf{r}_v</m> are continuous and <m>\textbf{r}_u\times\textbf{r}_v</m> is nonzero on the interior of the parameter domain.
+                    A parametrized surface <m>\textbf{r}(u,v) = \lrangle{f(u,v),g(u,v),h(u,v)}</m> is said to be <term>smooth</term> if <m>\textbf{r}_u</m> and <m>\textbf{r}_v</m> are continuous and <m>\textbf{r}_u\times\textbf{r}_v</m> is nonzero on the interior of the parameter domain.
                 </p>
             </statement>
         </definition>
@@ -101,7 +116,7 @@
             <idx><h>surface area</h></idx>
             <statement>
                 <p>
-                    For smooth parametric surface <m>S</m> given by <m>\textbf{r}(u,v) = \lrangle{f(t),g(t),h(t)}</m>, <m>u,v\in D</m>, such that <m>S</m> is covered once by <m>\textbf{r}</m>, then the <term>surface area</term> of <m>S</m> is given by
+                    For smooth parametric surface <m>S</m> given by <m>\textbf{r}(u,v) = \lrangle{f(u,v),g(u,v),h(u,v)}</m>, <m>u,v\in D</m>, such that <m>S</m> is covered once by <m>\textbf{r}</m>, then the <term>surface area</term> of <m>S</m> is given by
                     <me>
                         A(S) = \iint_D |\textbf{r}_u\times\textbf{r}_v|\, dA
                     </me>   
@@ -123,6 +138,11 @@
                     Find the surface area of a cone <m>z = \sqrt{x^2 + y^2}</m> for <m>0\leq z\leq 2</m>
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m>4\pi\sqrt{2}</m>
+                </p>
+            </answer>
         </activity>
 
         <fact>
@@ -139,6 +159,11 @@
                     Find the area cut from the top of the paraboloid <m>f(x,y) = 4-x^2-y^2</m> by the plane <m>z = 2</m>
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <m>\dfrac{\pi}{6}(17\sqrt{17}-1)</m>
+                </p>
+            </answer>
         </activity>
 
     </subsection>

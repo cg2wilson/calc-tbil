@@ -67,7 +67,7 @@
                 <p>
                     If we see a term in a power series involving <m>x</m> only, we can factor it out from the power series. For example,
                     <me>
-                        \sum_{n=0}^\infty \dfrac{x^2}{n!} = x^2 \sum_{n=0}^\infty x^2\dfrac{1}{n!}
+                        \sum_{n=0}^\infty \dfrac{x^2}{n!} = x^2 \sum_{n=0}^\infty \dfrac{1}{n!}
                     </me>
                 </p>
             </statement>
@@ -91,7 +91,7 @@
                     <ul>
                         <li>
                             <p>
-                                The power seires <m>\ds \sum_{n=0}^\infty (c_nx^n\pm d_nx^n)</m> converges to <m>f(x)\pm g(x)</m> on <m>I</m>
+                                The power series <m>\ds \sum_{n=0}^\infty (c_nx^n\pm d_nx^n)</m> converges to <m>f(x)\pm g(x)</m> on <m>I</m>
                             </p>
                         </li>
                         <li>
